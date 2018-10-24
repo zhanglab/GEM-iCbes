@@ -1,0 +1,43 @@
+id	type	strain
+31899.10	chromosome	Caldicellulosiruptor bescii strain DSMZ 6725
+1121259.3	chromosome	Caldicellulosiruptor acetigenus DSM 7040
+632292.3	chromosome	Caldicellulosiruptor hydrothermalis 108
+632335.8	chromosome	Caldicellulosiruptor kristjanssonii 177R1B
+632348.3	chromosome	Caldicellulosiruptor kronotskyensis 2002
+632516.3	chromosome	Caldicellulosiruptor lactoaceticus 6A
+608506.3	chromosome	Caldicellulosiruptor obsidiansis OB47
+632518.3	chromosome	Caldicellulosiruptor owensensis OL
+351627.8	chromosome	Caldicellulosiruptor saccharolyticus DSM 8903
+1214564.3	chromosome	Caldicellulosiruptor sp. F32
+1387555.3	chromosome	Caldicellulosiruptor sp. Rt8.B8
+1387557.3	chromosome	Caldicellulosiruptor sp. Wai35.B1
+1387569.3	chromosome	Thermoanaerobacter cellulolyticus NA10
+203119.11	chromosome	Clostridium thermocellum ATCC 27405
+394503.7	chromosome	Clostridium cellulolyticum H10
+447595.3	chromosome	Caldanaerovirga acetigignens strain DSM 18802
+499207.3	chromosome	Syntrophaceticus schinkii strain sp3
+1421016.3	chromosome	Thermoanaerobacterium aotearoense SCUT27
+1094508.3	chromosome	Thermoanaerobacterium saccharolyticum JW/SL-YS485
+580327.4	chromosome	Thermoanaerobacterium thermosaccharolyticum DSM 571
+858215.3	chromosome	Thermoanaerobacterium xylanolyticum LX-11
+555079.3	chromosome	Thermosediminibacter oceani DSM 16646
+520767.4	chromosome	Thermovenabulum gondwanense strain R270
+697281.3	chromosome	Mahella australiensis 50-1 BON
+429009.3	chromosome	Ammonifex degensii KC4
+1121256.4	chromosome	Caldanaerobius fijiensis DSM 17918
+935948.5	chromosome	Caldanaerobius polysaccharolyticus DSM 13641
+1246530.3	chromosome	Calderihabitans maritimus strain KKC1
+246194.6	chromosome	Carboxydothermus hydrogenoformans Z-2901
+1121468.4	chromosome	Desulfovirgula thermocuniculi DSM 16036
+520764.3	chromosome	Fervidicola ferrireducens strain Y170
+264732.11	chromosome	Moorella thermoacetica ATCC 39073
+1209989.3	chromosome	Tepidanaerobacter acetatoxydans Re1
+1089553.3	chromosome	Thermacetogenium phaeum DSM 12270
+698762.3	chromosome	Thermanaeromonas toyohensis ToBE strain ToBE
+509193.4	chromosome	Thermoanaerobacter brockii subsp. finnii Ako-1
+589861.3	chromosome	Thermoanaerobacter ethanolicus CCSD1
+1125975.3	chromosome	Thermoanaerobacter indiensis BSB-33
+580331.4	chromosome	Thermoanaerobacter italicus Ab9
+880478.3	chromosome	Thermoanaerobacter siderophilus SR4
+273068.5	chromosome	Thermoanaerobacter tengcongensis MB4
+1198630.3	chromosome	Thermoanaerobacter thermohydrosulfuricus WC1
