@@ -1,0 +1,132 @@
+# Assembly name:  ASM74766v1
+# Organism name:  Thermoanaerobacterium saccharolyticum (firmicutes)
+# Infraspecific name:  strain=NTOU1
+# Taxid:          28896
+# BioSample:      SAMD00018622
+# BioProject:     PRJDB2968
+# Submitter:      Lab. of Aqua. Mol. Biol. and Biotech.
+# Date:           2014-8-23
+# Assembly type:  n/a
+# Release type:   major
+# Assembly level: Contig
+# Genome representation: full
+# WGS project:    BBKT01
+# Assembly method: MIRA v. 3.9.18
+# Genome coverage: 300x
+# Sequencing technology: Ion Torrent PGM
+# RefSeq category: Representative Genome
+# GenBank assembly accession: GCA_000747665.1
+# RefSeq assembly accession: GCF_000747665.1
+# RefSeq assembly and GenBank assemblies identical: yes
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_000747675.1	GCF_000747675.1	Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+BBKT01000101.1	unplaced-scaffold	na	na	BBKT01000101.1	=	NZ_BBKT01000101.1	Primary Assembly	649	na
+BBKT01000100.1	unplaced-scaffold	na	na	BBKT01000100.1	=	NZ_BBKT01000100.1	Primary Assembly	754	na
+BBKT01000099.1	unplaced-scaffold	na	na	BBKT01000099.1	=	NZ_BBKT01000099.1	Primary Assembly	1190	na
+BBKT01000098.1	unplaced-scaffold	na	na	BBKT01000098.1	=	NZ_BBKT01000098.1	Primary Assembly	1043	na
+BBKT01000097.1	unplaced-scaffold	na	na	BBKT01000097.1	=	NZ_BBKT01000097.1	Primary Assembly	1402	na
+BBKT01000096.1	unplaced-scaffold	na	na	BBKT01000096.1	=	NZ_BBKT01000096.1	Primary Assembly	731	na
+BBKT01000095.1	unplaced-scaffold	na	na	BBKT01000095.1	=	NZ_BBKT01000095.1	Primary Assembly	1181	na
+BBKT01000094.1	unplaced-scaffold	na	na	BBKT01000094.1	=	NZ_BBKT01000094.1	Primary Assembly	728	na
+BBKT01000093.1	unplaced-scaffold	na	na	BBKT01000093.1	=	NZ_BBKT01000093.1	Primary Assembly	1017	na
+BBKT01000092.1	unplaced-scaffold	na	na	BBKT01000092.1	=	NZ_BBKT01000092.1	Primary Assembly	657	na
+BBKT01000091.1	unplaced-scaffold	na	na	BBKT01000091.1	=	NZ_BBKT01000091.1	Primary Assembly	3228	na
+BBKT01000090.1	unplaced-scaffold	na	na	BBKT01000090.1	=	NZ_BBKT01000090.1	Primary Assembly	3457	na
+BBKT01000089.1	unplaced-scaffold	na	na	BBKT01000089.1	=	NZ_BBKT01000089.1	Primary Assembly	1126	na
+BBKT01000088.1	unplaced-scaffold	na	na	BBKT01000088.1	=	NZ_BBKT01000088.1	Primary Assembly	1671	na
+BBKT01000087.1	unplaced-scaffold	na	na	BBKT01000087.1	=	NZ_BBKT01000087.1	Primary Assembly	755	na
+BBKT01000086.1	unplaced-scaffold	na	na	BBKT01000086.1	=	NZ_BBKT01000086.1	Primary Assembly	851	na
+BBKT01000085.1	unplaced-scaffold	na	na	BBKT01000085.1	=	NZ_BBKT01000085.1	Primary Assembly	1695	na
+BBKT01000084.1	unplaced-scaffold	na	na	BBKT01000084.1	=	NZ_BBKT01000084.1	Primary Assembly	1474	na
+BBKT01000083.1	unplaced-scaffold	na	na	BBKT01000083.1	=	NZ_BBKT01000083.1	Primary Assembly	1688	na
+BBKT01000082.1	unplaced-scaffold	na	na	BBKT01000082.1	=	NZ_BBKT01000082.1	Primary Assembly	2745	na
+BBKT01000081.1	unplaced-scaffold	na	na	BBKT01000081.1	=	NZ_BBKT01000081.1	Primary Assembly	12444	na
+BBKT01000080.1	unplaced-scaffold	na	na	BBKT01000080.1	=	NZ_BBKT01000080.1	Primary Assembly	6647	na
+BBKT01000079.1	unplaced-scaffold	na	na	BBKT01000079.1	=	NZ_BBKT01000079.1	Primary Assembly	2799	na
+BBKT01000078.1	unplaced-scaffold	na	na	BBKT01000078.1	=	NZ_BBKT01000078.1	Primary Assembly	11683	na
+BBKT01000077.1	unplaced-scaffold	na	na	BBKT01000077.1	=	NZ_BBKT01000077.1	Primary Assembly	8580	na
+BBKT01000076.1	unplaced-scaffold	na	na	BBKT01000076.1	=	NZ_BBKT01000076.1	Primary Assembly	4877	na
+BBKT01000075.1	unplaced-scaffold	na	na	BBKT01000075.1	=	NZ_BBKT01000075.1	Primary Assembly	5674	na
+BBKT01000074.1	unplaced-scaffold	na	na	BBKT01000074.1	=	NZ_BBKT01000074.1	Primary Assembly	11240	na
+BBKT01000073.1	unplaced-scaffold	na	na	BBKT01000073.1	=	NZ_BBKT01000073.1	Primary Assembly	5815	na
+BBKT01000072.1	unplaced-scaffold	na	na	BBKT01000072.1	=	NZ_BBKT01000072.1	Primary Assembly	6535	na
+BBKT01000071.1	unplaced-scaffold	na	na	BBKT01000071.1	=	NZ_BBKT01000071.1	Primary Assembly	26493	na
+BBKT01000070.1	unplaced-scaffold	na	na	BBKT01000070.1	=	NZ_BBKT01000070.1	Primary Assembly	2666	na
+BBKT01000069.1	unplaced-scaffold	na	na	BBKT01000069.1	=	NZ_BBKT01000069.1	Primary Assembly	3311	na
+BBKT01000068.1	unplaced-scaffold	na	na	BBKT01000068.1	=	NZ_BBKT01000068.1	Primary Assembly	8456	na
+BBKT01000067.1	unplaced-scaffold	na	na	BBKT01000067.1	=	NZ_BBKT01000067.1	Primary Assembly	23663	na
+BBKT01000066.1	unplaced-scaffold	na	na	BBKT01000066.1	=	NZ_BBKT01000066.1	Primary Assembly	15776	na
+BBKT01000065.1	unplaced-scaffold	na	na	BBKT01000065.1	=	NZ_BBKT01000065.1	Primary Assembly	4034	na
+BBKT01000064.1	unplaced-scaffold	na	na	BBKT01000064.1	=	NZ_BBKT01000064.1	Primary Assembly	1855	na
+BBKT01000063.1	unplaced-scaffold	na	na	BBKT01000063.1	=	NZ_BBKT01000063.1	Primary Assembly	12929	na
+BBKT01000062.1	unplaced-scaffold	na	na	BBKT01000062.1	=	NZ_BBKT01000062.1	Primary Assembly	14965	na
+BBKT01000061.1	unplaced-scaffold	na	na	BBKT01000061.1	=	NZ_BBKT01000061.1	Primary Assembly	10864	na
+BBKT01000060.1	unplaced-scaffold	na	na	BBKT01000060.1	=	NZ_BBKT01000060.1	Primary Assembly	18048	na
+BBKT01000059.1	unplaced-scaffold	na	na	BBKT01000059.1	=	NZ_BBKT01000059.1	Primary Assembly	31764	na
+BBKT01000058.1	unplaced-scaffold	na	na	BBKT01000058.1	=	NZ_BBKT01000058.1	Primary Assembly	37708	na
+BBKT01000057.1	unplaced-scaffold	na	na	BBKT01000057.1	=	NZ_BBKT01000057.1	Primary Assembly	13625	na
+BBKT01000056.1	unplaced-scaffold	na	na	BBKT01000056.1	=	NZ_BBKT01000056.1	Primary Assembly	17384	na
+BBKT01000055.1	unplaced-scaffold	na	na	BBKT01000055.1	=	NZ_BBKT01000055.1	Primary Assembly	5183	na
+BBKT01000054.1	unplaced-scaffold	na	na	BBKT01000054.1	=	NZ_BBKT01000054.1	Primary Assembly	14711	na
+BBKT01000053.1	unplaced-scaffold	na	na	BBKT01000053.1	=	NZ_BBKT01000053.1	Primary Assembly	70441	na
+BBKT01000052.1	unplaced-scaffold	na	na	BBKT01000052.1	=	NZ_BBKT01000052.1	Primary Assembly	38333	na
+BBKT01000051.1	unplaced-scaffold	na	na	BBKT01000051.1	=	NZ_BBKT01000051.1	Primary Assembly	88416	na
+BBKT01000050.1	unplaced-scaffold	na	na	BBKT01000050.1	=	NZ_BBKT01000050.1	Primary Assembly	55309	na
+BBKT01000049.1	unplaced-scaffold	na	na	BBKT01000049.1	=	NZ_BBKT01000049.1	Primary Assembly	12267	na
+BBKT01000048.1	unplaced-scaffold	na	na	BBKT01000048.1	=	NZ_BBKT01000048.1	Primary Assembly	4508	na
+BBKT01000047.1	unplaced-scaffold	na	na	BBKT01000047.1	=	NZ_BBKT01000047.1	Primary Assembly	30295	na
+BBKT01000046.1	unplaced-scaffold	na	na	BBKT01000046.1	=	NZ_BBKT01000046.1	Primary Assembly	14969	na
+BBKT01000045.1	unplaced-scaffold	na	na	BBKT01000045.1	=	NZ_BBKT01000045.1	Primary Assembly	72905	na
+BBKT01000044.1	unplaced-scaffold	na	na	BBKT01000044.1	=	NZ_BBKT01000044.1	Primary Assembly	26247	na
+BBKT01000043.1	unplaced-scaffold	na	na	BBKT01000043.1	=	NZ_BBKT01000043.1	Primary Assembly	15494	na
+BBKT01000042.1	unplaced-scaffold	na	na	BBKT01000042.1	=	NZ_BBKT01000042.1	Primary Assembly	11142	na
+BBKT01000041.1	unplaced-scaffold	na	na	BBKT01000041.1	=	NZ_BBKT01000041.1	Primary Assembly	13452	na
+BBKT01000040.1	unplaced-scaffold	na	na	BBKT01000040.1	=	NZ_BBKT01000040.1	Primary Assembly	24504	na
+BBKT01000039.1	unplaced-scaffold	na	na	BBKT01000039.1	=	NZ_BBKT01000039.1	Primary Assembly	27352	na
+BBKT01000038.1	unplaced-scaffold	na	na	BBKT01000038.1	=	NZ_BBKT01000038.1	Primary Assembly	49060	na
+BBKT01000037.1	unplaced-scaffold	na	na	BBKT01000037.1	=	NZ_BBKT01000037.1	Primary Assembly	61516	na
+BBKT01000036.1	unplaced-scaffold	na	na	BBKT01000036.1	=	NZ_BBKT01000036.1	Primary Assembly	27286	na
+BBKT01000035.1	unplaced-scaffold	na	na	BBKT01000035.1	=	NZ_BBKT01000035.1	Primary Assembly	53330	na
+BBKT01000034.1	unplaced-scaffold	na	na	BBKT01000034.1	=	NZ_BBKT01000034.1	Primary Assembly	56720	na
+BBKT01000033.1	unplaced-scaffold	na	na	BBKT01000033.1	=	NZ_BBKT01000033.1	Primary Assembly	48496	na
+BBKT01000032.1	unplaced-scaffold	na	na	BBKT01000032.1	=	NZ_BBKT01000032.1	Primary Assembly	105480	na
+BBKT01000031.1	unplaced-scaffold	na	na	BBKT01000031.1	=	NZ_BBKT01000031.1	Primary Assembly	59076	na
+BBKT01000030.1	unplaced-scaffold	na	na	BBKT01000030.1	=	NZ_BBKT01000030.1	Primary Assembly	11072	na
+BBKT01000029.1	unplaced-scaffold	na	na	BBKT01000029.1	=	NZ_BBKT01000029.1	Primary Assembly	22157	na
+BBKT01000028.1	unplaced-scaffold	na	na	BBKT01000028.1	=	NZ_BBKT01000028.1	Primary Assembly	56375	na
+BBKT01000027.1	unplaced-scaffold	na	na	BBKT01000027.1	=	NZ_BBKT01000027.1	Primary Assembly	8239	na
+BBKT01000026.1	unplaced-scaffold	na	na	BBKT01000026.1	=	NZ_BBKT01000026.1	Primary Assembly	51085	na
+BBKT01000025.1	unplaced-scaffold	na	na	BBKT01000025.1	=	NZ_BBKT01000025.1	Primary Assembly	39250	na
+BBKT01000024.1	unplaced-scaffold	na	na	BBKT01000024.1	=	NZ_BBKT01000024.1	Primary Assembly	21903	na
+BBKT01000023.1	unplaced-scaffold	na	na	BBKT01000023.1	=	NZ_BBKT01000023.1	Primary Assembly	68332	na
+BBKT01000022.1	unplaced-scaffold	na	na	BBKT01000022.1	=	NZ_BBKT01000022.1	Primary Assembly	8499	na
+BBKT01000021.1	unplaced-scaffold	na	na	BBKT01000021.1	=	NZ_BBKT01000021.1	Primary Assembly	19299	na
+BBKT01000020.1	unplaced-scaffold	na	na	BBKT01000020.1	=	NZ_BBKT01000020.1	Primary Assembly	18047	na
+BBKT01000019.1	unplaced-scaffold	na	na	BBKT01000019.1	=	NZ_BBKT01000019.1	Primary Assembly	50311	na
+BBKT01000018.1	unplaced-scaffold	na	na	BBKT01000018.1	=	NZ_BBKT01000018.1	Primary Assembly	39315	na
+BBKT01000017.1	unplaced-scaffold	na	na	BBKT01000017.1	=	NZ_BBKT01000017.1	Primary Assembly	132005	na
+BBKT01000016.1	unplaced-scaffold	na	na	BBKT01000016.1	=	NZ_BBKT01000016.1	Primary Assembly	126939	na
+BBKT01000015.1	unplaced-scaffold	na	na	BBKT01000015.1	=	NZ_BBKT01000015.1	Primary Assembly	171684	na
+BBKT01000014.1	unplaced-scaffold	na	na	BBKT01000014.1	=	NZ_BBKT01000014.1	Primary Assembly	16051	na
+BBKT01000013.1	unplaced-scaffold	na	na	BBKT01000013.1	=	NZ_BBKT01000013.1	Primary Assembly	21876	na
+BBKT01000012.1	unplaced-scaffold	na	na	BBKT01000012.1	=	NZ_BBKT01000012.1	Primary Assembly	9748	na
+BBKT01000011.1	unplaced-scaffold	na	na	BBKT01000011.1	=	NZ_BBKT01000011.1	Primary Assembly	35456	na
+BBKT01000010.1	unplaced-scaffold	na	na	BBKT01000010.1	=	NZ_BBKT01000010.1	Primary Assembly	22226	na
+BBKT01000009.1	unplaced-scaffold	na	na	BBKT01000009.1	=	NZ_BBKT01000009.1	Primary Assembly	26459	na
+BBKT01000008.1	unplaced-scaffold	na	na	BBKT01000008.1	=	NZ_BBKT01000008.1	Primary Assembly	13473	na
+BBKT01000007.1	unplaced-scaffold	na	na	BBKT01000007.1	=	NZ_BBKT01000007.1	Primary Assembly	73845	na
+BBKT01000006.1	unplaced-scaffold	na	na	BBKT01000006.1	=	NZ_BBKT01000006.1	Primary Assembly	102480	na
+BBKT01000005.1	unplaced-scaffold	na	na	BBKT01000005.1	=	NZ_BBKT01000005.1	Primary Assembly	67637	na
+BBKT01000004.1	unplaced-scaffold	na	na	BBKT01000004.1	=	NZ_BBKT01000004.1	Primary Assembly	6238	na
+BBKT01000003.1	unplaced-scaffold	na	na	BBKT01000003.1	=	NZ_BBKT01000003.1	Primary Assembly	71192	na
+BBKT01000002.1	unplaced-scaffold	na	na	BBKT01000002.1	=	NZ_BBKT01000002.1	Primary Assembly	68851	na
+BBKT01000001.1	unplaced-scaffold	na	na	BBKT01000001.1	=	NZ_BBKT01000001.1	Primary Assembly	118799	na

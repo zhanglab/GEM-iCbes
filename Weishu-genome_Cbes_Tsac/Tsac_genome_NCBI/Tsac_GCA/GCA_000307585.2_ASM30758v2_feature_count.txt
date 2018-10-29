@@ -1,0 +1,10 @@
+# Feature	Class	Full Assembly	Assembly-unit accession	Assembly-unit name	Unique Ids	Placements
+CDS	with_protein	GCA_000307585.2	GCA_000307595.2	Primary Assembly	2783	2783
+gene	protein_coding	GCA_000307585.2	GCA_000307595.2	Primary Assembly	2783	2783
+gene	pseudogene	GCA_000307585.2	GCA_000307595.2	Primary Assembly	21	21
+gene	rRNA	GCA_000307585.2	GCA_000307595.2	Primary Assembly	13	13
+gene	tRNA	GCA_000307585.2	GCA_000307595.2	Primary Assembly	57	57
+rRNA		GCA_000307585.2	GCA_000307595.2	Primary Assembly	na	13
+tRNA		GCA_000307585.2	GCA_000307595.2	Primary Assembly	na	57
+CDS	with_protein	GCA_000307585.2	GCA_001986125.1	viruses	57	57
+gene	protein_coding	GCA_000307585.2	GCA_001986125.1	viruses	57	57
