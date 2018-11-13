@@ -1,0 +1,163 @@
+Tag	Classification	Pathway	Name	Type	Functional_role
+TAG0788	Amino acids	Arginine biosynthesis	ArgD	enzyme	N-acetylornithine aminotransferase (EC 2.6.1.11)
+TAG0900	Amino acids	Arginine biosynthesis	ArgF	enzyme	Ornithine carbamoyltransferase (EC 2.1.3.3)
+TAG1160	Amino acids	Arginine biosynthesis	ArgR	regulator	"Arginine pathway regulatory protein ArgR, repressor of arg regulon"
+TAG1232	Amino acids	Arginine biosynthesis	ArgG	enzyme	Argininosuccinate synthase (EC 6.3.4.5)
+TAG1403	Amino acids	Arginine biosynthesis	ArgC	enzyme	N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)
+TAG1404	Amino acids	Arginine biosynthesis	ArgB	enzyme	N-acetylglutamate kinase (EC 2.7.2.8)
+TAG3087	Amino acids	Arginine biosynthesis	ArgH	enzyme	Argininosuccinate lyase (EC 4.3.2.1)
+TAG1034	Amino acids	Aspartate Asparagine biosynthesis	AspC	enzyme	Aspartate aminotransferase (EC 2.6.1.1)
+TAG1367	Amino acids	Aspartate Asparagine biosynthesis	AspC	enzyme	Aspartate aminotransferase (EC 2.6.1.1)
+TAG7682	Amino acids	Aspartate Asparagine biosynthesis	GatC	enzyme	Aspartyl-tRNA(Asn) amidotransferase subunit C (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit C (EC 6.3.5.7)
+TAG1626	Amino acids	Aspartate Asparagine biosynthesis	GatB	enzyme	Aspartyl-tRNA(Asn) amidotransferase subunit B (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit B (EC 6.3.5.7)
+TAG1627	Amino acids	Aspartate Asparagine biosynthesis	GatA	enzyme	Aspartyl-tRNA(Asn) amidotransferase subunit A (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit A (EC 6.3.5.7)
+TAG3147	Amino acids	Aspartate Asparagine biosynthesis	AsnB	enzyme	Asparagine synthetase [glutamine-hydrolyzing] (EC 6.3.5.4)
+TAG0769	Vitamins&Cofactors	B12 uptake	BtuC	transporter	"Vitamin B12 ABC transporter, permease protein BtuC"
+TAG0770	Vitamins&Cofactors	B12 uptake	BtuD	transporter	"Vitamin B12 ABC transporter, ATP-binding protein BtuD"
+TAG6707	Vitamins&Cofactors	B12 uptake	BtuF	transporter	"Vitamin B12 ABC transporter, substrate-binding protein BtuF"
+TAG2702	Vitamins&Cofactors	Biotin biosynthesis	BioY	transporter	Substrate-specific component BioY of biotin ECF transporter
+TAG3804	Vitamins&Cofactors	Biotin biosynthesis	BioA	enzyme	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase (EC 2.6.1.62)
+TAG3807	Vitamins&Cofactors	Biotin biosynthesis	BioD	enzyme	Dethiobiotin synthase BioD (EC 6.3.3.3)
+TAG3989	Vitamins&Cofactors	Biotin biosynthesis	BirA	enzyme	Biotin operon repressor / Biotin--protein ligase (EC 6.3.4.9)(EC 6.3.4.10)(EC 6.3.4.11)(EC 6.3.4.15)
+TAG8149	Vitamins&Cofactors	Biotin biosynthesis	BioB	enzyme	Biotin synthase (EC 2.8.1.6)
+TAG0774	Amino acids	Chorismate biosynthesis	AroE	enzyme	Shikimate 5-dehydrogenase I alpha (EC 1.1.1.25)
+TAG0892	Amino acids	Chorismate biosynthesis	AroK	enzyme	Shikimate kinase I (EC 2.7.1.71)
+TAG0896	Amino acids	Chorismate biosynthesis	AroD	enzyme	3-dehydroquinate dehydratase II (EC 4.2.1.10)
+TAG1143	Amino acids	Chorismate biosynthesis	AroB	enzyme	3-dehydroquinate synthase (EC 4.2.3.4)
+TAG1477	Amino acids	Chorismate biosynthesis	AroA	enzyme	3-phosphoshikimate 1-carboxyvinyltransferase (EC 2.5.1.19)
+TAG6990	Amino acids	Chorismate biosynthesis	AroG	enzyme	2-keto-3-deoxy-D-arabino-heptulosonate-7-phosphate synthase I beta (EC 2.5.1.54)
+TAG7199	Amino acids	Chorismate biosynthesis	AroC	enzyme	Chorismate synthase (EC 4.2.3.5)
+TAG1282	Amino acids	Cysteine biosynthesis	CysK	enzyme	Cysteine synthase (EC 2.5.1.47)
+TAG2136	Amino acids	Cysteine biosynthesis	CysE	enzyme	Serine acetyltransferase (EC 2.3.1.30)
+TAG1693	Vitamins&Cofactors	Folate biosynthesis	PabC	enzyme	Aminodeoxychorismate lyase (EC 4.1.3.38)
+TAG1694	Vitamins&Cofactors	Folate biosynthesis	PabA	enzyme	"Para-aminobenzoate synthase, aminase component (EC 2.6.1.85)"
+TAG3722	Vitamins&Cofactors	Folate biosynthesis	"FolA,FolP"	enzyme	Alternative dihydrofolate reductase 2 / Dihydropteroate synthase (EC 2.5.1.15)
+TAG6124	Vitamins&Cofactors	Folate biosynthesis	PabB	enzyme	"Para-aminobenzoate synthase, amidotransferase component (EC 2.6.1.85)"
+TAG7175	Vitamins&Cofactors	Folate biosynthesis	FolK	enzyme	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase (EC 2.7.6.3)
+TAG7584	Vitamins&Cofactors	Folate biosynthesis	FolC	enzyme	Dihydrofolate synthase (EC 6.3.2.12) @ Folylpolyglutamate synthase (EC 6.3.2.17)
+TAG1189	Vitamins&Cofactors	"Folate biosynthesis,Queuosine biosynthesis"	FolE2	enzyme	GTP cyclohydrolase I (EC 3.5.4.16) type 2
+TAG1195	Vitamins&Cofactors	"Folate biosynthesis,Queuosine biosynthesis"	"PTPS,QueD"	enzyme	"6-carboxy-5,6,7,8-tetrahydropterin synthase (EC 4.1.2.50) @ Folate biosynthesis protein PTPS-III, catalyzes a reaction that bypasses dihydroneopterin aldolase (FolB)"
+TAG1588	Amino acids	Glutamine Glutamate biosynthesis	GltB	enzyme	Glutamate synthase [NADPH] large chain (EC 1.4.1.13)
+TAG1798	Amino acids	Glutamine Glutamate biosynthesis	GltB	enzyme	Glutamate synthase [NADPH] large chain (EC 1.4.1.13)
+TAG1852	Amino acids	Glutamine Glutamate biosynthesis	GltBa	enzyme	"Glutamate synthase, alpha subunit domain protein"
+TAG5137	Amino acids	Glutamine Glutamate biosynthesis	GlnA3	enzyme	Glutamine synthetase type I (EC 6.3.1.2)
+TAG2261	Amino acids	Glycine biosynthesis	GlyA	enzyme	Serine--glyoxylate aminotransferase (EC 2.6.1.45)
+TAG4178	Amino acids	Glycine biosynthesis	GlyA	enzyme	Serine hydroxymethyltransferase (EC 2.1.2.1)
+TAG0579	Central carbohydrate	Glycolysis and Gluconeogenesis 	Gap	enzyme	NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)
+TAG0799	Central carbohydrate	Glycolysis and Gluconeogenesis 	PPi-PFK	enzyme	Pyrophosphate-dependent fructose 6-phosphate-1-kinase (EC 2.7.1.90)
+TAG1038	Central carbohydrate	Glycolysis and Gluconeogenesis 	PpdK	enzyme	"Pyruvate,phosphate dikinase (EC 2.7.9.1)"
+TAG1039	Central carbohydrate	Glycolysis and Gluconeogenesis 	"Pgk,Tpi"	enzyme	Phosphoglycerate kinase (EC 2.7.2.3) / Triosephosphate isomerase (EC 5.3.1.1)
+TAG1040	Central carbohydrate	Glycolysis and Gluconeogenesis 	Eno	enzyme	Enolase (EC 4.2.1.11)
+TAG1167	Central carbohydrate	Glycolysis and Gluconeogenesis 	Pgm	enzyme	Phosphoglycerate mutase (EC 5.4.2.11)
+TAG1219	Central carbohydrate	Glycolysis and Gluconeogenesis 	Pfk	enzyme	6-phosphofructokinase (EC 2.7.1.11)
+TAG1689	Central carbohydrate	Glycolysis and Gluconeogenesis 	GlcK	enzyme	Glucokinase (EC 2.7.1.2)
+TAG2157	Central carbohydrate	Glycolysis and Gluconeogenesis 	Pgi	enzyme	"Glucose-6-phosphate isomerase, archaeal II (EC 5.3.1.9) / Mannose-6-phosphate isomerase, archaeal (EC 5.3.1.8)"
+TAG2158	Central carbohydrate	Glycolysis and Gluconeogenesis 	FBA2	enzyme	Fructose-bisphosphate aldolase class II (EC 4.1.2.13)
+TAG3089	Central carbohydrate	Glycolysis and Gluconeogenesis 	Pyk	enzyme	Pyruvate kinase (EC 2.7.1.40) / Phosphohistidine swiveling domain
+TAG6762	Central carbohydrate	Glycolysis and Gluconeogenesis 	BiPgM	enzyme	"2,3-bisphosphoglycerate-independent phosphoglycerate mutase (EC 5.4.2.12)"
+TAG0674	Amino acids	Histidine biosynthesis	HisD	enzyme	Histidinol dehydrogenase (EC 1.1.1.23)
+TAG0830	Amino acids	Histidine biosynthesis	HisR	regulator	His repressor
+TAG0888	Amino acids	Histidine biosynthesis	HisJ	enzyme	Histidinol-phosphatase (EC 3.1.3.15)
+TAG0993	Amino acids	Histidine biosynthesis	HisZ	enzyme	ATP phosphoribosyltransferase regulatory subunit (EC 2.4.2.17)
+TAG0994	Amino acids	Histidine biosynthesis	HisG	enzyme	ATP phosphoribosyltransferase (EC 2.4.2.17) => HisGs
+TAG0995	Amino acids	Histidine biosynthesis	HisB	enzyme	Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)
+TAG0996	Amino acids	Histidine biosynthesis	HisF	enzyme	Imidazole glycerol phosphate synthase amidotransferase subunit (EC 2.4.2.-)
+TAG0997	Amino acids	Histidine biosynthesis	HisH	enzyme	Imidazole glycerol phosphate synthase cyclase subunit (EC 4.1.3.-)
+TAG0998	Amino acids	Histidine biosynthesis	"HisE,HisI"	enzyme	Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19) / Phosphoribosyl-ATP pyrophosphatase (EC 3.6.1.31)
+TAG3136	Amino acids	Histidine biosynthesis	HisC	enzyme	Histidinol-phosphate aminotransferase (EC 2.6.1.9)
+TAG7698	Amino acids	Histidine biosynthesis	HisA	enzyme	Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase (EC 5.3.1.16)
+TAG2931	Vitamins&Cofactors	Lipoate biosynthesis	LipA	enzyme	Lipoyl synthase (EC 2.8.1.8)
+TAG5286	Vitamins&Cofactors	Lipoate biosynthesis	LipB	enzyme	Octanoate-[acyl-carrier-protein]-protein-N-octanoyltransferase (EC 2.3.1.181)
+TAG1364	Amino acids	Lysine biosynthesis	DapB	enzyme	4-hydroxy-tetrahydrodipicolinate reductase (EC 1.17.1.8)
+TAG1712	Amino acids	Lysine biosynthesis	DapL	enzyme	"L,L-diaminopimelate aminotransferase (EC 2.6.1.83), methanococcal"
+TAG3892	Amino acids	Lysine biosynthesis	LysA	enzyme	Diaminopimelate decarboxylase (EC 4.1.1.20)
+TAG5686	Amino acids	Lysine biosynthesis	DapA	enzyme	4-hydroxy-tetrahydrodipicolinate synthase (EC 4.3.3.7)
+TAG5687	Amino acids	Lysine biosynthesis	Asd	enzyme	Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11)
+TAG6705	Amino acids	Lysine biosynthesis	DapeL	enzyme	"N-acetyl-L,L-diaminopimelate deacetylase (EC 3.5.1.47)"
+TAG7369	Amino acids	Lysine biosynthesis	DapF	enzyme	Diaminopimelate epimerase (EC 5.1.1.7)
+TAG7712	Amino acids	Lysine biosynthesis	LysC	enzyme	Aspartokinase (EC 2.7.2.4)
+TAG0662	Amino acids	Lysine uptake	LysP	transporter	"Lysine transporter, MFS family"
+TAG1371	Amino acids	Methionine biosynthesis	MetA	enzyme	Homoserine O-acetyltransferase (EC 2.3.1.31)
+TAG1657	Amino acids	Methionine biosynthesis	MetK	enzyme	S-adenosylmethionine synthetase (EC 2.5.1.6)
+TAG2055	Amino acids	Methionine biosynthesis	MetE	enzyme	5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)
+TAG2291	Amino acids	Methionine biosynthesis	Hom	enzyme	Homoserine dehydrogenase (EC 1.1.1.3)
+TAG3074	Amino acids	Methionine biosynthesis	MetY	enzyme	O-acetylhomoserine sulfhydrylase (EC 2.5.1.49) @ O-succinylhomoserine sulfhydrylase (EC 2.5.1.48)
+TAG3979	Amino acids	Methionine biosynthesis	MetH	enzyme	5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)
+TAG6837	Amino acids	Methionine biosynthesis	MetY	enzyme	O-acetylhomoserine sulfhydrylase (EC 2.5.1.49) @ O-succinylhomoserine sulfhydrylase (EC 2.5.1.48)
+TAG6929	Amino acids	Methionine biosynthesis	MetF	enzyme	"5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)"
+TAG0676	Amino acids	Methionine uptake	MetN	transporter	Methionine ABC transporter ATP-binding protein
+TAG2369	Amino acids	Methionine uptake	MetQ	transporter	Methionine ABC transporter substrate-binding protein
+TAG5692	Amino acids	Methionine uptake	MetP	transporter	Methionine ABC transporter permease protein
+TAG1230	Vitamins&Cofactors	NAD biosynthesis	NadD	enzyme	Nicotinate-nucleotide adenylyltransferase (EC 2.7.7.18)
+TAG1253	Vitamins&Cofactors	NAD biosynthesis	NadC	enzyme	Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)
+TAG1255	Vitamins&Cofactors	NAD biosynthesis	NadB	enzyme	L-aspartate oxidase (EC 1.4.3.16)
+TAG1256	Vitamins&Cofactors	NAD biosynthesis	NadA	enzyme	Quinolinate synthetase (EC 2.5.1.72)
+TAG1832	Vitamins&Cofactors	NAD biosynthesis	NadE	enzyme	NAD synthetase (EC 6.3.1.5) / Glutamine amidotransferase chain of NAD synthetase
+TAG5311	Vitamins&Cofactors	NAD salvage	NiaX	transporter	Substrate-specific component NiaX of predicted niacin ECF transporter
+TAG5312	Vitamins&Cofactors	NAD salvage	NiaR	regulator	Transcriptional repressor for NAD biosynthesis in gram-positives
+TAG6178	Vitamins&Cofactors	NAD salvage	PncB	enzyme	Nicotinate phosphoribosyltransferase (EC 6.3.4.21)
+TAG1015	Vitamins&Cofactors	Pantothenate and CoA biosynthesis	CoaE	enzyme	Dephospho-CoA kinase (EC 2.7.1.24)
+TAG1240	Vitamins&Cofactors	Pantothenate and CoA biosynthesis	CoaD	enzyme	Phosphopantetheine adenylyltransferase (EC 2.7.7.3)
+TAG1483	Vitamins&Cofactors	Pantothenate and CoA biosynthesis	PanB	enzyme	3-methyl-2-oxobutanoate hydroxymethyltransferase (EC 2.1.2.11)
+TAG1714	Vitamins&Cofactors	Pantothenate and CoA biosynthesis	CoaX	enzyme	"Pantothenate kinase type III, CoaX-like (EC 2.7.1.33)"
+TAG3281	Vitamins&Cofactors	Pantothenate and CoA biosynthesis	PanG	enzyme	Ketopantoate reductase PanG (EC 1.1.1.169)
+TAG4407	Vitamins&Cofactors	Pantothenate and CoA biosynthesis	PanD	enzyme	Aspartate 1-decarboxylase (EC 4.1.1.11)
+TAG5625	Vitamins&Cofactors	Pantothenate and CoA biosynthesis	PanC	enzyme	Pantoate--beta-alanine ligase (EC 6.3.2.1)
+TAG6725	Vitamins&Cofactors	Pantothenate and CoA biosynthesis	"CoaB,CoaC"	enzyme	Phosphopantothenoylcysteine decarboxylase (EC 4.1.1.36) / Phosphopantothenoylcysteine synthetase (EC 6.3.2.5)
+TAG0967	Central carbohydrate	Pentose phosphate pathway	Rpe	enzyme	Ribulose-phosphate 3-epimerase (EC 5.1.3.1)
+TAG0990	Central carbohydrate	Pentose phosphate pathway	Tal	enzyme	Transaldolase (EC 2.2.1.2)
+TAG1543	Central carbohydrate	Pentose phosphate pathway	TkT2c	enzyme	"Transketolase, C-terminal section (EC 2.2.1.1)"
+TAG1545	Central carbohydrate	Pentose phosphate pathway	Tkt2n	enzyme	"Transketolase, N-terminal section (EC 2.2.1.1)"
+TAG5136	Central carbohydrate	Pentose phosphate pathway	RpiB	enzyme	Ribose-5-phosphate isomerase B (EC 5.3.1.6)
+TAG7848	Central carbohydrate	Pentose phosphate pathway	Tkt	enzyme	Transketolase (EC 2.2.1.1)
+TAG0498	Amino acids	Proline biosynthesis	ProB	enzyme	Glutamate 5-kinase (EC 2.7.2.11)
+TAG1153	Amino acids	Proline biosynthesis	ProC	enzyme	Pyrroline-5-carboxylate reductase (EC 1.5.1.2)
+TAG1302	Amino acids	Proline biosynthesis	ProA	enzyme	Gamma-glutamyl phosphate reductase (EC 1.2.1.41)
+TAG0762	Vitamins&Cofactors	Pyridoxin biosynthesis	PdxS	enzyme	"Pyridoxal 5'-phosphate synthase (glutamine hydrolyzing), synthase subunit (EC 4.3.3.6)"
+TAG0763	Vitamins&Cofactors	Pyridoxin biosynthesis	PdxT	enzyme	"Pyridoxal 5'-phosphate synthase (glutamine hydrolyzing), glutaminase subunit (EC 4.3.3.6)"
+TAG0828	Vitamins&Cofactors	Pyridoxin biosynthesis	PdxU2	transporter	Substrate-specific component PdxU2 of predicted pyridoxin-related ECF transporter
+TAG3923	Vitamins&Cofactors	Pyridoxin biosynthesis	PdxR	regulator	Transcriptional regulator of pyridoxine metabolism
+TAG0949	Vitamins&Cofactors	Queuosine biosynthesis	qTGT	enzyme	Queuine tRNA-ribosyltransferase (EC 2.4.2.29)
+TAG1682	Vitamins&Cofactors	Queuosine biosynthesis	QueA	enzyme	S-adenosylmethionine:tRNA ribosyltransferase-isomerase (EC 2.4.99.17)
+TAG2009	Vitamins&Cofactors	Queuosine biosynthesis	QueF	enzyme	NADPH-dependent 7-cyano-7-deazaguanine reductase (EC 1.7.1.13)
+TAG3946	Vitamins&Cofactors	Queuosine biosynthesis	QueC	enzyme	7-cyano-7-deazaguanine synthase (EC 6.3.4.20)
+TAG5740	Vitamins&Cofactors	Queuosine biosynthesis	QueT	transporter	Substrate-specific component QueT (COG4708) of predicted queuosine-regulated ECF transporter
+TAG6742	Vitamins&Cofactors	Queuosine biosynthesis	QueE	enzyme	7-carboxy-7-deazaguanine synthase (EC 4.3.99.3)
+TAG0969	Vitamins&Cofactors	Riboflavin biosynthesis	RibF	enzyme	FMN adenylyltransferase (EC 2.7.7.2) / Riboflavin kinase (EC 2.7.1.26)
+TAG1246	Vitamins&Cofactors	Riboflavin biosynthesis	RibU	transporter	Substrate-specific component RibU of riboflavin ECF transporter
+TAG5292	Vitamins&Cofactors	Riboflavin biosynthesis	RibH	enzyme	"6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.78)"
+TAG7166	Vitamins&Cofactors	Riboflavin biosynthesis	RibD	enzyme	Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26) / 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)
+TAG7167	Vitamins&Cofactors	Riboflavin biosynthesis	RibE	enzyme	Riboflavin synthase eubacterial/eukaryotic (EC 2.5.1.9)
+TAG7168	Vitamins&Cofactors	Riboflavin biosynthesis	"RibA,RibB"	enzyme	"3,4-dihydroxy-2-butanone 4-phosphate synthase (EC 4.1.99.12) / GTP cyclohydrolase II (EC 3.5.4.25)"
+TAG2262	Amino acids	Serine biosynthesis	SerA	enzyme	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)
+TAG0955	Vitamins&Cofactors	Thiamine biosynthesis	ThiD	enzyme	Hydroxymethylpyrimidine phosphate kinase ThiD (EC 2.7.4.7)
+TAG0986	Vitamins&Cofactors	Thiamine biosynthesis	ThiG	enzyme	Thiazole synthase (EC 2.8.1.10)
+TAG1902	Vitamins&Cofactors	Thiamine biosynthesis	ThiT	transporter	Substrate-specific component ThiT of thiamin ECF transporter
+TAG4410	Vitamins&Cofactors	Thiamine biosynthesis	ThiH	enzyme	2-iminoacetate synthase (ThiH) (EC 4.1.99.19)
+TAG6816	Vitamins&Cofactors	Thiamine biosynthesis	ThiS	enzyme	Sulfur carrier protein ThiS
+TAG6817	Vitamins&Cofactors	Thiamine biosynthesis	ThiF	enzyme	Sulfur carrier protein ThiS adenylyltransferase (EC 2.7.7.73)
+TAG8193	Vitamins&Cofactors	Thiamine biosynthesis	ThiE	enzyme	Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)
+TAG8194	Vitamins&Cofactors	Thiamine biosynthesis	ThiC	enzyme	Phosphomethylpyrimidine synthase ThiC (EC 4.1.99.17)
+TAG2175	Amino acids	Threonine biosynthesis	ThrC	enzyme	Threonine synthase (EC 4.2.3.1)
+TAG2290	Amino acids	Threonine biosynthesis	ThrB	enzyme	Homoserine kinase (EC 2.7.1.39)
+TAG0897	Amino acids	Tryptophan biosynthesis	TrpG	enzyme	"Anthranilate synthase, amidotransferase component (EC 4.1.3.27)"
+TAG0898	Amino acids	Tryptophan biosynthesis	TrpC	enzyme	Indole-3-glycerol phosphate synthase (EC 4.1.1.48)
+TAG0899	Amino acids	Tryptophan biosynthesis	TrpF	enzyme	Phosphoribosylanthranilate isomerase (EC 5.3.1.24)
+TAG2470	Amino acids	Tryptophan biosynthesis	TrpD	enzyme	Anthranilate phosphoribosyltransferase (EC 2.4.2.18)
+TAG6242	Amino acids	Tryptophan biosynthesis	TrpE	enzyme	"Anthranilate synthase, aminase component (EC 4.1.3.27)"
+TAG7063	Amino acids	Tryptophan biosynthesis	TrpB	enzyme	Tryptophan synthase beta chain (EC 4.2.1.20)
+TAG7064	Amino acids	Tryptophan biosynthesis	TrpA	enzyme	Tryptophan synthase alpha chain (EC 4.2.1.20)
+TAG1476	Amino acids	Tyrosine Phenylalanine biosynthesis	TyrB	enzyme	Biosynthetic Aromatic amino acid aminotransferase beta (EC 2.6.1.57)
+TAG2983	Amino acids	Tyrosine Phenylalanine biosynthesis	PheA	enzyme	Prephenate dehydratase (EC 4.2.1.51)
+TAG4401	Amino acids	Tyrosine Phenylalanine biosynthesis	TyrA	enzyme	Prephenate and/or arogenate dehydrogenase (unknown specificity) (EC 1.3.1.12)(EC 1.3.1.43)
+TAG6293	Amino acids	Tyrosine Phenylalanine biosynthesis	AroH	enzyme	Chorismate mutase II (EC 5.4.99.5)
+TAG1555	Amino acids	Valine Leucine Isoleucine biosynthesis	LeuB	enzyme	3-isopropylmalate dehydrogenase (EC 1.1.1.85)
+TAG1668	Amino acids	Valine Leucine Isoleucine biosynthesis	IlvG	enzyme	Acetolactate synthase large subunit (EC 2.2.1.6)
+TAG1669	Amino acids	Valine Leucine Isoleucine biosynthesis	IlvC2	enzyme	Branched-chain amino acid aminotransferase (EC 2.6.1.42)
+TAG1745	Amino acids	Valine Leucine Isoleucine biosynthesis	LeuA	enzyme	2-isopropylmalate synthase (EC 2.3.3.13)
+TAG1747	Amino acids	Valine Leucine Isoleucine biosynthesis	IlvG	enzyme	Acetolactate synthase large subunit (EC 2.2.1.6)
+TAG3966	Amino acids	Valine Leucine Isoleucine biosynthesis	IlvM	enzyme	Acetolactate synthase small subunit (EC 2.2.1.6)
+TAG4014	Amino acids	Valine Leucine Isoleucine biosynthesis	LeuD	enzyme	3-isopropylmalate dehydratase small subunit (EC 4.2.1.33)
+TAG4898	Amino acids	Valine Leucine Isoleucine biosynthesis	LeuC	enzyme	3-isopropylmalate dehydratase large subunit (EC 4.2.1.33)
+TAG5141	Amino acids	Valine Leucine Isoleucine biosynthesis	IlvE	enzyme	Dihydroxy-acid dehydratase (EC 4.2.1.9)
+TAG6970	Amino acids	Valine Leucine Isoleucine biosynthesis	CimA	enzyme	(R)-citramalate synthase (EC 2.3.1.182)
