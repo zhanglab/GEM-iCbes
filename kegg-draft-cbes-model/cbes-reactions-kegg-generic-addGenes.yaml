@@ -1,0 +1,3199 @@
+- id: R06185
+  names: []
+  equation: G10545[c] + C00009[c] <=> G10495[c] + C00103[c]
+  enzymes:
+  - 2.4.1.1
+  rpairs: []
+  genes: Athe_2576,Athe_0554
+- id: R06179
+  names: []
+  equation: G10553[c] + G10554(n)[c] <=> C04574[c] + G10554(n+1)[c]
+  enzymes:
+  - 2.4.1.129
+  rpairs: []
+  genes: Athe_2648
+- id: R06177
+  names: []
+  equation: G10555[c] + G10557(n)[c] <=> C04574[c] + G10557(n+1)[c]
+  enzymes:
+  - 2.4.1.129
+  rpairs: []
+  genes: Athe_2648
+- id: R06186
+  names: []
+  equation: G10495[c] <=> G10545[c]
+  enzymes:
+  - 2.4.1.18
+  rpairs: []
+  genes: Athe_0558
+- id: R06172
+  names: []
+  equation: G10551[c] + G10610[c] <=> G10550[c] + G10619[c]
+  enzymes:
+  - 2.4.1.227
+  rpairs: []
+  genes: Athe_0778
+- id: R06173
+  names: []
+  equation: G10552[c] + G10610[c] <=> G10553[c] + G10619[c]
+  enzymes:
+  - 2.4.1.227
+  rpairs: []
+  genes: Athe_0778
+- id: R06174
+  names: []
+  equation: G10556[c] + G10610[c] <=> G10555[c] + G10619[c]
+  enzymes:
+  - 2.4.1.227
+  rpairs: []
+  genes: Athe_0778
+- id: R10653
+  names: []
+  equation: C20756[c] + C17023[c] + C00019[c] <=> C20757[c] + C00073[c] + C05198[c]
+  enzymes:
+  - 2.8.4.4
+  rpairs:
+  - &id001
+    RC00021:
+    - C00019
+    - C00073
+    RC03218:
+    - C20756
+    - C20757
+  - *id001
+  genes: Athe_0983
+- id: R10650
+  names: []
+  equation: C20751[c] + C17023[c] + C00019[c] <=> C20754[c] + C00073[c] + C05198[c]
+  enzymes:
+  - 2.8.4.5
+  rpairs:
+  - &id002
+    RC00021:
+    - C00019
+    - C00073
+    RC03222:
+    - C20751
+    - C20754
+  - *id002
+  genes: Athe_1282
+- id: R10651
+  names: []
+  equation: C20754[c] + C00019[c] <=> C20752[c] + C00021[c]
+  enzymes:
+  - 2.8.4.5
+  rpairs:
+  - &id003
+    RC00003:
+    - C00019
+    - C00021
+    RC00980:
+    - C20752
+    - C20754
+  - *id003
+  genes: Athe_1282
+- id: R06080
+  names: []
+  equation: G01318[c] + C00001[c] <=> (2) C00267[c]
+  enzymes:
+  - 3.2.1.10
+  rpairs: []
+  genes: Athe_0165
+- id: R06092
+  names: []
+  equation: G00289[c] + C00001[c] <=> (2) C00221[c]
+  enzymes:
+  - 3.2.1.21
+  rpairs: []
+  genes: Athe_2354,Athe_0458
+- id: R06077
+  names: []
+  equation: G10481(n+1)[c] + C00001[c] <=> G10481(n)[c] + C00221[c]
+  enzymes:
+  - 3.2.1.21
+  rpairs: []
+  genes: Athe_2354,Athe_0458
+- id: R06070
+  names: []
+  equation: G00249[c] + C00001[c] <=> C00124[c] + G00370[c]
+  enzymes:
+  - 3.2.1.22
+  rpairs: []
+  genes: Athe_0468,Athe_1104
+- id: R06152
+  names: []
+  equation: G00278[c] + C00001[c] <=> G00249[c] + C00124[c]
+  enzymes:
+  - 3.2.1.22
+  rpairs: []
+  genes: Athe_0468,Athe_1104
+- id: R06094
+  names: []
+  equation: G00497[c] + C00001[c] <=> G11121[c] + C00124[c]
+  enzymes:
+  - 3.2.1.22
+  rpairs: []
+  genes: Athe_0468,Athe_1104
+- id: R06096
+  names: []
+  equation: G00501[c] + C00001[c] <=> C00124[c] + G01275[c]
+  enzymes:
+  - 3.2.1.22
+  rpairs: []
+  genes: Athe_0468,Athe_1104
+- id: R06093
+  names: []
+  equation: G10488[c] + C00001[c] <=> C00137[c] + C00124[c]
+  enzymes:
+  - 3.2.1.22
+  rpairs: []
+  genes: Athe_0468,Athe_1104
+- id: R06142
+  names: []
+  equation: G10529[c] + C00001[c] <=> C00159[c] + C00124[c]
+  enzymes:
+  - 3.2.1.22
+  rpairs: []
+  genes: Athe_0468,Athe_1104
+- id: R06099
+  names: []
+  equation: G00092[c] + C00001[c] <=> G10238[c] + C00124[c]
+  enzymes:
+  - 3.2.1.23
+  rpairs: []
+  genes: Athe_1927,Athe_0857
+- id: R05994
+  names: []
+  equation: G00124[c] + C00001[c] <=> G00123[c] + C00124[c]
+  enzymes:
+  - 3.2.1.23
+  rpairs: []
+  genes: Athe_1927,Athe_0857
+- id: R06144
+  names: []
+  equation: G10531[c] + C00001[c] <=> C05394[c] + C00221[c]
+  enzymes:
+  - 3.2.1.23
+  rpairs: []
+  genes: Athe_1927,Athe_0857
+- id: R06202
+  names: []
+  equation: G10534(n+1)[c] + C00001[c] <=> C00124[c] + G10534(n)[c]
+  enzymes:
+  - 3.2.1.23
+  rpairs: []
+  genes: Athe_1927,Athe_0857
+- id: R06098
+  names: []
+  equation: G10504[c] + C00001[c] <=> C00267[c] + C00124[c]
+  enzymes:
+  - 3.2.1.23
+  - 3.2.1.108
+  rpairs: []
+  genes: Athe_1927,Athe_0857
+- id: R06207
+  names: []
+  equation: G10532(n+1)[c] + C00001[c] <=> C00159[c] + G10532(n)[c]
+  enzymes:
+  - 3.2.1.25
+  rpairs: []
+  genes: Athe_0227
+- id: R06203
+  names: []
+  equation: C00181[c] + G10512(n)[c] <=> G10512(n+1)[c] + C00001[c]
+  enzymes:
+  - 3.2.1.37
+  rpairs: []
+  genes: Athe_0184
+- id: R06160
+  names: []
+  equation: G10546[c] + C00001[c] <=> G10495[c]
+  enzymes:
+  - 3.2.1.54
+  rpairs: []
+  genes: Athe_2579
+- id: R06245
+  names: []
+  equation: G00289[c] <=> G01630[c]
+  enzymes:
+  - 5.1.3.11
+  rpairs: []
+  genes: Athe_2557
+- id: R02961
+  names: []
+  equation: C00019[c] + C00821[c] <=> C00021[c] + C03391[c]
+  enzymes:
+  - 2.1.1.72
+  comment: restriction-modification system
+  rpairs:
+  - &id004
+    RC00003:
+    - C00019
+    - C00021
+    RC00335:
+    - C00821
+    - C03391
+  - *id004
+  genes: Athe_1588,Athe_2437,Athe_2017
+- id: R08657
+  name: sn-glycerol 3-phosphate:ubiquinone oxidoreductase
+  names:
+  - sn-glycerol 3-phosphate:ubiquinone oxidoreductase
+  equation: C00093[c] + C00399[c] <=> C00111[c] + C00390[c]
+  enzymes:
+  - 1.1.5.3
+  rpairs:
+  - &id005
+    RC00029:
+    - C00093
+    - C00111
+    RC00061:
+    - C00390
+    - C00399
+  - *id005
+  genes: Athe_0930
+- id: R00849
+  name: sn-glycerol 3-phosphate:quinone oxidoreductase
+  names:
+  - sn-glycerol 3-phosphate:quinone oxidoreductase
+  equation: C00093[c] + C15602[c] <=> C00111[c] + C15603[c]
+  enzymes:
+  - 1.1.5.3
+  rpairs:
+  - RC00029:
+    - C00093
+    - C00111
+  genes: Athe_0930
+- id: R05743
+  name: rubredoxin:superoxide oxidoreductase
+  names:
+  - rubredoxin:superoxide oxidoreductase
+  equation: C00340[c] + C00704[c] + (2) C00080[c] <=> C00435[c] + C00027[c]
+  enzymes:
+  - 1.15.1.2
+  rpairs: []
+  genes: Athe_1492
+- id: R01195
+  name: Ferredoxin:NADP+ oxidoreductase
+  names:
+  - Ferredoxin:NADP+ oxidoreductase
+  equation: (2) C00138[c] + C00006[c] + C00080[c] <=> (2) C00139[c] + C00005[c]
+  enzymes:
+  - 1.18.1.2
+  rpairs:
+  - RC00001:
+    - C00005
+    - C00006
+  genes: Athe_0645
+- id: R11485
+  name: flavodoxin:NADP+ oxidoreductase
+  names:
+  - flavodoxin:NADP+ oxidoreductase
+  equation: C02745[c] + C00006[c] <=> C02869[c] + C00005[c] + C00080[c]
+  enzymes:
+  - 1.19.1.1
+  rpairs: []
+  genes: Athe_0645
+- id: R10516
+  name: 2-oxocarboxylate:ferredoxin 2-oxidoreductase (decarboxylating, CoA-acylating)
+  names:
+  - 2-oxocarboxylate:ferredoxin 2-oxidoreductase (decarboxylating, CoA-acylating)
+  equation: C00161[c] + C00010[c] + (2) C00139[c] <=> C00040[c] + C00011[c] + (2)
+    C00138[c] + (2) C00080[c]
+  enzymes:
+  - 1.2.7.11
+  rpairs:
+  - RC00004:
+    - C00010
+    - C00040
+  genes: Athe_1096,Athe_1097
+- id: R07158
+  name: aldehyde:ferredoxin oxidoreductase
+  names:
+  - aldehyde:ferredoxin oxidoreductase
+  equation: C00071[c] + C00001[c] + (2) C00139[c] <=> C00060[c] + (2) C00138[c] +
+    (2) C00080[c]
+  enzymes:
+  - 1.2.7.5
+  rpairs:
+  - RC00071:
+    - C00060
+    - C00071
+  genes: Athe_0821
+- id: R07161
+  name: 3-(indol-3-yl)pyruvate:ferredoxin oxidoreductase (decarboxylating,CoA-indole-acetylating)
+  names:
+  - 3-(indol-3-yl)pyruvate:ferredoxin oxidoreductase (decarboxylating,CoA-indole-acetylating)
+  equation: C00331[c] + C00010[c] + C00139[c] <=> C15489[c] + C00011[c] + C00138[c]
+  enzymes:
+  - 1.2.7.8
+  rpairs:
+  - RC00004:
+    - C00010
+    - C15489
+  genes: Athe_1505,Athe_1506,Athe_1009,Athe_1008
+- id: R00284
+  name: ammonia:acceptor oxidoreductase
+  names:
+  - ammonia:acceptor oxidoreductase
+  equation: C00028[c] + C00014[c] + C00001[c] <=> C00192[c] + C00030[c]
+  enzymes:
+  - 1.7.99.1
+  rpairs:
+  - RC02797:
+    - C00014
+    - C00192
+  genes: Athe_1173
+- id: R04314
+  name: DNA-6-O-methylguanine:protein-L-cysteine S-methyltransferase
+  names:
+  - DNA-6-O-methylguanine:protein-L-cysteine S-methyltransferase
+  equation: C04250[c] + C02743[c] <=> C03800[c] + C11475[c]
+  enzymes:
+  - 2.1.1.63
+  rpairs:
+  - &id006
+    RC00035:
+    - C02743
+    - C03800
+    RC03122:
+    - C04250
+    - C11475
+  - *id006
+  genes: Athe_0457
+- id: R03704
+  name: 5,10-Methylenetetrahydrofolate:tRNA-UpsiC (uracil-5-)-methyltransferase
+  names:
+  - 5,10-Methylenetetrahydrofolate:tRNA-UpsiC (uracil-5-)-methyltransferase
+  equation: C00143[c] + C01764[c] + C01352[c] <=> C00101[c] + C03446[c] + C00016[c]
+  enzymes:
+  - 2.1.1.74
+  rpairs:
+  - &id007
+    RC00022:
+    - C00101
+    - C00143
+    RC00126:
+    - C00016
+    - C01352
+    RC00332:
+    - C01764
+    - C03446
+  - *id007
+  - *id007
+  genes: Athe_2180
+- id: R01821
+  name: 1,4-alpha-D-Glucan:orthophosphate alpha-D-glucosyltransferase
+  names:
+  - 1,4-alpha-D-Glucan:orthophosphate alpha-D-glucosyltransferase
+  equation: C00718[c] + C00009[c] <=> C00718[c] + C00103[c]
+  enzymes:
+  - 2.4.1.1
+  rpairs: []
+  genes: Athe_2576,Athe_0554
+- id: R06050
+  name: 1,4-alpha-D-glucan:phosphate alpha-D-glucosyltransferase
+  names:
+  - 1,4-alpha-D-glucan:phosphate alpha-D-glucosyltransferase
+  equation: G10495(n)[c] + C00009[c] <=> G10495(n-1)[c] + C00103[c]
+  enzymes:
+  - 2.4.1.1
+  rpairs: []
+  genes: Athe_2576,Athe_0554
+- id: R06178
+  name: '[poly-N-acetyl-D-glucosaminyl-(1->4)-(N-acetyl-D-muramoylpentapeptide)]-diphosphoundecaprenol:[N-acetyl-D-glucosaminyl-(1->4)-N-acetyl-D-muramoylpentapeptide]-diphosphoundecaprenol
+    polysaccharidetransferase'
+  names:
+  - '[poly-N-acetyl-D-glucosaminyl-(1->4)-(N-acetyl-D-muramoylpentapeptide)]-diphosphoundecaprenol:[N-acetyl-D-glucosaminyl-(1->4)-N-acetyl-D-muramoylpentapeptide]-diphosphoundecaprenol
+    polysaccharidetransferase'
+  equation: C05893[c] + C11826[c] <=> C04574[c] + C11826[c]
+  enzymes:
+  - 2.4.1.129
+  rpairs:
+  - &id008
+    RC00005:
+    - C04574
+    - C11826
+    RC00049:
+    - C05893
+    - C11826
+  - *id008
+  genes: Athe_2648
+- id: R06129
+  name: UDP-N-acetyl-D-mannosamine:N-acetyl-beta-D-glucosaminyldiphosphoundecaprenol
+    beta-1,4-N-acetylmannosaminyltransferase
+  names:
+  - UDP-N-acetyl-D-mannosamine:N-acetyl-beta-D-glucosaminyldiphosphoundecaprenol beta-1,4-N-acetylmannosaminyltransferase
+  equation: G11112[c] + C01289[c] <=> G00177[c] + G10619[c]
+  enzymes:
+  - 2.4.1.187
+  rpairs: []
+  genes: Athe_2062
+- id: R06056
+  name: cellobiose:phosphate alpha-D-glucosyltransferase
+  names:
+  - cellobiose:phosphate alpha-D-glucosyltransferase
+  equation: G00289[c] + C00009[c] <=> C00103[c] + C00031[c]
+  enzymes:
+  - 2.4.1.20
+  rpairs: []
+  genes: Athe_0460
+- id: R06049
+  name: ADP-glucose:1,4-alpha-D-glucan 4-alpha-D-glucosyltransferase
+  names:
+  - ADP-glucose:1,4-alpha-D-glucan 4-alpha-D-glucosyltransferase
+  equation: G10495(n)[c] + G11109[c] <=> G10495(n+1)[c] + G11113[c]
+  enzymes:
+  - 2.4.1.21
+  rpairs: []
+  genes: Athe_0555
+- id: R06053
+  name: a,a-trehalose:phosphate beta-D-glucosyltransferase
+  names:
+  - a,a-trehalose:phosphate beta-D-glucosyltransferase
+  equation: G00293[c] + C00009[c] <=> C00031[c] + C00663[c]
+  enzymes:
+  - 2.4.1.64
+  rpairs: []
+  genes: Athe_0403
+- id: R03632
+  name: ATP:protamine O-phosphotransferase
+  names:
+  - ATP:protamine O-phosphotransferase
+  equation: C00002[c] + C01609[c] <=> C00008[c] + C02729[c]
+  enzymes:
+  - 2.7.11.1
+  rpairs:
+  - RC00002:
+    - C00002
+    - C00008
+  genes: Athe_1681,Athe_0436,Athe_2394,Athe_1045
+- id: R07285
+  name: tRNA:phosphate nucleotidyltransferase
+  names:
+  - tRNA:phosphate nucleotidyltransferase
+  equation: C00066[c] + C00009[c] <=> C00066[c] + C00454[c]
+  enzymes:
+  - 2.7.7.56
+  rpairs: []
+  genes: Athe_0837
+- id: R10813
+  name: nucleoside-triphosphate:nucleoside-triphosphate nucleotidyltransferase (DNA-directed)
+  names:
+  - nucleoside-triphosphate:nucleoside-triphosphate nucleotidyltransferase (DNA-directed)
+  equation: (n) C00201[c] <=> C20864(n)[c] + (n - 1) C00013[c]
+  enzymes:
+  - 2.7.7.6
+  rpairs:
+  - RC00078:
+    - C00201
+    - C20864
+  genes: Athe_1717,Athe_0804,Athe_1036,Athe_0805
+- id: R07282
+  name: polyribonucleotide:phosphate nucleotidyltransferase
+  names:
+  - polyribonucleotide:phosphate nucleotidyltransferase
+  equation: C00046[c] + C00009[c] <=> C00046[c] + C00454[c]
+  enzymes:
+  - 2.7.7.8
+  rpairs: []
+  genes: Athe_1057
+- id: R10646
+  names: []
+  equation: C04432[c] + C17023[c] + C00019[c] <=> C20755[c] + C00073[c] + C05198[c]
+  enzymes:
+  - 2.8.4.3
+  orthology:
+  - K06168
+  rpairs:
+  - &id009
+    RC00021:
+    - C00019
+    - C00073
+    RC03222:
+    - C04432
+    - C20755
+  - *id009
+  genes: Athe_1501
+- id: R10647
+  names: []
+  equation: C20755[c] + C00019[c] <=> C20753[c] + C00021[c]
+  enzymes:
+  - 2.8.4.3
+  orthology:
+  - K06168
+  rpairs:
+  - &id010
+    RC00003:
+    - C00019
+    - C00021
+    RC00980:
+    - C20753
+    - C20755
+  - *id010
+  genes: Athe_1501
+- id: R04238
+  name: Aminoacyl-tRNA aminoacylhydrolase
+  names:
+  - Aminoacyl-tRNA aminoacylhydrolase
+  equation: C03880[c] + C00001[c] <=> C03523[c] + C00066[c]
+  enzymes:
+  - 3.1.1.29
+  rpairs:
+  - &id011
+    RC00055:
+    - C00066
+    - C03880
+    RC00523:
+    - C03523
+    - C03880
+  - *id011
+  genes: Athe_0637
+- id: R00164
+  name: Phosphoprotein phosphohydrolase
+  names:
+  - Phosphoprotein phosphohydrolase
+  equation: C00562[c] + C00001[c] <=> C00017[c] + C00009[c]
+  enzymes:
+  - 3.1.3.16
+  rpairs: []
+  genes: Athe_2692,Athe_0217,Athe_1044
+- id: R06091
+  names: []
+  equation: G01275[c] + C00001[c] <=> C00124[c] + C00031[c]
+  enzymes:
+  - 3.2.1.22
+  orthology:
+  - K01189
+  - K07406
+  - K07407
+  rpairs: []
+  genes: Athe_0468,Athe_1104
+- id: R06114
+  names: []
+  equation: G10504[c] + C00001[c] <=> C00031[c] + C00124[c]
+  enzymes:
+  - 3.2.1.23
+  - 3.2.1.108
+  orthology:
+  - K01190
+  - K01229
+  - K12111
+  rpairs: []
+  genes: Athe_1927,Athe_0857
+- id: R08614
+  name: 1,4-beta-D-Mannooligosaccharide mannohydrolase
+  names:
+  - 1,4-beta-D-Mannooligosaccharide mannohydrolase
+  equation: C17207[c] + C00001[c] <=> C00159[c] + C17207[c]
+  enzymes:
+  - 3.2.1.25
+  rpairs: []
+  genes: Athe_0227
+- id: R06199
+  names: []
+  equation: G10545(n+1)[c] + C00001[c] <=> C00267[c] + G10545(n)[c]
+  enzymes:
+  - 3.2.1.3
+  - 3.2.1.10
+  orthology:
+  - K01178
+  - K01182
+  - K01203
+  - K12047
+  rpairs: []
+  genes: Athe_0165
+- id: R06200
+  names: []
+  equation: G10481(n+2)[c] + C00001[c] <=> G10481(n)[c] + G00289[c]
+  enzymes:
+  - 3.2.1.4
+  - 3.2.1.91
+  orthology:
+  - K01179
+  - K01225
+  rpairs: []
+  genes: Athe_1867,Athe_1866,Athe_0234,Athe_0594
+- id: R08612
+  name: 4-beta-D-mannan mannanohydrolase
+  names:
+  - 4-beta-D-mannan mannanohydrolase
+  equation: C02492[c] + C00001[c] <=> C17207[c] + C02492[c]
+  enzymes:
+  - 3.2.1.78
+  rpairs:
+  - RC00467:
+    - C02492
+    - C17207
+  genes: Athe_1865,Athe_1859
+- id: R04268
+  name: N-Formyl-L-methionylaminoacyl-tRNA amidohydrolase
+  names:
+  - N-Formyl-L-methionylaminoacyl-tRNA amidohydrolase
+  equation: C04258[c] + C00001[c] <=> C00058[c] + C03617[c]
+  enzymes:
+  - 3.5.1.88
+  rpairs:
+  - &id012
+    RC00165:
+    - C03617
+    - C04258
+    RC00323:
+    - C00058
+    - C04258
+  - *id012
+  genes: Athe_1039
+- id: R03020
+  name: tRNA-uridine uracilmutase
+  names:
+  - tRNA-uridine uracilmutase
+  equation: C00868[c] <=> C02764[c]
+  enzymes:
+  - 5.4.99.12
+  rpairs:
+  - RC00830:
+    - C00868
+    - C02764
+  genes: Athe_1685
+- id: R05197
+  name: 10-formyltetrahydropteroyldiglutamate:L-glutamate gamma-ligase (ADP-forming)
+  names:
+  - 10-formyltetrahydropteroyldiglutamate:L-glutamate gamma-ligase (ADP-forming)
+  equation: (n - 1) C00002[c] + C05928[c] + (n - 1) C00025[c] <=> (n - 1) C00008[c]
+    + (n - 1) C00009[c] + C05929[c]
+  enzymes:
+  - 6.3.2.17
+  rpairs:
+  - &id013
+    RC00002:
+    - C00002
+    - C00008
+    RC00064:
+    - C00025
+    - C05929
+    RC00090:
+    - C05928
+    - C05929
+  - *id013
+  - *id013
+  genes: Athe_1490
+- id: R09592
+  name: cyanophycin:L-aspartate ligase (ADP-forming)
+  names:
+  - cyanophycin:L-aspartate ligase (ADP-forming)
+  equation: C00002[c] + C19709[c] + C00049[c] <=> C00008[c] + C00009[c] + C19710[c]
+  enzymes:
+  - 6.3.2.29
+  rpairs:
+  - &id014
+    RC00002:
+    - C00002
+    - C00008
+    RC00064:
+    - C00049
+    - C19710
+    RC00141:
+    - C19709
+    - C19710
+  - *id014
+  - *id014
+  genes: Athe_0527
+- id: R09593
+  name: cyanophycin:L-arginine ligase (ADP-forming)
+  names:
+  - cyanophycin:L-arginine ligase (ADP-forming)
+  equation: C00002[c] + C19710[c] + C00062[c] <=> C00008[c] + C00009[c] + C19713[c]
+  enzymes:
+  - 6.3.2.30
+  rpairs:
+  - &id015
+    RC00002:
+    - C00002
+    - C00008
+    RC00064:
+    - C00062
+    - C19713
+    RC00090:
+    - C19710
+    - C19713
+  - *id015
+  - *id015
+  genes: Athe_0527
+- id: R07640
+  name: poly(ribonucleotide):poly(ribonucleotide) ligase (AMP-forming)
+  names:
+  - poly(ribonucleotide):poly(ribonucleotide) ligase (AMP-forming)
+  equation: C00002[c] + C00046(n)[c] + C00046(m)[c] <=> C00020[c] + C00013[c] + C00046(n+m)[c]
+  enzymes:
+  - 6.5.1.3
+  rpairs: []
+  genes: Athe_2183
+- id: R00436
+  name: polyribonucleotide ligase (cyclizing, AMP-forming)
+  names:
+  - polyribonucleotide ligase (cyclizing, AMP-forming)
+  equation: C00002[c] + C00046[c] <=> C00020[c] + C00013[c] + C02073[c]
+  enzymes:
+  - 6.5.1.3
+  rpairs:
+  - RC00296:
+    - C00046
+    - C02073
+  genes: Athe_2183
+- id: R00444
+  name: nucleoside-triphosphate:RNA nucleotidyltransferase (DNA-directed)
+  names:
+  - nucleoside-triphosphate:RNA nucleotidyltransferase (DNA-directed)
+  - nucleoside-triphosphate:RNA nucleotidyltransferase (RNA-directed)
+  equation: C00201[c] + C00046[c] <=> C00013[c] + C00046[c]
+  enzymes:
+  - 2.7.7.6
+  - 2.7.7.48
+  comment: 'DNA-directed (ec 2.7.7.6)
+
+    RNA-directed (ec 2.7.7.48)'
+  rpairs: []
+  genes: Athe_1717,Athe_0804,Athe_1036,Athe_0805
+- id: R00379
+  name: Deoxynucleoside triphosphate:DNA deoxynucleotidyltransferase
+  names:
+  - Deoxynucleoside triphosphate:DNA deoxynucleotidyltransferase
+  equation: C00677[c] + C00039(n)[c] <=> C00013[c] + C00039(n+1)[c]
+  enzymes:
+  - 2.7.7.7
+  - 2.7.7.31
+  - 2.7.7.49
+  comment: 'DNA-directed (ec 2.7.7.7)
+
+    RNA-directed (ec 2.7.7.49)
+
+    non-template (ec 2.7.7.31)'
+  rpairs: []
+  genes: Athe_1838,Athe_0003,Athe_2107,Athe_1806,Athe_0515,Athe_2316,Athe_1441,Athe_1920,Athe_1262
+- id: R00162
+  name: ATP:protein phosphotransferase
+  names:
+  - ATP:protein phosphotransferase
+  - ATP:protein phosphotransferase (Ca2+/calmodulin-dependent)
+  equation: C00002[c] + C00017[c] <=> C00008[c] + C00562[c]
+  enzymes:
+  - 2.7.11.1
+  - 2.7.11.8
+  - 2.7.11.9
+  - 2.7.11.10
+  - 2.7.11.11
+  - 2.7.11.12
+  - 2.7.11.13
+  - 2.7.11.17
+  - 2.7.11.21
+  - 2.7.11.22
+  - 2.7.11.24
+  - 2.7.11.25
+  - 2.7.11.30
+  - 2.7.12.1
+  - 2.7.12.2
+  comment: general reaction
+  rpairs:
+  - RC00002:
+    - C00002
+    - C00008
+  genes: Athe_1681,Athe_0436,Athe_2394,Athe_1045
+- id: R01810
+  name: N-Acyl-O-acetylneuraminate O-acetylesterase
+  names:
+  - N-Acyl-O-acetylneuraminate O-acetylesterase
+  equation: C03708[c] + C00001[c] <=> C00270[c] + C00033[c]
+  enzymes:
+  - 3.1.1.53
+  comment: general reaction (see R08600 and R08601)
+  rpairs: []
+  genes: Athe_2722
+- id: R10159
+  name: adrenodoxin:NADP+ oxidoreductase
+  names:
+  - adrenodoxin:NADP+ oxidoreductase
+  equation: (2) C00662[c] + C00006[c] + C00080[c] <=> (2) C00667[c] + C00005[c]
+  enzymes:
+  - 1.18.1.2
+  - 1.18.1.6
+  orthology:
+  - K00528
+  rpairs:
+  - RC00001:
+    - C00005
+    - C00006
+  genes: Athe_0645
+- id: R00860
+  name: AMP,sulfite:acceptor oxidoreductase (adenosine-5'-phosphosulfate-forming)
+  names:
+  - AMP,sulfite:acceptor oxidoreductase (adenosine-5'-phosphosulfate-forming)
+  equation: C00094[c] + C00028[c] + C00020[c] <=> C00224[c] + C00030[c]
+  enzymes:
+  - 1.8.99.2
+  orthology:
+  - K00394
+  - K00395
+  rpairs:
+  - &id016
+    RC00007:
+    - C00020
+    - C00224
+    RC02862:
+    - C00094
+    - C00224
+  - *id016
+  genes: Athe_1191,Athe_1192
+- id: R04710
+  name: Protein-glycine,dihydroflavodoxin:S-adenosyl-L-methionine oxidoreductase (S-adenosyl-L-methionine
+    cleaving)
+  names:
+  - Protein-glycine,dihydroflavodoxin:S-adenosyl-L-methionine oxidoreductase (S-adenosyl-L-methionine
+    cleaving)
+  equation: C00019[c] + C05196[c] + C05197[c] <=> C05198[c] + C00073[c] + C05199[c]
+    + C05312[c]
+  enzymes:
+  - 1.97.1.4
+  orthology:
+  - K04068
+  - K04069
+  rpairs:
+  - RC00021:
+    - C00019
+    - C00073
+  genes: Athe_2518,Athe_0360,Athe_1947,Athe_0341,Athe_2694
+- id: R10648
+  name: L-threonylcarbamoyladenylate:adenine in tRNA N6-L-threonylcarbamoyltransferase
+  names:
+  - L-threonylcarbamoyladenylate:adenine in tRNA N6-L-threonylcarbamoyltransferase
+  equation: C20641[c] + C17324[c] <=> C00020[c] + C20751[c]
+  enzymes:
+  - 2.3.1.234
+  orthology:
+  - K01409
+  - K15904
+  rpairs:
+  - &id017
+    RC00070:
+    - C00020
+    - C20641
+    RC00416:
+    - C17324
+    - C20751
+  - *id017
+  genes: Athe_1833
+- id: R04519
+  name: '[poly-N-acetyl-D-glucosaminyl-(1->4)-(N-acetyl-D-muramoylpentapeptide)]-diphosphoundecaprenol:[N-acetyl-D-glucosaminyl-(1->4)-N-acetyl-D-muramoylpentapeptide]-diphosphoundecaprenol
+    polysaccharidetransferase'
+  names:
+  - '[poly-N-acetyl-D-glucosaminyl-(1->4)-(N-acetyl-D-muramoylpentapeptide)]-diphosphoundecaprenol:[N-acetyl-D-glucosaminyl-(1->4)-N-acetyl-D-muramoylpentapeptide]-diphosphoundecaprenol
+    polysaccharidetransferase'
+  - bactoprenyldiphospho-N-acetylmuramoyl-(N-acetyl-D-glucosaminyl)-pentapeptide:peptidoglycan
+    N-acetylmuranoyl-N-acetyl-D-glucosaminyltransferase
+  equation: C05898[c] + C11827[c] <=> C04574[c] + C11827[c]
+  enzymes:
+  - 2.4.1.129
+  orthology:
+  - K05364
+  - K05365
+  rpairs:
+  - &id018
+    RC00005:
+    - C04574
+    - C11827
+    RC00049:
+    - C05898
+    - C11827
+  - *id018
+  genes: Athe_2648
+- id: R10811
+  name: 1,4-beta-D-mannooligosaccharide:phosphate alpha-D-mannosyltransferase
+  names:
+  - 1,4-beta-D-mannooligosaccharide:phosphate alpha-D-mannosyltransferase
+  equation: C17207(n)[c] + (n - 2) C00009[c] <=> C20861[c] + (n - 2) C00636[c]
+  enzymes:
+  - 2.4.1.319
+  orthology:
+  - K18785
+  rpairs:
+  - RC00049:
+    - C17207
+    - C20861
+  genes: Athe_2555
+- id: R11397
+  name: (1->2)-beta-D-mannan:phosphate beta-D-mannosyltransferase (conformation-inverting)
+  names:
+  - (1->2)-beta-D-mannan:phosphate beta-D-mannosyltransferase (conformation-inverting)
+  equation: C21335(n)[c] + C00009[c] <=> C21335(n-1)[c] + C00636[c]
+  enzymes:
+  - 2.4.1.340
+  orthology:
+  - K20885
+  rpairs:
+  - RC02748:
+    - C00636
+    - C21335
+  genes: Athe_0536
+- id: R03789
+  name: tRNA-guanosine34:queuine tRNA-D-ribosyltransferase
+  names:
+  - tRNA-guanosine34:queuine tRNA-D-ribosyltransferase
+  equation: C01977[c] + C01449[c] <=> C01978[c] + C00242[c]
+  enzymes:
+  - 2.4.2.29
+  orthology:
+  - K00773
+  - K15407
+  rpairs:
+  - &id019
+    RC00063:
+    - C01449
+    - C01978
+  - *id019
+  genes: Athe_0382
+- id: R10209
+  name: tRNA-guanosine34:7-aminomethyl-7-carbaguanine tRNA-D-ribosyltransferase
+  names:
+  - tRNA-guanosine34:7-aminomethyl-7-carbaguanine tRNA-D-ribosyltransferase
+  equation: C01977[c] + C16675[c] <=> C20446[c] + C00242[c]
+  enzymes:
+  - 2.4.2.29
+  orthology:
+  - K00773
+  - K15407
+  rpairs:
+  - &id020
+    RC00063:
+    - C16675
+    - C20446
+  - *id020
+  genes: Athe_0382
+- id: R09383
+  name: CTP:tRNA cytidylyltransferase
+  names:
+  - CTP:tRNA cytidylyltransferase
+  equation: C02211[c] + C00063[c] <=> C19078[c] + C00013[c]
+  enzymes:
+  - 2.7.7.72
+  orthology:
+  - K00974
+  - K07558
+  rpairs:
+  - RC00078:
+    - C02211
+    - C19078
+  genes: Athe_1710
+- id: R09384
+  name: CTP:tRNA cytidylyltransferase
+  names:
+  - CTP:tRNA cytidylyltransferase
+  equation: C19078[c] + C00063[c] <=> C19080[c] + C00013[c]
+  enzymes:
+  - 2.7.7.72
+  orthology:
+  - K00974
+  - K07558
+  rpairs:
+  - RC00078:
+    - C19078
+    - C19080
+  genes: Athe_1710
+- id: R09386
+  name: ATP:tRNA adenylyltransferase
+  names:
+  - ATP:tRNA adenylyltransferase
+  equation: C19080[c] + C00002[c] <=> C19085[c] + C00013[c]
+  enzymes:
+  - 2.7.7.72
+  orthology:
+  - K00974
+  - K07558
+  rpairs:
+  - RC00078:
+    - C19080
+    - C19085
+  genes: Athe_1710
+- id: R10645
+  name: tRNA (N6-dimethylallyladenosine):sulfur-donor,S-adenosyl-L-methionine C2-methylthiotransferase
+  names:
+  - tRNA (N6-dimethylallyladenosine):sulfur-donor,S-adenosyl-L-methionine C2-methylthiotransferase
+  equation: C04432[c] + C17023[c] + (2) C00019[c] <=> C20753[c] + C00021[c] + C00073[c]
+    + C05198[c]
+  enzymes:
+  - 2.8.4.3
+  orthology:
+  - K06168
+  rpairs:
+  - &id021
+    RC00003:
+    - C00019
+    - C00021
+    RC00021:
+    - C00019
+    - C00073
+    RC03221:
+    - C04432
+    - C20753
+  - *id021
+  - *id021
+  genes: Athe_1501
+- id: R10652
+  name: '[ribosomal protein S12]-L-aspartate:sulfur-donor,S-adenosyl-L-methionine
+    C3-methylthiotransferase'
+  names:
+  - '[ribosomal protein S12]-L-aspartate:sulfur-donor,S-adenosyl-L-methionine C3-methylthiotransferase'
+  equation: C20756[c] + C17023[c] + (2) C00019[c] <=> C20758[c] + C00021[c] + C00073[c]
+    + C05198[c]
+  enzymes:
+  - 2.8.4.4
+  orthology:
+  - K14441
+  rpairs:
+  - &id022
+    RC00003:
+    - C00019
+    - C00021
+    RC00021:
+    - C00019
+    - C00073
+    RC03217:
+    - C20756
+    - C20758
+  - *id022
+  - *id022
+  genes: Athe_0983
+- id: R10649
+  name: tRNA (N6-L-threonylcarbamoyladenosine37):sulfur-donor,S-adenosyl-L-methionine
+    C2-methylthiotransferase
+  names:
+  - tRNA (N6-L-threonylcarbamoyladenosine37):sulfur-donor,S-adenosyl-L-methionine
+    C2-methylthiotransferase
+  equation: C20751[c] + C17023[c] + (2) C00019[c] <=> C20752[c] + C00021[c] + C00073[c]
+    + C05198[c]
+  enzymes:
+  - 2.8.4.5
+  orthology:
+  - K15865
+  - K18707
+  rpairs:
+  - &id023
+    RC00003:
+    - C00019
+    - C00021
+    RC00021:
+    - C00019
+    - C00073
+    RC03221:
+    - C20751
+    - C20752
+  - *id023
+  - *id023
+  genes: Athe_1282
+- id: R05961
+  names: []
+  equation: C00001[c] + G00093[c] <=> C00124[c] + G00092[c]
+  enzymes:
+  - 3.2.1.22
+  - 3.2.1.47
+  pathways:
+  - Glycosphingolipid biosynthesis - globo and isoglobo series
+  orthology:
+  - K01189
+  - K07406
+  - K07407
+  rpairs: []
+  genes: Athe_0468,Athe_1104
+- id: R06010
+  names: []
+  equation: G00110[c] + C00001[c] <=> G00109[c] + C00124[c]
+  enzymes:
+  - 3.2.1.23
+  pathways:
+  - Glycosphingolipid biosynthesis - ganglio series
+  - Metabolic pathways
+  orthology:
+  - K12309
+  rpairs: []
+  genes: Athe_1927,Athe_0857
+- id: R07807
+  names: []
+  equation: G01977[c] + C00001[c] <=> G13073[c] + C00124[c]
+  enzymes:
+  - 3.2.1.23
+  pathways:
+  - Glycosaminoglycan degradation
+  - Metabolic pathways
+  orthology:
+  - K12309
+  rpairs: []
+  genes: Athe_1927,Athe_0857
+- id: R07818
+  names: []
+  equation: G13040[c] + C00001[c] <=> G09660[c] + C00191[c]
+  enzymes:
+  - 3.2.1.31
+  pathways:
+  - Glycosaminoglycan degradation
+  - Metabolic pathways
+  orthology:
+  - K01195
+  rpairs: []
+  genes: Athe_2086
+- id: R11307
+  names: []
+  equation: C00760[c] + C00001[c] <=> C00760[c] + C01898[c]
+  enzymes:
+  - 3.2.1.4
+  pathways:
+  - Starch and sucrose metabolism
+  - Metabolic pathways
+  orthology:
+  - K01179
+  - K19357
+  rpairs: []
+  genes: Athe_1867,Athe_1866,Athe_0234,Athe_0594
+- id: R10223
+  name: tRNA(adenine34) aminohydrolase
+  names:
+  - tRNA(adenine34) aminohydrolase
+  equation: C17324[c] + C00001[c] <=> C20451[c] + C00014[c]
+  enzymes:
+  - 3.5.4.33
+  orthology:
+  - K11991
+  rpairs:
+  - RC00477:
+    - C17324
+    - C20451
+  genes: Athe_2395
+- id: R09597
+  name: L-lysine:[tRNA(Ile2)]-cytidine34 ligase (AMP-forming)
+  names:
+  - L-lysine:[tRNA(Ile2)]-cytidine34 ligase (AMP-forming)
+  equation: C19722[c] + C00047[c] + C00002[c] <=> C19723[c] + C00020[c] + C00013[c]
+    + C00001[c]
+  enzymes:
+  - 6.3.4.19
+  orthology:
+  - K04075
+  rpairs:
+  - &id024
+    RC02633:
+    - C19722
+    - C19723
+    RC02634:
+    - C00047
+    - C19723
+  - *id024
+  genes: Athe_0640
+- id: R00382
+  name: (deoxyribonucleotide)n:5'-phospho-(deoxyribonucleotide)m ligase (AMP-forming,
+    NMN-forming)
+  names:
+  - (deoxyribonucleotide)n:5'-phospho-(deoxyribonucleotide)m ligase (AMP-forming,
+    NMN-forming)
+  equation: C00003[c] + C00039(n)[c] + C02128(m)[c] <=> C00020[c] + C00455[c] + C00039(n+m)[c]
+  enzymes:
+  - 6.5.1.2
+  - 6.5.1.6
+  orthology:
+  - K01972
+  - K10747
+  rpairs:
+  - &id025
+    RC00002:
+    - C00003
+    - C00455
+    RC00005:
+    - C00039
+    - C02128
+  - *id025
+  - *id025
+  genes: Athe_1618
+- id: R11308
+  names: []
+  equation: C01898[c] <=> C00185[c]
+  enzymes:
+  - 3.2.1.4
+  - 3.2.1.91
+  pathways:
+  - Starch and sucrose metabolism
+  - Metabolic pathways
+  comment: 'endo-type cleavage (ec 3.2.1.4)
+
+    exo-type cleavage (ec 3.2.1.91)'
+  orthology:
+  - K01179
+  - K01225
+  - K19357
+  - K19668
+  rpairs: []
+  genes: Athe_1867,Athe_1866,Athe_0234,Athe_0594
+- id: R10716
+  name: S-adenosyl-L-methionine:rRNA (adenine-N6-)-dimethyltransferase
+  names:
+  - S-adenosyl-L-methionine:rRNA (adenine-N6-)-dimethyltransferase
+  equation: (2) C00019[c] + C20648[c] <=> (2) C00021[c] + C20796[c]
+  enzymes:
+  - 2.1.1.182
+  - 2.1.1.183
+  - 2.1.1.184
+  comment: 'general reaction
+
+    The enzyme ec 2.1.1.182 methylates adenine1518 and adenine1519 in 23S rRNA.
+
+    The enzyme ec 2.1.1.183 methylates adenine1779 and adenine1780 in 18S rRNA.
+
+    The enzyme ec 2.1.1.184 methylates adenine2085 in 23S rRNA.'
+  orthology:
+  - K00561
+  - K02528
+  - K14191
+  rpairs:
+  - &id026
+    RC00003:
+    - C00019
+    - C00021
+    RC03257:
+    - C20648
+    - C20796
+  - *id026
+  genes: Athe_0392
+- id: R11029
+  names: []
+  equation: C11039[c] <=> C21031[c]
+  enzymes:
+  - 2.7.7.7
+  pathways:
+  - Pyrimidine metabolism
+  comment: incomplete reaction
+  orthology:
+  - K18942
+  rpairs:
+  - RC03332:
+    - C11039
+    - C21031
+  genes: Athe_1838,Athe_0003,Athe_2107,Athe_1806,Athe_0515,Athe_2316,Athe_1441,Athe_1920,Athe_1262
+- id: R08700
+  name: '[enzyme]-S-sulfanylcysteine:tRNA-uridine sulfurtransferase (ATP-hydrolysing)'
+  names:
+  - '[enzyme]-S-sulfanylcysteine:tRNA-uridine sulfurtransferase (ATP-hydrolysing)'
+  equation: C00868[c] + C15812[c] + C00002[c] <=> C17322[c] + C15811[c] + C00020[c]
+    + C00013[c]
+  enzymes:
+  - 2.8.1.13
+  comment: 'multi-step reaction
+
+    incomplete reaction (donor is unidentified in vivo, dithiothreitol[CPD:C00265]
+    in vitro)'
+  orthology:
+  - K00566
+  rpairs:
+  - &id027
+    RC02313:
+    - C15811
+    - C15812
+    RC02315:
+    - C00868
+    - C17322
+  - *id027
+  genes: Athe_1712
+- id: R08701
+  name: tRNA uridine 5-carboxymethylaminomethyl modification
+  names:
+  - tRNA uridine 5-carboxymethylaminomethyl modification
+  equation: C17322[c] + C00037[c] + C03479[c] + C00030[c] <=> C17323[c] + C00101[c]
+    + C00028[c] + C00001[c]
+  enzymes: []
+  comment: 'multi-step reaction
+
+    unclear reaction'
+  orthology:
+  - K03495
+  - K03650
+  rpairs:
+  - &id028
+    RC00053:
+    - C00037
+    - C17323
+    RC00209:
+    - C17322
+    - C17323
+    RC00870:
+    - C00101
+    - C03479
+  - *id028
+  - *id028
+  genes: Athe_2758,Athe_2757
+- id: R09382
+  name: CTP,CTP,ATP:tRNA cytidylyl,cytidylyl,adenylyltransferase
+  names:
+  - CTP,CTP,ATP:tRNA cytidylyl,cytidylyl,adenylyltransferase
+  equation: C02211[c] + (2) C00063[c] + C00002[c] <=> C19085[c] + (3) C00013[c]
+  enzymes:
+  - 2.7.7.72
+  comment: three-step reaction (see R09383+R09384+R09386)
+  orthology:
+  - K00974
+  - K07558
+  rpairs: []
+  genes: Athe_1710
+- id: R08360
+  name: tryparedoxin:hydroperoxide oxidoreductase
+  names:
+  - tryparedoxin:hydroperoxide oxidoreductase
+  equation: C16663[c] + C15498[c] <=> C16664[c] + C00001[c] + C01335[c]
+  enzymes:
+  - 1.11.1.15
+  - 1.11.1.-
+  pathways:
+  - Glutathione metabolism
+  orthology:
+  - K11185
+  - K11186
+  - K11207
+  rpairs:
+  - RC01872:
+    - C01335
+    - C15498
+  genes: Athe_0023
+- id: R08689
+  name: (E)-4-hydroxy-3-methylbut-2-en-1-yl-diphosphate:oxidized ferredoxin oxidoreductase
+    (hydrating)
+  names:
+  - (E)-4-hydroxy-3-methylbut-2-en-1-yl-diphosphate:oxidized ferredoxin oxidoreductase
+    (hydrating)
+  equation: C11453[c] + (2) C00138[c] <=> C11811[c] + C00001[c] + (2) C00139[c]
+  enzymes:
+  - 1.17.7.1
+  pathways:
+  - Terpenoid backbone biosynthesis
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Biosynthesis of antibiotics
+  orthology:
+  - K03526
+  rpairs:
+  - RC01486:
+    - C11453
+    - C11811
+  genes: Athe_1808
+- id: R10859
+  name: (E)-4-hydroxy-3-methylbut-2-en-1-yl-diphosphate:oxidized flavodoxin oxidoreductase
+  names:
+  - (E)-4-hydroxy-3-methylbut-2-en-1-yl-diphosphate:oxidized flavodoxin oxidoreductase
+  equation: C11811[c] + C00001[c] + C02869[c] <=> C11453[c] + C02745[c]
+  enzymes:
+  - 1.17.7.3
+  pathways:
+  - Terpenoid backbone biosynthesis
+  - Metabolic pathways
+  orthology:
+  - K03526
+  rpairs:
+  - RC01486:
+    - C11453
+    - C11811
+  genes: Athe_1808
+- id: R08210
+  name: dimethylallyl diphosphate:ferredoxin oxidoreductase
+  names:
+  - dimethylallyl diphosphate:ferredoxin oxidoreductase
+  equation: C00235[c] + (2) C00139[c] + C00001[c] <=> C11811[c] + (2) C00138[c] +
+    (2) C00080[c]
+  enzymes:
+  - 1.17.7.4
+  pathways:
+  - Terpenoid backbone biosynthesis
+  - Biosynthesis of secondary metabolites
+  - Biosynthesis of antibiotics
+  orthology:
+  - K03527
+  rpairs:
+  - RC01137:
+    - C00235
+    - C11811
+  genes: Athe_1327
+- id: R05884
+  name: isopentenyl-diphosphate:ferredoxin oxidoreductase
+  names:
+  - isopentenyl-diphosphate:ferredoxin oxidoreductase
+  equation: C11811[c] + (2) C00138[c] + (2) C00080[c] <=> C00129[c] + (2) C00139[c]
+    + C00001[c]
+  enzymes:
+  - 1.17.7.4
+  pathways:
+  - Terpenoid backbone biosynthesis
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Biosynthesis of antibiotics
+  orthology:
+  - K03527
+  rpairs:
+  - RC01487:
+    - C00129
+    - C11811
+  genes: Athe_1327
+- id: R04109
+  name: 'L-glutamate-semialdehyde: NADP+ oxidoreductase(L-glutamyl-tRNA(Glu)-forming)'
+  names:
+  - 'L-glutamate-semialdehyde: NADP+ oxidoreductase(L-glutamyl-tRNA(Glu)-forming)'
+  equation: C02987[c] + C00005[c] + C00080[c] <=> C03741[c] + C01641[c] + C00006[c]
+  enzymes:
+  - 1.2.1.70
+  pathways:
+  - Porphyrin and chlorophyll metabolism
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Microbial metabolism in diverse environments
+  orthology:
+  - K02492
+  rpairs:
+  - &id029
+    RC00001:
+    - C00005
+    - C00006
+    RC00055:
+    - C01641
+    - C02987
+    RC00149:
+    - C02987
+    - C03741
+  - *id029
+  - *id029
+  genes: Athe_1195
+- id: R01199
+  name: 2-oxobutanoate:ferredoxin 2-oxidoreductase (CoA-propanoylating)
+  names:
+  - 2-oxobutanoate:ferredoxin 2-oxidoreductase (CoA-propanoylating)
+  equation: (2) C00139[c] + C00109[c] + C00010[c] <=> (2) C00138[c] + C00100[c] +
+    C00011[c] + (2) C00080[c]
+  enzymes:
+  - 1.2.7.1
+  pathways:
+  - Propanoate metabolism
+  orthology:
+  - K00169
+  - K00170
+  - K00171
+  - K00172
+  rpairs:
+  - &id030
+    RC00004:
+    - C00010
+    - C00100
+    RC02833:
+    - C00100
+    - C00109
+  - *id030
+  genes: Athe_1708,Athe_1709,Athe_0875,Athe_0874,Athe_0877,Athe_0876
+- id: R01196
+  name: pyruvate:ferredoxin 2-oxidoreductase (CoA-acetylating)
+  names:
+  - pyruvate:ferredoxin 2-oxidoreductase (CoA-acetylating)
+  equation: (2) C00138[c] + C00024[c] + C00011[c] + (2) C00080[c] <=> (2) C00139[c]
+    + C00022[c] + C00010[c]
+  enzymes:
+  - 1.2.7.1
+  - 1.2.7.11
+  pathways:
+  - Glycolysis / Gluconeogenesis
+  - Citrate cycle (TCA cycle)
+  - Pyruvate metabolism
+  - Butanoate metabolism
+  - Methane metabolism
+  - Carbon fixation pathways in prokaryotes
+  - Metabolic pathways
+  - Microbial metabolism in diverse environments
+  - Biosynthesis of antibiotics
+  - Carbon metabolism
+  orthology:
+  - K00169
+  - K00170
+  - K00171
+  - K00172
+  - K00174
+  - K00175
+  - K03737
+  rpairs:
+  - &id031
+    RC00004:
+    - C00010
+    - C00024
+    RC02742:
+    - C00022
+    - C00024
+  - *id031
+  genes: Athe_1708,Athe_1709,Athe_1096,Athe_1097,Athe_0875,Athe_0874,Athe_0877,Athe_0876
+- id: R01197
+  name: 2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)
+  names:
+  - 2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)
+  equation: (2) C00138[c] + C00091[c] + C00011[c] + (2) C00080[c] <=> (2) C00139[c]
+    + C00026[c] + C00010[c]
+  enzymes:
+  - 1.2.7.3
+  - 1.2.7.11
+  pathways:
+  - Citrate cycle (TCA cycle)
+  - Carbon fixation pathways in prokaryotes
+  - Metabolic pathways
+  - Microbial metabolism in diverse environments
+  - Biosynthesis of antibiotics
+  - Carbon metabolism
+  orthology:
+  - K00174
+  - K00175
+  - K00176
+  - K00177
+  rpairs:
+  - &id032
+    RC00004:
+    - C00010
+    - C00091
+    RC02833:
+    - C00026
+    - C00091
+  - *id032
+  genes: Athe_1098,Athe_1095,Athe_1096,Athe_1097
+- id: R07157
+  name: carbon-monoxide,water:ferredoxin oxidoreductase
+  names:
+  - carbon-monoxide,water:ferredoxin oxidoreductase
+  equation: C00237[c] + C00001[c] + C00139[c] <=> C00011[c] + C00138[c]
+  enzymes:
+  - 1.2.7.4
+  pathways:
+  - Methane metabolism
+  - Carbon fixation pathways in prokaryotes
+  - Microbial metabolism in diverse environments
+  - Carbon metabolism
+  orthology:
+  - K00192
+  - K00195
+  - K00196
+  - K00198
+  - K03518
+  - K03519
+  - K03520
+  rpairs:
+  - RC02800:
+    - C00011
+    - C00237
+  genes: Athe_2359
+- id: R08571
+  name: glyceraldehyde ferredoxin oxidoreductase
+  names:
+  - glyceraldehyde ferredoxin oxidoreductase
+  equation: C00577[c] + C00001[c] + C00139[c] <=> C00258[c] + C00080[c] + C00138[c]
+  enzymes:
+  - 1.2.7.5
+  pathways:
+  - Pentose phosphate pathway
+  - Metabolic pathways
+  - Microbial metabolism in diverse environments
+  - Carbon metabolism
+  orthology:
+  - K03738
+  rpairs:
+  - RC00242:
+    - C00258
+    - C00577
+  genes: Athe_0821
+- id: R03015
+  name: Formylmethanofuran:(acceptor) oxidoreductase
+  names:
+  - Formylmethanofuran:(acceptor) oxidoreductase
+  equation: C01001[c] + C00001[c] + C00028[c] <=> C00011[c] + C00862[c] + C00030[c]
+  enzymes:
+  - 1.2.99.5
+  pathways:
+  - Methane metabolism
+  - Metabolic pathways
+  - Microbial metabolism in diverse environments
+  - Carbon metabolism
+  orthology:
+  - K00200
+  - K00201
+  - K00202
+  - K00203
+  - K00204
+  - K00205
+  - K11260
+  - K11261
+  rpairs:
+  - RC00197:
+    - C00862
+    - C01001
+  genes: Athe_0277
+- id: R03940
+  name: 10-Formyltetrahydrofolate:L-methionyl-tRNA N-formyltransferase
+  names:
+  - 10-Formyltetrahydrofolate:L-methionyl-tRNA N-formyltransferase
+  equation: C02430[c] + C00234[c] <=> C00101[c] + C03294[c]
+  enzymes:
+  - 2.1.2.9
+  pathways:
+  - One carbon pool by folate
+  - Aminoacyl-tRNA biosynthesis
+  orthology:
+  - K00604
+  rpairs:
+  - &id033
+    RC00026:
+    - C00101
+    - C00234
+    RC00165:
+    - C02430
+    - C03294
+  - *id033
+  genes: Athe_1040
+- id: R02110
+  name: 1,4-alpha-D-Glucan:1,4-alpha-D-glucan 6-alpha-D-(1,4-alpha-D-glucano)-transferase
+  names:
+  - 1,4-alpha-D-Glucan:1,4-alpha-D-glucan 6-alpha-D-(1,4-alpha-D-glucano)-transferase
+  equation: C00718[c] <=> C00369[c]
+  enzymes:
+  - 2.4.1.18
+  pathways:
+  - Starch and sucrose metabolism
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  orthology:
+  - K00700
+  - K16149
+  rpairs: []
+  genes: Athe_0558
+- id: R02421
+  name: ADP-glucose:1,4-alpha-D-glucan 4-alpha-D-glucosyltransferase
+  names:
+  - ADP-glucose:1,4-alpha-D-glucan 4-alpha-D-glucosyltransferase
+  equation: C00498[c] + C00718[c] <=> C00008[c] + C00718[c]
+  enzymes:
+  - 2.4.1.21
+  - 2.4.1.242
+  pathways:
+  - Starch and sucrose metabolism
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  orthology:
+  - K00703
+  - K13679
+  - K16148
+  - K20812
+  rpairs:
+  - RC00005:
+    - C00008
+    - C00498
+  genes: Athe_0555
+- id: R01122
+  name: delta2-isopentenyl-diphosphate:tRNA isopentenyltransferase
+  names:
+  - delta2-isopentenyl-diphosphate:tRNA isopentenyltransferase
+  equation: C00235[c] + C00066[c] <=> C00013[c] + C04432[c]
+  enzymes:
+  - 2.5.1.75
+  pathways:
+  - Zeatin biosynthesis
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  orthology:
+  - K00791
+  rpairs:
+  - RC02820:
+    - C00235
+    - C04432
+  genes: Athe_1498
+- id: R00375
+  name: Deoxyadenosine 5'-triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)
+  names:
+  - Deoxyadenosine 5'-triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)
+  equation: C00131[c] + C00039[c] <=> C00013[c] + C00039[c]
+  enzymes:
+  - 2.7.7.7
+  pathways:
+  - Purine metabolism
+  - Metabolic pathways
+  orthology:
+  - K02319
+  - K02320
+  - K02321
+  - K02322
+  - K02323
+  - K02324
+  - K02325
+  - K02326
+  - K02327
+  - K02328
+  - K02335
+  - K02337
+  - K02338
+  - K02339
+  - K02340
+  - K02341
+  - K02342
+  - K02343
+  - K02344
+  - K02345
+  - K02684
+  - K02685
+  - K03504
+  - K03505
+  - K03506
+  - K03763
+  - K14159
+  rpairs:
+  - RC02795:
+    - C00039
+    - C00131
+  genes: Athe_1838,Athe_0003,Athe_2107,Athe_1806,Athe_0515,Athe_2316,Athe_1441,Athe_1920,Athe_1262
+- id: R00376
+  name: Deoxyguanosine 5'-triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)
+  names:
+  - Deoxyguanosine 5'-triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)
+  equation: C00286[c] + C00039[c] <=> C00013[c] + C00039[c]
+  enzymes:
+  - 2.7.7.7
+  pathways:
+  - Purine metabolism
+  - Metabolic pathways
+  orthology:
+  - K02319
+  - K02320
+  - K02321
+  - K02322
+  - K02323
+  - K02324
+  - K02325
+  - K02326
+  - K02327
+  - K02328
+  - K02335
+  - K02337
+  - K02338
+  - K02339
+  - K02340
+  - K02341
+  - K02342
+  - K02343
+  - K02344
+  - K02345
+  - K02684
+  - K02685
+  - K03504
+  - K03505
+  - K03506
+  - K03763
+  - K14159
+  rpairs:
+  - RC02795:
+    - C00039
+    - C00286
+  genes: Athe_1838,Athe_0003,Athe_2107,Athe_1806,Athe_0515,Athe_2316,Athe_1441,Athe_1920,Athe_1262
+- id: R00377
+  name: Deoxycytidine triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)
+  names:
+  - Deoxycytidine triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)
+  equation: C00458[c] + C00039[c] <=> C00013[c] + C00039[c]
+  enzymes:
+  - 2.7.7.7
+  pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  orthology:
+  - K02319
+  - K02320
+  - K02321
+  - K02322
+  - K02323
+  - K02324
+  - K02325
+  - K02326
+  - K02327
+  - K02328
+  - K02335
+  - K02337
+  - K02338
+  - K02339
+  - K02340
+  - K02341
+  - K02342
+  - K02343
+  - K02344
+  - K02345
+  - K02684
+  - K02685
+  - K03504
+  - K03505
+  - K03506
+  - K03763
+  - K14159
+  rpairs:
+  - RC02795:
+    - C00039
+    - C00458
+  genes: Athe_1838,Athe_0003,Athe_2107,Athe_1806,Athe_0515,Athe_2316,Athe_1441,Athe_1920,Athe_1262
+- id: R00378
+  name: deoxythymidine triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)
+  names:
+  - deoxythymidine triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)
+  equation: C00459[c] + C00039[c] <=> C00013[c] + C00039[c]
+  enzymes:
+  - 2.7.7.7
+  pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  orthology:
+  - K02319
+  - K02320
+  - K02321
+  - K02322
+  - K02323
+  - K02324
+  - K02325
+  - K02326
+  - K02327
+  - K02328
+  - K02335
+  - K02337
+  - K02338
+  - K02339
+  - K02340
+  - K02341
+  - K02342
+  - K02343
+  - K02344
+  - K02345
+  - K02684
+  - K02685
+  - K03504
+  - K03505
+  - K03506
+  - K03763
+  - K14159
+  rpairs:
+  - RC02795:
+    - C00039
+    - C00459
+  genes: Athe_1838,Athe_0003,Athe_2107,Athe_1806,Athe_0515,Athe_2316,Athe_1441,Athe_1920,Athe_1262
+- id: R00437
+  name: polyribonucleotide:phosphate adenylyltransferase
+  names:
+  - polyribonucleotide:phosphate adenylyltransferase
+  equation: C00046[c] + C00009[c] <=> C00046[c] + C00008[c]
+  enzymes:
+  - 2.7.7.8
+  pathways:
+  - Purine metabolism
+  orthology:
+  - K00962
+  rpairs:
+  - RC02795:
+    - C00008
+    - C00046
+  genes: Athe_1057
+- id: R00438
+  name: polyribonucleotide:phosphate uridylyltransferase
+  names:
+  - polyribonucleotide:phosphate uridylyltransferase
+  equation: C00046[c] + C00009[c] <=> C00046[c] + C00015[c]
+  enzymes:
+  - 2.7.7.8
+  pathways:
+  - Pyrimidine metabolism
+  orthology:
+  - K00962
+  rpairs:
+  - RC02795:
+    - C00015
+    - C00046
+  genes: Athe_1057
+- id: R00439
+  name: polyribonucleotide:phosphate guanylyltransferase
+  names:
+  - polyribonucleotide:phosphate guanylyltransferase
+  equation: C00046[c] + C00009[c] <=> C00046[c] + C00035[c]
+  enzymes:
+  - 2.7.7.8
+  pathways:
+  - Purine metabolism
+  orthology:
+  - K00962
+  rpairs:
+  - RC02795:
+    - C00035
+    - C00046
+  genes: Athe_1057
+- id: R00440
+  name: polyribonucleotide:phosphate cytidylyltransferase
+  names:
+  - polyribonucleotide:phosphate cytidylyltransferase
+  equation: C00046[c] + C00009[c] <=> C00046[c] + C00112[c]
+  enzymes:
+  - 2.7.7.8
+  pathways:
+  - Pyrimidine metabolism
+  orthology:
+  - K00962
+  rpairs:
+  - RC02795:
+    - C00046
+    - C00112
+  genes: Athe_1057
+- id: R01625
+  name: CoA:apo-[acyl-carrier-protein] pantetheinephosphotransferase
+  names:
+  - CoA:apo-[acyl-carrier-protein] pantetheinephosphotransferase
+  equation: C00010[c] + C03688[c] <=> C00054[c] + C00229[c]
+  enzymes:
+  - 2.7.8.7
+  - 2.7.8.-
+  pathways:
+  - Pantothenate and CoA biosynthesis
+  orthology:
+  - K00997
+  - K06133
+  rpairs:
+  - RC00002:
+    - C00010
+    - C00054
+  genes: Athe_1906
+- id: R07461
+  name: '[enzyme]-S-sulfanyl-L-cysteine:adenylyl-[sulfur-carrier protein] sulfurtransferase'
+  names:
+  - '[enzyme]-S-sulfanyl-L-cysteine:adenylyl-[sulfur-carrier protein] sulfurtransferase'
+  equation: C15812[c] + C15813[c] + C00030[c] <=> C00020[c] + C15814[c] + C15811[c]
+    + C00028[c]
+  enzymes:
+  - 2.8.1.11
+  - 2.8.1.-
+  pathways:
+  - Thiamine metabolism
+  - Metabolic pathways
+  orthology:
+  - K03151
+  - K11996
+  - K21028
+  - K21147
+  rpairs: []
+  genes: Athe_1546
+- id: R02887
+  name: 1,4-beta-D-Glucan glucohydrolase
+  names:
+  - 1,4-beta-D-Glucan glucohydrolase
+  equation: C01898[c] + (n - 2) C00001[c] <=> (n - 2) C00031[c] + C00185[c]
+  enzymes:
+  - 3.2.1.21
+  - 3.2.1.74
+  pathways:
+  - Starch and sucrose metabolism
+  - Metabolic pathways
+  orthology:
+  - K01188
+  - K05349
+  - K05350
+  rpairs: []
+  genes: Athe_2354,Athe_0458
+- id: R01105
+  name: Galactan galactohydrolase
+  names:
+  - Galactan galactohydrolase
+  equation: C05796[c] + C00001[c] <=> C00124[c] + C05796[c]
+  enzymes:
+  - 3.2.1.23
+  pathways:
+  - Galactose metabolism
+  orthology:
+  - K01190
+  - K12308
+  rpairs:
+  - RC00452:
+    - C00124
+    - C05796
+  genes: Athe_1927,Athe_0857
+- id: R01791
+  name: Dextrin 6-alpha-D-glucanohydrolase
+  names:
+  - Dextrin 6-alpha-D-glucanohydrolase
+  equation: C00721[c] + C00001[c] <=> C00031[c] + C00721[c]
+  enzymes:
+  - 3.2.1.3
+  - 3.2.1.10
+  pathways:
+  - Starch and sucrose metabolism
+  - Metabolic pathways
+  orthology:
+  - K01178
+  - K01182
+  - K01203
+  - K12047
+  - K21574
+  rpairs: []
+  genes: Athe_0165
+- id: R10830
+  name: beta-D-glucuronoside glucuronosohydrolase
+  names:
+  - beta-D-glucuronoside glucuronosohydrolase
+  equation: G00526[c] + C00001[c] <=> G00711[c] + C00191[c]
+  enzymes:
+  - 3.2.1.31
+  pathways:
+  - Glycosaminoglycan degradation
+  orthology:
+  - K01195
+  rpairs: []
+  genes: Athe_2086
+- id: R01433
+  name: D-xylose xylohydrolase
+  names:
+  - D-xylose xylohydrolase
+  equation: C00181[c] + C02352[c] <=> C02352[c] + C00001[c]
+  enzymes:
+  - 3.2.1.37
+  pathways:
+  - Amino sugar and nucleotide sugar metabolism
+  - Metabolic pathways
+  orthology:
+  - K01198
+  - K15920
+  rpairs:
+  - RC00467:
+    - C00181
+    - C02352
+  genes: Athe_0184
+- id: R03122
+  name: Cyclomaltodextrin dextrin-hydrolase (decyclizing)
+  names:
+  - Cyclomaltodextrin dextrin-hydrolase (decyclizing)
+  equation: C00973[c] + C00001[c] <=> C01935[c]
+  enzymes:
+  - 3.2.1.54
+  pathways:
+  - Starch and sucrose metabolism
+  orthology:
+  - K01208
+  rpairs: []
+  genes: Athe_2579
+- id: R01762
+  name: alpha-L-arabinan arabinofuranohydrolase
+  names:
+  - alpha-L-arabinan arabinofuranohydrolase
+  equation: C02474[c] + C00001[c] <=> C02474[c] + C00259[c]
+  enzymes:
+  - 3.2.1.55
+  pathways:
+  - Amino sugar and nucleotide sugar metabolism
+  orthology:
+  - K01209
+  - K15921
+  - K20844
+  rpairs: []
+  genes: Athe_0182,Athe_1103
+- id: R09394
+  name: GTP 3',8-cyclase [(8S)-3',8-cyclo-7,8-dihydroguanosine 5'-triphosphate-forming]
+  names:
+  - GTP 3',8-cyclase [(8S)-3',8-cyclo-7,8-dihydroguanosine 5'-triphosphate-forming]
+  equation: C00044[c] + C00019[c] + C00030[c] <=> C21310[c] + C05198[c] + C00073[c]
+    + C00028[c]
+  enzymes:
+  - 4.1.99.22
+  pathways:
+  - Folate biosynthesis
+  - Metabolic pathways
+  orthology:
+  - K03639
+  - K20967
+  rpairs:
+  - RC03420:
+    - C00044
+    - C21310
+  genes: Athe_0829
+- id: R02918
+  name: L-Tyrosine:tRNA(Tyr) ligase (AMP-forming)
+  names:
+  - L-Tyrosine:tRNA(Tyr) ligase (AMP-forming)
+  equation: C00002[c] + C00082[c] + C00787[c] <=> C00020[c] + C00013[c] + C02839[c]
+  enzymes:
+  - 6.1.1.1
+  pathways:
+  - Aminoacyl-tRNA biosynthesis
+  orthology:
+  - K01866
+  rpairs:
+  - &id034
+    RC00055:
+    - C00787
+    - C02839
+    RC00523:
+    - C00082
+    - C02839
+  - *id034
+  genes: Athe_0886
+- id: R03659
+  name: L-Methionine:tRNAMet ligase (AMP-forming)
+  names:
+  - L-Methionine:tRNAMet ligase (AMP-forming)
+  equation: C00002[c] + C00073[c] + C01647[c] <=> C00020[c] + C00013[c] + C02430[c]
+  enzymes:
+  - 6.1.1.10
+  pathways:
+  - Aminoacyl-tRNA biosynthesis
+  orthology:
+  - K01874
+  rpairs:
+  - &id035
+    RC00055:
+    - C01647
+    - C02430
+    RC00523:
+    - C00073
+    - C02430
+  - *id035
+  genes: Athe_0307
+- id: R04773
+  name: Selenomethionine:tRNAMet ligase (AMP-forming)
+  names:
+  - Selenomethionine:tRNAMet ligase (AMP-forming)
+  equation: C00002[c] + C05335[c] + C01647[c] <=> C00020[c] + C00013[c] + C05336[c]
+  enzymes:
+  - 6.1.1.10
+  pathways:
+  - Selenocompound metabolism
+  orthology:
+  - K01874
+  rpairs:
+  - &id036
+    RC00055:
+    - C01647
+    - C05336
+    RC00523:
+    - C05335
+    - C05336
+  - *id036
+  genes: Athe_0307
+- id: R03662
+  name: L-Serine:tRNA(Ser) ligase (AMP-forming)
+  names:
+  - L-Serine:tRNA(Ser) ligase (AMP-forming)
+  equation: C00002[c] + C00065[c] + C01650[c] <=> C00020[c] + C00013[c] + C02553[c]
+  enzymes:
+  - 6.1.1.11
+  pathways:
+  - Aminoacyl-tRNA biosynthesis
+  orthology:
+  - K01875
+  rpairs:
+  - &id037
+    RC00055:
+    - C01650
+    - C02553
+    RC00523:
+    - C00065
+    - C02553
+  - *id037
+  genes: Athe_0872
+- id: R08218
+  name: L-serine:tRNASec ligase (AMP-forming)
+  names:
+  - L-serine:tRNASec ligase (AMP-forming)
+  equation: C00002[c] + C00065[c] + C16636[c] <=> C00020[c] + C00013[c] + C06481[c]
+  enzymes:
+  - 6.1.1.11
+  pathways:
+  - Aminoacyl-tRNA biosynthesis
+  orthology:
+  - K01875
+  rpairs:
+  - &id038
+    RC00055:
+    - C06481
+    - C16636
+    RC00523:
+    - C00065
+    - C06481
+  - *id038
+  genes: Athe_0872
+- id: R05577
+  name: L-Aspartate:tRNA(Asp) ligase (AMP-forming)
+  names:
+  - L-Aspartate:tRNA(Asp) ligase (AMP-forming)
+  equation: C01638[c] + C00049[c] + C00002[c] <=> C02984[c] + C00013[c] + C00020[c]
+  enzymes:
+  - 6.1.1.12
+  - 6.1.1.23
+  pathways:
+  - Aminoacyl-tRNA biosynthesis
+  orthology:
+  - K01876
+  - K09759
+  rpairs:
+  - &id039
+    RC00055:
+    - C01638
+    - C02984
+    RC00523:
+    - C00049
+    - C02984
+  - *id039
+  genes: Athe_0593
+- id: R03654
+  name: glycine:tRNA(Gly) ligase (AMP-forming)
+  names:
+  - glycine:tRNA(Gly) ligase (AMP-forming)
+  equation: C00002[c] + C00037[c] + C01642[c] <=> C00020[c] + C00013[c] + C02412[c]
+  enzymes:
+  - 6.1.1.14
+  pathways:
+  - Aminoacyl-tRNA biosynthesis
+  orthology:
+  - K01878
+  - K01879
+  - K01880
+  - K14164
+  rpairs:
+  - &id040
+    RC00055:
+    - C01642
+    - C02412
+    RC00523:
+    - C00037
+    - C02412
+  - *id040
+  genes: Athe_1410
+- id: R03661
+  name: L-proline:tRNA(Pro) ligase (AMP-forming)
+  names:
+  - L-proline:tRNA(Pro) ligase (AMP-forming)
+  equation: C00002[c] + C00148[c] + C01649[c] <=> C00020[c] + C00013[c] + C02702[c]
+  enzymes:
+  - 6.1.1.15
+  pathways:
+  - Aminoacyl-tRNA biosynthesis
+  orthology:
+  - K01881
+  - K14163
+  rpairs:
+  - &id041
+    RC00055:
+    - C01649
+    - C02702
+    RC00523:
+    - C00148
+    - C02702
+  - *id041
+  genes: Athe_0572
+- id: R03650
+  name: L-Cysteine:tRNA(Cys) ligase (AMP-forming)
+  names:
+  - L-Cysteine:tRNA(Cys) ligase (AMP-forming)
+  equation: C00002[c] + C00097[c] + C01639[c] <=> C00020[c] + C00013[c] + C03125[c]
+  enzymes:
+  - 6.1.1.16
+  pathways:
+  - Aminoacyl-tRNA biosynthesis
+  orthology:
+  - K01883
+  - K01884
+  rpairs:
+  - &id042
+    RC00055:
+    - C01639
+    - C03125
+    RC00523:
+    - C00097
+    - C03125
+  - *id042
+  genes: Athe_2253
+- id: R05578
+  name: L-glutamate:tRNA(Glu) ligase (AMP-forming)
+  names:
+  - L-glutamate:tRNA(Glu) ligase (AMP-forming)
+  equation: C01641[c] + C00025[c] + C00002[c] <=> C02987[c] + C00013[c] + C00020[c]
+  enzymes:
+  - 6.1.1.17
+  - 6.1.1.24
+  pathways:
+  - Porphyrin and chlorophyll metabolism
+  - Aminoacyl-tRNA biosynthesis
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Microbial metabolism in diverse environments
+  orthology:
+  - K01885
+  - K09698
+  - K14163
+  rpairs:
+  - &id043
+    RC00055:
+    - C01641
+    - C02987
+    RC00523:
+    - C00025
+    - C02987
+  - *id043
+  genes: Athe_0941,Athe_2255
+- id: R03646
+  name: L-Arginine:tRNA(Arg) ligase (AMP-forming)
+  names:
+  - L-Arginine:tRNA(Arg) ligase (AMP-forming)
+  equation: C00002[c] + C00062[c] + C01636[c] <=> C00020[c] + C00013[c] + C02163[c]
+  enzymes:
+  - 6.1.1.19
+  pathways:
+  - Aminoacyl-tRNA biosynthesis
+  orthology:
+  - K01887
+  rpairs:
+  - &id044
+    RC00055:
+    - C01636
+    - C02163
+    RC00523:
+    - C00062
+    - C02163
+  - *id044
+  genes: Athe_2036
+- id: R03664
+  name: L-Tryptophan -tRNA(Trp) ligase (AMP-forming)
+  names:
+  - L-Tryptophan -tRNA(Trp) ligase (AMP-forming)
+  equation: C00002[c] + C00078[c] + C01652[c] <=> C00020[c] + C00013[c] + C03512[c]
+  enzymes:
+  - 6.1.1.2
+  pathways:
+  - Aminoacyl-tRNA biosynthesis
+  orthology:
+  - K01867
+  rpairs:
+  - &id045
+    RC00055:
+    - C01652
+    - C03512
+    RC00523:
+    - C00078
+    - C03512
+  - *id045
+  genes: Athe_0792
+- id: R03660
+  name: L-Phenylalanine:tRNA(Ala) ligase (AMP-forming)
+  names:
+  - L-Phenylalanine:tRNA(Ala) ligase (AMP-forming)
+  equation: C00002[c] + C00079[c] + C01648[c] <=> C00020[c] + C00013[c] + C03511[c]
+  enzymes:
+  - 6.1.1.20
+  pathways:
+  - Aminoacyl-tRNA biosynthesis
+  orthology:
+  - K01889
+  - K01890
+  rpairs:
+  - &id046
+    RC00055:
+    - C01648
+    - C03511
+    RC00523:
+    - C00079
+    - C03511
+  - *id046
+  genes: Athe_1284,Athe_1283
+- id: R03655
+  name: L-Histidine:tRNA(His) ligase (AMP-forming)
+  names:
+  - L-Histidine:tRNA(His) ligase (AMP-forming)
+  equation: C00002[c] + C00135[c] + C01643[c] <=> C00020[c] + C00013[c] + C02988[c]
+  enzymes:
+  - 6.1.1.21
+  pathways:
+  - Aminoacyl-tRNA biosynthesis
+  orthology:
+  - K01892
+  rpairs:
+  - &id047
+    RC00055:
+    - C01643
+    - C02988
+    RC00523:
+    - C00135
+    - C02988
+  - *id047
+  genes: Athe_0592
+- id: R03651
+  name: L-Glutamate:tRNA(Gln) ligase (AMP-forming)
+  names:
+  - L-Glutamate:tRNA(Gln) ligase (AMP-forming)
+  equation: C00002[c] + C00025[c] + C01640[c] <=> C00020[c] + C00013[c] + C06112[c]
+  enzymes:
+  - 6.1.1.24
+  pathways:
+  - Aminoacyl-tRNA biosynthesis
+  - Metabolic pathways
+  orthology:
+  - K09698
+  rpairs:
+  - &id048
+    RC00055:
+    - C01640
+    - C06112
+    RC00523:
+    - C00025
+    - C06112
+  - *id048
+  genes: Athe_2255
+- id: R03663
+  name: L-Threonine:tRNA(Thr) ligase (AMP-forming)
+  names:
+  - L-Threonine:tRNA(Thr) ligase (AMP-forming)
+  equation: C00002[c] + C00188[c] + C01651[c] <=> C00020[c] + C00013[c] + C02992[c]
+  enzymes:
+  - 6.1.1.3
+  pathways:
+  - Aminoacyl-tRNA biosynthesis
+  orthology:
+  - K01868
+  rpairs:
+  - &id049
+    RC00055:
+    - C01651
+    - C02992
+    RC00523:
+    - C00188
+    - C02992
+  - *id049
+  genes: Athe_0801
+- id: R03657
+  name: L-Leucine:tRNA(Leu) ligase (AMP-forming)
+  names:
+  - L-Leucine:tRNA(Leu) ligase (AMP-forming)
+  equation: C00002[c] + C00123[c] + C01645[c] <=> C00020[c] + C00013[c] + C02047[c]
+  enzymes:
+  - 6.1.1.4
+  pathways:
+  - Aminoacyl-tRNA biosynthesis
+  orthology:
+  - K01869
+  rpairs:
+  - &id050
+    RC00055:
+    - C01645
+    - C02047
+    RC00523:
+    - C00123
+    - C02047
+  - *id050
+  genes: Athe_1254
+- id: R03656
+  name: L-Isoleucine:tRNA(Ile) ligase (AMP-forming)
+  names:
+  - L-Isoleucine:tRNA(Ile) ligase (AMP-forming)
+  equation: C00002[c] + C00407[c] + C01644[c] <=> C00020[c] + C00013[c] + C03127[c]
+  enzymes:
+  - 6.1.1.5
+  pathways:
+  - Aminoacyl-tRNA biosynthesis
+  orthology:
+  - K01870
+  rpairs:
+  - &id051
+    RC00055:
+    - C01644
+    - C03127
+    RC00523:
+    - C00407
+    - C03127
+  - *id051
+  genes: Athe_1349
+- id: R03658
+  name: L-lysine:tRNALys ligase (AMP-forming)
+  names:
+  - L-lysine:tRNALys ligase (AMP-forming)
+  equation: C00002[c] + C00047[c] + C01646[c] <=> C00020[c] + C00013[c] + C01931[c]
+  enzymes:
+  - 6.1.1.6
+  pathways:
+  - Aminoacyl-tRNA biosynthesis
+  orthology:
+  - K04566
+  - K04567
+  rpairs:
+  - &id052
+    RC00055:
+    - C01646
+    - C01931
+    RC00523:
+    - C00047
+    - C01931
+  - *id052
+  genes: Athe_0659
+- id: R03038
+  name: L-Alanine:tRNA(Ala) ligase (AMP-forming)
+  names:
+  - L-Alanine:tRNA(Ala) ligase (AMP-forming)
+  equation: C00002[c] + C00041[c] + C01635[c] <=> C00020[c] + C00013[c] + C00886[c]
+  enzymes:
+  - 6.1.1.7
+  pathways:
+  - Aminoacyl-tRNA biosynthesis
+  orthology:
+  - K01872
+  rpairs:
+  - &id053
+    RC00055:
+    - C00886
+    - C01635
+    RC00523:
+    - C00041
+    - C00886
+  - *id053
+  genes: Athe_1331
+- id: R03665
+  name: L-Valine:tRNAVal ligase (AMP-forming)
+  names:
+  - L-Valine:tRNAVal ligase (AMP-forming)
+  equation: C00002[c] + C00183[c] + C01653[c] <=> C00020[c] + C00013[c] + C02554[c]
+  enzymes:
+  - 6.1.1.9
+  pathways:
+  - Aminoacyl-tRNA biosynthesis
+  orthology:
+  - K01873
+  rpairs:
+  - &id054
+    RC00055:
+    - C01653
+    - C02554
+    RC00523:
+    - C00183
+    - C02554
+  - *id054
+  genes: Athe_1491
+- id: R04241
+  name: tetrahydropteroyl-gamma-polyglutamate:L-glutamate gamma-ligase (ADP-forming)
+  names:
+  - tetrahydropteroyl-gamma-polyglutamate:L-glutamate gamma-ligase (ADP-forming)
+  equation: C00002[c] + C03541(n)[c] + C00025[c] <=> C00008[c] + C00009[c] + C03541(n+1)[c]
+  enzymes:
+  - 6.3.2.17
+  pathways:
+  - Folate biosynthesis
+  orthology:
+  - K01930
+  rpairs:
+  - &id055
+    RC00002:
+    - C00002
+    - C00008
+    RC00064:
+    - C00025
+    - C03541
+  - *id055
+  genes: Athe_1490
+- id: R04212
+  name: Asp-tRNA(Asn):L-glutamine amido-ligase (ADP-forming)
+  names:
+  - Asp-tRNA(Asn):L-glutamine amido-ligase (ADP-forming)
+  equation: C03402[c] + C00025[c] + C00009[c] + C00008[c] <=> C06113[c] + C00064[c]
+    + C00002[c] + C00001[c]
+  enzymes:
+  - 6.3.5.6
+  pathways:
+  - Aminoacyl-tRNA biosynthesis
+  orthology:
+  - K02433
+  - K02434
+  - K02435
+  rpairs:
+  - &id056
+    RC00002:
+    - C00002
+    - C00008
+    RC00010:
+    - C03402
+    - C06113
+  - *id056
+  - *id056
+  genes: Athe_0761,Athe_0760,Athe_0762
+- id: R03905
+  name: Glu-tRNA(Gln):L-glutamine amido-ligase(ADP-forming)
+  names:
+  - Glu-tRNA(Gln):L-glutamine amido-ligase(ADP-forming)
+  equation: C02282[c] + C00025[c] + C00009[c] + C00008[c] <=> C06112[c] + C00064[c]
+    + C00002[c] + C00001[c]
+  enzymes:
+  - 6.3.5.7
+  pathways:
+  - Aminoacyl-tRNA biosynthesis
+  - Metabolic pathways
+  orthology:
+  - K02433
+  - K02434
+  - K02435
+  - K03330
+  - K09482
+  rpairs:
+  - &id057
+    RC00002:
+    - C00002
+    - C00008
+    RC00010:
+    - C02282
+    - C06112
+  - *id057
+  - *id057
+  genes: Athe_0761,Athe_0760,Athe_0762
+- id: R02111
+  name: 1,4-alpha-D-Glucan:orthophosphate alpha-D-glucosyltransferase
+  names:
+  - 1,4-alpha-D-Glucan:orthophosphate alpha-D-glucosyltransferase
+  equation: C00369[c] + C00009[c] <=> C00718[c] + C00103[c]
+  enzymes:
+  - 2.4.1.1
+  pathways:
+  - Starch and sucrose metabolism
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  comment: Any one of debranching enzymes ([KO:K01196 K02438 K01200]) is required.
+  orthology:
+  - K00688
+  - K01196
+  - K01200
+  - K02438
+  - K16153
+  rpairs: []
+  genes: Athe_2576,Athe_0554,Athe_0609
+- id: R00441
+  name: GTP:RNA guanylyltransferase (DNA-directed)
+  names:
+  - GTP:RNA guanylyltransferase (DNA-directed)
+  - GTP:RNA guanylyltransferase (RNA-directed)
+  equation: C00044[c] + C00046[c] <=> C00013[c] + C00046[c]
+  enzymes:
+  - 2.7.7.6
+  - 2.7.7.48
+  pathways:
+  - Purine metabolism
+  - Metabolic pathways
+  comment: 'DNA-directed (ec 2.7.7.6)
+
+    RNA-directed (ec 2.7.7.48)'
+  orthology:
+  - K02999
+  - K03000
+  - K03001
+  - K03002
+  - K03003
+  - K03004
+  - K03005
+  - K03006
+  - K03007
+  - K03008
+  - K03009
+  - K03010
+  - K03011
+  - K03012
+  - K03013
+  - K03014
+  - K03015
+  - K03016
+  - K03017
+  - K03018
+  - K03019
+  - K03020
+  - K03021
+  - K03022
+  - K03023
+  - K03024
+  - K03025
+  - K03026
+  - K03027
+  - K03040
+  - K03041
+  - K03042
+  - K03043
+  - K03044
+  - K03045
+  - K03046
+  - K03047
+  - K03048
+  - K03049
+  - K03050
+  - K03051
+  - K03052
+  - K03053
+  - K03054
+  - K03055
+  - K03056
+  - K03058
+  - K03059
+  - K03060
+  - K13797
+  - K13798
+  - K14721
+  rpairs:
+  - RC02795:
+    - C00044
+    - C00046
+  genes: Athe_1717,Athe_0804,Athe_1036,Athe_0805
+- id: R00442
+  name: CTP:RNA cytidylyltransferase (DNA-directed)
+  names:
+  - CTP:RNA cytidylyltransferase (DNA-directed)
+  - CTP:RNA cytidylyltransferase (RNA-directed)
+  equation: C00063[c] + C00046[c] <=> C00013[c] + C00046[c]
+  enzymes:
+  - 2.7.7.6
+  - 2.7.7.48
+  pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  comment: 'DNA-directed (ec 2.7.7.6)
+
+    RNA-directed (ec 2.7.7.48)'
+  orthology:
+  - K02999
+  - K03000
+  - K03001
+  - K03002
+  - K03003
+  - K03004
+  - K03005
+  - K03006
+  - K03007
+  - K03008
+  - K03009
+  - K03010
+  - K03011
+  - K03012
+  - K03013
+  - K03014
+  - K03015
+  - K03016
+  - K03017
+  - K03018
+  - K03019
+  - K03020
+  - K03021
+  - K03022
+  - K03023
+  - K03024
+  - K03025
+  - K03026
+  - K03027
+  - K03040
+  - K03041
+  - K03042
+  - K03043
+  - K03044
+  - K03045
+  - K03046
+  - K03047
+  - K03048
+  - K03049
+  - K03050
+  - K03051
+  - K03052
+  - K03053
+  - K03054
+  - K03055
+  - K03056
+  - K03058
+  - K03059
+  - K03060
+  - K13797
+  - K13798
+  - K14721
+  rpairs:
+  - RC02795:
+    - C00046
+    - C00063
+  genes: Athe_1717,Athe_0804,Athe_1036,Athe_0805
+- id: R00435
+  name: ATP:polynucleotide adenylyltransferase
+  names:
+  - ATP:polynucleotide adenylyltransferase
+  - ATP:RNA adenylyltransferase
+  equation: C00002[c] + C00046[c] <=> C00013[c] + C00046[c]
+  enzymes:
+  - 2.7.7.6
+  - 2.7.7.19
+  - 2.7.7.48
+  pathways:
+  - Purine metabolism
+  - Metabolic pathways
+  comment: 'DNA-directed (ec 2.7.7.6)
+
+    RNA-directed (ec 2.7.7.48)
+
+    non-template (ec 2.7.7.19)'
+  orthology:
+  - K02999
+  - K03000
+  - K03001
+  - K03002
+  - K03003
+  - K03004
+  - K03005
+  - K03006
+  - K03007
+  - K03008
+  - K03009
+  - K03010
+  - K03011
+  - K03012
+  - K03013
+  - K03014
+  - K03015
+  - K03016
+  - K03017
+  - K03018
+  - K03019
+  - K03020
+  - K03021
+  - K03022
+  - K03023
+  - K03024
+  - K03025
+  - K03026
+  - K03027
+  - K03040
+  - K03041
+  - K03042
+  - K03043
+  - K03044
+  - K03045
+  - K03046
+  - K03047
+  - K03048
+  - K03049
+  - K03050
+  - K03051
+  - K03052
+  - K03053
+  - K03054
+  - K03055
+  - K03056
+  - K03058
+  - K03059
+  - K03060
+  - K13797
+  - K13798
+  - K14721
+  rpairs:
+  - RC02795:
+    - C00002
+    - C00046
+  genes: Athe_1717,Athe_0804,Athe_1036,Athe_0805
+- id: R00443
+  name: UTP:RNA uridylyltransferase
+  names:
+  - UTP:RNA uridylyltransferase
+  equation: C00075[c] + C00046[c] <=> C00013[c] + C00046[c]
+  enzymes:
+  - 2.7.7.6
+  - 2.7.7.48
+  - 2.7.7.52
+  pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  comment: 'DNA-directed (ec 2.7.7.6)
+
+    RNA-directed (ec 2.7.7.48)
+
+    non-template (ec 2.7.7.52)'
+  orthology:
+  - K02999
+  - K03000
+  - K03001
+  - K03002
+  - K03003
+  - K03004
+  - K03005
+  - K03006
+  - K03007
+  - K03008
+  - K03009
+  - K03010
+  - K03011
+  - K03012
+  - K03013
+  - K03014
+  - K03015
+  - K03016
+  - K03017
+  - K03018
+  - K03019
+  - K03020
+  - K03021
+  - K03022
+  - K03023
+  - K03024
+  - K03025
+  - K03026
+  - K03027
+  - K03040
+  - K03041
+  - K03042
+  - K03043
+  - K03044
+  - K03045
+  - K03046
+  - K03047
+  - K03048
+  - K03049
+  - K03050
+  - K03051
+  - K03052
+  - K03053
+  - K03054
+  - K03055
+  - K03056
+  - K03058
+  - K03059
+  - K03060
+  - K13797
+  - K13798
+  - K14721
+  rpairs:
+  - RC02795:
+    - C00046
+    - C00075
+  genes: Athe_1717,Athe_0804,Athe_1036,Athe_0805
+- id: R02112
+  name: 1,4-alpha-D-Glucan maltohydrolase
+  names:
+  - 1,4-alpha-D-Glucan maltohydrolase
+  equation: C00369[c] <=> C00721[c] + C00208[c]
+  enzymes:
+  - 3.2.1.1
+  - 3.2.1.2
+  - 3.2.1.133
+  pathways:
+  - Starch and sucrose metabolism
+  - Metabolic pathways
+  comment: 'ec 3.2.1.1 and 3.2.1.133 form alpha-maltose [CPD:C00897]
+
+    ec 3.2.1.2 forms beta-maltose [CPD:C01971]'
+  orthology:
+  - K01176
+  - K01177
+  - K01208
+  - K05343
+  - K05992
+  - K07405
+  rpairs: []
+  genes: Athe_2579
+- id: R11262
+  name: maltodextrin maltohydrolase
+  names:
+  - maltodextrin maltohydrolase
+  equation: C01935[c] + C00001[c] <=> C00208[c]
+  enzymes:
+  - 3.2.1.1
+  - 3.2.1.2
+  - 3.2.1.133
+  pathways:
+  - Starch and sucrose metabolism
+  - Metabolic pathways
+  comment: 'ec 3.2.1.1 and 3.2.1.133 form alpha-maltose [CPD:C00897]
+
+    ec 3.2.1.2 forms beta-maltose [CPD:C01971]'
+  orthology:
+  - K01176
+  - K01177
+  - K01208
+  - K05343
+  - K05992
+  - K07405
+  rpairs: []
+  genes: Athe_2579
+- id: R02164
+  name: succinate:quinone oxidoreductase
+  names:
+  - succinate:quinone oxidoreductase
+  equation: C15602[c] + C00042[c] <=> C15603[c] + C00122[c]
+  enzymes:
+  - 1.3.5.1
+  - 1.3.5.4
+  pathways:
+  - Citrate cycle (TCA cycle)
+  - Pyruvate metabolism
+  - Butanoate metabolism
+  - Carbon fixation pathways in prokaryotes
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Microbial metabolism in diverse environments
+  - Biosynthesis of antibiotics
+  - Carbon metabolism
+  comment: electron transport complex II
+  orthology:
+  - K00234
+  - K00235
+  - K00236
+  - K00237
+  - K00239
+  - K00240
+  - K00241
+  - K00242
+  - K00244
+  - K00245
+  - K00246
+  - K00247
+  - K18859
+  - K18860
+  rpairs:
+  - RC00045:
+    - C00042
+    - C00122
+  genes: Athe_2084
+- id: R04979
+  name: Bilirubin beta-diglucuronide glucuronosohydrolase
+  names:
+  - Bilirubin beta-diglucuronide glucuronosohydrolase
+  equation: C05787[c] + (2) C00001[c] + (3) C00030[c] <=> C05791[c] + (2) C00191[c]
+    + (3) C00028[c]
+  enzymes:
+  - 1.-.-.-
+  - 3.2.1.31
+  pathways:
+  - Porphyrin and chlorophyll metabolism
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  comment: multi-step reaction
+  orthology:
+  - K01195
+  rpairs:
+  - &id058
+    RC00055:
+    - C00191
+    - C05787
+    RC01251:
+    - C05787
+    - C05791
+  - *id058
+  genes: Athe_2086
+- id: R01332
+  name: beta-D-mannan hydrolases
+  names:
+  - beta-D-mannan hydrolases
+  equation: C02492[c] + (n - 1) C00001[c] <=> (n) C00159[c]
+  enzymes:
+  - 3.2.1.25
+  - 3.2.1.78
+  pathways:
+  - Fructose and mannose metabolism
+  comment: 'multi-step reaction
+
+    endo-hydrolysis (ec 3.2.1.78, see R08612)
+
+    exo-hydrolysis (ec 3.2.1.25, see R08614)'
+  orthology:
+  - K01218
+  - K19355
+  rpairs:
+  - RC00467:
+    - C00159
+    - C02492
+  genes: Athe_1865,Athe_1859,Athe_0227
+- id: R10246
+  name: L-tyrosine 4-methylphenol-lyase (2-iminoacetate-forming)
+  names:
+  - L-tyrosine 4-methylphenol-lyase (2-iminoacetate-forming)
+  equation: C00082[c] + C00019[c] + C00030[c] <=> C15809[c] + C01468[c] + C05198[c]
+    + C00073[c] + C00028[c]
+  enzymes:
+  - 4.1.99.19
+  pathways:
+  - Thiamine metabolism
+  - Metabolic pathways
+  comment: radical SAM
+  orthology:
+  - K03150
+  rpairs:
+  - &id059
+    RC00021:
+    - C00019
+    - C00073
+    RC01434:
+    - C00082
+    - C01468
+    RC03095:
+    - C00082
+    - C15809
+  - *id059
+  - *id059
+  genes: Athe_0169,Athe_0370
+- id: R07768
+  name: octanoyl-[acp]:sulfur sulfurtransferase
+  names:
+  - octanoyl-[acp]:sulfur sulfurtransferase
+  equation: C05752[c] + (2) C17023[c] + (2) C00019[c] <=> C16239[c] + (2) C00073[c]
+    + (2) C05198[c]
+  enzymes:
+  - 2.8.1.8
+  pathways:
+  - Lipoic acid metabolism
+  - Metabolic pathways
+  comment: the reactant sulfur is not elemental sulfur, but it may be from the enzyme
+    itself
+  orthology:
+  - K03644
+  rpairs:
+  - &id060
+    RC00021:
+    - C00019
+    - C00073
+    RC01978:
+    - C05752
+    - C16239
+  - *id060
+  genes: Athe_0701
+- id: R07767
+  name: protein N6-(octanoyl)lysine:sulfur sulfurtransferase
+  names:
+  - protein N6-(octanoyl)lysine:sulfur sulfurtransferase
+  equation: C16236[c] + (2) C17023[c] + (2) C00019[c] <=> C16237[c] + (2) C00073[c]
+    + (2) C05198[c]
+  enzymes:
+  - 2.8.1.8
+  pathways:
+  - Lipoic acid metabolism
+  - Metabolic pathways
+  comment: the reactant sulfur is not elemental sulfur, but it may be from the enzyme
+    itself
+  orthology:
+  - K03644
+  rpairs:
+  - &id061
+    RC00021:
+    - C00019
+    - C00073
+    RC01978:
+    - C16236
+    - C16237
+  - *id061
+  genes: Athe_0701
+- id: R01078
+  name: dethiobiotin:sulfur sulfurtransferase
+  names:
+  - dethiobiotin:sulfur sulfurtransferase
+  equation: C01909[c] + C17023[c] + (2) C00019[c] + (2) C05359[c] + (2) C00080[c]
+    <=> C00120[c] + (2) C00073[c] + (2) C05198[c]
+  enzymes:
+  - 2.8.1.6
+  pathways:
+  - Biotin metabolism
+  - Metabolic pathways
+  comment: 'the reactant sulfur is not elemental sulfur, but it may be from the enzyme
+    itself ([2Fe-2S] iron-sulfur centre)
+
+    multi-step reaction'
+  orthology:
+  - K01012
+  rpairs:
+  - &id062
+    RC00021:
+    - C00019
+    - C00073
+    RC00441:
+    - C00120
+    - C01909
+  - *id062
+  genes: Athe_2541,Athe_2647
