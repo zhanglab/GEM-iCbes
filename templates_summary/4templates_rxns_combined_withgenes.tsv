@@ -1,0 +1,1359 @@
+rxn_id	in_Cbes_model_through_keggPsammoate	Cbes_gene_kegg	in_Cnes_model_through_CcePsammotate	Cbes_genes_cce	Cce_rxn	in_Cbes_model_through_CthPssammotate	Cbes_genes_cth	Cth_rxn	in_Cbes_model_through_TsacPsammotate	Cbes_genes_tsac	Tsac_rxn
+R04949	True	peg.2930 or peg.878	False	None	None	False	None	None	False	None	None
+R03293	True	peg.1827	False	None	None	False	None	None	False	None	None
+R00093	False	-	True	peg.1085	GLUSx	False	None	None	False	None	None
+TYRt2r	False	None	False	None	None	False	None	TYRt2r	False	None	None
+R06200	True	peg.2380 or peg.2376 or peg.633 or peg.1027	False	None	None	False	None	None	False	None	None
+R01968	False	None	False	-	NTD8	False	-	NTD8	False	None	None
+R06202	False	- or -	False	None	None	False	None	None	False	None	None
+R06203	True	peg.581	False	None	None	False	None	None	False	None	None
+R11188	True	peg.1782 or peg.2439	False	None	None	False	None	None	False	None	None
+R06207	True	peg.625	False	None	None	False	None	None	False	None	None
+R07238	True	peg.1685	False	None	None	False	None	None	False	None	None
+FACOAL100	False	None	False	None	None	False	-	FACOAL100	False	None	FACOAL100
+R03968	True	peg.2652 or peg.2651	False	peg.2652 and peg.2651 and peg.2651 and -	IPPMIb	True	peg.2651 and peg.2652	IPPMIb	True	peg.2652	IPPMIb
+R01395	True	peg.1868 or peg.2035 or peg.2036	False	None	None	False	None	None	False	None	None
+R02071	True	peg.542	False	None	None	False	None	FRUK	False	None	None
+R02437	True	peg.1160	False	None	None	False	None	None	False	None	None
+UGMDDS	False	None	False	None	None	True	peg.1233	UGMDDS	False	None	None
+R04640	True	peg.1967	True	peg.1967	PRMICI	True	peg.1967	PRMICIi	True	peg.1967	PRMICIi
+R00948	True	peg.988 or peg.989	False	None	GLGC	False	- and (peg.434 or peg.989)	GLGC	True	peg.632	GLGC
+R03038	True	peg.1819	True	peg.1819	ALATRS	True	peg.1819	ALATRS	True	peg.1819	ALATRS
+PIt8	False	None	True	peg.1978	PIt8	False	None	None	False	None	None
+R01444	False	None	False	None	None	True	peg.878 or peg.2930	bglu3,bglu3_ext	False	None	None
+R00746	False	None	False	None	None	False	None	None	False	None	ADH2
+R04112	True	- or peg.2055 or - or -	False	None	None	True	- or peg.2408 or (peg.1545 or peg.850) or peg.2055 or -	AMAA	False	-	AMAA
+R00749	False	None	False	None	ETHAAL	False	None	None	False	None	None
+SLDy	False	None	False	None	None	False	None	None	True	(peg.2522 or peg.2680 or peg.2970)	SLDy
+R03035	True	peg.1714	True	peg.1714	PTPAT	True	peg.1714	PTPATi	True	peg.1714	PTPATi
+R07268	False	None	False	None	None	False	-	CBIAT	False	-	CBIAT
+R00585	False	None	False	None	None	False	None	SPTi	True	peg.2681	SPTi
+R10170	True	peg.2652 or peg.2651	False	None	None	False	None	None	False	None	None
+R00428	True	peg.861	False	None	None	False	None	R2	False	None	None
+R00429	False	-	True	peg.2470	GTPDPK	True	peg.2470	GTPDPK	True	peg.2470	GTPDPK
+CAt6	False	None	True	peg.2195	CAt6	False	None	None	False	None	None
+R00582	True	peg.354	False	None	None	False	None	PSP_L	True	(peg.122 or peg.2621 or peg.2766 or peg.2884 or peg.754 or peg.817 or peg.93 or peg.999)	PSP_L
+R00875	False	None	True	(peg.2633 or peg.968) or (peg.2633 or peg.968)	SBTD_Dr	False	None	None	True	(peg.2633 or peg.968)	SBTD_Dr
+R00420	True	peg.2465	False	None	UAG2E	True	- or peg.2465	UAG2E	True	peg.2465	UAG2E
+R00421	True	peg.1725	False	None	None	False	None	None	False	None	None
+R00426	True	peg.1298	False	None	None	False	None	None	False	None	None
+H2td	False	None	False	None	H2td	False	None	H2td	False	None	H2td
+KAS1	False	None	False	None	None	True	peg.1641 and peg.1640 and peg.1639 and peg.1638 and peg.1637 and peg.1636 and peg.1635	KAS1	True	peg.1641	KAS1
+R02961	True	- or peg.3023 or peg.2557	False	None	None	False	None	None	False	None	None
+R08557	True	peg.2808	False	None	None	False	None	None	False	None	None
+PPTGS_CT	False	None	False	None	None	False	None	PPTGS_CT	False	None	PPTGS_CT
+R06447	True	peg.2324	False	None	None	False	None	None	False	None	None
+FACOAL180	False	None	False	None	None	False	-	FACOAL180	True	peg.1248	FACOAL180
+FACOAL181	False	None	False	None	None	False	-	FACOAL181	True	peg.1248	FACOAL181
+R09592	True	peg.958	False	None	None	False	None	None	False	None	None
+LIPO1S24_CT	False	None	False	None	None	False	None	LIPO1S24_CT	False	None	LIPO1S24_CT
+KAS17	False	None	False	None	None	True	peg.1641 and peg.1640 and peg.1639 and peg.1638 and peg.1637 and peg.1636 and peg.1635	KAS17	True	peg.1641	KAS17
+R00722	False	None	False	None	None	False	None	R13	False	-	NDPK9
+R01641	True	peg.2605 or peg.2606 or peg.2903	False	-	TKT1	True	(peg.2606 or peg.2606) and (peg.2605 or peg.2605)	TKT1	True	peg.2605	TKT1
+KAS10	False	None	False	None	None	True	peg.1641 and peg.1640 and peg.1639 and peg.1638 and peg.1637 and peg.1636 and peg.1635	KAS10	True	peg.1641	KAS10
+KAS13	False	None	False	None	None	True	peg.1641 and peg.1640 and peg.1639 and peg.1638 and peg.1637 and peg.1636 and peg.1635	KAS13	True	peg.1641	KAS13
+KAS12	False	None	False	None	None	True	peg.1641 and peg.1640 and peg.1639 and peg.1638 and peg.1637 and peg.1636 and peg.1635	KAS12	True	peg.1641	KAS12
+CO2t	False	None	False	None	CO2t	False	None	CO2t	False	None	CO2t
+R04544	True	peg.2593	True	peg.2593	3HAD160	False	None	None	False	None	None
+TECA3S45	False	None	False	None	TECA3S45	False	None	TECA3S45	False	None	TECA3S45
+PPTGS_CC	False	None	True	(peg.1742 or peg.1767 or peg.2054) or (peg.1742 or peg.1767 or peg.2054) or (peg.1742 or peg.1767 or peg.2054)	PPTGS_CC	False	None	None	False	None	None
+R04543	True	peg.1639	True	(peg.1152 or peg.1639 or peg.2965 or peg.611 or peg.932) or - or - or (peg.1152 or peg.1639 or peg.2965 or peg.611 or peg.932)	3OAR160	False	None	None	False	None	None
+R04014	False	None	False	-	FA120ACPHi	False	None	None	False	None	None
+R04463	True	peg.1942 or peg.1943 or peg.1941	False	-	PRFGS	False	-	PRFGS	False	-	PRFGS
+R02291	False	-	True	peg.1618	ASAD	True	peg.1618	ASAD	True	peg.1618	ASAD
+KAS100iso	False	None	False	None	None	True	peg.1641 and peg.1640 and peg.1639 and peg.1638 and peg.1637 and peg.1636 and peg.1635	KAS100iso	False	None	KAS100iso
+LIPO1S24_CA	False	None	False	None	LIPO1S24_CA	False	None	None	False	None	None
+R02296	True	peg.2286	True	peg.2286	PYNP1r	True	peg.2286	PYNP1r	True	peg.2286	PYNP1r
+R02295	True	peg.2283	False	None	None	False	None	None	False	None	None
+R02294	True	peg.2283	False	None	None	True	(peg.1850 or peg.2283 or peg.2293) or -	PNP	False	-	PNP
+R03104	True	peg.2434	True	peg.2434 or peg.2434	MCLOR	False	None	None	True	peg.2434	MCLOR
+R01819	True	peg.1059	False	None	None	False	None	None	False	None	None
+R05549	True	peg.888 or peg.1585	False	None	None	False	None	None	False	None	None
+R04440	True	peg.935	False	None	None	False	None	None	False	None	None
+R00143	True	peg.1658	False	None	None	False	None	None	False	None	None
+R04049	True	peg.2965	False	None	None	False	None	None	False	None	None
+CODHr	False	None	False	- and -	CODHr	False	-	CODHr	True	peg.1658	CODHr
+R00379	True	peg.2350 or peg.376 or peg.2658 or peg.2318 or peg.945 or peg.2890 or peg.1933 or peg.2437 or peg.1749	False	None	None	False	None	None	False	None	None
+R00066	True	peg.995	True	peg.995	RBFSb	True	peg.995 and peg.993	RBFSb	True	peg.993	RBFSb
+CHTNASE1	False	None	False	None	None	False	None	None	False	-	CHTNASE1
+R11312	True	peg.785	False	None	None	False	None	None	False	None	None
+FACOAL180_ISO_	False	None	False	None	None	False	None	None	False	None	FACOAL180_ISO_
+R00734	True	peg.1306 or peg.1610 or peg.1970	True	(peg.1610 or peg.1906 or peg.977) or (peg.1306 or peg.1970)	TYRTA	True	peg.1610 or (peg.1306 or peg.1970) or - or peg.1906	TYRTA	True	(peg.1610 or peg.1906 or peg.977)	TYRTA
+R04225	True	peg.1158	False	None	None	False	None	None	False	None	None
+R00377	True	peg.2350 or peg.376 or peg.2658 or peg.2318 or peg.945 or peg.2890 or peg.1933 or peg.2437 or peg.1749	False	None	None	False	None	None	False	None	None
+AGPATr_CT	False	None	False	None	None	False	None	None	False	None	AGPATr_CT
+KAS3	False	None	False	None	None	True	peg.1641 and peg.1640 and peg.1639 and peg.1638 and peg.1637 and peg.1636 and peg.1635	KAS3	True	peg.1641	KAS3
+R02097	True	peg.962	False	None	None	False	None	None	False	None	None
+R03527	True	peg.2930 or peg.878	False	None	None	False	None	None	False	None	None
+R02096	True	peg.962	False	None	None	False	None	None	False	None	None
+R01103	True	peg.888 or peg.1585	True	peg.1585 or peg.1585 or -	RAFGH	False	None	None	False	None	None
+R01001	False	None	False	None	None	True	(peg.1606 or peg.1675) or (peg.1606 or peg.1675)	CYSTGL	True	(peg.1606 or peg.1675)	CYSTGL
+R01000	True	peg.2434	True	peg.2434 or peg.2434	2HBO	True	peg.2434 or -	2HBO	True	peg.2434	2HBO
+R01166	False	None	False	None	None	False	-	NBAHH	False	None	None
+R01167	False	None	False	None	None	False	-	HISDC	False	None	None
+R00275	False	None	False	None	None	False	None	None	False	-	SPODM
+FACOAL141	False	None	False	None	None	False	-	FACOAL141	False	None	FACOAL141
+R01163	True	peg.1971	False	None	None	False	None	None	False	None	None
+R00321	False	None	False	None	None	True	peg.1219	AMID4	True	peg.1219	AMID4
+R03815	True	peg.1157	False	None	None	False	None	None	False	None	None
+GLCS1	False	None	False	None	GLCS1	True	peg.987 or peg.987	GLCS1	True	(peg.2053 or peg.2612 or peg.631)	GLCS1
+LYSt2r	False	None	False	None	None	False	None	LYSt2r	False	None	None
+R04268	True	peg.1520	False	None	None	False	None	None	False	None	None
+R06590	True	peg.2605 or peg.2606 or peg.2903	False	None	None	False	None	None	False	None	None
+R07605	True	peg.199	False	None	None	False	None	None	False	None	None
+R08614	True	peg.625	False	None	None	False	None	None	False	None	None
+R00900	False	-	False	None	None	False	None	None	False	None	None
+R10813	True	peg.2226 or peg.1263 or peg.1517 or peg.1264	False	None	None	False	None	None	False	None	None
+R10810	True	peg.94	False	None	None	False	None	None	False	None	None
+R10811	True	peg.92	False	None	None	False	None	None	False	None	None
+EXCH_k_c	False	None	False	None	None	False	None	None	False	None	EXCH_k_c
+R03460	True	peg.1303	True	peg.1303	PSCVT	True	peg.1303 or peg.1303	PSCVTi	True	peg.1303	PSCVTi
+R01762	True	- or peg.1584	True	- or peg.1584 or peg.1584 or - or -	LAAF	False	None	None	False	None	None
+R07759	True	peg.1639	False	None	None	False	None	None	False	None	None
+R01761	False	None	False	-	ARAI	False	None	None	False	None	None
+SPMDabc	False	None	False	None	None	False	- and - and - and peg.2315	SPMDabc	True	(peg.1029 or peg.1054 or peg.125 or peg.1310 or peg.2577 or peg.2600 or peg.2629 or peg.2643 or peg.2906 or peg.2955 or peg.469 or peg.572 or peg.815 or peg.90)	SPMDabc
+R01227	False	None	False	-	NTD9	False	-	NTD9	False	None	None
+CYTK12	False	None	False	None	None	False	None	None	True	peg.1813	CYTK12
+R01482	True	peg.1896	True	peg.1896 or peg.1896	GUI1	False	None	None	False	None	None
+CYTK10	False	None	False	None	None	False	None	None	True	peg.1813	CYTK10
+CYTK11	False	None	False	None	None	False	None	None	True	peg.1813	CYTK11
+THRt2r	False	None	False	None	None	False	None	THRt2r	False	None	None
+R08550	True	peg.1157	False	None	None	False	None	None	False	None	None
+CYTK14	False	None	False	None	None	False	None	None	True	peg.1813	CYTK14
+R00470	True	peg.2968	True	peg.2968 or -	DDPGA	True	peg.1804 and peg.1806 and peg.1807	DDPGA	True	peg.1804	DDPGA
+R06080	True	peg.561	False	None	None	False	None	None	False	None	None
+R00742	False	None	False	- and - and - and - and -	ACCOAC	False	None	None	True	peg.1804	ACCOAC
+R01718	True	peg.561	False	None	None	False	None	None	False	None	None
+R01268	False	None	False	None	None	False	None	NNAM	False	-	NNAM
+R01827	True	peg.1982	False	None	None	False	None	None	False	None	None
+L-LACD2	False	None	False	-	L-LACD2	False	None	None	False	None	None
+L-LACD3	False	None	False	-	L-LACD3	False	None	None	False	None	None
+R00552	False	None	False	-	ARGD	False	None	None	False	None	None
+R03659	True	peg.718	False	None	None	True	peg.718	METTRS	False	None	None
+R01466	True	peg.1097	True	peg.1097	THRS	True	peg.1097	THRS	False	-	THRS
+R02984	True	peg.1631 or peg.1410	False	None	None	False	None	None	False	None	None
+R05086	True	peg.1097	False	None	None	False	None	None	False	None	None
+R05085	False	None	False	None	None	False	-	OHPBAT	False	None	None
+TRPt2	False	None	False	-	TRPt2	False	None	None	False	None	None
+R03601	True	peg.2123	False	None	None	False	None	None	False	None	None
+R00490	True	peg.895	False	None	None	False	None	None	False	None	None
+R00996	False	None	False	None	THRD_L	False	None	None	False	None	None
+R00994	True	peg.2650	False	None	None	False	None	None	False	None	None
+R00995	True	peg.1807	False	None	None	False	None	None	False	None	None
+R09942	True	peg.879	False	None	None	False	None	None	False	None	None
+R02869	True	peg.1802	False	None	None	False	None	None	False	None	None
+39	False	None	False	None	39	False	None	None	False	None	None
+H2Ot	False	None	False	None	None	False	None	H2Ot	False	None	H2Ot
+R00259	False	None	False	-	ACGS	False	-	ACGS	False	-	ACGS
+R00258	False	None	False	None	ALATA_L	False	None	ALATA_L	True	(peg.1610 or peg.1906 or peg.977)	ALATA_L
+R11581	True	peg.1703	False	None	None	False	None	None	False	None	None
+33	False	None	False	None	33	False	None	None	False	None	None
+32	False	None	False	None	32	False	None	None	False	None	None
+31	False	None	False	None	31	False	None	None	False	None	None
+30	False	None	False	None	30	False	None	None	False	None	None
+37	False	None	False	None	37	False	None	None	False	None	None
+36	False	None	False	None	36	False	None	None	False	None	None
+35	False	None	False	None	35	False	None	None	False	None	None
+34	False	None	False	None	34	False	None	None	False	None	None
+R00967	True	peg.962	False	None	None	False	None	None	False	None	None
+R00966	True	peg.1074 or -	True	peg.1074 or peg.1863	UPPRT	True	peg.1074 or peg.1863	UPPRT	True	peg.1074	UPPRT
+R00965	True	peg.1867	True	peg.1867	OMPDC	True	peg.1867	OMPDC	True	peg.1867	OMPDC
+R00964	True	peg.962	False	None	None	True	peg.962	URIK1	True	peg.962	URIK1
+R00963	False	None	False	-	NTD2	False	None	None	False	None	None
+R00962	True	peg.962	False	None	None	False	None	None	False	None	None
+R07168	True	peg.736	False	None	None	False	None	None	False	None	None
+R02272	True	peg.1687	False	None	None	True	peg.1687	G1SATi	True	(peg.1687 or peg.2349 or peg.77)	G1SATi
+R00844	False	None	False	None	None	False	None	None	False	-	G3PD2
+R06172	True	peg.1237	False	None	None	False	None	None	False	None	None
+R10268	True	peg.2421	False	None	None	False	None	None	False	None	None
+R00847	True	peg.2526	True	- or (peg.1000 or peg.2526 or peg.2973)	GLYK	True	(peg.1000 or peg.2526 or peg.2973)	GLYK	True	(peg.1000 or peg.2526 or peg.2973)	GLYK
+R00842	False	None	False	-	G3PD1	False	-	G3PD1	False	-	G3PD1
+R00968	True	peg.962	False	None	None	True	peg.962	URIK2	True	peg.962	URIK2
+R00192	False	-	True	peg.1346	AHC	True	peg.1346	AHC	True	peg.935	AHC
+Kabc	False	None	False	None	None	False	None	Kabc	False	None	None
+R00190	True	peg.1082 or peg.2471	False	- and peg.2471	ADPT	True	peg.2471 or peg.1082	ADPT	True	peg.2471	ADPT
+R07604	True	peg.1158	False	None	None	False	None	None	False	None	None
+R07603	True	peg.1158	False	None	None	False	None	None	False	None	None
+R07769	True	peg.1154	False	None	None	False	None	None	False	None	None
+R07601	True	peg.1158	False	None	None	False	None	None	False	None	None
+R07600	True	peg.1158	False	None	None	False	None	None	False	None	None
+R07764	True	peg.2593	True	peg.2593	3HAD180	False	None	None	False	None	None
+R07765	False	None	True	(peg.1586 or peg.1594 or peg.1962) or -	EAR180x	False	None	None	False	None	None
+R07766	True	peg.1154	False	None	None	False	None	None	False	None	None
+R03802	False	None	False	None	None	True	peg.878 or peg.2930	bglu5,bglu5_ext	False	None	None
+XANt2r	False	None	False	None	None	False	None	XANt2r	False	None	None
+R07762	True	peg.1641	True	peg.1641 or - or - or peg.1637 or peg.1637 or - or - or - or (peg.1586 or peg.1594 or peg.1962) or -	MCMAT8	False	None	None	False	None	None
+R07763	True	peg.1639	True	(peg.1152 or peg.1639 or peg.2965 or peg.611 or peg.932) or - or - or (peg.1152 or peg.1639 or peg.2965 or peg.611 or peg.932)	3OAR180	False	None	None	False	None	None
+R01216	True	peg.2503	False	None	None	False	None	None	False	None	None
+R01214	True	peg.1109	True	(peg.1109 or peg.2778) or (peg.1109 or peg.2778)	VALTA	False	-	VALTA	True	(peg.1109 or peg.2778)	VALTA
+R09386	True	peg.2219	False	None	None	False	None	None	False	None	None
+R01213	True	peg.936 or -	True	(peg.936 or peg.938) or (peg.936 or peg.938) or (peg.936 or peg.938)	IPPS	True	peg.938 or peg.936	IPPS	True	(peg.936 or peg.938)	IPPS
+R01210	False	None	False	None	None	False	None	OIVD2	True	peg.2746	OIVD2
+R00988	True	peg.1006	False	None	None	False	None	None	False	None	None
+R07599	True	peg.1158	False	None	None	False	None	None	False	None	None
+R00955	True	peg.1408	False	None	None	False	None	None	False	None	None
+R10991	True	peg.1109	False	None	None	False	None	None	False	None	None
+R01325	True	peg.955	False	None	None	False	None	None	False	None	None
+R07161	True	peg.1998 or peg.1999 or peg.1489 or peg.1488	False	None	None	True	(peg.1337 or peg.1489 or peg.1579 or peg.1998)	IOR	True	(peg.1337 or peg.1489 or peg.1579 or peg.1998)	IOR
+L_LACt2	False	None	False	None	None	False	None	None	False	None	L_LACt2
+R02707	True	peg.2465	False	None	None	False	None	None	False	None	None
+cellpp	False	None	False	None	None	True	peg.880	cellpp	False	None	None
+R00586	True	peg.2819	True	peg.2819	SERAT	True	peg.2819	SERAT	True	peg.2819	SERAT
+R08310	True	peg.2808	False	None	None	False	None	None	False	None	None
+R02003	True	peg.1483	False	None	None	False	None	GRTT	False	None	None
+R00307	True	peg.1037	False	None	None	False	None	None	True	peg.1037	XYLI2i
+R08645	True	peg.2652	False	None	None	False	None	None	False	None	None
+R01818	True	peg.632	True	peg.632 or peg.632 or (peg.2262 or peg.2586)	PMANM	False	None	None	False	None	None
+R10035	True	peg.2930 or peg.878	False	None	None	False	None	None	False	None	None
+R08648	True	peg.934 or peg.1111 or peg.933	True	(peg.1111 or peg.933) and peg.934 and (peg.1111 or peg.933)	ACHBS	True	peg.934 and ((peg.1111 or peg.933) or (peg.1111 or peg.933))	ACHBS	True	peg.934	ACHBS
+R07280	False	None	True	peg.2219	PMDPHT	False	None	PMDPHT	False	None	None
+R09380	True	peg.1636 or peg.1208 or peg.2740	False	None	G3PAT141,G3PAT140,G3PAT180,G3PAT181,G3PAT160,G3PAT120,G3PAT161	False	None	None	False	None	None
+R01954	True	peg.1736	True	peg.1736	ARGSSr	True	peg.1736	ARGSSr	True	peg.1736	ARGSSr
+R07285	True	peg.1297	False	None	None	False	None	None	False	None	None
+R09383	True	peg.2219	False	None	None	False	None	None	False	None	None
+R07461	True	peg.2041	False	None	None	False	None	None	False	None	None
+R01329	True	peg.888 or peg.1585	True	peg.1585 or peg.1585 or -	EPMGH	False	None	None	False	None	None
+R08362	True	peg.401	False	None	None	False	None	None	False	None	None
+SUCCt2r	False	None	False	None	None	False	None	SUCCt2r	False	None	None
+HISabc	False	None	True	(peg.1321 or peg.2196 or peg.2197)	HISabc	False	None	None	False	None	None
+RIBabc	False	None	True	(peg.2831 or peg.486 or peg.490) or peg.1053 or (peg.2832 or peg.492)	RIBabc	True	((peg.1876 or peg.2292 or peg.2747 or peg.2833 or peg.491 or peg.676) and peg.2291 and peg.2290) or ((peg.1876 or peg.2292 or peg.2747 or peg.2833 or peg.491 or peg.676) and (peg.2832 or peg.492) and (peg.2831 or peg.486 or peg.490))	RIBabc	True	(peg.2832 or peg.492)	RIBabc
+R00508	True	peg.1534	False	None	None	False	None	None	False	None	None
+DHDPS	False	None	True	peg.1617 or peg.1617 or peg.1617	DHDPS	True	peg.1617	DHDPS	True	peg.1617	DHDPS
+R10040	True	peg.2930 or peg.878	False	None	None	False	None	None	False	None	None
+R04509	True	peg.796	True	peg.796	PMPK	False	None	None	False	None	None
+R07264	True	peg.813	False	None	None	False	None	None	False	None	None
+R02413	True	peg.2405	True	peg.2405	SHK3D	True	peg.2405	SHK3D	True	peg.2405	SHK3D
+R02412	True	peg.2209	True	peg.2209 or peg.2209	SHKK	True	peg.2209 or -	SHKK	True	peg.2209	SHKK
+UDCPDP	False	None	False	None	None	True	peg.2346	UDCPDP	False	None	None
+R01549	True	peg.962	False	None	None	False	None	None	False	None	None
+GLUt2r	False	None	False	None	None	False	None	GLUt2r	False	None	None
+GLNabc	False	None	True	peg.2461	GLNabc	False	None	None	False	None	None
+R06613	True	peg.2590	False	None	None	False	None	None	False	None	None
+NADH5	False	None	False	None	None	False	None	None	True	peg.1786	NADH5
+R02558	True	peg.2930 or peg.878	False	None	None	False	None	None	False	None	None
+R04435	False	None	False	None	None	False	- or -	ACNAM9PL	False	-	ACNAM9PL
+R05743	True	peg.1985	False	None	None	False	None	None	False	None	None
+PDX5PS	False	None	False	None	None	False	None	PDX5PS	False	None	None
+R00674	True	peg.411 or peg.2199 or peg.2200	False	- and (peg.2200 or peg.411) and (peg.2200 or peg.411) and peg.2199	TRPS2	True	peg.2199 and ((peg.2200 or peg.411) or (peg.2200 or peg.411))	TRPS2	True	(peg.2200 or peg.411)	TRPS2
+R00104	True	peg.1821	True	peg.1821	NADK	True	peg.1821	NADK	True	peg.1821	NADK
+R02557	True	peg.2283	False	-	PUNP2	False	None	PUNP2	False	None	None
+R08218	True	peg.1335	False	None	None	False	None	None	False	None	None
+R04591	True	peg.1944	True	peg.1944	PRASCS	True	peg.1944	PRASCS	True	peg.1944	PRASCS
+R00424	True	peg.861	False	-	GTPCI	False	-	GTPCI	False	-	GTPCI
+R04594	False	None	False	None	None	True	(peg.1810 or peg.1872)	RZ5PP	True	(peg.1810 or peg.1872)	RZ5PP
+R01900	True	peg.955	False	None	None	False	None	None	False	None	None
+R00772	True	peg.1059	False	-	MAN6PI	False	-	MAN6PI	False	-	MAN6PI
+R06245	True	peg.94	False	None	None	False	None	None	False	None	None
+R00770	True	peg.1752 or peg.2336	False	None	None	False	None	None	False	None	None
+R00771	True	peg.1059	False	-	PGI2,PGI	False	-	PGI	False	-	PGI
+R01478	False	-	False	None	None	False	None	None	False	None	None
+R00885	True	peg.810 or peg.1964 or peg.632	False	None	None	False	None	None	False	None	None
+R10997	True	peg.1158	False	None	None	False	None	None	False	None	None
+R10996	True	peg.1158	False	None	None	False	None	None	False	None	None
+R01049	False	-	True	peg.1077	PRPPS	True	peg.1077	PRPPS	True	peg.1077	PRPPS
+R01326	False	None	False	-	HEX4	False	None	None	False	None	None
+R01324	True	peg.955	True	peg.955	ACONT	True	peg.955	ACONT	True	peg.955	ACONT
+XYLabc	False	None	True	(peg.2831 or peg.486 or peg.490) or peg.1053 or (peg.2831 or peg.486 or peg.490)	XYLabc	True	((peg.1876 or peg.2292 or peg.2747 or peg.2833 or peg.491 or peg.676) and peg.2291 and peg.2290) or ((peg.1876 or peg.2292 or peg.2747 or peg.2833 or peg.491 or peg.676) and (peg.2832 or peg.492) and (peg.2831 or peg.486 or peg.490))	XYLabc	True	(peg.2832 or peg.492)	XYLabc
+R01041	False	None	True	peg.841	ALCD19_D	False	None	None	False	None	None
+R01736	False	None	False	-	GLYOX	False	None	None	False	None	None
+NCTPPRT	False	None	False	-	NCTPPRT	False	None	None	False	None	None
+R02918	True	peg.1349	False	None	None	True	peg.1349	TYRTRS	True	peg.1349	TYRTRS
+CA2abc	False	None	False	None	None	False	None	CA2abc	False	None	None
+R10653	True	peg.1462	False	None	None	False	None	None	False	None	None
+R11063	True	peg.736	False	None	None	False	None	None	False	None	None
+R07410	False	None	True	(peg.1700 or peg.2634)	ASPO1	False	None	None	False	None	None
+celltp	False	None	False	None	None	True	peg.880	celltp	False	None	None
+R06144	False	- or -	False	None	None	False	None	None	False	None	None
+R04439	True	peg.935	True	peg.935	KARA1	True	peg.935	KARA1	True	peg.935	KARA1
+celloptx	False	None	False	None	None	False	- and (peg.2831 or peg.486 or peg.490)	celloptx	False	None	None
+UREAabc	False	None	False	None	None	False	None	UREAabc	False	None	None
+R05789	True	peg.716	False	None	None	False	None	None	False	None	None
+THMt3	False	None	True	peg.2195 or peg.417	THMt3	False	None	None	False	None	None
+R11310	True	peg.812	False	None	None	False	None	None	False	None	None
+L_LACt4r	False	None	False	None	None	False	None	L_LACt4r	False	None	None
+ETOHt	False	None	False	None	None	False	None	None	False	None	ETOHt
+R02301	False	-	True	peg.1747	FTHFCL	True	peg.1747	FTHFCL	False	-	FTHFCL
+R01773	True	peg.2478	False	None	None	True	peg.2478 or peg.2478	HSDxi	True	peg.2478	HSDxi
+R01869�	False	None	False	None	None	False	None	None	True	peg.1871	DHORD2
+R03096	False	None	False	None	None	True	peg.1219	AMID3	True	peg.1219	AMID3
+R01600	True	peg.984	True	(peg.1056 or peg.984)	GLUK2	False	None	None	False	None	None
+FACOAL140	False	None	False	None	None	False	-	FACOAL140	True	peg.1248	FACOAL140
+R01602	False	None	False	-	GALM2pp	False	None	None	False	None	None
+R06094	True	peg.888 or peg.1585	False	None	None	False	None	None	False	None	None
+Coabc	False	None	False	- or -	Coabc	False	None	None	False	None	None
+R06099	False	- or -	False	None	None	False	None	None	False	None	None
+R06098	False	- or -	False	None	None	False	None	None	False	None	None
+R01445	True	peg.94	False	None	None	False	None	None	False	None	None
+UGT1_CT	False	None	False	None	None	False	None	None	False	None	UGT1_CT
+ILEt2r	False	None	False	None	None	False	None	ILEt2r	False	None	None
+R06093	True	peg.888 or peg.1585	False	None	None	False	None	None	False	None	None
+R01137	False	None	False	None	None	False	-	NDPK8	False	-	NDPK8
+R05046	True	peg.861	False	None	None	False	None	R1	False	None	None
+R01135	True	peg.426	True	peg.426	ADSS	True	peg.426	ADSS	True	peg.426	ADSS
+CLPNS2_CT	False	None	False	None	None	False	None	None	False	None	CLPNS2_CT
+R08221	True	peg.2288	False	None	None	False	None	None	False	None	None
+R01132	True	peg.1082	True	peg.1082	HXPRT	True	peg.1082	HXPRT	True	peg.1082	HXPRT
+R01130	True	peg.2148	True	peg.2148 or -	IMPD	True	peg.2148	IMPD	True	peg.2148	IMPD
+R00956	False	None	False	None	None	False	-	G1PCTR	True	(peg.434 or peg.989)	G1PCTR
+KAS11	False	None	False	None	None	True	peg.1641 and peg.1640 and peg.1639 and peg.1638 and peg.1637 and peg.1636 and peg.1635	KAS11	True	peg.1641	KAS11
+R01776	True	peg.1607	False	None	HSAT	False	None	None	False	None	None
+R00952	True	peg.880	True	peg.879 or peg.880	6	True	peg.880	cellbp	False	None	None
+R06185	True	peg.123 or peg.986	False	None	None	False	None	None	False	None	None
+R02853	True	peg.354	False	None	None	False	None	None	False	None	None
+R01138	True	peg.1753	True	peg.1753	PYK5	False	None	None	False	None	None
+NO3t7	False	None	False	None	None	False	None	NO3t7	False	None	None
+R00212	False	None	False	- or -	PFLr	False	-	PFL	False	-	PFL
+TECA1S45	False	None	False	None	TECA1S45	False	None	TECA1S45	False	None	TECA1S45
+R01715	True	peg.2477 or peg.1812	True	peg.2477 or - or peg.1812	CHORM	True	peg.1812	CHORM	True	peg.1813	CHORM
+R00217	True	peg.1807 or peg.1543	True	peg.808	OAADC	True	peg.1804 and peg.1806 and peg.1807	OAAdecarb	True	(peg.936 or peg.938)	OAAdecarb
+R01787	False	None	True	peg.841	SBTR	False	None	None	False	None	None
+R07237	True	peg.1685	False	None	None	False	None	None	False	None	None
+TRPt2r	False	None	False	None	None	False	None	TRPt2r	False	None	None
+R03457	True	peg.1969	True	peg.1969	IGPDH	True	peg.1969	IGPDH	True	peg.1969	IGPDH
+RIBFLVt6	False	None	False	None	RIBFLVt6	False	None	None	False	None	None
+R08163	False	None	False	-	FA180ACPH	False	None	None	False	None	None
+R02619	True	peg.1610	False	None	None	False	None	None	False	None	None
+R01248	True	peg.1827	False	None	None	True	peg.1827	PRO1x_r	True	peg.1827	P5CRx,PRO1x
+R00351	False	None	False	-	CS	False	-	CS	True	(peg.936 or peg.938)	CS
+R02985	True	peg.2930 or peg.878	False	None	None	False	None	None	False	None	None
+R00353	False	None	False	None	None	False	None	ACCOAC	False	None	None
+biomass_target	False	None	False	None	None	False	None	None	False	None	biomass_target
+BIOMASS	False	None	False	None	BIOMASS	False	None	None	False	None	None
+R03458	True	peg.996	True	peg.996	APRAUR	True	peg.996	APRAUR	True	peg.996	APRAUR
+R03459	True	peg.996	True	peg.996	DHPPDA2	True	peg.996	DHPPDA	True	peg.996	DHPPDA
+R03321	True	peg.1059	False	None	None	False	None	R7	False	None	None
+R02298	True	peg.2286	False	None	None	False	None	None	False	None	None
+cellotettx	False	None	False	None	None	False	- and (peg.2831 or peg.486 or peg.490)	cellotettx	False	None	None
+GLCabc	False	None	True	(peg.2831 or peg.486 or peg.490) or peg.1053 or (peg.1029 or peg.1054 or peg.125 or peg.1310 or peg.2577 or peg.2600 or peg.2629 or peg.2643 or peg.2906 or peg.2955 or peg.469 or peg.572 or peg.815 or peg.90) or (peg.2832 or peg.492)	GLCabc	False	None	None	False	None	None
+R00923	False	None	True	peg.1806	MMCD	True	peg.1804 and peg.1806 and peg.1807	MMCD	True	peg.1806	MMCD
+R00921	True	peg.1987	True	peg.1987	PTA2r	True	peg.1987	PTA2	True	peg.1987	PTA2
+UGT2_CT	False	None	False	None	None	False	None	UGT2_CT	False	None	UGT2_CT
+R02237	False	-	True	peg.1983	DHFS	True	peg.1983	DHFS	True	peg.1983	DHFS
+R02236	False	None	False	-	DHFOR2	False	None	None	False	None	None
+R05223	False	None	False	None	None	False	-	ADOCBLS	False	-	ADOCBLS
+R05222	False	None	False	None	None	False	-	ACBIPGT	False	-	ACBIPGT
+R05221	False	None	False	None	None	False	-	ADOCBIK	False	-	ADOCBIK
+R10650	True	peg.1769	False	None	None	False	None	None	False	None	None
+R04724	False	None	True	(peg.1586 or peg.1594 or peg.1962) or -	EAR120x	False	None	None	False	None	None
+R04726	True	peg.1641	True	peg.1641 or - or - or peg.1637 or peg.1637 or - or - or - or (peg.1586 or peg.1594 or peg.1962) or -	3OAS140	False	None	None	False	None	None
+ADK2	False	None	True	peg.2234	ADK2	False	None	None	False	None	None
+R07641	True	peg.1868 or peg.2035 or peg.2036	False	None	None	False	None	None	False	None	None
+R07640	True	peg.2739	False	None	None	False	None	None	False	None	None
+R07133	True	peg.1152	False	None	None	False	None	None	False	None	None
+R08612	True	peg.2375 or peg.2379	False	None	None	False	None	None	False	None	None
+GLCpts	False	None	False	None	None	False	None	None	False	None	GLCpts
+cellulase3	False	None	False	None	None	False	(- or - or - or - or - or - or - or peg.2375 or -) and (- or - or - or -)	cellulase3	False	None	None
+R03355	False	- or -	False	None	None	False	None	None	False	None	None
+UGT_CT	False	None	False	None	None	False	None	UGT_CT	False	None	UGT_CT
+R05197	False	-	False	None	None	False	None	None	False	None	None
+R03634	True	peg.888 or peg.1585	True	peg.1585 or peg.1585 or -	GALS4	False	None	None	False	None	None
+cellulase5	False	None	False	None	None	False	(- or - or - or - or - or - or - or peg.2375 or -) and (- or - or - or -)	cellulase5	False	None	None
+R05630	True	peg.1234	True	peg.1234	PAPPT3	True	peg.1234	PAPPT3	False	None	None
+R09593	True	peg.958	False	None	None	False	None	None	False	None	None
+R01251	True	peg.1827	True	peg.1827	P5CR	True	peg.1827	P5CR	True	peg.1827	P5CR
+R05634	True	peg.2033	False	None	None	True	peg.2033	CDPMEK	True	peg.2033	CDPMEK
+R05635	True	peg.1520	False	None	None	False	None	None	False	None	None
+R05636	True	peg.1776	False	None	None	True	peg.1776	DXPS	True	peg.1776	DXPS
+R05637	True	peg.1621	False	None	None	True	peg.1621	MECDPS	True	peg.1621	MECDPS
+DHDPRx	False	None	True	peg.1616 or peg.1616	DHDPRx	False	None	None	False	None	None
+DHDPRy	False	None	True	peg.1616 or peg.1616	DHDPRy	True	peg.1616 or peg.1616	DHDPRy	False	None	None
+R01856	True	peg.1165	True	peg.1165	NTPTP1	False	None	None	False	None	None
+R01857	False	None	False	None	None	False	-	NDPK5	False	-	NDPK5
+KAS9	False	None	False	None	None	True	peg.1641 and peg.1640 and peg.1639 and peg.1638 and peg.1637 and peg.1636 and peg.1635	KAS9	True	peg.1641	KAS9
+KAS8	False	None	False	None	None	True	peg.1641 and peg.1640 and peg.1639 and peg.1638 and peg.1637 and peg.1636 and peg.1635	KAS8	True	peg.1641	KAS8
+R02777	True	peg.440	False	None	None	False	None	None	False	None	None
+KAS5	False	None	False	None	None	True	peg.1641 and peg.1640 and peg.1639 and peg.1638 and peg.1637 and peg.1636 and peg.1635	KAS5	True	peg.1641	KAS5
+R02297	True	peg.2283	False	-	PUNP7	True	(peg.1850 or peg.2283 or peg.2293) or -	PUNP7	False	-	PUNP7
+KAS7	False	None	False	None	None	True	peg.1641 and peg.1640 and peg.1639 and peg.1638 and peg.1637 and peg.1636 and peg.1635	KAS7	True	peg.1641	KAS7
+KAS6	False	None	False	None	None	True	peg.1641 and peg.1640 and peg.1639 and peg.1638 and peg.1637 and peg.1636 and peg.1635	KAS6	True	peg.1641	KAS6
+R01858	True	peg.1753	True	peg.1753	PYK6	False	None	None	False	None	None
+R01859	False	None	True	peg.1804	PPCOAC	False	None	None	True	peg.1804	PPCOAC
+R01993	True	peg.1866	True	peg.1866	DHORTS	True	peg.1866	DHORTS	True	peg.1866	DHORTS
+R00502	False	None	False	-	GALT	False	None	None	False	None	None
+R02124	True	peg.2808	False	None	None	False	None	None	False	None	None
+R02023	False	None	True	peg.979	RNTR4	False	None	None	False	None	None
+R04805	True	peg.2808	False	None	None	False	None	None	False	None	None
+PIt2r	False	None	False	None	None	False	None	PIt2r	False	None	None
+KAS180iso	False	None	False	None	None	False	None	None	False	None	KAS180iso
+IOR2	False	None	False	None	None	True	(peg.1337 or peg.1489 or peg.1579 or peg.1998)	IOR2	True	(peg.1337 or peg.1489 or peg.1579 or peg.1998)	IOR2
+IOR3	False	None	False	None	None	True	(peg.1337 or peg.1489 or peg.1579 or peg.1998)	IOR3	True	(peg.1337 or peg.1489 or peg.1579 or peg.1998)	IOR3
+R09735	True	peg.1288 or peg.1287	False	None	None	False	None	None	False	None	None
+R02886	False	None	False	None	None	False	(- or - or - or - or - or - or - or peg.2375 or -) and (- or - or - or -)	cellulase2	False	None	None
+R00513	True	peg.962	False	None	None	True	peg.962	CYTDK1	True	peg.962	CYTDK1
+H2Ot5	False	None	False	None	H2Ot5	False	None	None	False	None	None
+R02887	True	peg.2930 or peg.878	False	None	None	False	None	None	False	None	None
+TECA4S_CT	False	None	False	None	None	False	None	TECA4S_CT	False	None	TECA4S_CT
+R06096	True	peg.888 or peg.1585	False	None	None	False	None	None	False	None	None
+R07180	True	peg.401	False	None	None	False	None	None	False	None	None
+R07181	True	peg.1785 or peg.1783 or peg.1786 or peg.1787	False	None	None	False	-	NADPOX	False	None	None
+R03024	True	peg.359	False	None	None	False	None	None	False	None	None
+R03020	True	peg.2194	False	None	None	False	None	None	False	None	None
+R10092	False	None	False	-	HCO3E	False	None	H2CO3D	False	None	None
+R03646	True	peg.2582	True	peg.2582	ARGTRS	True	peg.2582	ARGTRS	True	peg.2582	ARGTRS
+R03180	False	None	False	None	None	False	None	None	True	peg.1219	AMID
+R06186	True	peg.990	False	None	None	False	None	None	False	None	None
+R03182	True	peg.78	False	None	None	True	peg.78	DBTSr	False	-	DBTSr
+R02735	True	peg.2670	False	None	None	True	peg.2670	DAPE	True	peg.2670	DAPE
+R00286	False	None	False	None	None	True	peg.2330	UDPGDr	False	None	None
+R08601	True	peg.328	False	None	None	False	None	None	False	None	None
+R08060	True	peg.678	False	None	None	False	None	None	False	None	None
+DAPDH	False	None	False	-	DAPDH	False	-	DAPDH	False	None	None
+R01920	True	peg.1802	False	None	None	True	peg.1802	SPMS	True	peg.1802	SPMS
+R00438	True	peg.1538	False	None	None	False	None	None	False	None	None
+FRUpts	False	None	False	None	None	False	None	FRUpts	False	None	None
+R02454	True	peg.1315	True	peg.1315	MANAO	False	None	None	False	None	None
+R00431	True	peg.808	True	peg.808	PPCKG	False	None	PEPCKr	False	-	PEPCK
+ARBabc	False	None	True	(peg.2831 or peg.486 or peg.490) or peg.1053	ARBabc	True	((peg.1876 or peg.2292 or peg.2747 or peg.2833 or peg.491 or peg.676) and peg.2291 and peg.2290) or ((peg.1876 or peg.2292 or peg.2747 or peg.2833 or peg.491 or peg.676) and (peg.2832 or peg.492) and (peg.2831 or peg.486 or peg.490))	ARBabc	True	(peg.2292 or peg.2833 or peg.491)	ARBabc
+R10147	True	peg.1617	False	None	None	False	None	None	False	None	None
+R00435	True	peg.2226 or peg.1263 or peg.1517 or peg.1264	False	None	None	False	None	None	False	None	None
+R00434	False	None	False	-	ADNCYC2 	False	None	None	False	None	None
+R00437	True	peg.1538	False	None	None	False	None	None	False	None	None
+R00436	True	peg.2739	False	None	None	False	None	None	False	None	None
+R01678	False	- or -	True	peg.2950 or peg.2445 or peg.2950 or peg.1317	LACZ	False	None	None	False	None	None
+CYTK3	False	None	False	None	None	False	None	None	True	peg.1813	CYTK3
+CYTK4	False	None	False	None	None	False	None	None	True	peg.1813	CYTK4
+FACOAL161	False	None	False	None	None	False	-	FACOAL161	True	peg.1248	FACOAL161
+FORt2	False	None	False	None	FORt2	False	None	None	False	None	None
+FORt3	False	None	False	None	None	False	None	FORt3	False	None	None
+NTP2	False	None	False	None	None	True	peg.1298	NTP2	True	peg.1298	NTP2
+CYTK9	False	None	False	None	None	False	None	None	True	peg.1813	CYTK9
+NTP6	False	None	False	None	None	True	peg.1298	NTP6	True	peg.1298	NTP6
+R02334	False	None	False	None	None	False	- and - and -	CHTNASE1	False	None	None
+NTP4	False	None	False	None	None	True	peg.1298	NTP4	True	peg.1298	NTP4
+R02340	True	peg.411 or peg.2199 or peg.2200	False	- and (peg.2200 or peg.411) and (peg.2200 or peg.411) and peg.2199	TRPS3	True	peg.2199 and ((peg.2200 or peg.411) or (peg.2200 or peg.411))	TRPS3	True	(peg.2200 or peg.411)	TRPS3
+R07459	True	peg.784	False	None	None	False	None	None	False	None	None
+R09030	True	peg.1073	False	None	None	False	None	None	False	None	None
+R10247	True	peg.782	False	None	None	False	None	None	False	None	None
+R10246	True	peg.565 or peg.783	False	None	None	False	None	None	False	None	None
+R06513	True	peg.436	True	(peg.1410 or peg.1631 or peg.436) or -	TDPGDH	True	(peg.1410 or peg.1631 or peg.436)	TDPGDH	True	(peg.1410 or peg.1631 or peg.436)	TDPGDH
+R06514	True	peg.435	False	None	None	False	- or -	TDPDRE	False	None	None
+R01104	True	peg.888 or peg.1585	True	peg.1585 or peg.1585 or -	GGLGH	False	None	None	False	None	None
+URAt2	False	None	False	None	None	False	None	URAt2	False	None	None
+R00078	True	peg.2258	False	None	None	False	None	None	False	None	None
+R11485	True	peg.1086	False	None	None	False	None	None	False	None	None
+R01512	True	peg.1899	True	peg.1899	PGK	False	-	PGK	False	-	PGK
+R02585	True	peg.1557	False	None	None	False	None	None	False	None	None
+R00177	True	peg.1139	True	peg.1139 or -	METAT	True	peg.1139	METAT	True	peg.1139	METAT
+R00178	True	peg.2677	True	peg.2677	ADMDC	True	peg.2677	ADMDCr	True	peg.2677	ADMDCr
+R03291	True	peg.1827	True	peg.1827	HPROa	False	None	None	False	None	None
+R05553	False	None	False	None	None	False	None	ADCL	True	(peg.2205 or peg.2779)	ADCL
+R05552	False	None	False	None	None	True	(peg.2204 or peg.2780) or (peg.2205 or peg.2779)	PABB	True	(peg.2205 or peg.2779)	PABB
+R00036	True	peg.1686	False	None	None	True	peg.1686	PPBNGS	True	peg.1686	PPBNGS
+ACt6	False	None	False	None	ACt6	False	None	None	False	None	ACt6
+R02739	True	peg.1059	False	-	G6PI	False	None	R19	False	None	None
+R07767	True	peg.1155	False	None	None	False	None	None	False	None	None
+R00724	True	peg.1753	False	None	None	False	None	None	False	None	None
+KARA2	False	None	True	peg.935	KARA2	True	peg.935	KARA2	True	peg.935	KARA2
+EXCH_coa_c	False	None	False	None	None	False	None	None	False	None	EXCH_coa_c
+R11307	True	peg.2380 or peg.2376 or peg.633 or peg.1027	False	None	None	False	None	None	False	None	None
+R01100	False	- or -	False	None	None	False	None	LACZ	True	peg.878	LACZ
+R04972	True	peg.1308	False	None	None	False	None	None	False	None	None
+CELBabc	False	None	True	(peg.2831 or peg.486 or peg.490) or peg.1053 or (peg.1128 or peg.1216 or peg.135 or peg.1366 or peg.1423 or peg.1441 or peg.156 or peg.1590 or peg.1668 or peg.174 or peg.1875 or peg.1876 or peg.1976 or peg.2009 or peg.2076 or peg.2086 or peg.2215 or peg.2459 or peg.2747 or peg.2813 or peg.2869 or peg.2923 or peg.2927 or peg.2945 or peg.419 or peg.433 or peg.496 or peg.498 or peg.502 or peg.676)	CELBabc	False	None	None	False	None	None
+R11308	True	peg.2380 or peg.2376 or peg.633 or peg.1027	False	None	None	False	None	None	False	None	None
+R00986	True	peg.2205 or peg.2204	True	(peg.2205 or peg.2779) and (peg.2204 or peg.2780)	ANS1	True	(peg.2204 or peg.2780) and (peg.2205 or peg.2779)	ANS	True	(peg.2205 or peg.2779)	ANS
+R04979	False	-	False	None	None	False	None	None	False	None	None
+R01072	True	peg.1940	True	peg.1940	GLUPRT	True	peg.1940	GLUPRT	True	peg.1940	GLUPRT
+R01073	True	peg.2203	True	peg.2203	ANPRT	True	peg.2203	ANPRT	True	peg.2203	ANPRT
+R02783	True	peg.1235	True	peg.1235	UAMAGS	True	peg.1235	UAMAGS	True	peg.1235	UAMAGS
+R01071	True	peg.1972 or peg.1973	True	peg.1972	ATPPRTr	True	peg.1972 and (peg.1025 or peg.1973)	ATPPRT	False	None	None
+R01074	True	peg.607	True	peg.607	BACCL	True	peg.607	BACCL	True	peg.607	BACCL
+R08549	True	peg.1157	False	None	None	False	None	None	False	None	None
+R02788	False	-	True	peg.1232	UAAGDS	False	None	None	True	peg.1232	UAAGDS
+R01078	True	peg.76 or peg.203	False	None	None	False	None	None	True	peg.203	BTS4
+R10613	True	peg.2777	False	None	None	False	None	None	False	None	None
+R04273	True	peg.1080	False	None	None	False	None	None	False	None	None
+R06177	True	peg.204	False	None	None	False	None	None	False	None	None
+FACOAL140_ISO_	False	None	False	None	None	False	-	FACOAL140_ISO_	True	peg.1248	FACOAL140_ISO_
+R00667	False	None	True	(peg.1687 or peg.2349 or peg.77)	ORNTA	False	None	None	False	None	None
+R03801	False	None	False	None	None	True	peg.878 or peg.2930	bglu4_ext,bglu4	False	None	None
+R06173	True	peg.1237	False	None	None	False	None	None	False	None	None
+R00439	True	peg.1538	False	None	None	False	None	None	False	None	None
+R06171	False	None	False	-	THRA2	False	None	None	False	None	None
+R06077	True	peg.2930 or peg.878	False	None	None	False	None	None	False	None	None
+R00315	True	peg.1986	True	peg.1986	ACKr	True	peg.1986	ACKr	True	peg.1986	ACKr
+PYRt2	False	None	False	None	PYRt2	False	None	None	False	None	None
+R07807	False	- or -	False	None	None	False	None	None	False	None	None
+bglu1	False	None	False	None	None	True	peg.878 or peg.2930	bglu1	False	None	None
+EXCH_biomass_c	False	None	False	None	None	False	None	None	False	None	EXCH_biomass_c
+R01373	True	peg.1341	True	peg.1341	PPNDH	True	peg.1341	PPNDH	True	peg.1341	PPNDH
+R06070	True	peg.888 or peg.1585	False	None	None	False	None	None	False	None	None
+R04378	True	peg.2471	False	None	None	False	None	None	False	None	None
+BTS3r	False	None	False	None	None	True	peg.76 or peg.203	BTS3r	False	None	None
+BTS	False	None	True	peg.203	BTS	False	None	None	False	None	None
+ASNt2r	False	None	False	None	None	False	None	ASNt2r	False	None	None
+R11319	True	peg.2234	False	None	None	False	None	None	False	None	None
+R08127	False	-	False	None	None	False	None	None	False	None	None
+R04377	True	peg.2306	False	None	None	False	None	None	False	None	None
+R10807	True	peg.2306	False	None	None	False	None	None	False	None	None
+R10806	True	peg.1551	False	None	None	False	None	None	False	None	None
+R01771	True	peg.2479	False	None	HSK	False	None	HSK	True	(peg.1593 or peg.168 or peg.169 or peg.2020 or peg.2021 or peg.2080 or peg.427 or peg.428 or peg.599 or peg.600 or peg.738 or peg.886)	HSK
+R09959	True	peg.860	False	None	None	False	None	None	False	None	None
+NAPRT	False	None	False	None	None	False	-	NAPRT	False	-	NAPRT
+R03165	True	peg.1685	False	None	None	True	peg.1685	UPP3S	True	peg.1685	UPP3S
+R01775	True	peg.2478	True	peg.2478	HSDy	False	None	None	True	peg.2478	HSDy
+R03163	True	peg.2619	False	None	None	False	None	None	False	None	None
+R01777	False	None	False	-	HSSTr	False	-	HSST	False	-	HSST
+R04965 	False	None	True	peg.2593	3HAD120	False	None	None	False	None	None
+R03789	True	peg.797	False	None	None	False	None	None	False	None	None
+ORNabc	False	None	True	(peg.1321 or peg.2196 or peg.2197)	ORNabc	False	None	None	False	None	None
+R00214	True	peg.1543	True	peg.1543	ME1	True	peg.1543 or (peg.1804 and peg.1806 and peg.1807)	ME1	True	peg.1543	ME1
+R05850	True	peg.2791	True	(peg.127 or peg.2791)	RBP4E	False	None	None	False	None	None
+R09497	False	None	False	None	None	False	None	None	True	(peg.1928 or peg.2018 or peg.2934 or peg.964)	NO3R1
+CYSt2r	False	None	False	None	None	False	None	CYSt2r	False	None	None
+R01786	True	peg.984	False	None	None	False	None	None	False	None	None
+R10223	True	peg.2977	False	None	None	False	None	None	False	None	None
+R06870	False	None	False	None	38	False	None	None	False	None	None
+R08244	True	peg.1924	False	None	None	False	None	None	False	None	None
+CYTK6	False	None	False	None	None	False	None	None	True	peg.1813	CYTK6
+R02022	False	None	True	peg.979	RNTR3	True	peg.979	RNTR3	True	peg.979	RNTR3
+R02734	True	peg.851	False	None	None	False	None	None	True	peg.851	SDPDS
+R01518	True	peg.1810 or peg.1872 or peg.1898	True	(peg.1810 or peg.1872) or - or peg.1898	PGM	True	peg.1898 or - or (peg.1810 or peg.1872) or (peg.1810 or peg.1872) or - or -	PGM	True	peg.1898	PGM
+R08245	True	peg.1082	False	None	None	False	None	None	False	None	None
+SERt2r	False	None	False	None	None	False	None	SERt2r	False	None	None
+R00549	True	peg.1536	True	peg.1536	RBFK	True	peg.1536	RBFK	True	peg.1536	RBFK
+R01513	True	peg.2680 or peg.2522	True	(peg.2522 or peg.2680 or peg.2970)	PGCDr	True	(peg.2522 or peg.2970)	PGCD	True	(peg.2522 or peg.2680 or peg.2970)	PGCD
+R04209	False	None	True	peg.1663	AIRCr	True	peg.1663	AIRCr	True	peg.1663	AIRCr
+R00985	True	peg.2205 or peg.2204	False	None	None	False	None	None	False	None	None
+R01514	False	None	True	peg.2617	GLYCK	True	peg.2617	GLYCK	True	peg.2617	GLYCK
+R05070	True	peg.1110	True	peg.1110 or peg.1110	DHAD2	True	peg.1110	DHAD2	True	peg.1110	DHAD2
+R01101	True	peg.888 or peg.1585	True	peg.1585 or peg.1585 or -	GALS3	False	None	None	False	None	None
+R04206	True	peg.1897	False	None	None	False	None	None	False	None	None
+R00382	True	peg.2126	False	None	None	False	None	None	False	None	None
+R10121	True	peg.2593	False	None	None	False	None	None	False	None	None
+R02088	False	None	False	-	NTD6	False	None	NTD6	False	None	None
+R00260	True	peg.2584	True	peg.2584	GLUR	True	peg.2584	GLUR	True	peg.2584	GLUR
+R00261	False	None	False	-	GLUDC	False	None	None	False	None	None
+cellhp	False	None	False	None	None	True	peg.880	cellhp	False	None	None
+R00265	False	None	False	None	None	False	(peg.1337 or peg.1489 or peg.1579 or peg.1998) and peg.1578 and peg.1577 and -	OORr	False	None	None
+R04208	True	peg.1939	True	peg.1939	PRAIS	True	peg.1939	PRAIS	False	None	None
+R00267	False	None	False	-	ICDHy	False	-	ICDHyr	False	-	ICDHyr
+R02240	True	peg.1762	True	peg.1762	DAGK141,DAGK140,DAGK181,DAGK180,DAGK120,DAGK161,DAGK160	False	None	DAGK_CT	False	None	None
+R02241	True	peg.1814	False	None	None	False	None	None	False	None	None
+R00858	False	None	False	None	SULR	True	(peg.1071 or peg.1238 or peg.605)	rxn05029	False	None	None
+GBEZ	False	None	False	None	None	True	peg.990	GBEZ	True	peg.126	GBEZ
+R08159	False	None	False	-	FA140ACPHi	False	None	None	False	None	None
+NMNTP	False	None	False	None	None	False	None	NMNTP	False	None	None
+R02165	False	None	False	None	None	False	None	NO3R1	False	None	None
+R00856	False	None	False	None	G3PCT	False	None	G3PCT	False	None	G3PCT
+R05071	True	peg.935	False	None	None	False	None	None	False	None	None
+R00183	False	None	False	-	NTD7	False	None	NTD7	False	None	None
+R00185	False	None	False	-	ADNK1	False	None	None	False	None	None
+PNTOt2	False	None	False	None	PNTOt2	False	None	PNTOt2	False	None	None
+R04617	True	peg.1233	True	peg.1233	UGMDDS	False	None	None	True	peg.1233	UGMDDS
+R00189	True	peg.621	False	None	None	True	peg.621	NADS1	True	peg.621	NADS1
+R00188	True	peg.1782 or peg.2439 or peg.1534	False	None	None	False	None	rxn12663	False	None	None
+R10052	True	peg.2650	False	None	None	False	None	None	False	None	None
+R00756	True	peg.1752 or peg.2336	True	peg.2336 or peg.1752	PFK	False	None	None	True	peg.1752	PFK
+R01122	True	peg.1991	False	None	None	False	None	None	False	None	None
+R10651	True	peg.1769	False	None	None	False	None	None	False	None	None
+R04573	True	peg.1233	False	None	None	False	None	None	False	None	None
+R01206	False	None	False	None	None	False	- and - and -	CHTNASE	False	-	CHTNASE
+R01201	False	None	False	None	None	False	None	ACGAMK	False	None	None
+R10120	True	peg.1639	False	None	None	False	None	None	False	None	None
+R03704	True	peg.2736	False	None	None	False	None	None	False	None	None
+ZN2t4	False	None	True	peg.2195	ZN2t4	False	None	None	False	None	None
+R04559	True	peg.1611	True	peg.1611	ADSL2r	True	peg.1611	ADSL2r	True	peg.1611	ADSL2r
+R03062	True	peg.547	False	None	None	False	None	None	False	None	None
+R06917	True	peg.2808	False	None	None	False	None	None	False	None	None
+R03067	True	peg.608	True	peg.608	DHPS3	True	peg.608	FOLD3	True	peg.608	FOLD3
+R03066	True	peg.608	True	peg.608	DHPS	True	peg.608	DHPS	True	peg.608	DHPS
+R05680	True	peg.1261	False	None	None	False	None	None	False	None	None
+R01195	True	peg.1086	False	None	FNOR3	False	None	None	False	None	None
+R01194	True	peg.888 or peg.1585	True	peg.1585 or peg.1585 or -	GALIGH	False	None	None	False	None	None
+R01197	True	peg.1579 or peg.1576 or - or peg.1578	False	- and peg.1577 and peg.1578 and (peg.1337 or peg.1489 or peg.1579 or peg.1998)	OOR2r	False	None	None	True	peg.1577	OORr
+R01196	True	peg.2217 or peg.2218 or - or peg.1578 or peg.1338 or peg.1337 or peg.1340 or peg.1339	False	- or -	POR	True	((peg.1337 or peg.1489 or peg.1579 or peg.1998) or (peg.1337 or peg.1489 or peg.1579 or peg.1998)) and (peg.1338 or -) and (peg.1339 or peg.1339) and (peg.1340 or peg.1340)	POR2_i	True	peg.1577	POR2
+R01961	False	None	False	-	HEX10	False	None	None	False	None	None
+R11636	True	peg.979	False	None	None	False	None	None	False	None	None
+R02740	True	peg.1059	False	None	None	False	None	None	False	None	None
+R03665	True	peg.1984	True	peg.1984	VALTRS	True	peg.1984	VALTRS	True	peg.1984	VALTRS
+R03664	True	peg.1251	False	None	None	True	peg.1251	TRPTRS	True	peg.1251	TRPTRS
+UAAGDS	False	None	False	None	None	True	peg.1232	UAAGDS	False	None	None
+R03661	True	peg.1005	False	-	PROTRS	True	peg.1005	PROTRS	True	peg.1005	PROTRS
+R01969	True	peg.2283	False	-	PUNP4	True	(peg.1850 or peg.2283 or peg.2293) or - or peg.2286	PUNP4	False	-	PUNP4
+R03663	True	peg.1260	True	peg.1260 or peg.1260	THRTRS	True	peg.1260	THRTRS	True	peg.1260	THRTRS
+R03662	True	peg.1335	True	peg.1335	SERTRS	True	peg.1335	SERTRS	True	peg.1335	SERTRS
+R02014	False	None	True	peg.979	RNTR1	True	peg.979	RNTR1	True	peg.979	RNTR1
+R02017	False	None	False	-	RNDR1	False	-	RNDR1	False	-	RNDR1
+R02016	False	-	True	peg.154 or peg.154	TRDR	True	peg.154	TRDR	True	peg.154	TRDR
+GLCt5	False	None	False	None	None	False	- and (peg.2831 or peg.486 or peg.490)	GLCt5	False	None	None
+R08306	True	peg.2808	False	None	None	False	None	None	False	None	None
+GALabc	False	None	True	(peg.2831 or peg.486 or peg.490) or peg.1053 or (peg.2832 or peg.492)	GALabc	True	((peg.1876 or peg.2292 or peg.2747 or peg.2833 or peg.491 or peg.676) and peg.2291 and peg.2290) or ((peg.1876 or peg.2292 or peg.2747 or peg.2833 or peg.491 or peg.676) and (peg.2832 or peg.492) and (peg.2831 or peg.486 or peg.490))	GALabc	True	(peg.2292 or peg.2833 or peg.491)	GALabc
+R01804	False	None	False	None	None	False	None	ACNMSr	False	None	None
+R02019	False	None	False	-	RNDR2	False	-	RNDR2	False	-	RNDR2
+R02018	False	None	False	-	RNDR4	False	-	RNDR4	False	-	RNDR4
+R01801	True	peg.1463	True	peg.1463 or peg.1951	PGSA120,PGSA161,PGSA160,PGSA181,PGSA180,PGSA141,PGSA140	True	peg.1463	CDGPT_CT	False	None	None
+R04858	False	None	False	- or - or - or -	CYTOM	False	None	None	False	None	None
+R04534	True	peg.1639	True	(peg.1152 or peg.1639 or peg.2965 or peg.611 or peg.932) or - or - or (peg.1152 or peg.1639 or peg.2965 or peg.611 or peg.932)	3OAR100	False	None	None	False	None	None
+R04535	True	peg.2593	True	peg.2593	3HAD100	False	None	None	False	None	None
+R04536	True	peg.1639	True	(peg.1152 or peg.1639 or peg.2965 or peg.611 or peg.932) or - or - or (peg.1152 or peg.1639 or peg.2965 or peg.611 or peg.932)	3OAR80	False	None	None	False	None	None
+R04537	True	peg.2593	True	peg.2593	3HAD80	False	None	None	False	None	None
+R02727	True	peg.818	False	None	None	False	None	None	False	None	None
+R04929	True	peg.1679 or peg.1678	False	None	None	False	None	None	False	None	None
+NIT_n1p4	False	None	False	None	None	False	- and - and -	NIT_n1p4	False	None	None
+R04927	True	peg.1676 or peg.1677	False	None	None	False	None	None	False	None	None
+R00691	True	peg.1341	False	None	None	False	None	None	False	None	None
+LIPO2S24_CT	False	None	False	None	None	False	None	LIPO2S24_CT	False	None	LIPO2S24_CT
+R10208	True	peg.2593	False	None	None	False	None	None	False	None	None
+R05048	True	peg.861	False	None	None	False	None	None	False	None	None
+R00355	True	peg.1610	True	(peg.1610 or peg.1906 or peg.977)	ASPTA	True	peg.1610 or peg.1906	ASPTA	True	(peg.1610 or peg.1906 or peg.977)	ASPTA
+R11160	True	peg.2755	False	None	None	False	None	None	False	None	None
+R03193	True	peg.2983	True	peg.2983	UAMAS	True	peg.2983	UAMAS	True	peg.1233	UAMAS
+cellttp	False	None	False	None	None	True	peg.880	cellttp	False	None	None
+R00130	True	peg.1932	True	peg.1932	DPCOAK	True	peg.1932	DPCOAK	True	peg.1932	DPCOAK
+R04231	True	peg.1518	False	- or -	PPNCL	False	None	None	False	None	None
+R00132	False	None	False	None	None	False	None	None	False	None	H2CO3D
+R02540	False	None	False	None	None	True	peg.1219	AMID2	True	peg.1219	AMID2
+R08871	True	peg.1962	False	None	None	False	None	None	False	None	None
+BTSr	False	None	False	None	None	True	peg.76 or peg.203	BTSr	False	None	None
+R02426	False	None	False	None	None	False	-	CDPGDH	False	None	None
+R04230	True	peg.1518	False	None	None	True	peg.1518	PPNCL3	True	peg.1518	PPNCL3
+H2CO3D2	False	None	False	None	None	False	None	None	False	None	H2CO3D2
+R02421	True	peg.987	False	None	None	False	None	None	False	None	None
+LIPO2S24_CA	False	None	False	None	LIPO2S24_CA	False	None	None	False	None	None
+R00376	True	peg.2350 or peg.376 or peg.2658 or peg.2318 or peg.945 or peg.2890 or peg.1933 or peg.2437 or peg.1749	False	None	None	False	None	None	False	None	None
+R06987	False	None	False	- or -	OBTFL	False	-	OBTFL	False	-	OBTFL
+R05693	False	None	False	None	None	True	(peg.2522 or peg.2970)	SLDx	True	(peg.2522 or peg.2680 or peg.2970)	SLDx
+R03018	True	peg.975	True	peg.975 or -	PNTK	True	peg.975	PNTK	True	peg.975	PNTK
+R09978	True	peg.588	False	None	None	False	None	None	False	None	None
+R06861	True	peg.2605 or peg.2606 or peg.2903	False	None	None	False	None	None	False	None	None
+R03014	True	peg.1301	False	None	None	False	None	None	False	None	None
+R06863	True	peg.2605 or peg.2606 or peg.2903	False	None	None	False	None	None	False	None	None
+R03012	True	peg.1971	False	None	None	False	None	None	False	None	None
+R03013	True	peg.2220	True	(peg.1060 or peg.2220)	HISTP	True	peg.2220	HISTP	False	-	HISTP
+R00769	True	peg.1752 or peg.2336	False	None	None	False	None	None	False	None	None
+R08575	True	peg.1982	False	None	TAL	False	None	TALA	False	-	TALA
+R10115	True	peg.1641	False	None	None	False	None	None	False	None	None
+R00443	True	peg.2226 or peg.1263 or peg.1517 or peg.1264	False	None	None	False	None	None	False	None	None
+R00444	True	peg.2226 or peg.1263 or peg.1517 or peg.1264	False	None	None	False	None	None	False	None	None
+PHEt2r	False	None	False	None	None	False	None	PHEt2r	False	None	None
+R04391	True	peg.975	False	None	None	False	None	None	False	None	None
+R10649	True	peg.1769	False	None	None	False	None	None	False	None	None
+R00760	True	peg.2673	True	- or (peg.2673 or peg.2967)	FRUK	True	(peg.2673 or peg.2967)	HEX7	True	peg.542	HEX7
+R03947	True	peg.1681	False	None	None	False	None	None	False	None	None
+R00765	False	None	False	None	None	False	-	R00765	False	None	None
+R00764	True	peg.2336	False	None	None	True	peg.1752 or peg.2336	PFK	False	None	None
+R01528	False	None	False	None	None	False	None	None	False	-	GND
+R03596	False	-	False	None	None	False	None	None	False	None	None
+R01332	True	peg.2375 or peg.2379 or peg.625	False	None	None	False	None	None	False	None	None
+R01334	False	None	True	peg.812	PGLYCP	False	- or -	PGLYCP	True	peg.812	PGLYCP
+R00999	False	None	False	None	None	True	(peg.1606 or peg.1675) or (peg.1606 or peg.1675)	SHSL4r	True	(peg.1606 or peg.1675)	SHSL4r
+SUCD1	False	None	False	None	SUCD1	False	None	None	False	None	None
+R02864	True	peg.1681	False	None	None	False	None	None	False	None	None
+R01701	True	peg.1158	False	None	None	False	None	None	False	None	None
+R01702	True	peg.1158	False	None	None	False	None	None	False	None	None
+BIFHASE2	False	None	False	None	None	False	None	BIFHASE2	False	None	None
+R01706	False	None	False	-	FA160ACPHi	False	None	None	False	None	None
+FACOAL150_ISO_	False	None	False	None	None	False	-	FACOAL150_ISO_	True	peg.1248	FACOAL150_ISO_
+R08198	True	peg.2680 or peg.2522	False	None	None	False	None	None	False	None	None
+R07404	True	peg.1662	False	None	None	False	None	None	False	None	None
+R10267	True	peg.2421	False	None	None	False	None	None	False	None	None
+KAS141	False	None	False	None	None	True	peg.1641 and peg.1640 and peg.1639 and peg.1638 and peg.1637 and peg.1636 and peg.1635	KAS141	False	None	KAS141
+R04405	True	peg.86	False	None	None	False	None	None	False	None	None
+R10209	True	peg.797	False	None	None	False	None	None	False	None	None
+DAGK_CT	False	None	False	None	None	False	None	None	False	None	DAGK_CT
+BTS2	False	None	False	None	None	True	peg.76 or peg.203	BTS2	False	None	None
+R09597	True	peg.1081	False	None	None	False	None	None	False	None	None
+R11671	True	peg.1638 or peg.1639	False	None	None	False	None	None	False	None	None
+ADKd	False	None	False	None	None	True	peg.2234	ADKd	True	peg.2234	ADKd
+R06134	True	peg.2701 or peg.1464	False	None	None	False	None	None	False	None	None
+R03243	True	peg.1306 or peg.1970	True	(peg.1306 or peg.1970)	HSTPTr	True	(peg.1306 or peg.1970) or -	HSTPT	True	(peg.1306 or peg.1970)	HSTPT
+R07818	False	-	False	None	None	False	None	None	False	None	None
+R00004	True	peg.1212	True	peg.812 or - or -	PPA	True	peg.1212	PPA	True	peg.1212	PPA
+R00006	True	peg.934 or peg.1111 or peg.933	False	None	None	False	None	None	False	None	None
+R04241	False	-	False	None	None	False	None	None	False	None	None
+R02330	False	None	False	None	None	True	peg.1298	NTP8	True	peg.1298	NTP8
+R02331	False	None	False	None	None	False	None	R3	False	-	NDPK6
+R02332	True	peg.962	False	None	None	False	None	None	False	None	None
+R00851	True	peg.1636 or peg.1208 or peg.2740	False	None	None	False	None	None	False	None	None
+R04035	True	peg.1965	True	peg.1965	PRATPP	True	peg.1965	PRATPP	True	peg.1965	PRATPP
+R04037	True	peg.1965	True	peg.1965	PRAMPC	True	peg.1965	PRAMPC	True	peg.1965	PRAMPC
+R00615	True	peg.1527	True	peg.1298	TDP	False	None	None	False	None	None
+R03084	True	peg.2207	True	peg.2207	DHQD1	True	peg.2207	DHQD	True	peg.2207	DHQD
+R03080	False	None	True	peg.841	LCARR	False	None	None	False	None	None
+R03083	True	peg.1838	True	peg.1838 or -	DHQS	True	peg.1838	DHQS	True	peg.1838	DHQS
+R03122	True	peg.126	False	None	None	False	None	None	False	None	None
+R00619	True	peg.2317	True	peg.2317	TMDPK	True	peg.2317	TMDPK	True	peg.2317	TMDPK
+R01880	True	peg.962	False	None	None	False	None	None	False	None	None
+R05032	True	peg.1237	True	peg.1237	UAGPT3	False	None	UAGPT3	False	None	None
+R10716	False	-	False	None	None	False	None	None	False	None	None
+R01411	False	None	False	-	MCSNAH1r	False	None	None	False	None	None
+R00945	True	peg.1541	True	peg.1541	GHMT	True	peg.1541	GHMT2r	True	peg.1541	GHMT2r
+R02110	True	peg.990	False	None	None	False	None	None	False	None	None
+R00946	True	peg.735 or (peg.1205 or peg.63) or peg.129	True	peg.1205 or peg.736	METS	False	-	METS	False	-	METS
+R00943	True	peg.2770	True	peg.2770	FTHFL	True	peg.2770 or peg.1461	FTHFL	True	peg.2770	FTHFL
+R00942	False	-	True	peg.1983	THFGLUS	False	None	None	False	None	None
+R08634	True	peg.2652	False	None	None	False	None	None	False	None	None
+R00344	False	None	False	-	PC	False	None	None	False	None	None
+R00228	False	None	True	(peg.1398 or peg.2808) or -	ACALD	False	-	ACALD	False	-	ACALD
+R00342	False	None	True	peg.2434	MDH	True	peg.2434 or -	MDH	True	peg.2434	MDH
+R01799	False	-	True	peg.2323	DASYN140,DASYN141,DASYN161,DASYN180,DASYN181,DASYN160,DASYN120	True	peg.2323 or -	PHCYT_CT	False	None	None
+R03471	True	peg.796	False	None	None	False	None	None	False	None	None
+R11159	True	peg.2755	False	None	None	False	None	None	False	None	None
+R00226	True	peg.934 or peg.1111 or peg.933	True	(peg.1111 or peg.933) and peg.934 and (peg.1111 or peg.933)	ACLS	True	peg.934 and ((peg.1111 or peg.933) or (peg.1111 or peg.933))	ACLS	True	(peg.1111 or peg.933)	ACLS
+R05884	True	peg.1815	False	None	None	False	None	None	False	None	None
+R01388	False	None	True	(peg.2522 or peg.2680 or peg.2970)	GLYD	False	None	None	False	None	None
+R01791	True	peg.561	False	None	None	False	None	None	False	None	None
+R01790	False	None	True	peg.627	GLCGSD	False	None	None	False	None	None
+R04325	True	peg.1938	True	peg.1938	GARFT	True	peg.1938	GARFTi	True	peg.1938	GARFTi
+R03210	False	None	False	None	None	True	peg.2769	AOXSr	True	peg.2596	AOXSr
+R01517	False	None	False	None	None	False	None	PGK_GTP	False	None	None
+R04326	True	peg.1938	False	None	None	False	None	None	False	None	None
+R01869	True	peg.1871	False	None	None	True	peg.1086 and peg.1871	DHORD10	False	None	None
+R03443	True	peg.1560	True	peg.1560	AGPR	True	peg.1560	AGPR	True	peg.1560	AGPR
+R08232	True	peg.962	False	None	None	False	None	None	False	None	None
+FDH2	False	None	False	None	None	False	None	FDH2	True	(peg.1279 or peg.2935)	FDH2
+R01209	True	peg.1110	False	None	None	False	None	None	False	None	None
+IPDPS	False	None	False	None	None	True	peg.1815	IPDPS	False	-	IPDPS
+R11262	True	peg.126	False	None	None	False	None	None	False	None	None
+R08231	True	peg.1873	False	None	None	False	None	None	False	None	None
+R03236	True	peg.542 or peg.2336 or peg.1752	True	peg.2336 or peg.1752	PFK_2	True	peg.1752 or peg.2336 or peg.542	PFK_2	True	peg.1752	PFK_2
+R03237	True	peg.1752 or peg.2336	False	None	None	False	None	None	False	None	None
+R03234	True	peg.1153	False	None	None	False	None	None	False	None	None
+R00193	True	peg.1347	False	None	None	False	None	None	False	None	None
+R03232	True	peg.544	False	None	None	False	None	None	False	None	None
+HISt2r	False	None	False	None	None	False	None	HISt2r	False	None	None
+R03231	True	peg.77	True	(peg.1687 or peg.2349 or peg.77)	AMAOT	True	peg.77	AMAOTr	True	(peg.1687 or peg.2349 or peg.77)	AMAOTr
+R02628	False	-	False	None	None	False	None	None	False	None	None
+R08558	True	peg.2808	False	None	None	False	None	None	False	None	None
+R04292	True	peg.1699	False	None	QULNS	True	peg.1699	QULNS	False	None	QULNS
+R03238	True	peg.1752 or peg.2336	False	None	None	False	None	None	False	None	None
+R03239	True	peg.1752 or peg.2336	False	None	None	False	None	None	False	None	None
+R05627	True	peg.2346	True	peg.2346	UDCPDP	False	None	None	True	peg.2346	UDCPDP
+R05626	False	None	False	None	None	True	peg.2346	UDCPKr	True	peg.2346	UDCPKr
+FRUpts2	False	None	False	None	None	False	None	FRUpts2	False	None	None
+R02112	True	peg.126	False	None	None	False	None	None	False	None	None
+R08620	True	peg.2652	False	None	None	False	None	None	False	None	None
+R09365	True	peg.735 or (peg.1205 or peg.63) or peg.86 or peg.129	False	None	None	False	None	None	False	None	None
+R03217	False	None	False	None	None	True	(peg.1606 or peg.1675) or (peg.1606 or peg.1675)	METB1r	True	(peg.1606 or peg.1675)	METB1r
+R08624	True	peg.2652	False	None	None	False	None	None	False	None	None
+R07105	True	peg.2808	False	None	None	False	None	None	False	None	None
+R05629	True	peg.1234	True	peg.1234	PAPPT1,PAPPT2	False	None	R18	True	peg.1234	PAPPT3
+PPAKr	False	None	False	None	None	True	peg.1986	PPAKr	False	None	None
+R01561	True	peg.2283	False	-	PUNP1	True	(peg.1850 or peg.2283 or peg.2293) or -	PUNP1	False	-	PUNP1
+R04019	True	peg.888 or peg.1585	False	None	None	False	None	None	False	None	None
+R08613	True	peg.625	False	None	None	False	None	None	False	None	None
+R00720	True	peg.1298	False	None	None	False	None	None	False	None	None
+CYTK13	False	None	False	None	None	False	None	None	True	peg.1813	CYTK13
+R01569	False	None	False	-	NTD5	False	None	None	False	None	None
+R05145	True	peg.607	True	peg.607	BTNPL	False	None	None	False	None	None
+R05142	False	None	False	None	None	True	peg.878 or peg.2930	bglu6,bglu6_ext	False	None	None
+R02649	True	peg.1559	True	peg.1559	ACGK	True	peg.1559	ACGK	True	peg.1559	ACGK
+R01090	True	peg.1109	True	(peg.1109 or peg.2778) or (peg.1109 or peg.2778)	LEUTA	False	-	LEUTAi	True	(peg.1109 or peg.2778)	LEUTAi
+R03632	True	- or peg.856 or - or peg.1526	False	None	None	False	None	None	False	None	None
+R01092	True	peg.1409	True	peg.1409	GALK	False	None	None	False	None	None
+R01480	True	peg.1314	False	None	None	False	None	None	False	None	None
+R11098	True	peg.589	False	None	None	False	None	None	False	None	None
+R02767	True	peg.1639	True	(peg.1152 or peg.1639 or peg.2965 or peg.611 or peg.932) or - or - or (peg.1152 or peg.1639 or peg.2965 or peg.611 or peg.932)	3OAR40	False	None	None	False	None	None
+R00425	True	peg.994	False	None	None	True	peg.994	GTPCII	True	peg.994	GTPCII
+R02765	False	None	False	None	None	False	-	MME	True	peg.96	MME
+LYSLG_CT	False	None	False	None	None	False	None	LYSLG_CT	False	None	LYSLG_CT
+R00441	True	peg.2226 or peg.1263 or peg.1517 or peg.1264	False	None	None	False	None	None	False	None	None
+R11398	True	peg.967	False	None	None	False	None	None	False	None	None
+R02888	False	None	False	None	45	False	None	None	False	None	None
+R02760	True	peg.1814	False	None	None	False	None	None	False	None	None
+R02059	True	peg.481	False	None	None	True	peg.481	AGDC_r	True	peg.481	AGDC_r
+R02111	True	peg.123 or peg.986 or peg.1045	True	peg.123	GLCP	False	None	None	False	None	None
+R00860	True	peg.1676 or peg.1677	False	None	APSPTi	False	None	None	False	None	None
+R00867	True	peg.2673	False	None	None	False	None	None	False	None	None
+CDPDSP_CT	False	None	False	None	None	False	None	None	False	None	CDPDSP_CT
+R10002	True	peg.593	False	None	None	False	None	None	False	None	None
+FACOAL160_ISO_	False	None	False	None	None	False	-	FACOAL160_ISO_	True	peg.1248	FACOAL160_ISO_
+cellulase6	False	None	False	None	None	False	(- or - or - or - or - or - or - or peg.2375 or -) and (- or - or - or -)	cellulase6	False	None	None
+R02052	False	None	False	None	20,21,22,17,16,19,18	False	None	None	False	None	None
+R02055	False	None	False	-	PSD140,PSD141,PSDC_CC,PSD180,PSD181,PSD120,PSD160,PSD161	False	None	None	False	None	None
+PSDC_CT	False	None	False	None	None	False	None	None	False	None	PSDC_CT
+R11154	True	peg.2755	False	None	None	False	None	None	False	None	None
+R02322	True	peg.1464	False	None	None	False	None	None	False	None	None
+R04143	False	None	False	-	MTRK	False	None	None	False	None	None
+R09394	True	peg.1289	False	None	None	False	None	None	False	None	None
+R04144	True	peg.1936	True	peg.1936	PRAGSr	True	peg.1936	PRAGSr	True	peg.1936	PRAGSr
+R08240	True	peg.2148	False	None	None	False	None	None	False	None	None
+R06114	False	- or -	False	None	None	False	None	None	False	None	None
+R04148	False	None	False	-	CobT	False	-	NNDMBRT	False	None	None
+R02320	True	peg.1753	False	None	None	False	None	None	False	None	None
+R01810	True	peg.328	False	None	None	False	None	None	False	None	None
+R07460	True	peg.2042 or peg.2223	False	None	None	False	None	None	False	None	None
+R10652	True	peg.1462	False	None	None	False	None	None	False	None	None
+R03660	True	peg.1771 or peg.1770	False	None	None	True	peg.1770 and peg.1771	PHETRS	True	peg.1771	PHETRS
+R03052	False	None	False	None	None	False	None	R9	False	None	None
+R10088	True	peg.2424 or peg.2425	False	None	None	False	None	None	False	None	None
+R03050	True	peg.934 or peg.1111 or peg.933	False	None	None	False	None	None	False	None	None
+R03051	True	peg.935	False	None	None	False	None	None	False	None	None
+R04198	True	peg.1616	False	None	None	False	None	None	False	None	None
+DAPabc	False	None	False	None	None	False	None	DAPabc	False	None	None
+R03940	False	-	False	-	FMETTRS	True	peg.1521	FMETTRS	True	peg.1521	FMETTRS
+R03192	True	peg.730	True	peg.730	UAPGR	True	peg.730	UAPGR	True	peg.730	UAPGR
+R03191	True	peg.730	False	None	None	False	None	None	False	None	None
+R04199	True	peg.1616	False	None	None	False	None	None	True	peg.1616	DHDPRy
+R03197	True	peg.1308	False	None	None	False	None	None	False	None	None
+R03194	True	peg.1685	False	None	None	True	peg.1685	UPP3MT	True	peg.1685	UPP3MT
+R00405	False	None	False	None	None	False	None	SUCOAS	True	peg.1248	SUCOAS
+R05633	True	peg.2017	False	None	None	True	peg.2017	MEPCT	True	peg.2017	MEPCT
+R00401	True	peg.2419	True	(peg.122 or peg.2621 or peg.2766 or peg.2884 or peg.754 or peg.817 or peg.93 or peg.999) or peg.2419	ALAR	True	peg.2419	ALAR	True	peg.2419	ALAR
+GLYt2r	False	None	False	None	None	False	None	GLYt2r	False	None	None
+EXCH_ca2_c	False	None	False	None	None	False	None	None	False	None	EXCH_ca2_c
+G_CELLS	False	None	False	None	G_CELLS	False	None	None	False	None	None
+FE2abc	False	None	True	peg.2746 or peg.2058	FE2abc	False	None	None	False	None	None
+TEICH45	False	None	False	None	None	False	None	TEICH45	False	None	None
+R10159	True	peg.1086	False	None	None	False	None	None	False	None	None
+R08237	True	peg.1082	False	None	None	False	None	None	False	None	None
+R02282	False	None	False	-	ORNTAC	False	-	ORNTAC	False	-	ORNTAC
+R01830	True	peg.2605 or peg.2606 or peg.2903	False	None	None	False	None	None	False	None	None
+R10153	True	peg.2842	False	None	None	False	None	None	False	None	None
+R02328	True	peg.434	False	-	G1PTT	False	-	G1PTT	True	(peg.434 or peg.989)	G1PTT
+R01933	True	peg.1157	False	None	None	False	None	None	False	None	None
+VALt2r	False	None	False	None	None	False	None	VALt2r	False	None	None
+R04911	True	peg.1006	False	None	None	False	None	None	False	None	None
+R11633	True	peg.979	False	None	None	False	None	None	False	None	None
+R11635	True	peg.979	False	None	None	False	None	None	False	None	None
+R04441	True	peg.1110	True	peg.1110 or peg.1110	DHAD1	True	peg.1110	DHAD1	True	peg.1110	DHAD1
+KAS4	False	None	False	None	None	True	peg.1641 and peg.1640 and peg.1639 and peg.1638 and peg.1637 and peg.1636 and peg.1635	KAS4	True	peg.1641	KAS4
+R01855	True	peg.1298	False	None	None	False	None	None	False	None	None
+R03896	True	peg.2652 or peg.2651	False	None	None	False	None	None	False	None	None
+R10339	True	peg.931	False	None	None	False	None	None	False	None	None
+R04448	False	None	False	-	HETZK	False	None	None	False	None	None
+PRAIS	False	None	False	None	None	False	None	None	True	peg.1939	PRAIS
+NFNab	False	None	False	None	None	False	None	None	True	peg.1085 and peg.1086	NFNab
+PTRCabc	False	None	False	None	None	False	- and - and - and peg.2315	PTRCabc	True	(peg.1029 or peg.1054 or peg.125 or peg.1310 or peg.2577 or peg.2600 or peg.2629 or peg.2643 or peg.2906 or peg.2955 or peg.469 or peg.572 or peg.815 or peg.90)	PTRCabc
+R05566	True	peg.2608	False	None	None	False	None	None	False	None	None
+GCALDt	False	None	False	None	None	False	None	GCALDt	False	None	GCALDt
+R02473	True	peg.2502	True	peg.2502	PANTS	True	peg.2502	PANTS	True	peg.2502	PANTS
+R02472	False	None	False	None	DPR	False	None	None	False	None	None
+R02327	True	peg.962	False	None	None	False	None	None	False	None	None
+R04568	True	peg.2593	True	peg.2593	3HAD140	False	None	None	False	None	None
+R01070	True	peg.2523 or peg.2972 or peg.1061	False	None	None	False	None	None	False	None	None
+R04566	True	peg.1639	True	(peg.1152 or peg.1639 or peg.2965 or peg.611 or peg.932) or - or - or (peg.1152 or peg.1639 or peg.2965 or peg.611 or peg.932)	3OAR140	False	None	None	False	None	None
+UGT_BS	False	None	False	None	UGT_BS	False	None	None	False	None	None
+R08657	True	peg.1400	False	None	None	False	None	None	False	None	None
+R02372	True	peg.962	False	None	None	False	None	None	False	None	None
+R04560	True	peg.1937	True	peg.1937	AICART	True	peg.1937	AICART	True	peg.1937	AICART
+R05168	True	peg.481	False	None	None	False	None	None	False	None	None
+FACOAL130	False	None	False	None	None	False	None	None	False	None	FACOAL130
+cellohtx	False	None	False	None	None	False	- and (peg.2831 or peg.486 or peg.490)	cellohtx	False	None	None
+R00164	True	peg.280 or peg.615 or peg.1525	False	None	None	False	None	None	False	None	None
+R00162	True	- or peg.856 or - or peg.1526	False	None	None	False	None	None	False	None	None
+R00161	True	peg.1536	True	peg.1536	FMNATr	True	peg.1536	FMNAT	True	peg.1536	FMNAT
+R00659	True	peg.1753	True	peg.1753	PYK4	False	None	None	False	None	None
+R00658	True	peg.1897	True	peg.1897	ENO	True	peg.1897	ENO	True	peg.1897	ENO
+R04961	False	None	True	(peg.1586 or peg.1594 or peg.1962) or -	EAR100x	False	None	None	False	None	None
+R04960	True	peg.1641	True	peg.1641 or - or - or peg.1637 or peg.1637 or - or - or - or (peg.1586 or peg.1594 or peg.1962) or -	3OAS100	False	None	None	False	None	None
+R04966	False	None	True	(peg.1586 or peg.1594 or peg.1962) or -	EAR140x	False	None	None	False	None	None
+R04965	True	peg.2593	False	None	None	False	None	None	False	None	None
+R04964	True	peg.1639	True	(peg.1152 or peg.1639 or peg.2965 or peg.611 or peg.932) or - or - or (peg.1152 or peg.1639 or peg.2965 or peg.611 or peg.932)	3OAR120	False	None	None	False	None	None
+R00651	True	peg.1606 or peg.1675	False	None	None	True	- or (peg.1606 or peg.1675)	AHSERL	True	(peg.1606 or peg.1675)	AHSERL
+R00650	True	peg.736	True	peg.736	HCYSMT	False	None	None	False	None	None
+R04969	False	None	True	(peg.1586 or peg.1594 or peg.1962) or -	EAR160x	False	None	None	False	None	None
+R01800	False	None	False	-	PSSA181,PSSA180,PSSA161,PSSA160,PSSA140,CDPDSP_CC,PSSA120,PSSA141	False	None	CDPDSP_CT	False	None	None
+MECDPDH	False	None	False	None	None	True	peg.2320	MECDPDH	False	None	None
+L-LACt2	False	None	False	None	L-LACt2	False	None	None	False	None	None
+FACOAL170_ISO_	False	None	False	None	None	False	-	FACOAL170_ISO_	True	peg.1248	FACOAL170_ISO_
+R01061	True	peg.1900	True	peg.1900	GAPD	True	peg.1900	GAPD	True	peg.1900	GAPD
+LIPO4S24_CA	False	None	False	None	LIPO4S24_CA	False	None	None	False	None	None
+R11634	True	peg.979	False	None	None	False	None	None	False	None	None
+R01067	True	peg.2605 or peg.2606 or peg.2903	False	-	TKT2	True	(peg.2606 or peg.2606) and (peg.2605 or peg.2605)	TKT2	True	peg.2605	TKT2
+R01066	True	peg.2285	True	peg.2285	DRPAr	True	peg.2285 or peg.2285	DRPA	True	peg.2285	DRPA
+R01068	True	peg.2523 or peg.2972 or peg.1061	True	(peg.1061 or peg.2523 or peg.2972) or -	FBA	True	peg.1061	FBA	True	(peg.1061 or peg.2523 or peg.2972)	FBA
+R02878	True	peg.2808	False	None	None	False	None	None	False	None	None
+PAP_CT	False	None	False	None	None	False	None	PAP_CT	False	None	PAP_CT
+R01698	True	peg.1157	False	None	None	False	None	None	False	None	None
+R05112	False	- or -	False	None	None	False	None	None	False	None	None
+LIPO4S24_CT	False	None	False	None	None	False	None	LIPO4S24_CT	False	None	LIPO4S24_CT
+LIPO3S24_CA	False	None	False	None	LIPO3S24_CA	False	None	None	False	None	None
+R04286	True	peg.860	False	None	None	True	peg.860	PTHPS	True	peg.860	PTHPS
+R11524	True	peg.1672	False	None	None	False	None	None	False	None	None
+KAS2	False	None	False	None	None	True	peg.1641 and peg.1640 and peg.1639 and peg.1638 and peg.1637 and peg.1636 and peg.1635	KAS2	True	peg.1641	KAS2
+4ABZt2r	False	None	False	None	4ABZt2r	False	None	None	False	None	None
+R00306	True	peg.2930 or peg.878	False	None	None	True	peg.878 or peg.2930	bglu2,bglu2_ext	False	None	None
+R00835	False	None	False	None	None	False	None	None	False	-	G6PDH2
+LEUt2r	False	None	False	None	None	False	None	LEUt2r	False	None	None
+R04238	True	peg.1078	False	None	None	False	None	None	False	None	None
+R03162	True	peg.2618	False	None	None	False	None	None	False	None	None
+ETOHt2r	False	None	False	None	None	False	None	ETOHt2r	False	None	None
+LYSabc	False	None	True	(peg.1321 or peg.2196 or peg.2197)	LYSabc	False	None	None	False	None	None
+R04533	True	peg.1639	False	None	None	False	None	None	False	None	None
+R04365	False	None	False	None	None	False	None	None	False	-	THDPS
+R04779	True	peg.1752 or peg.2336	False	None	None	False	None	None	False	None	None
+R04562	True	peg.607	False	None	None	False	None	None	False	None	None
+ATPS2Na_i	False	None	False	None	None	False	None	ATPS2Na_i	False	None	None
+R01665	True	peg.1813	True	peg.1813	CYTK2	False	None	None	True	peg.1813	CYTK2
+R01664	False	None	False	-	NTD3	False	None	None	False	None	None
+R01663	True	peg.1075	True	peg.1075	DCMPDA2ir	True	peg.1075	DCMPDA	True	peg.1075	DCMPDA
+Cut1	False	None	False	None	None	True	(peg.2848 or peg.725)	Cut1	True	(peg.2848 or peg.725)	Cut1
+R00801	True	peg.561	False	None	None	False	None	None	False	None	None
+R06174	True	peg.1237	False	None	None	False	None	None	False	None	None
+R00624	True	peg.2808	False	None	None	False	None	None	False	None	None
+MALt2r	False	None	False	None	None	False	None	MALt2r	False	None	None
+R11372	True	peg.1290	False	None	None	False	None	None	False	None	None
+R02484	True	peg.2286 or peg.2283	False	-	DURIPP	False	None	None	False	None	None
+R02485	True	peg.2288	True	peg.2288	DCYTD	False	None	None	False	None	None
+R02073	True	peg.2336	False	None	None	False	None	None	False	None	None
+R01526	True	peg.2793	False	None	None	False	None	None	False	None	None
+R01289	False	None	False	None	None	False	-	CYSTS	False	None	None
+R01288	False	None	False	None	None	True	(peg.1606 or peg.1675) or (peg.1606 or peg.1675)	SHSL2r	True	(peg.1606 or peg.1675)	SHSL2r
+R10342	True	peg.773	False	None	None	False	None	None	False	None	None
+R03171	False	None	False	None	None	False	None	None	True	peg.2746	OIVD3
+OIVD3	False	None	False	None	None	False	None	OIVD3	False	None	None
+R05662	True	peg.1237	False	None	None	False	None	R5	False	None	UAGPT3
+R01287	True	peg.1606 or peg.1675	True	(peg.1606 or peg.1675) or (peg.1606 or peg.1675)	METACH	True	- or (peg.1606 or peg.1675)	AHSERL2	True	(peg.1606 or peg.1675)	AHSERL2
+R01286	False	None	False	None	None	True	(peg.1606 or peg.1675)	CYSTL	False	None	None
+GLCP	False	None	False	None	None	True	peg.123	GLCP	True	peg.123	GLCP
+R01529	True	peg.1528	True	peg.1528	RPE	True	peg.1528	RPE	True	peg.1528	RPE
+R04710	True	peg.3117 or peg.772 or peg.2466 or peg.752 or peg.282	False	None	None	False	None	None	False	None	None
+R02722	True	peg.411 or peg.2199 or peg.2200	False	- and (peg.2200 or peg.411) and (peg.2200 or peg.411) and peg.2199	TRPS1	True	peg.2199 and ((peg.2200 or peg.411) or (peg.2200 or peg.411))	TRPS1	True	(peg.2200 or peg.411)	TRPS1
+R01199	True	peg.2217 or peg.2218 or peg.1338 or peg.1337 or peg.1340 or peg.1339	False	None	None	False	None	None	False	-	POR3
+R02720	True	peg.1298	False	None	None	False	None	None	False	None	None
+R00578	True	peg.2034	False	-	ASNS1	True	peg.2034	ASNS1	True	peg.2034	ASNS1
+R05068	True	peg.935	False	None	None	False	None	R8	False	None	None
+ASPO5	False	None	False	None	None	True	peg.1700	ASPO5	True	(peg.1700 or peg.2634)	ASPO5
+R01843	True	peg.1752 or peg.2336	False	None	None	False	None	None	False	None	None
+R00575	True	peg.1868 or peg.2035 or peg.2036	True	peg.2035 and (peg.1868 or peg.2036) and peg.2035 and (peg.1868 or peg.2036)	CBPS	True	(peg.2035 or peg.2035) and (peg.1868 or peg.2036)	CBPS	True	peg.2035	CBPS
+R01117	False	None	False	None	None	False	-	CMPSAS	False	-	CMPSAS
+R02728	True	peg.812	True	peg.812	PGMT_B	False	None	None	False	None	None
+R00570	False	None	False	None	None	False	-	NDPK3	False	-	NDPK3
+R00571	True	peg.462	True	peg.462	CTPS1	True	peg.462	CTPS1	True	peg.462	CTPS1
+R00572	True	peg.1753	False	None	None	False	None	None	False	None	None
+R00573	True	peg.462	True	peg.462	CTPS2	False	None	R21	False	None	None
+R11592	True	peg.979	False	None	None	False	None	None	False	None	None
+R03132	True	peg.2123	False	None	None	False	None	None	False	None	None
+R03531	True	peg.1298	False	None	None	False	None	None	False	None	None
+R02098	False	-	False	- or -	URIDK2r	False	-	URIDK2r	True	peg.2326	URIDK2r
+R00378	True	peg.2350 or peg.376 or peg.2658 or peg.2318 or peg.945 or peg.2890 or peg.1933 or peg.2437 or peg.1749	False	None	None	False	None	None	False	None	None
+R04212	True	peg.1219 or peg.1218 or peg.1220	False	None	None	False	None	None	False	None	None
+R02095	False	None	False	None	None	True	peg.1298	NTP9	True	peg.1298	NTP9
+R02094	False	-	False	- or -	DTMPK	False	-	DTMPK	False	-	DTMPK
+cellulase4	False	None	False	None	None	False	(- or - or - or - or - or - or - or peg.2375 or -) and (- or - or - or -)	cellulase4	False	None	None
+R00375	True	peg.2350 or peg.376 or peg.2658 or peg.2318 or peg.945 or peg.2890 or peg.1933 or peg.2437 or peg.1749	False	None	None	False	None	None	False	None	None
+R02091	True	peg.962	False	None	None	False	None	None	False	None	None
+R02090	True	peg.1516	True	peg.1516	DGK1	True	peg.1516	DGK1	True	peg.1516	DGK1
+R02093	False	None	False	None	NDPK4	False	-	NDPK4	False	-	NDPK4
+R00371	True	peg.2769	False	None	None	True	peg.2769	GLYAT	True	peg.2596	GLYAT
+ETOHt1	False	None	False	None	ETOHt1	False	None	None	False	None	None
+R00137	True	peg.1737	False	None	None	True	peg.1737	NMNATr	True	peg.1737	NMNATr
+cellottx	False	None	False	None	None	False	- and (peg.2831 or peg.486 or peg.490)	cellottx	False	None	None
+R04109	True	peg.1680	False	None	None	True	peg.1680	GLUTRR	True	peg.1680	GLUTRR
+PHCYT_CT	False	None	False	None	None	False	None	None	False	None	PHCYT_CT
+R00257	True	peg.621	True	peg.621	NADS2	False	None	None	False	None	None
+R00131	False	None	False	None	None	False	- and - and -	UREA	False	None	None
+R00256	True	peg.2034 or peg.1924 or peg.462 or peg.2424 or peg.2425 or peg.1868 or peg.2035 or peg.2036 or -	False	None	None	False	None	None	False	None	None
+R08360	True	peg.401	False	None	None	False	None	None	False	None	None
+NH4t	False	None	False	None	None	False	None	NH4t	False	None	NH4t
+R01402	True	peg.2293 or peg.1850	False	None	None	True	(peg.1850 or peg.2283 or peg.2293)	MTAP	False	None	None
+R06049	True	peg.987	False	None	None	False	None	None	False	None	None
+R03905	True	peg.1219 or peg.1218 or peg.1220	True	peg.1218 and peg.1219 and peg.1220	7	False	None	None	False	None	None
+R09372	False	-	False	None	None	False	None	None	False	None	None
+R04620	True	peg.359	True	peg.359	AKP1	False	None	AKP1	True	peg.2433	AKP1
+FRUabc	False	None	True	(peg.2831 or peg.486 or peg.490) or peg.1053	FRUabc	False	None	None	False	None	None
+R10089	True	peg.2424 or peg.2425	False	None	None	False	None	None	False	None	None
+R09660	True	peg.1347	False	None	None	False	None	None	False	None	None
+R01230	True	peg.1924	False	None	None	False	None	GMPS	True	peg.1924	GMPS
+R01231	True	peg.1924	True	peg.1924	GMPS2	False	None	R14	True	peg.1924	GMPS2
+R03618	True	peg.888 or peg.1585	False	None	None	False	None	None	False	None	None
+R00883	False	None	True	(peg.1964 or peg.810)	MAN1PT2	False	None	None	False	None	None
+R01105	False	- or -	False	None	None	False	None	None	False	None	None
+R00253	True	peg.1084	False	-	GLNS	True	peg.1084 or - or -	GLNS	False	-	GLNS
+R00888	False	None	False	-	GMAND	False	None	None	False	None	None
+R00925	False	None	True	peg.1248 or -	ACS2	True	peg.1248	ACS2	True	peg.1248	ACS2
+R05612	False	None	False	None	None	False	None	HEXTT	False	None	None
+R05613	False	None	False	None	None	False	None	PPTT	False	None	None
+R00569	False	None	False	None	None	True	peg.1298	NTP5	True	peg.1298	NTP5
+R03658	False	-	True	peg.1102	LYSTRS	False	-	LYSTRS	True	(peg.1411 or peg.2820)	LYSTRS
+R04963	True	peg.1641	True	peg.1641 or - or - or peg.1637 or peg.1637 or - or - or - or (peg.1586 or peg.1594 or peg.1962) or -	3OAS120	False	None	None	False	None	None
+R04475	True	peg.2349	False	None	None	False	None	None	True	(peg.1610 or peg.1906 or peg.977)	SDPTA
+R02755	False	None	False	None	None	False	None	R4	False	None	None
+R01157	True	peg.1803	False	None	None	True	peg.1803	AGMT	True	peg.1803	AGMT
+R02750	False	None	True	(peg.2673 or peg.2967) or -	DRBKr	False	None	None	False	None	None
+R03650	True	peg.2818	True	peg.2818	CYSTRS	True	peg.2818	CYSTRS	True	peg.2818	CYSTRS
+R03651	True	peg.2820	False	None	None	False	None	None	False	None	None
+R03652	False	None	False	None	None	False	-	GLNTRS	True	(peg.1411 or peg.2820)	GLNTRS
+R03654	True	peg.1903	False	None	None	True	peg.1903	GLYTRS	True	peg.1903	GLYTRS
+R03655	True	peg.1025	True	(peg.1025 or peg.1973)	HISTRS	True	(peg.1025 or peg.1973) or (peg.1025 or peg.1973)	HISTRS	True	(peg.1025 or peg.1973)	HISTRS
+R03656	True	peg.1837	True	peg.1837	ILETRS	True	peg.1837	ILETRS	True	peg.1837	ILETRS
+R03657	True	peg.1741	True	peg.1741	LEUTRS	True	peg.1741	LEUTRS	True	peg.1741	LEUTRS
+R02020	False	None	True	peg.979	RNTR2	True	peg.979	RNTR2	True	peg.979	RNTR2
+R02021	False	None	False	None	None	False	-	PAPSR	False	-	PAPSR
+R01878	True	peg.2288	True	peg.2288	CYTD	True	peg.2288 or peg.2288	CYTD	True	peg.2288	CYTD
+R00289	True	peg.1634	True	peg.1634	GALUi	True	peg.1634	GALU	True	peg.1634	GALU
+R02024	False	None	False	-	RNDR3	False	-	RNDR3	False	-	RNDR3
+R08701	True	peg.363 or peg.362	False	None	None	False	None	None	False	None	None
+R08700	True	peg.2221	False	None	None	False	None	None	False	None	None
+R02029	False	None	False	None	PGPPH3,PGPPH1,PGPPH2,PGPPH5,PGPPH4,PGPPH6,PGPPH7	False	None	PGPPH_CT	False	None	PGPPH_CT
+R01870	True	peg.1873	False	None	ORPT	False	None	ORPT	True	peg.1867	ORPT
+R01876	True	peg.2286	False	-	PYNP2r	True	peg.2286	PYNP2r	True	peg.2286	PYNP2r
+R00284	True	peg.1658	False	None	None	False	None	None	False	None	None
+R00715	False	None	False	-	SACCD2	False	None	None	False	None	None
+R04958	False	None	True	(peg.1586 or peg.1594 or peg.1962) or -	EAR80x	False	None	None	False	None	None
+R00849	True	peg.1400	False	None	None	False	None	None	False	None	None
+R08034	True	peg.2217 or peg.2218 or peg.2935 or peg.1338 or peg.1337 or peg.1340 or peg.1339	False	None	None	False	None	None	False	None	None
+R03530	False	None	False	None	None	False	None	None	False	-	NDPK10
+R04952	True	peg.1641	True	peg.1641 or - or - or peg.1637 or peg.1637 or - or - or - or (peg.1586 or peg.1594 or peg.1962) or -	3OAS60	False	None	None	False	None	None
+R04953	True	peg.1639	True	(peg.1152 or peg.1639 or peg.2965 or peg.611 or peg.932) or - or - or (peg.1152 or peg.1639 or peg.2965 or peg.611 or peg.932)	3OAR60	False	None	None	False	None	None
+R10039	True	peg.2930 or peg.878	False	None	None	False	None	None	False	None	None
+R00717	False	None	True	(peg.2522 or peg.2680 or peg.2970)	GLYCLTDx	False	None	None	False	None	None
+R04957	True	peg.1641	True	peg.1641 or - or - or peg.1637 or peg.1637 or - or - or - or (peg.1586 or peg.1594 or peg.1962) or -	3OAS80	False	None	None	False	None	None
+R04954	True	peg.2593	True	peg.2593	3HAD60	False	None	None	False	None	None
+R04955	False	None	True	(peg.1586 or peg.1594 or peg.1962) or -	EAR60x	False	None	None	False	None	None
+R00089	False	None	False	-	ADNCYC	False	-	ADNCYC	False	None	None
+R02530	False	None	False	-	LGTHL	False	None	None	False	None	None
+R02531	False	None	True	peg.841	LALDO2x	False	None	None	False	None	None
+R00127	True	peg.2234	True	peg.2234	ADK1	True	peg.2234	ADK1	True	peg.2234	ADK1
+R05332	True	peg.1076	True	peg.1076	G1PACTr	True	peg.1076	G1PACT	True	peg.1076	G1PACT
+R02433	True	peg.1610	True	(peg.1610 or peg.1906 or peg.977)	LCYSTAT	False	None	None	False	None	None
+R05692	False	None	False	-	GFUCS	False	None	None	False	None	None
+R02539	True	peg.1490 or peg.2581 or peg.2000 or peg.1997	False	None	None	True	(peg.1490 or peg.1997 or peg.2000) or -	PACCOAL	True	peg.1248	PACCOAL
+R00084	True	peg.1684	False	None	None	True	peg.1684	HMBS	True	peg.1684	HMBS
+R00086	True	peg.2941 or peg.676 or peg.2833 or peg.2410 or peg.1711 or peg.1345 or peg.2019 or peg.725 or - or peg.2836 or peg.498 or - or peg.1596 or peg.1597 or peg.1916 or peg.1918 or peg.2725 or peg.1976 or peg.2292 or peg.2459 or peg.491 or peg.1772 or -	['False', 'True', 'True']	(peg.1922 and peg.1921 and peg.1920 and peg.1919 and peg.1918 and peg.1917 and (peg.1916 or peg.2725) and peg.1915) or (peg.1916 or peg.2725) or (peg.1645 or peg.1646)	ATPM,PIabc,ATPS4r	['False', 'False', 'True']	peg.1298 or peg.1918 and (peg.1916 or peg.2725) and peg.1917 and peg.1919 and peg.1915 and peg.1922 and - and peg.1921	ATPS2_i,PIabc,NTP1	True	peg.1298 or peg.1918	NTP1,ATPS4r
+R08689	True	peg.2320	False	None	None	False	None	None	False	None	None
+R00754	True	peg.2808	True	(peg.1398 or peg.2808) or -	ALCD2x	True	(peg.1398 or peg.2808) or (peg.2633 or peg.968) or (peg.1398 or peg.2808) or - or (peg.2633 or peg.968) or (peg.1398 or peg.2808)	ALCD2x	False	None	ADH1
+MNabc	False	None	True	peg.2746	MNabc	False	None	None	False	None	None
+R04968	True	peg.1641	True	peg.1641 or - or - or peg.1637 or peg.1637 or - or - or - or (peg.1586 or peg.1594 or peg.1962) or -	3OAS160	False	None	None	False	None	None
+R05185	False	None	False	None	None	False	None	None	False	-	NIT
+R00751	False	None	False	-	THRAr	False	None	None	False	None	THRAr
+FUMt2r	False	None	False	None	None	False	None	FUMt2r	False	None	None
+R03005	True	peg.1737	True	peg.1737	NNATr	True	peg.1737	NNATr	True	peg.1737	NNATr
+R00694	True	peg.1306 or peg.1610 or peg.1970	True	(peg.1610 or peg.1906 or peg.977) or (peg.1306 or peg.1970)	PHETA1	True	peg.1610 or (peg.1306 or peg.1970) or - or peg.1906	PHETA1	True	(peg.1610 or peg.1906 or peg.977)	PHETA1
+G3POA_CT	False	None	False	None	None	False	None	None	False	None	G3POA_CT
+R05688	True	peg.2322	False	None	None	True	peg.2322	DXPRIi	True	peg.2322	DXPRIi
+GLNt2r	False	None	False	None	None	False	None	GLNt2r	False	None	None
+R07390	False	None	False	None	None	False	-	CLPNS2_CT	False	None	None
+R10949	True	peg.1868 or peg.2035 or peg.2036	False	None	None	False	None	None	False	None	None
+R06056	True	peg.880	False	None	None	False	None	None	False	None	None
+R01902	True	peg.1301	False	None	None	False	None	None	False	None	None
+SULabc	False	None	False	None	SULabc	False	- and - and - and -	SULabc	True	(peg.1029 or peg.1054 or peg.125 or peg.1310 or peg.2577 or peg.2600 or peg.2629 or peg.2643 or peg.2906 or peg.2955 or peg.469 or peg.572 or peg.815 or peg.90)	SULabc
+R11529	True	peg.2042 or peg.2223	False	None	None	False	None	None	False	None	None
+R10283	True	peg.2968	False	None	None	False	None	None	False	None	None
+R10281	True	peg.2421	False	None	None	False	None	None	False	None	None
+R10280	True	peg.2421	False	None	None	False	None	None	False	None	None
+ARGt2r	False	None	False	None	None	False	None	ARGt2r	False	None	None
+R00451	True	peg.1249	True	peg.1249 or peg.1249 or -	DAPDC	True	peg.1249	DAPDC	True	peg.1249	DAPDC
+R08368	True	peg.2283	False	None	None	False	None	None	False	None	None
+R10463	True	peg.1556	False	None	None	False	None	None	False	None	None
+R10531	True	peg.1286	False	None	None	False	None	None	False	None	None
+R06199	True	peg.561	False	None	None	False	None	None	False	None	None
+R02971	True	peg.975	False	None	None	False	None	None	False	None	None
+R06053	True	peg.818	False	None	None	False	None	None	False	None	None
+R01658	True	peg.1483	False	None	None	False	None	DMATT	False	None	None
+R09099	True	peg.1541	False	None	None	False	None	None	False	None	None
+R01654	False	-	False	None	None	False	None	None	False	None	None
+R01655	False	-	True	peg.1461	MTHFC	True	peg.1461 or peg.2770	MTHFC	True	peg.1461	MTHFC
+R01652	True	peg.2650	False	None	OMCDC	False	None	OMCDC	False	None	OMCDC
+R03920	True	peg.2673	False	None	None	False	None	None	False	None	None
+EXCH_pi_c	False	None	False	None	None	False	None	None	False	None	EXCH_pi_c
+R01651	False	None	False	None	None	False	None	OIVD1	True	peg.2746	OIVD1
+R06129	True	peg.2608	False	None	None	False	None	None	False	None	None
+R02326	False	None	False	None	None	False	-	NDPK7	False	-	NDPK7
+R02325	False	None	False	None	None	False	None	R16	False	None	None
+R04001	True	peg.2652 or peg.2651	False	peg.2652 and peg.2651 and peg.2651 and -	IPPMIa	True	peg.2651 and peg.2652	IPPMIa	True	peg.2652	IPPMIa
+CUt3	False	None	True	peg.2195	CUt3	False	None	None	False	None	None
+R07768	True	peg.1155	False	None	None	False	None	None	False	None	None
+ARGabc	False	None	True	(peg.1321 or peg.2196 or peg.2197) or peg.2461	ARGabc	False	None	None	False	None	None
+R10859	True	peg.2320	False	None	None	False	None	None	True	peg.2320	MECDPDH
+R11397	True	peg.967	False	None	None	False	None	None	False	None	None
+R04558	True	peg.1966 or peg.1968	True	peg.1966 and (peg.936 or peg.938)	IG3PS	True	peg.1968	IG3PS	True	peg.1968	IG3PS
+R02283	True	peg.2349	True	- or (peg.1687 or peg.2349 or peg.77)	ACOTA	True	peg.2349	ACOTA	True	(peg.1687 or peg.2349 or peg.77)	ACOTA
+R00156	False	None	False	None	None	False	-	NDPK2	False	-	NDPK2
+FACOAL170_anteiso_	False	None	False	None	None	False	-	FACOAL170_anteiso_	True	peg.1248	FACOAL170_anteiso_
+R00230	True	peg.1987	True	peg.1987	PTAr	True	peg.1987	PTAr	True	peg.1987	PTAr
+R00019	False	None	False	- and -	FRHD	False	-	FDXHASE	False	- and - and - and -	HFS
+R00768	True	peg.2898	True	peg.2898	GF6PTA	True	peg.2898	GF6PTA	True	peg.2898	GF6PTA
+R03015	True	peg.678	False	None	None	False	None	None	False	None	None
+PYRt2r	False	None	False	None	None	False	None	PYRt2r	False	None	None
+R00014	True	peg.934 or peg.1111 or peg.933	True	(peg.2605 and -) or ((peg.1111 or peg.933) and peg.934 and (peg.1111 or peg.933))	PYRDC	False	None	None	False	None	None
+R00442	True	peg.2226 or peg.1263 or peg.1517 or peg.1264	False	None	None	False	None	None	False	None	None
+R00158	True	peg.1813 or peg.2326	True	peg.1813	UMPK	True	peg.2326	URIDK1r	True	peg.1813 or peg.2326	URIDK1r,UMPK
+R00159	False	None	False	None	None	True	peg.1298	NTP7	True	peg.1298	NTP7
+METabc	False	None	False	None	None	False	None	METabc	False	None	None
+CDGPT_CT	False	None	False	None	None	False	None	None	False	None	CDGPT_CT
+R00623	True	peg.2808	False	None	None	False	None	None	False	None	None
+R05961	True	peg.888 or peg.1585	False	None	None	False	None	None	False	None	None
+R00235	False	None	True	peg.1248 or -	ACS	True	peg.1248	ACS	True	peg.1248	ACS
+R10707	True	peg.1637	False	None	None	False	None	None	False	None	None
+R10516	True	- or peg.1578	False	None	None	False	None	None	False	None	None
+cellobtx	False	None	False	None	None	False	- and (peg.2831 or peg.486 or peg.490)	cellobtx	False	None	None
+LIPO3S24_CT	False	None	False	None	None	False	None	LIPO3S24_CT	False	None	LIPO3S24_CT
+R01626	True	peg.1638	True	peg.1638 or -	MCOATA	True	peg.1638	MCOATA	True	peg.1638	MCOATA
+R01625	True	peg.2422	True	peg.2422	ACPS1	False	None	None	False	None	None
+R01624	False	None	True	peg.1641 or - or - or peg.1637 or peg.1637 or - or - or - or (peg.1586 or peg.1594 or peg.1962) or -	ACOATA	False	None	None	False	None	None
+R01150	True	peg.2585	True	peg.2585	ALAALA	True	peg.2585	ALAALAr	True	peg.2585	ALAALAr
+R01401	False	None	False	-	MTAN	False	None	None	False	None	None
+R00199	False	None	False	None	None	False	-	PPS	False	None	None
+R02371	True	peg.962	False	None	None	False	None	None	False	None	None
+R02164	True	peg.2634	False	None	None	False	None	None	False	None	None
+BTNt2r	False	None	True	peg.2195	BTNt2r	False	None	None	False	None	None
+Kt3g	False	None	True	peg.2195 or -	Kt3g	False	None	None	False	None	None
+R00970	True	peg.962	False	None	None	True	peg.962	URIK3	True	peg.962	URIK3
+R01158	True	peg.1971	True	peg.1971	HISTD	True	peg.1971	HISTD	True	peg.1971	HISTD
+R00974	False	None	False	-	CSND	False	None	None	False	None	None
+R00710	False	None	False	None	None	False	-	ALDD2x	False	-	ALDD2x
+R00509	False	None	False	None	None	True	peg.1679	ADSK	True	peg.1679	ADSK
+R00332	True	peg.1516	True	peg.1516	GK1	True	peg.1516	GK1	True	peg.1516	GK1
+R00239	True	peg.2154	True	peg.2154	GLU5K	True	peg.2154	GLU5K	True	peg.2154	GLU5K
+R04998	True	peg.2930 or peg.878	False	None	None	False	None	None	False	None	None
+R01397	True	peg.1865	True	peg.1865	ASPCT	True	peg.1865	ASPCT	True	peg.1865	ASPCT
+R06050	True	peg.123 or peg.986	False	None	None	False	None	None	False	None	None
+ECH	False	None	False	None	None	False	None	None	False	peg.1563 and peg.1564 and peg.1565 and peg.1566 and peg.1567 and - and peg.1569 and peg.1570 and peg.1571 and peg.1572 and peg.1573	ECH
+R00335	True	peg.1445	False	None	None	True	peg.1298	NTP3,NTP3e	True	peg.1298	NTP3e,NTP3
+R01010	True	peg.359	False	None	None	False	None	None	False	None	None
+R01398	True	peg.2037	True	- or peg.2037	OCBT	True	peg.2037	OCBT	True	peg.2037	OCBT
+R10948	True	peg.1868 or peg.2035 or peg.2036	False	None	None	False	None	None	False	None	None
+R01015	True	peg.1899	True	peg.1899	TPI	False	-	TPI	False	-	TPI
+R01016	True	peg.1797	True	peg.1797 or peg.1797	MGSA	True	peg.1797	MGSA	True	peg.1797	MGSA
+R11945	False	None	True	peg.1787 and peg.1786 and peg.1783 and peg.1787 and peg.1786 and peg.1783	NADH5	False	None	None	False	None	None
+R02199	True	peg.1109	True	(peg.1109 or peg.2778) or (peg.1109 or peg.2778)	ILETA	False	-	ILETA	True	(peg.1109 or peg.2778)	ILETA
+R03472	True	peg.786	False	None	None	False	None	None	False	None	None
+R04314	True	peg.877	False	None	None	False	None	None	False	None	None
+R10783	True	peg.2808	False	None	None	False	None	None	False	None	None
+R04316	True	peg.866	False	None	None	False	None	None	False	None	None
+R01548	True	peg.962	False	None	None	False	None	None	False	None	None
+ALAt2r	False	None	False	None	None	False	None	ALAt2r	False	None	None
+R11090	True	peg.2338	False	None	None	False	None	None	False	None	None
+R03348	True	peg.1701	True	peg.1701	NNDPR	True	peg.1701	NNDPR	True	peg.1701	NNDPR
+R01714	True	peg.1766	True	peg.1766	CHORS	True	peg.1766	CHORS	True	peg.1766	CHORS
+R01498	True	peg.482	False	None	None	False	None	None	False	None	None
+R10119	True	peg.1641	False	None	None	False	None	None	False	None	None
+R03223	True	peg.785	True	peg.785	TMPPP	False	-	TMPPP	True	peg.785	TMPPP
+R02569	True	peg.1156	False	None	None	False	None	None	False	None	None
+R11099	True	peg.589	False	None	None	False	None	None	False	None	None
+R10830	False	-	False	None	None	False	None	None	False	None	None
+R02147	True	peg.2283	False	-	PUNP3	True	(peg.1850 or peg.2283 or peg.2293) or -	PUNP3	False	-	PUNP3
+R08260	False	-	False	None	None	False	None	None	False	None	None
+R06160	True	peg.126	False	None	None	False	None	None	False	None	None
+R05875	False	None	False	None	FNOR2	False	None	None	False	None	None
+R06927	True	peg.2808	False	None	None	False	None	None	False	None	None
+R08359	True	peg.1802	False	None	None	False	None	None	False	None	None
+R05994	False	- or -	False	None	None	False	None	None	False	None	None
+R03898	True	peg.2652 or peg.2651	False	None	None	False	None	None	False	None	None
+R08938	True	peg.1962	False	None	None	False	None	None	False	None	None
+R11029	True	peg.2350 or peg.376 or peg.2658 or peg.2318 or peg.945 or peg.2890 or peg.1933 or peg.2437 or peg.1749	False	None	None	False	None	None	False	None	None
+R00489	True	peg.2501	True	peg.2501 or -	ASP1DC	True	peg.2501	ASP1DC	True	peg.2501	ASP1DC
+R01577	True	peg.2619	False	None	None	False	None	None	False	None	None
+R00480	True	peg.2480	True	peg.2480	ASPK	True	peg.2480	ASPKi	True	peg.2480	ASPKi
+R00481	True	peg.1700	False	None	None	False	None	None	False	None	None
+R00529	True	peg.1679 or peg.1678	False	None	SADT1r	True	peg.1678 and peg.1679	SADT	True	peg.1679	SADT
+R00483	True	peg.2034	False	-	ASNS2	False	-	ASNS2	False	None	None
+R06178	True	peg.204	False	None	None	False	None	None	False	None	None
+R17	False	None	False	None	None	False	None	R17	False	None	None
+R02719	False	None	False	-	NTD10	False	None	None	False	None	None
+R02060	True	peg.2899	True	peg.2899	PGAMT	True	peg.2899	PGAMT	True	peg.2899	PGAMT
+R02061	True	peg.1483	False	None	None	False	None	FRTT	False	None	None
+NAt3_1	False	None	True	peg.2195	NAt3_1	False	None	None	False	None	None
+R01716	True	peg.2779 or peg.2780	False	None	None	False	None	None	False	None	None
+R01086	True	peg.1735	True	peg.1735	ARGSL	True	peg.1735	ARGSL	True	peg.1735	ARGSL
+NH4t3r	False	None	True	peg.2195	NH4t3r	False	None	None	False	None	None
+R01083	True	peg.1611	True	peg.1611	ADSL1r	True	peg.1611	ADSL1r	True	peg.1611	ADSL1r
+R01082	True	peg.941 or peg.351	True	peg.941 and peg.351	FUM	True	peg.351 and peg.941	FUM	True	peg.351	FUM
+R02262	True	peg.1149	True	(peg.127 or peg.2791)	FCLPA	False	None	None	False	None	None
+R08210	True	peg.1815	False	None	None	False	None	None	False	None	None
+R00878	True	peg.1037	True	peg.1037	XYLI2	False	None	None	False	None	None
+R02102	False	None	False	-	NTD1	False	None	None	False	None	None
+R02101	False	None	False	-	TMDS	False	-	TMDS	False	-	TMDS
+R02100	True	peg.1298 or peg.1910	True	peg.1910	DUTPDP	True	peg.1910	DUTPDP	True	peg.1910	DUTPDP
+R10520	False	None	False	None	None	False	None	None	False	-	G6PDH1
+R10648	True	peg.2345	False	None	None	False	None	None	False	None	None
+R04673	True	peg.934 or peg.1111 or peg.933	False	None	None	False	None	None	False	None	None
+R04672	True	peg.934 or peg.1111 or peg.933	False	None	None	False	None	None	False	None	None
+R03950	True	peg.1685	False	None	None	False	None	None	False	None	None
+NIabc	False	None	True	peg.2429	NIabc	False	None	None	False	None	None
+R08553	True	peg.1676 or peg.1677	False	None	None	False	None	None	False	None	None
+CITt2r	False	None	False	None	None	False	None	CITt2r	False	None	None
+R10647	True	peg.1994	False	None	None	False	None	None	False	None	None
+R10646	True	peg.1994	False	None	None	False	None	None	False	None	None
+R10645	True	peg.1994	False	None	None	False	None	None	False	None	None
+R04173	False	None	False	None	None	False	-	PSERT	False	None	None
+R07618	True	peg.1157	False	None	None	False	None	None	False	None	None
+Nat_4	False	None	False	None	None	False	None	Nat_4	False	None	None
+R00709	True	peg.956	False	None	None	False	None	None	False	None	None
+R00430	True	peg.1753	True	peg.1753	PYK2	False	None	None	False	None	None
+MOBDabc	False	None	False	-	MOBDabc	False	None	None	False	None	None
+R10654	True	peg.1462	False	None	None	False	None	None	False	None	None
+R07613	True	peg.977	False	None	None	False	None	R10	False	None	None
+R04773	True	peg.718	False	None	None	False	None	None	False	None	None
+R04771	True	peg.1139	False	None	None	False	None	None	False	None	None
+R07405	True	peg.1663	False	None	None	False	None	None	False	None	None
+R02624	True	- or peg.1262 or peg.2799 or peg.1009	False	None	None	False	None	None	False	None	None
+R10712	True	peg.785	False	None	None	False	None	None	False	None	None
+R02622	True	peg.2701	False	None	None	False	None	None	False	None	None
+R00416	True	peg.1076	True	peg.1076	UAGDPr	False	None	None	True	peg.1076	UAGDP
+R00414	True	peg.2465	False	None	UAG2EMA	True	- or peg.2465	UAG2EMA	True	peg.2465	UAG2EMA
+R10244	True	peg.2283	False	None	None	False	None	None	False	None	None
+R00418	True	peg.1631 or peg.1410	False	None	UAG4E	True	(peg.1410 or peg.1631 or peg.436)	UAG4E	True	(peg.1410 or peg.1631 or peg.436)	UAG4E
+FACOAL171_ISO_	False	None	False	None	None	False	-	FACOAL171_ISO_	True	peg.1248	FACOAL171_ISO_
+MANabc	False	None	True	(peg.2831 or peg.486 or peg.490) or peg.1053	MANabc	False	None	None	False	None	None
+R01826	True	peg.1305	True	peg.1305 or peg.1305	DAHPS	True	peg.1305 or peg.1305	DDPA	True	peg.1305	DDPA
+R01821	True	peg.123 or peg.986	False	None	None	False	None	None	False	None	None
+R09508	False	None	False	None	None	False	None	BIFHASE	True	peg.1787 and peg.1786 and peg.1785 and peg.1784 and peg.1783 and peg.1782 and peg.1781 and peg.1780	BIFH2
+UMPK6	False	None	False	None	None	False	None	None	True	peg.1813	UMPK6
+UMPK7	False	None	False	None	None	False	None	None	True	peg.1813	UMPK7
+UMPK4	False	None	False	None	None	False	None	None	True	peg.1813	UMPK4
+UMPK5	False	None	False	None	None	False	None	None	True	peg.1813	UMPK5
+UMPK2	False	None	False	None	None	False	None	None	True	peg.1813	UMPK2
+UMPK3	False	None	False	None	None	False	None	None	True	peg.1813	UMPK3
+R08639	False	None	True	(peg.2262 or peg.2586)	PGMT	True	(peg.2262 or peg.2586)	PGMT	True	peg.2899	PGMT
+PROt4r	False	None	False	None	None	False	None	PROt4r	False	None	None
+R08571	True	peg.1280	False	None	None	False	None	None	False	None	None
+R07475	False	None	False	None	None	False	None	GGTT	False	None	None
+R00848	True	peg.1400	False	None	None	False	None	None	False	None	None
+R02617	True	peg.1636 or peg.1208 or peg.2740	False	None	None	False	None	None	False	None	None
+R04457	True	peg.993	True	peg.995	RBFSa	True	peg.995 and peg.993	RBFSa	True	peg.993	RBFSa
+R02439	True	peg.2793	False	None	None	False	None	None	False	None	None
+TECA4S	False	None	False	None	TECA4S	False	None	None	False	None	None
+FACOAL161_ISO_	False	None	False	None	None	False	-	FACOAL161_ISO_	True	peg.1248	FACOAL161_ISO_
+R01228	False	None	False	None	None	False	None	GSNK	False	None	None
+R07602	True	peg.1158	False	None	None	False	None	None	False	None	None
+R05605	True	peg.2968	True	peg.2968 or -	EDA	False	None	None	False	None	None
+SUCCt6	False	None	False	None	SUCCt6	False	None	None	False	None	None
+R04519	True	peg.204	False	None	None	False	None	None	False	None	None
+R05577	True	peg.1026	True	peg.1026	ASPTRS	True	- or peg.1026	ASPTRS	True	peg.1026	ASPTRS
+R08238	True	peg.1082	False	None	None	False	None	None	False	None	None
+R00896	True	peg.1610	False	None	None	False	None	None	False	None	None
+R04383	True	peg.2966	False	None	None	False	None	None	False	None	None
+R02361	False	None	False	-	PECTLASE	False	None	None	False	None	None
+R05578	True	peg.1411 or peg.2820	True	(peg.1411 or peg.2820)	GLUTRS	True	(peg.1411 or peg.2820)	GLUTRS	False	None	None
+R05607	True	peg.1152	False	None	None	False	None	None	False	None	None
+CYTK5	False	None	False	None	None	False	None	None	True	peg.1813	CYTK5
+R01959	True	peg.1006	False	None	None	False	None	None	False	None	None
+R00894	False	None	False	-	GLUCYS	False	None	None	False	None	None
+R00660	True	peg.1071 or peg.605	True	(peg.1071 or peg.1238 or peg.605) or (peg.1071 or peg.1238 or peg.605) or -	UAGCVT	True	(peg.1071 or peg.1238 or peg.605) or - or - or (peg.1071 or peg.1238 or peg.605)	UAGCVT	True	(peg.1071 or peg.1238 or peg.605)	UAGCVT
+R02568	True	peg.2523 or peg.2972 or peg.1061	True	(peg.1061 or peg.2523 or peg.2972) or -	FBA2	False	None	None	False	None	None
+R05679	True	peg.1261	False	None	None	False	None	None	False	None	None
+CYTK7	False	None	False	None	None	False	None	None	True	peg.1813	CYTK7
+R00209	True	peg.1157 or peg.1156	False	None	None	False	None	None	False	None	None
+R00669	False	None	False	None	None	True	peg.2427	ACODA	True	peg.2427	ACODA
+R00114	False	-	True	peg.1085	GLUSy	True	peg.2937 and peg.2936 and peg.2933	GLUSy	True	peg.2936	GLUSy
+CYTK8	False	None	False	None	None	False	None	None	True	peg.1813	CYTK8
+R02005	False	None	False	None	None	False	None	PSDC_CT	False	None	None
+R11528	True	peg.2042 or peg.2223	False	None	None	False	None	None	False	None	None
+R01221	True	peg.1157 or -	False	None	None	False	None	None	False	None	None
+R01280	False	None	True	- or - or - or peg.1248	FACOAL160	False	-	FACOAL160	True	peg.1248	FACOAL160
+R06142	True	peg.888 or peg.1585	False	None	None	False	None	None	False	None	None
+PACCOAL3	False	None	False	None	None	True	(peg.1490 or peg.1997 or peg.2000) or -	PACCOAL3	True	peg.1248	PACCOAL3
+R01220	False	-	True	peg.1461	MTHFD	True	peg.1461	MTHFD	True	peg.1461	MTHFD
+R00703	True	peg.2434	True	peg.2434 or peg.2434	LDH_L	True	peg.2434 or -	LDH_L	True	peg.2434	LDH_L
+R00700	False	None	False	None	None	True	(peg.1786 and peg.1787) or (peg.1786 and -)	NADOX	True	peg.1787 and peg.1786 and peg.1785 and peg.1784 and peg.1783 and peg.1782 and peg.1781 and peg.1780	NADH2
+R01353	True	peg.1986	True	peg.1986	PPAK	True	peg.1804 and peg.1806 and peg.1807	PPCOAC	True	peg.1986	PPAKr
+R01829	True	peg.2523 or peg.2972 or peg.1061	False	None	None	False	None	None	False	None	None
+R01728	True	peg.1304	True	peg.1304	PPND	True	peg.1304	PPND	True	peg.1304	PPND
+R01054	True	peg.1830	True	peg.1830	ADPRDP	True	peg.1830	ADPRDP	True	peg.1830	ADPRDP
+R01055	False	None	False	None	None	True	peg.1535 or peg.2194 or peg.1861	YUMPS	True	peg.1861	YUMPS
+R01056	True	peg.1073	True	peg.1073 or peg.1073	RPI	True	peg.1073	RPI	True	peg.1073	RPI
+R01057	True	peg.2284	True	peg.2284	PPM	True	(peg.2262 or peg.2586)	PPM	True	peg.2284	PPM
+R01051	False	None	True	(peg.2673 or peg.2967)	RBK	False	None	None	False	None	None
+R04426	True	peg.2650	True	(peg.2650 or peg.956)	IPMD	True	(peg.2650 or peg.956)	IPMD	True	(peg.2650 or peg.956)	IPMD
+R04355	True	peg.1641	True	peg.1641 or - or - or peg.1637 or peg.1637 or - or - or - or (peg.1586 or peg.1594 or peg.1962) or -	KAS14	False	None	None	False	None	None
+R06152	True	peg.888 or peg.1585	False	None	None	False	None	None	False	None	None
+R08281	True	peg.2808	False	None	None	False	None	None	False	None	None
+R00330	False	None	False	None	None	False	-	NDPK1	False	-	NDPK1
+R01676	False	None	False	None	None	False	-	GUAD	True	peg.2977	GUAD
+R04420	True	peg.1849	True	peg.1849	MTRI	True	peg.1849	MTRI	False	None	None
+R07282	True	peg.1538	False	None	None	False	None	None	False	None	None
+R06010	False	- or -	False	None	None	False	None	None	False	None	None
+R10829	True	peg.92	False	None	None	False	None	None	False	None	None
+R02926	True	peg.888 or peg.1585	True	peg.1585 or peg.1585 or -	MELTGH	False	None	None	False	None	None
+R06179	True	peg.204	False	None	None	False	None	None	False	None	None
+R07281	True	peg.994	True	peg.994	DB4PS	False	None	DB4PS	False	None	None
+R04428	True	peg.2593	True	peg.2593	3HAD40	False	None	None	False	None	None
+R04429	False	None	True	(peg.1586 or peg.1594 or peg.1962) or -	EAR40x	False	None	None	False	None	None
+R00026	True	peg.2930 or peg.878	False	None	None	False	None	R6	False	None	None
+R07456	True	peg.2424 or peg.2425	False	None	None	False	None	None	False	None	None
+R00022	False	None	False	None	None	False	None	CHTBNASE	True	peg.1837	CHTBNASE
+R04859	True	peg.1606 or peg.1675 or peg.2123	False	None	None	False	None	None	False	None	None
+R00767	True	peg.1752 or peg.2336	False	None	None	False	None	None	False	None	None
+R00519	False	None	False	None	None	False	None	FDH	True	peg.1786	FDH
+NACUP	False	None	False	None	NACUP	False	None	None	False	None	None
+R01224	True	peg.736	False	None	MTHFR1	False	-	MTHFR3	False	-	MTHFR3
+R09381	True	peg.1814	True	peg.1814	AGPAT120,AGPAT160,AGPAT161,AGPAT140,AGPAT141,AGPAT180,AGPAT181	False	None	None	False	None	None
+R03269	True	peg.1518	False	-	PPCDC	True	peg.1518	PPCDC	True	peg.1518	PPCDC
+R01759	False	None	True	peg.841	ARABRr	False	None	None	False	None	None
+R06091	True	peg.888 or peg.1585	False	None	None	False	None	None	False	None	None
+R09382	True	peg.2219	False	None	None	False	None	None	False	None	None
+R03260	False	None	False	None	None	False	None	None	True	(peg.1606 or peg.1675)	SHSL1r
+R03266	False	None	False	None	None	True	peg.1610 or peg.1906	EHGLAT	False	None	None
+R00440	True	peg.1538	False	None	None	False	None	None	False	None	None
+R00626	True	peg.359	False	None	None	False	None	None	False	None	None
+R08628	True	peg.2652	False	None	None	False	None	None	False	None	None
+R02749	True	peg.2284	True	peg.2284	PPM2	True	peg.2284	PPM2	True	peg.2284	PPM2
+UAGDP	False	None	False	None	None	True	peg.1076	UAGDP	False	None	None
+R02699	False	None	False	None	None	True	(peg.1490 or peg.1997 or peg.2000) or -	PACCOAL2	True	peg.1248	PACCOAL2
+R01983	True	peg.1896	True	peg.1896 or peg.1896	GUI2	False	None	None	False	None	None
+KAS130iso	False	None	False	None	None	True	peg.1641 and peg.1640 and peg.1639 and peg.1638 and peg.1637 and peg.1636 and peg.1635	KAS130iso	False	None	KAS130iso
+R00200	True	peg.1753	True	peg.1753	PYK	False	None	R22	False	-	PYK
+R00568	False	None	False	None	None	False	-	DCTPD2	True	peg.1910	DCTPD2
+R00206	True	peg.1902	False	None	None	True	peg.1902	PPDK	True	peg.1902	PPDK
+R00357	True	peg.1700	False	None	None	False	None	None	False	None	None
+R04470	True	peg.888 or peg.1585	False	None	None	False	None	None	False	None	None
+R01432	True	peg.1037	True	peg.1037	XYLI1	False	None	None	True	peg.1037	XYLI1
+R01433	True	peg.581	True	(peg.581 or peg.584)	XYL14BASE	False	None	None	False	None	None
+R05052	True	peg.1610	True	(peg.1610 or peg.1906 or peg.977)	EHGLAT	False	None	None	True	(peg.1610 or peg.1906 or peg.977)	EHGLAT
+R01123	False	None	False	None	None	False	None	IPDDI	False	-	IPDDI
+R00566	False	None	False	None	None	True	peg.2596 or peg.2596	ARGDC	True	peg.2596	ARGDC
+R01126	False	None	False	-	NTD11	False	None	None	False	None	None
+R01127	True	peg.1937	True	peg.1937	IMPC	True	peg.1937	IMPC	True	peg.1937	IMPC
+R02142	True	peg.1082	True	peg.2982	XPPT	False	None	None	False	None	None
+R03503	True	peg.610	True	peg.610	HPPK	True	peg.610	HPPK	True	peg.610	HPPK
+R03504	False	None	False	-	DHNPA	False	-	DHNPA	True	peg.860	DHNPA
+R04936	False	-	False	None	None	False	None	None	False	None	None
+R03508	True	peg.2202	True	peg.2202	IGPS	True	peg.2202	IGPS	True	peg.2202	IGPS
+R03509	True	peg.2201	True	peg.2201	PRAI	True	peg.2201	PRAI	True	peg.2201	PRAI
+44	False	None	False	None	44	False	None	None	False	None	None
+42	False	None	False	None	42	False	None	None	False	None	None
+43	False	None	False	None	43	False	None	None	False	None	None
+40	False	None	False	None	40	False	None	None	False	None	None
+41	False	None	False	None	41	False	None	None	False	None	None
+R03314	False	None	False	None	G5SADs	False	None	G5SADr	False	None	G5SADr
+R07158	True	peg.1280	False	None	None	False	None	None	False	None	None
+R00939	False	None	False	-	DHFR	False	-	DHFR	True	(peg.1152 or peg.1639 or peg.2965 or peg.611 or peg.932)	DHFR
+R03313	True	peg.2153	True	peg.2153	G5SD	True	peg.2153	G5SD	True	peg.2153	G5SD
+R08572	True	peg.2617	False	None	None	False	None	None	False	None	None
+FACOAL150_anteiso_	False	None	False	None	None	False	-	FACOAL150_anteiso_	True	peg.1248	FACOAL150_anteiso_
+UDPDPS	False	None	False	None	None	True	peg.2324	UDPDPS	True	peg.2324	UDPDPS
+R01570	True	peg.2286	False	None	None	True	peg.2286	TMDPP	True	peg.2286	TMDPP
+R00931	False	None	False	-	MCITS	False	None	None	False	None	None
+R01639	True	peg.1000	True	(peg.1000 or peg.2526 or peg.2973) or (peg.1000 or peg.2526 or peg.2973)	XYLK	False	None	None	True	(peg.1000 or peg.2526 or peg.2973)	XYLK
+R05234	True	peg.2808	False	None	None	False	None	None	False	None	None
+R00726	True	peg.808	False	None	None	False	None	None	False	None	None
+R04639	True	peg.861	False	None	None	False	None	R12	False	None	None
+R10117	True	peg.2593	False	None	None	False	None	None	False	None	None
+R04880	True	peg.2808	False	None	None	False	None	None	False	None	None
+R02623	True	peg.1012 or peg.1293	False	None	None	False	None	None	False	None	None
+R05233	True	peg.2808	False	None	None	False	None	None	False	None	None
+R04633	False	- or -	False	None	None	False	None	None	False	None	None
+TECA2S45	False	None	False	None	TECA2S45	False	None	TECA2S45	False	None	TECA2S45
+Nat1	False	None	False	None	None	False	None	Nat1	False	None	None
+R06092	True	peg.2930 or peg.878	False	None	None	False	None	None	False	None	None
+R08600	True	peg.328	False	None	None	False	None	None	False	None	None
+MGt5	False	None	False	-	MGt5	False	None	MGt5	False	None	MGt5
+R03647	False	None	False	None	None	False	None	rxn06433	False	None	None
+R01547	True	peg.2234	True	peg.2234	DADK	False	None	R11	False	None	None
+R04783	False	- or -	False	None	None	False	None	None	False	None	None
+R01542	True	peg.2965	False	None	None	False	None	None	False	None	None
+R01229	True	peg.1082 or peg.2471	True	peg.1082	GUAPRT	False	None	GUAPRT	False	None	None
+R01541	True	peg.2967	True	(peg.2673 or peg.2967) or (peg.2673 or peg.2967)	DDGLK	False	None	None	False	None	None
+R00897	True	peg.2123	True	(- and peg.2123) or (peg.1606 or peg.1675) or (peg.1606 or peg.1675)	CYSS	True	- or peg.2123	CYSS	True	peg.2123	CYSS
+R01226	True	peg.2503	True	peg.2503	MOHMT	True	peg.2503	MOHMT	True	peg.2503	MOHMT
+R00895	True	peg.1610	True	(peg.1610 or peg.1906 or peg.977)	15	False	None	None	False	None	None
+R05606	True	peg.1316	True	peg.1316 or peg.1316	MNNH	False	None	None	False	None	None
+R02035	False	None	False	None	None	False	None	None	False	None	PGL
+ASPt2r	False	None	False	None	None	False	None	ASPt2r	False	None	None
+R03648	False	None	False	-	ASNTRS	False	-	ASNTRS	False	-	ASNTRS
+R10116	True	peg.1639	False	None	None	False	None	None	False	None	None
+R08641	True	peg.2652	False	None	None	False	None	None	False	None	None
+FE3abc	False	None	False	None	None	False	- and peg.2315 and -	FE3abc	True	peg.2315	FE3abc
+R00248	False	-	False	-	GLUDy	False	-	GLUDy	False	-	GLUDy
+R02689	True	peg.2306	False	None	None	False	None	UGT1_CT	False	None	None
+R00516	True	peg.962	False	None	None	False	None	None	False	None	None
+R00517	True	peg.962	False	None	None	True	peg.962	CYTDK2	True	peg.962	CYTDK2
+FACOAL171_anteiso_	False	None	False	None	None	False	-	FACOAL171_anteiso_	True	peg.1248	FACOAL171_anteiso_
+R00512	True	peg.1813	True	peg.1813	CYTK1	True	peg.1813	CYTK1	True	peg.1813	CYTK1
+R02748	True	peg.2283	False	-	PUNP6	True	(peg.1850 or peg.2283 or peg.2293) or - or peg.2286	PUNP6	False	-	PUNP6
+R00511	False	None	False	-	NTD4	True	peg.808	NTD4	False	None	None
+R00299	True	peg.984	False	-	HEX1	True	(peg.1056 or peg.984)	HEX1	True	(peg.1056 or peg.984)	HEX1
+R01868	False	None	True	peg.1871	DHORD2,DHORD5	False	None	None	False	None	None
+R02135	True	peg.1527 or peg.359	True	peg.2219	THMP	False	None	None	False	None	None
+H2St	False	None	False	None	None	False	None	H2St	False	None	H2St
+R00291	True	peg.1631 or peg.1410	True	(peg.1410 or peg.1631 or peg.436) or (peg.1410 or peg.1631 or peg.436) or (peg.1410 or peg.1631 or peg.436) or (peg.1410 or peg.1631 or peg.436)	UDPG4E	True	(peg.1410 or peg.1631 or peg.436)	UDPG4E	True	(peg.1410 or peg.1631 or peg.436)	UDPG4E
+R05069	True	peg.935	False	None	None	False	None	R15	False	None	None
+R01863	True	peg.2283	False	-	PUNP5	True	(peg.1850 or peg.2283 or peg.2293) or -	PUNP5	False	-	PUNP5
+R20	False	None	False	None	None	False	None	R20	False	None	None
+R07157	True	peg.2935	False	None	None	False	-	CODH2	True	peg.1658	CODH2
+ACt2r	False	None	False	None	None	False	None	ACt2r	False	None	None
+R09384	True	peg.2219	False	None	None	False	None	None	False	None	None
+R02030	True	peg.1951	False	-	CLPNS	False	None	None	False	None	None
