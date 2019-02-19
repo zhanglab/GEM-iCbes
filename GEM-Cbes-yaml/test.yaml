@@ -1,0 +1,36 @@
+# reactions that I'm not sure
+
+- id: R01600
+  name: Glucokinase
+  genes: fig|31899.10.peg.984
+  equation: C00002[c] + C00221[c] => C00008[c] + C01172[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 2.7.1.2
+  kegg: R01600
+  source: psammotate (kegg C. bescii and cce) & manual-curated 
+  note: is alpha- or beta- preference in C, bescii
+- id: R01786
+  name: Glucokinase
+  genes: fig|31899.10.peg.984
+  equation: C00002[c] + C00267[c] => C00008[c] + C00668[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 2.7.1.2
+  kegg: R01786
+  source: psammotate (kegg C. bescii and cce) & manual-curated 
+  note: is alpha- or beta- preference in C, bescii
+- id: R02740
+  name: Glucose-6-phosphate isomerase, archaeal II
+  genes: fig|31899.10.peg.1059
+  equation: C00668[c] <=> C05345[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 5.3.1.9
+  kegg: R02740
+  source: only cbes kegg & manual-curated; glu, alpha-glu, beta-glu? two rxn or 3 types of glu cpds?
+- id: R03321
+  name: Glucose-6-phosphate isomerase, archaeal II
+  genes: fig|31899.10.peg.1059
+  equation: C01172[c] <=> C05345[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 5.3.1.9
+  kegg: R03321
+  source: only cbes kegg & manual-curated; glu, alpha-glu, beta-glu? two rxn or 3 types of glu cpds?

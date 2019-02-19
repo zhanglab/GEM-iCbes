@@ -1,0 +1,282 @@
+- id: R02073
+  name: Pyrophosphate-dependent fructose 6-phosphate-1-kinase
+  genes: fig|31899.10.peg.2336
+  equation: C00013[c] + C05345[c] => C00009[c] + C05378[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 2.7.1.90
+  kegg: R02073
+  source: psammotate (kegg C. bescii) & manual-curated
+- id: R01070
+  name: Fructose-bisphosphate aldolase class II 
+  names: 
+  - Fructose-bisphosphate aldolase class II 
+  - glycerone-phosphate-forming
+  genes: fig|31899.10.peg.1061
+  equation: C05378[c] <=> C00111[c] + C00118[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 4.1.2.13
+  kegg: R01070
+  source: psammotate (kegg C. bescii) & manual-curated
+- id: R01015
+  name: Triosephosphate isomerase 
+  names:
+  - Triosephosphate isomerase 
+  - D-glyceraldehyde-3-phosphate aldose-ketose-isomerase
+  genes: fig|31899.10.peg.1899
+  equation: C00118[c] <=> C00111[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 5.3.1.1
+  kegg: R01015
+  source: psammotate (kegg C. bescii and cce) & manual-curated
+- id: R01061
+  name: NAD-dependent glyceraldehyde-3-phosphate dehydrogenase 
+  genes: fig|31899.10.peg.1900
+  equation: C00118[c] + C00009[c] + C00003[c] <=> C00236[c] + C00004[c] + C00080[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 1.2.1.12
+  kegg: R01061
+  source: psammotate (kegg C. bescii, cce, cth and tsac) & manual-curated
+- id: R01512
+  name: Phosphoglycerate kinase
+  names:
+  - Phosphoglycerate kinase
+  - ATP:3-phospho-D-glycerate 1-phosphotransferase
+  genes: fig|31899.10.peg.1899
+  equation: C00008[c] + C00236[c] <=>  C00002[c] + C00197[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 2.7.2.3
+  kegg: R01512
+  source: psammotate (kegg C. bescii and cce) & manual-curated
+- id: Pgm
+  name: 2,3-bisphosphoglycerate-independent phosphoglycerate mutase
+  genes: fig|31899.10.peg.1898 
+  equation: C00197[c] <=> C00631[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 5.4.2.12
+  kegg: R01518
+  source: psammotate (kegg C. bescii, cce, cth and tsac) & manual-curated
+  note: (match 4, 1810:0.75, 1898:100%, in manual-curated table, 1810 is annotated to BiPgm rxn)
+- id: BiPgm
+  name: 2,3-bisphosphoglycerate-dependent phosphoglycerate mutase
+  genes: fig|31899.10.peg.1898
+  equation: C00631[c] <=> C00197[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 5.4.2.11
+  kegg: R01518
+  source: psammotate (kegg C. bescii, cce, cth and tsac) & manual-curated
+- id: R00658
+  name: Enolase
+  genes: fig|31899.10.peg.1897
+  equation: C00631[c] <=> C00074[c] + C00001[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 4.2.1.11
+  kegg: R00658
+  source: psammotate (kegg C. bescii, cce, cth and tsac)(Eno) & manual-curated 
+- id: R00200
+  name: Pyruvate kinase 
+  genes: fig|31899.10.peg.1753
+  equation: C00008[c] + C00074[c] => C00002[c] + C00022[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 2.7.1.40
+  kegg: R00200
+  source: psammotate (kegg C. bescii and cce)(pyk) & manual-curated 
+- id: R00206
+  name: Pyruvate-phosphate dikinase
+  genes: fig|31899.10.peg.1902
+  equation: C00002[c] + C00022[c] + C00009[c] => C00020[c] + C00074[c] + C00013[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 2.7.9.1
+  kegg: R00206
+  source: manual-curated & PATRIC gene annotation
+  note: need further check. about ppdk:http://www.jbc.org/content/243/20/5486
+- id: PGI2
+  name: Glucose-6-phosphate isomerase, archaeal II 
+  genes: fig|31899.10.peg.1059
+  equation: C00092[c] <=> C05345[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 5.3.1.9
+  kegg: similar to R00771 (or equal to R02740 + R03321)
+  source: only cbes kegg & manual-curated; glu, alpha-glu, beta-glu? two rxn or 3 types of glu cpds?
+- id: R00299
+  name: Glucokinase
+  genes: fig|31899.10.peg.984
+  equation: C00002[c] + C00031[c] => C00008[c] + C00092[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 2.7.1.2
+  kegg: R00299
+  source: psammotate (kegg C. bescii and cce) & manual-curated 
+  note: is alpha- or beta- preference in C, bescii
+
+- id: R01529
+  name: D-Ribulose-5-phosphate 3-epimerase
+  genes: fig|31899.10.peg.1528
+  equation: C00199[c] <=> C00231[c]
+  subsystem: Pentose Phosphate Pathway
+  ec: 5.1.3.1
+  kegg: R01529
+  source: psammotate (kegg C. bescii, cce, cth and tsac)(Rpe) & manual-curated 
+- id: R01827
+  name: Transaldolase
+  genes: fig|31899.10.peg.1982
+  equation: C05382[c] + C00118[c] <=> C00279[c] + C05345[c]
+  subsystem: Pentose Phosphate Pathway
+  ec: 2.2.1.2
+  kegg: R01827
+  source: psammotate (only kegg cbes model) & manual-curated
+  note: need further check
+- id: R01056
+  name: Ribose-5-phosphate isomerase B
+  genes: fig|31899.10.peg.1073
+  equation: C00117[c] <=> C00199[c]
+  subsystem: Pentose Phosphate Pathway
+  ec: 5.3.1.6
+  kegg: R01056
+  source: psammotate (kegg C. bescii, cce, cth and tsac)(Rpi) & manual-curated (RpiB)
+  note: should 'B' exist?
+- id: R01641
+  name: Transketolase
+  genes: (fig|31899.10.peg.2605 and fig|31899.10.peg.2606) or fig|31899.10.peg.2903
+  equation: C05382[c] + C00118[c] <=> C00117[c] + C00231[c]
+  subsystem: Pentose Phosphate Pathway
+  ec: 2.2.1.1
+  kegg: R01641
+  source: psammotate (kegg C. bescii, cce, and tsac)(Rpi) & manual-curated (RpiB)
+  note: logic of gene association is a little different in different templates
+- id: R01196
+  name: pyruvate:ferredoxin 2-oxidoreductase (POR)
+  genes: (fig|31899.10.peg.1337 or fig|31899.10.peg.2218) and (fig|31899.10.peg.1338 or fig|31899.10.peg.2218) and (fig|31899.10.peg.1339 or fig|31899.10.peg.2217) and 
+    (fig|31899.10.peg.1340 or fig|31899.10.peg.2217)
+  #genes: (fig|31899.10.peg.1337 and fig|31899.10.peg.1338 and fig|31899.10.peg.1339 and fig|31899.10.peg.1340) or (fig|31899.10.peg.2217 or fig|31899.10.peg.2218)
+  equation: (2) C00139[c] + C00022[c] + C00010[c] => (2) C00138[c] + C00024[c] + C00011[c] + (2) C00080[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 1.2.7.1
+  kegg: R01196
+  source: psammotate (kegg C. bescii, cth and tsac) and PATRIC gene annotation
+  note: different gene association in different source. e.g. ((
+    peg.1337 or peg.1489 or peg.1579 or peg.1998) or (peg.1337 or peg.1489 or peg.1579 or peg.1998)) and (peg.1338 or -) and (peg.1339 or peg.1339) and (peg.1340 or peg.1340)
+    Through Dima's manually curation, we get "peg.1337(PORG), peg.2217(PORAB), peg.2218(PORGD), peg.1338(PORD), peg.1339(PORA), peg.1340(PORB)"
+  regulon: Rex; target to porGDAB-1 or ctp-por(GD)(AB)-2
+- id: R04779
+  name: 6-phosphofructokinase
+  genes: fig|31899.10.peg.1752
+  equation: C00002[c] + C05345[c] => C00008[c] + C05378[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 2.7.1.11
+  kegg: R04779
+  source: psammotate (kegg C. bescii) & manual-curated
+- id: R07159
+  name: glyceraldehyde-3-phosphate ferredoxin oxidoreductase(GOR)
+  genes: fig|31899.10.peg.1279 and fig|31899.10.peg.1280
+  equation: C00118[c] + C00001[c] + (2) C00139[c] <=> C00197[c] + (2) C00080[c] + 2 C00138[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 1.2.7.6
+  kegg: R07159
+  source: manual curated
+  regulon: Rex; target to gotSL-X-moeB
+- id: R00230
+  name: Phosphate acetyltransferase (Pta)
+  genes: fig|31899.10.peg.1987
+  equation: C00024[c] + C00009[c] <=> C00010[c] + C00227[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 2.3.1.8
+  kegg: R00230
+  source: manual curated
+  regulon: Rex, target to pta-ackA
+- id: R00315
+  name: ATP:acetate phosphotransferase (AckA)
+  genes: fig|31899.10.peg.1986
+  equation: C00008[c] + C00227[c] <=> C00002[c] + C00033[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 2.7.2.1
+  kegg: R00315
+  source: manual curated
+  regulon: Rex, target to pta-ackA
+# - id: R01513
+#   name: D-3-phosphoglycerate dehydrogenase (SerA) 
+#   genes: fig|31899.10.peg.2680 or fig|31899.10.peg.2522
+#   equation: C00197[c] + C00003[c] => C03232[c] + C00004[c] + C00080[c]
+#   subsystem: Serine biosynthesis
+#   ec: 1.1.1.95
+#   kegg: RO1513
+#   source: psammotate (kegg C. bescii, cce, cth and tsac) & manual curated 
+#   regulon: Rex, target to serC-serA-X
+#   note: reaction direction are determined based on correpsonding reaction in tsac 
+# - id: R00588
+#   name: Serine-glyoxylate aminotransferase (SerC)
+#   genes: fig|31899.10.peg.2681
+#   equation: C00065[c] + C00048[c] <=> C00168[c] + C00037[c]
+#   subsystem: Serine biosynthesis
+#   ec: 2.6.1.45
+#   kegg: R00588
+#   source: manual curated
+#   regulon: Rex, target to serC-serA-X
+#   note: based on tsac psammotate, this gene mapped to R00585 (ec 2.6.1.51), using pyruvate as substrate.
+- id: MBH
+  name: Energy conserving hydrogenase (ferrodoxin)
+  genes: fig|31899.10.peg.1563 and fig|31899.10.peg.1564 and fig|31899.10.peg.1565 and fig|31899.10.peg.1566 and fig|31899.10.peg.1567 and fig|31899.10.peg.1568
+   and fig|31899.10.peg.1569 and fig|31899.10.peg.1570 and fig|31899.10.peg.1571 and fig|31899.10.peg.1572 and fig|31899.10.peg.1573 and fig|31899.10.peg.1574
+  equation: (2) C00138[c] + (2) C00080[c] => C00282[c] + (2) C00139[c]
+  subsystem: Oxidative phosphorylation
+  ec: 1.12.7.2
+  kegg: R00019
+  source: psammotate (tsac) & manual curated
+  regulon: Rex, target to echABCDEF-hypABFCDE
+  note: reaction and enzyme based on tsac psammotate
+- id: BifH
+  name: Electron-bifurcating [FeFe]-hydrogenase 
+  genes: fig|31899.10.peg.1783 and fig|31899.10.peg.1784 and fig|31899.10.peg.1785 and fig|31899.10.peg.1786 and fig|31899.10.peg.1787
+  equation: (3) C00080[c] + C00004[c] + (2) C00138[c] => (2) C00282[c] + C00003[c] + (2) C00139[c]
+  subsystem: ETF pathway
+  ec: 1.12.1.4
+  kegg: R09508 
+  source: psammotate (tsac) & manual curated
+  regulon: Rex, target to hydDECBA
+  note: similar to kegg R09508 but not exactly same
+- id: BF-Nfn
+  name: NADH-dependent ferredoxin NADP+ oxidoreductase
+  names:
+  - Bifurcating NADP-dependent ferredoxin oxidoreductases 
+  - NADH-dependent ferredoxin NADP+ oxidoreductase
+  genes: 
+  equation: C00004[c] + (2) C00138[c] + (2) C00006[c] => C00003[c] + (2) C00139[c] + (2) C00005[c]
+  subsystem:
+  ec: 
+  kegg: None
+  source: manual curated
+  note: (2017) “Two functionally distinct bifurcating NADP-dependent ferredoxin oxidoreductases maintain the primary redox balance of Pyrococcus furiosus” J. Biol. Chem. 292, 14603-14616 
+- id: R00703
+  name: L-lactate dehydrogenase
+  genes: fig|31899.10.peg.2434
+  equation: C00186[c] + C00003[c] <=> C00022[c] + C00004[c] + C00080[c]
+  subsystem: Glycolysis/Gluconeogenesis
+  ec: 1.1.1.27
+  kegg: R00703
+  source: psammotate(kegg C.bescii, cce, cth and tsac) & manual curated
+# - id: R01466
+#   name: Threonine synthase
+#   genes: fig|31899.10.peg.1097
+#   equation: C01102 + C00001 <=> C00188 + C00009
+#   subsystem: Threonine metabolism 
+#   ec: 4.2.3.1
+#   kegg: R01466
+#   source: psammotate (kegg C. bescii, cce and cth) & manual curated
+#   note: subsystem may change to "Glycine, Serine, and Threonine Metabolism" later.
+#   regulon: Rex, target to copG-hydG
+# - id: HydG
+#   name: [FeFe]-hydrogenase maturation protein HydG
+#   genes: fig|31899.10.peg.565
+#   equation: 
+#   subsystem: ETF pathway
+#   ec: 
+#   kegg: 
+#   source: manual curated
+#   regulon: Rex, target to copG-hydG
+
+
+
+
+
+
+
+
+

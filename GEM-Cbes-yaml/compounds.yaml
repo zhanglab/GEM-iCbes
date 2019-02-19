@@ -1,0 +1,329 @@
+- id: C00020
+  name: AMP
+  formula: C10H14N5O7P
+  charge: 0
+  kegg: C00020
+  mol_weight: 347.2212
+  source: KEGG
+- id: C00009
+  name: Phosphate
+  formula: H3PO4
+  charge: 0
+  kegg: C00009
+  mol_weight: 97.9952
+  source: KEGG
+- id: C00008
+  name: ADP
+  formula: C10H15N5O10P2
+  charge: 0
+  kegg: C00008
+  mol_weight: 427.2011
+  source: KEGG
+- id: C00004
+  name: Nicotinamide adenine dinucleotide - reduced (NADH)
+  formula: C21H29N7O14P2
+  charge: 0
+  kegg: C00004
+  mol_weight: 665.441
+  source: KEGG
+- id: C00001
+  name: H2O
+  formula: H2O
+  charge: 0
+  kegg: C00001
+  mol_weight: 18.0153
+  source: KEGG
+- id: C00002
+  name: ATP
+  formula: C10H16N5O13P3
+  charge: 0
+  kegg: C00002
+  mol_weight: 507.181
+  source: KEGG
+- id: C00003
+  name: Nicotinamide adenine dinucleotide (NAD)
+  formula: C21H28N7O14P2
+  charge: 1
+  kegg: C00003
+  mol_weight: 664.433
+  source: KEGG
+- id: C05378
+  name: beta-D-Fructose 1,6-bisphosphate
+  formula: C6H14O12P2
+  charge: 0
+  kegg: C05378
+  mol_weight: 340.1157
+  source: KEGG
+- id: C00279
+  name: D-Erythrose 4-phosphate
+  formula: C4H9O7P
+  charge: 0
+  mol_weight: 200.0838
+  source: KEGG
+- id: C00022
+  name: Pyruvate (Pyr)
+  formula: C3H4O3
+  charge: 0
+  kegg: C00022
+  mol_weight: 88.0621
+  source: KEGG
+- id: C00199
+  name: D-Ribulose 5-phosphate (Ru5P)
+  formula: C5H11O8P
+  charge: 0
+  kegg: C00199
+  mol_weight: 230.1098
+  source: KEGG
+- id: C00092
+  name: D-Glucose 6-phosphate (G6P)
+  formula: C6H13O9P
+  charge: 0
+  kegg: C00092
+  mol_weight: 260.1358
+  source: KEGG
+- id: C00236
+  name: 3-Phospho-D-glyceroyl phosphate
+  formula: C3H8O10P2
+  charge: 0
+  kegg: C00236
+  mol_weight: 266.0371
+  source: KEGG
+- id: C00117
+  name: alpha-D-Ribose 5-phosphate (R5P)
+  formula: C5H11O8P
+  charge: 0
+  kegg: C00117
+  mol_weight: 230.1098
+  source: KEGG
+- id: C00013
+  name: Diphosphate
+  formula: H4P2O7
+  charge: 0
+  kegg: C00013
+  mol_weight: 177.9751
+  source: KEGG
+- id: C00111
+  name: Dihydroxyacetone phosphate (DHAP)
+  names: Glycerone phosphate
+  formula: C3H7O6P
+  charge: 0
+  kegg: C00111
+  mol_weight: 170.0578
+  source: KEGG
+- id: C00031
+  name: D-Glucose
+  formula: C6H12O6
+  charge: 0
+  kegg: C00031
+  mol_weight: 180.1559
+  source: KEGG
+- id: C00118
+  name: Glyceraldehyde 3-phosphate (GAP)
+  formula: C3H7O6P
+  charge: 0
+  kegg: C00118
+  mol_weight: 170.0578
+  source: KEGG
+- id: C00074
+  name: Phosphoenolpyruvate (PEP)
+  formula: C3H5O6P
+  charge: 0
+  kegg: C00074
+  mol_weight: 168.042
+  source: KEGG
+- id: C00080
+  name: Proton (H+)
+  formula: H
+  charge: 1
+  kegg: C00080
+  mol_weight: 1.0079
+  source: KEGG
+- id: C00631
+  name: D-Glycerate 2-phosphate
+  formula: C3H7O7P
+  charge: 0
+  kegg: C00631
+  mol_weight: 186.0572
+  source: KEGG
+- id: C00085
+  name: D-Fructose 6-phosphate
+  formula: C6H13O9P
+  charge: 0
+  kegg: C00085
+  mol_weight: 260.1358
+  source: KEGG
+- id: C05345
+  name: beta-D-Fructose 6-phosphate (bF6P)
+  formula: C6H13O9P
+  charge: 0
+  kegg: C05345
+  mol_weight: 260.1358
+  source: KEGG
+- id: C00197
+  name: 3-Phospho-D-glycerate (3PG)
+  formula: C3H7O7P
+  charge: 0
+  kegg: C00197
+  mol_weight: 186.0572
+  source: KEGG
+- id: C05382
+  name: Sedoheptulose 7-phosphate
+  formula: C7H15O10P
+  mol_weight: 290.1618
+- id: C00231
+  name: D-Xylulose 5-phosphate
+  formula: C5H11O8P
+  mol_weight: 230.1098
+- id: C00668
+  name: alpha-D-Glucose 6-phosphate
+  formula: C6H13O9P
+  charge: 0
+  kegg: C00668
+  mol_weight: 260.1358
+  source: KEGG
+- id: C01172
+  name: beta-D-Glucose 6-phosphate
+  formula: C6H13O9P
+  charge: 0
+  kegg: C01172
+  mol_weight: 260.1358
+  source: KEGG
+- id: C00221
+  name: beta-D-Glucose
+  formula: C6H12O6
+  charge: 0
+  kegg: C00221
+  mol_weight: 180.1559
+  source: KEGG
+  # tag: AddFromRxn
+- id: C00267
+  name: alpha-D-Glucose
+  formula: C6H12O6
+  charge: 0
+  kegg: C00267
+  mol_weight: 180.1559
+  source: KEGG
+  # tag: AddFromRxn
+- id: C00138
+  name: Reduced ferredoxin (2[4Fe-4S]) (Fdred)
+  formula: Fe8S8X
+  charge: 2
+  kegg: C00138
+  source: KEGG
+- id: C00139
+  name: Oxidized ferredoxin (2[4Fe-4S]) (Fdox)
+  formula: Fe8S8X
+  charge: 3
+  kegg: C00139
+  source: KEGG
+- id: C00011
+  name: CO2
+  formula: CO2
+  charge: 0
+  kegg: C00011
+  mol_weight: 44.0095
+  source: KEGG
+- id: C00024
+  name: Acetyl-CoA (AcCoA)
+  formula: C23H38N7O17P3S
+  charge: 0
+  kegg: C00024
+  mol_weight: 809.5708
+  source: KEGG
+- id: C00010
+  name: Coenzyme A (CoA)
+  formula: C21H36N7O16P3S
+  charge: 0
+  kegg: C00010
+  mol_weight: 767.5341
+  source: KEGG
+- id: C00227
+  name: Acetyl phosphate
+  formula: C2H5O5P
+  charge: 0
+  kegg: C00227
+  mol_weight: 140.0319
+  source: KEGG
+- id: C00033
+  name: Acetate
+  formula: C2H4O2
+  charge: 0
+  kegg: C00033
+  mol_weight: 60.052
+  source: KEGG
+- id: C00282
+  name: Hydrogen
+  formula: H2
+  charge: 0
+  kegg: C00282
+  mol_weight: 2.0159
+  source: KEGG
+  tag: AddFromRxn
+- id: C00186
+  name: (S)-Lactate
+  formula: C3H6O3
+  charge: 0
+  mol_weight: 90.0779
+  source: KEGG
+- id: C00065
+  name: L-Serine (Ser-L)
+  formula: C3H7NO3
+  charge: 0
+  kegg: C00065
+  mol_weight: 105.0926
+  source: KEGG
+- id: C00037
+  name: L-Glycine (Gly-L)
+  formula: C2H5NO2
+  charge: 0
+  kegg: C00037
+  mol_weight: 75.0666
+  source: KEGG
+- id: C00168
+  name: Hydroxypyruvate
+  formula: C3H4O4
+  charge: 0
+  kegg: C00168
+  mol_weight: 104.0615
+  source: KEGG
+- id: C00048
+  name: Glyoxylate
+  formula: C2H2O3
+  charge: 0
+  kegg: C00048
+  mol_weight: 74.0355
+  source: KEGG
+- id: C01102
+  name: O-Phospho-L-homoserine
+  formula: C4H10NO6P
+  charge: 0
+  kegg: C01102
+  mol_weight: 199.0991
+  source: KEGG
+  tag: AddFromRxn(R01466)
+- id: C00188
+  name: L-Threonine (Thr-L)
+  formula: C4H9NO3
+  charge: 0
+  kegg: C00188
+  mol_weight: 119.1192
+  source: KEGG
+- id: C00005
+  name: Nicotinamide adenine dinucleotide phosphate - reduced (NADPH)
+  formula: C21H30N7O17P3
+  charge: 0
+  kegg: C00005
+  mol_weight: 745.4209
+  source: KEGG
+- id: C00006
+  name: Nicotinamide adenine dinucleotide phosphate (NADP)
+  formula: C21H29N7O17P3
+  charge: 1
+  kegg: C00006
+  mol_weight: 744.4129
+  source: KEGG
+  
+
+
+
+
