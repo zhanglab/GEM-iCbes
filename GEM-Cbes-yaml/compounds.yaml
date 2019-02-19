@@ -316,7 +316,7 @@
   mol_weight: 745.4209
   source: KEGG
 - id: C00006
-  name: Nicotinamide adenine dinucleotide phosphate (NADP)
+  name: Nicotinamide adenine dinucleotide phosphate (NADP+)
   formula: C21H29N7O17P3
   charge: 1
   kegg: C00006
