@@ -9,9 +9,11 @@ compartments:
   adjacent_to: c
   name: Extracellular
 compounds:
-- include: compounds.yaml
+# - include: compounds.yaml
+- include: compounds_from_A501.yaml
 reactions:
-- include: reactions.yaml
+# - include: reactions.yaml
+- include: reactions_new_model_reorder.yaml 
 # exchange:
 # - include: exchange.yaml
 # limits:
