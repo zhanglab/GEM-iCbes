@@ -1549,3 +1549,156 @@
   translated_equation: Chorismate[c] + Ammonia[c] => Anthranilate[c] + Pyruvate[c]
     + H2O[c]
   note: R00985 or R00986 or keep both? now I keep R00986 because the EggNOG annottaion says "Glutamine amidotransferase"
+
+# Queuosine Biosynthesis
+- id: R10209
+  name: tRNA-guanosine34:7-aminomethyl-7-carbaguanine tRNA-D-ribosyltransferase
+  equation: C01977[c] + C16675[c] <=> C20446[c] + C00242[c]
+  EggNOG_annotation: peg.797:Exchanges the guanine residue with 7-aminomethyl-7-
+    deazaguanine in tRNAs with GU(N) anticodons (tRNA-Asp, -Asn, -His and -Tyr).
+    After this exchange, a cyclopentendiol moiety is attached to the 7-aminomethyl
+    group of 7-deazaguanine, resulting in the hypermodified nucleoside queuosine
+    (Q) (7-(((4,5-cis- dihydroxy-2-cyclopenten-1-yl)amino)methyl)-7-deazaguanosine)
+    (By similarity)
+  KEGG_annotation: Athe_0382:K00773 queuine tRNA-ribosyltransferase [EC:2.4.2.29]
+    | (GenBank) queuine tRNA-ribosyltransferase
+  PATRIC_annotation: Queuine tRNA-ribosyltransferase (EC 2.4.2.29)
+  enzymes:
+  - 2.4.2.29
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.797
+  genes_string_NCBI_id: Athe_0382
+  genes_string_PATRIC_id: peg.797
+  names:
+  - tRNA-guanosine34:7-aminomethyl-7-carbaguanine tRNA-D-ribosyltransferase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|tRNA guanine[c]| + 7-Aminomethyl-7-carbaguanine[c] <=> |tRNA
+    7-aminomethyl-7-carbaguanine[c]| + Guanine[c]'
+- id: R10088
+  name: D-ribose 5-phosphate,D-glyceraldehyde 3-phosphate pyridoxal 5'-phosphate-lyase
+  equation: C00117[c] + C00118[c] + C00014[c] <=> C00018[c] + (4) C00001[c] + C00009[c]
+  EggNOG_annotation: peg.2424:Involved in the hydrolysis of glutamine to glutamate
+    and ammonia. Channels an ammonia molecule to PdxS (By similarity);   peg.2425:Involved
+    in the production of pyridoxal phosphate, probably by incorporating ammonia into
+    the pyridine ring (By similarity)
+  KEGG_annotation: Athe_1908:K08681 5'-phosphate synthase pdxT subunit [EC:4.3.3.6]
+    | (GenBank) SNO glutamine amidotransferase;   Athe_1909:K06215 pyridoxal 5'-phosphate
+    synthase pdxS subunit [EC:4.3.3.6] | (GenBank) pyridoxine biosynthesis
+  PATRIC_annotation: Pyridoxal 5'-phosphate synthase (glutamine hydrolyzing), glutaminase
+    subunit (EC 4.3.3.6) or Pyridoxal 5'-phosphate synthase (glutamine hydrolyzing),
+    synthase subunit (EC 4.3.3.6)
+  comment: second step of two-step reaction (see R10089, R00256+R10088)
+  enzymes:
+  - 4.3.3.6
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2424,peg.2425
+  genes_string_NCBI_id: Athe_1908,Athe_1909
+  genes_string_PATRIC_id: peg.2424,peg.2425
+  names:
+  - D-ribose 5-phosphate,D-glyceraldehyde 3-phosphate pyridoxal 5'-phosphate-lyase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|D-Ribose 5-phosphate[c]| + |D-Glyceraldehyde 3-phosphate[c]|
+    + Ammonia[c] <=> |Pyridoxal phosphate[c]| + (4) H2O[c] + Orthophosphate[c]'
+- id: R07456
+  name: D-ribulose 5-phosphate,D-glyceraldehyde 3-phosphate pyridoxal 5'-phosphate-lyase
+  equation: C00118[c] + C00199[c] + C00064[c] => C00018[c] + C00025[c] + C00009[c]
+    + (3) C00001[c]
+  EggNOG_annotation: peg.2424:Involved in the hydrolysis of glutamine to glutamate
+    and ammonia. Channels an ammonia molecule to PdxS (By similarity);   peg.2425:Involved
+    in the production of pyridoxal phosphate, probably by incorporating ammonia into
+    the pyridine ring (By similarity)
+  KEGG_annotation: Athe_1908:K08681 5'-phosphate synthase pdxT subunit [EC:4.3.3.6]
+    | (GenBank) SNO glutamine amidotransferase;   Athe_1909:K06215 pyridoxal 5'-phosphate
+    synthase pdxS subunit [EC:4.3.3.6] | (GenBank) pyridoxine biosynthesis
+  PATRIC_annotation: Pyridoxal 5'-phosphate synthase (glutamine hydrolyzing), glutaminase
+    subunit (EC 4.3.3.6) or Pyridoxal 5'-phosphate synthase (glutamine hydrolyzing),
+    synthase subunit (EC 4.3.3.6)
+  comment: pridoxal 5-phosphate synthase
+  enzymes:
+  - 4.3.3.6
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2424,peg.2425
+  genes_string_NCBI_id: Athe_1908,Athe_1909
+  genes_string_PATRIC_id: peg.2424,peg.2425
+  names:
+  - D-ribulose 5-phosphate,D-glyceraldehyde 3-phosphate pyridoxal 5'-phosphate-lyase
+  other_pathways:
+  - Vitamin B6 metabolism
+  pathway: Queuosine biosynthesis
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|D-Glyceraldehyde 3-phosphate[c]| + |D-Ribulose 5-phosphate[c]|
+    + L-Glutamine[c] => |Pyridoxal phosphate[c]| + L-Glutamate[c] + Orthophosphate[c]
+    + (3) H2O[c]'
+
+  # mannose pathway
+  - id: R06245
+  equation: G00289[c] <=> G01630[c]
+  EggNOG_annotation: peg.94:n-acylglucosamine 2-epimerase
+  KEGG_annotation: Athe_2557:K16213 cellobiose epimerase [EC:5.1.3.11] | (GenBank)
+    N-acylglucosamine 2-epimerase
+  PATRIC_annotation: N-acylglucosamine 2-epimerase (EC 5.1.3.8)
+  enzymes:
+  - 5.1.3.11
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.94
+  genes_string_NCBI_id: Athe_2557
+  genes_string_PATRIC_id: peg.94
+  names: []
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: Cellobiose[c] <=> G01630[c]
+- id: R01445
+  name: cellobiose 2-epimerase
+  equation: C00185[c] <=> C02964[c]
+  EggNOG_annotation: peg.94:n-acylglucosamine 2-epimerase
+  KEGG_annotation: Athe_2557:K16213 cellobiose epimerase [EC:5.1.3.11] | (GenBank)
+    N-acylglucosamine 2-epimerase
+  PATRIC_annotation: N-acylglucosamine 2-epimerase (EC 5.1.3.8)
+  enzymes:
+  - 5.1.3.11
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.94
+  genes_string_NCBI_id: Athe_2557
+  genes_string_PATRIC_id: peg.94
+  names:
+  - cellobiose 2-epimerase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: Cellobiose[c] <=> 4-O-beta-D-Glucopyranosyl-D-mannose[c]
+- id: R10811
+  name: 1,4-beta-D-mannooligosaccharide:phosphate alpha-D-mannosyltransferase
+  equation: C17207(n)[c] + (n - 2) C00009[c] <=> C20861[c] + (n - 2) C00636[c]
+  EggNOG_annotation: peg.92:Glycosidase related protein
+  KEGG_annotation: Athe_2555:K18785 beta-1,4-mannooligosaccharide/beta-1,4-mannosyl-N-acetylglucosamine
+    phosphorylase [EC:2.4.1.3
+  PATRIC_annotation: 1,4-beta-mannosyl-N-acetylglucosamine phosphorylase (EC 2.4.1.320)
+  enzymes:
+  - 2.4.1.319
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.92
+  genes_string_NCBI_id: Athe_2555
+  genes_string_PATRIC_id: peg.92
+  names:
+  - 1,4-beta-D-mannooligosaccharide:phosphate alpha-D-mannosyltransferase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes

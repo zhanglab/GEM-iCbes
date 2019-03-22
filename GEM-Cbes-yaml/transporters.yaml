@@ -1,0 +1,6 @@
+- id: mosABC
+  name: Mannoside transport via ABC system
+  genes: peg.89 and peg.90 and peg.91
+  equation: mos[e] + C00002[c] + C00001[c] => mos[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  source: manually add

@@ -10,11 +10,15 @@ compartments:
   name: Extracellular
 compounds:
 # - include: compounds.yaml
-- include: compounds_from_A501.yaml
+# - include: compounds_from_A501.yaml
+- include: /Users/kzhang/Projects/Caldi/daily-work/kegg-draft-cbes-model/yaml-reaction-databases/kegg-reaction-database-filtered/compounds-kegg-nogen.yaml
+# - include: tmp-cpds.yaml
 reactions:
 # - include: reactions.yaml
-- include: reactions_new_model_reorder.yaml 
+- include: reactions_new_model_reorder_v2_190319.yaml 
 # exchange:
 # - include: exchange.yaml
 # limits:
 # - include: limits.yaml
+# model:
+# - include: /Users/kzhang/Projects/Caldi/GEM-iCbes/GEM-Cbes-yaml/rxn_lists/rxn_list_176.tsv
