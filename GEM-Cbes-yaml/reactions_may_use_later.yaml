@@ -1702,3 +1702,1273 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
+
+# purine Metabolism
+- id: R08368
+  name: purine-nucleoside:phosphate ribosyltransferase
+  equation: C15586[c] + C00009[c] <=> C15587[c] + C00620[c]
+  EggNOG_annotation: peg.2283:The purine nucleoside phosphorylases catalyze the phosphorolytic
+    breakdown of the N-glycosidic bond in the beta- (deoxy)ribonucleoside molecules,
+    with the formation of the corresponding free purine bases and pentose-1-phosphate
+    (By similarity)
+  KEGG_annotation: Athe_1772:K03783 purine-nucleoside phosphorylase [EC:2.4.2.1]
+    | (GenBank) inosine guanosine and xanthosine pho
+  PATRIC_annotation: Purine nucleoside phosphorylase (EC 2.4.2.1)
+  comment: general reaction (see R01561, R01863, R02147 and  R02297)
+  enzymes:
+  - 2.4.2.1
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2283
+  genes_string_NCBI_id: Athe_1772
+  genes_string_PATRIC_id: peg.2283
+  names:
+  - purine-nucleoside:phosphate ribosyltransferase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: N-D-Ribosylpurine[c] + Orthophosphate[c] <=> Purine[c] + |alpha-D-Ribose
+    1-phosphate[c]|
+  - id: R08244
+  name: 6-thioxanthine 5'-monophosphate:L-glutamine amido-ligase (AMP-forming)
+  equation: C16618[c] + C00002[c] + C00064[c] + C00001[c] <=> C16619[c] + C00020[c]
+    + C00013[c] + C00025[c]
+  EggNOG_annotation: peg.1924:Catalyzes the synthesis of GMP from XMP (By similarity)
+  KEGG_annotation: Athe_1432:K01951 GMP synthase (glutamine-hydrolysing) [EC:6.3.5.2]
+    | (GenBank) GMP synthase, large subunit
+  PATRIC_annotation: GMP synthase [glutamine-hydrolyzing], amidotransferase subunit
+    (EC 6.3.5.2) / GMP synthase [glutamine-hydrolyzing], ATP pyrophosphatase subunit
+    (EC 6.3.5.2)
+  enzymes:
+  - 6.3.5.2
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1924
+  genes_string_NCBI_id: Athe_1432
+  genes_string_PATRIC_id: peg.1924
+  names:
+  - 6-thioxanthine 5'-monophosphate:L-glutamine amido-ligase (AMP-forming)
+  other_pathways:
+  - Drug metabolism - other enzymes
+  pathway: Drug metabolism - other enzymes
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|6-Thioxanthine 5''-monophosphate[c]| + ATP[c] + L-Glutamine[c]
+    + H2O[c] <=> |6-Thioguanosine monophosphate[c]| + AMP[c] + Diphosphate[c] + L-Glutamate[c]'
+  - id: R01230
+  name: Xanthosine-5'-phosphate:ammonia ligase (AMP-forming)
+  equation: C00002[c] + C00655[c] + C00014[c] <=> C00020[c] + C00013[c] + C00144[c]
+  EggNOG_annotation: peg.1924:Catalyzes the synthesis of GMP from XMP (By similarity)
+  KEGG_annotation: Athe_1432:K01951 GMP synthase (glutamine-hydrolysing) [EC:6.3.5.2]
+    | (GenBank) GMP synthase, large subunit
+  PATRIC_annotation: GMP synthase [glutamine-hydrolyzing], amidotransferase subunit
+    (EC 6.3.5.2) / GMP synthase [glutamine-hydrolyzing], ATP pyrophosphatase subunit
+    (EC 6.3.5.2)
+  enzymes:
+  - 6.3.5.2
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: peg.1924
+  genes_kegg: peg.1924
+  genes_string_NCBI_id: Athe_1432
+  genes_string_PATRIC_id: peg.1924
+  names:
+  - Xanthosine-5'-phosphate:ammonia ligase (AMP-forming)
+  other_pathways:
+  - Purine metabolism
+  - Metabolic pathways
+  pathway: Purine metabolism
+  source: KEGG
+  tag: KEGG_Cbes,Tsac
+  translated_equation: ATP[c] + |Xanthosine 5'-phosphate[c]| + Ammonia[c] <=> AMP[c]
+    + Diphosphate[c] + GMP[c]
+  - id: R10244
+  name: purine-deoxynucleoside:phosphate ribosyltransferase
+  equation: C20463[c] + C00009[c] <=> C15587[c] + C00672[c]
+  EggNOG_annotation: peg.2283:The purine nucleoside phosphorylases catalyze the phosphorolytic
+    breakdown of the N-glycosidic bond in the beta- (deoxy)ribonucleoside molecules,
+    with the formation of the corresponding free purine bases and pentose-1-phosphate
+    (By similarity)
+  KEGG_annotation: Athe_1772:K03783 purine-nucleoside phosphorylase [EC:2.4.2.1]
+    | (GenBank) inosine guanosine and xanthosine pho
+  PATRIC_annotation: Purine nucleoside phosphorylase (EC 2.4.2.1)
+  comment: general reaction (see R01969, R02557 and R02748)
+  enzymes:
+  - 2.4.2.1
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2283
+  genes_string_NCBI_id: Athe_1772
+  genes_string_PATRIC_id: peg.2283
+  names:
+  - purine-deoxynucleoside:phosphate ribosyltransferase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|Purine deoxyribonucleoside[c]| + Orthophosphate[c] <=> Purine[c]
+    + |2-Deoxy-D-ribose 1-phosphate[c]|'
+  - id: R00572
+  name: CTP:pyruvate 2-O-phosphotransferase
+  equation: C00063[c] + C00022[c] <=> C00112[c] + C00074[c]
+  EggNOG_annotation: peg.1753:Pyruvate kinase
+  KEGG_annotation: Athe_1266:K00873 pyruvate kinase [EC:2.7.1.40] | (GenBank) pyruvate
+    kinase
+  PATRIC_annotation: Pyruvate kinase (EC 2.7.1.40) / Phosphohistidine swiveling domain
+  enzymes:
+  - 2.7.1.40
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1753
+  genes_string_NCBI_id: Athe_1266
+  genes_string_PATRIC_id: peg.1753
+  names:
+  - CTP:pyruvate 2-O-phosphotransferase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: CTP[c] + Pyruvate[c] <=> CDP[c] + Phosphoenolpyruvate[c]
+- id: R00659
+  name: UTP:pyruvate 2-O-phosphotransferase
+  genes: peg.1753
+  curated: true
+  equation: C00075[c] + C00022[c] <= C00015[c] + C00074[c]
+  EggNOG_annotation: peg.1753:Pyruvate kinase
+  KEGG_annotation: Athe_1266:K00873 pyruvate kinase [EC:2.7.1.40] | (GenBank) pyruvate
+    kinase
+  PATRIC_annotation: Pyruvate kinase (EC 2.7.1.40) / Phosphohistidine swiveling domain
+  enzymes:
+  - 2.7.1.40
+  genes_Cce: peg.1753
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1753
+  genes_string_NCBI_id: Athe_1266
+  genes_string_PATRIC_id: peg.1753
+  names:
+  - UTP:pyruvate 2-O-phosphotransferase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes,Cce
+  translated_equation: UTP[c] + Pyruvate[c] <= UDP[c] + Phosphoenolpyruvate[c]
+- id: R00724
+  name: ITP:pyruvate 2-O-phosphotransferase
+  equation: C00081[c] + C00022[c] <=> C00104[c] + C00074[c]
+  EggNOG_annotation: peg.1753:Pyruvate kinase
+  KEGG_annotation: Athe_1266:K00873 pyruvate kinase [EC:2.7.1.40] | (GenBank) pyruvate
+    kinase
+  PATRIC_annotation: Pyruvate kinase (EC 2.7.1.40) / Phosphohistidine swiveling domain
+  enzymes:
+  - 2.7.1.40
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1753
+  genes_string_NCBI_id: Athe_1266
+  genes_string_PATRIC_id: peg.1753
+  names:
+  - ITP:pyruvate 2-O-phosphotransferase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: ITP[c] + Pyruvate[c] <=> IDP[c] + Phosphoenolpyruvate[c]
+- id: R02320
+  name: NTP:pyruvate O2-phosphotransferase
+  equation: C00201[c] + C00022[c] <=> C00454[c] + C00074[c]
+  EggNOG_annotation: peg.1753:Pyruvate kinase
+  KEGG_annotation: Athe_1266:K00873 pyruvate kinase [EC:2.7.1.40] | (GenBank) pyruvate
+    kinase
+  PATRIC_annotation: Pyruvate kinase (EC 2.7.1.40) / Phosphohistidine swiveling domain
+  enzymes:
+  - 2.7.1.40
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1753
+  genes_string_NCBI_id: Athe_1266
+  genes_string_PATRIC_id: peg.1753
+  names:
+  - NTP:pyruvate O2-phosphotransferase
+  other_pathways:
+  - Pyruvate metabolism
+  - Metabolic pathways
+  - Microbial metabolism in diverse environments
+  pathway: Pyruvate metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|Nucleoside triphosphate[c]| + Pyruvate[c] <=> NDP[c] + Phosphoenolpyruvate[c]'
+- id: R11592
+  name: ribonucleoside-5'-triphosphate:formate 2'-oxidoreductase
+  equation: C03802[c] + C00058[c] <=> C00677[c] + C00011[c] + C00001[c]
+  EggNOG_annotation: peg.979:Anaerobic ribonucleoside-triphosphate reductase
+  KEGG_annotation: Athe_0548:K21636 ribonucleoside-triphosphate reductase (formate)
+    [EC:1.1.98.6] | (GenBank) anaerobic ribonucle
+  PATRIC_annotation: Ribonucleotide reductase of class III (anaerobic), large subunit
+    (EC 1.17.4.2)
+  enzymes:
+  - 1.1.98.6
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.979
+  genes_string_NCBI_id: Athe_0548
+  genes_string_PATRIC_id: peg.979
+  names:
+  - ribonucleoside-5'-triphosphate:formate 2'-oxidoreductase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|Ribonucleoside triphosphate[c]| + Formate[c] <=> |Deoxynucleoside
+    triphosphate[c]| + CO2[c] + H2O[c]'
+  - id: R11634
+  name: ATP:formate 2'-oxidoreductase
+  genes: peg.979
+  equation: C00002[c] + C00058[c] => C00131[c] + C00011[c] + C00001[c]
+  EggNOG_annotation: peg.979:Anaerobic ribonucleoside-triphosphate reductase
+  KEGG_annotation: Athe_0548:K21636 ribonucleoside-triphosphate reductase (formate)
+    [EC:1.1.98.6] | (GenBank) anaerobic ribonucle
+  PATRIC_annotation: Ribonucleotide reductase of class III (anaerobic), large subunit
+    (EC 1.17.4.2)
+  enzymes:
+  - 1.1.98.6
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.979
+  genes_string_NCBI_id: Athe_0548
+  genes_string_PATRIC_id: peg.979
+  names:
+  - ATP:formate 2'-oxidoreductase
+  other_pathways:
+  - Purine metabolism
+  - Metabolic pathways
+  pathway: Purine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: ATP[c] + Formate[c] => dATP[c] + CO2[c] + H2O[c]
+- id: R11633
+  name: GTP:formate 2'-oxidoreductase
+  equation: C00044[c] + C00058[c] <=> C00286[c] + C00011[c] + C00001[c]
+  EggNOG_annotation: peg.979:Anaerobic ribonucleoside-triphosphate reductase
+  KEGG_annotation: Athe_0548:K21636 ribonucleoside-triphosphate reductase (formate)
+    [EC:1.1.98.6] | (GenBank) anaerobic ribonucle
+  PATRIC_annotation: Ribonucleotide reductase of class III (anaerobic), large subunit
+    (EC 1.17.4.2)
+  enzymes:
+  - 1.1.98.6
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.979
+  genes_string_NCBI_id: Athe_0548
+  genes_string_PATRIC_id: peg.979
+  names:
+  - GTP:formate 2'-oxidoreductase
+  other_pathways:
+  - Purine metabolism
+  - Metabolic pathways
+  pathway: Purine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: GTP[c] + Formate[c] <=> dGTP[c] + CO2[c] + H2O[c]
+- id: R11636
+  name: CTP:formate 2'-oxidoreductase
+  equation: C00063[c] + C00058[c] <=> C00458[c] + C00011[c] + C00001[c]
+  EggNOG_annotation: peg.979:Anaerobic ribonucleoside-triphosphate reductase
+  KEGG_annotation: Athe_0548:K21636 ribonucleoside-triphosphate reductase (formate)
+    [EC:1.1.98.6] | (GenBank) anaerobic ribonucle
+  PATRIC_annotation: Ribonucleotide reductase of class III (anaerobic), large subunit
+    (EC 1.17.4.2)
+  enzymes:
+  - 1.1.98.6
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.979
+  genes_string_NCBI_id: Athe_0548
+  genes_string_PATRIC_id: peg.979
+  names:
+  - CTP:formate 2'-oxidoreductase
+  other_pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: CTP[c] + Formate[c] <=> dCTP[c] + CO2[c] + H2O[c]
+- id: R11635
+  name: UTP:formate 2'-oxidoreductase
+  equation: C00075[c] + C00058[c] <=> C00460[c] + C00011[c] + C00001[c]
+  EggNOG_annotation: peg.979:Anaerobic ribonucleoside-triphosphate reductase
+  KEGG_annotation: Athe_0548:K21636 ribonucleoside-triphosphate reductase (formate)
+    [EC:1.1.98.6] | (GenBank) anaerobic ribonucle
+  PATRIC_annotation: Ribonucleotide reductase of class III (anaerobic), large subunit
+    (EC 1.17.4.2)
+  enzymes:
+  - 1.1.98.6
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.979
+  genes_string_NCBI_id: Athe_0548
+  genes_string_PATRIC_id: peg.979
+  names:
+  - UTP:formate 2'-oxidoreductase
+  other_pathways:
+  - Pyrimidine metabolism
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: UTP[c] + Formate[c] <=> dUTP[c] + CO2[c] + H2O[c]
+
+# pyrimidine Metabolism
+- id: R01395
+  name: ATP:carbamate phosphotransferase
+  equation: C00002[c] + C01563[c] <=> C00008[c] + C00169[c]
+  EggNOG_annotation: peg.1868:Carbamoyl-phosphate synthetase ammonia chain;   peg.2035:Carbamoyl-phosphate
+    synthetase glutamine chain;   peg.2036:Carbamoyl-phosphate synthetase ammonia
+    chain
+  KEGG_annotation: Athe_1378:K01955 carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]
+    | (GenBank) carbamoyl-phosphate synth;   Athe_1540:K01956 carbamoyl-phosphate
+    synthase small subunit [EC:6.3.5.5] | (GenBank) carbamoyl-phosphate synth;   Athe_1541:K01955
+    carbamoyl-phosphate synthase large subunit [EC:6.3.5.5] | (GenBank) carbamoyl-phosphate
+    synth
+  PATRIC_annotation: Carbamoyl-phosphate synthase large chain (EC 6.3.5.5) or Carbamoyl-phosphate
+    synthase small chain (EC 6.3.5.5) or Carbamoyl-phosphate synthase large chain
+    (EC 6.3.5.5)
+  comment: 'the second step of the two-step reaction (see R00150, R07316+R01395)
+
+    the last step of the multi-step reaction (see R00575, R00256+R10948+R10949+R01395)'
+  enzymes:
+  - 2.7.2.2
+  - 6.3.5.5
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1868,peg.2035,peg.2036
+  genes_string_NCBI_id: Athe_1541,Athe_1540,Athe_1378
+  genes_string_PATRIC_id: peg.2036,peg.2035,peg.1868
+  names:
+  - ATP:carbamate phosphotransferase
+  other_pathways:
+  - Nitrogen metabolism
+  pathway: Nitrogen metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: ATP[c] + Carbamate[c] <=> ADP[c] + |Carbamoyl phosphate[c]|
+- id: R10948
+  name: ATP:HCO3- phosphotransferase
+  equation: C00002[c] + C00288[c] <=> C00008[c] + C20969[c]
+  EggNOG_annotation: peg.1868:Carbamoyl-phosphate synthetase ammonia chain;   peg.2035:Carbamoyl-phosphate
+    synthetase glutamine chain;   peg.2036:Carbamoyl-phosphate synthetase ammonia
+    chain
+  KEGG_annotation: Athe_1378:K01955 carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]
+    | (GenBank) carbamoyl-phosphate synth;   Athe_1540:K01956 carbamoyl-phosphate
+    synthase small subunit [EC:6.3.5.5] | (GenBank) carbamoyl-phosphate synth;   Athe_1541:K01955
+    carbamoyl-phosphate synthase large subunit [EC:6.3.5.5] | (GenBank) carbamoyl-phosphate
+    synth
+  PATRIC_annotation: Carbamoyl-phosphate synthase large chain (EC 6.3.5.5) or Carbamoyl-phosphate
+    synthase small chain (EC 6.3.5.5) or Carbamoyl-phosphate synthase large chain
+    (EC 6.3.5.5)
+  comment: a part of multi-step reaction (see R00575, R00256+R10948+R10949+R01395)
+  enzymes:
+  - 6.3.5.5
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1868,peg.2035,peg.2036
+  genes_string_NCBI_id: Athe_1541,Athe_1540,Athe_1378
+  genes_string_PATRIC_id: peg.2036,peg.2035,peg.1868
+  names:
+  - ATP:HCO3- phosphotransferase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: ATP[c] + HCO3-[c] <=> ADP[c] + Carboxyphosphate[c]
+- id: R07641
+  equation: (2) C00002[c] + C00288[c] + C00014[c] <=> (2) C00008[c] + C00009[c] +
+    C00169[c]
+  EggNOG_annotation: peg.1868:Carbamoyl-phosphate synthetase ammonia chain;   peg.2035:Carbamoyl-phosphate
+    synthetase glutamine chain;   peg.2036:Carbamoyl-phosphate synthetase ammonia
+    chain
+  KEGG_annotation: Athe_1378:K01955 carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]
+    | (GenBank) carbamoyl-phosphate synth;   Athe_1540:K01956 carbamoyl-phosphate
+    synthase small subunit [EC:6.3.5.5] | (GenBank) carbamoyl-phosphate synth;   Athe_1541:K01955
+    carbamoyl-phosphate synthase large subunit [EC:6.3.5.5] | (GenBank) carbamoyl-phosphate
+    synth
+  PATRIC_annotation: Carbamoyl-phosphate synthase large chain (EC 6.3.5.5) or Carbamoyl-phosphate
+    synthase small chain (EC 6.3.5.5) or Carbamoyl-phosphate synthase large chain
+    (EC 6.3.5.5)
+  comment: multi-step reaction
+  enzymes:
+  - 6.3.5.5
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1868,peg.2035,peg.2036
+  genes_string_NCBI_id: Athe_1541,Athe_1540,Athe_1378
+  genes_string_PATRIC_id: peg.2036,peg.2035,peg.1868
+  names: []
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: (2) ATP[c] + HCO3-[c] + Ammonia[c] <=> (2) ADP[c] + Orthophosphate[c]
+    + |Carbamoyl phosphate[c]|
+  - id: R10949
+  equation: C00014[c] + C20969[c] <=> C01563[c] + C00009[c]
+  EggNOG_annotation: peg.1868:Carbamoyl-phosphate synthetase ammonia chain;   peg.2035:Carbamoyl-phosphate
+    synthetase glutamine chain;   peg.2036:Carbamoyl-phosphate synthetase ammonia
+    chain
+  KEGG_annotation: Athe_1378:K01955 carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]
+    | (GenBank) carbamoyl-phosphate synth;   Athe_1540:K01956 carbamoyl-phosphate
+    synthase small subunit [EC:6.3.5.5] | (GenBank) carbamoyl-phosphate synth;   Athe_1541:K01955
+    carbamoyl-phosphate synthase large subunit [EC:6.3.5.5] | (GenBank) carbamoyl-phosphate
+    synth
+  PATRIC_annotation: Carbamoyl-phosphate synthase large chain (EC 6.3.5.5) or Carbamoyl-phosphate
+    synthase small chain (EC 6.3.5.5) or Carbamoyl-phosphate synthase large chain
+    (EC 6.3.5.5)
+  comment: a part of multi-step reaction (see R00575, R00256+R10948+R10949+R01395)
+  enzymes:
+  - 6.3.5.5
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1868,peg.2035,peg.2036
+  genes_string_NCBI_id: Athe_1541,Athe_1540,Athe_1378
+  genes_string_PATRIC_id: peg.2036,peg.2035,peg.1868
+  names: []
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: Ammonia[c] + Carboxyphosphate[c] <=> Carbamate[c] + Orthophosphate[c]
+- id: R08231
+  name: 5-fluorouridine monophosphate:diphosphate phospho-alpha-D-ribosyl-transferase
+  equation: C07649[c] + C00119[c] <=> C16634[c] + C00013[c]
+  EggNOG_annotation: peg.1873:Catalyzes the transfer of a ribosyl phosphate group
+    from 5-phosphoribose 1-diphosphate to orotate, leading to the formation of orotidine
+    monophosphate (OMP) (By similarity)
+  KEGG_annotation: Athe_1382:K00762 orotate phosphoribosyltransferase [EC:2.4.2.10]
+    | (GenBank) orotate phosphoribosyltransferase
+  PATRIC_annotation: Orotate phosphoribosyltransferase (EC 2.4.2.10)
+  enzymes:
+  - 2.4.2.10
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1873
+  genes_string_NCBI_id: Athe_1382
+  genes_string_PATRIC_id: peg.1873
+  names:
+  - 5-fluorouridine monophosphate:diphosphate phospho-alpha-D-ribosyl-transferase
+  other_pathways:
+  - Drug metabolism - other enzymes
+  pathway: Drug metabolism - other enzymes
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: 5-FU[c] + |5-Phospho-alpha-D-ribose 1-diphosphate[c]| <=>
+    '|5-Fluorouridine monophosphate[c]|' + Diphosphate[c]
+- id: R08232
+  name: ATP:5-fluorouridine 5'-phosphotransferase
+  equation: C16633[c] + C00002[c] <=> C16634[c] + C00008[c]
+  EggNOG_annotation: peg.962:uridine kinase
+  KEGG_annotation: Athe_0531:K00876 uridine kinase [EC:2.7.1.48] | (GenBank) AAA
+    ATPase
+  PATRIC_annotation: Uridine kinase, type 2 (EC 2.7.1.48)
+  enzymes:
+  - 2.7.1.48
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.962
+  genes_string_NCBI_id: Athe_0531
+  genes_string_PATRIC_id: peg.962
+  names:
+  - ATP:5-fluorouridine 5'-phosphotransferase
+  other_pathways:
+  - Drug metabolism - other enzymes
+  pathway: Drug metabolism - other enzymes
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: 5-Fluorouridine[c] + ATP[c] <=> |5-Fluorouridine monophosphate[c]|
+    + ADP[c]
+  - id: R00967
+  name: UTP:uridine 5'-phosphotransferase
+  equation: C00075[c] + C00299[c] <=> C00015[c] + C00105[c]
+  EggNOG_annotation: peg.962:uridine kinase
+  KEGG_annotation: Athe_0531:K00876 uridine kinase [EC:2.7.1.48] | (GenBank) AAA
+    ATPase
+  PATRIC_annotation: Uridine kinase, type 2 (EC 2.7.1.48)
+  enzymes:
+  - 2.7.1.48
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.962
+  genes_string_NCBI_id: Athe_0531
+  genes_string_PATRIC_id: peg.962
+  names:
+  - UTP:uridine 5'-phosphotransferase
+  other_pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: UTP[c] + Uridine[c] <=> UDP[c] + UMP[c]
+- id: R00962
+  name: ITP:cytidine 5'-phosphotransferase
+  equation: C00081[c] + C00475[c] <=> C00104[c] + C00055[c]
+  EggNOG_annotation: peg.962:uridine kinase
+  KEGG_annotation: Athe_0531:K00876 uridine kinase [EC:2.7.1.48] | (GenBank) AAA
+    ATPase
+  PATRIC_annotation: Uridine kinase, type 2 (EC 2.7.1.48)
+  enzymes:
+  - 2.7.1.48
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.962
+  genes_string_NCBI_id: Athe_0531
+  genes_string_PATRIC_id: peg.962
+  names:
+  - ITP:cytidine 5'-phosphotransferase
+  other_pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: ITP[c] + Cytidine[c] <=> IDP[c] + CMP[c]
+- id: R01549
+  name: dATP:uridine 5'-phosphotransferase
+  equation: C00131[c] + C00299[c] <=> C00206[c] + C00105[c]
+  EggNOG_annotation: peg.962:uridine kinase
+  KEGG_annotation: Athe_0531:K00876 uridine kinase [EC:2.7.1.48] | (GenBank) AAA
+    ATPase
+  PATRIC_annotation: Uridine kinase, type 2 (EC 2.7.1.48)
+  enzymes:
+  - 2.7.1.48
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.962
+  genes_string_NCBI_id: Athe_0531
+  genes_string_PATRIC_id: peg.962
+  names:
+  - dATP:uridine 5'-phosphotransferase
+  other_pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: dATP[c] + Uridine[c] <=> dADP[c] + UMP[c]
+- id: R01548
+  name: dATP:cytidine 5'-phosphotransferase
+  equation: C00131[c] + C00475[c] <=> C00206[c] + C00055[c]
+  EggNOG_annotation: peg.962:uridine kinase
+  KEGG_annotation: Athe_0531:K00876 uridine kinase [EC:2.7.1.48] | (GenBank) AAA
+    ATPase
+  PATRIC_annotation: Uridine kinase, type 2 (EC 2.7.1.48)
+  enzymes:
+  - 2.7.1.48
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.962
+  genes_string_NCBI_id: Athe_0531
+  genes_string_PATRIC_id: peg.962
+  names:
+  - dATP:cytidine 5'-phosphotransferase
+  other_pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: dATP[c] + Cytidine[c] <=> dADP[c] + CMP[c]
+- id: R01880
+  name: dGTP:uridine 5'-phosphotransferase
+  equation: C00286[c] + C00299[c] <=> C00361[c] + C00105[c]
+  EggNOG_annotation: peg.962:uridine kinase
+  KEGG_annotation: Athe_0531:K00876 uridine kinase [EC:2.7.1.48] | (GenBank) AAA
+    ATPase
+  PATRIC_annotation: Uridine kinase, type 2 (EC 2.7.1.48)
+  enzymes:
+  - 2.7.1.48
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.962
+  genes_string_NCBI_id: Athe_0531
+  genes_string_PATRIC_id: peg.962
+  names:
+  - dGTP:uridine 5'-phosphotransferase
+  other_pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: dGTP[c] + Uridine[c] <=> dGDP[c] + UMP[c]
+- id: R02091
+  name: dGTP:cytidine 5'-phosphotransferase
+  equation: C00286[c] + C00475[c] <=> C00361[c] + C00055[c]
+  EggNOG_annotation: peg.962:uridine kinase
+  KEGG_annotation: Athe_0531:K00876 uridine kinase [EC:2.7.1.48] | (GenBank) AAA
+    ATPase
+  PATRIC_annotation: Uridine kinase, type 2 (EC 2.7.1.48)
+  enzymes:
+  - 2.7.1.48
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.962
+  genes_string_NCBI_id: Athe_0531
+  genes_string_PATRIC_id: peg.962
+  names:
+  - dGTP:cytidine 5'-phosphotransferase
+  other_pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: dGTP[c] + Cytidine[c] <=> dGDP[c] + CMP[c]
+- id: R02327
+  name: dCTP:uridine 5'-phosphotransferase
+  equation: C00458[c] + C00299[c] <=> C00705[c] + C00105[c]
+  EggNOG_annotation: peg.962:uridine kinase
+  KEGG_annotation: Athe_0531:K00876 uridine kinase [EC:2.7.1.48] | (GenBank) AAA
+    ATPase
+  PATRIC_annotation: Uridine kinase, type 2 (EC 2.7.1.48)
+  enzymes:
+  - 2.7.1.48
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.962
+  genes_string_NCBI_id: Athe_0531
+  genes_string_PATRIC_id: peg.962
+  names:
+  - dCTP:uridine 5'-phosphotransferase
+  other_pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: dCTP[c] + Uridine[c] <=> dCDP[c] + UMP[c]
+- id: R02371
+  name: dCTP:cytidine 5'-phosphotransferase
+  equation: C00458[c] + C00475[c] <=> C00705[c] + C00055[c]
+  EggNOG_annotation: peg.962:uridine kinase
+  KEGG_annotation: Athe_0531:K00876 uridine kinase [EC:2.7.1.48] | (GenBank) AAA
+    ATPase
+  PATRIC_annotation: Uridine kinase, type 2 (EC 2.7.1.48)
+  enzymes:
+  - 2.7.1.48
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.962
+  genes_string_NCBI_id: Athe_0531
+  genes_string_PATRIC_id: peg.962
+  names:
+  - dCTP:cytidine 5'-phosphotransferase
+  other_pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: dCTP[c] + Cytidine[c] <=> dCDP[c] + CMP[c]
+- id: R02097
+  name: dTTP:uridine 5'-phosphotransferase
+  equation: C00459[c] + C00299[c] <=> C00363[c] + C00105[c]
+  EggNOG_annotation: peg.962:uridine kinase
+  KEGG_annotation: Athe_0531:K00876 uridine kinase [EC:2.7.1.48] | (GenBank) AAA
+    ATPase
+  PATRIC_annotation: Uridine kinase, type 2 (EC 2.7.1.48)
+  enzymes:
+  - 2.7.1.48
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.962
+  genes_string_NCBI_id: Athe_0531
+  genes_string_PATRIC_id: peg.962
+  names:
+  - dTTP:uridine 5'-phosphotransferase
+  other_pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: dTTP[c] + Uridine[c] <=> dTDP[c] + UMP[c]
+- id: R02096
+  name: dTTP:cytidine 5'-phosphotransferase
+  equation: C00459[c] + C00475[c] <=> C00363[c] + C00055[c]
+  EggNOG_annotation: peg.962:uridine kinase
+  KEGG_annotation: Athe_0531:K00876 uridine kinase [EC:2.7.1.48] | (GenBank) AAA
+    ATPase
+  PATRIC_annotation: Uridine kinase, type 2 (EC 2.7.1.48)
+  enzymes:
+  - 2.7.1.48
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.962
+  genes_string_NCBI_id: Athe_0531
+  genes_string_PATRIC_id: peg.962
+  names:
+  - dTTP:cytidine 5'-phosphotransferase
+  other_pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: dTTP[c] + Cytidine[c] <=> dTDP[c] + CMP[c]
+- id: R02332
+  name: dUTP:uridine 5'-phosphotransferase
+  equation: C00460[c] + C00299[c] <=> C01346[c] + C00105[c]
+  EggNOG_annotation: peg.962:uridine kinase
+  KEGG_annotation: Athe_0531:K00876 uridine kinase [EC:2.7.1.48] | (GenBank) AAA
+    ATPase
+  PATRIC_annotation: Uridine kinase, type 2 (EC 2.7.1.48)
+  enzymes:
+  - 2.7.1.48
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.962
+  genes_string_NCBI_id: Athe_0531
+  genes_string_PATRIC_id: peg.962
+  names:
+  - dUTP:uridine 5'-phosphotransferase
+  other_pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: dUTP[c] + Uridine[c] <=> dUDP[c] + UMP[c]
+- id: R02372
+  name: dUTP:cytidine 5'-phosphotransferase
+  equation: C00460[c] + C00475[c] <=> C01346[c] + C00055[c]
+  EggNOG_annotation: peg.962:uridine kinase
+  KEGG_annotation: Athe_0531:K00876 uridine kinase [EC:2.7.1.48] | (GenBank) AAA
+    ATPase
+  PATRIC_annotation: Uridine kinase, type 2 (EC 2.7.1.48)
+  enzymes:
+  - 2.7.1.48
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.962
+  genes_string_NCBI_id: Athe_0531
+  genes_string_PATRIC_id: peg.962
+  names:
+  - dUTP:cytidine 5'-phosphotransferase
+  other_pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: dUTP[c] + Cytidine[c] <=> dUDP[c] + CMP[c]
+- id: R00516
+  name: UTP:cytidine 5'-phosphotransferase
+  equation: C00075[c] + C00475[c] <=> C00015[c] + C00055[c]
+  EggNOG_annotation: peg.962:uridine kinase
+  KEGG_annotation: Athe_0531:K00876 uridine kinase [EC:2.7.1.48] | (GenBank) AAA
+    ATPase
+  PATRIC_annotation: Uridine kinase, type 2 (EC 2.7.1.48)
+  enzymes:
+  - 2.7.1.48
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.962
+  genes_string_NCBI_id: Athe_0531
+  genes_string_PATRIC_id: peg.962
+  names:
+  - UTP:cytidine 5'-phosphotransferase
+  other_pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: UTP[c] + Cytidine[c] <=> UDP[c] + CMP[c]
+- id: R08221
+  name: 5'-deoxy-5-fluorocytidine aminohydrolase
+  equation: C16635[c] + C00001[c] <=> C12739[c] + C00014[c]
+  EggNOG_annotation: peg.2288:cytidine deaminase
+  KEGG_annotation: Athe_1777:K01489 cytidine deaminase [EC:3.5.4.5] | (GenBank) cytidine
+    deaminase
+  PATRIC_annotation: Cytidine deaminase (EC 3.5.4.5)
+  enzymes:
+  - 3.5.4.5
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2288
+  genes_string_NCBI_id: Athe_1777
+  genes_string_PATRIC_id: peg.2288
+  names:
+  - 5'-deoxy-5-fluorocytidine aminohydrolase
+  other_pathways:
+  - Drug metabolism - other enzymes
+  pathway: Drug metabolism - other enzymes
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: 5'-Deoxy-5-fluorocytidine[c] + H2O[c] <=> 5'-Deoxy-5-fluorouridine[c]
+    + Ammonia[c]
+- id: R02298
+  name: Pyrimidine-nucleoside:orthophosphate alpha-D-ribosyltransferase
+  equation: C03169[c] + C00009[c] <=> C00396[c] + C00620[c] + C00080[c]
+  EggNOG_annotation: peg.2286:pyrimidine-nucleoside phosphorylase
+  KEGG_annotation: Athe_1775:K00756 pyrimidine-nucleoside phosphorylase [EC:2.4.2.2]
+    | (GenBank) pyrimidine-nucleoside phosphoryl
+  PATRIC_annotation: Pyrimidine-nucleoside phosphorylase (EC 2.4.2.2)
+  enzymes:
+  - 2.4.2.2
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2286
+  genes_string_NCBI_id: Athe_1775
+  genes_string_PATRIC_id: peg.2286
+  names:
+  - Pyrimidine-nucleoside:orthophosphate alpha-D-ribosyltransferase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|Pyrimidine nucleoside[c]| + Orthophosphate[c] <=> Pyrimidine[c]
+    + |alpha-D-Ribose 1-phosphate[c]| + H+[c]'
+- id: R01876
+  name: uridine:phosphate alpha-D-ribosyltransferase
+  equation: C00299[c] + C00009[c] <=> C00106[c] + C00620[c]
+  EggNOG_annotation: peg.2286:pyrimidine-nucleoside phosphorylase
+  KEGG_annotation: Athe_1775:K00756 pyrimidine-nucleoside phosphorylase [EC:2.4.2.2]
+    | (GenBank) pyrimidine-nucleoside phosphoryl
+  PATRIC_annotation: Pyrimidine-nucleoside phosphorylase (EC 2.4.2.2)
+  enzymes:
+  - 2.4.2.2
+  - 2.4.2.3
+  genes_Cce: '-'
+  genes_Cth: peg.2286
+  genes_Tsac: peg.2286
+  genes_kegg: peg.2286
+  genes_string_NCBI_id: Athe_1775
+  genes_string_PATRIC_id: peg.2286
+  names:
+  - uridine:phosphate alpha-D-ribosyltransferase
+  other_pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: KEGG_Cbes,Cth,Tsac
+  translated_equation: Uridine[c] + Orthophosphate[c] <=> Uracil[c] + |alpha-D-Ribose
+    1-phosphate[c]|
+- id: R02098
+  name: ATP:dUMP phosphotransferase
+  equation: C00002[c] + C00365[c] <=> C00008[c] + C01346[c]
+  EggNOG_annotation: peg.2326:Catalyzes the reversible phosphorylation of UMP to
+    UDP (By similarity)
+  KEGG_annotation: Athe_1814:K09903 uridylate kinase [EC:2.7.4.22] | (GenBank) uridylate
+    kinase
+  PATRIC_annotation: Uridylate kinase (EC 2.7.4.22)
+  enzymes:
+  - 2.7.4.4
+  - 2.7.4.9
+  genes_Cce: '- or -'
+  genes_Cth: '-'
+  genes_Tsac: peg.2326
+  genes_kegg: '-'
+  genes_string_NCBI_id: Athe_1814
+  genes_string_PATRIC_id: peg.2326
+  names:
+  - ATP:dUMP phosphotransferase
+  other_pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: Tsac
+  translated_equation: ATP[c] + dUMP[c] <=> ADP[c] + dUDP[c]
+- id: R01868
+  name: (S)-dihydroorotate:quinone oxidoreductase
+  equation: C00337[c] + C15602[c] <=> C00295[c] + C15603[c]
+  EggNOG_annotation: peg.1871:Catalyzes the conversion of dihydroorotate to orotate
+    (By similarity)
+  KEGG_annotation: Athe_1380:K17828 dihydroorotate dehydrogenase (NAD+) catalytic
+    subunit [EC:1.3.1.14] | (GenBank) dihydroorotat
+  PATRIC_annotation: Dihydroorotate dehydrogenase (NAD(+)), catalytic subunit (EC
+    1.3.1.14)
+  enzymes:
+  - 1.3.5.2
+  genes_Cce: peg.1871
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1380
+  genes_string_PATRIC_id: peg.1871
+  names:
+  - (S)-dihydroorotate:quinone oxidoreductase
+  other_pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: Cce
+  translated_equation: (S)-Dihydroorotate[c] + Quinone[c] <=> Orotate[c] + Hydroquinone[c]
+- id: CYTK10
+  name: cytidylatekinase(CMP,dGTP)
+  equation: cmp[c] + dgtp[c] <=> dgdp[c] + cdp[c]
+  subsystem: Pyrimidine Metabolism
+  ec: 2.7.4.14
+  EggNOG_annotation: peg.1813:Cytidine monophosphate kinase
+  KEGG_annotation: Athe_1325:K00945 CMP/dCMP kinase [EC:2.7.4.25] | (GenBank) cytidylate
+    kinase
+  PATRIC_annotation: Cytidylate kinase (EC 2.7.4.25)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: peg.1813
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1325
+  genes_string_PATRIC_id: peg.1813
+  pathway: Pyrimidine Metabolism
+  source: Tsac model
+  tag: Tsac
+  translated_equation: CMP[c] + dGTP[c] <=> dGDP[c] + CDP[c]
+- id: CYTK11
+  name: cytidylatekinase(dCMP,dGTP)
+  equation: dgtp[c] + dcmp[c] <=> dgdp[c] + dcdp[c]
+  subsystem: Pyrimidine Metabolism
+  ec: 2.7.4.14
+  EggNOG_annotation: peg.1813:Cytidine monophosphate kinase
+  KEGG_annotation: Athe_1325:K00945 CMP/dCMP kinase [EC:2.7.4.25] | (GenBank) cytidylate
+    kinase
+  PATRIC_annotation: Cytidylate kinase (EC 2.7.4.25)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: peg.1813
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1325
+  genes_string_PATRIC_id: peg.1813
+  pathway: Pyrimidine Metabolism
+  source: Tsac model
+  tag: Tsac
+  translated_equation: dGTP[c] + dCMP[c] <=> dGDP[c] + dCDP[c]
+- id: CYTK12
+  name: cytidylatekinase(dCMP,dCTP)
+  equation: dctp[c] + dcmp[c] <=> (2) dcdp[c]
+  subsystem: Pyrimidine Metabolism
+  ec: 2.7.4.14
+  EggNOG_annotation: peg.1813:Cytidine monophosphate kinase
+  KEGG_annotation: Athe_1325:K00945 CMP/dCMP kinase [EC:2.7.4.25] | (GenBank) cytidylate
+    kinase
+  PATRIC_annotation: Cytidylate kinase (EC 2.7.4.25)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: peg.1813
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1325
+  genes_string_PATRIC_id: peg.1813
+  pathway: Pyrimidine Metabolism
+  source: Tsac model
+  tag: Tsac
+  translated_equation: dCTP[c] + dCMP[c] <=> (2) dCDP[c]
+- id: CYTK13
+  name: cytidylatekinase(dCMP,dATP)
+  equation: dcmp[c] + datp[c] <=> dadp[c] + dcdp[c]
+  subsystem: Pyrimidine Metabolism
+  ec: 2.7.4.14
+  EggNOG_annotation: peg.1813:Cytidine monophosphate kinase
+  KEGG_annotation: Athe_1325:K00945 CMP/dCMP kinase [EC:2.7.4.25] | (GenBank) cytidylate
+    kinase
+  PATRIC_annotation: Cytidylate kinase (EC 2.7.4.25)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: peg.1813
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1325
+  genes_string_PATRIC_id: peg.1813
+  pathway: Pyrimidine Metabolism
+  source: Tsac model
+  tag: Tsac
+  translated_equation: dCMP[c] + dATP[c] <=> dADP[c] + dCDP[c]
+- id: CYTK14
+  name: cytidylatekinase(dCMP,UTP)
+  equation: utp[c] + dcmp[c] <=> udp[c] + dcdp[c]
+  subsystem: Pyrimidine Metabolism
+  ec: 2.7.4.14
+  EggNOG_annotation: peg.1813:Cytidine monophosphate kinase
+  KEGG_annotation: Athe_1325:K00945 CMP/dCMP kinase [EC:2.7.4.25] | (GenBank) cytidylate
+    kinase
+  PATRIC_annotation: Cytidylate kinase (EC 2.7.4.25)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: peg.1813
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1325
+  genes_string_PATRIC_id: peg.1813
+  pathway: Pyrimidine Metabolism
+  source: Tsac model
+  tag: Tsac
+  translated_equation: UTP[c] + dCMP[c] <=> UDP[c] + dCDP[c]
+- id: CYTK3
+  name: cytidylatekinase(CMP)(GTP)
+  equation: gtp[c] + cmp[c] <=> gdp[c] + cdp[c]
+  subsystem: Pyrimidine Metabolism
+  ec: 2.7.4.14
+  EggNOG_annotation: peg.1813:Cytidine monophosphate kinase
+  KEGG_annotation: Athe_1325:K00945 CMP/dCMP kinase [EC:2.7.4.25] | (GenBank) cytidylate
+    kinase
+  PATRIC_annotation: Cytidylate kinase (EC 2.7.4.25)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: peg.1813
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1325
+  genes_string_PATRIC_id: peg.1813
+  pathway: Pyrimidine Metabolism
+  source: Tsac model
+  tag: Tsac
+  translated_equation: GTP[c] + CMP[c] <=> GDP[c] + CDP[c]
+- id: CYTK4
+  name: cytidylatekinase(dCMP)(GTP)
+  equation: gtp[c] + dcmp[c] <=> gdp[c] + dcdp[c]
+  subsystem: Pyrimidine Metabolism
+  ec: 2.7.4.14
+  EggNOG_annotation: peg.1813:Cytidine monophosphate kinase
+  KEGG_annotation: Athe_1325:K00945 CMP/dCMP kinase [EC:2.7.4.25] | (GenBank) cytidylate
+    kinase
+  PATRIC_annotation: Cytidylate kinase (EC 2.7.4.25)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: peg.1813
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1325
+  genes_string_PATRIC_id: peg.1813
+  pathway: Pyrimidine Metabolism
+  source: Tsac model
+  tag: Tsac
+  translated_equation: GTP[c] + dCMP[c] <=> GDP[c] + dCDP[c]
+- id: CYTK5
+  name: cytidylatekinase(dCMP)
+  equation: ctp[c] + dcmp[c] <=> dcdp[c] + cdp[c]
+  subsystem: Pyrimidine Metabolism
+  ec: 2.7.4.14
+  EggNOG_annotation: peg.1813:Cytidine monophosphate kinase
+  KEGG_annotation: Athe_1325:K00945 CMP/dCMP kinase [EC:2.7.4.25] | (GenBank) cytidylate
+    kinase
+  PATRIC_annotation: Cytidylate kinase (EC 2.7.4.25)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: peg.1813
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1325
+  genes_string_PATRIC_id: peg.1813
+  pathway: Pyrimidine Metabolism
+  source: Tsac model
+  tag: Tsac
+  translated_equation: CTP[c] + dCMP[c] <=> dCDP[c] + CDP[c]
+- id: CYTK6
+  name: cytidylatekinase(CMP,CTP)
+  equation: cmp[c] + ctp[c] <=> (2) cdp[c]
+  subsystem: Pyrimidine Metabolism
+  ec: 2.7.4.14
+  EggNOG_annotation: peg.1813:Cytidine monophosphate kinase
+  KEGG_annotation: Athe_1325:K00945 CMP/dCMP kinase [EC:2.7.4.25] | (GenBank) cytidylate
+    kinase
+  PATRIC_annotation: Cytidylate kinase (EC 2.7.4.25)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: peg.1813
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1325
+  genes_string_PATRIC_id: peg.1813
+  pathway: Pyrimidine Metabolism
+  source: Tsac model
+  tag: Tsac
+  translated_equation: CMP[c] + CTP[c] <=> (2) CDP[c]
+- id: CYTK7
+  name: cytidylatekinase(CMP,UTP)
+  equation: cmp[c] + utp[c] <=> udp[c] + cdp[c]
+  subsystem: Pyrimidine Metabolism
+  ec: 2.7.4.14
+  EggNOG_annotation: peg.1813:Cytidine monophosphate kinase
+  KEGG_annotation: Athe_1325:K00945 CMP/dCMP kinase [EC:2.7.4.25] | (GenBank) cytidylate
+    kinase
+  PATRIC_annotation: Cytidylate kinase (EC 2.7.4.25)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: peg.1813
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1325
+  genes_string_PATRIC_id: peg.1813
+  pathway: Pyrimidine Metabolism
+  source: Tsac model
+  tag: Tsac
+  translated_equation: CMP[c] + UTP[c] <=> UDP[c] + CDP[c]
+- id: CYTK8
+  name: cytidylatekinase(CMP,dATP)
+  equation: cmp[c] + datp[c] <=> dadp[c] + cdp[c]
+  subsystem: Pyrimidine Metabolism
+  ec: 2.7.4.14
+  EggNOG_annotation: peg.1813:Cytidine monophosphate kinase
+  KEGG_annotation: Athe_1325:K00945 CMP/dCMP kinase [EC:2.7.4.25] | (GenBank) cytidylate
+    kinase
+  PATRIC_annotation: Cytidylate kinase (EC 2.7.4.25)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: peg.1813
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1325
+  genes_string_PATRIC_id: peg.1813
+  pathway: Pyrimidine Metabolism
+  source: Tsac model
+  tag: Tsac
+  translated_equation: CMP[c] + dATP[c] <=> dADP[c] + CDP[c]
+- id: CYTK9
+  name: cytidylatekinase(CMP,dCTP)
+  equation: cmp[c] + dctp[c] <=> dcdp[c] + cdp[c]
+  subsystem: Pyrimidine Metabolism
+  ec: 2.7.4.14
+  EggNOG_annotation: peg.1813:Cytidine monophosphate kinase
+  KEGG_annotation: Athe_1325:K00945 CMP/dCMP kinase [EC:2.7.4.25] | (GenBank) cytidylate
+    kinase
+  PATRIC_annotation: Cytidylate kinase (EC 2.7.4.25)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: peg.1813
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1325
+  genes_string_PATRIC_id: peg.1813
+  pathway: Pyrimidine Metabolism
+  source: Tsac model
+  tag: Tsac
+  translated_equation: CMP[c] + dCTP[c] <=> dCDP[c] + CDP[c]
+- id: UMPK2
+  name: UMPkinase(CTP)
+  equation: ctp[c] + ump[c] <=> udp[c] + cdp[c]
+  subsystem: Pyrimidine Metabolism
+  ec: 2.7.4.14
+  EggNOG_annotation: peg.1813:Cytidine monophosphate kinase
+  KEGG_annotation: Athe_1325:K00945 CMP/dCMP kinase [EC:2.7.4.25] | (GenBank) cytidylate
+    kinase
+  PATRIC_annotation: Cytidylate kinase (EC 2.7.4.25)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: peg.1813
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1325
+  genes_string_PATRIC_id: peg.1813
+  pathway: Pyrimidine Metabolism
+  source: Tsac model
+  tag: Tsac
+  translated_equation: CTP[c] + UMP[c] <=> UDP[c] + CDP[c]
+- id: UMPK3
+  name: UMPkinase(UTP)
+  equation: utp[c] + ump[c] <=> (2) udp[c]
+  subsystem: Pyrimidine Metabolism
+  ec: 2.7.4.14
+  EggNOG_annotation: peg.1813:Cytidine monophosphate kinase
+  KEGG_annotation: Athe_1325:K00945 CMP/dCMP kinase [EC:2.7.4.25] | (GenBank) cytidylate
+    kinase
+  PATRIC_annotation: Cytidylate kinase (EC 2.7.4.25)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: peg.1813
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1325
+  genes_string_PATRIC_id: peg.1813
+  pathway: Pyrimidine Metabolism
+  source: Tsac model
+  tag: Tsac
+  translated_equation: UTP[c] + UMP[c] <=> (2) UDP[c]
+- id: UMPK4
+  name: UMPkinase(GTP)
+  equation: gtp[c] + ump[c] <=> gdp[c] + udp[c]
+  subsystem: Pyrimidine Metabolism
+  ec: 2.7.4.14
+  EggNOG_annotation: peg.1813:Cytidine monophosphate kinase
+  KEGG_annotation: Athe_1325:K00945 CMP/dCMP kinase [EC:2.7.4.25] | (GenBank) cytidylate
+    kinase
+  PATRIC_annotation: Cytidylate kinase (EC 2.7.4.25)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: peg.1813
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1325
+  genes_string_PATRIC_id: peg.1813
+  pathway: Pyrimidine Metabolism
+  source: Tsac model
+  tag: Tsac
+  translated_equation: GTP[c] + UMP[c] <=> GDP[c] + UDP[c]
+- id: UMPK5
+  name: UMPkinase(dATP)
+  equation: ump[c] + datp[c] <=> dadp[c] + udp[c]
+  subsystem: Pyrimidine Metabolism
+  ec: 2.7.4.14
+  EggNOG_annotation: peg.1813:Cytidine monophosphate kinase
+  KEGG_annotation: Athe_1325:K00945 CMP/dCMP kinase [EC:2.7.4.25] | (GenBank) cytidylate
+    kinase
+  PATRIC_annotation: Cytidylate kinase (EC 2.7.4.25)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: peg.1813
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1325
+  genes_string_PATRIC_id: peg.1813
+  pathway: Pyrimidine Metabolism
+  source: Tsac model
+  tag: Tsac
+  translated_equation: UMP[c] + dATP[c] <=> dADP[c] + UDP[c]
+- id: UMPK6
+  name: UMPkinase(dCTP)
+  equation: dctp[c] + ump[c] <=> udp[c] + dcdp[c]
+  subsystem: Pyrimidine Metabolism
+  ec: 2.7.4.14
+  EggNOG_annotation: peg.1813:Cytidine monophosphate kinase
+  KEGG_annotation: Athe_1325:K00945 CMP/dCMP kinase [EC:2.7.4.25] | (GenBank) cytidylate
+    kinase
+  PATRIC_annotation: Cytidylate kinase (EC 2.7.4.25)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: peg.1813
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1325
+  genes_string_PATRIC_id: peg.1813
+  pathway: Pyrimidine Metabolism
+  source: Tsac model
+  tag: Tsac
+  translated_equation: dCTP[c] + UMP[c] <=> UDP[c] + dCDP[c]
+- id: UMPK7
+  name: UMPkinase(dGTP)
+  equation: ump[c] + dgtp[c] <=> dgdp[c] + udp[c]
+  subsystem: Pyrimidine Metabolism
+  ec: 2.7.4.14
+  EggNOG_annotation: peg.1813:Cytidine monophosphate kinase
+  KEGG_annotation: Athe_1325:K00945 CMP/dCMP kinase [EC:2.7.4.25] | (GenBank) cytidylate
+    kinase
+  PATRIC_annotation: Cytidylate kinase (EC 2.7.4.25)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: peg.1813
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1325
+  genes_string_PATRIC_id: peg.1813
+  pathway: Pyrimidine Metabolism
+  source: Tsac model
+  tag: Tsac
+  translated_equation: UMP[c] + dGTP[c] <=> dGDP[c] + UDP[c]
