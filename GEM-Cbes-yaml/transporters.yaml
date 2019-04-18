@@ -1,6 +1,363 @@
+# note: "source" = "manual cuartion" means the gene association comes from Dima's annotation
 - id: mosABC
   name: Mannoside transport via ABC system
   genes: peg.89 and peg.90 and peg.91
   equation: mos[e] + C00002[c] + C00001[c] => mos[c] + C00008[c] + C00009[c]
   subsystem: Transport
-  source: manually add
+  source: manual curation
+  tag: Dima's annotation
+- id: vb12ABC
+  name: Vitamin B12 uptake transport via ABC system
+  genes: peg.2411 and peg.2410 and peg.2412
+  enzymes:
+  - TC=3.A.1.13.2
+  equation: C05776[e] + C00002[c] => C05776[c] + C00008[c] + C00009[c]
+  subsystem: Vitamin B12 uptake
+  tag: Dima's annotation
+- id: ThiT
+  name: Substrate-specific component ThiT of  ECF transporter(Thiamine)
+  genes: peg.417
+  equation: C00378[e] + C00002[c] <=> C00378[c] + C00009[c]
+  enzymes: 
+  - TC=2.A.88.3.2
+  subsystem: Transport
+  tag: Dima's annotation
+  note: Thiamin = Thiamine = Vitamin B1, 
+- id: MgtE
+  name: Mg2+ Transporter
+  genes: peg.1099
+  enzymes:
+  - TC=9.A.19
+  equation: C00305[e] => C00305[c]
+  subsystem: Transport
+  tag: transportDB 
+  note: if contains peg.2723 and peg.2858?
+- id: ClC
+  name: Chloride Channel
+  genes: peg.1853
+  enzymes:
+  - TC=1.A.13
+  equation: C00698[e] => C00698[c]
+  subsystem: Transport
+  tag: transportDB
+  note: if need Ca2+? 
+- id: TrkH
+  name: potassium uptake
+  genes: peg.639
+  enzymes:
+  - TC=2.A.38.1.1
+  equation: C00238[e] + C00080[e] => C00238[c] + C00080[c]
+  subsystem: Transport
+  tag: transportDB
+- id: Amt
+  name: Ammonium transporter (Ion Channel)
+  genes: peg.2614
+  enzymes:
+  - TC=1.A.11
+  equation: C01342[e] <=> C01342[c]
+  subsystem: Transport
+  tag: transportDB
+  note: 1.A.11.1.5?
+# - id: cat1
+#   name: Ca2+ transporting ATPase
+#   genes: peg.2019 or peg.2941
+#   enzymes:
+#   - TC=3.A.3.2
+#   equation: C00076[c] + C00080[c] + C00002[c] => C00076[e] + C00080[e] + C00008[c] + C00009[c]
+#   subsystem: Transport
+#   tag: transport & TCDB blast
+#   note: peg.2941 - 3.a.3.2.21 or 3.a.3.2.28 or 3.a.3.2.5? 3.a.3.2.21 is annotated as PMCA-type, which is ca2+ exporter
+- id: cat2
+  name: Sodium/calcium exchanger
+  genes: peg.2942
+  enzymes:
+  - TC=2.A.19
+  equation: C00076[e] + (3) C01330[c] => C00076[c] + (3) C01330[e]
+  subsystem: Transport
+  tag: transportDB
+- id: naeffABC
+  name: sodium ion efflux
+  genes: Athe_0040 or peg.497
+  enzymes:
+  - TC=3.A.1
+  equation: C01330[c] + C00002[c] => C01330[e] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tag: tranportDB
+  note: Athe_0040 doesn't have corresponding fig gene
+- id: znABC
+  name: Zinc uptake via ABC system
+  genes: peg.2746 and peg.2747 and peg.2748
+  enzymes:
+  - TC=3.A.1.15
+  equation: C00038[e] + C00002[c] => C00038[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  note: peg.2746 - TCDB blastp 3.A.1.15.11
+- id: wo4ABC
+  name: Tungstate uptake vis ABC system
+  genes: peg.1284 and peg.1285 and peg.1286
+  equation: wo4[e] + C00002[c] => wo4[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tag: transportDB & TCDB
+  note: formula of C20679 is WH2O4, so the charge is 0. here we use WO4(2-)
+- id: znt1
+  name: Zn2+ - exporting P-type ATPase
+  genes: peg.725 or Athe_2280
+  enzymes:
+  - 7.2.2.12
+  - TC=3.A.3.6
+  equation: C00038[c] + C00001[c] + C00002[c] => C00038[e] + C00008[c] + C00009[c] + C00080[c]
+  subsystem: Transport
+  tag:
+- id: cot
+  name: Co2+ - exporting P-type ATPase
+  genes: peg.725 or Athe_2280
+  enzymes:
+  - TC=3.A.3.6
+  equation: C00175[c] + C00001[c] + C00002[c] => C00175[e] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tag:
+  note: need more check
+- id: znt2
+  name: Zinc(II) ion permease (uptake)
+  genes: peg.1555
+  enzymes:
+  - TC=2.A.5.5.1
+  equation: C00038[e] => C00038[c]
+  subsystem: Transport
+  tag: transportDB & TCDB
+  note: 2.A.5.5.1 is Broad specificity heavy metal divalent cation uptake transporter, but peg.1555 is only annotated as zinc transporter
+# - id: mnt1
+#   name: Mn2+ transporting ATPase
+#   genes: peg.2019 or peg.2941
+#   enzymes: 
+#   - TC=3.A.3.2
+#   equation: C19610[c] + C00080[c] + C00002[c] => C19610[e] + C00080[e] + C00008[c] + C00009[c]
+#   subsystem: Transport
+#   tag: transport & TCDB blast
+#   note: peg.2941 - 3.a.3.2.21 or 3.a.3.2.28 or 3.a.3.2.5? 3.a.3.2.21 is annotated as PMCA-type, which is ca2+ exporter
+- id: mnt
+  name: Manganese transport
+  genes: peg.1100 or peg.2265
+  enzymes:
+  - TC=2.A.55.3.6
+  - TC=2.A.55.2.6
+  equation: C19610[e] + C00080[e] <=> C19610[c] + C00080[c]
+  subsystem: Transport
+  tag: transportDB & TCDB
+  note: eggnog annotate peg.2265 as uptake porter, patric annotate peg.2265 as transporter, so bidirectional or uptake?
+# - id: mnt2
+#   name: Manganese uptake (MntH)
+#   genes: peg.2265
+#   enzymes:
+#   - TC=2.A.55.2.6
+#   equation: C19610[e] + C00080[e] => C19610[c] + C00080[c]
+#   subsystem: Transport
+#   tag:
+- id: hABC
+  name: H+ transport (F0F1-ATPase)
+  genes: peg.1915 and peg.1916 and peg.1917 and peg.1918 and peg.1919 peg.1920 and peg.1921 and peg.1922
+  enzymes: 
+  - 7.1.2.2 (TC=3.A.2.1)
+  # equation: C00002[c] + C00001[c] + (4) C00080[c] <=> C00008[c] + C00009[c] + (4) C00080[e]
+  equation: (4) C00080[c] + C00002[c] + C00001[c] <=> (4) C00080[e] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tag:
+  note: kegg eq or tcdb eq? substarte is only na+ or h+ is also allowed?
+- id: naABC
+  name: Na+ transport (F0F1-ATPase)
+  genes: peg.1915 and peg.1916 and peg.1917 and peg.1918 and peg.1919 peg.1920 and peg.1921 and peg.1922
+  enzymes: 
+  - 7.2.2.1 (TC=3.A.2.1)
+  # equation: C01330[c] + C00001[c] + (4) C00080[c] <=> C00008[c] + C00009[c] + (4) C00080[e]
+  equation: (4) C01330[c] + C00002[c] + C00001[c] => (4) C01330[e] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tag:
+  note: kegg eq or tcdb eq?
+# - id: coABC
+#   name: cobalt uptake vis ABC system
+#   genes: peg.2195 and peg.2196 and peg.2197
+#   enzymes:
+#   - TC=3.A.1.26.10
+#   equation: C00175[e] + C00002[c] => C00008[c] + C00009[c] + C00175[c]
+#   subsystem: Transport
+#   tag: 
+#   note: need further check
+- id: RibU
+  name: riboflavin uptake
+  genes: peg.1708
+  enzymes:
+  - TC=2.A.87.1.3
+  equation: C00255[e] => C00255[c]
+  subsystem: Transport
+  tag: transportDB
+  source: manual curation
+  note: should H+ included in equation? (due to pmf in tcdb equation)
+- id: urap
+  name: Uracil permease
+  genes: peg.1864 or peg.1945
+  enzymes:
+  - TC=2.A.40
+  equation: C00106[e] <=> C00106[c]
+  subsystem: Transport
+  tag: 
+  source: manual curation
+  note: not sure about direction; need h+?
+- id: FolT
+  name: ATP-dependent folic acid uptake porter
+  genes: peg.2195 and peg.2196 and peg.2197
+  enzymes:
+  - TC=3.A.1.26.10
+  equation: C00504[e] + C00002[c] => C00504[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tag: TCDB
+  source: manual curation
+  note: 
+- id: vb6t
+  name: substrate-specific component PdxU2 of predicted pyridoxin-related ECF transporter
+  genes: peg.2278
+  enzymes:
+  - TC=
+  equation: C00314[e] + C00002[c] => C00314[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tag:
+  source: manual curation
+  note: need further curation, maybe more genes associated to this rxn
+- id: frut
+  name: fructose-specific PTS Enzyme IIABC FruA
+  genes: peg.543 and peg.544
+  enzymes:
+  - TC=4.A.2.1.13
+  equation: C00095[e] + C00090[e] => C00095[c] + C00080[c]
+  subsystem: Transport
+  tag: transportDB
+  source: manual curation
+  note: 
+# - id: Ftr1
+#   name: Iron permease
+#   genes: peg.150
+#   enzymes:
+#   - TC=2.A.108.2.4
+#   equation: C00023[e] => C00023[c]
+#   subsystem: Transport
+#   tag:
+#   source: manual curation
+#   note: direction?
+- id: fe2t
+  name: Ferrous iron (Fe2+) uptake system, FeoB
+  genes: peg.1405 and peg.2058
+  enzymes:
+  - TC=9.A.8.1.4
+  equation: C14818[e] + C00044[c] => C14818[c] + C00035[c] + C00009[c]
+  subsystem: Transport
+  tag: transportDB
+  source: manual curation
+  note: peg.2059 is annotated as FeoA in patric
+- id: piABC
+  name: Phosphate transport via ABC system
+  genes: peg.1644 and peg.1645 and peg.1646
+  enzymes:
+  - TC=3.A.1.7.1
+  equation: C00009[e] + C00002[c] => (2) C00009[c] + C00008[c]
+  subsystem: Transport
+  tag:
+  source: manual curation
+  note: 
+  PMID: 24318969 
+- id: pit
+  name: inorganic phosphate uptake porter (Low affinity)
+  genes: peg.1978
+  enzymes:
+  - TC=2.A.20.1.7
+  equation: C00009[e] + C00080[e] => (2) C00009[c] + C00080[c]
+  subsystem: Transport
+  tag:
+  source: manual curation
+  note:
+
+# part II
+- id: cuABC
+  name: copper(II) transport via ABC system
+  genes: peg.2848
+  enzymes:
+  - TC=3.A.3.5.15
+  equation: C00070[e] + C00080[c] + C00002[c] + C00001[c] => C00076[c] + C00080[e] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tag:
+  source: manual curation
+  note: if need H+ in equation?
+- id: CaMgATPase
+  name: Mg2+/Ca2+ ATPase antiporter
+  genes: peg.2941
+  enzymes:
+  - TC=3.A.3.2.28
+  equation: C00076[e] + C00305[e] + C00002[c] + C00001[c] => C00076[c] + C00305[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tag: TCDB
+  source: manual curation
+  note: 
+- id: cat
+  name: Calcium-translocating P-type ATPase, PMCA-type
+  genes: peg.2019
+  enzymes:
+  - TC=3.A.3.2.21
+  equation: C00076[c] + C00080[e] + C00002[c] + C00001[c] => C00076[e] + C00080[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tag: TCDB
+  source: manual curation
+  note: the matter of Ca2+/H+ stoichiometry is still controversial
+  PMID: 21421919
+- id: fet
+  name: Ferrous ion (Fe2+) permease (uptake)
+  genes: peg.1555
+  enzymes:
+  - TC=2.A.5.5.1
+  equation: C14818[e] => C14818[c]
+  subsystem: Transport
+  tag: TCDB
+- id: cot
+  name: cobalt cation (Co2+) permease (uptake)
+  genes: peg.1555
+  enzymes:
+  - TC=2.A.5.5.1
+  equation: C00175[e] => C00175[c]
+  subsystem: Transport
+  tag: TCDB
+- id: mnt
+  name: Manganese cation (Mn2+) permease (uptake)
+  genes: peg.1555
+  enzymes:
+  - TC=2.A.5.5.1
+  equation: C00034[e] => C00034[c]
+  subsystem: Transport
+  tag: TCDB
+- id: niABC
+  name: nickel (II) uptake
+  genes: peg.1321 or peg.1318 or peg.1319
+  enzymes:
+  - TC=3.A.1.23.5
+  - TC=3.A.1.23.4  
+  equation: C19609[e] + C00002[c] + C00001[c] => C19609[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tag: TCDB
+  source: manual curation
+  note: peg.1318 should be 3.A.1.23.4 or 3.A.1.23.5?
+- id: moABC
+  name: molybdate transport via ABC system
+  genes: peg.674
+  enzymes:
+  - TC=3.A.1.14.11
+  equation: C06232[e] + C00002[c] + C00001[c] => C06232[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tag: TCDB
+  source: manual curation
+  note: bidirectional or uptake or export?
+- id: hco3ABC
+  name: bicarbonate transport via ABC system
+  genes: peg.1668
+  enzymes:
+  - TC=3.A.1.16.3
+  equation: C00288[e] + C00002[c] + C00001[c] => C00288[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tag: 
+  source: manual curation
+  note: 
