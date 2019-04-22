@@ -164,38 +164,9 @@
   tag: KEGG_Cbes
   translated_equation: (2R,3S)-3-Isopropylmalate[c] + NAD+[c] <=> 4-Methyl-2-oxopentanoate[c]
     + CO2[c] + NADH[c] + H+[c]
-- id: R10170
-  name: (2R,3S)-3-isopropylmalate hydro-lyase (2-isopropylmaleate-forming)
-  equation: C04411[c] <=> C02504[c]
-  EggNOG_annotation: peg.2651:Catalyzes the isomerization between 2-isopropylmalate
-    and 3-isopropylmalate, via the formation of 2-isopropylmaleate (By similarity);   peg.2652:Catalyzes
-    the isomerization between 2-isopropylmalate and 3-isopropylmalate, via the formation
-    of 2-isopropylmaleate (By similarity)
-  KEGG_annotation: Athe_2101:K01703 3-isopropylmalate/(R)-2-methylmalate dehydratase
-    large subunit [EC:4.2.1.33 4.2.1.35] | (GenB;   Athe_2100:K01704 3-isopropylmalate/(R)-2-methylmalate
-    dehydratase small subunit [EC:4.2.1.33 4.2.1.35] | (GenB
-  PATRIC_annotation: 3-isopropylmalate dehydratase small subunit (EC 4.2.1.33) or
-    3-isopropylmalate dehydratase large subunit (EC 4.2.1.33)
-  enzymes:
-  - 4.2.1.33
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.2652,peg.2651
-  genes_string_NCBI_id: Athe_2100,Athe_2101
-  genes_string_PATRIC_id: peg.2651,peg.2652
-  names:
-  - (2R,3S)-3-isopropylmalate hydro-lyase (2-isopropylmaleate-forming)
-  other_pathways:
-  - 2-Oxocarboxylic acid metabolism
-  - Biosynthesis of amino acids
-  pathway: 2-Oxocarboxylic acid metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: (2R,3S)-3-Isopropylmalate[c] <=> alpha-Isopropylmalate[c]
 - id: R00114
   name: L-Glutamate:NADP+ oxidoreductase (transaminating)
-  genes: peg.2580 or peg.2936
+  genes: peg.22936 and peg.2936
   equation: C00064[c] + C00026[c] + C00005[c] + C00080[c] => (2) C00025[c] + C00006[c]
   EggNOG_annotation: peg.2933:Glutamate synthase alpha subunit domain protein;   peg.1085:glutamate
     synthase;   peg.2936:glutamate synthase;   peg.2937:glutamine amidotransferase
@@ -1043,7 +1014,9 @@
     => L-Asparaginyl-tRNA(Asn)[c] + L-Glutamate[c] + Orthophosphate[c] + ADP[c]
 - id: R02918
   name: L-Tyrosine:tRNA(Tyr) ligase (AMP-forming)
-  equation: C00002[c] + C00082[c] + C00787[c] <=> C00020[c] + C00013[c] + C02839[c]
+  genes: peg.1349
+  curated: true
+  equation: C00002[c] + C00082[c] + C00787[c] => C00020[c] + C00013[c] + C02839[c]
   EggNOG_annotation: peg.1349:Catalyzes the attachment of tyrosine to tRNA(Tyr) in
     a two-step reaction tyrosine is first activated by ATP to form Tyr- AMP and then
     transferred to the acceptor end of tRNA(Tyr) (By similarity)
@@ -1065,11 +1038,13 @@
   pathway: Aminoacyl-tRNA biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cth,Tsac
-  translated_equation: ATP[c] + L-Tyrosine[c] + tRNA(Tyr)[c] <=> AMP[c] + Diphosphate[c]
+  translated_equation: ATP[c] + L-Tyrosine[c] + tRNA(Tyr)[c] => AMP[c] + Diphosphate[c]
     + L-Tyrosyl-tRNA(Tyr)[c]
 - id: R03659
   name: L-Methionine:tRNAMet ligase (AMP-forming)
-  equation: C00002[c] + C00073[c] + C01647[c] <=> C00020[c] + C00013[c] + C02430[c]
+  genes: peg.718
+  curated: true
+  equation: C00002[c] + C00073[c] + C01647[c] => C00020[c] + C00013[c] + C02430[c]
   EggNOG_annotation: peg.718:Is required not only for elongation of protein synthesis
     but also for the initiation of all mRNA translation through initiator tRNA(fMet)
     aminoacylation (By similarity)
@@ -1091,11 +1066,13 @@
   pathway: Aminoacyl-tRNA biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cth
-  translated_equation: ATP[c] + L-Methionine[c] + tRNA(Met)[c] <=> AMP[c] + Diphosphate[c]
+  translated_equation: ATP[c] + L-Methionine[c] + tRNA(Met)[c] => AMP[c] + Diphosphate[c]
     + L-Methionyl-tRNA[c]
 - id: R03662
   name: L-Serine:tRNA(Ser) ligase (AMP-forming)
-  equation: C00002[c] + C00065[c] + C01650[c] <=> C00020[c] + C00013[c] + C02553[c]
+  genes: peg.1335
+  curated: true
+  equation: C00002[c] + C00065[c] + C01650[c] => C00020[c] + C00013[c] + C02553[c]
   EggNOG_annotation: peg.1335:Catalyzes the attachment of serine to tRNA(Ser). Is
     also able to aminoacylate tRNA(Sec) with serine, to form the misacylated tRNA
     L-seryl-tRNA(Sec), which will be further converted into selenocysteinyl-tRNA(Sec)
@@ -1118,11 +1095,13 @@
   pathway: Aminoacyl-tRNA biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: ATP[c] + L-Serine[c] + tRNA(Ser)[c] <=> AMP[c] + Diphosphate[c]
+  translated_equation: ATP[c] + L-Serine[c] + tRNA(Ser)[c] => AMP[c] + Diphosphate[c]
     + L-Seryl-tRNA(Ser)[c]
 - id: R03646
   name: L-Arginine:tRNA(Arg) ligase (AMP-forming)
-  equation: C00002[c] + C00062[c] + C01636[c] <=> C00020[c] + C00013[c] + C02163[c]
+  genes: peg.2582
+  curated: true
+  equation: C00002[c] + C00062[c] + C01636[c] => C00020[c] + C00013[c] + C02163[c]
   EggNOG_annotation: peg.2582:Arginyl-tRNA synthetase
   KEGG_annotation: Athe_2036:K01887 arginyl-tRNA synthetase [EC:6.1.1.19] | (GenBank)
     arginyl-tRNA synthetase
@@ -1142,11 +1121,13 @@
   pathway: Aminoacyl-tRNA biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: ATP[c] + L-Arginine[c] + tRNA(Arg)[c] <=> AMP[c] + Diphosphate[c]
+  translated_equation: ATP[c] + L-Arginine[c] + tRNA(Arg)[c] => AMP[c] + Diphosphate[c]
     + L-Arginyl-tRNA(Arg)[c]
 - id: R03664
   name: L-Tryptophan -tRNA(Trp) ligase (AMP-forming)
-  equation: C00002[c] + C00078[c] + C01652[c] <=> C00020[c] + C00013[c] + C03512[c]
+  genes: peg.1251
+  curated: true
+  equation: C00002[c] + C00078[c] + C01652[c] => C00020[c] + C00013[c] + C03512[c]
   EggNOG_annotation: peg.1251:Tryptophanyl-tRNA synthetase
   KEGG_annotation: Athe_0792:K01867 tryptophanyl-tRNA synthetase [EC:6.1.1.2] | (GenBank)
     tryptophanyl-tRNA synthetase
@@ -1166,11 +1147,13 @@
   pathway: Aminoacyl-tRNA biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cth,Tsac
-  translated_equation: ATP[c] + L-Tryptophan[c] + tRNA(Trp)[c] <=> AMP[c] + Diphosphate[c]
+  translated_equation: ATP[c] + L-Tryptophan[c] + tRNA(Trp)[c] => AMP[c] + Diphosphate[c]
     + L-Tryptophanyl-tRNA(Trp)[c]
 - id: R03660
   name: L-Phenylalanine:tRNA(Ala) ligase (AMP-forming)
-  equation: C00002[c] + C00079[c] + C01648[c] <=> C00020[c] + C00013[c] + C03511[c]
+  genes: peg.1770 and peg.1771
+  curated: true
+  equation: C00002[c] + C00079[c] + C01648[c] => C00020[c] + C00013[c] + C03511[c]
   EggNOG_annotation: peg.1771:phenylalanyl-tRNA synthetase, beta subunit;   peg.1770:Phenylalanyl-tRNA
     synthetase alpha subunit
   KEGG_annotation: Athe_1284:K01890 phenylalanyl-tRNA synthetase beta chain [EC:6.1.1.20]
@@ -1193,11 +1176,13 @@
   pathway: Aminoacyl-tRNA biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cth,Tsac
-  translated_equation: ATP[c] + L-Phenylalanine[c] + tRNA(Phe)[c] <=> AMP[c] + Diphosphate[c]
+  translated_equation: ATP[c] + L-Phenylalanine[c] + tRNA(Phe)[c] => AMP[c] + Diphosphate[c]
     + L-Phenylalanyl-tRNA(Phe)[c]
 - id: R03655
   name: L-Histidine:tRNA(His) ligase (AMP-forming)
-  equation: C00002[c] + C00135[c] + C01643[c] <=> C00020[c] + C00013[c] + C02988[c]
+  genes: peg.1025
+  curated: true
+  equation: C00002[c] + C00135[c] + C01643[c] => C00020[c] + C00013[c] + C02988[c]
   EggNOG_annotation: peg.1025:histidyl-tRNA synthetase;   peg.1973:Required for the
     first step of histidine biosynthesis. May allow the feedback regulation of ATP
     phosphoribosyltransferase activity by histidine (By similarity)
@@ -1221,11 +1206,13 @@
   pathway: Aminoacyl-tRNA biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: ATP[c] + L-Histidine[c] + tRNA(His)[c] <=> AMP[c] + Diphosphate[c]
+  translated_equation: ATP[c] + L-Histidine[c] + tRNA(His)[c] => AMP[c] + Diphosphate[c]
     + L-Histidyl-tRNA(His)[c]
 - id: R03651
   name: L-Glutamate:tRNA(Gln) ligase (AMP-forming)
-  equation: C00002[c] + C00025[c] + C01640[c] <=> C00020[c] + C00013[c] + C06112[c]
+  genes: peg.1411 or peg.2820
+  curated: true
+  equation: C00002[c] + C00025[c] + C01640[c] => C00020[c] + C00013[c] + C06112[c]
   EggNOG_annotation: peg.2820:Catalyzes the attachment of glutamate to tRNA(Glu)
     in a two-step reaction glutamate is first activated by ATP to form Glu-AMP and
     then transferred to the acceptor end of tRNA(Glu) (By similarity)
@@ -1249,11 +1236,13 @@
   pathway: Aminoacyl-tRNA biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: ATP[c] + L-Glutamate[c] + tRNA(Gln)[c] <=> AMP[c] + Diphosphate[c]
+  translated_equation: ATP[c] + L-Glutamate[c] + tRNA(Gln)[c] => AMP[c] + Diphosphate[c]
     + L-Glutamyl-tRNA(Gln)[c]
 - id: R03663
   name: L-Threonine:tRNA(Thr) ligase (AMP-forming)
-  equation: C00002[c] + C00188[c] + C01651[c] <=> C00020[c] + C00013[c] + C02992[c]
+  genes: peg.1260
+  curated: true
+  equation: C00002[c] + C00188[c] + C01651[c] => C00020[c] + C00013[c] + C02992[c]
   EggNOG_annotation: peg.1260:Threonyl-tRNA synthetase
   KEGG_annotation: Athe_0801:K01868 threonyl-tRNA synthetase [EC:6.1.1.3] | (GenBank)
     threonyl-tRNA synthetase
@@ -1273,11 +1262,13 @@
   pathway: Aminoacyl-tRNA biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: ATP[c] + L-Threonine[c] + tRNA(Thr)[c] <=> AMP[c] + Diphosphate[c]
+  translated_equation: ATP[c] + L-Threonine[c] + tRNA(Thr)[c] => AMP[c] + Diphosphate[c]
     + L-Threonyl-tRNA(Thr)[c]
 - id: R03657
   name: L-Leucine:tRNA(Leu) ligase (AMP-forming)
-  equation: C00002[c] + C00123[c] + C01645[c] <=> C00020[c] + C00013[c] + C02047[c]
+  genes: peg.1741
+  curated: true
+  equation: C00002[c] + C00123[c] + C01645[c] => C00020[c] + C00013[c] + C02047[c]
   EggNOG_annotation: peg.1741:Leucyl-tRNA synthetase
   KEGG_annotation: Athe_1254:K01869 leucyl-tRNA synthetase [EC:6.1.1.4] | (GenBank)
     leucyl-tRNA synthetase
@@ -1297,11 +1288,13 @@
   pathway: Aminoacyl-tRNA biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: ATP[c] + L-Leucine[c] + tRNA(Leu)[c] <=> AMP[c] + Diphosphate[c]
+  translated_equation: ATP[c] + L-Leucine[c] + tRNA(Leu)[c] => AMP[c] + Diphosphate[c]
     + L-Leucyl-tRNA[c]
 - id: R08218
   name: L-serine:tRNASec ligase (AMP-forming)
-  equation: C00002[c] + C00065[c] + C16636[c] <=> C00020[c] + C00013[c] + C06481[c]
+  genes: peg.1335
+  curated: true
+  equation: C00002[c] + C00065[c] + C16636[c] => C00020[c] + C00013[c] + C06481[c]
   EggNOG_annotation: peg.1335:Catalyzes the attachment of serine to tRNA(Ser). Is
     also able to aminoacylate tRNA(Sec) with serine, to form the misacylated tRNA
     L-seryl-tRNA(Sec), which will be further converted into selenocysteinyl-tRNA(Sec)
@@ -1324,11 +1317,13 @@
   pathway: Aminoacyl-tRNA biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: ATP[c] + L-Serine[c] + tRNA(Sec)[c] <=> AMP[c] + Diphosphate[c]
+  translated_equation: ATP[c] + L-Serine[c] + tRNA(Sec)[c] => AMP[c] + Diphosphate[c]
     + L-Seryl-tRNA(Sec)[c]
 - id: R05577
   name: L-Aspartate:tRNA(Asp) ligase (AMP-forming)
-  equation: C01638[c] + C00049[c] + C00002[c] <=> C02984[c] + C00013[c] + C00020[c]
+  genes: peg.1026
+  curated: true
+  equation: C01638[c] + C00049[c] + C00002[c] => C02984[c] + C00013[c] + C00020[c]
   EggNOG_annotation: peg.1026:Aspartyl-tRNA synthetase
   KEGG_annotation: Athe_0593:K01876 aspartyl-tRNA synthetase [EC:6.1.1.12] | (GenBank)
     aspartyl-tRNA synthetase
@@ -1350,11 +1345,30 @@
   pathway: Aminoacyl-tRNA biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: tRNA(Asp)[c] + L-Aspartate[c] + ATP[c] <=> L-Aspartyl-tRNA(Asp)[c]
+  translated_equation: tRNA(Asp)[c] + L-Aspartate[c] + ATP[c] => L-Aspartyl-tRNA(Asp)[c]
     + Diphosphate[c] + AMP[c]
+- id: R03647
+  name: L-Aspartate:tRNAAsp ligase (AMP-forming)
+  genes: peg.1026
+  curated: true
+  equation: C00002[c] + C00049[c] + C01637[c] => C00020[c] + C00013[c] + C06113[c]
+  enzymes:
+  - 6.1.1.23
+  names:
+  - L-Aspartate:tRNAAsp ligase (AMP-forming)
+  PATRIC_annotation: Aspartyl-tRNA synthetase (EC 6.1.1.12) @ Aspartyl-tRNA(Asn)
+    synthetase (EC 6.1.1.23)
+  other_pathways:
+  - Aminoacyl-tRNA biosynthesis
+  pathways: Aminoacyl-tRNA biosynthesis
+  genes_KEGG: None
+  translated_equation: ATP + L-Aspartate + tRNA(Asn) => AMP + Diphosphate + L-Aspartyl-tRNA(Asn)
+  note: Add this reaction based on patric gene annotation - peg.1026 can be ec 6.1.1.12 or 6.1.1.23
 - id: R03654
   name: glycine:tRNA(Gly) ligase (AMP-forming)
-  equation: C00002[c] + C00037[c] + C01642[c] <=> C00020[c] + C00013[c] + C02412[c]
+  genes: peg.1903
+  curated: true
+  equation: C00002[c] + C00037[c] + C01642[c] => C00020[c] + C00013[c] + C02412[c]
   EggNOG_annotation: peg.1903:Catalyzes the attachment of glycine to tRNA(Gly) (By
     similarity)
   KEGG_annotation: Athe_1410:K01880 glycyl-tRNA synthetase [EC:6.1.1.14] | (GenBank)
@@ -1375,11 +1389,13 @@
   pathway: Aminoacyl-tRNA biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cth,Tsac
-  translated_equation: ATP[c] + Glycine[c] + tRNA(Gly)[c] <=> AMP[c] + Diphosphate[c]
+  translated_equation: ATP[c] + Glycine[c] + tRNA(Gly)[c] => AMP[c] + Diphosphate[c]
     + Glycyl-tRNA(Gly)[c]
 - id: R03650
   name: L-Cysteine:tRNA(Cys) ligase (AMP-forming)
-  equation: C00002[c] + C00097[c] + C01639[c] <=> C00020[c] + C00013[c] + C03125[c]
+  genes: peg.2818
+  curated: true
+  equation: C00002[c] + C00097[c] + C01639[c] => C00020[c] + C00013[c] + C03125[c]
   EggNOG_annotation: peg.2818:Cysteinyl-tRNA synthetase
   KEGG_annotation: Athe_2253:K01883 cysteinyl-tRNA synthetase [EC:6.1.1.16] | (GenBank)
     cysteinyl-tRNA synthetase
@@ -1399,11 +1415,13 @@
   pathway: Aminoacyl-tRNA biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: ATP[c] + L-Cysteine[c] + tRNA(Cys)[c] <=> AMP[c] + Diphosphate[c]
+  translated_equation: ATP[c] + L-Cysteine[c] + tRNA(Cys)[c] => AMP[c] + Diphosphate[c]
     + L-Cysteinyl-tRNA(Cys)[c]
 - id: R03661
   name: L-proline:tRNA(Pro) ligase (AMP-forming)
-  equation: C00002[c] + C00148[c] + C01649[c] <=> C00020[c] + C00013[c] + C02702[c]
+  genes: peg.1005
+  curated: true
+  equation: C00002[c] + C00148[c] + C01649[c] => C00020[c] + C00013[c] + C02702[c]
   EggNOG_annotation: peg.1005:Catalyzes the attachment of proline to tRNA(Pro) in
     a two-step reaction proline is first activated by ATP to form Pro- AMP and then
     transferred to the acceptor end of tRNA(Pro). As ProRS can inadvertently accommodate
@@ -1431,7 +1449,7 @@
   pathway: Aminoacyl-tRNA biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cth,Tsac
-  translated_equation: ATP[c] + L-Proline[c] + tRNA(Pro)[c] <=> AMP[c] + Diphosphate[c]
+  translated_equation: ATP[c] + L-Proline[c] + tRNA(Pro)[c] => AMP[c] + Diphosphate[c]
     + L-Prolyl-tRNA(Pro)[c]
 - id: R03652
   name: L-Glutamine:tRNA(Gln) ligase (AMP-forming)
@@ -1468,7 +1486,9 @@
     + Glutaminyl-tRNA[c]
 - id: R03656
   name: L-Isoleucine:tRNA(Ile) ligase (AMP-forming)
-  equation: C00002[c] + C00407[c] + C01644[c] <=> C00020[c] + C00013[c] + C03127[c]
+  genes: peg.1837
+  curated: true
+  equation: C00002[c] + C00407[c] + C01644[c] => C00020[c] + C00013[c] + C03127[c]
   EggNOG_annotation: peg.1837:amino acids such as valine, to avoid such errors it
     has two additional distinct tRNA(Ile)-dependent editing activities. One activity
     is designated as 'pretransfer' editing and involves the hydrolysis of activated
@@ -1492,11 +1512,13 @@
   pathway: Aminoacyl-tRNA biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: ATP[c] + L-Isoleucine[c] + tRNA(Ile)[c] <=> AMP[c] + Diphosphate[c]
+  translated_equation: ATP[c] + L-Isoleucine[c] + tRNA(Ile)[c] => AMP[c] + Diphosphate[c]
     + L-Isoleucyl-tRNA(Ile)[c]
 - id: R03658
   name: L-lysine:tRNALys ligase (AMP-forming)
-  equation: C00002[c] + C00047[c] + C01646[c] <=> C00020[c] + C00013[c] + C01931[c]
+  genes: peg.1102
+  curated: true
+  equation: C00002[c] + C00047[c] + C01646[c] => C00020[c] + C00013[c] + C01931[c]
   EggNOG_annotation: peg.1102:lysyl-tRNA synthetase;   peg.1411:Catalyzes the attachment
     of glutamate to tRNA(Glu) in a two-step reaction glutamate is first activated
     by ATP to form Glu-AMP and then transferred to the acceptor end of tRNA(Glu)
@@ -1524,11 +1546,13 @@
   pathway: Aminoacyl-tRNA biosynthesis
   source: KEGG
   tag: Cce,Tsac
-  translated_equation: ATP[c] + L-Lysine[c] + tRNA(Lys)[c] <=> AMP[c] + Diphosphate[c]
+  translated_equation: ATP[c] + L-Lysine[c] + tRNA(Lys)[c] => AMP[c] + Diphosphate[c]
     + L-Lysyl-tRNA[c]
 - id: R03038
   name: L-Alanine:tRNA(Ala) ligase (AMP-forming)
-  equation: C00002[c] + C00041[c] + C01635[c] <=> C00020[c] + C00013[c] + C00886[c]
+  genes: peg.1819
+  curated: true
+  equation: C00002[c] + C00041[c] + C01635[c] => C00020[c] + C00013[c] + C00886[c]
   EggNOG_annotation: peg.1819:Catalyzes the attachment of alanine to tRNA(Ala) in
     a two-step reaction alanine is first activated by ATP to form Ala- AMP and then
     transferred to the acceptor end of tRNA(Ala). Also edits incorrectly charged
@@ -1551,11 +1575,13 @@
   pathway: Aminoacyl-tRNA biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: ATP[c] + L-Alanine[c] + tRNA(Ala)[c] <=> AMP[c] + Diphosphate[c]
+  translated_equation: ATP[c] + L-Alanine[c] + tRNA(Ala)[c] => AMP[c] + Diphosphate[c]
     + L-Alanyl-tRNA[c]
 - id: R03665
   name: L-Valine:tRNAVal ligase (AMP-forming)
-  equation: C00002[c] + C00183[c] + C01653[c] <=> C00020[c] + C00013[c] + C02554[c]
+  genes: peg.1984
+  curated: true
+  equation: C00002[c] + C00183[c] + C01653[c] => C00020[c] + C00013[c] + C02554[c]
   EggNOG_annotation: peg.1984:amino acids such as threonine, to avoid such errors,
     it has a posttransfer editing activity that hydrolyzes mischarged Thr-tRNA(Val)
     in a tRNA-dependent manner (By similarity)
@@ -1577,7 +1603,7 @@
   pathway: Aminoacyl-tRNA biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: ATP[c] + L-Valine[c] + tRNA(Val)[c] <=> AMP[c] + Diphosphate[c]
+  translated_equation: ATP[c] + L-Valine[c] + tRNA(Val)[c] => AMP[c] + Diphosphate[c]
     + L-Valyl-tRNA(Val)[c]
 - id: R03024
   name: 4-nitrophenyl phosphate phosphohydrolase
@@ -9116,7 +9142,9 @@
     + FADH2[c]'
 - id: R00582
   name: O-phospho-L-serine phosphohydrolase
-  equation: C01005[c] + C00001[c] <=> C00065[c] + C00009[c]
+  genes: peg.354
+  curated: true
+  equation: C01005[c] + C00001[c] => C00065[c] + C00009[c]
   EggNOG_annotation: peg.122:Transcriptional regulator, LacI family;   peg.2766:Transcriptional
     regulator, LacI family;   peg.2621:Transcriptional regulator, LacI family;   peg.2884:Transcriptional
     regulator, LacI family;   peg.754:Transcriptional regulator, LacI family;   peg.354:stage
@@ -9160,79 +9188,7 @@
   pathway: Glycine, serine and threonine metabolism
   source: KEGG
   tag: KEGG_Cbes,Tsac
-  translated_equation: O-Phospho-L-serine[c] + H2O[c] <=> L-Serine[c] + Orthophosphate[c]
-- id: R00588
-  name: L-Serine:glyoxylate aminotransferase
-  genes: 2681
-  equation: C00065[c] + C00048[c] <=> C00168[c] + C00037[c]
-  curated: true
-  enzymes:
-  - 2.6.1.45
-  genes_kegg: None
-  names:
-  - L-Serine:glyoxylate aminotransferase
-  pathway: Glycine, serine and threonine metabolism
-  pathways:
-  - Glycine, serine and threonine metabolism
-  - Glyoxylate and dicarboxylate metabolism
-  - Methane metabolism
-  - Metabolic pathways
-  - Biosynthesis of secondary metabolites
-  - Microbial metabolism in diverse environments
-  - Biosynthesis of antibiotics
-  - Carbon metabolism
-  source: KEGG
-  tag: Dima's annotation table (recontructed central carbon metabolism pathways)
-  translated_eqaution: L-Serine[c] + Glyoxylate[c] <=> Hydroxypyruvate[c] + Glycine[c]
-- id: R00585
-  name: L-Serine:pyruvate aminotransferase
-  equation: C00065[c] + C00022[c] <=> C00168[c] + C00041[c]
-  EggNOG_annotation: peg.2681:Aminotransferase
-  KEGG_annotation: Athe_2126:no KO assigned | (GenBank) aminotransferase class V
-  PATRIC_annotation: Serine--glyoxylate aminotransferase (EC 2.6.1.45)
-  enzymes:
-  - 2.6.1.51
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: peg.2681
-  genes_kegg: None
-  genes_string_NCBI_id: Athe_2126
-  genes_string_PATRIC_id: peg.2681
-  names:
-  - L-Serine:pyruvate aminotransferase
-  other_pathways:
-  - Glycine, serine and threonine metabolism
-  - Metabolic pathways
-  pathway: Glycine, serine and threonine metabolism
-  source: KEGG
-  tag: Tsac
-  translated_equation: L-Serine[c] + Pyruvate[c] <=> Hydroxypyruvate[c] + L-Alanine[c]
-- id: R03815
-  name: dihydrolipoylprotein:NAD+ oxidoreductase
-  equation: C02972[c] + C00003[c] <=> C02051[c] + C00004[c] + C00080[c]
-  EggNOG_annotation: peg.1157:dihydrolipoyl dehydrogenase
-  KEGG_annotation: Athe_0703:K00382 dihydrolipoamide dehydrogenase [EC:1.8.1.4] |
-    (GenBank) dihydrolipoamide dehydrogenase
-  PATRIC_annotation: Dihydrolipoamide dehydrogenase of acetoin dehydrogenase (EC
-    1.8.1.4)
-  comment: a part step of glycine cleavage system (see R01221, R03425+R04125+R03815)
-  enzymes:
-  - 1.8.1.4
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1157
-  genes_string_NCBI_id: Athe_0703
-  genes_string_PATRIC_id: peg.1157
-  names:
-  - dihydrolipoylprotein:NAD+ oxidoreductase
-  other_pathways:
-  - Glycine, serine and threonine metabolism
-  pathway: Glycine, serine and threonine metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: Dihydrolipoylprotein[c] + NAD+[c] <=> Lipoylprotein[c] + NADH[c]
-    + H+[c]
+  translated_equation: O-Phospho-L-serine[c] + H2O[c] => L-Serine[c] + Orthophosphate[c]
 - id: R01466
   name: O-phospho-L-homoserine phosphate-lyase (adding water;L-threonine-forming)
   genes: peg.1097
@@ -9487,6 +9443,37 @@
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: 3-Phospho-D-glycerate[c] + NAD+[c] <=> 3-Phosphonooxypyruvate[c]
     + NADH[c] + H+[c]
+- id: R04173
+  name: 3-Phosphoserine:2-oxoglutarate aminotransferase
+  genes: peg.2681
+  curated: true
+  equation: C01005 + C00026 <=> C03232 + C00025
+  enzymes:
+  - 2.6.1.52
+  genes_KEGG: None
+  pathways:
+  - Glycine, serine and threonine metabolism
+  - Methane metabolism
+  - Metabolic pathways
+  - Microbial metabolism in diverse environments
+  - Biosynthesis of antibiotics
+  - Carbon metabolism
+  - Biosynthesis of amino acids
+  pathway: Glycine, serine and threonine metabolism
+  translated_equation: O-Phospho-L-serine + 2-Oxoglutarate <=> 3-Phosphonooxypyruvate + L-Glutamate
+- id: R05085
+  name: O-Phospho-4-hydroxy-L-threonine:2-oxoglutarate aminotransferase
+  genes: peg.2681
+  curated: true
+  equation: C06055 + C00026 <=> C06054 + C00025
+  enzymes:
+  - 2.6.1.52
+  genes_KEGG: None
+  pathways:
+  - Vitamin B6 metabolism
+  - Metabolic pathways
+  pathway: Vitamin B6 metabolism
+  translated_equation: O-Phospho-4-hydroxy-L-threonine + 2-Oxoglutarate <=> 2-Oxo-3-hydroxy-4-phosphobutanoate + L-Glutamate
 - id: R00945
   name: 5,10-Methylenetetrahydrofolate:glycine hydroxymethyltransferase
   genes: peg.1541
@@ -11321,117 +11308,6 @@
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: Citrate[c] <=> Isocitrate[c]
-- id: R04225
-  name: (S)-3-Methyl-2-oxopentanoate:[dihydrolipoyllysine-residue (2-methylpropanoyl)transferase]
-    lipoyllysine 2-oxidoreductase (decarboxylating, acceptor-2-methylpropanoylating)
-  equation: C00671[c] + C15972[c] <=> C15979[c] + C00011[c]
-  EggNOG_annotation: peg.1158:dehydrogenase e1 component
-  KEGG_annotation: Athe_0704:K11381 2-oxoisovalerate dehydrogenase E1 component [EC:1.2.4.4]
-    | (GenBank) Transketolase central re
-  PATRIC_annotation: Acetoin dehydrogenase E1 component alpha-subunit (EC 2.3.1.190)
-    / Acetoin dehydrogenase E1 component beta-subunit (EC 2.3.1.190)
-  comment: '3-methyl-2-oxobutanoate dehydrogenase complexes:3-methyl-2-oxobutanoate
-    dehydrogenase
-
-    a part of multi-step reaction (see R04225+R03174+R07618, possibly identical to
-    R03171)
-
-    subsequently R03174
-
-    TPP-dependent enzyme (see R07603+R07604)'
-  enzymes:
-  - 1.2.4.4
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1158
-  genes_string_NCBI_id: Athe_0704
-  genes_string_PATRIC_id: peg.1158
-  names:
-  - (S)-3-Methyl-2-oxopentanoate:[dihydrolipoyllysine-residue (2-methylpropanoyl)transferase]
-    lipoyllysine 2-oxidoreductase (decarboxylating, acceptor-2-methylpropanoylating)
-  other_pathways:
-  - Metabolic pathways
-  pathway: Metabolic pathways
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: '|(S)-3-Methyl-2-oxopentanoic acid[c]| + |Enzyme N6-(lipoyl)lysine[c]|
-    <=> |[Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] S-(2-methylbutanoyl)dihydrolipoyllysine[c]|
-    + CO2[c]'
-- id: R01701
-  name: 3-methyl-2-oxobutanoate:[dihydrolipoyllysine-residue (2-methylpropanoyl)transferase]
-    lipoyllysine 2-oxidoreductase (decarboxylating, acceptor-2-methylpropanoylating)
-  equation: C00141[c] + C15972[c] <=> C15977[c] + C00011[c]
-  EggNOG_annotation: peg.1158:dehydrogenase e1 component
-  KEGG_annotation: Athe_0704:K11381 2-oxoisovalerate dehydrogenase E1 component [EC:1.2.4.4]
-    | (GenBank) Transketolase central re
-  PATRIC_annotation: Acetoin dehydrogenase E1 component alpha-subunit (EC 2.3.1.190)
-    / Acetoin dehydrogenase E1 component beta-subunit (EC 2.3.1.190)
-  comment: '3-methyl-2-oxobutanoate dehydrogenase complexes:3-methyl-2-oxobutanoate
-    dehydrogenase
-
-    a part of multi-step reaction (see R01701+R02662+R07618, possibly identical to
-    R01210)
-
-    subsequently R02662
-
-    TPP-dependent enzyme (see R07599+R07600)'
-  enzymes:
-  - 1.2.4.4
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1158
-  genes_string_NCBI_id: Athe_0704
-  genes_string_PATRIC_id: peg.1158
-  names:
-  - 3-methyl-2-oxobutanoate:[dihydrolipoyllysine-residue (2-methylpropanoyl)transferase]
-    lipoyllysine 2-oxidoreductase (decarboxylating, acceptor-2-methylpropanoylating)
-  other_pathways:
-  - Metabolic pathways
-  pathway: Metabolic pathways
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: '|3-Methyl-2-oxobutanoic acid[c]| + |Enzyme N6-(lipoyl)lysine[c]|
-    <=> |[Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] S-(2-methylpropanoyl)dihydrolipoyllysine[c]|
-    + CO2[c]'
-- id: R01702
-  name: 4-methyl-2-oxopentanoate:[dihydrolipoyllysine-residue (2-methylpropanoyl)transferase]
-    lipoyllysine 2-oxidoreductase (decarboxylating, acceptor-2-methylpropanoylating)
-  equation: C00233[c] + C15972[c] <=> C15975[c] + C00011[c]
-  EggNOG_annotation: peg.1158:dehydrogenase e1 component
-  KEGG_annotation: Athe_0704:K11381 2-oxoisovalerate dehydrogenase E1 component [EC:1.2.4.4]
-    | (GenBank) Transketolase central re
-  PATRIC_annotation: Acetoin dehydrogenase E1 component alpha-subunit (EC 2.3.1.190)
-    / Acetoin dehydrogenase E1 component beta-subunit (EC 2.3.1.190)
-  comment: '3-methyl-2-oxobutanoate dehydrogenase complexes:3-methyl-2-oxobutanoate
-    dehydrogenase
-
-    a part of multi-step reaction (see R01702+R04097+R07618, possibly identical to
-    R01651)
-
-    subsequently R04097
-
-    TPP-dependent enzyme (see R07601+R07602)'
-  enzymes:
-  - 1.2.4.4
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1158
-  genes_string_NCBI_id: Athe_0704
-  genes_string_PATRIC_id: peg.1158
-  names:
-  - 4-methyl-2-oxopentanoate:[dihydrolipoyllysine-residue (2-methylpropanoyl)transferase]
-    lipoyllysine 2-oxidoreductase (decarboxylating, acceptor-2-methylpropanoylating)
-  other_pathways:
-  - Metabolic pathways
-  pathway: Metabolic pathways
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: 4-Methyl-2-oxopentanoate[c] + |Enzyme N6-(lipoyl)lysine[c]|
-    <=> |[Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] S-(3-methylbutanoyl)dihydrolipoyllysine[c]|
-    + CO2[c]
 - id: R07105
   name: trichloroethanol:NAD+ oxidoreductase
   equation: C06899[c] + C00004[c] + C00080[c] <=> C07490[c] + C00003[c] + C00001[c]
@@ -13586,27 +13462,6 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: Phosphoprotein[c] + H2O[c] <=> Protein[c] + Orthophosphate[c]
-- id: R02853
-  name: D-O-Phosphoserine phosphohydrolase
-  equation: C02532[c] + C00001[c] <=> C00740[c] + C00009[c]
-  EggNOG_annotation: peg.354:stage II sporulation protein E
-  KEGG_annotation: Athe_2749:K07315 phosphoserine phosphatase RsbU/P [EC:3.1.3.3]
-    | (GenBank) putative PAS/PAC sensor protein
-  PATRIC_annotation: Serine phosphatase RsbU, regulator of sigma subunit
-  enzymes:
-  - 3.1.3.3
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.354
-  genes_string_NCBI_id: Athe_2749
-  genes_string_PATRIC_id: peg.354
-  names:
-  - D-O-Phosphoserine phosphohydrolase
-  pathway: None
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: O-Phospho-D-serine[c] + H2O[c] <=> D-Serine[c] + Orthophosphate[c]
 - id: R02585
   name: Protein-tyrosine-phosphate phosphohydrolase
   equation: C01167[c] + C00001[c] <=> C00585[c] + C00009[c]
@@ -17311,7 +17166,9 @@
     + NADPH[c]
 - id: R03940
   name: 10-Formyltetrahydrofolate:L-methionyl-tRNA N-formyltransferase
-  equation: C02430[c] + C00234[c] <=> C00101[c] + C03294[c]
+  equation: C02430[c] + C00234[c] => C00101[c] + C03294[c]
+  genes: peg.1521
+  curated: true
   EggNOG_annotation: peg.1521:Modifies the free amino group of the aminoacyl moiety
     of methionyl-tRNA(fMet). The formyl group appears to play a dual role in the
     initiator identity of N-formylmethionyl-tRNA by (I) promoting its recognition
@@ -17331,10 +17188,10 @@
   other_pathways:
   - One carbon pool by folate
   - Aminoacyl-tRNA biosynthesis
-  pathway: One carbon pool by folate
+  pathway: Aminoacyl-tRNA biosynthesis
   source: KEGG
   tag: Cth,Tsac
-  translated_equation: L-Methionyl-tRNA[c] + 10-Formyltetrahydrofolate[c] <=> Tetrahydrofolate[c]
+  translated_equation: L-Methionyl-tRNA[c] + 10-Formyltetrahydrofolate[c] => Tetrahydrofolate[c]
     + N-Formylmethionyl-tRNA[c]
 - id: R04326
   equation: C03838[c] + C00445[c] + C00001[c] => C04376[c] + C00101[c]
@@ -19668,7 +19525,9 @@
     + tRNA(Glu)[c] + NADP+[c]
 - id: R05578
   name: L-glutamate:tRNA(Glu) ligase (AMP-forming)
-  equation: C01641[c] + C00025[c] + C00002[c] <=> C02987[c] + C00013[c] + C00020[c]
+  genes: peg.1411 or peg.2820
+  curated: true
+  equation: C01641[c] + C00025[c] + C00002[c] => C02987[c] + C00013[c] + C00020[c]
   EggNOG_annotation: peg.1411:Catalyzes the attachment of glutamate to tRNA(Glu)
     in a two-step reaction glutamate is first activated by ATP to form Glu-AMP and
     then transferred to the acceptor end of tRNA(Glu) (By similarity);   peg.2820:Catalyzes
@@ -19698,10 +19557,10 @@
   - Metabolic pathways
   - Biosynthesis of secondary metabolites
   - Microbial metabolism in diverse environments
-  pathway: Porphyrin and chlorophyll metabolism
+  pathway: Aminoacyl-tRNA biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth
-  translated_equation: tRNA(Glu)[c] + L-Glutamate[c] + ATP[c] <=> L-Glutamyl-tRNA(Glu)[c]
+  translated_equation: tRNA(Glu)[c] + L-Glutamate[c] + ATP[c] => L-Glutamyl-tRNA(Glu)[c]
     + Diphosphate[c] + AMP[c]
 - id: R04594
   equation: C04778[c] + C00001[c] <=> C05775[c] + C00009[c]
@@ -20114,55 +19973,6 @@
   tag: KEGG_Cbes
   translated_equation: (2) |Oxidized ferredoxin[c]| + 2-Oxobutanoate[c] + CoA[c]
     <=> (2) |Reduced ferredoxin[c]| + Propanoyl-CoA[c] + CO2[c] + (2) H+[c]
-- id: R10996
-  equation: C00109[c] + C00068[c] <=> C21017[c] + C00011[c]
-  EggNOG_annotation: peg.1158:dehydrogenase e1 component
-  KEGG_annotation: Athe_0704:K11381 2-oxoisovalerate dehydrogenase E1 component [EC:1.2.4.4]
-    | (GenBank) Transketolase central re
-  PATRIC_annotation: Acetoin dehydrogenase E1 component alpha-subunit (EC 2.3.1.190)
-    / Acetoin dehydrogenase E1 component beta-subunit (EC 2.3.1.190)
-  comment: Oxo-acid dehydrogenase complexes, subsequently R10997
-  enzymes:
-  - 1.2.4.4
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1158
-  genes_string_NCBI_id: Athe_0704
-  genes_string_PATRIC_id: peg.1158
-  names: []
-  other_pathways:
-  - Propanoate metabolism
-  pathway: Propanoate metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: 2-Oxobutanoate[c] + |Thiamin diphosphate[c]| <=> |2-(alpha-Hydroxypropyl)thiamine
-    diphosphate[c]| + CO2[c]
-- id: R10997
-  equation: C21017[c] + C15972[c] <=> C21018[c] + C00068[c]
-  EggNOG_annotation: peg.1158:dehydrogenase e1 component
-  KEGG_annotation: Athe_0704:K11381 2-oxoisovalerate dehydrogenase E1 component [EC:1.2.4.4]
-    | (GenBank) Transketolase central re
-  PATRIC_annotation: Acetoin dehydrogenase E1 component alpha-subunit (EC 2.3.1.190)
-    / Acetoin dehydrogenase E1 component beta-subunit (EC 2.3.1.190)
-  comment: Oxo-acid dehydrogenase complexes, following after R10996
-  enzymes:
-  - 1.2.4.4
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1158
-  genes_string_NCBI_id: Athe_0704
-  genes_string_PATRIC_id: peg.1158
-  names: []
-  other_pathways:
-  - Propanoate metabolism
-  pathway: Propanoate metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: '|2-(alpha-Hydroxypropyl)thiamine diphosphate[c]| + |Enzyme
-    N6-(lipoyl)lysine[c]| <=> |Enzyme N6-(S-propyldihydrolipoyl)lysine[c]| + |Thiamin
-    diphosphate[c]|'
 - id: NTP2
   name: nucleoside-triphosphatase(dATP)
   equation: h2o[c] + datp[c] => pi[c] + h[c] + dadp[c]
@@ -23817,32 +23627,6 @@
   tag: KEGG_Cbes
   translated_equation: Selenohomocysteine[c] + 5-Methyltetrahydropteroyltri-L-glutamate[c]
     <=> L-Selenomethionine[c] + Tetrahydropteroyltri-L-glutamate[c]
-- id: R04773
-  name: Selenomethionine:tRNAMet ligase (AMP-forming)
-  equation: C00002[c] + C05335[c] + C01647[c] <=> C00020[c] + C00013[c] + C05336[c]
-  EggNOG_annotation: peg.718:Is required not only for elongation of protein synthesis
-    but also for the initiation of all mRNA translation through initiator tRNA(fMet)
-    aminoacylation (By similarity)
-  KEGG_annotation: Athe_0307:K01874 methionyl-tRNA synthetase [EC:6.1.1.10] | (GenBank)
-    methionyl-tRNA synthetase
-  PATRIC_annotation: Methionyl-tRNA synthetase (EC 6.1.1.10)
-  enzymes:
-  - 6.1.1.10
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.718
-  genes_string_NCBI_id: Athe_0307
-  genes_string_PATRIC_id: peg.718
-  names:
-  - Selenomethionine:tRNAMet ligase (AMP-forming)
-  other_pathways:
-  - Selenocompound metabolism
-  pathway: Selenocompound metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: ATP[c] + L-Selenomethionine[c] + tRNA(Met)[c] <=> AMP[c] +
-    Diphosphate[c] + Selenomethionyl-tRNA(Met)[c]
 - id: R04019
   name: Digalactosylceramide galactohydrolase
   equation: C06126[c] + C00001[c] <=> C02686[c] + C00124[c]
@@ -26986,6 +26770,125 @@
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: (S)-2-Acetolactate[c] + NADPH[c] + H+[c] => (R)-2,3-Dihydroxy-3-methylbutanoate[c]
     + NADP+[c]
+- id: R05071
+  name: (S)-2-Acetolactate methylmutase
+  genes: peg.935
+  curated: true
+  equation: C06010[c] <=> C04181[c]
+  EggNOG_annotation: peg.935:Alpha-keto-beta-hydroxylacyl reductoisomerase
+  KEGG_annotation: Athe_0504:K00053 ketol-acid reductoisomerase [EC:1.1.1.86] | (GenBank)
+    ketol-acid reductoisomerase
+  PATRIC_annotation: Ketol-acid reductoisomerase (NAD(P)(+)) (EC 1.1.1.383)
+  enzymes:
+  - 1.1.1.86
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.935
+  genes_string_NCBI_id: Athe_0504
+  genes_string_PATRIC_id: peg.935
+  names:
+  - (S)-2-Acetolactate methylmutase
+  other_pathways:
+  - Valine, leucine and isoleucine biosynthesis
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Biosynthesis of antibiotics
+  - 2-Oxocarboxylic acid metabolism
+  - Biosynthesis of amino acids
+  pathway: Valine, leucine and isoleucine biosynthesis
+  source: KEGG_Cbes
+  translated_equation: (S)-2-Acetolactate[c] <=> |3-Hydroxy-3-methyl-2-oxobutanoic
+    acid[c]|
+- id: R04440
+  name: (R)-2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)
+  genes: peg.935
+  curated: true
+  equation: C04272[c] + C00006[c] <=> C04181[c] + C00005[c] + C00080[c]
+  EggNOG_annotation: peg.935:Alpha-keto-beta-hydroxylacyl reductoisomerase
+  KEGG_annotation: Athe_0504:K00053 ketol-acid reductoisomerase [EC:1.1.1.86] | (GenBank)
+    ketol-acid reductoisomerase
+  PATRIC_annotation: Ketol-acid reductoisomerase (NAD(P)(+)) (EC 1.1.1.383)
+  enzymes:
+  - 1.1.1.86
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.935
+  genes_string_NCBI_id: Athe_0504
+  genes_string_PATRIC_id: peg.935
+  names:
+  - (R)-2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)
+  other_pathways:
+  - Valine, leucine and isoleucine biosynthesis
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Biosynthesis of antibiotics
+  - 2-Oxocarboxylic acid metabolism
+  - Biosynthesis of amino acids
+  pathway: Valine, leucine and isoleucine biosynthesis
+  source: KEGG_Cbes
+  translated_equation: (R)-2,3-Dihydroxy-3-methylbutanoate[c] + NADP+[c] <=> |3-Hydroxy-3-methyl-2-oxobutanoic
+    acid[c]| + NADPH[c] + H+[c]
+- id: R05069
+  name: (S)-2-Aceto-2-hydroxybutanoate:NADP+ oxidoreductase (isomerizing)
+  genes: peg.936
+  curated: true
+  equation: C06006[c] <=> C14463[c]
+  EggNOG_annotation: peg.935:Alpha-keto-beta-hydroxylacyl reductoisomerase
+  KEGG_annotation: Athe_0504:K00053 ketol-acid reductoisomerase [EC:1.1.1.86] | (GenBank)
+    ketol-acid reductoisomerase
+  PATRIC_annotation: Ketol-acid reductoisomerase (NAD(P)(+)) (EC 1.1.1.383)
+  enzymes:
+  - 1.1.1.86
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.935
+  genes_string_NCBI_id: Athe_0504
+  genes_string_PATRIC_id: peg.935
+  names:
+  - (S)-2-Aceto-2-hydroxybutanoate:NADP+ oxidoreductase (isomerizing)
+  other_pathways:
+  - Valine, leucine and isoleucine biosynthesis
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Biosynthesis of antibiotics
+  - 2-Oxocarboxylic acid metabolism
+  - Biosynthesis of amino acids
+  pathway: Valine, leucine and isoleucine biosynthesis
+  source: KEGG_Cbes
+  translated_equation: (S)-2-Aceto-2-hydroxybutanoate[c] <=> (R)-3-Hydroxy-3-methyl-2-oxopentanoate[c]
+- id: R05068
+  name: (R)-2,3-Dihydroxy-3-methylpentanoate:NADP+ oxidoreductase (isomerizing)
+  genes: peg.935
+  curated: true
+  equation: C06007[c] + C00006[c] <=> C14463[c] + C00005[c] + C00080[c]
+  EggNOG_annotation: peg.935:Alpha-keto-beta-hydroxylacyl reductoisomerase
+  KEGG_annotation: Athe_0504:K00053 ketol-acid reductoisomerase [EC:1.1.1.86] | (GenBank)
+    ketol-acid reductoisomerase
+  PATRIC_annotation: Ketol-acid reductoisomerase (NAD(P)(+)) (EC 1.1.1.383)
+  enzymes:
+  - 1.1.1.86
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.935
+  genes_string_NCBI_id: Athe_0504
+  genes_string_PATRIC_id: peg.935
+  names:
+  - (R)-2,3-Dihydroxy-3-methylpentanoate:NADP+ oxidoreductase (isomerizing)
+  other_pathways:
+  - Valine, leucine and isoleucine biosynthesis
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Biosynthesis of antibiotics
+  - 2-Oxocarboxylic acid metabolism
+  - Biosynthesis of amino acids
+  pathway: Valine, leucine and isoleucine biosynthesis
+  source: KEGG_Cbes
+  translated_equation: (R)-2,3-Dihydroxy-3-methylpentanoate[c] + NADP+[c] <=> (R)-3-Hydroxy-3-methyl-2-oxopentanoate[c]
+    + NADPH[c] + H+[c]
 - id: R04426
   name: (2R,3S)-3-isopropylmalate:NAD+ oxidoreductase
   genes: peg.2650
@@ -27331,7 +27234,7 @@
 - id: R02199
   name: L-Isoleucine:2-oxoglutarate aminotransferase
   genes: peg.1109
-  equation: C00671[c] + C00025[c] => C00407[c] + C00026[c]
+  equation: C00671[c] + C00025[c] <=> C00407[c] + C00026[c]
   EggNOG_annotation: peg.1109:Branched-chain amino acid aminotransferase;   peg.2778:Aminotransferase
     class IV
   KEGG_annotation: Athe_2216:no KO assigned | (GenBank) aminotransferase class IV;   Athe_0664:K00826
@@ -27359,10 +27262,12 @@
   - Biosynthesis of antibiotics
   - 2-Oxocarboxylic acid metabolism
   - Biosynthesis of amino acids
-  pathway: Valine, leucine and isoleucine biosynthesis
+  pathway: 
+  - Valine, leucine and isoleucine degradation
+  - Valine, leucine and isoleucine biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce,Tsac
-  translated_equation: S-3-Methyl-2-oxopentanoic acid[c] + L-Glutamate[c] => L-Isoleucine[c]
+  translated_equation: S-3-Methyl-2-oxopentanoic acid[c] + L-Glutamate[c] <=> L-Isoleucine[c]
     + 2-Oxoglutarate[c]
 - id: R01090
   name: L-Leucine:2-oxoglutarate aminotransferase
@@ -27518,7 +27423,9 @@
   tag: Tsac
   translated_equation: (R)-Methylmalonyl-CoA[c] <=> (S)-Methylmalonyl-CoA[c]
 - id: R07600
-  equation: C15976[c] + C15972[c] <=> C15977[c] + C00068[c]
+  equation: C15976[c] + C15972[c] => C15977[c] + C00068[c]
+  genes: peg.1158
+  curated: true
   EggNOG_annotation: peg.1158:dehydrogenase e1 component
   KEGG_annotation: Athe_0704:K11381 2-oxoisovalerate dehydrogenase E1 component [EC:1.2.4.4]
     | (GenBank) Transketolase central re
@@ -27541,10 +27448,12 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: 2-Methyl-1-hydroxypropyl-ThPP[c] + |Enzyme N6-(lipoyl)lysine[c]|
-    <=> |[Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] S-(2-methylpropanoyl)dihydrolipoyllysine[c]|
+    => |[Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] S-(2-methylpropanoyl)dihydrolipoyllysine[c]|
     + |Thiamin diphosphate[c]|
 - id: R07599
-  equation: C00141[c] + C00068[c] <=> C15976[c] + C00011[c]
+  equation: C00141[c] + C00068[c] => C15976[c] + C00011[c]
+  genes: peg.1158
+  curated: true
   EggNOG_annotation: peg.1158:dehydrogenase e1 component
   KEGG_annotation: Athe_0704:K11381 2-oxoisovalerate dehydrogenase E1 component [EC:1.2.4.4]
     | (GenBank) Transketolase central re
@@ -27567,9 +27476,11 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: '|3-Methyl-2-oxobutanoic acid[c]| + |Thiamin diphosphate[c]|
-    <=> 2-Methyl-1-hydroxypropyl-ThPP[c] + CO2[c]'
+    => 2-Methyl-1-hydroxypropyl-ThPP[c] + CO2[c]'
 - id: R07602
-  equation: C15974[c] + C15972[c] <=> C15975[c] + C00068[c]
+  equation: C15974[c] + C15972[c] => C15975[c] + C00068[c]
+  genes: peg.1158
+  curated: true
   EggNOG_annotation: peg.1158:dehydrogenase e1 component
   KEGG_annotation: Athe_0704:K11381 2-oxoisovalerate dehydrogenase E1 component [EC:1.2.4.4]
     | (GenBank) Transketolase central re
@@ -27592,10 +27503,12 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: 3-Methyl-1-hydroxybutyl-ThPP[c] + |Enzyme N6-(lipoyl)lysine[c]|
-    <=> |[Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] S-(3-methylbutanoyl)dihydrolipoyllysine[c]|
+    => |[Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] S-(3-methylbutanoyl)dihydrolipoyllysine[c]|
     + |Thiamin diphosphate[c]|
 - id: R07601
-  equation: C00233[c] + C00068[c] <=> C15974[c] + C00011[c]
+  equation: C00233[c] + C00068[c] => C15974[c] + C00011[c]
+  genes:peg.1158
+  curated: true
   EggNOG_annotation: peg.1158:dehydrogenase e1 component
   KEGG_annotation: Athe_0704:K11381 2-oxoisovalerate dehydrogenase E1 component [EC:1.2.4.4]
     | (GenBank) Transketolase central re
@@ -27617,10 +27530,12 @@
   pathway: Valine, leucine and isoleucine degradation
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: 4-Methyl-2-oxopentanoate[c] + |Thiamin diphosphate[c]| <=>
+  translated_equation: 4-Methyl-2-oxopentanoate[c] + |Thiamin diphosphate[c]| =>
     3-Methyl-1-hydroxybutyl-ThPP[c] + CO2[c]
 - id: R07604
-  equation: C15978[c] + C15972[c] <=> C15979[c] + C00068[c]
+  equation: C15978[c] + C15972[c] => C15979[c] + C00068[c]
+  genes: peg.1158
+  curated: true
   EggNOG_annotation: peg.1158:dehydrogenase e1 component
   KEGG_annotation: Athe_0704:K11381 2-oxoisovalerate dehydrogenase E1 component [EC:1.2.4.4]
     | (GenBank) Transketolase central re
@@ -27645,10 +27560,12 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: 2-Methyl-1-hydroxybutyl-ThPP[c] + |Enzyme N6-(lipoyl)lysine[c]|
-    <=> |[Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] S-(2-methylbutanoyl)dihydrolipoyllysine[c]|
+    => |[Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] S-(2-methylbutanoyl)dihydrolipoyllysine[c]|
     + |Thiamin diphosphate[c]|
 - id: R07603
-  equation: C00671[c] + C00068[c] <=> C15978[c] + C00011[c]
+  equation: C00671[c] + C00068[c] => C15978[c] + C00011[c]
+  genes: peg.1158
+  curated: true
   EggNOG_annotation: peg.1158:dehydrogenase e1 component
   KEGG_annotation: Athe_0704:K11381 2-oxoisovalerate dehydrogenase E1 component [EC:1.2.4.4]
     | (GenBank) Transketolase central re
@@ -27673,7 +27590,7 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: '|(S)-3-Methyl-2-oxopentanoic acid[c]| + |Thiamin diphosphate[c]|
-    <=> 2-Methyl-1-hydroxybutyl-ThPP[c] + CO2[c]'
+    => 2-Methyl-1-hydroxybutyl-ThPP[c] + CO2[c]'
 - id: R05086
   name: O-Phospho-4-hydroxy-L-threonine phospho-lyase (adding water)
   equation: C06055[c] + C00001[c] <=> C06056[c] + C00009[c]
@@ -27853,3 +27770,37 @@
   source: manual curation
   translated_equation: NADH[c] + (2) NADP+[c] + (2) Fdred[c] => NAD+[c] + (2) NADPH[c] + (2) Fdox[c]
 #   note: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5582851/ (2017) “Two functionally distinct bifurcating NADP-dependent ferredoxin oxidoreductases maintain the primary redox balance of Pyrococcus furiosus” J. Biol. Chem. 292, 14603-14616 
+- id: R07618
+  name: enzyme N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase
+  genes: peg.1157
+  curated: true
+  equation: C15973[c] + C00003[c] => C15972[c] + C00004[c] + C00080[c]
+  EggNOG_annotation: peg.1157:dihydrolipoyl dehydrogenase
+  KEGG_annotation: Athe_0703:K00382 dihydrolipoamide dehydrogenase [EC:1.8.1.4] |
+    (GenBank) dihydrolipoamide dehydrogenase
+  PATRIC_annotation: Dihydrolipoamide dehydrogenase of acetoin dehydrogenase (EC
+    1.8.1.4)
+  comment: Oxo-acid dehydrogenase complexes, dihydrolipoyl dehydrogenase
+  enzymes:
+  - 1.8.1.4
+  genes_Cce: None
+  genes_Cth: None
+  genes_NCBI_id: Athe_0703
+  genes_Tsac: None
+  genes_kegg: peg.1157
+  names:
+  - enzyme N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase
+  other_pathways:
+  - Glycolysis / Gluconeogenesis
+  - Citrate cycle (TCA cycle)
+  - Valine, leucine and isoleucine degradation
+  - Pyruvate metabolism
+  - Propanoate metabolism
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Microbial metabolism in diverse environments
+  - Biosynthesis of antibiotics
+  pathway: Glycolysis / Gluconeogenesis
+  source: KEGG_Cbes
+  translated_equation: '|Enzyme N6-(dihydrolipoyl)lysine[c]| + NAD+[c] => |Enzyme
+    N6-(lipoyl)lysine[c]| + NADH[c] + H+[c]'
