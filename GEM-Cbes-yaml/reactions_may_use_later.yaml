@@ -1209,30 +1209,7 @@
     + L-Methionine[c]
 
 # Folate Biosynthesis
-- id: R00424
-  name: GTP 7,8-8,9-dihydrolase
-  equation: C00044[c] + C00001[c] <=> C04895[c] + C00058[c]
-  EggNOG_annotation: peg.861:Converts GTP to 7,8-dihydroneopterin triphosphate (By
-    similarity)
-  KEGG_annotation: Athe_0441:K09007 GTP cyclohydrolase IB [EC:3.5.4.16] | (GenBank)
-    protein of unknown function DUF198
-  PATRIC_annotation: GTP cyclohydrolase I (EC 3.5.4.16) type 2
-  comment: four-step reaction (see R00428+R05046+R05048+R04639)
-  enzymes:
-  - 3.5.4.16
-  genes_Cce: '-'
-  genes_Cth: '-'
-  genes_Tsac: '-'
-  genes_kegg: peg.861
-  genes_string_NCBI_id: Athe_0441
-  genes_string_PATRIC_id: peg.861
-  names:
-  - GTP 7,8-8,9-dihydrolase
-  pathway: None
-  source: KEGG_Cbes
-  translated_equation: GTP[c] + H2O[c] <=> |7,8-Dihydroneopterin 3'-triphosphate[c]|
-    + Formate[c]
-  note: 4 seperated steps are list in YAML, remove this overall reaction here.
+
 
 # Pantothenate and CoA Biosynthesis
 - id: R01216
@@ -1405,33 +1382,6 @@
   note: R00985 or R00986 or keep both? now I keep R00986 because the EggNOG annottaion says "Glutamine amidotransferase"
 
 # Queuosine Biosynthesis
-- id: R10209
-  name: tRNA-guanosine34:7-aminomethyl-7-carbaguanine tRNA-D-ribosyltransferase
-  equation: C01977[c] + C16675[c] <=> C20446[c] + C00242[c]
-  EggNOG_annotation: peg.797:Exchanges the guanine residue with 7-aminomethyl-7-
-    deazaguanine in tRNAs with GU(N) anticodons (tRNA-Asp, -Asn, -His and -Tyr).
-    After this exchange, a cyclopentendiol moiety is attached to the 7-aminomethyl
-    group of 7-deazaguanine, resulting in the hypermodified nucleoside queuosine
-    (Q) (7-(((4,5-cis- dihydroxy-2-cyclopenten-1-yl)amino)methyl)-7-deazaguanosine)
-    (By similarity)
-  KEGG_annotation: Athe_0382:K00773 queuine tRNA-ribosyltransferase [EC:2.4.2.29]
-    | (GenBank) queuine tRNA-ribosyltransferase
-  PATRIC_annotation: Queuine tRNA-ribosyltransferase (EC 2.4.2.29)
-  enzymes:
-  - 2.4.2.29
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.797
-  genes_string_NCBI_id: Athe_0382
-  genes_string_PATRIC_id: peg.797
-  names:
-  - tRNA-guanosine34:7-aminomethyl-7-carbaguanine tRNA-D-ribosyltransferase
-  pathway: None
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: '|tRNA guanine[c]| + 7-Aminomethyl-7-carbaguanine[c] <=> |tRNA
-    7-aminomethyl-7-carbaguanine[c]| + Guanine[c]'
 - id: R10088
   name: D-ribose 5-phosphate,D-glyceraldehyde 3-phosphate pyridoxal 5'-phosphate-lyase
   equation: C00117[c] + C00118[c] + C00014[c] <=> C00018[c] + (4) C00001[c] + C00009[c]
@@ -3114,6 +3064,35 @@
     diphosphate[c]|'
 
 # Aminoacyl-tRNA biosynthesis
+- id: R08218
+  name: L-serine:tRNASec ligase (AMP-forming)
+  genes: peg.1335
+  curated: true
+  equation: C00002[c] + C00065[c] + C16636[c] => C00020[c] + C00013[c] + C06481[c]
+  EggNOG_annotation: peg.1335:Catalyzes the attachment of serine to tRNA(Ser). Is
+    also able to aminoacylate tRNA(Sec) with serine, to form the misacylated tRNA
+    L-seryl-tRNA(Sec), which will be further converted into selenocysteinyl-tRNA(Sec)
+    (By similarity)
+  KEGG_annotation: Athe_0872:K01875 seryl-tRNA synthetase [EC:6.1.1.11] | (GenBank)
+    seryl-tRNA synthetase
+  PATRIC_annotation: Seryl-tRNA synthetase (EC 6.1.1.11)
+  enzymes:
+  - 6.1.1.11
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1335
+  genes_string_NCBI_id: Athe_0872
+  genes_string_PATRIC_id: peg.1335
+  names:
+  - L-serine:tRNASec ligase (AMP-forming)
+  other_pathways:
+  - Aminoacyl-tRNA biosynthesis
+  pathway: Aminoacyl-tRNA biosynthesis
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: ATP[c] + L-Serine[c] + tRNA(Sec)[c] => AMP[c] + Diphosphate[c]
+    + L-Seryl-tRNA(Sec)[c]
 - id: R04773
   name: Selenomethionine:tRNAMet ligase (AMP-forming)
   equation: C00002[c] + C05335[c] + C01647[c] <=> C00020[c] + C00013[c] + C05336[c]
@@ -3140,3 +3119,234 @@
   tag: KEGG_Cbes
   translated_equation: ATP[c] + L-Selenomethionine[c] + tRNA(Met)[c] <=> AMP[c] +
     Diphosphate[c] + Selenomethionyl-tRNA(Met)[c]
+
+# Porphyrin and chlorophyll metabolism
+- id: R07238
+  name: S-adenosyl-L-methionine:precorrin-1 C-methyltransferase
+  equation: C00019[c] + C15527[c] <=> C00021[c] + C02463[c]
+  EggNOG_annotation: peg.1685:C-methyltransferase
+  KEGG_annotation: Athe_1199:K13542 uroporphyrinogen III methyltransferase / synthase
+    [EC:2.1.1.107 4.2.1.75] | (GenBank) uroporp
+  PATRIC_annotation: Uroporphyrinogen-III methyltransferase (EC 2.1.1.107) / Uroporphyrinogen-III
+    synthase (EC 4.2.1.75)
+  comment: second step of two-step reaction (R03194, R07237+R07238), following after
+    R07237
+  enzymes:
+  - 2.1.1.107
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1685
+  genes_string_NCBI_id: Athe_1199
+  genes_string_PATRIC_id: peg.1685
+  names:
+  - S-adenosyl-L-methionine:precorrin-1 C-methyltransferase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: S-Adenosyl-L-methionine[c] + |Precorrin 1[c]| <=> S-Adenosyl-L-homocysteine[c]
+    + |Precorrin 2[c]|
+- id: R03950
+  name: S-Adenosyl-L-methionine:uroporphyrin-III C-methyltransferase
+  equation: (2) C00019[c] + C02469[c] <=> (2) C00021[c] + C05778[c]
+  EggNOG_annotation: peg.1685:C-methyltransferase
+  KEGG_annotation: Athe_1199:K13542 uroporphyrinogen III methyltransferase / synthase
+    [EC:2.1.1.107 4.2.1.75] | (GenBank) uroporp
+  PATRIC_annotation: Uroporphyrinogen-III methyltransferase (EC 2.1.1.107) / Uroporphyrinogen-III
+    synthase (EC 4.2.1.75)
+  comment: incomplete reaction, possibly incorrect (see R03194)
+  enzymes:
+  - 2.1.1.107
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1685
+  genes_string_NCBI_id: Athe_1199
+  genes_string_PATRIC_id: peg.1685
+  names:
+  - S-Adenosyl-L-methionine:uroporphyrin-III C-methyltransferase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: (2) S-Adenosyl-L-methionine[c] + |Uroporphyrin III[c]| <=>
+    (2) S-Adenosyl-L-homocysteine[c] + Sirohydrochlorin[c]
+- id: R07237
+  name: S-adenosyl-L-methionine:uroporphyrinogen-III C-methyltransferase
+  equation: C00019[c] + C01051[c] <=> C00021[c] + C15527[c]
+  EggNOG_annotation: peg.1685:C-methyltransferase
+  KEGG_annotation: Athe_1199:K13542 uroporphyrinogen III methyltransferase / synthase
+    [EC:2.1.1.107 4.2.1.75] | (GenBank) uroporp
+  PATRIC_annotation: Uroporphyrinogen-III methyltransferase (EC 2.1.1.107) / Uroporphyrinogen-III
+    synthase (EC 4.2.1.75)
+  comment: first step of two-step reaction (R03194, R07237+R07238), subsequently
+    R07238
+  enzymes:
+  - 2.1.1.107
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1685
+  genes_string_NCBI_id: Athe_1199
+  genes_string_PATRIC_id: peg.1685
+  names:
+  - S-adenosyl-L-methionine:uroporphyrinogen-III C-methyltransferase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: S-Adenosyl-L-methionine[c] + |Uroporphyrinogen III[c]| <=>
+    S-Adenosyl-L-homocysteine[c] + |Precorrin 1[c]|
+
+# Queuosine biosynthesis
+- id: R05046
+  name: formamidopyrimidine nucleoside triphosphate amidohydrolase
+  genes: peg.861
+  equation: C05922[c] + C00001[c] => C05923[c] + C00058[c]
+  EggNOG_annotation: peg.861:Converts GTP to 7,8-dihydroneopterin triphosphate (By
+    similarity)
+  KEGG_annotation: Athe_0441:K09007 GTP cyclohydrolase IB [EC:3.5.4.16] | (GenBank)
+    protein of unknown function DUF198
+  PATRIC_annotation: GTP cyclohydrolase I (EC 3.5.4.16) type 2
+  comment: 'the second step of four-step reaction (see R00424, R00428+R05046+R05048+R04639)
+
+    following after R00428
+
+    subsequently R05048'
+  curated: true
+  enzymes:
+  - 3.5.4.16
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.861
+  genes_string_NCBI_id: Athe_0441
+  genes_string_PATRIC_id: peg.861
+  names:
+  - formamidopyrimidine nucleoside triphosphate amidohydrolase
+  other_pathways:
+  - Folate biosynthesis
+  - Metabolic pathways
+  pathway: Folate biosynthesis
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|Formamidopyrimidine nucleoside triphosphate[c]| + H2O[c]
+    => |2,5-Diaminopyrimidine nucleoside triphosphate[c]| + Formate[c]'
+- id: R05048
+  name: 2,5-diaminopyrimidine nucleoside triphosphate mutase
+  genes: peg.861
+  equation: C05923[c] => C06148[c]
+  EggNOG_annotation: peg.861:Converts GTP to 7,8-dihydroneopterin triphosphate (By
+    similarity)
+  KEGG_annotation: Athe_0441:K09007 GTP cyclohydrolase IB [EC:3.5.4.16] | (GenBank)
+    protein of unknown function DUF198
+  PATRIC_annotation: GTP cyclohydrolase I (EC 3.5.4.16) type 2
+  comment: 'the third step of four-step reaction (see R00424, R00428+R05046+R05048+R04639)
+
+    maybe spontaneous (Amadori rearrangement)
+
+    following after R05046
+
+    subsequently R04639'
+  curated: true
+  enzymes:
+  - 3.5.4.16
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.861
+  genes_string_NCBI_id: Athe_0441
+  genes_string_PATRIC_id: peg.861
+  names:
+  - 2,5-diaminopyrimidine nucleoside triphosphate mutase
+  other_pathways:
+  - Folate biosynthesis
+  - Metabolic pathways
+  pathway: Folate biosynthesis
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|2,5-Diaminopyrimidine nucleoside triphosphate[c]| => 2,5-Diamino-6-(5''-triphosphoryl-3'',4''-trihydroxy-2''-oxopentyl)-amino-4-oxopyrimidine[c]'
+- id: R00428
+  name: GTP 8,9-hydrolase
+  genes: peg.861
+  equation: C00044[c] + C00001[c] => C05922[c]
+  EggNOG_annotation: peg.861:Converts GTP to 7,8-dihydroneopterin triphosphate (By
+    similarity)
+  KEGG_annotation: Athe_0441:K09007 GTP cyclohydrolase IB [EC:3.5.4.16] | (GenBank)
+    protein of unknown function DUF198
+  PATRIC_annotation: GTP cyclohydrolase I (EC 3.5.4.16) type 2
+  comment: 'the first step of four-step reaction (see R00424, R00428+R05046+R05048+R04639)
+
+    subsequently R05046'
+  curated: true
+  enzymes:
+  - 3.5.4.16
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.861
+  genes_string_NCBI_id: Athe_0441
+  genes_string_PATRIC_id: peg.861
+  names:
+  - GTP 8,9-hydrolase
+  other_pathways:
+  - Folate biosynthesis
+  - Metabolic pathways
+  pathway: Folate biosynthesis
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: GTP[c] + H2O[c] => |Formamidopyrimidine nucleoside triphosphate[c]|
+- id: R04639
+  name: 2-amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl) dihydropteridine triphosphate
+    hydrolase
+  genes: peg.861
+  equation: C06148[c] => C04895[c] + C00001[c]
+  EggNOG_annotation: peg.861:Converts GTP to 7,8-dihydroneopterin triphosphate (By
+    similarity)
+  KEGG_annotation: Athe_0441:K09007 GTP cyclohydrolase IB [EC:3.5.4.16] | (GenBank)
+    protein of unknown function DUF198
+  PATRIC_annotation: GTP cyclohydrolase I (EC 3.5.4.16) type 2
+  comment: 'the last step of four-step reaction (see R00424, R00428+R05046+R05048+R04639)
+
+    possibly spontaneous
+
+    following after R05048'
+  curated: true
+  enzymes:
+  - 3.5.4.16
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.861
+  genes_string_NCBI_id: Athe_0441
+  genes_string_PATRIC_id: peg.861
+  names:
+  - 2-amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl) dihydropteridine triphosphate
+    hydrolase
+  other_pathways:
+  - Folate biosynthesis
+  - Metabolic pathways
+  pathway: Folate biosynthesis
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: 2,5-Diamino-6-(5'-triphosphoryl-3',4'-trihydroxy-2'-oxopentyl)-amino-4-oxopyrimidine[c]
+    => |7,8-Dihydroneopterin 3'-triphosphate[c]| + H2O[c]
+- id: ADK2
+  name: adenylate kinase (Inorganic triphosphate)
+  equation: amp[c] + pppi[c] <=> adp[c] + ppi[c]
+  subsystem: Nucleotide Metabolism
+  ec: 2.7.4.3
+  EggNOG_annotation: peg.2234:Catalyzes the reversible transfer of the terminal phosphate
+    group between ATP and AMP. Plays an important role in cellular energy homeostasis
+    and in adenine nucleotide metabolism (By similarity)
+  KEGG_annotation: Athe_1725:K00939 adenylate kinase [EC:2.7.4.3] | (GenBank) adenylate
+    kinase
+  PATRIC_annotation: Adenylate kinase (EC 2.7.4.3)
+  genes_Cce: peg.2234
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1725
+  genes_string_PATRIC_id: peg.2234
+  pathway: Nucleotide Metabolism
+  source: Cce model
+  tag: Cce
+  translated_equation: AMP[c] + |Inorganic triphosphate[c]| <=> ADP[c] + Diphosphate[c]
