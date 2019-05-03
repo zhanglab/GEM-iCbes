@@ -1,6 +1,7 @@
 name: Caldicellulosiruptor bescii model
-# biomass: 
-# default_flux_limit: 1000
+biomass: Biomass_Cbesii
+default_flux_limit: 1000
+default_compartment: c
 compartments:
 - id: c
   adjacent_to: e
@@ -9,16 +10,16 @@ compartments:
   adjacent_to: c
   name: Extracellular
 compounds:
-# - include: compounds.yaml
+- include: compounds.yaml
 # - include: compounds_from_A501.yaml
-- include: /Users/kzhang/Projects/Caldi/daily-work/kegg-draft-cbes-model/yaml-reaction-databases/kegg-reaction-database-filtered/compounds-kegg-nogen.yaml
-# - include: tmp-cpds.yaml
+# - include: /Users/kzhang/Projects/Caldi/daily-work/kegg-draft-cbes-model/yaml-reaction-databases/kegg-reaction-database-filtered/compounds-kegg-nogen.yaml
 reactions:
-# - include: reactions.yaml
-- include: reactions_new_model_reorder_v2_190319.yaml 
-# exchange:
-# - include: exchange.yaml
+# - include: reactions_new_model_reorder.yaml   # this is the entire rxn database, which I'm working on (do curation).
+- include: curated_rxns.yaml                  # this is the metabolic rxns I usually use for simulation, it is a subset of "reactions_new_model_reorder.yaml"
+- include: transporter.yaml                   # transport rxns. 
+- include: biomass.yaml                       # biomass formulation; each individual component in cell dry-weight (such as RNA, DNA, protein) has their own equation. An overall biomass equation will also be created.
+- include: spontaneous.yaml                   # some spontaneous rxns such as diffusion, nh4 ionization. Not all spontaneous rxns in this file, e.g. h2o diffusion is in transport.yaml
+exchange:
+- include: exchange.yaml                      # media
 # limits:
 # - include: limits.yaml
-# model:
-# - include: /Users/kzhang/Projects/Caldi/GEM-iCbes/GEM-Cbes-yaml/rxn_lists/rxn_list_176.tsv

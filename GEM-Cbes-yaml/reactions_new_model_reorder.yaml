@@ -27458,7 +27458,7 @@
     + |Thiamin diphosphate[c]|
 - id: R07601
   equation: C00233[c] + C00068[c] => C15974[c] + C00011[c]
-  genes:peg.1158
+  genes: peg.1158
   curated: true
   EggNOG_annotation: peg.1158:dehydrogenase e1 component
   KEGG_annotation: Athe_0704:K11381 2-oxoisovalerate dehydrogenase E1 component [EC:1.2.4.4]
