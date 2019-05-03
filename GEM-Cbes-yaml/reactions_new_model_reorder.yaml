@@ -231,6 +231,8 @@
   tag: KEGG_Cbes
   translated_equation: L-Aspartate[c] + H2O[c] + Oxygen[c] => Oxaloacetate[c] + Ammonia[c]
     + |Hydrogen peroxide[c]|
+  note: in this case O2 isn;t replaced by oxygen because fumarate is not a strong oxidants, so it is not resonable enough to use 
+    fumurate as cofactor to drive this function. And no evidence support in this rxn O2 can be replaced by fumarate in anaerobic condition.
 - id: R00768
   name: L-glutamine:D-fructose-6-phosphate isomerase (deaminating)
   genes: peg.2898
@@ -7722,7 +7724,9 @@
   translated_equation: ATP[c] + L-Rhamnulose[c] <=> ADP[c] + |L-Rhamnulose 1-phosphate[c]|
 - id: R02071
   name: ATP:D-fructose-1-phosphate 6-phosphotransferase
-  equation: C00002[c] + C01094[c] <=> C00008[c] + C05378[c]
+  genes: peg.542
+  curated: true
+  equation: C00002[c] + C01094[c] => C00008[c] + C05378[c]
   EggNOG_annotation: peg.542:1-phosphofructokinase
   KEGG_annotation: Athe_0147:K00882 1-phosphofructokinase [EC:2.7.1.56] | (GenBank)
     1-phosphofructokinase
@@ -7742,7 +7746,7 @@
   pathway: Fructose and mannose metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: ATP[c] + |D-Fructose 1-phosphate[c]| <=> ADP[c] + |beta-D-Fructose
+  translated_equation: ATP[c] + |D-Fructose 1-phosphate[c]| => ADP[c] + |beta-D-Fructose
     1,6-bisphosphate[c]|
 - id: R00875
   name: D-Glucitol:NAD+ 2-oxidoreductase
@@ -11530,16 +11534,16 @@
   translated_equation: ATP[c] + Deamino-NAD+[c] + L-Glutamine[c] + H2O[c] <=> AMP[c]
     + Diphosphate[c] + NAD+[c] + L-Glutamate[c]
 - id: R00481
-  name: L-aspartate:oxygen oxidoreductase
+  name: L-aspartate oxidoreductase (anaerobic type)
   genes: peg.1700
-  curated: true
-  equation: C00049[c] + C00007[c] => C05840[c] + C00027[c]
+  equation: C00049[c] + C00122[c] => C05840[c] + C00042[c]
   EggNOG_annotation: peg.1700:l-aspartate oxidase
   KEGG_annotation: Athe_1213:K00278 L-aspartate oxidase [EC:1.4.3.16] | (GenBank)
     L-aspartate oxidase
   PATRIC_annotation: L-aspartate oxidase (EC 1.4.3.16)
   comment: iminoaspartate can either be hydrolysed (see R00357) or can be used by
     ec 2.5.1.72 (see R04292)
+  curated: true
   enzymes:
   - 1.4.3.16
   genes_Cce: None
@@ -11549,15 +11553,16 @@
   genes_string_NCBI_id: Athe_1213
   genes_string_PATRIC_id: peg.1700
   names:
-  - L-aspartate:oxygen oxidoreductase
+  - L-aspartate oxidoreductase (anaerobic type)
   other_pathways:
   - Nicotinate and nicotinamide metabolism
   - Metabolic pathways
   pathway: NAD biosynthesis
-  source: KEGG
+  source: KEGG, literature
   tag: KEGG_Cbes
-  translated_equation: L-Aspartate[c] + Oxygen[c] => Iminoaspartate[c] + |Hydrogen
-    peroxide[c]|
+  translated_equation: L-Aspartate[c] + Fumarate[c] => Iminoaspartate[c] + Succinate[c]
+  PMID: 12215812
+  note: O2 is replaced by fumarate as electron acceptor, yielding succinate, based on literature (pmid 12215812)
 - id: R04292
   name: glycerone phosphate:iminosuccinate alkyltransferase (cyclizing)
   genes: peg.1699
