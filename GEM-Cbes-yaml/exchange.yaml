@@ -1,3 +1,5 @@
+compartment: e
+compounds:
 - id: C00001
   name: water
   lower: -1000.0
@@ -10,8 +12,8 @@
 #   name: glucose
 #   lower: -25.0
 #   upper: 1000.0
-- id: C00034
-  name: Manganese ion
+- id: C19610
+  name: Manganese(2+) (Mn2+)
   lower: -0.000505
   upper: 1000.0
 - id: C00038
@@ -58,8 +60,7 @@
   name: DD
   lower: -0.000132852
   upper: 1000.0
-- id: !!binary |
-    QzAwMjg4yg==
+- id: C00288
   name: Hydrogen carbonate
   lower: -11.904
   upper: 1000.0
@@ -95,7 +96,7 @@
   name: Cysteine
   lower: -6.345
   upper: 1000.0
-- id: C00753
+- id: C20679
   name: Tungstate
   lower: -0.000164
   upper: 1000.0
@@ -130,4 +131,16 @@
 - id: C19609
   name: nickel ion
   lower: -0.000101
+  upper: 1000.0
+- id: C00469
+  name: Ethanol
+  lower: 0
+  upper: 1000
+- id: C00033
+  name: Acetate
+  lower: 0
+  upper: 1000.0
+- id: C00186
+  name: Lactate
+  lower: 0
   upper: 1000.0
