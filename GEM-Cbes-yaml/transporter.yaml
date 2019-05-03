@@ -7,11 +7,6 @@
   subsystem: Transport
   tag: transportDB 
   note: only uptake or both direction?
-- id: h2ot
-  name: H2O transport via diffusion
-  genes: spontaneous
-  equation: C00001[e] <=> C00001[c]
-  subsystem: Transport
 - id: TrkH
   name: potassium uptake
   genes: peg.639
@@ -331,6 +326,17 @@
   equation: C00080[e] + C00186[e] <=> C00080[c] + C00186[c]
   subsystem: Transport
   tag: (Cce & Tsac)-L-LACt2
+
+# 4 gap compounds
+- id: cysT
+  equation: C00736[e] <=> C00736[c]
+- id: lipoateT
+  equation: C00725[e] <=> C00725[c]
+- id: borateT
+  name: H3BO3 tramnsport
+  equation: C12486[e] <=> C12486[c]
+- id: clT
+  equation: C00698[e] <=> C00698[c]
 
 
 
