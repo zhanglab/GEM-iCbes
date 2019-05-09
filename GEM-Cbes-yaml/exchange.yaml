@@ -8,16 +8,16 @@ compounds:
   name: Phosphate
   lower: -1.0
   upper: 1000.0
-# - id: C00031
-#   name: glucose
-#   lower: -25.0
-#   upper: 1000.0
+- id: C00031
+  name: D-glucose
+  lower: -25.0
+  upper: 1000.0
 - id: C19610
   name: Manganese(2+) (Mn2+)
   lower: -0.000505
   upper: 1000.0
 - id: C00038
-  name: Zinc ions
+  name: Zinc ion
   lower: -0.000514
   upper: 1000.0
 - id: C00070
@@ -32,10 +32,10 @@ compounds:
   name: proton
   lower: -6.30957e-08
   upper: 1000.0
-- id: C00095
-  name: fructose
-  lower: -25.0
-  upper: 1000.0
+# - id: C00095
+#   name: fructose
+#   lower: -25.0
+#   upper: 1000.0
 - id: C00106
   name: uracil
   lower: -0.02

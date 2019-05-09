@@ -11,6 +11,12 @@
   source: Ionization
   tag: Spontaneous
   subsystem: Others
+- id: nh4
+  name: non-enzymatic ionization of NH4+
+  equation: C01342[e] <=> C00014[e] + C00080[e]
+  source: Ionization
+  tag: Spontaneous
+  subsystem: Others
 - id: TP_H2
   name: non-enzymatic H2 transporter
   equation: C00282[c] <=> C00282[e]

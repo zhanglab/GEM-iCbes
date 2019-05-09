@@ -2247,8 +2247,7 @@
 - id: R01078
   name: dethiobiotin:sulfur sulfurtransferase
   genes: peg.76
-  equation: C01909[c] + C00283[c] + (2) C00019[c] + (2) C00080[c] => C00120[c] +
-    (2) C00073[c] + (2) C05198[c]
+  equation: C01909[c] + C00283[c] + (2) C00019[c] => C00120[c] + (2) C00073[c] + (2) C05198[c]
   EggNOG_annotation: peg.203:radical SAM domain protein;   peg.76:Catalyzes the conversion
     of dethiobiotin (DTB) to biotin by the insertion of a sulfur atom into dethiobiotin
     via a radical- based mechanism (By similarity)
@@ -2278,8 +2277,8 @@
   pathway: Biotin metabolism
   source: KEGG
   tag: KEGG_Cbes,Tsac
-  translated_equation: Dethiobiotin[c] + |Sulfur donor[c]| + (2) S-Adenosyl-L-methionine[c]
-    + (2) e-[c] + (2) H+[c] => Biotin[c] + (2) L-Methionine[c] + (2) 5'-Deoxyadenosine[c]
+  translated_equation: Dethiobiotin[c] + H2S[c] + (2) S-Adenosyl-L-methionine[c] => Biotin[c] 
+    + (2) L-Methionine[c] + (2) 5'-Deoxyadenosine[c]
 - id: R05145
   name: Biotinyl-5'-AMP:apo-[carboxylase] ligase (AMP-forming)
   genes: peg.607
@@ -2352,7 +2351,7 @@
 - id: R03231
   name: Adenosylmethionine-8-amino-7-oxononanoate aminotransferase
   genes: peg.77
-  equation: C00019[c] + C01092[c] => C04425[c] + C01037[c]
+  equation: C00019[c] + C01092[c] + C00080[c] => C04425[c] + C01037[c]
   EggNOG_annotation: peg.1687:Glutamate-1-semialdehyde aminotransferase;   peg.77:Catalyzes
     the transfer of the alpha-amino group from S- adenosyl-L-methionine (SAM) to
     7-keto-8-aminopelargonic acid (KAPA) to form 7,8-diaminopelargonic acid (DAPA).
@@ -3706,7 +3705,7 @@
 - id: R01920
   name: S-adenosylmethioninamine:putrescine 3-aminopropyltransferase
   genes: peg.1802
-  equation: C01137[c] + C00134[c] => C00170[c] + C00315[c]
+  equation: C01137[c] + C00134[c] => C00170[c] + C00315[c] + C00080[c]
   EggNOG_annotation: peg.1802:Catalyzes the production of spermidine from putrescine
     and decarboxylated S-adenosylmethionine (dcSAM), which serves as an aminopropyl
     donor (By similarity)
@@ -10612,7 +10611,9 @@
   name: octanoyl-[acp]:sulfur sulfurtransferase
   genes: peg.1155
   curated: true
-  equation: C05752[c] + (2) C17023[c] + (2) C00019[c] => C16239[c] + (2) C00073[c]
+  # equation: C05752[c] + (2) C17023[c] + (2) C00019[c] => C16239[c] + (2) C00073[c]
+  #   + (2) C05198[c]
+  equation: C05752[c] + (2) C00283[c] + (2) C00019[c] => C16239[c] + (2) C00073[c]
     + (2) C05198[c]
   EggNOG_annotation: peg.1155:Catalyzes the radical-mediated insertion of two sulfur
     atoms into the C-6 and C-8 positions of the octanoyl moiety bound to the lipoyl
@@ -10646,7 +10647,9 @@
   genes: peg.1155
   curated: true
   note: surful donor in equation is a generic compound
-  equation: C16236[c] + (2) C17023[c] + (2) C00019[c] => C16237[c] + (2) C00073[c]
+  # equation: C16236[c] + (2) C17023[c] + (2) C00019[c] => C16237[c] + (2) C00073[c]
+  #   + (2) C05198[c]
+  equation: C16236[c] + (2) C00283[c] + (2) C00019[c] => C16237[c] + (2) C00073[c]
     + (2) C05198[c]
   EggNOG_annotation: peg.1155:Catalyzes the radical-mediated insertion of two sulfur
     atoms into the C-6 and C-8 positions of the octanoyl moiety bound to the lipoyl
@@ -11649,7 +11652,7 @@
   name: ATP:nicotinamide-nucleotide adenylyltransferase
   genes: peg.1737
   curated: true
-  equation: C00002[c] + C00455[c] <=> C00013[c] + C00003[c]
+  equation: C00002[c] + C00455[c] + C00080[c] <=> C00013[c] + C00003[c]
   EggNOG_annotation: peg.1737:Catalyzes the reversible adenylation of nicotinate
     mononucleotide (NaMN) to nicotinic acid adenine dinucleotide (NaAD) (By similarity)
   KEGG_annotation: Athe_1250:K00969 nicotinate-nucleotide adenylyltransferase [EC:2.7.7.18]
@@ -11705,7 +11708,7 @@
   name: N-Ribosylnicotinamide:orthophosphate ribosyltransferase
   genes: peg.2283
   curated: true
-  equation: C03150[c] + C00009[c] <=> C00153[c] + C00620[c]
+  equation: C03150[c] + C00009[c] <=> C00153[c] + C00620[c] + C00080[c]
   EggNOG_annotation: peg.2283:The purine nucleoside phosphorylases catalyze the phosphorolytic
     breakdown of the N-glycosidic bond in the beta- (deoxy)ribonucleoside molecules,
     with the formation of the corresponding free purine bases and pentose-1-phosphate
@@ -11775,7 +11778,7 @@
   name: Nicotinate-nucleotide:pyrophosphate phosphoribosyltransferase (carboxylating)
   genes: peg.1701
   curated: true
-  equation: C03722[c] + C00119[c] => C01185[c] + C00013[c] + C00011[c]
+  equation: C03722[c] + C00119[c] + C00080[c] => C01185[c] + C00013[c] + C00011[c]
   EggNOG_annotation: peg.1701:nicotinate-nucleotide pyrophosphorylase
   KEGG_annotation: Athe_1214:K00767 nicotinate-nucleotide pyrophosphorylase (carboxylating)
     [EC:2.4.2.19] | (GenBank) nicotinate-
@@ -15580,7 +15583,7 @@
   name: '1,4-beta-D-mannooligosaccharide:phosphate alpha-D-mannosyltransferase'
   genes: peg.92
   curated: true
-  equation: C17207[c] + C00009[c] <=> 14bman_n-1[c] + C00636[c]
+  equation: C17207[c] + C00009[c] <=> b14man_n-1[c] + C00636[c]
   EggNOG_annotation: peg.92:Glycosidase related protein
   KEGG_annotation: Athe_2555:K18785 beta-1,4-mannooligosaccharide/beta-1,4-mannosyl-N-acetylglucosamine
     phosphorylase [EC:2.4.1.3
@@ -17369,7 +17372,6 @@
   curated: true
   enzymes:
   - 2.7.8.7
-  - 2.7.8.-
   genes_Cce: peg.2422
   genes_Cth: None
   genes_Tsac: None
@@ -20011,7 +20013,7 @@
   name: 5-amino-1-(5-phospho-D-ribosyl)imidazole:carbon-dioxide ligase (ADP-forming)
   genes: peg.1662
   curated: true
-  equation: C00002[c] + C03373[c] + C00288[c] => C00008[c] + C00009[c] + C15667[c]
+  equation: C00002[c] + C03373[c] + C00288[c] + C00080[c] => C00008[c] + C00009[c] + C15667[c]
   EggNOG_annotation: peg.1662:Phosphoribosylaminoimidazole carboxylase ATPase subunit
   KEGG_annotation: Athe_1177:K01589 5-(carboxyamino)imidazole ribonucleotide synthase
     [EC:6.3.4.18] | (GenBank) phosphoribosylami
@@ -21918,7 +21920,7 @@
   name: HCO3-:L-glutamine amido-ligase (ADP-forming, carbamate-phosphorylating)
   genes: (peg.1868 or peg.2036) and peg.2035
   curated: true
-  equation: (2) C00002[c] + C00064[c] + C00288[c] + C00001[c] => (2) C00008[c] +
+  equation: (2) C00002[c] + C00064[c] + C00288[c] + C00001[c] + C00080[c] => (2) C00008[c] +
     C00009[c] + C00025[c] + C00169[c]
   EggNOG_annotation: peg.1868:Carbamoyl-phosphate synthetase ammonia chain;   peg.2035:Carbamoyl-phosphate
     synthetase glutamine chain;   peg.2036:Carbamoyl-phosphate synthetase ammonia
@@ -21949,7 +21951,7 @@
   pathway: Pyrimidine metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: (2) ATP[c] + L-Glutamine[c] + HCO3-[c] + H2O[c] => (2) ADP[c]
+  translated_equation: (2) ATP[c] + L-Glutamine[c] + HCO3-[c] + H2O[c] + C00080[c] => (2) ADP[c]
     + Orthophosphate[c] + L-Glutamate[c] + |Carbamoyl phosphate[c]|
 - id: R02330
   name: dUTP nucleotidohydrolase
@@ -24826,8 +24828,8 @@
 - id: R10246
   name: L-tyrosine 4-methylphenol-lyase (2-iminoacetate-forming)
   genes: peg.783
-  equation: C00082[c] + C00019[c] + C00005[c] => C15809[c] + C01468[c] + C05198[c]
-    + C00073[c] + C00006[c] + C00080[c]
+  equation: C00082[c] + C00019[c] + C00005[c] + C00080[c] => C15809[c] + C01468[c] + C05198[c]
+    + C00073[c] + C00006[c]
   EggNOG_annotation: peg.783:biosynthesis protein thiH;   peg.565:biosynthesis protein
     thiH
   KEGG_annotation: Athe_0370:K03150 2-iminoacetate synthase [EC:4.1.99.19] | (GenBank)
@@ -25169,7 +25171,7 @@
 - id: R03223
   name: Thiamin-phosphate pyrophosphorylase
   genes: peg.785
-  equation: C04752[c] + C04327[c] => C00013[c] + C01081[c]
+  equation: C04752[c] + C04327[c] + C00080[c] => C00013[c] + C01081[c]
   EggNOG_annotation: peg.785:Condenses 4-methyl-5-(beta-hydroxyethyl)thiazole monophosphate
     (THZ-P) and 2-methyl-4-amino-5-hydroxymethyl pyrimidine pyrophosphate (HMP-PP)
     to form thiamine monophosphate (TMP) (By similarity)
@@ -25201,7 +25203,7 @@
     phosphate 2-methyl-4-aminopyrimidine-5-methenyltransferase
   genes: peg.785
   curated: true
-  equation: C04752[c] + C20247[c] => C01081[c] + C00013[c] + C00011[c]
+  equation: C04752[c] + C20247[c] + C00080[c] => C01081[c] + C00013[c] + C00011[c]
   EggNOG_annotation: peg.785:Condenses 4-methyl-5-(beta-hydroxyethyl)thiazole monophosphate
     (THZ-P) and 2-methyl-4-amino-5-hydroxymethyl pyrimidine pyrophosphate (HMP-PP)
     to form thiamine monophosphate (TMP) (By similarity)
@@ -27649,7 +27651,6 @@
   note: https://www.uniprot.org/uniprot/P0A7F9 
   enzymes: 
   - 2.4.99.17
-  translated_equation: S-adenosyl-L-methionine[c] + 7-aminomethyl-7-carbaguanosine34 in tRNA[c] => L-methionine[c] + adenine[c] + epoxyqueuosine34 in tRNA[c]
   source: manually added
   note: added based on Dima's pathway table. Euqation come from itergratig kegg, uniprot and bigg info.
   pathway: Queuosine biosynthesis
@@ -27737,7 +27738,7 @@
   name: NADH-dependent reduced ferredoxin:NADP+ oxidoreductase
   genes: peg.1085 and peg.1086
   curated: true
-  equation: C00004[c] + (2) C00138[c] + (2) C00006[c] => C00003[c] + (2) C00139[c] + (2) C00005[c]
+  equation: C00004[c] + (2) C00138[c] + (2) C00006[c] + C00080[c] => C00003[c] + (2) C00139[c] + (2) C00005[c]
   pathway: ETF pathway
   enzymes:
   - 1.6.1.4

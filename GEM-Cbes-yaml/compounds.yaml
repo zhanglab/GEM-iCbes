@@ -110,8 +110,8 @@
   tag: A501
 - id: C00229
   name: Acyl-carrier protein
-  formula: HSR
-  # formula: C11H21N2O7PRS
+  # formula: HSR
+  formula: C11H22N2O7PRS
   charge: 0
   source: KEGG
   tag: A501
@@ -271,7 +271,7 @@
 - id: C00378
   name: Thiamine
   formula: C12H17N4OS
-  charge: 0
+  charge: 1
   mol_weight: 265.3546
   names:
   - Thiamine
@@ -3360,7 +3360,8 @@
 #   note: formula and charge and mol_weight come from pubchem
 - id: C03688
   name: Apo-[acyl-carrier-protein]
-  formula: HSR
+  # formula: HSR
+  formula: RHO
   charge: 0
   names:
   - Apo-[acyl-carrier-protein]

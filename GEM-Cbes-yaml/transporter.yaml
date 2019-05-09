@@ -1,4 +1,4 @@
-# updated transporters
+# updated on 
 - id: MgtE
   name: Mg2+ Transporter
   genes: peg.1099
@@ -52,7 +52,7 @@
   name: Tungstate uptake vis ABC system
   genes: peg.1284 and peg.1285 and peg.1286
   enzymes: TC=3.A.1.6.2
-  equation: C20679[e] + C00002[c] => C20679[c] + C00008[c] + C00009[c]
+  equation: C20679[e] + C00002[c] + C00001[c] => C20679[c] + C00008[c] + C00009[c]
   subsystem: Transport
   tag: transportDB & TCDB
   note: formula of C20679 is WH2O4, so the charge is 0
@@ -61,7 +61,7 @@
   genes: peg.2746 and peg.2747 and peg.2748
   enzymes:
   - TC=3.A.1.15
-  equation: C00038[e] + C00002[c] => C00038[c] + C00008[c] + C00009[c]
+  equation: C00038[e] + C00002[c] + C00001[c] => C00038[c] + C00008[c] + C00009[c]
   subsystem: Transport
   note: note sure it should be 3.A.1.15.11 or 3.A.1.15.3
   PMID: 28596134(3.A.1.15.3, AdcABC); 12426338(3.A.1.15.11, Zinc uptake)
@@ -113,7 +113,7 @@
   name: Zn2+ exporting P-type ATPase
   genes: peg.725
   enzymes: TC=3.A.3.6.10
-  equation: C00038[c] + C00001[c] + C00002[c] => C00038[e] + C00008[c] + C00009[c] + C00080[c]
+  equation: C00038[c] + C00001[c] + C00002[c] => C00038[e] + C00008[c] + C00009[c]
   subsystem: Transport
   tag: transportDB
   PMID: 12779235
@@ -155,7 +155,7 @@
   name: Ferrous iron (Fe2+) uptake system, FeoB
   genes: peg.2057 and peg.2058 and peg.2059
   enzymes: TC=9.A.8.1.14
-  equation: C14818[e] + C00044[c] => C14818[c] + C00035[c] + C00009[c]
+  equation: C14818[e] + C00044[c] + C00001[c] => C14818[c] + C00035[c] + C00009[c]
   subsystem: Transport
   tag: transportDB
   source: manual curation
@@ -165,7 +165,7 @@
   name: Phosphate transport via ABC system
   genes: peg.1644 and peg.1645 and peg.1646
   enzymes: TC=3.A.1.7.5
-  equation: C00009[e] + C00002[c] => (2) C00009[c] + C00008[c]
+  equation: C00009[e] + C00002[c] + C00001[c] => (2) C00009[c] + C00008[c]
   subsystem: Transport
   tag: transportDB
   note: PATRIC annotation is 3.A.1.7.1, but nest hit of TCDB blastp is 3.A.1.7.5; lack PtsB (ATP-binding protein)
@@ -174,7 +174,7 @@
   name: inorganic phosphate uptake porter (Low affinity)
   genes: peg.1978
   enzymes: TC=2.A.20.1.7
-  equation: C00009[e] + C00080[e] => (2) C00009[c] + C00080[c]
+  equation: C00009[e] + C00080[e] => C00009[c] + C00080[c]
   subsystem: Transport
   tag: transportDB
   note: probably low affinity; H+ or Na+ not sure
@@ -226,7 +226,7 @@
   name: folate uptake (ECF)
   genes: peg.2195 and peg.2196 and peg.2197 and ?
   enzymes: TC=3.A.1.26.10
-  equation: C00504[e] + C00002[c] => C00504[c] + C00008[c] + C00009[c]
+  equation: C00504[e] + C00002[c] + C00001[c] => C00504[c] + C00008[c] + C00009[c]
   subsystem: Transport
   tag: TCDB
   note: lack S component
@@ -234,7 +234,7 @@
   name: pyridoxin(VB6) uptake (ECF)
   genes: peg.2278 peg.2195 and peg.2196 and peg.2197
   enzymes: TC=unknown
-  equation: C00314[e] + C00002[c] => C00314[c] + C00008[c] + C00009[c]
+  equation: C00314[e] + C00002[c] + C00001[c] => C00314[c] + C00008[c] + C00009[c]
   subsystem: Transport
   tag: Dima's annotation
   source: manual curation
@@ -318,7 +318,7 @@
 - id: ACt6
   name: acetate transport in/out via proton symport
   genes: no gene associated
-  equation: C00033[e] + C00080[e] <=> C00033[c] + C00033[c]
+  equation: C00033[e] + C00080[e] <=> C00033[c] + C00080[c]
   subsystem: Transport
   tag: Cce-ACt6
 - id: L-LACt2
@@ -326,6 +326,13 @@
   equation: C00080[e] + C00186[e] <=> C00080[c] + C00186[c]
   subsystem: Transport
   tag: (Cce & Tsac)-L-LACt2
+- id: GLCabc
+  name: D-glucose transport via ABC system
+  genes: peg.2831 and peg.2832 and peg.2833
+  equation: (2) C00001[c] + (2) C00002[c] + C00031[e] => (2) C00008[c] + (2) C00009[c] + C00031[c]
+  subsystem: Transport
+  enzymes: TC=3.A.1.1.20
+  tag: psammotate-Cce-Glcabc
 
 # 4 gap compounds
 - id: cysT
