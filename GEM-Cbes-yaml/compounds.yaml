@@ -50,7 +50,7 @@
   tag: A501
 - id: C16240
   name: Apoprotein
-  formula: NH2R
+  formula: C11H23N3O7PR
   charge: 0
   source: KEGG
   tag: A501
