@@ -1,0 +1,32 @@
+# test.yaml
+- id: source_atp
+  equation: C00002[c] <=>
+- id: source_adp
+  equation: C00008[c] <=>
+- id: source_nadh
+  equation: C00004[c] <=>
+- id: source_nad
+  equation: C00003[c] <=>
+- id: source_nadph
+  equation: C00005[c] <=>
+- id: source_nadp
+  equation: C00006[c] <=>
+- id: source_fedox
+  equation: C00139[c] <=>
+- id: source_fedred
+  equation: C00138[c] <=>
+- id: source_coa
+  equation: C00010[c] <=>
+
+
+
+# - id: sink_pyr
+#   equation: C00022[c] <=>
+# - id: sink_accoa
+#   equation: C00024[c] <=>
+# - id: sink_coa
+#   equation: C00010[c] <=>
+# - id: sink_lac
+#   equation: C00186[c] <=>
+- id: sink_h2
+  equation: C00282[c] <=>

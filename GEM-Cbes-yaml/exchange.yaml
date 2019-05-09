@@ -144,3 +144,11 @@ compounds:
   name: Lactate
   lower: 0
   upper: 1000.0
+- id: C00011
+  name: CO2
+  lower: 0
+  upper: 1000.0
+- id: C00282
+  name: H2
+  lower: 0
+  upper: 1000.0

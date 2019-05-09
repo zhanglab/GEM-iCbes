@@ -9885,6 +9885,7 @@
   tag: KEGG_Cbes,Cth,Tsac
   translated_equation: '(2) |Oxidized ferredoxin[c]| + Pyruvate[c] + CoA[c] => 
     (2) |Reduced ferredoxin[c]| + Acetyl-CoA[c] + CO2[c] + (2) H+[c]'
+  note: http://www.jbc.org/content/252/8/2657.full.pdf says it is reversible, but overall deltaG from pyr to accoa is -33kJ/mol, how can it from accoa to pyr
 - id: R01518
   name: D-phosphoglycerate 2,3-phosphomutase
   genes: peg.1898 or peg.1810

@@ -158,7 +158,7 @@
   source: KEGG
   tag: A501
 - id: C00186
-  name: (S)-Lactate
+  name: L-Lactate
   formula: C3H6O3
   charge: 0
   mol_weight: 90.0779

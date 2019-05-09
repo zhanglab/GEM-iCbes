@@ -17,6 +17,7 @@ reactions:
 - include: transporter.yaml                   # transport rxns. 
 - include: biomass.yaml                       # biomass formulation; each individual component in cell dry-weight (such as RNA, DNA, protein) has their own equation. An overall biomass equation will also be created.
 - include: spontaneous.yaml                   # some spontaneous rxns such as diffusion, nh4 ionization. Not all spontaneous rxns in this file, e.g. h2o diffusion is in transport.yaml
+- include: test.yaml                          # used for growth simulation, giving source of some compounds, especially important cofactor such as ATP/ADP.
 exchange:
 - include: exchange.yaml                      # media
 # limits:
