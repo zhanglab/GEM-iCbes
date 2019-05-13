@@ -34,3 +34,12 @@
   genes: spontaneous
   equation: C00001[e] <=> C00001[c]
   subsystem: Transport
+
+# also belong to metabolic rxns
+- id: G5SADs
+  name: L-glutamate 5-semialdehyde dehydratase (spontaneous)
+  genes: spontaneous
+  equation: C01165[c] <=> C03912[c] + C00001[c]
+  translated_equation: L-Glutamate 5-semialdehyde[c] <=> (S)-1-Pyrroline-5-carboxylate[c] + Water[c]
+  pathway: Arginine and proline metabolism
+  enzymes: autonomous

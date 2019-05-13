@@ -3389,3 +3389,13 @@
   formula: H2O(C6H10O5)2
   charge: 0
   note: https://www.genome.jp/dbget-bin/www_bget?ec:2.4.1.319
+
+# added when do simulation
+- id: C00363
+  name: dTDP
+  formula: C10H16N2O11P2
+  charge: 0
+  kegg: C00363
+  mol_weight: 402.1884
+  source: KEGG
+  tag: A501

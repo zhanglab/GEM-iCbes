@@ -1,32 +1,154 @@
 # test.yaml
 - id: source_atp
-  equation: C00002[c] <=>
+  equation: C00002[c] <=
 - id: source_adp
-  equation: C00008[c] <=>
-- id: source_nadh
-  equation: C00004[c] <=>
-- id: source_nad
-  equation: C00003[c] <=>
-- id: source_nadph
-  equation: C00005[c] <=>
-- id: source_nadp
-  equation: C00006[c] <=>
-- id: source_fedox
-  equation: C00139[c] <=>
-- id: source_fedred
-  equation: C00138[c] <=>
-- id: source_coa
-  equation: C00010[c] <=>
+  equation: C00008[c] =>
+- id: source_amp
+  equation: C00020[c] =>
+- id: source_gtp
+  equation: C00044[c] <=
+# - id: source_pi
+#   equation: C00009[c] <=>
+- id: source_gdp
+  equation: C00035[c] =>
+# - id: source_nadh
+#   equation: C00004[c] <=>
+# - id: source_nad
+#   equation: C00003[c] <=>
+# - id: source_nadph
+#   equation: C00005[c] <=>
+# - id: source_nadp
+#   equation: C00006[c] <=>
+# - id: source_fedox
+#   equation: C00139[c] <=
+# - id: sink_fedred
+#   equation: C00138[c] <=>
+# - id: source_coa
+#   equation: C00010[c] <=>
+
+- id: source_oaa
+  equation: C00036[c] <=
+- id: source_h2s
+  equation: C00283[c] <=
+# - id: source_5mthf
+#   equation: C00440[c] <=>
+# - id: sink_thf
+#   equation: C00101[c] <=>
+- id: sink_aicir
+  equation: C04677[c] =>
+- id: source_emm
+  equation: C06032[c] <=
+- id: sink_ppi
+  equation: C00013[c] =>
+- id: sink_thidox
+  equation: C00343[c] => 
+- id: source_thidred
+  equation: C00342[c] <=
+
 
 
 
 # - id: sink_pyr
-#   equation: C00022[c] <=>
+#   equation: C00022[c] =>
 # - id: sink_accoa
 #   equation: C00024[c] <=>
 # - id: sink_coa
 #   equation: C00010[c] <=>
+# - id: sink_ac
+#   equation: C00033[c] <=>
+# - id: sink_acpi
+#   equation: C00227[c] <=>
 # - id: sink_lac
 #   equation: C00186[c] <=>
-- id: sink_h2
-  equation: C00282[c] <=>
+# - id: sink_co2
+#   equation: C00011[c] <=>
+# - id: sink_h2
+#   equation: C00282[c] <=>
+# - id: sink_akg
+#   equation: C00026[c] <=>
+# - id: sink_succoa
+#   equation: C00091[c] =>
+# - id: sink_suc
+#   equation: C00042[c] <=>
+# - id: sink_fum
+#   equation: C00122[c] <=>
+# - id: sink_mal
+#   equation: C00149[c] <=>
+# - id: sink_PRPP
+#   equation: C00199[c] <=>
+# - id: sink_ribose5p
+#   equation: C00117[c] <=>
+# - id: sink_asp
+#   equation: C00049[c] <=>
+# - id: sink_glu
+#   equation: C00025[c] <=>
+# - id: sink_ala
+#   equation: C00041[c] <=>
+# - id: sink_arg
+#   equation: C00062[c] <=>
+# - id: sink_pro
+#   equation: C00148[c] <=>
+# - id: sink_pyrrocar
+#   equation: C03912[c] <=>
+# - id: sink_cys
+#   equation: C00097[c] <=>
+# - id: sink_acser
+#   equation: C00979[c] <=>  
+# - id: sink_ser
+#   equation: C00065[c] <=>
+# - id: sink_gly
+#   equation: C00037[c] <=>
+# - id: sink_thr
+#   equation: C00188[c] <=>
+# - id: sink_met
+#   equation: C00073[c] <=>
+# - id: sink_his
+#   equation: C04666[c] <=>
+# - id: sink_gln
+#   equation: C00064[c] <=>
+# - id: sink_asn
+#   equation: C00152[c] <=>
+# - id: sink_lys
+#   equation: C00047[c] <=>
+# - id: sink_phe
+#   equation: C00079[c] <=>
+# - id: sink_tyr
+#   equation: C00082[c] <=>
+# - id: sink_trp
+#   equation: C00078[c] <=>
+# - id: sink_val
+#   equation: C00183[c] <=>
+# - id: sink_leu
+#   equation: C00123[c] <=>
+# - id: sink_ile
+#   equation: C00407[c] <=>
+# - id: sink_pro    
+#   equation: protein[c] <=>
+# - id: sink_datp   
+#   equation: C00131[c] <=>
+# - id: sink_atp
+#   equation: C00002[c] <=>
+# - id: sink_gtp   
+#   equation: C00044[c] <=>
+# - id: sink_dgtp
+#   equation: C00286[c] <=>
+# - id: sink_utp
+#   equation: C00075[c] <=>
+# - id: sink_dutp
+#   equation: C00460[c] <=>
+# - id: sink_ctp
+#   equation: C00063[c] <=>
+# - id: sink_dctp
+#   equation: C00458[c] <=>
+# - id: sink_dttp
+#   equation: C00459[c] <=>
+# - id: sink_test  
+#   equation: C00364[c] <=>
+
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+# reactions added to fill gaps in C. bescii model
+- id: R00258 
+  name: L-alanine transaminase
+  genes: gap
+  equation: C00041[c] + C00026[c] <=> C00022[c] + C00025[c]
+  translated_equation: L-Alanine + 2-Oxoglutarate <=> Pyruvate + L-Glutamate
+  pathway: Alanine, aspartate and glutamate metabolism
+  enzymes: 2.6.1.2
+  source: KEGG
+  tag: Cce
+  note: not from psammotate, in Cce model, this reaction (ALATA_L) doesn't have gene association.
+- id: R02282
+  name: ornithine transacetylase
+  genes: gap
+  equation: C00437[c] + C00025[c] <=> C00077[c] + C00624[c]
+  translated_equation: N-Acetylornithine + L-Glutamate <=> L-Ornithine + N-Acetyl-L-glutamate
+  pathway: Arginine biosynthesis
+  enzymes: 2.3.1.35
+  source: KEGG
+  tag: Cce
+- id: R00156
+  name: nucleoside-diphosphatekinase(ATP:UDP)
+  genes: gap
+  equation: C00002[c] + C00015[c] <=> C00008[c] + C00075[c]
+  translated_equation: ATP + UDP <=> ADP + UTP
+  pathway: Pyrimidine metabolism
+  enzymes: 2.7.4.6
+  source: KEGG
+  tag: Tsac, Cce
+- id: R02094
+  name: dTMPkinase
+  genes: gap
+  equation: C00002[c] + C00364[c] <=> C00008[c] + C00363[c]
+  translated_equation: ATP + dTMP <=> ADP + dTDP
+  pathway: Pyrimidine metabolism
+  enzyems: 2.7.4.9
+  tag: Tsac, Cce
+- id: R02093
+  name: nucleoside-diphosphate kinase (ATP:dTDP)
+  gene: gap
+  equation: C00002[c] + C00363[c] <=> C00008[c] + C00459[c]
+  translated_equation: ATP + dTDP <=> ADP + dTTP
+  pathway: Pyrimidine metabolism
+  enzymes: 2.7.4.6
+  tag: Tsac, Cce
+
+

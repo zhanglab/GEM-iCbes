@@ -200,8 +200,7 @@
   pathway: Alanine, aspartate and glutamate metabolism
   source: KEGG
   tag: Cce,Cth,Tsac
-  translated_equation: L-Glutamine[c] + 2-Oxoglutarate[c] + NADPH[c] + H+[c] =>(2)
-    L-Glutamate[c] + NADP+[c]
+  translated_equation: L-Glutamine[c] + 2-Oxoglutarate[c] + NADPH[c] + H+[c] => (2) L-Glutamate[c] + NADP+[c]
 - id: R00357
   name: L-Aspartic acid:oxygen oxidoreductase (deaminating)
   genes: peg.1700
@@ -1957,7 +1956,7 @@
 - id: R00355
   name: L-Aspartate:2-oxoglutarate aminotransferase
   genes: peg.1906 or peg.1610
-  equation: C00049[c] + C00026[c] => C00036[c] + C00025[c]
+  equation: C00049[c] + C00026[c] <=> C00036[c] + C00025[c]
   EggNOG_annotation: peg.977:Involved in the synthesis of meso-diaminopimelate (m-DAP
     or DL-DAP), required for both lysine and peptidoglycan biosynthesis. Catalyzes
     the direct conversion of tetrahydrodipicolinate to LL-diaminopimelate, a reaction
@@ -1994,7 +1993,8 @@
   pathway: Arginine biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: L-Aspartate[c] + 2-Oxoglutarate[c] => Oxaloacetate[c] + L-Glutamate[c]
+  translated_equation: L-Aspartate[c] + 2-Oxoglutarate[c] <=> Oxaloacetate[c] + L-Glutamate[c]
+  note: reaction direction based on KEGG pathway map and iFS431 model (Clostridium cellulolyticum)
 - id: R01398
   name: Carbamoyl-phosphate:L-ornithine carbamoyltransferase
   genes: peg.2037
@@ -3984,7 +3984,7 @@
 - id: R01773
   name: L-Homoserine:NAD+ oxidoreductase
   genes: peg.2478
-  equation: C00263[c] + C00003[c] => C00441[c] + C00004[c] + C00080[c]
+  equation: C00263[c] + C00003[c] <=> C00441[c] + C00004[c] + C00080[c]
   EggNOG_annotation: peg.2478:homoserine dehydrogenase
   KEGG_annotation: Athe_1959:K00003 homoserine dehydrogenase [EC:1.1.1.3] | (GenBank)
     Homoserine dehydrogenase
@@ -4013,12 +4013,11 @@
   pathway: Cysteine and methionine metabolism
   source: KEGG
   tag: KEGG_Cbes,Cth,Tsac
-  translated_equation: L-Homoserine[c] + NAD+[c] <=> |L-Aspartate 4-semialdehyde[c]|
-    + NADH[c] + H+[c]
+  translated_equation: L-Homoserine[c] + NAD+[c] <=> |L-Aspartate 4-semialdehyde[c]| + NADH[c] + H+[c]
 - id: R01775
   name: L-homoserine:NADP+ oxidoreductase
   genes: peg.2478
-  equation: C00263[c] + C00006[c] => C00441[c] + C00005[c] + C00080[c]
+  equation: C00263[c] + C00006[c] <=> C00441[c] + C00005[c] + C00080[c]
   EggNOG_annotation: peg.2478:homoserine dehydrogenase
   KEGG_annotation: Athe_1959:K00003 homoserine dehydrogenase [EC:1.1.1.3] | (GenBank)
     Homoserine dehydrogenase
@@ -4047,8 +4046,7 @@
   pathway: Cysteine and methionine metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce,Tsac
-  translated_equation: L-Homoserine[c] + NADP+[c] <=> |L-Aspartate 4-semialdehyde[c]|
-    + NADPH[c] + H+[c]
+  translated_equation: L-Homoserine[c] + NADP+[c] <=> |L-Aspartate 4-semialdehyde[c]| + NADPH[c] + H+[c]
 - id: R01150
   name: D-alanine:D-alanine ligase (ADP-forming)
   equation: C00002[c] + (2) C00133[c] <=> C00008[c] + C00009[c] + C00993[c]
@@ -9726,6 +9724,29 @@
   source: KEGG
   tag: KEGG_Cbes,Cce
   translated_equation: ATP[c] + Pyruvate[c] => ADP[c] + Phosphoenolpyruvate[c]
+- id: R00659
+  name: UTP:pyruvate 2-O-phosphotransferase
+  genes: peg.1753
+  curated: true
+  equation: C00075[c] + C00022[c] <= C00015[c] + C00074[c]
+  EggNOG_annotation: peg.1753:Pyruvate kinase
+  KEGG_annotation: Athe_1266:K00873 pyruvate kinase [EC:2.7.1.40] | (GenBank) pyruvate
+    kinase
+  PATRIC_annotation: Pyruvate kinase (EC 2.7.1.40) / Phosphohistidine swiveling domain
+  enzymes:
+  - 2.7.1.40
+  genes_Cce: peg.1753
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1753
+  genes_string_NCBI_id: Athe_1266
+  genes_string_PATRIC_id: peg.1753
+  names:
+  - UTP:pyruvate 2-O-phosphotransferase
+  pathway: Glycolysis / Gluconeogenesis
+  source: KEGG
+  tag: KEGG_Cbes,Cce
+  translated_equation: UTP[c] + Pyruvate[c] <= UDP[c] + Phosphoenolpyruvate[c]
 - id: R02073
   name: diphosphate:beta-D-fructose-6-phosphate 1-phosphotransferase
   genes: peg.2336
@@ -9948,7 +9969,7 @@
 - id: R00315
   name: ATP:acetate phosphotransferase (Acka)
   genes: peg.1986
-  equation: C00002[c] + C00033[c] => C00008[c] + C00227[c]
+  equation: C00002[c] + C00033[c] <=> C00008[c] + C00227[c]
   EggNOG_annotation: peg.1986:Catalyzes the formation of acetyl phosphate from acetate
     and ATP. Can also catalyze the reverse reaction (By similarity)
   KEGG_annotation: Athe_1493:K00925 acetate kinase [EC:2.7.2.1] | (GenBank) acetate
@@ -10608,140 +10629,6 @@
   translated_equation: N-(5'-Phospho-D-1'-ribulosylformimino)-5-amino-1-(5''-phospho-D-ribosyl)-4-imidazolecarboxamide[c]
     + L-Glutamine[c] => |D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate[c]| + 1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide[c]
     + L-Glutamate[c]
-- id: R07768
-  name: octanoyl-[acp]:sulfur sulfurtransferase
-  genes: peg.1155
-  curated: true
-  # equation: C05752[c] + (2) C17023[c] + (2) C00019[c] => C16239[c] + (2) C00073[c]
-  #   + (2) C05198[c]
-  equation: C05752[c] + (2) C00283[c] + (2) C00019[c] => C16239[c] + (2) C00073[c]
-    + (2) C05198[c]
-  EggNOG_annotation: peg.1155:Catalyzes the radical-mediated insertion of two sulfur
-    atoms into the C-6 and C-8 positions of the octanoyl moiety bound to the lipoyl
-    domains of lipoate-dependent enzymes, thereby converting the octanoylated domains
-    into lipoylated derivatives (By similarity)
-  KEGG_annotation: Athe_0701:K03644 lipoyl synthase [EC:2.8.1.8] | (GenBank) lipoic
-    acid synthetase
-  PATRIC_annotation: Lipoyl synthase (EC 2.8.1.8)
-  comment: the reactant sulfur is not elemental sulfur, but it may be from the enzyme
-    itself
-  enzymes:
-  - 2.8.1.8
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1155
-  genes_string_NCBI_id: Athe_0701
-  genes_string_PATRIC_id: peg.1155
-  names:
-  - octanoyl-[acp]:sulfur sulfurtransferase
-  other_pathways:
-  - Lipoic acid metabolism
-  - Metabolic pathways
-  pathway: Lipoic acid metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: Octanoyl-[acp][c] + (2) |Sulfur donor[c]| + (2) S-Adenosyl-L-methionine[c]
-    => Lipoyl-[acp][c] + (2) L-Methionine[c] + (2) 5'-Deoxyadenosine[c]
-- id: R07767
-  name: protein N6-(octanoyl)lysine:sulfur sulfurtransferase
-  genes: peg.1155
-  curated: true
-  note: surful donor in equation is a generic compound
-  # equation: C16236[c] + (2) C17023[c] + (2) C00019[c] => C16237[c] + (2) C00073[c]
-  #   + (2) C05198[c]
-  equation: C16236[c] + (2) C00283[c] + (2) C00019[c] => C16237[c] + (2) C00073[c]
-    + (2) C05198[c]
-  EggNOG_annotation: peg.1155:Catalyzes the radical-mediated insertion of two sulfur
-    atoms into the C-6 and C-8 positions of the octanoyl moiety bound to the lipoyl
-    domains of lipoate-dependent enzymes, thereby converting the octanoylated domains
-    into lipoylated derivatives (By similarity)
-  KEGG_annotation: Athe_0701:K03644 lipoyl synthase [EC:2.8.1.8] | (GenBank) lipoic
-    acid synthetase
-  PATRIC_annotation: Lipoyl synthase (EC 2.8.1.8)
-  comment: the reactant sulfur is not elemental sulfur, but it may be from the enzyme
-    itself
-  enzymes:
-  - 2.8.1.8
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1155
-  genes_string_NCBI_id: Athe_0701
-  genes_string_PATRIC_id: peg.1155
-  names:
-  - protein N6-(octanoyl)lysine:sulfur sulfurtransferase
-  other_pathways:
-  - Lipoic acid metabolism
-  - Metabolic pathways
-  pathway: Lipoic acid metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: '|Protein N6-(octanoyl)lysine[c]| + (2) |Sulfur donor[c]|
-    + (2) S-Adenosyl-L-methionine[c] => |Protein N6-(lipoyl)lysine[c]| + (2) L-Methionine[c]
-    + (2) 5''-Deoxyadenosine[c]'
-- id: R07766
-  name: octanoyl-[acp]:protein N6-octanoyltransferase
-  genes: peg.1154
-  curated: true
-  equation: C05752[c] + C16240[c] <=> C16236[c] + C00229[c]
-  EggNOG_annotation: peg.1154:Catalyzes the transfer of endogenously produced octanoic
-    acid from octanoyl-acyl-carrier-protein onto the lipoyl domains of lipoate-dependent
-    enzymes. Lipoyl-ACP can also act as a substrate although octanoyl-ACP is likely
-    to be the physiological substrate (By similarity)
-  KEGG_annotation: Athe_0700:K03801 lipoyl(octanoyl) transferase [EC:2.3.1.181] |
-    (GenBank) lipoate-protein ligase B
-  PATRIC_annotation: Octanoate-[acyl-carrier-protein]-protein-N-octanoyltransferase
-    (EC 2.3.1.181)
-  enzymes:
-  - 2.3.1.181
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1154
-  genes_string_NCBI_id: Athe_0700
-  genes_string_PATRIC_id: peg.1154
-  names:
-  - octanoyl-[acp]:protein N6-octanoyltransferase
-  other_pathways:
-  - Lipoic acid metabolism
-  - Metabolic pathways
-  pathway: Lipoic acid metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: Octanoyl-[acp][c] + Apoprotein[c] <=> |Protein N6-(octanoyl)lysine[c]|
-    + |Acyl-carrier protein[c]|
-- id: R07769
-  name: lipoyl-[acp]:protein N6-lipoyltransferase
-  genes: peg.1154
-  curated: true
-  equation: C16239[c] + C16240[c] => C16237[c] + C00229[c]
-  EggNOG_annotation: peg.1154:Catalyzes the transfer of endogenously produced octanoic
-    acid from octanoyl-acyl-carrier-protein onto the lipoyl domains of lipoate-dependent
-    enzymes. Lipoyl-ACP can also act as a substrate although octanoyl-ACP is likely
-    to be the physiological substrate (By similarity)
-  KEGG_annotation: Athe_0700:K03801 lipoyl(octanoyl) transferase [EC:2.3.1.181] |
-    (GenBank) lipoate-protein ligase B
-  PATRIC_annotation: Octanoate-[acyl-carrier-protein]-protein-N-octanoyltransferase
-    (EC 2.3.1.181)
-  enzymes:
-  - 2.3.1.181
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1154
-  genes_string_NCBI_id: Athe_0700
-  genes_string_PATRIC_id: peg.1154
-  names:
-  - lipoyl-[acp]:protein N6-lipoyltransferase
-  other_pathways:
-  - Lipoic acid metabolism
-  - Metabolic pathways
-  pathway: Lipoic acid metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: Lipoyl-[acp][c] + Apoprotein[c] => |Protein N6-(lipoyl)lysine[c]|
-    + |Acyl-carrier protein[c]|
 - id: R02291
   name: L-Aspartate-4-semialdehyde:NADP+ oxidoreductase (phosphorylating)
   genes: peg.1618
