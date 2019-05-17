@@ -24,5 +24,6 @@ exchange:
 # limits:
 # - include: limits.yaml
 # model:
-# - include: curated_rxns_list.tsv              # a list of curated metabolic rxn IDs.
-# - include: other_rxns_id_list.tsv             # a list of rxn ID, containing transport, biomass, spontaneous and exchange rxns. DO NOT contain id of rxns in "reactions_new_model_reorder.yaml"
+# - include: curated_rxns_list.tsv            # a list of curated metabolic rxn IDs.
+# - include: other_rxns_list.tsv              # a list of rxn IDs, containing transport, biomass, spontaneous and gap rxns. DO NOT contain id of rxns in "reactions_new_model_reorder.yaml".
+# - include: test_rxns_list.tsv               # a list of rxn IDs, including rxns in test.yaml (sinks and sources)

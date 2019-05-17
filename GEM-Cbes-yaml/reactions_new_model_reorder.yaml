@@ -3834,7 +3834,7 @@
 - id: R00946
   name: 5-Methyltetrahydrofolate:L-homocysteine S-methyltransferase
   genes: peg.735
-  equation: C00440[c] + C00155[c] => C00101[c] + C00073[c]
+  equation: C00440[c] + C00155[c] <=> C00101[c] + C00073[c]
   EggNOG_annotation: peg.63:Dihydropteroate synthase, DHPS;   peg.735:Homocysteine
     S-methyltransferase;   peg.736:Methylenetetrahydrofolate reductase;   peg.1205:Dihydropteroate
     synthase, DHPS;   peg.129:corrinoid protein
@@ -3866,7 +3866,7 @@
   pathway: Cysteine and methionine metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: 5-Methyltetrahydrofolate[c] + L-Homocysteine[c] => Tetrahydrofolate[c]
+  translated_equation: 5-Methyltetrahydrofolate[c] + L-Homocysteine[c] <=> Tetrahydrofolate[c]
     + L-Methionine[c]
 - id: R00586
   name: Serine acetyltransferase
@@ -4013,6 +4013,8 @@
   pathway: Cysteine and methionine metabolism
   source: KEGG
   tag: KEGG_Cbes,Cth,Tsac
+  PMID: 28652239
+  note: according to literature, reactions carried by this enzyme are reversile.
   translated_equation: L-Homoserine[c] + NAD+[c] <=> |L-Aspartate 4-semialdehyde[c]| + NADH[c] + H+[c]
 - id: R01775
   name: L-homoserine:NADP+ oxidoreductase
@@ -4046,6 +4048,8 @@
   pathway: Cysteine and methionine metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce,Tsac
+  PMID: 28652239
+  note: according to literature, reactions carried by this enzyme are reversile.
   translated_equation: L-Homoserine[c] + NADP+[c] <=> |L-Aspartate 4-semialdehyde[c]| + NADPH[c] + H+[c]
 - id: R01150
   name: D-alanine:D-alanine ligase (ADP-forming)
@@ -7351,6 +7355,8 @@
     + Dihydrofolate[c]
 - id: R00942
   name: Tetrahydrofolate:L-glutamate gamma-ligase (ADP-forming)
+  genes: peg.1983
+  curated: true
   equation: C00002[c] + C00101[c] + C00025[c] <=> C00008[c] + C00009[c] + C09332[c]
   EggNOG_annotation: peg.1983:folylpolyglutamate synthase dihydrofolate synthase
   KEGG_annotation: peg.1983:-
@@ -7456,40 +7462,40 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: ATP[c] + D-Fructose[c] <=> ADP[c] + |beta-D-Fructose 6-phosphate[c]|
-- id: R01332
-  name: beta-D-mannan hydrolases
-  equation: C02492[c] + (n - 1) C00001[c] <=> (n) C00159[c]
-  EggNOG_annotation: 'peg.625:Glycoside hydrolase, family 2;   peg.2379:Inherit from
-    firmNOG: Mannan endo-1,4-beta-mannosidase;   peg.2375:hydrolase family 9'
-  KEGG_annotation: Athe_1865:K01218 mannan endo-1,4-beta-mannosidase [EC:3.2.1.78]
-    | (GenBank) glycoside hydrolase family 9;   Athe_1859:K01218 mannan endo-1,4-beta-mannosidase
-    [EC:3.2.1.78] | (GenBank) glycoside hydrolase family 5;   Athe_0227:K01192 beta-mannosidase
-    [EC:3.2.1.25] | (GenBank) glycoside hydrolase family 2 sugar binding
-  PATRIC_annotation: Beta-mannosidase (EC 3.2.1.25) or Mannan endo-1,4-beta-mannosidase
-    (EC 3.2.1.78) / beta-1,4-glucanase (cellulase) (EC 3.2.1.4) / Domain of unknown
-    function or Glucan 1,4-beta-glucosidase (EC 3.2.1.74) / Mannan endo-1,4-beta-mannosidase
-    (EC 3.2.1.78)
-  comment: 'multi-step reaction
+# - id: R01332
+#   name: beta-D-mannan hydrolases
+#   equation: C02492[c] + (n - 1) C00001[c] <=> (n) C00159[c]
+#   EggNOG_annotation: 'peg.625:Glycoside hydrolase, family 2;   peg.2379:Inherit from
+#     firmNOG: Mannan endo-1,4-beta-mannosidase;   peg.2375:hydrolase family 9'
+#   KEGG_annotation: Athe_1865:K01218 mannan endo-1,4-beta-mannosidase [EC:3.2.1.78]
+#     | (GenBank) glycoside hydrolase family 9;   Athe_1859:K01218 mannan endo-1,4-beta-mannosidase
+#     [EC:3.2.1.78] | (GenBank) glycoside hydrolase family 5;   Athe_0227:K01192 beta-mannosidase
+#     [EC:3.2.1.25] | (GenBank) glycoside hydrolase family 2 sugar binding
+#   PATRIC_annotation: Beta-mannosidase (EC 3.2.1.25) or Mannan endo-1,4-beta-mannosidase
+#     (EC 3.2.1.78) / beta-1,4-glucanase (cellulase) (EC 3.2.1.4) / Domain of unknown
+#     function or Glucan 1,4-beta-glucosidase (EC 3.2.1.74) / Mannan endo-1,4-beta-mannosidase
+#     (EC 3.2.1.78)
+#   comment: 'multi-step reaction
 
-    endo-hydrolysis (ec 3.2.1.78, see R08612)
+#     endo-hydrolysis (ec 3.2.1.78, see R08612)
 
-    exo-hydrolysis (ec 3.2.1.25, see R08614)'
-  enzymes:
-  - 3.2.1.25
-  - 3.2.1.78
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.2375,peg.2379,peg.625
-  genes_string_NCBI_id: Athe_0227,Athe_1859,Athe_1865
-  genes_string_PATRIC_id: peg.625,peg.2379,peg.2375
-  names:
-  - beta-D-mannan hydrolases
-  other_pathways:
-  - Fructose and mannose metabolism
-  pathway: Fructose and mannose metabolism
-  source: KEGG
-  tag: KEGG_Cbes
+#     exo-hydrolysis (ec 3.2.1.25, see R08614)'
+#   enzymes:
+#   - 3.2.1.25
+#   - 3.2.1.78
+#   genes_Cce: None
+#   genes_Cth: None
+#   genes_Tsac: None
+#   genes_kegg: peg.2375,peg.2379,peg.625
+#   genes_string_NCBI_id: Athe_0227,Athe_1859,Athe_1865
+#   genes_string_PATRIC_id: peg.625,peg.2379,peg.2375
+#   names:
+#   - beta-D-mannan hydrolases
+#   other_pathways:
+#   - Fructose and mannose metabolism
+#   pathway: Fructose and mannose metabolism
+#   source: KEGG
+#   tag: KEGG_Cbes
 - id: R01818
   name: D-mannose 6-phosphate 1,6-phosphomutase
   equation: C00275[c] <=> C00636[c]
@@ -9556,7 +9562,7 @@
   translated_equation: ATP[c] + Acetate[c] + CoA[c] <=> AMP[c] + Diphosphate[c] +
     Acetyl-CoA[c]
 - id: R00431
-  name: GTP:oxaloacetate carboxy-lyase
+  name: GTP:oxaloacetate carboxylyase
   genes: peg.808
   equation: C00044[c] + C00036[c] => C00035[c] + C00074[c] + C00011[c]
   EggNOG_annotation: peg.808:Catalyzes the conversion of oxaloacetate (OAA) to phosphoenolpyruvate
@@ -11265,7 +11271,7 @@
 - id: R07168
   name: 5-methyltetrahydrofolate:NAD+ oxidoreductase
   genes: peg.736
-  equation: C00440[c] + C00003[c] <=> C00143[c] + C00004[c] + C00080[c]
+  equation: C00440[c] + C00003[c] <= C00143[c] + C00004[c] + C00080[c]
   EggNOG_annotation: peg.736:Methylenetetrahydrofolate reductase
   KEGG_annotation: Athe_0325:K00297 methylenetetrahydrofolate reductase (NADPH) [EC:1.5.1.20]
     K00547 homocysteine S-methyltransfe
@@ -11288,15 +11294,15 @@
   - Metabolic pathways
   - Microbial metabolism in diverse environments
   - Carbon metabolism
-  pathway: Methionine biosynthesis
+  pathway: Cysteine and methionine metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: 5-Methyltetrahydrofolate[c] + NAD+[c] <=> 5,10-Methylenetetrahydrofolate[c]
+  translated_equation: 5-Methyltetrahydrofolate[c] + NAD+[c] <= 5,10-Methylenetetrahydrofolate[c]
     + NADH[c] + H+[c]
 - id: R01224
   name: 5-methyltetrahydrofolate:NADP+ oxidoreductase
   genes: peg.736
-  equation: C00440[c] + C00006[c] <=> C00143[c] + C00005[c] + C00080[c]
+  equation: C00440[c] + C00006[c] <= C00143[c] + C00005[c] + C00080[c]
   EggNOG_annotation: peg.736:Methylenetetrahydrofolate reductase
   KEGG_annotation: Athe_0325:K00297 methylenetetrahydrofolate reductase (NADPH) [EC:1.5.1.20]
     K00547 homocysteine S-methyltransfe
@@ -11320,7 +11326,7 @@
   pathway: Methionine biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: 5-Methyltetrahydrofolate[c] + NADP+[c] <=> 5,10-Methylenetetrahydrofolate[c]
+  translated_equation: 5-Methyltetrahydrofolate[c] + NADP+[c] <= 5,10-Methylenetetrahydrofolate[c]
     + NADPH[c] + H+[c]
 - id: FDH2
   name: formatedehydrogenase(quinone-8:2protons)
@@ -13370,40 +13376,40 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: tRNA[c] + Orthophosphate[c] <=> tRNA[c] + NDP[c]
-- id: R10813
-  name: nucleoside-triphosphate:nucleoside-triphosphate nucleotidyltransferase (DNA-directed)
-  equation: (n) C00201[c] <=> C20864(n)[c] + (n - 1) C00013[c]
-  EggNOG_annotation: peg.1517:Promotes RNA polymerase assembly. Latches the N- and
-    C- terminal regions of the beta' subunit thereby facilitating its interaction
-    with the beta and alpha subunits (By similarity);   peg.1264:DNA-dependent RNA
-    polymerase catalyzes the transcription of DNA into RNA using the four ribonucleoside
-    triphosphates as substrates (By similarity);   peg.2226:DNA-dependent RNA polymerase
-    catalyzes the transcription of DNA into RNA using the four ribonucleoside triphosphates
-    as substrates (By similarity);   peg.1263:DNA-dependent RNA polymerase catalyzes
-    the transcription of DNA into RNA using the four ribonucleoside triphosphates
-    as substrates (By similarity)
-  KEGG_annotation: Athe_1717:K03040 DNA-directed RNA polymerase subunit alpha [EC:2.7.7.6]
-    | (GenBank) DNA-directed RNA polymeras;   Athe_0804:K03043 DNA-directed RNA polymerase
-    subunit beta [EC:2.7.7.6] | (GenBank) DNA-directed RNA polymerase;   Athe_1036:K03060
-    DNA-directed RNA polymerase subunit omega [EC:2.7.7.6] | (GenBank) DNA-directed
-    RNA polymeras;   Athe_0805:K03046 DNA-directed RNA polymerase subunit beta' [EC:2.7.7.6]
-    | (GenBank) DNA-directed RNA polymeras
-  PATRIC_annotation: DNA-directed RNA polymerase omega subunit (EC 2.7.7.6) or DNA-directed
-    RNA polymerase beta' subunit (EC 2.7.7.6) or DNA-directed RNA polymerase alpha
-    subunit (EC 2.7.7.6) or DNA-directed RNA polymerase beta subunit (EC 2.7.7.6)
-  enzymes:
-  - 2.7.7.6
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.2226,peg.1263,peg.1517,peg.1264
-  genes_string_NCBI_id: Athe_1036,Athe_0805,Athe_1717,Athe_0804
-  genes_string_PATRIC_id: peg.1517,peg.1264,peg.2226,peg.1263
-  names:
-  - nucleoside-triphosphate:nucleoside-triphosphate nucleotidyltransferase (DNA-directed)
-  pathway: None
-  source: KEGG
-  tag: KEGG_Cbes
+# - id: R10813
+#   name: nucleoside-triphosphate:nucleoside-triphosphate nucleotidyltransferase (DNA-directed)
+#   equation: (n) C00201[c] <=> C20864(n)[c] + (n - 1) C00013[c]
+#   EggNOG_annotation: peg.1517:Promotes RNA polymerase assembly. Latches the N- and
+#     C- terminal regions of the beta' subunit thereby facilitating its interaction
+#     with the beta and alpha subunits (By similarity);   peg.1264:DNA-dependent RNA
+#     polymerase catalyzes the transcription of DNA into RNA using the four ribonucleoside
+#     triphosphates as substrates (By similarity);   peg.2226:DNA-dependent RNA polymerase
+#     catalyzes the transcription of DNA into RNA using the four ribonucleoside triphosphates
+#     as substrates (By similarity);   peg.1263:DNA-dependent RNA polymerase catalyzes
+#     the transcription of DNA into RNA using the four ribonucleoside triphosphates
+#     as substrates (By similarity)
+#   KEGG_annotation: Athe_1717:K03040 DNA-directed RNA polymerase subunit alpha [EC:2.7.7.6]
+#     | (GenBank) DNA-directed RNA polymeras;   Athe_0804:K03043 DNA-directed RNA polymerase
+#     subunit beta [EC:2.7.7.6] | (GenBank) DNA-directed RNA polymerase;   Athe_1036:K03060
+#     DNA-directed RNA polymerase subunit omega [EC:2.7.7.6] | (GenBank) DNA-directed
+#     RNA polymeras;   Athe_0805:K03046 DNA-directed RNA polymerase subunit beta' [EC:2.7.7.6]
+#     | (GenBank) DNA-directed RNA polymeras
+#   PATRIC_annotation: DNA-directed RNA polymerase omega subunit (EC 2.7.7.6) or DNA-directed
+#     RNA polymerase beta' subunit (EC 2.7.7.6) or DNA-directed RNA polymerase alpha
+#     subunit (EC 2.7.7.6) or DNA-directed RNA polymerase beta subunit (EC 2.7.7.6)
+#   enzymes:
+#   - 2.7.7.6
+#   genes_Cce: None
+#   genes_Cth: None
+#   genes_Tsac: None
+#   genes_kegg: peg.2226,peg.1263,peg.1517,peg.1264
+#   genes_string_NCBI_id: Athe_1036,Athe_0805,Athe_1717,Athe_0804
+#   genes_string_PATRIC_id: peg.1517,peg.1264,peg.2226,peg.1263
+#   names:
+#   - nucleoside-triphosphate:nucleoside-triphosphate nucleotidyltransferase (DNA-directed)
+#   pathway: None
+#   source: KEGG
+#   tag: KEGG_Cbes
 - id: R09383
   name: CTP:tRNA cytidylyltransferase
   equation: C02211[c] + C00063[c] <=> C19078[c] + C00013[c]
@@ -15005,7 +15011,9 @@
     H+[c]
 - id: R02016
   name: NADPH:oxidized-thioredoxin oxidoreductase
-  equation: C00342[c] + C00006[c] <=> C00343[c] + C00005[c] + C00080[c]
+  genes: peg.154
+  curated: true
+  equation: C00342[c] + C00006[c] <= C00343[c] + C00005[c] + C00080[c]
   EggNOG_annotation: peg.154:reductase
   KEGG_annotation: peg.154:-
   PATRIC_annotation: Thioredoxin reductase (EC 1.8.1.9)
@@ -15019,10 +15027,11 @@
   genes_string_PATRIC_id: peg.154
   names:
   - NADPH:oxidized-thioredoxin oxidoreductase
-  pathway: None
+  pathway: Purine metabolism
+  note: 
   source: KEGG
   tag: Cce,Cth,Tsac
-  translated_equation: Thioredoxin[c] + NADP+[c] <=> |Thioredoxin disulfide[c]| +
+  translated_equation: Thioredoxin[c] + NADP+[c] <= |Thioredoxin disulfide[c]| +
     NADPH[c] + H+[c]
 - id: R00284
   name: ammonia:acceptor oxidoreductase
@@ -16683,7 +16692,9 @@
     => ADP[c] + 5-amino-1-(5-phospho-D-ribosyl)imidazole[c] + (2) H+[c] + Phosphate[c]
 - id: R02301
   name: 5-Formyltetrahydrofolate cyclo-ligase (ADP-forming)
-  equation: C00002[c] + C03479[c] + C00080[c] <=> C00008[c] + C00009[c] + C00445[c]
+  genes: peg.1747
+  curated: true
+  equation: C00002[c] + C03479[c] + C00080[c] => C00008[c] + C00009[c] + C00445[c]
   EggNOG_annotation: peg.1747:5-formyltetrahydrofolate cycloligase
   KEGG_annotation: peg.1747:-
   PATRIC_annotation: 5-formyltetrahydrofolate cyclo-ligase (EC 6.3.3.2)
@@ -16703,10 +16714,12 @@
   pathway: One carbon pool by folate
   source: KEGG
   tag: Cce,Cth
-  translated_equation: ATP[c] + |Folinic acid[c]| + H+[c] <=> ADP[c] + Orthophosphate[c]
+  translated_equation: ATP[c] + |Folinic acid[c]| + H+[c] => ADP[c] + Orthophosphate[c]
     + 5,10-Methenyltetrahydrofolate[c]
 - id: R00943
   name: Formate:tetrahydrofolate ligase (ADP-forming)
+  genes: peg.2770
+  curated: true
   equation: C00101[c] + C00058[c] + C00002[c] <=> C00008[c] + C00009[c] + C00234[c]
   EggNOG_annotation: peg.1461:Catalyzes the oxidation of 5,10- methylenetetrahydrofolate
     to 5,10-methenyltetrahydrofolate and then the hydrolysis of 5,10-methenyltetrahydrofolate
@@ -16737,130 +16750,10 @@
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: Tetrahydrofolate[c] + Formate[c] + ATP[c] <=> ADP[c] + Orthophosphate[c]
     + 10-Formyltetrahydrofolate[c]
-- id: R00939
-  name: 5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase
-  genes: unknown
-  curated: true
-  equation: C00101[c] + C00006[c] <=> C00415[c] + C00005[c] + C00080[c]
-  EggNOG_annotation: peg.611:Short-chain dehydrogenase reductase SDR;   peg.2965:Short-chain
-    dehydrogenase reductase SDR;   peg.1639:reductase;   peg.932:dehydrogenase reductase;   peg.1152:Short-chain
-    dehydrogenase reductase SDR
-  KEGG_annotation: Athe_0698:K00068 sorbitol-6-phosphate 2-dehydrogenase [EC:1.1.1.140]
-    | (GenBank) short-chain dehydrogenase/red;   Athe_0213:no KO assigned | (GenBank)
-    short-chain dehydrogenase/reductase SDR;   Athe_0501:no KO assigned | (GenBank)
-    short-chain dehydrogenase/reductase SDR;   Athe_2383:K00065 2-dehydro-3-deoxy-D-gluconate
-    5-dehydrogenase [EC:1.1.1.127] | (GenBank) 2-deoxy-D-gluconate;   Athe_1156:K00059
-    3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100] | (GenBank) 3-oxoacyl-(acyl-carrier
-  PATRIC_annotation: Oxidoreductase, short-chain dehydrogenase/reductase family or
-    2-dehydro-3-deoxy-D-gluconate 5-dehydrogenase (EC 1.1.1.127) @ 2-deoxy-D-gluconate
-    3-dehydrogenase (EC 1.1.1.125) or 3-oxoacyl-[acyl-carrier protein] reductase
-    (EC 1.1.1.100), FadG or Short-chain dehydrogenase/reductase SDR? or Oxidoreductase,
-    short-chain dehydrogenase/reductase family
-  comment: NADH (see R00936)
-  enzymes:
-  - 1.5.1.3
-  genes_Cce: '-'
-  genes_Cth: '-'
-  genes_Tsac: (peg.1152 or peg.1639 or peg.2965 or peg.611 or peg.932)
-  genes_kegg: None
-  genes_string_NCBI_id: Athe_0213,Athe_2383,Athe_1156,Athe_0501,Athe_0698
-  genes_string_PATRIC_id: peg.611,peg.2965,peg.1639,peg.932,peg.1152
-  names:
-  - 5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase
-  other_pathways:
-  - One carbon pool by folate
-  - Folate biosynthesis
-  - Metabolic pathways
-  pathway: Folate biosynthesis
-  source: KEGG
-  tag: Tsac
-  translated_equation: Tetrahydrofolate[c] + NADP+[c] <=> Dihydrofolate[c] + NADPH[c]
-    + H+[c]
-- id: R00936
-  name: 5,6,7,8-tetrahydrofolate:NAD+ oxidoreductase
-  genes: unknown
-  curated: true
-  names:
-  - 5,6,7,8-tetrahydrofolate:NAD+ oxidoreductase
-  equation: C00101 + C00003 <=> C00415 + C00004 + C00080
-  enzymes:
-  - 1.5.1.3
-  pathways:
-  - One carbon pool by folate
-  - Folate biosynthesis
-  - Metabolic pathways
-  pathway: Folate biosynthesis
-  comment: NADPH (see R00939)
-  translated_equation: Tetrahydrofolate + NAD+ <=> Dihydrofolate + NADH + H+
-  genes_kegg: None
-- id: R02235
-  name: dihydrofolate:NAD+ oxidoreductase
-  genes: unknown
-  curated: true
-  names:
-  - dihydrofolate:NAD+ oxidoreductase
-  equation: C00415 + C00003 <=> C00504 + C00004 + C00080
-  enzymes:
-  - 1.5.1.3
-  pathways:
-  - One carbon pool by folate
-  - Folate biosynthesis
-  - Metabolic pathways
-  pathway: Folate biosynthesis
-  translated_eqaution: Dihydrofolate + NAD+ <=> Folate + NADH + H+
-  genes_kegg: None
-- id: R02236
-  name: dihydrofolate:NADP+ oxidoreductase
-  genes: unknown
-  curated: true
-  names:
-  - dihydrofolate:NADP+ oxidoreductase
-  equation: C00415 + C00006 <=> C00504 + C00005 + C00080
-  enzymes:
-  - 1.5.1.3
-  pathways:
-  - One carbon pool by folate
-  - Folate biosynthesis
-  - Metabolic pathways
-  pathway: Folate biosynthesis
-  genes_kegg: None
-  translated_equation: Dihydrofolate + NADP+ <=> Folate + NADPH + H+
-- id: R00937
-  name: 5,6,7,8-tetrahydrofolate:NAD+ oxidoreductase
-  genes: unknown
-  curated: true
-  names:
-  - 5,6,7,8-tetrahydrofolate:NAD+ oxidoreductase
-  equation: C00101 + 2 C00003 <= C00504 + 2 C00004 + 2 C00080
-  enzymes:
-  - 1.5.1.3
-  pathways:
-  - One carbon pool by folate
-  - Folate biosynthesis
-  - Metabolic pathways
-  comment: 'two-step reaction (see R00936+R02235), NADP+ (see R00940)'
-  pathway: Folate biosynthesis
-  genes_kegg: None
-  translated_equation: Tetrahydrofolate + 2 NAD+ <= Folate + 2 NADH + 2 H+
-- id: R00940
-  name: 5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase
-  genes: unknown
-  curated: true
-  names:
-  - 5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase
-  equation: C00101 + 2 C00006 <= C00504 + 2 C00005 + 2 C00080
-  enzymes:
-  - 1.5.1.3
-  pathways:
-  - One carbon pool by folate
-  - Folate biosynthesis
-  - Metabolic pathways
-  comment: 'two-step reaction (see R00939+R02236), NAD+ (see R00937)'
-  pathway: Folate biosynthesis
-  genes_kegg: None
-  translated_equation: Tetrahydrofolate + 2 NADP+ <= Folate + 2 NADPH + 2 H+
 - id: R01655
   name: 5,10-Methenyltetrahydrofolate 5-hydrolase (decyclizing)
+  genes: peg.1461
+  curated: true
   equation: C00445[c] + C00001[c] <=> C00234[c] + C00080[c]
   EggNOG_annotation: peg.1461:Catalyzes the oxidation of 5,10- methylenetetrahydrofolate
     to 5,10-methenyltetrahydrofolate and then the hydrolysis of 5,10-methenyltetrahydrofolate
@@ -16893,6 +16786,8 @@
     + H+[c]
 - id: R01220
   name: 5,10-methylenetetrahydrofolate:NADP+ oxidoreductase
+  genes: peg.1461
+  curated: true
   equation: C00143[c] + C00006[c] <=> C00445[c] + C00005[c]
   EggNOG_annotation: peg.1461:Catalyzes the oxidation of 5,10- methylenetetrahydrofolate
     to 5,10-methenyltetrahydrofolate and then the hydrolysis of 5,10-methenyltetrahydrofolate
@@ -16950,29 +16845,31 @@
   tag: Cth,Tsac
   translated_equation: L-Methionyl-tRNA[c] + 10-Formyltetrahydrofolate[c] => Tetrahydrofolate[c]
     + N-Formylmethionyl-tRNA[c]
-- id: R04326
-  equation: C03838[c] + C00445[c] + C00001[c] => C04376[c] + C00101[c]
-  EggNOG_annotation: peg.1938:phosphoribosylglycinamide formyltransferase
-  KEGG_annotation: Athe_1446:K11175 phosphoribosylglycinamide formyltransferase 1
-    [EC:2.1.2.2] | (GenBank) phosphoribosylglycinam
-  PATRIC_annotation: Phosphoribosylglycinamide formyltransferase (EC 2.1.2.2)
-  enzymes:
-  - 2.1.2.2
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1938
-  genes_string_NCBI_id: Athe_1446
-  genes_string_PATRIC_id: peg.1938
-  names: []
-  other_pathways:
-  - One carbon pool by folate
-  - Metabolic pathways
-  pathway: One carbon pool by folate
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: 5'-Phosphoribosylglycinamide[c] + 5,10-Methenyltetrahydrofolate[c]
-    + H2O[c] => 5'-Phosphoribosyl-N-formylglycinamide[c] + Tetrahydrofolate[c]
+# - id: R04326
+#   equation: C03838[c] + C00445[c] + C00001[c] => C04376[c] + C00101[c]
+#   genes: peg.1938
+#   curated: true
+#   EggNOG_annotation: peg.1938:phosphoribosylglycinamide formyltransferase
+#   KEGG_annotation: Athe_1446:K11175 phosphoribosylglycinamide formyltransferase 1
+#     [EC:2.1.2.2] | (GenBank) phosphoribosylglycinam
+#   PATRIC_annotation: Phosphoribosylglycinamide formyltransferase (EC 2.1.2.2)
+#   enzymes:
+#   - 2.1.2.2
+#   genes_Cce: None
+#   genes_Cth: None
+#   genes_Tsac: None
+#   genes_kegg: peg.1938
+#   genes_string_NCBI_id: Athe_1446
+#   genes_string_PATRIC_id: peg.1938
+#   names: []
+#   other_pathways:
+#   - One carbon pool by folate
+#   - Metabolic pathways
+#   pathway: One carbon pool by folate
+#   source: KEGG
+#   tag: KEGG_Cbes
+#   translated_equation: 5'-Phosphoribosylglycinamide[c] + 5,10-Methenyltetrahydrofolate[c]
+#     + H2O[c] => 5'-Phosphoribosyl-N-formylglycinamide[c] + Tetrahydrofolate[c]
 - id: NFNab
   name: Bifurcating ferredoxin-NAD(P) oxidoreductase
   equation: (2) nadp[c] + nadh[c] + fdred[c] => h2[c] + (2) nadph[c] + nad[c] +
@@ -19461,7 +19358,7 @@
 - id: R01251
   name: L-Proline:NADP+ 5-oxidoreductase
   genes: peg.1827
-  equation: C00148[c] + C00006[c] <=> C03912[c] + C00005[c] + C00080[c]
+  equation: C00148[c] + C00006[c] <= C03912[c] + C00005[c] + C00080[c]
   EggNOG_annotation: peg.1827:pyrroline-5-carboxylate reductase
   KEGG_annotation: Athe_1339:K00286 pyrroline-5-carboxylate reductase [EC:1.5.1.2]
     | (GenBank) pyrroline-5-carboxylate reductase
@@ -19489,10 +19386,12 @@
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: L-Proline[c] + NADP+[c] <=> (S)-1-Pyrroline-5-carboxylate[c]
     + NADPH[c] + H+[c]
+  PMID: 12133
+  note: change direction based on literature and iJO1366 model
 - id: R01248
   name: L-Proline:NAD+ 5-oxidoreductase
   genes: peg.1827
-  equation: C00148[c] + C00003[c] <=> C03912[c] + C00004[c] + C00080[c]
+  equation: C00148[c] + C00003[c] <= C03912[c] + C00004[c] + C00080[c]
   EggNOG_annotation: peg.1827:pyrroline-5-carboxylate reductase
   KEGG_annotation: Athe_1339:K00286 pyrroline-5-carboxylate reductase [EC:1.5.1.2]
     | (GenBank) pyrroline-5-carboxylate reductase
@@ -19520,6 +19419,8 @@
   tag: KEGG_Cbes,Cth,Tsac
   translated_equation: L-Proline[c] + NAD+[c] <=> (S)-1-Pyrroline-5-carboxylate[c]
     + NADH[c] + H+[c]
+  PMID: 12133
+  note: change direction based on literature and uniprot https://www.uniprot.org/uniprot/P0A9L8 
 - id: R00239
   name: ATP:L-glutamate 5-phosphotransferase
   genes: peg.2154
@@ -19699,7 +19600,9 @@
     + CoA[c]
 - id: R01000
   name: 2-hydroxybutyrate:NAD+ oxidoreductase
+  genes: peg.2434
   equation: C05984[c] + C00003[c] <=> C00109[c] + C00004[c] + C00080[c]
+  curated: true
   EggNOG_annotation: peg.2434:L-lactate dehydrogenase
   KEGG_annotation: Athe_1918:K00016 L-lactate dehydrogenase [EC:1.1.1.27] | (GenBank)
     L-lactate dehydrogenase
@@ -21609,7 +21512,7 @@
   name: 10-Formyltetrahydrofolate:5'-phosphoribosylglycinamide formyltransferase
   genes: peg.1938
   curated: true
-  equation: C00234[c] + C03838[c] => C00101[c] + C04376[c]
+  equation: C00234[c] + C03838[c] <=> C00101[c] + C04376[c]
   EggNOG_annotation: peg.1938:phosphoribosylglycinamide formyltransferase
   KEGG_annotation: Athe_1446:K11175 phosphoribosylglycinamide formyltransferase 1
     [EC:2.1.2.2] | (GenBank) phosphoribosylglycinam
@@ -21634,13 +21537,13 @@
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: 10-Formyltetrahydrofolate[c] + 5'-Phosphoribosylglycinamide[c]
-    => Tetrahydrofolate[c] + 5'-Phosphoribosyl-N-formylglycinamide[c]
+    <=> Tetrahydrofolate[c] + 5'-Phosphoribosyl-N-formylglycinamide[c]
 - id: R04560
   name: 10-Formyltetrahydrofolate:5'-phosphoribosyl-5-amino-4-imidazolecarboxamide
     formyltransferase
   genes: peg.1937
   curated: true
-  equation: C00234[c] + C04677[c] => C00101[c] + C04734[c]
+  equation: C00234[c] + C04677[c] <=> C00101[c] + C04734[c]
   EggNOG_annotation: peg.1937:Bifunctional purine biosynthesis protein PurH
   KEGG_annotation: Athe_1445:K00602 phosphoribosylaminoimidazolecarboxamide formyltransferase
     / IMP cyclohydrolase [EC:2.1.2.3 3.
@@ -21666,7 +21569,7 @@
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: 10-Formyltetrahydrofolate[c] + 1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide[c]
-    => Tetrahydrofolate[c] + 1-(5'-Phosphoribosyl)-5-formamido-4-imidazolecarboxamide[c]
+    <=> Tetrahydrofolate[c] + 1-(5'-Phosphoribosyl)-5-formamido-4-imidazolecarboxamide[c]
 - id: R01127
   name: IMP 1,2-hydrolase (decyclizing)
   genes: peg.1937
@@ -22825,7 +22728,7 @@
   name: '5,10-methylenetetrahydrofolate,NADPH:dUMP C-methyltransferase'
   genes: peg.2590
   curated: true
-  equation: C00143[c] + C00365[c] + C00005[c] + C00080[c] => C00101[c] + C00364[c]
+  equation: C00143[c] + C00365[c] + C00005[c] + C00080[c] <=> C00101[c] + C00364[c]
     + C00006[c]
   EggNOG_annotation: peg.2590:Catalyzes the formation of dTMP and tetrahydrofolate
     from dUMP and methylenetetrahydrofolate (By similarity)
@@ -22850,7 +22753,7 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: 5,10-Methylenetetrahydrofolate[c] + dUMP[c] + NADPH[c] + H+[c]
-    => Tetrahydrofolate[c] + dTMP[c] + NADP+[c]
+    <=> Tetrahydrofolate[c] + dTMP[c] + NADP+[c]
 - id: R01397
   name: carbamoyl-phosphate:L-aspartate carbamoyltransferase
   genes: peg.1865
@@ -23669,33 +23572,33 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: beta-D-Glucoside[c] + H2O[c] <=> D-Glucose[c] + ROH[c]
-- id: R02887
-  name: 1,4-beta-D-Glucan glucohydrolase
-  equation: C01898[c] + (n - 2) C00001[c] <=> (n - 2) C00031[c] + C00185[c]
-  EggNOG_annotation: peg.2930:Glycoside hydrolase family 3 domain protein;   peg.878:hydrolase,
-    family 1
-  KEGG_annotation: Athe_2354:K05349 beta-glucosidase [EC:3.2.1.21] | (GenBank) glycoside
-    hydrolase family 3 domain protein;   Athe_0458:K05350 beta-glucosidase [EC:3.2.1.21]
-    | (GenBank) beta-galactosidase
-  PATRIC_annotation: Xylan 1,4-beta-xylosidase (EC 3.2.1.37) @ Arabinan endo-1,5-alpha-L-arabinosidase
-    (EC 3.2.1.99) or beta-glucosidase (EC 3.2.1.21)
-  enzymes:
-  - 3.2.1.21
-  - 3.2.1.74
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.2930,peg.878
-  genes_string_NCBI_id: Athe_2354,Athe_0458
-  genes_string_PATRIC_id: peg.2930,peg.878
-  names:
-  - 1,4-beta-D-Glucan glucohydrolase
-  other_pathways:
-  - Starch and sucrose metabolism
-  - Metabolic pathways
-  pathway: Starch and sucrose metabolism
-  source: KEGG
-  tag: KEGG_Cbes
+# - id: R02887
+#   name: 1,4-beta-D-Glucan glucohydrolase
+#   equation: C01898[c] + (n - 2) C00001[c] <=> (n - 2) C00031[c] + C00185[c]
+#   EggNOG_annotation: peg.2930:Glycoside hydrolase family 3 domain protein;   peg.878:hydrolase,
+#     family 1
+#   KEGG_annotation: Athe_2354:K05349 beta-glucosidase [EC:3.2.1.21] | (GenBank) glycoside
+#     hydrolase family 3 domain protein;   Athe_0458:K05350 beta-glucosidase [EC:3.2.1.21]
+#     | (GenBank) beta-galactosidase
+#   PATRIC_annotation: Xylan 1,4-beta-xylosidase (EC 3.2.1.37) @ Arabinan endo-1,5-alpha-L-arabinosidase
+#     (EC 3.2.1.99) or beta-glucosidase (EC 3.2.1.21)
+#   enzymes:
+#   - 3.2.1.21
+#   - 3.2.1.74
+#   genes_Cce: None
+#   genes_Cth: None
+#   genes_Tsac: None
+#   genes_kegg: peg.2930,peg.878
+#   genes_string_NCBI_id: Athe_2354,Athe_0458
+#   genes_string_PATRIC_id: peg.2930,peg.878
+#   names:
+#   - 1,4-beta-D-Glucan glucohydrolase
+#   other_pathways:
+#   - Starch and sucrose metabolism
+#   - Metabolic pathways
+#   pathway: Starch and sucrose metabolism
+#   source: KEGG
+#   tag: KEGG_Cbes
 - id: R03122
   name: Cyclomaltodextrin dextrin-hydrolase (decyclizing)
   equation: C00973[c] + C00001[c] <=> C01935[c]
@@ -27545,34 +27448,6 @@
   tag: None
   genes_Kegg: None
   translated_reaction: S-adenosyl-L-methionine[c] + 7-aminomethyl-7-carbaguanosine34 in tRNA[c] => L-methionine[c] + adenine[c] + epoxyqueuosine34 in tRNA[c]
-- id: R03789
-  name: tRNA-guanosine34:queuine tRNA-D-ribosyltransferase
-  genes: peg.797
-  curated: true
-  equation: C01977[c] + C01449[c] => C01978[c] + C00242[c]
-  EggNOG_annotation: peg.797:Exchanges the guanine residue with 7-aminomethyl-7-
-    deazaguanine in tRNAs with GU(N) anticodons (tRNA-Asp, -Asn, -His and -Tyr).
-    After this exchange, a cyclopentendiol moiety is attached to the 7-aminomethyl
-    group of 7-deazaguanine, resulting in the hypermodified nucleoside queuosine
-    (Q) (7-(((4,5-cis- dihydroxy-2-cyclopenten-1-yl)amino)methyl)-7-deazaguanosine)
-    (By similarity)
-  KEGG_annotation: Athe_0382:K00773 queuine tRNA-ribosyltransferase [EC:2.4.2.29]
-    | (GenBank) queuine tRNA-ribosyltransferase
-  PATRIC_annotation: Queuine tRNA-ribosyltransferase (EC 2.4.2.29)
-  enzymes:
-  - 2.4.2.29
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.797
-  genes_string_NCBI_id: Athe_0382
-  genes_string_PATRIC_id: peg.797
-  names:
-  - tRNA-guanosine34:queuine tRNA-D-ribosyltransferase
-  pathway: Queuosine biosynthesis
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: '|tRNA guanine[c]| + Queuine[c] => |tRNA queuine[c]| + Guanine[c]'
 - id: R01724
   name: 5-phospho-alpha-D-ribose 1-diphosphate:nicotinate ligase (ADP, diphosphate-forming)
   genes: None
@@ -27673,3 +27548,28 @@
   source: KEGG_Cbes
   translated_equation: '|Enzyme N6-(dihydrolipoyl)lysine[c]| + NAD+[c] => |Enzyme
     N6-(lipoyl)lysine[c]| + NADH[c] + H+[c]'
+- id: EpxqR
+  name: epoxyqueuosine reductase
+  genes: peg.1598
+  curated: true
+  equation: epxqtrna[c] + C00005[c] + C00080[c] => quetrna[c] + C00006[c] + C00001[c]
+  PATRIC_annotation: peg.1598 - Epoxyqueuosine reductase (EC 1.17.99.6) QueH 
+  note: this enzyme acts on CH or CH2 groups; With unknown physiological acceptors.here the equation 
+    follow EPXQR reaction in iJB785 model, using NADPH as eletron donor
+  enzymes:
+  - 1.17.99.6
+  pathway: Queuosine biosynthesis
+  source: iJB785-EPXQR
+- id: R04241
+  name: Tetrahydrofolate:L-glutamate gamma-ligase (ADP-forming)
+  genes: peg.1983
+  curated: true
+  names:
+  - tetrahydropteroyl-gamma-polyglutamate:L-glutamate gamma-ligase (ADP-forming)
+  equation: C00002[c] + C09332[c] + C00025[c] <=> C00008[c] + C00009[c] + C04144[c]
+  enzymes:
+  - 6.3.2.17
+  pathways:
+  - Folate biosynthesis
+  translated_equation: ATP[c] + THF-polyglutamate(n=2)[c] + L-Glutamate[c] <=> ADP[c] + Orthophosphate[c] + THF-polyglutamate(n=3)[c]
+  

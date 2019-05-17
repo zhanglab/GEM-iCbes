@@ -4,7 +4,7 @@
   genes: peg.1099
   enzymes: TC=1.A.26.1
   equation: C00305[e] => C00305[c]
-  subsystem: Transport
+  pathway: Transport
   tag: transportDB 
   note: only uptake or both direction?
 - id: TrkH
@@ -12,7 +12,7 @@
   genes: peg.639
   enzymes: TC=2.A.38.1.4
   equation: C00238[e] + C00080[e] => C00238[c] + C00080[c]
-  subsystem: Transport
+  pathway: Transport
   tag: transportDB
   note: http://www.tcdb.org/search/result.php?tc=2.A.38#ref6435
 - id: nh4t
@@ -20,7 +20,7 @@
   genes: peg.2614
   enzymes: TC=1.A.11.1
   equation: C01342[e] <=> C01342[c]
-  subsystem: Transport
+  pathway: Transport
   tag: transportDB
 - id: CaNaEx
   name: Sodium/calcium exchanger
@@ -28,7 +28,7 @@
   enzymes:
   - TC=2.A.19.5
   equation: C00076[e] + (3) C01330[c] <=> C00076[c] + (3) C01330[e]
-  subsystem: Transport
+  pathway: Transport
   tag: transportDB
   note: this gene not in filtered(25% identiyty) TCDB blast result; bidirectional or uptake Ca2+? 
 - id: MgCaAT
@@ -36,14 +36,14 @@
   genes: peg.2941
   enzymes: TC=3.A.3.2.28
   equation: C00076[c] + C00305[e] + C00002[c] + C00001[c] => C00076[e] + C00305[c] + C00008[c] + C00009[c]
-  subsystem: Transport
+  pathway: Transport
   tag: TCDB
 - id: caEfflux
   name: Calcium-translocating P-type ATPase, PMCA-type
   genes: peg.2019
   enzymes: TC=3.A.3.2.21
   equation: C00076[c] + (2) C00080[e] + C00002[c] + C00001[c] => C00076[e] + (2) C00080[c] + C00008[c] + C00009[c]
-  subsystem: Transport
+  pathway: Transport
   tag: TCDB
   source: manual curation
   note: the matter of Ca2+/H+ stoichiometry is still controversial
@@ -53,7 +53,7 @@
   genes: peg.1284 and peg.1285 and peg.1286
   enzymes: TC=3.A.1.6.2
   equation: C20679[e] + C00002[c] + C00001[c] => C20679[c] + C00008[c] + C00009[c]
-  subsystem: Transport
+  pathway: Transport
   tag: transportDB & TCDB
   note: formula of C20679 is WH2O4, so the charge is 0
 - id: znABC
@@ -62,7 +62,7 @@
   enzymes:
   - TC=3.A.1.15
   equation: C00038[e] + C00002[c] + C00001[c] => C00038[c] + C00008[c] + C00009[c]
-  subsystem: Transport
+  pathway: Transport
   note: note sure it should be 3.A.1.15.11 or 3.A.1.15.3
   PMID: 28596134(3.A.1.15.3, AdcABC); 12426338(3.A.1.15.11, Zinc uptake)
 - id: MntH
@@ -70,7 +70,7 @@
   genes: peg.1100 or peg.2265
   enzymes: TC=2.A.55.2.6
   equation: C19610[e] + C00080[e] => C19610[c] + C00080[c]
-  subsystem: Transport
+  pathway: Transport
   tag: transportDB & TCDB
   note: eggnog annotate peg.2265 as uptake porter, patric annotate peg.2265 as transporter, so bidirectional or uptake?
     peg.1100 TCDB blast best hit is TC2.A.55.3.6, but PATRIC annotation is MntH (which matches 2.A.55.2.6)
@@ -80,7 +80,7 @@
   genes: peg.1555
   enzymes: TC=2.A.5.5.1
   equation: C00175[e] => C00175[c]
-  subsystem: Transport
+  pathway: Transport
   tag: TCDB
   PMID: 15716430
 - id: znUpt
@@ -89,7 +89,7 @@
   enzymes:
   - TC=2.A.5.5.1
   equation: C00038[e] => C00038[c]
-  subsystem: Transport
+  pathway: Transport
   tag: transportDB & TCDB
   PMID: 15716430
   note: 2.A.5.5.1 is Broad specificity heavy metal divalent cation uptake transporter, but peg.1555 is only annotated as zinc transporter
@@ -98,7 +98,7 @@
   genes: peg.1555
   enzymes: TC=2.A.5.5.1
   equation: C14818[e] => C14818[c]
-  subsystem: Transport
+  pathway: Transport
   tag: TCDB
   PMID: 15716430
 - id: mnUpt
@@ -106,7 +106,7 @@
   genes: peg.1555
   enzymes: TC=2.A.5.5.1
   equation: C19610[e] => C19610[c]
-  subsystem: Transport
+  pathway: Transport
   tag: TCDB
   PMID: 15716430
 - id: znEfflux
@@ -114,7 +114,7 @@
   genes: peg.725
   enzymes: TC=3.A.3.6.10
   equation: C00038[c] + C00001[c] + C00002[c] => C00038[e] + C00008[c] + C00009[c]
-  subsystem: Transport
+  pathway: Transport
   tag: transportDB
   PMID: 12779235
 - id: coEfflux
@@ -122,7 +122,7 @@
   genes: peg.725 or Athe_2280
   enzymes: TC=3.A.3.6.10
   equation: C00175[c] + C00001[c] + C00002[c] => C00175[e] + C00008[c] + C00009[c]
-  subsystem: Transport
+  pathway: Transport
   tag: transportDB
   PMID: 12779235
 - id: cuEfflux
@@ -130,7 +130,7 @@
   genes: peg.2848
   enzymes: TC=3.A.3.5.15
   equation: C00070[e] + C00002[c] + C00001[c] => C00070[c] + C00008[c] + C00009[c]
-  subsystem: Transport
+  pathway: Transport
   tag: TCDB
   PMID: 16151212
   note: export or uptake? TCDB blast result 3.A.3.5.15 shows uptake, but psammotate shows export(Tsac-Cut1)
@@ -139,7 +139,7 @@
   genes: peg.1318 and peg.1319 and peg.1320 and peg.1321
   enzymes: TC=3.A.1.23.5
   equation: C19609[e] + C00002[c] + C00001[c] => C19609[c] + C00008[c] + C00009[c]
-  subsystem: Transport
+  pathway: Transport
   tag: TCDB & PATRIC annotation
   PMID: 24366337
 - id: moABC
@@ -147,7 +147,7 @@
   genes: peg.674 and peg.675 and peg.676
   enzymes: TC=3.A.1.14.11
   equation: C06232[e] + C00002[c] + C00001[c] => C06232[c] + C00008[c] + C00009[c]
-  subsystem: Transport
+  pathway: Transport
   tag: TCDB
   note: not sure and most likely to be wrong. although 3.A.1.14.11 shows it can transfer Molybdate, peg.674 Pfam check shows may involved in iron transport, and PATRIC annotation shows B12/iron complex. 
     blastp of peg.674 shows iron ABC transporter substrate-binding protein.
@@ -156,7 +156,7 @@
   genes: peg.2057 and peg.2058 and peg.2059
   enzymes: TC=9.A.8.1.14
   equation: C14818[e] + C00044[c] + C00001[c] => C14818[c] + C00035[c] + C00009[c]
-  subsystem: Transport
+  pathway: Transport
   tag: transportDB
   source: manual curation
   note: peg.2059 is annotated as FeoA in patric, peg.2057 is annotated as "Ferric uptake regulation protein FUR"
@@ -166,7 +166,7 @@
   genes: peg.1644 and peg.1645 and peg.1646
   enzymes: TC=3.A.1.7.5
   equation: C00009[e] + C00002[c] + C00001[c] => (2) C00009[c] + C00008[c]
-  subsystem: Transport
+  pathway: Transport
   tag: transportDB
   note: PATRIC annotation is 3.A.1.7.1, but nest hit of TCDB blastp is 3.A.1.7.5; lack PtsB (ATP-binding protein)
   PMID: 24318969 
@@ -175,7 +175,7 @@
   genes: peg.1978
   enzymes: TC=2.A.20.1.7
   equation: C00009[e] + C00080[e] => C00009[c] + C00080[c]
-  subsystem: Transport
+  pathway: Transport
   tag: transportDB
   note: probably low affinity; H+ or Na+ not sure
 - id: hco3ABC
@@ -183,7 +183,7 @@
   genes: peg.1668 and peg.1669 
   enzymes: TC=3.A.1.16.3
   equation: C00288[e] + C00002[c] + C00001[c] => C00288[c] + C00008[c] + C00009[c]
-  subsystem: Transport
+  pathway: Transport
   tag: TCDB
   note: not sure, Pfam check doesn't support hco3 transport function
 - id: uraUpt
@@ -191,7 +191,7 @@
   genes: peg.1864
   enzymes: TC=2.A.40.1.1
   equation: C00106[e] + C00080[e] => C00106[c] + C00080[c]
-  subsystem: Transport
+  pathway: Transport
   tag: transportDB
   PMID: 21423164 
 - id: nat
@@ -199,7 +199,7 @@
   genes: peg.1915 and peg.1916 and peg.1917 and peg.1918 and peg.1919 peg.1920 and peg.1921 and peg.1922
   enzymes: TC=3.A.2.1.5
   equation: (4) C01330[c] + C00002[c] + C00001[c] <=> (4) C01330[e] + C00008[c] + C00009[c]
-  subsystem: Transport
+  pathway: Transport
   tag: transportDB & TCDB
   PMID: 8905099, 16816177
   note: trasnpoprtDB get candidate gene(proton as substarte), TCDB get the final function (Na-dependent)
@@ -208,7 +208,7 @@
   genes: peg.1708 and peg.2195 and peg.2196 and peg.2197
   enzymes: TC=2.A.87.1.3
   equation: C00255[e] + C00002[c] + C00001[c] => C00255[c] + C00008[c] + C00009[c]
-  subsystem: Transport
+  pathway: Transport
   tag: transportDB
   note: A, A' and T components (now use 2195-2197, but these may be the ECF cpomplex for specific substrate folate). 
     "mediates riboflavin translocation via a facilitated diffusion mechanism."
@@ -218,7 +218,7 @@
   genes: peg.79
   enzymes: TC=3.A.1.25.5
   equation: C00120[e] + C00080[c] => C00120[c] + C00080[e]
-  subsystem: Transport
+  pathway: Transport
   tag: transportDB
   note: based on 23836870 and 17301237, BioY can transport biotin by itself, dop not need A and T component
   PMID: 23836870, 17301237, 23359690
@@ -227,7 +227,7 @@
   genes: peg.2195 and peg.2196 and peg.2197 and ?
   enzymes: TC=3.A.1.26.10
   equation: C00504[e] + C00002[c] + C00001[c] => C00504[c] + C00008[c] + C00009[c]
-  subsystem: Transport
+  pathway: Transport
   tag: TCDB
   note: lack S component
 - id: PdxU2
@@ -235,7 +235,7 @@
   genes: peg.2278 peg.2195 and peg.2196 and peg.2197
   enzymes: TC=unknown
   equation: C00314[e] + C00002[c] + C00001[c] => C00314[c] + C00008[c] + C00009[c]
-  subsystem: Transport
+  pathway: Transport
   tag: Dima's annotation
   source: manual curation
   note: peg.2278 is annotated as folate transport based on TCDB blastp. In Dima's annotation, 
@@ -245,7 +245,7 @@
   genes: peg.543 and peg.544
   enzymes: TC=4.A.2.1.1
   equation: C04261[c] + C00095[e] => C00615[c] + C01094[c]
-  subsystem: Transport
+  pathway: Transport
   tag: transportDB
 # - id: R03232
 #   name: fructose uptake (PTS system)
@@ -280,7 +280,7 @@
   # equation: C00378[e] + C00002[c] + C00001[c] => C00378[c] + C00008[c] + C00009[c]
   equation: C00378[e] + C00080[c] => C00378[c] + C00080[e]
   enzymes: TC=2.A.88.3.2
-  subsystem: Transport
+  pathway: Transport
   tag: Dima's annotation
   PMID: 18776013
   note: Thiamin = Thiamine = Vitamin B1; equation cites psammotate
@@ -289,48 +289,48 @@
   genes: peg.2411 and peg.2410 and peg.2412
   enzymes: TC=3.A.1.13.1
   equation: C05776[e] + C00002[c] + C00001[c] => C05776[c] + C00008[c] + C00009[c]
-  subsystem: Vitamin B12 uptake
+  pathway: Vitamin B12 uptake
   tag: Dima's annotation
 - id: 4ABZt2r
   name: 4-Aminobenzoate transport via symport
   genes: no gene associated
   equation: C00568[e] + C00080[e] <=> C00568[c] + C00080[c]
-  subsystem: Transport
+  pathway: Transport
   tag: Cce-4ABZt2r
 - id: NACUP
   name: Nicotinic acid uptake
   genes: no gene associated
   equation: C00253[e] => C00253[c]
-  subsystem: Transport
+  pathway: Transport
   tag: Cce-NACUP
 - id: PNTOt2
   name: Pantothenate reversible transport via proton symport
   genes: no gene associated
   equation: C00080[e] + C00864[e] <=> C00080[c] + C00864[c]
-  subsystem: Transport
+  pathway: Transport
   tag: Cce-PNTOt2
 - id: ETOHt1
   name: ethanol transport in/out via diffusion
   genes: no gene associated
   equation: C00469[e] <=> C00469[c]
-  subsystem: Transport
+  pathway: Transport
   tag: Cce-ETOHt1
 - id: ACt6
   name: acetate transport in/out via proton symport
   genes: no gene associated
   equation: C00033[e] + C00080[e] <=> C00033[c] + C00080[c]
-  subsystem: Transport
+  pathway: Transport
   tag: Cce-ACt6
 - id: L-LACt2
   name: L-lactate reversible transport via proton symport
   equation: C00080[e] + C00186[e] <=> C00080[c] + C00186[c]
-  subsystem: Transport
+  pathway: Transport
   tag: (Cce & Tsac)-L-LACt2
 - id: GLCabc
   name: D-glucose transport via ABC system
   genes: peg.2831 and peg.2832 and peg.2833
   equation: (2) C00001[c] + (2) C00002[c] + C00031[e] => (2) C00008[c] + (2) C00009[c] + C00031[c]
-  subsystem: Transport
+  pathway: Transport
   enzymes: TC=3.A.1.1.20
   tag: psammotate-Cce-Glcabc
 
