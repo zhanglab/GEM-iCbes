@@ -1810,7 +1810,7 @@
 - id: R00216
   name: NADP-dependent malate oxidoreductase
   genes: peg.1543
-  equation: C00149[c] + C00006[c] <=> C00022[c] + C00011[c] + C00005[c] + C00080[c]
+  equation: C00149[c] + C00006[c] => C00022[c] + C00011[c] + C00005[c] + C00080[c]
   EggNOG_annotation: peg.1543:Malic enzyme;   peg.1804:Acetyl-CoA carboxylase, carboxyltransferase
     component (subunits alpha and beta);   peg.1807:carboxylase;   peg.1806:Acetyl-CoA
     carboxylase, biotin carboxyl carrier protein
@@ -1834,6 +1834,8 @@
   genes_string_NCBI_id: Athe_1062,Athe_1316,Athe_1319,peg.1806
   names:
   - (S)-malate:NADP+ oxidoreductase (oxaloacetate-decarboxylating)
+  note: reaction direction is based on uniprot description (https://www.uniprot.org/uniprot/P48163)
+    and iJO1366 model
   other_pathways:
   - Pyruvate metabolism
   - Carbon fixation in photosynthetic organisms
@@ -1843,7 +1845,7 @@
   pathway: Citrate cycle (TCA cycle)
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: (S)-Malate[c] + NADP+[c] <=> Pyruvate[c] + CO2[c] + NADPH[c]
+  translated_equation: (S)-Malate[c] + NADP+[c] => Pyruvate[c] + CO2[c] + NADPH[c]
     + H+[c]
 - id: R10991
   name: 2-aminobutanoate:2-oxoglutarate aminotransferase
@@ -3319,7 +3321,7 @@
   pathway: Glycolysis / Gluconeogenesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: GTP[c] + Oxaloacetate[c] <=> GDP[c] + Phosphoenolpyruvate[c]
+  translated_equation: GTP[c] + Oxaloacetate[c] => GDP[c] + Phosphoenolpyruvate[c]
     + CO2[c]
 - id: R01070
   name: beta-D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)
@@ -3685,7 +3687,7 @@
   translated_equation: 2-Phospho-D-glycerate[c] <=> 3-Phospho-D-glycerate[c]
 - id: R07159
   name: glyceraldehyde-3-phosphate ferredoxin oxidoreductase(GOR)
-  genes: fig|31899.10.peg.1279 and fig|31899.10.peg.1280
+  genes: peg.1279 and peg.1280
   equation: C00118[c] + C00001[c] + (2) C00139[c] => C00197[c] + (2) C00080[c] +
     (2) C00138[c]
   ec: 1.2.7.6
@@ -8783,7 +8785,7 @@
 - id: R00424
   name: GTP 7,8-8,9-dihydrolase
   genes: peg.861
-  equation: C00044[c] + C00001[c] <=> C04895[c] + C00058[c]
+  equation: C00044[c] + C00001[c] => C04895[c] + C00058[c]
   EggNOG_annotation: peg.861:Converts GTP to 7,8-dihydroneopterin triphosphate (By
     similarity)
   KEGG_annotation: Athe_0441:K09007 GTP cyclohydrolase IB [EC:3.5.4.16] | (GenBank)
@@ -8804,7 +8806,7 @@
   note: 4 seperated steps are list in YAML, remove this overall reaction here.
   pathway: Queuosine biosynthesis
   source: KEGG_Cbes
-  translated_equation: GTP[c] + H2O[c] <=> |7,8-Dihydroneopterin 3'-triphosphate[c]|
+  translated_equation: GTP[c] + H2O[c] => |7,8-Dihydroneopterin 3'-triphosphate[c]|
     + Formate[c]
 - id: R10002
   name: 6-carboxy-5,6,7,8-tetrahydropterin ammonia-lyase
