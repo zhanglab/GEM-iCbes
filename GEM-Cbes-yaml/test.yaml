@@ -13,6 +13,14 @@
 #   equation: C00009[c] <=>
 # - id: source_gdp
 #   equation: C00035[c] =>
+
+# - id: sink_gtp
+#   equation: C00044[c] =>
+# - id: sink_gdp
+#   equation: C00035[c] =>
+# - id: sink_gmp
+#   equation: C00144[c] =>
+
 # - id: source_nadh
 #   equation: C00004[c] <=>
 # - id: source_nad
@@ -34,6 +42,8 @@
 #   equation: dna[c] =>
 # - id: sink_rna
 #   equation: rna[c] =>
+# - id: sink_oaa
+#   equation: C00036[c] =>
 
 - id: source_oaa
   equation: C00036[c] <=

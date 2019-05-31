@@ -230,7 +230,7 @@
   tag: KEGG_Cbes
   translated_equation: L-Aspartate[c] + H2O[c] + Oxygen[c] => Oxaloacetate[c] + Ammonia[c]
     + |Hydrogen peroxide[c]|
-  note: in this case O2 isn;t replaced by oxygen because fumarate is not a strong oxidants, so it is not resonable enough to use 
+  note: in this case O2 isn't replaced by oxygen because fumarate is not a strong oxidants, so it is not resonable enough to use 
     fumurate as cofactor to drive this function. And no evidence support in this rxn O2 can be replaced by fumarate in anaerobic condition.
 - id: R00768
   name: L-glutamine:D-fructose-6-phosphate isomerase (deaminating)
@@ -484,6 +484,8 @@
     + Phosphate[c] + H+[c] + ADP[c]
 - id: R02060
   name: D-Glucosamine 1-phosphate 1,6-phosphomutase
+  genes: peg.2899
+  curated: true
   equation: C06156[c] <=> C00352[c]
   EggNOG_annotation: peg.2899:Catalyzes the conversion of glucosamine-6-phosphate
     to glucosamine-1-phosphate (By similarity)
@@ -616,7 +618,9 @@
     + NADH[c] + H+[c]
 - id: R03192
   name: UDP-N-acetylmuramate:NADP+ oxidoreductase
-  equation: C01050[c] + C00006[c] <=> C04631[c] + C00005[c] + C00080[c]
+  genes: peg.730
+  curated: true
+  equation: C01050[c] + C00006[c] <= C04631[c] + C00005[c] + C00080[c]
   EggNOG_annotation: peg.730:Cell wall formation (By similarity)
   KEGG_annotation: Athe_0319:K00075 UDP-N-acetylmuramate dehydrogenase [EC:1.3.1.98]
     | (GenBank) UDP-N-acetylenolpyruvoylglucosam
@@ -639,7 +643,7 @@
   pathway: Amino sugar and nucleotide sugar metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: UDP-N-acetylmuramate[c] + NADP+[c] <=> UDP-N-acetyl-3-(1-carboxyvinyl)-D-glucosamine[c]
+  translated_equation: UDP-N-acetylmuramate[c] + NADP+[c] <= UDP-N-acetyl-3-(1-carboxyvinyl)-D-glucosamine[c]
     + NADPH[c] + H+[c]
 - id: R00418
   name: UDP-N-acetyl-D-glucosamine 4-epimerase
@@ -807,7 +811,9 @@
     Diphosphate[c] + UDP-N-acetyl-alpha-D-glucosamine[c]
 - id: R00660
   name: Phosphoenolpyruvate:UDP-N-acetyl-D-glucosamine 1-carboxyvinyl-transferase
-  equation: C00074[c] + C00043[c] <=> C04631[c] + C00009[c]
+  genes: peg.1071 or peg.1238 or peg.605
+  curated: true
+  equation: C00074[c] + C00043[c] => C04631[c] + C00009[c]
   EggNOG_annotation: peg.1071:Cell wall formation. Adds enolpyruvyl to UDP-N- acetylglucosamine
     (By similarity);   peg.1238:Cell wall formation. Adds enolpyruvyl to UDP-N- acetylglucosamine
     (By similarity);   peg.605:Cell wall formation. Adds enolpyruvyl to UDP-N- acetylglucosamine
@@ -838,10 +844,12 @@
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: Phosphoenolpyruvate[c] + UDP-N-acetyl-alpha-D-glucosamine[c]
-    <=> UDP-N-acetyl-3-(1-carboxyvinyl)-D-glucosamine[c] + Orthophosphate[c]
+    => UDP-N-acetyl-3-(1-carboxyvinyl)-D-glucosamine[c] + Orthophosphate[c]
 - id: R05332
   name: Acetyl-CoA:D-glucosamine-1-phosphate N-acetyltransferase
-  equation: C00024[c] + C06156[c] <=> C00010[c] + C04501[c]
+  genes: peg.1076
+  curated: true
+  equation: C00024[c] + C06156[c] => C00010[c] + C04501[c]
   EggNOG_annotation: peg.1076:Catalyzes the last two sequential reactions in the
     de novo biosynthetic pathway for UDP-N-acetylglucosamine (UDP- GlcNAc). The C-terminal
     domain catalyzes the transfer of acetyl group from acetyl coenzyme A to glucosamine-1-phosphate
@@ -869,7 +877,7 @@
   pathway: Amino sugar and nucleotide sugar metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: Acetyl-CoA[c] + |alpha-D-Glucosamine 1-phosphate[c]| <=> CoA[c]
+  translated_equation: Acetyl-CoA[c] + |alpha-D-Glucosamine 1-phosphate[c]| => CoA[c]
     + |N-Acetyl-alpha-D-glucosamine 1-phosphate[c]|
 - id: R09942
   name: N,N'-diacetylchitobiose:phosphate N-acetyl-D-glucosaminyltransferase
@@ -2137,7 +2145,9 @@
   translated_equation: ADPglucose[c] => ADP[c] + Glycogen[c] + H+[c]
 - id: R01158
   name: L-histidinol:NAD+ oxidoreductase
-  equation: C00860[c] + (2) C00003[c] + C00001[c] <=> C00135[c] + (2) C00004[c] +
+  genes: peg.1971
+  curated: true
+  equation: C00860[c] + (2) C00003[c] + C00001[c] => C00135[c] + (2) C00004[c] +
     (2) C00080[c]
   EggNOG_annotation: peg.1971:Catalyzes the sequential NAD-dependent oxidations of
     L- histidinol to L-histidinaldehyde and then to L-histidine (By similarity)
@@ -4054,7 +4064,9 @@
   translated_equation: L-Homoserine[c] + NADP+[c] <=> |L-Aspartate 4-semialdehyde[c]| + NADPH[c] + H+[c]
 - id: R01150
   name: D-alanine:D-alanine ligase (ADP-forming)
-  equation: C00002[c] + (2) C00133[c] <=> C00008[c] + C00009[c] + C00993[c]
+  genes: peg.2585
+  curated: true
+  equation: C00002[c] + (2) C00133[c] => C00008[c] + C00009[c] + C00993[c]
   EggNOG_annotation: peg.2585:Cell wall formation (By similarity)
   KEGG_annotation: Athe_2039:K01921 D-alanine-D-alanine ligase [EC:6.3.2.4] | (GenBank)
     D-alanine/D-alanine ligase
@@ -4076,10 +4088,12 @@
   pathway: D-Alanine metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: ATP[c] + (2) D-Alanine[c] <=> ADP[c] + Orthophosphate[c] +
+  translated_equation: ATP[c] + (2) D-Alanine[c] => ADP[c] + Orthophosphate[c] +
     D-Alanyl-D-alanine[c]
 - id: R00401
   name: alanine racemase
+  genes: peg.2419
+  curated: true
   equation: C00041[c] <=> C00133[c]
   EggNOG_annotation: peg.122:Transcriptional regulator, LacI family;   peg.2419:Catalyzes
     the interconversion of L-alanine and D- alanine. May also act on other amino
@@ -4122,7 +4136,9 @@
   translated_equation: L-Alanine[c] <=> D-Alanine[c]
 - id: R03193
   name: UDP-N-acetylmuramate:L-alanine ligase (ADP-forming)
-  equation: C00002[c] + C01050[c] + C00041[c] <=> C00008[c] + C00009[c] + C01212[c]
+  genes: peg.2983
+  curated: true
+  equation: C00002[c] + C01050[c] + C00041[c] => C00008[c] + C00009[c] + C01212[c]
   EggNOG_annotation: peg.2983:Cell wall formation (By similarity);   peg.1233:Involved
     in cell wall formation. Catalyzes the final step in the synthesis of UDP-N-acetylmuramoyl-pentapeptide,
     the precursor of murein (By similarity)
@@ -4148,11 +4164,13 @@
   pathway: D-Glutamine and D-glutamate metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: ATP[c] + UDP-N-acetylmuramate[c] + L-Alanine[c] <=> ADP[c]
+  translated_equation: ATP[c] + UDP-N-acetylmuramate[c] + L-Alanine[c] => ADP[c]
     + Orthophosphate[c] + UDP-N-acetylmuramoyl-L-alanine[c]
 - id: R02783
   name: UDP-N-acetylmuramoyl-L-alanine:D-glutamate ligase(ADP-forming)
-  equation: C00002[c] + C01212[c] + C00217[c] <=> C00008[c] + C00009[c] + C00692[c]
+  genes: peg.1235
+  curated: true
+  equation: C00002[c] + C01212[c] + C00217[c] => C00008[c] + C00009[c] + C00692[c]
   EggNOG_annotation: peg.1235:Cell wall formation. Catalyzes the addition of glutamate
     to the nucleotide precursor UDP-N-acetylmuramoyl-L-alanine (UMA) (By similarity)
   KEGG_annotation: Athe_0776:K01925 UDP-N-acetylmuramoylalanine--D-glutamate ligase
@@ -4176,9 +4194,11 @@
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: ATP[c] + UDP-N-acetylmuramoyl-L-alanine[c] + D-Glutamate[c]
-    <=> ADP[c] + Orthophosphate[c] + UDP-N-acetylmuramoyl-L-alanyl-D-glutamate[c]
+    => ADP[c] + Orthophosphate[c] + UDP-N-acetylmuramoyl-L-alanyl-D-glutamate[c]
 - id: R00260
   name: glutamate racemase
+  genes: peg.2584
+  curated: true
   equation: C00025[c] <=> C00217[c]
   EggNOG_annotation: peg.2584:Provides the (R)-glutamate required for cell wall biosynthesis
     (By similarity)
@@ -6026,16 +6046,15 @@
     protein][c]|
 - id: R01626
   name: Malonyl-CoA:[acyl-carrier-protein] S-malonyltransferase
-  equation: C00083[c] + C00229[c] <=> C00010[c] + C01209[c]
+  genes: peg.1638
+  curated: true
+  equation: C00083[c] + C00229[c] => C00010[c] + C01209[c]
   EggNOG_annotation: peg.1638:Malonyl CoA-acyl carrier protein transacylase
   KEGG_annotation: Athe_1155:K00645 [acyl-carrier-protein] S-malonyltransferase [EC:2.3.1.39]
     | (GenBank) malonyl CoA-acyl carrie
   PATRIC_annotation: Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)
   enzymes:
   - 2.3.1.39
-  - 2.3.1.85
-  - 2.3.1.86
-  - 2.3.1.-
   genes_Cce: peg.1638 or -
   genes_Cth: peg.1638
   genes_Tsac: peg.1638
@@ -6051,7 +6070,7 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: Malonyl-CoA[c] + |Acyl-carrier protein[c]| <=> CoA[c] + |Malonyl-[acyl-carrier
+  translated_equation: Malonyl-CoA[c] + |Acyl-carrier protein[c]| => CoA[c] + |Malonyl-[acyl-carrier
     protein][c]|
 - id: R04355
   name: Acyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein] C-acyltransferase
@@ -7931,6 +7950,8 @@
     + NADPH[c] + H+[c]'
 - id: R03236
   name: ATP:D-tagatose-6-phosphate 1-phosphotransferase
+  genes: peg.542 or peg.1752
+  curated: true
   equation: C01097[c] + C00002[c] <=> C03785[c] + C00008[c]
   EggNOG_annotation: peg.2336:ec 2.7.1.11;   peg.542:1-phosphofructokinase;   peg.1752:phosphohexokinase
   KEGG_annotation: Athe_0147:K00882 1-phosphofructokinase [EC:2.7.1.56] | (GenBank)
@@ -7942,7 +7963,6 @@
   enzymes:
   - 2.7.1.11
   - 2.7.1.56
-  - 2.7.1.144
   genes_Cce: peg.2336 or peg.1752
   genes_Cth: peg.1752 or peg.2336 or peg.542
   genes_Tsac: peg.1752
@@ -8042,6 +8062,8 @@
     1,6-bisphosphate[c]|
 - id: R00801
   name: sucrose glucohydrolase
+  genes: peg.561
+  curated: true
   equation: C00089[c] + C00001[c] <=> C00095[c] + C00031[c]
   EggNOG_annotation: peg.561:alpha amylase, catalytic
   KEGG_annotation: Athe_0165:K01182 oligo-1,6-glucosidase [EC:3.2.1.10] | (GenBank)
@@ -8049,9 +8071,6 @@
   PATRIC_annotation: Oligo-1,6-glucosidase (EC 3.2.1.10)
   enzymes:
   - 3.2.1.10
-  - 3.2.1.20
-  - 3.2.1.26
-  - 3.2.1.48
   genes_Cce: None
   genes_Cth: None
   genes_Tsac: None
@@ -8070,6 +8089,8 @@
   translated_equation: Sucrose[c] + H2O[c] <=> D-Fructose[c] + D-Glucose[c]
 - id: R00291
   name: UDP-glucose 4-epimerase
+  genes: peg.1410 or peg.1631
+  curated: true
   equation: C00029[c] <=> C00052[c]
   EggNOG_annotation: peg.1410:udp-glucose 4-epimerase;   peg.1631:Nad-dependent epimerase
     dehydratase;   peg.436:DTDP-glucose 4,6-dehydratase
@@ -8101,7 +8122,9 @@
   translated_equation: UDP-glucose[c] <=> UDP-alpha-D-galactose[c]
 - id: R01103
   name: Raffinose galactohydrolase
-  equation: C00492[c] + C00001[c] <=> C00124[c] + C00089[c]
+  genes: peg.888 or peg.1585
+  curated: true
+  equation: C00492[c] + C00001[c] => C00124[c] + C00089[c]
   EggNOG_annotation: peg.1585:glycoside hydrolase family 4;   peg.888:alpha-galactosidase
   KEGG_annotation: Athe_1104:K07406 alpha-galactosidase [EC:3.2.1.22] | (GenBank)
     glycoside hydrolase family 4;   Athe_0468:K07407 alpha-galactosidase [EC:3.2.1.22]
@@ -8123,9 +8146,11 @@
   pathway: Galactose metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: Raffinose[c] + H2O[c] <=> D-Galactose[c] + Sucrose[c]
+  translated_equation: Raffinose[c] + H2O[c] => D-Galactose[c] + Sucrose[c]
 - id: R02926
   name: Melibiitol galactohydrolase
+  genes: peg.888 or peg.1585
+  curated: true
   equation: C05399[c] + C00001[c] <=> C00794[c] + C00124[c]
   EggNOG_annotation: peg.1585:glycoside hydrolase family 4;   peg.888:alpha-galactosidase
   KEGG_annotation: Athe_1104:K07406 alpha-galactosidase [EC:3.2.1.22] | (GenBank)
@@ -8151,6 +8176,8 @@
   translated_equation: Melibiitol[c] + H2O[c] <=> D-Sorbitol[c] + D-Galactose[c]
 - id: R01194
   name: 3-O-alpha-D-Galactosyl-1D-myo-inositol galactohydrolase
+  genes: peg.888 or peg.1585
+  curated: true
   equation: C01235[c] + C00001[c] <=> C00137[c] + C00124[c]
   EggNOG_annotation: peg.1585:glycoside hydrolase family 4;   peg.888:alpha-galactosidase
   KEGG_annotation: Athe_1104:K07406 alpha-galactosidase [EC:3.2.1.22] | (GenBank)
@@ -8178,6 +8205,8 @@
     myo-Inositol[c] + D-Galactose[c]
 - id: R01329
   name: Epimelibiose galactohydrolase
+  genes: peg.888 or peg.1585
+  curated: true
   equation: C05400[c] + C00001[c] <=> C00159[c] + C00124[c]
   EggNOG_annotation: peg.1585:glycoside hydrolase family 4;   peg.888:alpha-galactosidase
   KEGG_annotation: Athe_1104:K07406 alpha-galactosidase [EC:3.2.1.22] | (GenBank)
@@ -8203,6 +8232,8 @@
   translated_equation: Epimelibiose[c] + H2O[c] <=> D-Mannose[c] + D-Galactose[c]
 - id: R01104
   name: Galactosylglycerol galactohydrolase
+  genes: peg.888 or peg.1585
+  curated: true
   equation: C05401[c] + C00001[c] <=> C00124[c] + C00116[c]
   EggNOG_annotation: peg.1585:glycoside hydrolase family 4;   peg.888:alpha-galactosidase
   KEGG_annotation: Athe_1104:K07406 alpha-galactosidase [EC:3.2.1.22] | (GenBank)
@@ -8229,7 +8260,9 @@
     + Glycerol[c]
 - id: R01101
   name: melibiose galactohydrolase
-  equation: C05402[c] + C00001[c] <=> C00124[c] + C00031[c]
+  genes: peg.888 or peg.1585
+  curated: true
+  equation: C05402[c] + C00001[c] => C00124[c] + C00031[c]
   EggNOG_annotation: peg.1585:glycoside hydrolase family 4;   peg.888:alpha-galactosidase
   KEGG_annotation: Athe_1104:K07406 alpha-galactosidase [EC:3.2.1.22] | (GenBank)
     glycoside hydrolase family 4;   Athe_0468:K07407 alpha-galactosidase [EC:3.2.1.22]
@@ -8251,10 +8284,12 @@
   pathway: Galactose metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: Melibiose[c] + H2O[c] <=> D-Galactose[c] + D-Glucose[c]
+  translated_equation: Melibiose[c] + H2O[c] => D-Galactose[c] + D-Glucose[c]
 - id: R01678
   name: Lactose galactohydrolase
-  equation: C00243[c] + C00001[c] <=> C00267[c] + C00124[c]
+  genes: peg.1317 or peg.2445
+  curated: true
+  equation: C00243[c] + C00001[c] => C00267[c] + C00124[c]
   EggNOG_annotation: peg.2950:Glycoside hydrolase family 2 TIM barrel;   peg.1317:hydrolase
     family 2, sugar binding;   peg.2445:beta-galactosidase
   KEGG_annotation: peg.1317:-;   Athe_2370:no KO assigned | (GenBank) glycoside hydrolase
@@ -8263,7 +8298,6 @@
     (EC 3.2.1.23) or beta-galactosidase (EC 3.2.1.23)
   enzymes:
   - 3.2.1.23
-  - 3.2.1.108
   genes_Cce: peg.2950 or peg.2445 or peg.2950 or peg.1317
   genes_Cth: None
   genes_Tsac: None
@@ -8278,9 +8312,11 @@
   pathway: Galactose metabolism
   source: KEGG
   tag: Cce
-  translated_equation: Lactose[c] + H2O[c] <=> alpha-D-Glucose[c] + D-Galactose[c]
+  translated_equation: Lactose[c] + H2O[c] => alpha-D-Glucose[c] + D-Galactose[c]
 - id: R05168
   name: N-acetyl-D-galactosamine 6-phosphate amidohydrolase
+  genes: peg.481
+  curated: true
   equation: C06376[c] + C00001[c] <=> C06377[c] + C00033[c]
   EggNOG_annotation: peg.481:GlcNAc 6-P deacetylase
   KEGG_annotation: Athe_0096:K01443 N-acetylglucosamine-6-phosphate deacetylase [EC:3.5.1.25]
@@ -8303,15 +8339,14 @@
   tag: KEGG_Cbes
   translated_equation: '|N-Acetyl-D-galactosamine 6-phosphate[c]| + H2O[c] <=> |D-Galactosamine
     6-phosphate[c]| + Acetate[c]'
-- id: R00955
-  name: UDP-glucose:alpha-D-galactose-1-phosphate uridylyltransferase
-  equation: C00029[c] + C00446[c] <=> C00103[c] + C00052[c]
+- id: R00502
+  name: UTP:alpha-D-galactose-1-phosphate uridylyltransferase
+  genes: peg.1408
+  curated: true
   EggNOG_annotation: peg.1408:Galactose-1-phosphate uridylyltransferase
   KEGG_annotation: Athe_0938:K00965 UDPglucose--hexose-1-phosphate uridylyltransferase
     [EC:2.7.7.12] | (GenBank) galactose-1-phos
   PATRIC_annotation: Galactose-1-phosphate uridylyltransferase (EC 2.7.7.10)
-  enzymes:
-  - 2.7.7.12
   genes_Cce: None
   genes_Cth: None
   genes_Tsac: None
@@ -8319,19 +8354,20 @@
   genes_string_NCBI_id: Athe_0938
   genes_string_PATRIC_id: peg.1408
   names:
-  - UDP-glucose:alpha-D-galactose-1-phosphate uridylyltransferase
-  other_pathways:
+  - UTP:alpha-D-galactose-1-phosphate uridylyltransferase
+  equation: C00075[c] + C00446[c] <=> C00013[c] + C00052[c]
+  enzymes:
+  - 2.7.7.10
+  pathways:
   - Galactose metabolism
   - Amino sugar and nucleotide sugar metabolism
   - Metabolic pathways
-  pathway: Galactose metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: UDP-glucose[c] + |alpha-D-Galactose 1-phosphate[c]| <=> |D-Glucose
-    1-phosphate[c]| + UDP-alpha-D-galactose[c]
+  translated_equation: UTP[c] + alpha-D-Galactose 1-phosphate[c] <=> Diphosphate[c] + UDP-alpha-D-galactose[c]
 - id: R01092
   name: ATP:alpha-D-galactose 1-phosphotransferase
-  equation: C00002[c] + C00984[c] <=> C00008[c] + C00446[c]
+  genes: peg.1409
+  curated: true
+  equation: C00002[c] + C00984[c] => C00008[c] + C00446[c]
   EggNOG_annotation: peg.1409:Catalyzes the transfer of the gamma-phosphate of ATP
     to D-galactose to form alpha-D-galactose-1-phosphate (Gal-1-P) (By similarity)
   KEGG_annotation: Athe_0939:K00849 galactokinase [EC:2.7.1.6] | (GenBank) galactokinase
@@ -8353,10 +8389,12 @@
   pathway: Galactose metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: ATP[c] + alpha-D-Galactose[c] <=> ADP[c] + |alpha-D-Galactose
+  translated_equation: ATP[c] + alpha-D-Galactose[c] => ADP[c] + |alpha-D-Galactose
     1-phosphate[c]|
 - id: R03634
-  equation: C01613[c] + C00001[c] <=> C00492[c] + C00124[c]
+  equation: C01613[c] + C00001[c] => C00492[c] + C00124[c]
+  genes: peg.888 or peg.1585
+  curated: true
   EggNOG_annotation: peg.1585:glycoside hydrolase family 4;   peg.888:alpha-galactosidase
   KEGG_annotation: Athe_1104:K07406 alpha-galactosidase [EC:3.2.1.22] | (GenBank)
     glycoside hydrolase family 4;   Athe_0468:K07407 alpha-galactosidase [EC:3.2.1.22]
@@ -8377,9 +8415,12 @@
   pathway: Galactose metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: Stachyose[c] + H2O[c] <=> Raffinose[c] + D-Galactose[c]
+  translated_equation: Stachyose[c] + H2O[c] => Raffinose[c] + D-Galactose[c]
 - id: R05549
+  name: alpha-galactosidase (Melibiose-forming)
   equation: C05404[c] + C00001[c] <=> C00124[c] + C05402[c]
+  genes: peg.888 or peg.1585
+  curated: true
   EggNOG_annotation: peg.1585:glycoside hydrolase family 4;   peg.888:alpha-galactosidase
   KEGG_annotation: Athe_1104:K07406 alpha-galactosidase [EC:3.2.1.22] | (GenBank)
     glycoside hydrolase family 4;   Athe_0468:K07407 alpha-galactosidase [EC:3.2.1.22]
@@ -8697,7 +8738,9 @@
     + H+[c]
 - id: R00847
   name: ATP:glycerol 3-phosphotransferase
-  equation: C00002[c] + C00116[c] <=> C00008[c] + C00093[c]
+  genes: peg.2526
+  curated: true
+  equation: C00002[c] + C00116[c] => C00008[c] + C00093[c]
   EggNOG_annotation: peg.2526:carbohydrate kinase FGGY;   peg.1000:xylulokinase;   peg.2973:Carbohydrate
     kinase
   KEGG_annotation: Athe_0567:K00854 xylulokinase [EC:2.7.1.17] | (GenBank) xylulokinase;   Athe_1997:K00864
@@ -8721,7 +8764,8 @@
   pathway: Glycerolipid metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: ATP[c] + Glycerol[c] <=> ADP[c] + |sn-Glycerol 3-phosphate[c]|
+  translated_equation: ATP[c] + Glycerol[c] => ADP[c] + |sn-Glycerol 3-phosphate[c]|
+  note: blastp shows peg.2973 is xylulokinase
 - id: R04470
   name: Digalactosyl-diacylglycerol galactohydrolase
   equation: C06037[c] + C00001[c] <=> C03692[c] + C00124[c]
@@ -10236,6 +10280,8 @@
   translated_equation: Formate[c] + NAD+[c] <=> H+[c] + CO2[c] + NADH[c]
 - id: R00470
   name: 4-hydroxy-2-oxoglutarate glyoxylate-lyase (pyruvate-forming)
+  genes: peg.2968
+  curated: true
   equation: C01127[c] <=> C00022[c] + C00048[c]
   EggNOG_annotation: peg.2968:2-dehydro-3-deoxyphosphogluconate aldolase 4-hydroxy-2-oxoglutarate
     aldolase;   peg.1804:Acetyl-CoA carboxylase, carboxyltransferase component (subunits
@@ -10253,7 +10299,6 @@
     aldolase (EC 4.1.2.14)
   enzymes:
   - 4.1.3.16
-  - 4.1.3.42
   genes_Cce: peg.2968 or -
   genes_Cth: peg.1804 and peg.1806 and peg.1807
   genes_Tsac: peg.1804
@@ -11051,33 +11096,6 @@
   tag: KEGG_Cbes
   translated_equation: 2-Oxoglutarate[c] + CoA[c] + NAD+[c] <=> Succinyl-CoA[c] +
     CO2[c] + NADH[c] + H+[c]
-- id: R01324
-  name: citrate hydroxymutase
-  equation: C00158[c] <=> C00311[c]
-  EggNOG_annotation: peg.955:Aconitate hydratase
-  KEGG_annotation: Athe_0524:K01681 aconitate hydratase [EC:4.2.1.3] | (GenBank)
-    aconitate hydratase
-  PATRIC_annotation: Aconitate hydratase (EC 4.2.1.3)
-  comment: two-step reaction (see R01325+R01900)
-  enzymes:
-  - 4.2.1.3
-  genes_Cce: peg.955
-  genes_Cth: peg.955
-  genes_Tsac: peg.955
-  genes_kegg: peg.955
-  genes_string_NCBI_id: Athe_0524
-  genes_string_PATRIC_id: peg.955
-  names:
-  - citrate hydroxymutase
-  other_pathways:
-  - Metabolic pathways
-  - Carbon metabolism
-  - 2-Oxocarboxylic acid metabolism
-  - Biosynthesis of amino acids
-  pathway: Metabolic pathways
-  source: KEGG
-  tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: Citrate[c] <=> Isocitrate[c]
 - id: R07105
   name: trichloroethanol:NAD+ oxidoreductase
   equation: C06899[c] + C00004[c] + C00080[c] <=> C07490[c] + C00003[c] + C00001[c]
@@ -11181,6 +11199,8 @@
     + Orthophosphate[c]
 - id: R01068
   name: D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)
+  genes: peg.2523 or peg.1061 or peg.2972
+  curated: true
   equation: C00354[c] <=> C00111[c] + C00118[c]
   EggNOG_annotation: peg.2523:aldolase (EC 4.1.2.13);   peg.2972:fructose-1,6-bisphosphate
     aldolase, class ii;   peg.1061:fructose-1,6-bisphosphate aldolase, class ii
@@ -11493,6 +11513,8 @@
     + (2) H2O[c] + Orthophosphate[c]|
 - id: R00104
   name: ATP:NAD+ 2'-phosphotransferase
+  genes: peg.1821
+  curated: true
   equation: C00002[c] + C00003[c] <=> C00008[c] + C00006[c]
   EggNOG_annotation: peg.1821:Catalyzes the phosphorylation of NAD to NADP. Utilizes
     ATP and other nucleoside triphosphates as well as inorganic polyphosphate as
@@ -14099,7 +14121,9 @@
   translated_equation: '|tRNA adenine[c]| + H2O[c] <=> |tRNA hypoxanthine[c]| + Ammonia[c]'
 - id: R00004
   name: diphosphate phosphohydrolase
-  equation: C00013[c] + C00001[c] <=> (2) C00009[c]
+  genes: peg.1212
+  curated: true
+  equation: C00013[c] + C00001[c] => (2) C00009[c]
   EggNOG_annotation: peg.812:IA, variant 3;   peg.1212:Sodium pump that utilizes
     the energy of pyrophosphate hydrolysis as the driving force for Na( ) movement
     across the membrane (By similarity)
@@ -14122,7 +14146,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: Diphosphate[c] + H2O[c] <=> (2) Orthophosphate[c]
+  translated_equation: Diphosphate[c] + H2O[c] => (2) Orthophosphate[c]
 - id: R10209
   name: tRNA-guanosine34:7-aminomethyl-7-carbaguanine tRNA-D-ribosyltransferase
   genes: peg.797
@@ -16845,31 +16869,31 @@
   tag: Cth,Tsac
   translated_equation: L-Methionyl-tRNA[c] + 10-Formyltetrahydrofolate[c] => Tetrahydrofolate[c]
     + N-Formylmethionyl-tRNA[c]
-# - id: R04326
-#   equation: C03838[c] + C00445[c] + C00001[c] => C04376[c] + C00101[c]
-#   genes: peg.1938
-#   curated: true
-#   EggNOG_annotation: peg.1938:phosphoribosylglycinamide formyltransferase
-#   KEGG_annotation: Athe_1446:K11175 phosphoribosylglycinamide formyltransferase 1
-#     [EC:2.1.2.2] | (GenBank) phosphoribosylglycinam
-#   PATRIC_annotation: Phosphoribosylglycinamide formyltransferase (EC 2.1.2.2)
-#   enzymes:
-#   - 2.1.2.2
-#   genes_Cce: None
-#   genes_Cth: None
-#   genes_Tsac: None
-#   genes_kegg: peg.1938
-#   genes_string_NCBI_id: Athe_1446
-#   genes_string_PATRIC_id: peg.1938
-#   names: []
-#   other_pathways:
-#   - One carbon pool by folate
-#   - Metabolic pathways
-#   pathway: One carbon pool by folate
-#   source: KEGG
-#   tag: KEGG_Cbes
-#   translated_equation: 5'-Phosphoribosylglycinamide[c] + 5,10-Methenyltetrahydrofolate[c]
-#     + H2O[c] => 5'-Phosphoribosyl-N-formylglycinamide[c] + Tetrahydrofolate[c]
+- id: R04326
+  equation: C03838[c] + C00445[c] + C00001[c] => C04376[c] + C00101[c]
+  genes: peg.1938
+  curated: true
+  EggNOG_annotation: peg.1938:phosphoribosylglycinamide formyltransferase
+  KEGG_annotation: Athe_1446:K11175 phosphoribosylglycinamide formyltransferase 1
+    [EC:2.1.2.2] | (GenBank) phosphoribosylglycinam
+  PATRIC_annotation: Phosphoribosylglycinamide formyltransferase (EC 2.1.2.2)
+  enzymes:
+  - 2.1.2.2
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1938
+  genes_string_NCBI_id: Athe_1446
+  genes_string_PATRIC_id: peg.1938
+  names: []
+  other_pathways:
+  - One carbon pool by folate
+  - Metabolic pathways
+  pathway: One carbon pool by folate
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: 5'-Phosphoribosylglycinamide[c] + 5,10-Methenyltetrahydrofolate[c]
+    + H2O[c] => 5'-Phosphoribosyl-N-formylglycinamide[c] + Tetrahydrofolate[c]
 - id: NFNab
   name: Bifurcating ferredoxin-NAD(P) oxidoreductase
   equation: (2) nadp[c] + nadh[c] + fdred[c] => h2[c] + (2) nadph[c] + nad[c] +
@@ -17359,6 +17383,8 @@
   translated_equation: ATP[c] + D-Xylulose[c] <=> ADP[c] + |D-Xylulose 5-phosphate[c]|
 - id: R00289
   name: UTP:alpha-D-glucose-1-phosphate uridylyltransferase
+  genes: peg.1634
+  curated: true
   equation: C00075[c] + C00103[c] <=> C00013[c] + C00029[c]
   EggNOG_annotation: peg.1634:UTP-glucose-1-phosphate uridylyltransferase
   KEGG_annotation: Athe_1151:K00963 UTP--glucose-1-phosphate uridylyltransferase
@@ -17366,7 +17392,6 @@
   PATRIC_annotation: UTP--glucose-1-phosphate uridylyltransferase (EC 2.7.7.9)
   enzymes:
   - 2.7.7.9
-  - 2.7.7.64
   genes_Cce: peg.1634
   genes_Cth: peg.1634
   genes_Tsac: peg.1634
@@ -19486,6 +19511,8 @@
     5-semialdehyde[c]| + Orthophosphate[c] + NADP+[c]'
 - id: R01016
   name: glycerone-phosphate phosphate-lyase (methylglyoxal-forming)
+  genes: peg.1797
+  curated: true
   equation: C00111[c] <=> C00546[c] + C00009[c]
   EggNOG_annotation: peg.1797:methylglyoxal synthase
   KEGG_annotation: Athe_1309:K01734 methylglyoxal synthase [EC:4.2.3.3] | (GenBank)
@@ -19540,6 +19567,8 @@
   translated_equation: (S)-Methylmalonyl-CoA[c] <=> Propanoyl-CoA[c] + CO2[c]
 - id: R01353
   name: ATP:propanoate phosphotransferase
+  genes: peg.1986
+  curated: true
   equation: C00002[c] + C00163[c] <=> C00008[c] + C02876[c]
   EggNOG_annotation: peg.1806:Acetyl-CoA carboxylase, biotin carboxyl carrier protein;   peg.1804:Acetyl-CoA
     carboxylase, carboxyltransferase component (subunits alpha and beta);   peg.1807:carboxylase;   peg.1986:Catalyzes
@@ -19556,7 +19585,6 @@
     methylmalonyl-CoA decarboxylase; Biotin carboxyl carrier protein
   enzymes:
   - 2.7.2.1
-  - 2.7.2.15
   genes_Cce: peg.1986
   genes_Cth: peg.1804 and peg.1806 and peg.1807
   genes_Tsac: peg.1986
@@ -19571,9 +19599,11 @@
   pathway: Propanoate metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: ATP[c] + Propanoate[c] <=> ADP[c] + |Propanoyl phosphate[c]|
+  translated_equation: ATP[c] + Propanoate[c] => ADP[c] + |Propanoyl phosphate[c]|
 - id: R00921
   name: propanoyl-CoA:phosphate propanoyltransferase
+  genes: peg.1987
+  curated: true
   equation: C00100[c] + C00009[c] <=> C02876[c] + C00010[c]
   EggNOG_annotation: peg.1987:phosphate acetyltransferase
   KEGG_annotation: Athe_1494:K00625 phosphate acetyltransferase [EC:2.3.1.8] | (GenBank)
@@ -19581,7 +19611,6 @@
   PATRIC_annotation: Phosphate acetyltransferase (EC 2.3.1.8)
   enzymes:
   - 2.3.1.8
-  - 2.3.1.222
   genes_Cce: peg.1987
   genes_Cth: peg.1987
   genes_Tsac: peg.1987
@@ -22920,7 +22949,9 @@
     (n-C3:0)[c]|
 - id: R00217
   name: oxaloacetate carboxy-lyase (pyruvate-forming)
-  equation: C00036[c] <=> C00022[c] + C00011[c]
+  genes: peg.1543
+  curated: true
+  equation: C00036[c] => C00022[c] + C00011[c]
   EggNOG_annotation: peg.936:Catalyzes the condensation of the acetyl group of acetyl-CoA
     with 3-methyl-2-oxobutanoate (2-oxoisovalerate) to form 3-carboxy-3-hydroxy-4-methylpentanoate
     (2-isopropylmalate) (By similarity);   peg.938:2-isopropylmalate synthase homocitrate
@@ -22945,9 +22976,7 @@
     alpha chain (EC 6.4.1.2) / Acetyl-coenzyme A carboxyl transferase beta chain
     (EC 6.4.1.2); Propionyl-CoA carboxylase beta chain (EC 6.4.1.3)
   enzymes:
-  - 1.1.1.38
   - 1.1.1.40
-  - 4.1.1.3
   genes_Cce: peg.808
   genes_Cth: peg.1804 and peg.1806 and peg.1807
   genes_Tsac: (peg.936 or peg.938)
@@ -22962,7 +22991,7 @@
   pathway: Pyruvate metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: Oxaloacetate[c] <=> Pyruvate[c] + CO2[c]
+  translated_equation: Oxaloacetate[c] => Pyruvate[c] + CO2[c]
 - id: R02124
   name: retinol:NAD+ oxidoreductase
   equation: C00473[c] + C00003[c] <=> C00376[c] + C00004[c] + C00080[c]
@@ -23432,6 +23461,8 @@
   translated_equation: Maltodextrin[c] + H2O[c] <=> Maltose[c]
 - id: R00760
   name: ATP:D-fructose 6-phosphotransferase
+  genes: peg.2673
+  curated: true
   equation: C00002[c] + C00095[c] <=> C00008[c] + C00085[c]
   EggNOG_annotation: peg.2967:Kinase, PfkB family;   peg.2673:PfkB domain protein;   peg.542:1-phosphofructokinase
   KEGG_annotation: Athe_2118:K00847 fructokinase [EC:2.7.1.4] | (GenBank) PfkB domain
@@ -23440,7 +23471,6 @@
   PATRIC_annotation: 2-dehydro-3-deoxygluconokinase (EC 2.7.1.45) or Fructokinase
     (EC 2.7.1.4) or 1-phosphofructokinase (EC 2.7.1.56)
   enzymes:
-  - 2.7.1.1
   - 2.7.1.4
   genes_Cce: '#NAME?'
   genes_Cth: (peg.2673 or peg.2967)
@@ -24117,7 +24147,9 @@
     + NADPH[c] + H+[c]
 - id: R06513
   name: dTDPglucose 4,6-hydro-lyase
-  equation: C00842[c] <=> C11907[c] + C00001[c]
+  genes: peg.436
+  curated: true
+  equation: C00842[c] => C11907[c] + C00001[c]
   EggNOG_annotation: peg.436:DTDP-glucose 4,6-dehydratase;   peg.1631:Nad-dependent
     epimerase dehydratase;   peg.1410:udp-glucose 4-epimerase
   KEGG_annotation: Athe_1148:K01784 UDP-glucose 4-epimerase [EC:5.1.3.2] | (GenBank)
@@ -24145,7 +24177,7 @@
   pathway: Streptomycin biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: dTDP-glucose[c] <=> dTDP-4-oxo-6-deoxy-D-glucose[c] + H2O[c]
+  translated_equation: dTDP-glucose[c] => dTDP-4-oxo-6-deoxy-D-glucose[c] + H2O[c]
 - id: R00508
   name: 3'-phospho-5'-adenylyl sulfate 3'-phosphohydrolase
   equation: C00053[c] + C00001[c] <=> C00224[c] + C00009[c]

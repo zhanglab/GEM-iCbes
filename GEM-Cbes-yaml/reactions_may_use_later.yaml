@@ -3610,3 +3610,63 @@
   tag: KEGG_Cbes
   translated_equation: Lipoyl-[acp][c] + Apoprotein[c] => |Protein N6-(lipoyl)lysine[c]|
     + |Acyl-carrier protein[c]|
+
+# galactose metabolism
+- id: R00955
+  name: UDP-glucose:alpha-D-galactose-1-phosphate uridylyltransferase
+  equation: C00029[c] + C00446[c] <=> C00103[c] + C00052[c]
+  EggNOG_annotation: peg.1408:Galactose-1-phosphate uridylyltransferase
+  KEGG_annotation: Athe_0938:K00965 UDPglucose--hexose-1-phosphate uridylyltransferase
+    [EC:2.7.7.12] | (GenBank) galactose-1-phos
+  PATRIC_annotation: Galactose-1-phosphate uridylyltransferase (EC 2.7.7.10)
+  enzymes:
+  - 2.7.7.12
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1408
+  genes_string_NCBI_id: Athe_0938
+  genes_string_PATRIC_id: peg.1408
+  names:
+  - UDP-glucose:alpha-D-galactose-1-phosphate uridylyltransferase
+  other_pathways:
+  - Galactose metabolism
+  - Amino sugar and nucleotide sugar metabolism
+  - Metabolic pathways
+  pathway: Galactose metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: UDP-glucose[c] + |alpha-D-Galactose 1-phosphate[c]| <=> |D-Glucose
+    1-phosphate[c]| + UDP-alpha-D-galactose[c]
+  note: peg.481 is annotated as EC 2.7.7.10 in PATRIC and EggNOG, not 2.7.1.12
+
+# TCA cycle
+- id: R01324
+  name: citrate hydroxymutase
+  genes: peg.955
+  curated: true
+  equation: C00158[c] <=> C00311[c]
+  EggNOG_annotation: peg.955:Aconitate hydratase
+  KEGG_annotation: Athe_0524:K01681 aconitate hydratase [EC:4.2.1.3] | (GenBank)
+    aconitate hydratase
+  PATRIC_annotation: Aconitate hydratase (EC 4.2.1.3)
+  comment: two-step reaction (see R01325+R01900)
+  enzymes:
+  - 4.2.1.3
+  genes_Cce: peg.955
+  genes_Cth: peg.955
+  genes_Tsac: peg.955
+  genes_kegg: peg.955
+  genes_string_NCBI_id: Athe_0524
+  genes_string_PATRIC_id: peg.955
+  names:
+  - citrate hydroxymutase
+  other_pathways:
+  - Metabolic pathways
+  - Carbon metabolism
+  - 2-Oxocarboxylic acid metabolism
+  - Biosynthesis of amino acids
+  pathway: Metabolic pathways
+  source: KEGG
+  tag: KEGG_Cbes,Cce,Cth,Tsac
+  translated_equation: Citrate[c] <=> Isocitrate[c]

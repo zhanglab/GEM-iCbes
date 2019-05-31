@@ -12,18 +12,28 @@ compartments:
 compounds:
 - include: compounds.yaml
 reactions:
-# - include: reactions_new_model_reorder.yaml   # The entire rxn database, which I'm working on (do curation). 
-- include: curated_rxns.yaml                  # used for simulation, containing curated metabolic reactions, is subset of "reactions_new_model_reorder.yaml "
-- include: transporter.yaml                   # transport rxns. 
-- include: biomass.yaml                       # biomass formulation; each individual component in cell dry-weight (such as RNA, DNA, protein) has their own equation. An overall biomass equation will also be created.
-- include: spontaneous.yaml                   # some spontaneous rxns such as diffusion, nh4 ionization. Not all spontaneous rxns in this file, e.g. h2o diffusion is in transport.yaml
-- include: test.yaml                          # used for growth simulation, giving source of some compounds, especially important cofactor such as ATP/ADP.
-- include: gapfill.yaml                       # reactions added when do growth simulation, in order to fill gaps in metabolic network
+# The entire rxn database, which I'm working on (do curation)
+- include: reactions_new_model_reorder.yaml   
+
+# used for simulation, containing curated metabolic reactions, is subset of "reactions_new_model_reorder.yaml"
+- include: curated_rxns.yaml   
+
+# transport rxns               
+- include: transporter.yaml   
+
+# biomass reaction; Now RNA, DNA and protein are included.               
+- include: biomass.yaml                  
+
+# some spontaneous rxns such as diffusion, nh4 ionization.
+- include: spontaneous.yaml                   
+
+# used for growth simulation, giving source or sink for specific compound.
+- include: test.yaml                          
+
+# reactions added when do growth simulation, in order to fill gaps in metabolic network
+- include: gapfill.yaml             
+         
 exchange:
-- include: exchange.yaml                      # media
-# limits:
-# - include: limits.yaml
-# model:
-# - include: curated_rxns_list.tsv            # a list of curated metabolic rxn IDs.
-# - include: other_rxns_list.tsv              # a list of rxn IDs, containing transport, biomass, spontaneous and gap rxns. DO NOT contain id of rxns in "reactions_new_model_reorder.yaml".
-# - include: test_rxns_list.tsv               # a list of rxn IDs, including rxns in test.yaml (sinks and sources)
+# Cbes growth media components
+- include: exchange.yaml
+
