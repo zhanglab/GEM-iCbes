@@ -12,26 +12,26 @@ compartments:
 compounds:
 - include: compounds.yaml
 reactions:
-# The entire rxn database, which I'm working on (do curation)
-- include: reactions_new_model_reorder.yaml   
+# # The entire rxn database, which I'm working on (do curation)
+# - include: reactions_new_model_reorder.yaml   
 
-# used for simulation, containing curated metabolic reactions, is subset of "reactions_new_model_reorder.yaml"
-- include: curated_rxns.yaml   
+# used for growth simulation, it is subset of "reactions_new_model_reorder.yaml", containing curated reactions
+- include: curated_rxns.yaml
 
 # transport rxns               
-- include: transporter.yaml   
+- include: transporter.yaml
 
 # biomass reaction; Now RNA, DNA and protein are included.               
-- include: biomass.yaml                  
+- include: biomass.yaml
 
 # some spontaneous rxns such as diffusion, nh4 ionization.
-- include: spontaneous.yaml                   
+- include: spontaneous.yaml
+
+# reactions added when do growth simulation, in order to fill gaps in Cbes metabolic network
+- include: gapfill.yaml
 
 # used for growth simulation, giving source or sink for specific compound.
-- include: test.yaml                          
-
-# reactions added when do growth simulation, in order to fill gaps in metabolic network
-- include: gapfill.yaml             
+- include: test.yaml
          
 exchange:
 # Cbes growth media components
