@@ -296,38 +296,6 @@
   tag: Cce,Cth,Tsac
   translated_equation: L-Glutamine[c] + 2-Oxoglutarate[c] + NADPH[c] + H+[c] => (2)
     L-Glutamate[c] + NADP+[c]
-- id: R00357
-  name: L-Aspartic acid:oxygen oxidoreductase (deaminating)
-  genes: peg.1700
-  equation: C00049[c] + C00001[c] + C00007[c] => C00036[c] + C00014[c] + C00027[c]
-  ec:
-  - 1.4.3.16
-  EggNOG_annotation: peg.1700:l-aspartate oxidase
-  KEGG_annotation: Athe_1213:K00278 L-aspartate oxidase [EC:1.4.3.16] | (GenBank)
-    L-aspartate oxidase
-  PATRIC_annotation: L-aspartate oxidase (EC 1.4.3.16)
-  comment: see R00359
-  curated: true
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1700
-  genes_string_NCBI_id: Athe_1213
-  genes_string_PATRIC_id: peg.1700
-  names:
-  - L-Aspartic acid:oxygen oxidoreductase (deaminating)
-  note: in this case O2 isn't replaced by oxygen because fumarate is not a strong
-    oxidants, so it is not resonable enough to use fumurate as cofactor to drive
-    this function. And no evidence support in this rxn O2 can be replaced by fumarate
-    in anaerobic condition.
-  other_pathways:
-  - Alanine, aspartate and glutamate metabolism
-  - Metabolic pathways
-  pathway: Alanine, aspartate and glutamate metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: L-Aspartate[c] + H2O[c] + Oxygen[c] => Oxaloacetate[c] + Ammonia[c]
-    + |Hydrogen peroxide[c]|
 - id: R00768
   name: L-glutamine:D-fructose-6-phosphate isomerase (deaminating)
   genes: peg.2898
