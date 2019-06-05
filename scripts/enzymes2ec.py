@@ -2,7 +2,7 @@ import csv
 from psamm.datasource.native import ModelReader, ModelWriter, NativeModel
 import argparse
 
-parser = argparse.ArgumentParser(description='Process some integers.')
+parser = argparse.ArgumentParser(description='Process some inputs.')
 
 parser.add_argument('--model', help='input model file (a model.yaml file)')
 parser.add_argument('--output', help='output YAML file, a subset of input')

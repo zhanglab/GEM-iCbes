@@ -3653,3 +3653,304 @@
   translated_equation: L-Aspartate[c] + H2O[c] + Oxygen[c] => Oxaloacetate[c] + Ammonia[c]
     + |Hydrogen peroxide[c]|
   note: according to what Dima said, this rxn is specificly used for Asp synthesis
+
+# add reaction supported by 3/4 models
+- id: DHDPS
+  name: dihydrodipicolinate synthase
+  equation: aspsa[c] + pyr[c] => 23dhdp[c] + h[c] + (2) h2o[c]
+  subsystem: Amino acids metabolism
+  ec: 4.2.1.52
+  EggNOG_annotation: peg.1617:Catalyzes the condensation of (S)-aspartate-beta- semialdehyde
+    (S)-ASA and pyruvate to 4-hydroxy- tetrahydrodipicolinate (HTPA) (By similarity)
+  KEGG_annotation: Athe_1134:K01714 4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]
+    | (GenBank) dihydrodipicolinate syntha
+  PATRIC_annotation: 4-hydroxy-tetrahydrodipicolinate synthase (EC 4.3.3.7)
+  genes_Cce: peg.1617 or peg.1617 or peg.1617
+  genes_Cth: peg.1617
+  genes_Tsac: peg.1617
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1134
+  genes_string_PATRIC_id: peg.1617
+  pathway: Amino acids metabolism
+  source: Cce model
+  tag: Cce,Cth,Tsac
+  translated_equation: '|L-Aspartate 4-semialdehyde[c]| + Pyruvate[c] => 2,3-Dihydrodipicolinate[c]
+    + H+[c] + (2) water[c]'
+  note: EC 4.2.1.52 was transferred to 4.3.3.7 in KEGG
+- id: KARA2
+  name: ketol-acid reductoisomerase (2-Acetolactate)
+  genes: peg.935
+  curated: true
+  equation: C06006[c] + C00080[c] + C00005[c] <=> C06007[c] + C00006[c]
+  equation_template: 2ahbut[c] + h[c] + nadph[c] <=> 23dhmp[c] + nadp[c]
+  subsystem: Amino acids metabolism
+  ec: 1.1.1.86
+  EggNOG_annotation: peg.935:Alpha-keto-beta-hydroxylacyl reductoisomerase
+  KEGG_annotation: Athe_0504:K00053 ketol-acid reductoisomerase [EC:1.1.1.86] | (GenBank)
+    ketol-acid reductoisomerase
+  PATRIC_annotation: Ketol-acid reductoisomerase (NAD(P)(+)) (EC 1.1.1.383)
+  genes_Cce: peg.935
+  genes_Cth: peg.935
+  genes_Tsac: peg.935
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_0504
+  genes_string_PATRIC_id: peg.935
+  pathway: Amino acids metabolism
+  source: Cce model
+  tag: Cce,Cth,Tsac
+  translated_equation: (S)-2-Aceto-2-hydroxybutanoate[c] + H+[c] + |Nicotinamide
+    adenine dinucleotide phosphate - reduced[c]| <=> (R)-2,3-Dihydroxy-3-methylpentanoate[c]
+    + |Nicotinamide adenine dinucleotide phosphate[c]|
+- id: R00925
+  name: Propanoate:CoA ligase (AMP-forming)
+  equation: C00002[c] + C00163[c] + C00010[c] <=> C00020[c] + C00013[c] + C00100[c]
+  ec:
+  - 6.2.1.1
+  - 6.2.1.17
+  EggNOG_annotation: peg.1248:amp-dependent synthetase and ligase
+  KEGG_annotation: Athe_0789:K00666 fatty-acyl-CoA synthase [EC:6.2.1.-] | (GenBank)
+    AMP-dependent synthetase and ligase
+  PATRIC_annotation: Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)
+  comment: two-step reaction (see R01354+R00926)
+  genes_Cce: peg.1248 or -
+  genes_Cth: peg.1248
+  genes_Tsac: peg.1248
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_0789
+  genes_string_PATRIC_id: peg.1248
+  names:
+  - Propanoate:CoA ligase (AMP-forming)
+  pathway: None
+  source: KEGG
+  tag: Cce,Cth,Tsac
+  translated_equation: ATP[c] + Propanoate[c] + CoA[c] <=> AMP[c] + Diphosphate[c]
+    + Propanoyl-CoA[c]
+  note: side rxn of EC 6.2.1.1, but gene peg.1248 is annotated as 6.2.1.3. so remove this rxn from rxn database.
+    in addition, no Cbes gene is annotated as EC 6.2.1.1 in current kegg db (2019-06-05), but also no gene annotated as 
+    EC 6.2.1.3 IN KEGG, KEGG just annotated peg.1248 (Athe_0789) as EC 6.2.1.-
+- id: R00235
+  name: Acetate:CoA ligase (AMP-forming)
+  genes: peg.1248
+  equation: C00002[c] + C00033[c] + C00010[c] => C00020[c] + C00013[c] + C00024[c]
+  ec:
+  - 6.2.1.1
+  EggNOG_annotation: peg.1248:amp-dependent synthetase and ligase
+  KEGG_annotation: Athe_0789:K00666 fatty-acyl-CoA synthase [EC:6.2.1.-] | (GenBank)
+    AMP-dependent synthetase and ligase
+  PATRIC_annotation: Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)
+  comment: two-step reaction (see R00316+R00236)
+  curated: true
+  genes_Cce: peg.1248 or -
+  genes_Cth: peg.1248
+  genes_Tsac: peg.1248
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_0789
+  names:
+  - Acetate:CoA ligase (AMP-forming)
+  other_pathways:
+  - Glycolysis / Gluconeogenesis
+  - Methane metabolism
+  - Carbon fixation pathways in prokaryotes
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Microbial metabolism in diverse environments
+  - Biosynthesis of antibiotics
+  - Carbon metabolism
+  pathway: Glycolysis / Gluconeogenesis
+  source: KEGG
+  tag: Cce,Cth,Tsac
+  translated_equation: ATP[c] + Acetate[c] + CoA[c] <=> AMP[c] + Diphosphate[c] +
+    Acetyl-CoA[c]
+- id: R00923
+  name: (S)-methylmalonyl-CoA carboxy-lyase (propanoyl-CoA-forming)
+  equation: C00683[c] <=> C00100[c] + C00011[c]
+  ec:
+  - 4.1.1.41
+  EggNOG_annotation: peg.1804:Acetyl-CoA carboxylase, carboxyltransferase component
+    (subunits alpha and beta);   peg.1807:carboxylase;   peg.1806:Acetyl-CoA carboxylase,
+    biotin carboxyl carrier protein
+  KEGG_annotation: Athe_1319:K01571 oxaloacetate decarboxylase (Na+ extruding), alpha
+    subunit [EC:7.2.4.2] | (GenBank) Conserved;   Athe_1316:K01604 methylmalonyl-CoA decarboxylase 
+    subunit alpha [EC:7.2.4.3] | (GenBank) carboxyl transferase ;   peg.1806:-
+  PATRIC_annotation: Acetyl-coenzyme A carboxyl transferase alpha chain (EC 6.4.1.2)
+    / Acetyl-coenzyme A carboxyl transferase beta chain (EC 6.4.1.2); Propionyl-CoA
+    carboxylase beta chain (EC 6.4.1.3) or Pyruvate:Oxaloacetate transcarboxylase
+    domain protein or Biotin carboxyl carrier protein => methylmalonyl-CoA decarboxylase;
+    Biotin carboxyl carrier protein
+  genes_Cce: peg.1806
+  genes_Cth: peg.1804 and peg.1806 and peg.1807
+  genes_Tsac: peg.1806
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1316,Athe_1319,peg.1806
+  genes_string_PATRIC_id: peg.1804,peg.1807,peg.1806
+  names:
+  - (S)-methylmalonyl-CoA carboxy-lyase (propanoyl-CoA-forming)
+  other_pathways:
+  - Propanoate metabolism
+  pathway: Propanoate metabolism
+  source: KEGG
+  tag: Cce,Cth,Tsac
+  translated_equation: (S)-Methylmalonyl-CoA[c] <=> Propanoyl-CoA[c] + CO2[c]
+  note: ec 4.1.1.41 was transferred to 7.2.4.3 in 2018; 
+- id: R04209
+  name: 1-(5-phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate carboxy-lyase
+  equation: C04751[c] <=> C03373[c] + C00011[c]
+  ec:
+  - 4.1.1.21
+  EggNOG_annotation: peg.1663:Catalyzes the conversion of N5-carboxyaminoimidazole
+    ribonucleotide (N5-CAIR) to 4-carboxy-5-aminoimidazole ribonucleotide (CAIR)
+    (By similarity)
+  KEGG_annotation: Athe_1178:K01588 5-(carboxyamino)imidazole ribonucleotide mutase
+    [EC:5.4.99.18] | (GenBank) phosphoribosylamin
+  PATRIC_annotation: N5-carboxyaminoimidazole ribonucleotide mutase (EC 5.4.99.18)
+  genes_Cce: peg.1663
+  genes_Cth: peg.1663
+  genes_Tsac: peg.1663
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1178
+  genes_string_PATRIC_id: peg.1663
+  names:
+  - 1-(5-phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate carboxy-lyase
+  other_pathways:
+  - Purine metabolism
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  pathway: Purine metabolism
+  source: KEGG
+  tag: Cce,Cth,Tsac
+  translated_equation: 1-(5-Phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate[c]
+    <=> |Aminoimidazole ribotide[c]| + CO2[c]
+- id: R08639
+  name: alpha-D-glucose 1,6-phosphomutase
+  equation: C00103[c] <=> C00092[c]
+  ec:
+  - 5.4.2.2
+  - 5.4.2.5
+  EggNOG_annotation: peg.2262:Phosphoglucomutase phosphomannomutase alpha beta alpha
+    domain;   peg.2586:Phosphoglucomutase phosphomannomutase alpha beta alpha domain;   peg.2899:Catalyzes
+    the conversion of glucosamine-6-phosphate to glucosamine-1-phosphate (By similarity)
+  KEGG_annotation: Athe_1752:no KO assigned | (GenBank) Phosphoglucomutase;   Athe_2324:K03431
+    phosphoglucosamine mutase [EC:5.4.2.10] | (GenBank) phosphoglucosamine mutase;   Athe_2040:no
+    KO assigned | (GenBank) Phosphomannomutase
+  PATRIC_annotation: Phosphomannomutase (EC 5.4.2.8) or Phosphoglucosamine mutase
+    (EC 5.4.2.10) or Phosphoglucosamine mutase (EC 5.4.2.10)
+  genes_Cce: (peg.2262 or peg.2586)
+  genes_Cth: (peg.2262 or peg.2586)
+  genes_Tsac: peg.2899
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1752,Athe_2040,Athe_2324
+  genes_string_PATRIC_id: peg.2262,peg.2586,peg.2899
+  names:
+  - alpha-D-glucose 1,6-phosphomutase
+  other_pathways:
+  - Starch and sucrose metabolism
+  - Streptomycin biosynthesis
+  - Biosynthesis of antibiotics
+  pathway: Starch and sucrose metabolism
+  source: KEGG
+  tag: Cce,Cth,Tsac
+  translated_equation: '|D-Glucose 1-phosphate[c]| <=> |D-Glucose 6-phosphate[c]|'
+
+
+# glycerophospholipid metabolism
+- id: R02617
+  name: 2,3-Dehydroacyl-CoA:sn-glycerol-3-phosphate O-acyltransferase
+  equation: C00605[c] + C00093[c] <=> C00010[c] + C00681[c]
+  ec:
+  - 2.3.1.15
+  EggNOG_annotation: peg.1208:Catalyzes the transfer of an acyl group from acyl-
+    phosphate (acyl-PO(4)) to glycerol-3-phosphate (G3P) to form lysophosphatidic
+    acid (LPA). This enzyme utilizes acyl-phosphate as fatty acyl donor, but not
+    acyl-CoA or acyl-ACP (By similarity);   peg.1636:Catalyzes the reversible formation
+    of acyl-phosphate (acyl-PO(4)) from acyl- acyl-carrier-protein (acyl-ACP). This
+    enzyme utilizes acyl-ACP as fatty acyl donor, but not acyl-CoA (By similarity);   peg.2740:Pfam:DUF205
+  KEGG_annotation: Athe_1153:K03621 phosphate acyltransferase [EC:2.3.1.274] | (GenBank)
+    fatty acid/phospholipid synthesis protei;   Athe_0752:K08591 acyl phosphate:glycerol-3-phosphate
+    acyltransferase [EC:2.3.1.275] | (GenBank) protein of unk;   Athe_2184:K08591
+    acyl phosphate:glycerol-3-phosphate acyltransferase [EC:2.3.1.275] | (GenBank)
+    protein of unk
+  PATRIC_annotation: Acyl-phosphate:glycerol-3-phosphate O-acyltransferase PlsY (EC
+    2.3.1.n3) or Phosphate:acyl-ACP acyltransferase PlsX (EC 2.3.1.n2) or Acyl-phosphate:glycerol-3-phosphate
+    O-acyltransferase PlsY (EC 2.3.1.n3)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1636,peg.1208,peg.2740
+  genes_string_NCBI_id: Athe_0752,Athe_1153,Athe_2184
+  genes_string_PATRIC_id: peg.1208,peg.1636,peg.2740
+  names:
+  - 2,3-Dehydroacyl-CoA:sn-glycerol-3-phosphate O-acyltransferase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: 2,3-Dehydroacyl-CoA[c] + |sn-Glycerol 3-phosphate[c]| <=>
+    CoA[c] + |1-Acyl-sn-glycerol 3-phosphate[c]|
+- id: R00851
+  name: acyl-CoA:sn-glycerol-3-phosphate 1-O-acyltransferase
+  equation: C00093[c] + C00040[c] <=> C00681[c] + C00010[c]
+  ec:
+  - 2.3.1.15
+  EggNOG_annotation: peg.1208:Catalyzes the transfer of an acyl group from acyl-
+    phosphate (acyl-PO(4)) to glycerol-3-phosphate (G3P) to form lysophosphatidic
+    acid (LPA). This enzyme utilizes acyl-phosphate as fatty acyl donor, but not
+    acyl-CoA or acyl-ACP (By similarity);   peg.1636:Catalyzes the reversible formation
+    of acyl-phosphate (acyl-PO(4)) from acyl- acyl-carrier-protein (acyl-ACP). This
+    enzyme utilizes acyl-ACP as fatty acyl donor, but not acyl-CoA (By similarity);   peg.2740:Pfam:DUF205
+  KEGG_annotation: Athe_1153:K03621 phosphate acyltransferase [EC:2.3.1.274] | (GenBank)
+    fatty acid/phospholipid synthesis protei;   Athe_0752:K08591 acyl phosphate:glycerol-3-phosphate
+    acyltransferase [EC:2.3.1.275] | (GenBank) protein of unk;   Athe_2184:K08591
+    acyl phosphate:glycerol-3-phosphate acyltransferase [EC:2.3.1.275] | (GenBank)
+    protein of unk
+  PATRIC_annotation: Acyl-phosphate:glycerol-3-phosphate O-acyltransferase PlsY (EC
+    2.3.1.n3) or Phosphate:acyl-ACP acyltransferase PlsX (EC 2.3.1.n2) or Acyl-phosphate:glycerol-3-phosphate
+    O-acyltransferase PlsY (EC 2.3.1.n3)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1636,peg.1208,peg.2740
+  genes_string_NCBI_id: Athe_0752,Athe_1153,Athe_2184
+  genes_string_PATRIC_id: peg.1208,peg.1636,peg.2740
+  names:
+  - acyl-CoA:sn-glycerol-3-phosphate 1-O-acyltransferase
+  other_pathways:
+  - Glycerolipid metabolism
+  - Glycerophospholipid metabolism
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  pathway: Glycerolipid metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|sn-Glycerol 3-phosphate[c]| + Acyl-CoA[c] <=> |1-Acyl-sn-glycerol
+    3-phosphate[c]| + CoA[c]'
+- id: R09380
+  name: acyl-ACP:sn-glycerol-3-phosphate 1-O-acyltransferase
+  equation: C00173[c] + C00093[c] <=> C00681[c] + C00229[c]
+  ec:
+  - 2.3.1.15
+  EggNOG_annotation: peg.1208:Catalyzes the transfer of an acyl group from acyl-
+    phosphate (acyl-PO(4)) to glycerol-3-phosphate (G3P) to form lysophosphatidic
+    acid (LPA). This enzyme utilizes acyl-phosphate as fatty acyl donor, but not
+    acyl-CoA or acyl-ACP (By similarity);   peg.1636:Catalyzes the reversible formation
+    of acyl-phosphate (acyl-PO(4)) from acyl- acyl-carrier-protein (acyl-ACP). This
+    enzyme utilizes acyl-ACP as fatty acyl donor, but not acyl-CoA (By similarity);   peg.2740:Pfam:DUF205
+  KEGG_annotation: Athe_1153:K03621 phosphate acyltransferase [EC:2.3.1.274] | (GenBank)
+    fatty acid/phospholipid synthesis protei;   Athe_0752:K08591 acyl phosphate:glycerol-3-phosphate
+    acyltransferase [EC:2.3.1.275] | (GenBank) protein of unk;   Athe_2184:K08591
+    acyl phosphate:glycerol-3-phosphate acyltransferase [EC:2.3.1.275] | (GenBank)
+    protein of unk
+  PATRIC_annotation: Acyl-phosphate:glycerol-3-phosphate O-acyltransferase PlsY (EC
+    2.3.1.n3) or Phosphate:acyl-ACP acyltransferase PlsX (EC 2.3.1.n2) or Acyl-phosphate:glycerol-3-phosphate
+    O-acyltransferase PlsY (EC 2.3.1.n3)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1636,peg.1208,peg.2740
+  genes_string_NCBI_id: Athe_0752,Athe_1153,Athe_2184
+  genes_string_PATRIC_id: peg.1208,peg.1636,peg.2740
+  names:
+  - acyl-ACP:sn-glycerol-3-phosphate 1-O-acyltransferase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|Acyl-[acyl-carrier protein][c]| + |sn-Glycerol 3-phosphate[c]|
+    <=> |1-Acyl-sn-glycerol 3-phosphate[c]| + |Acyl-carrier protein[c]|'
