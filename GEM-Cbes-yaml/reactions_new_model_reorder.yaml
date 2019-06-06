@@ -10160,6 +10160,30 @@
   source: added manually
   tag: KEGG_Cbes
   translated_equation: '|D-Glucose 6-phosphate[c]| <=> |D-Fructose 6-phosphate[c]|'
+- id: R00771
+  name: D-glucose-6-phosphate aldose-ketose-isomerase
+  genes: peg.1059
+  curated: true
+  equation: C00092[c] <=> C00085[c]
+  EggNOG_annotation: peg.1059:Bifunctional phosphoglucose phosphomannose isomerase
+  KEGG_annotation: Athe_0619:K15916 glucose/mannose-6-phosphate isomerase [EC:5.3.1.9
+    5.3.1.8] | (GenBank) bifunctional phosphogl
+  PATRIC_annotation: Glucose-6-phosphate isomerase, archaeal II (EC 5.3.1.9) / Mannose-6-phosphate
+    isomerase, archaeal (EC 5.3.1.8)
+  ec:
+  - 5.3.1.9
+  genes_Cce: '-'
+  genes_Cth: '-'
+  genes_NCBI_id: Athe_0619
+  genes_Tsac: '-'
+  genes_kegg: peg.1059
+  names:
+  - D-glucose-6-phosphate aldose-ketose-isomerase
+  other_pathways:
+  - Starch and sucrose metabolism
+  pathway: Starch and sucrose metabolism
+  source: KEGG_Cbes
+  translated_equation: '|D-Glucose 6-phosphate[c]| <=> |D-Fructose 6-phosphate[c]|'
 - id: R00230
   name: acetyl-CoA:phosphate acetyltransferase (Pta)
   genes: peg.1987
@@ -14670,28 +14694,6 @@
   tag: KEGG_Cbes
   translated_equation: G11112[c] + N-Acetyl-D-glucosaminyldiphosphoundecaprenol[c]
     <=> G00177[c] + G10619[c]
-- id: R06053
-  name: a,a-trehalose:phosphate beta-D-glucosyltransferase
-  equation: G00293[c] + C00009[c] <=> C00031[c] + C00663[c]
-  ec:
-  - 2.4.1.64
-  EggNOG_annotation: peg.818:hydrolase family 65 central catalytic
-  KEGG_annotation: Athe_0403:K05342 alpha,alpha-trehalose phosphorylase [EC:2.4.1.64]
-    | (GenBank) Kojibiose phosphorylase
-  PATRIC_annotation: Alpha,alpha-trehalose phosphorylase (2.4.1.64)
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.818
-  genes_string_NCBI_id: Athe_0403
-  genes_string_PATRIC_id: peg.818
-  names:
-  - a,a-trehalose:phosphate beta-D-glucosyltransferase
-  pathway: None
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: G00293[c] + Orthophosphate[c] <=> D-Glucose[c] + |beta-D-Glucose
-    1-phosphate[c]|
 - id: R01195
   name: Ferredoxin:NADP+ oxidoreductase
   equation: (2) C00138[c] + C00006[c] + C00080[c] <=> (2) C00139[c] + C00005[c]
@@ -15747,6 +15749,8 @@
   translated_equation: '|D-Mannose 6-phosphate[c]| <=> |D-Fructose 6-phosphate[c]|'
 - id: R02728
   name: beta-D-Glucose 1-phosphate 1,6-phosphomutase
+  genes: peg.812
+  curated: true
   equation: C00663[c] <=> C01172[c]
   ec:
   - 5.4.2.6
@@ -15950,29 +15954,6 @@
   tag: KEGG_Cbes
   translated_equation: G10555[c] + G10557(n)[c] <=> |di-trans,poly-cis-Undecaprenyl
     diphosphate[c]| + G10557(n+1)[c]
-- id: R06186
-  equation: G10495[c] <=> G10545[c]
-  ec:
-  - 2.4.1.18
-  EggNOG_annotation: peg.990:Catalyzes the formation of the alpha-1,6-glucosidic
-    linkages in glycogen by scission of a 1,4-alpha-linked oligosaccharide from growing
-    alpha-1,4-glucan chains and the subsequent attachment of the oligosaccharide
-    to the alpha-1,6 position (By similarity)
-  KEGG_annotation: Athe_0558:K00700 1,4-alpha-glucan branching enzyme [EC:2.4.1.18]
-    | (GenBank) 1,4-alpha-glucan branching enzyme
-  PATRIC_annotation: 1,4-alpha-glucan (glycogen) branching enzyme, GH-13-type (EC
-    2.4.1.18)
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.990
-  genes_string_NCBI_id: Athe_0558
-  genes_string_PATRIC_id: peg.990
-  names: []
-  pathway: None
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: G10495[c] <=> G10545[c]
 - id: R06172
   equation: G10551[c] + G10610[c] <=> G10550[c] + G10619[c]
   ec:
@@ -16176,25 +16157,6 @@
   tag: KEGG_Cbes
   translated_equation: '|2-Thio-N6-L-threonylcarbamoyladenine in tRNA[c]| + S-Adenosyl-L-methionine[c]
     <=> |2-Methylthio-N6-L-threonylcarbamoyladenine in tRNA[c]| + S-Adenosyl-L-homocysteine[c]'
-- id: R06080
-  equation: G01318[c] + C00001[c] <=> (2) C00267[c]
-  ec:
-  - 3.2.1.10
-  EggNOG_annotation: peg.561:alpha amylase, catalytic
-  KEGG_annotation: Athe_0165:K01182 oligo-1,6-glucosidase [EC:3.2.1.10] | (GenBank)
-    alpha amylase catalytic region
-  PATRIC_annotation: Oligo-1,6-glucosidase (EC 3.2.1.10)
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.561
-  genes_string_NCBI_id: Athe_0165
-  genes_string_PATRIC_id: peg.561
-  names: []
-  pathway: None
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: G01318[c] + H2O[c] <=> (2) alpha-D-Glucose[c]
 - id: R06092
   equation: G00289[c] + C00001[c] <=> (2) C00221[c]
   ec:
@@ -16471,25 +16433,6 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: G10481(n+2)[c] + H2O[c] <=> G10481(n)[c] + G00289[c]
-- id: R06160
-  equation: G10546[c] + C00001[c] <=> G10495[c]
-  ec:
-  - 3.2.1.54
-  EggNOG_annotation: peg.126:Alpha amylase catalytic
-  KEGG_annotation: Athe_2579:K01208 cyclomaltodextrinase / maltogenic alpha-amylase
-    / neopullulanase [EC:3.2.1.54 3.2.1.133 3.2.1
-  PATRIC_annotation: Neopullulanase (EC 3.2.1.135)
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.126
-  genes_string_NCBI_id: Athe_2579
-  genes_string_PATRIC_id: peg.126
-  names: []
-  pathway: None
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: G10546[c] + H2O[c] <=> G10495[c]
 - id: R08600
   name: N-Acetyl-4-O-acetylneuraminate 4-O-acetylhydrolase
   equation: C04015[c] + C00001[c] <=> C00270[c] + C00033[c]
@@ -18284,10 +18227,11 @@
     + |D-Glyceraldehyde 3-phosphate[c]| + H2O[c]
 - id: R00694
   name: L-Phenylalanine:2-oxoglutarate aminotransferase
-  genes: peg.1306
+  genes: peg.1610 or peg.1906 or peg.1970
   equation: C00079[c] + C00026[c] <=> C00166[c] + C00025[c]
   ec:
-  - 2.6.1.57
+  - 2.6.1.1
+  - 2.6.1.9
   EggNOG_annotation: peg.1306:Imidazole acetol-phosphate transaminase;   peg.977:Involved
     in the synthesis of meso-diaminopimelate (m-DAP or DL-DAP), required for both
     lysine and peptidoglycan biosynthesis. Catalyzes the direct conversion of tetrahydrodipicolinate
@@ -23435,10 +23379,10 @@
     + N-Acylsphingosine[c]
 - id: R02112
   name: 1,4-alpha-D-Glucan maltohydrolase
-  equation: C00369[c] <=> C00721[c] + C00208[c]
+  genes: peg.126
+  curated: true
+  equation: C00369[c] => C00721[c] + C00208[c]
   ec:
-  - 3.2.1.1
-  - 3.2.1.2
   - 3.2.1.133
   EggNOG_annotation: peg.126:Alpha amylase catalytic
   KEGG_annotation: Athe_2579:K01208 cyclomaltodextrinase / maltogenic alpha-amylase
@@ -23461,13 +23405,13 @@
   pathway: Starch and sucrose metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: Starch[c] <=> Dextrin[c] + Maltose[c]
+  translated_equation: Starch[c] => Dextrin[c] + Maltose[c]
 - id: R11262
   name: maltodextrin maltohydrolase
-  equation: C01935[c] + C00001[c] <=> C00208[c]
+  genes: peg.126
+  curated: true
+  equation: C01935[c] + C00001[c] => C00208[c]
   ec:
-  - 3.2.1.1
-  - 3.2.1.2
   - 3.2.1.133
   EggNOG_annotation: peg.126:Alpha amylase catalytic
   KEGG_annotation: Athe_2579:K01208 cyclomaltodextrinase / maltogenic alpha-amylase
@@ -23490,7 +23434,7 @@
   pathway: Starch and sucrose metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: Maltodextrin[c] + H2O[c] <=> Maltose[c]
+  translated_equation: Maltodextrin[c] + H2O[c] => Maltose[c]
 - id: R00760
   name: ATP:D-fructose 6-phosphotransferase
   genes: peg.2673
@@ -23520,10 +23464,11 @@
   translated_equation: ATP[c] + D-Fructose[c] <=> ADP[c] + |D-Fructose 6-phosphate[c]|
 - id: R00306
   name: cellobiose glucohydrolase
+  genes: peg.878
+  curated: true
   equation: C00185[c] + C00001[c] <=> (2) C00031[c]
   ec:
   - 3.2.1.21
-  - 3.2.1.74
   EggNOG_annotation: peg.2930:Glycoside hydrolase family 3 domain protein;   peg.878:hydrolase,
     family 1
   KEGG_annotation: Athe_2354:K05349 beta-glucosidase [EC:3.2.1.21] | (GenBank) glycoside
@@ -23549,7 +23494,9 @@
   translated_equation: Cellobiose[c] + H2O[c] <=> (2) D-Glucose[c]
 - id: R02111
   name: 1,4-alpha-D-Glucan:orthophosphate alpha-D-glucosyltransferase
-  equation: C00369[c] + C00009[c] <=> C00718[c] + C00103[c]
+  genes: peg.986 or peg.123
+  curated: true
+  equation: C00369[c] + C00009[c] => C00718[c] + C00103[c]
   ec:
   - 2.4.1.1
   EggNOG_annotation: peg.1045:pullulanase, type i;   peg.986:Phosphorylase is an
@@ -23583,11 +23530,13 @@
   pathway: Starch and sucrose metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: Starch[c] + Orthophosphate[c] <=> Amylose[c] + |D-Glucose
+  translated_equation: Starch[c] + Orthophosphate[c] => Amylose[c] + |D-Glucose
     1-phosphate[c]|
 - id: R01718
   name: Isomaltose 6-alpha-D-glucanohydrolase
-  equation: C00252[c] + C00001[c] <=> C00267[c] + C00031[c]
+  genes: peg.561
+  curated: true
+  equation: C00252[c] + C00001[c] => C00267[c] + C00031[c]
   ec:
   - 3.2.1.10
   EggNOG_annotation: peg.561:alpha amylase, catalytic
@@ -23607,10 +23556,12 @@
   pathway: Starch and sucrose metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: Isomaltose[c] + H2O[c] <=> alpha-D-Glucose[c] + D-Glucose[c]
+  translated_equation: Isomaltose[c] + H2O[c] => alpha-D-Glucose[c] + D-Glucose[c]
 - id: R03527
   name: D-Glucoside glucohydrolase
-  equation: C00963[c] + C00001[c] <=> C00031[c] + C01335[c]
+  genes: peg.878
+  curated: true
+  equation: C00963[c] + C00001[c] => C00031[c] + C01335[c]
   ec:
   - 3.2.1.21
   EggNOG_annotation: peg.2930:Glycoside hydrolase family 3 domain protein;   peg.878:hydrolase,
@@ -23633,38 +23584,42 @@
   pathway: Starch and sucrose metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: beta-D-Glucoside[c] + H2O[c] <=> D-Glucose[c] + ROH[c]
-# - id: R02887
-#   name: 1,4-beta-D-Glucan glucohydrolase
-#   equation: C01898[c] + (n - 2) C00001[c] <=> (n - 2) C00031[c] + C00185[c]
-#   ec:
-#   - 3.2.1.21
-#   - 3.2.1.74
-#   EggNOG_annotation: peg.2930:Glycoside hydrolase family 3 domain protein;   peg.878:hydrolase,
-#     family 1
-#   KEGG_annotation: Athe_2354:K05349 beta-glucosidase [EC:3.2.1.21] | (GenBank) glycoside
-#     hydrolase family 3 domain protein;   Athe_0458:K05350 beta-glucosidase [EC:3.2.1.21]
-#     | (GenBank) beta-galactosidase
-#   PATRIC_annotation: Xylan 1,4-beta-xylosidase (EC 3.2.1.37) @ Arabinan endo-1,5-alpha-L-arabinosidase
-#     (EC 3.2.1.99) or beta-glucosidase (EC 3.2.1.21)
-#   genes_Cce: None
-#   genes_Cth: None
-#   genes_Tsac: None
-#   genes_kegg: peg.2930,peg.878
-#   genes_string_NCBI_id: Athe_2354,Athe_0458
-#   genes_string_PATRIC_id: peg.2930,peg.878
-#   names:
-#   - 1,4-beta-D-Glucan glucohydrolase
-#   other_pathways:
-#   - Starch and sucrose metabolism
-#   - Metabolic pathways
-#   pathway: Starch and sucrose metabolism
-#   source: KEGG
-#   tag: KEGG_Cbes
+  translated_equation: beta-D-Glucoside[c] + H2O[c] => D-Glucose[c] + ROH[c]
+- id: R02887_n4
+  name: 1,4-beta-D-Glucan glucohydrolase
+  genes: peg.878
+  curated: true
+  equation: C01898[c] + (2) C00001[c] => (2) C00031[c] + C00185[c]
+  ec:
+  - 3.2.1.21
+  EggNOG_annotation: peg.2930:Glycoside hydrolase family 3 domain protein;   peg.878:hydrolase,
+    family 1
+  KEGG_annotation: Athe_2354:K05349 beta-glucosidase [EC:3.2.1.21] | (GenBank) glycoside
+    hydrolase family 3 domain protein;   Athe_0458:K05350 beta-glucosidase [EC:3.2.1.21]
+    | (GenBank) beta-galactosidase
+  PATRIC_annotation: Xylan 1,4-beta-xylosidase (EC 3.2.1.37) @ Arabinan endo-1,5-alpha-L-arabinosidase
+    (EC 3.2.1.99) or beta-glucosidase (EC 3.2.1.21)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2930,peg.878
+  genes_string_NCBI_id: Athe_2354,Athe_0458
+  genes_string_PATRIC_id: peg.2930,peg.878
+  names:
+  - 1,4-beta-D-Glucan glucohydrolase
+  other_pathways:
+  - Starch and sucrose metabolism
+  - Metabolic pathways
+  pathway: Starch and sucrose metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: Cellodextrin + (2) H2O => (2) D-Glucose + Cellobiose
 - id: R03122
   name: Cyclomaltodextrin dextrin-hydrolase (decyclizing)
-  equation: C00973[c] + C00001[c] <=> C01935[c]
-  ec:
+  genes: peg.126
+  curated: true
+  equation: C00973[c] + C00001[c] => C01935[c]
+  ec: 
   - 3.2.1.54
   EggNOG_annotation: peg.126:Alpha amylase catalytic
   KEGG_annotation: Athe_2579:K01208 cyclomaltodextrinase / maltogenic alpha-amylase
@@ -23683,7 +23638,7 @@
   pathway: Starch and sucrose metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: Cyclomaltodextrin[c] + H2O[c] <=> Maltodextrin[c]
+  translated_equation: Cyclomaltodextrin[c] + H2O[c] => Maltodextrin[c]
 - id: R01790
   name: 1,4-alpha-D-Glucan glucohydrolase
   equation: C00369[c] + C00001[c] <=> C00031[c] + C00369[c]
@@ -23709,9 +23664,10 @@
   translated_equation: Starch[c] + H2O[c] <=> D-Glucose[c] + Starch[c]
 - id: R01791
   name: Dextrin 6-alpha-D-glucanohydrolase
-  equation: C00721[c] + C00001[c] <=> C00031[c] + C00721[c]
+  genes: peg.561
+  curated: true
+  equation: C00721[c] + C00001[c] => C00031[c] + C00721[c]
   ec:
-  - 3.2.1.3
   - 3.2.1.10
   EggNOG_annotation: peg.561:alpha amylase, catalytic
   KEGG_annotation: Athe_0165:K01182 oligo-1,6-glucosidase [EC:3.2.1.10] | (GenBank)
@@ -23731,10 +23687,12 @@
   pathway: Starch and sucrose metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: Dextrin[c] + H2O[c] <=> D-Glucose[c] + Dextrin[c]
+  translated_equation: Dextrin[c] + H2O[c] => D-Glucose[c] + Dextrin[c]
 - id: R00948
   name: ATP:alpha-D-glucose-1-phosphate adenylyltransferase
-  equation: C00002[c] + C00103[c] <=> C00013[c] + C00498[c]
+  equation: C00002[c] + C00103[c] => C00013[c] + C00498[c]
+  genes: peg.988 or peg.989
+  curated: true
   ec:
   - 2.7.7.27
   EggNOG_annotation: peg.434:Catalyzes the formation of dTDP-glucose, from dTTP and
@@ -23768,7 +23726,7 @@
   pathway: Starch and sucrose metabolism
   source: KEGG
   tag: KEGG_Cbes,Tsac
-  translated_equation: ATP[c] + |D-Glucose 1-phosphate[c]| <=> Diphosphate[c] + ADP-glucose[c]
+  translated_equation: ATP[c] + |D-Glucose 1-phosphate[c]| => Diphosphate[c] + ADP-glucose[c]
 - id: R00956
   name: CTP:alpha-D-glucose-1-phosphate cytidylyltransferase
   equation: C00063[c] + C00103[c] <=> C00013[c] + C00501[c]
@@ -23799,12 +23757,13 @@
   source: KEGG
   tag: Tsac
   translated_equation: CTP[c] + |D-Glucose 1-phosphate[c]| <=> Diphosphate[c] + CDP-glucose[c]
-- id: R02421
+- id: R02421_n4
   name: ADP-glucose:1,4-alpha-D-glucan 4-alpha-D-glucosyltransferase
-  equation: C00498[c] + C00718[c] <=> C00008[c] + C00718[c]
+  genes: peg.987
+  curated: true
+  equation: C00498[c] + C00718_n4[c] => C00008[c] + C00718_n5[c]
   ec:
   - 2.4.1.21
-  - 2.4.1.242
   EggNOG_annotation: peg.987:Synthesizes alpha-1,4-glucan chains using ADP-glucose
     (By similarity)
   KEGG_annotation: Athe_0555:K00703 starch synthase [EC:2.4.1.21] | (GenBank) glycogen/starch
@@ -23825,7 +23784,7 @@
   pathway: Starch and sucrose metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: ADP-glucose[c] + Amylose[c] <=> ADP[c] + Amylose[c]
+  translated_equation: ADP-glucose[c] + Amylose[c] => ADP[c] + Amylose[c]
 - id: R00952
   name: cellobiose:phosphate alpha-D-glucosyltransferase
   genes: peg.880
@@ -23858,7 +23817,9 @@
     + D-Glucose[c]
 - id: R02110
   name: 1,4-alpha-D-Glucan:1,4-alpha-D-glucan 6-alpha-D-(1,4-alpha-D-glucano)-transferase
-  equation: C00718[c] <=> C00369[c]
+  genes: peg.990
+  curated: true
+  equation: C00718[c] => C00369[c]
   ec:
   - 2.4.1.18
   EggNOG_annotation: peg.990:Catalyzes the formation of the alpha-1,6-glucosidic
@@ -23884,10 +23845,12 @@
   pathway: Starch and sucrose metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: Amylose[c] <=> Starch[c]
+  translated_equation: Amylose[c] => Starch[c]
 - id: R02727
   name: alpha,alpha-Trehalose:orthophosphate beta-D-glucosyltransferase
-  equation: C01083[c] + C00009[c] <=> C00031[c] + C00663[c]
+  genes: peg.818
+  curated: true
+  equation: C01083[c] + C00009[c] => C00031[c] + C00663[c]
   ec:
   - 2.4.1.64
   EggNOG_annotation: peg.818:hydrolase family 65 central catalytic
@@ -23908,10 +23871,12 @@
   pathway: Starch and sucrose metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: alpha,alpha-Trehalose[c] + Orthophosphate[c] <=> D-Glucose[c]
+  translated_equation: alpha,alpha-Trehalose[c] + Orthophosphate[c] => D-Glucose[c]
     + |beta-D-Glucose 1-phosphate[c]|
 - id: R11310
   name: beta-D-glucose 1,6-phosphomutase
+  genes: peg.812
+  curated: true
   equation: C00663[c] <=> C00092[c]
   ec:
   - 5.4.2.6
@@ -23933,11 +23898,12 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: '|beta-D-Glucose 1-phosphate[c]| <=> |D-Glucose 6-phosphate[c]|'
-- id: R11308
-  equation: C01898[c] <=> C00185[c]
+- id: R11308_n4
+  equation: C01898[c] => (2) C00185[c]
+  genes: peg.2380 or peg.2376 or peg.633 or peg.1027
+  curated: true
   ec:
   - 3.2.1.4
-  - 3.2.1.91
   EggNOG_annotation: peg.633:Glycoside hydrolase family 5;   peg.2376:Cellulase (glycosyl
     hydrolase family 5);   peg.2380:glycoside hydrolase family protein;   peg.1027:cellulase
     (EC 3.2.1.4)
@@ -23966,8 +23932,10 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: Cellodextrin[c] <=> Cellobiose[c]
-- id: R11307
-  equation: C00760[c] + C00001[c] <=> C00760[c] + C01898[c]
+- id: R11307_n10
+  equation: C00760_n10[c] + C00001[c] => C00760_n6[c] + C01898[c]
+  genes: peg.2380 or peg.2376 or peg.633 or peg.1027
+  curated: true
   ec:
   - 3.2.1.4
   EggNOG_annotation: peg.633:Glycoside hydrolase family 5;   peg.2376:Cellulase (glycosyl
@@ -23994,7 +23962,9 @@
   pathway: Starch and sucrose metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: Cellulose[c] + H2O[c] <=> Cellulose[c] + Cellodextrin[c]
+  translated_equation: Cellulose[c] + H2O[c] => Cellulose[c] + Cellodextrin[c]
+  note: C00760 is generic compound ((C6H10O5)n), in this rxn for reactant cellulose I choose n=10, 
+    then product cellulose n=6 since cellodextrin has n=4.
 - id: UDPDPS
   name: undecaprenyl-diphosphatesynthase
   equation: decdp[c] + ipdp[c] => udcpdp[c] + ppi[c]
@@ -24303,7 +24273,9 @@
 - id: R06447
   name: (2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate cistransferase (adding
     8 isopentenyl units)
-  equation: C00448[c] + (8) C00129[c] <=> C04574[c] + (8) C00013[c]
+  genes: peg.2324
+  curated: true
+  equation: C00448[c] + (8) C00129[c] => C04574[c] + (8) C00013[c]
   ec:
   - 2.5.1.31
   EggNOG_annotation: peg.2324:Catalyzes the condensation of isopentenyl diphosphate
@@ -24331,10 +24303,12 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: '|trans,trans-Farnesyl diphosphate[c]| + (8) |Isopentenyl
-    diphosphate[c]| <=> |di-trans,poly-cis-Undecaprenyl diphosphate[c]| + (8) Diphosphate[c]'
+    diphosphate[c]| => |di-trans,poly-cis-Undecaprenyl diphosphate[c]| + (8) Diphosphate[c]'
 - id: R01658
   name: Dimethylallyl-diphosphate:isopentenyl-diphosphate dimethylallyltranstransferase
-  equation: C00235[c] + C00129[c] <=> C00013[c] + C00341[c]
+  genes: peg.1483
+  curated: true
+  equation: C00235[c] + C00129[c] => C00013[c] + C00341[c]
   ec:
   - 2.5.1.1
   EggNOG_annotation: peg.1483:Polyprenyl synthetase
@@ -24358,10 +24332,12 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: '|Dimethylallyl diphosphate[c]| + |Isopentenyl diphosphate[c]|
-    <=> Diphosphate[c] + |Geranyl diphosphate[c]|'
+    => Diphosphate[c] + |Geranyl diphosphate[c]|'
 - id: R02003
   name: Geranyl-diphosphate:isopentenyl-diphosphate geranyltrans-transferase
-  equation: C00341[c] + C00129[c] <=> C00013[c] + C00448[c]
+  genes: peg.1483
+  curated: true
+  equation: C00341[c] + C00129[c] => C00013[c] + C00448[c]
   ec:
   - 2.5.1.10
   EggNOG_annotation: peg.1483:Polyprenyl synthetase
@@ -24384,7 +24360,7 @@
   pathway: Terpenoid backbone biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: '|Geranyl diphosphate[c]| + |Isopentenyl diphosphate[c]| <=>
+  translated_equation: '|Geranyl diphosphate[c]| + |Isopentenyl diphosphate[c]| =>
     Diphosphate[c] + |trans,trans-Farnesyl diphosphate[c]|'
 - id: R05633
   name: 'CTP: 2-C-Methyl-D-erythritol 4-phosphate cytidylyltransferase'
@@ -24453,7 +24429,9 @@
     => |2-C-Methyl-D-erythritol 2,4-cyclodiphosphate[c]| + CMP[c]'
 - id: R02061
   name: trans,trans-Farnesyl-diphosphate:isopentenyl-diphosphate farnesyltranstransferase
-  equation: C00448[c] + C00129[c] <=> C00013[c] + C00353[c]
+  genes: peg.1483
+  curated: true
+  equation: C00448[c] + C00129[c] => C00013[c] + C00353[c]
   ec:
   - 2.5.1.29
   EggNOG_annotation: peg.1483:Polyprenyl synthetase
@@ -24478,41 +24456,11 @@
   tag: KEGG_Cbes
   translated_equation: '|trans,trans-Farnesyl diphosphate[c]| + |Isopentenyl diphosphate[c]|
     <=> Diphosphate[c] + |Geranylgeranyl diphosphate[c]|'
-- id: R08689
-  name: (E)-4-hydroxy-3-methylbut-2-en-1-yl-diphosphate:oxidized ferredoxin oxidoreductase
-    (hydrating)
-  equation: C11453[c] + (2) C00138[c] <=> C11811[c] + C00001[c] + (2) C00139[c]
-  ec:
-  - 1.17.7.1
-  EggNOG_annotation: peg.2320:Converts 2C-methyl-D-erythritol 2,4-cyclodiphosphate
-    (ME-2,4cPP) into 1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate (By similarity)
-  KEGG_annotation: Athe_1808:K03526 (E)-4-hydroxy-3-methylbut-2-enyl-diphosphate
-    synthase [EC:1.17.7.1 1.17.7.3] | (GenBank) 1-hy
-  PATRIC_annotation: (E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase (flavodoxin)
-    (EC 1.17.7.3)
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.2320
-  genes_string_NCBI_id: Athe_1808
-  genes_string_PATRIC_id: peg.2320
-  names:
-  - (E)-4-hydroxy-3-methylbut-2-en-1-yl-diphosphate:oxidized ferredoxin oxidoreductase
-    (hydrating)
-  other_pathways:
-  - Terpenoid backbone biosynthesis
-  - Metabolic pathways
-  - Biosynthesis of secondary metabolites
-  - Biosynthesis of antibiotics
-  pathway: Terpenoid backbone biosynthesis
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: '|2-C-Methyl-D-erythritol 2,4-cyclodiphosphate[c]| + (2) |Reduced
-    ferredoxin[c]| <=> |1-Hydroxy-2-methyl-2-butenyl 4-diphosphate[c]| + H2O[c] +
-    (2) |Oxidized ferredoxin[c]|'
 - id: R10859
   name: (E)-4-hydroxy-3-methylbut-2-en-1-yl-diphosphate:oxidized flavodoxin oxidoreductase
-  equation: C11811[c] + C00001[c] + C02869[c] <=> C11453[c] + C02745[c]
+  genes: peg.2320
+  curated: true
+  equation: C11811[c] + C00001[c] + C02869[c] <= C11453[c] + C02745[c]
   ec:
   - 1.17.7.3
   EggNOG_annotation: peg.2320:Converts 2C-methyl-D-erythritol 2,4-cyclodiphosphate
@@ -24536,11 +24484,13 @@
   source: KEGG
   tag: KEGG_Cbes,Tsac
   translated_equation: '|1-Hydroxy-2-methyl-2-butenyl 4-diphosphate[c]| + H2O[c]
-    + |Oxidized flavodoxin[c]| <=> |2-C-Methyl-D-erythritol 2,4-cyclodiphosphate[c]|
+    + |Oxidized flavodoxin[c]| <= |2-C-Methyl-D-erythritol 2,4-cyclodiphosphate[c]|
     + |Reduced flavodoxin[c]|'
 - id: R08210
   name: dimethylallyl diphosphate:ferredoxin oxidoreductase
-  equation: C00235[c] + (2) C00139[c] + C00001[c] <=> C11811[c] + (2) C00138[c] +
+  genes: peg.1815
+  curated: true
+  equation: C00235[c] + (2) C00139[c] + C00001[c] <= C11811[c] + (2) C00138[c] +
     (2) C00080[c]
   ec:
   - 1.17.7.4
@@ -24567,11 +24517,13 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: '|Dimethylallyl diphosphate[c]| + (2) |Oxidized ferredoxin[c]|
-    + H2O[c] <=> |1-Hydroxy-2-methyl-2-butenyl 4-diphosphate[c]| + (2) |Reduced ferredoxin[c]|
+    + H2O[c] <= |1-Hydroxy-2-methyl-2-butenyl 4-diphosphate[c]| + (2) |Reduced ferredoxin[c]|
     + (2) H+[c]'
 - id: R05884
   name: isopentenyl-diphosphate:ferredoxin oxidoreductase
-  equation: C11811[c] + (2) C00138[c] + (2) C00080[c] <=> C00129[c] + (2) C00139[c]
+  genes: peg.1815
+  curated: true
+  equation: C11811[c] + (2) C00138[c] + (2) C00080[c] => C00129[c] + (2) C00139[c]
     + C00001[c]
   ec:
   - 1.17.7.4
@@ -24599,7 +24551,7 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: '|1-Hydroxy-2-methyl-2-butenyl 4-diphosphate[c]| + (2) |Reduced
-    ferredoxin[c]| + (2) H+[c] <=> |Isopentenyl diphosphate[c]| + (2) |Oxidized ferredoxin[c]|
+    ferredoxin[c]| + (2) H+[c] => |Isopentenyl diphosphate[c]| + (2) |Oxidized ferredoxin[c]|
     + H2O[c]'
 - id: R05688
   name: 1-Deoxy-D-xylulose-5-phosphate isomeroreductase
