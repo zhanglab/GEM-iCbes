@@ -45,14 +45,25 @@
 # - id: sink_oaa
 #   equation: C00036[c] =>
 
-- id: source_oaa
-  equation: C00036[c] <=
+
+# - id: source_oaa
+#   equation: C00036[c] <=
 - id: source_h2s
   equation: C00283[c] <=
-- id: sink_thf
-  equation: C00101[c] =>
-- id: source_formylthf
-  equation: C00234[c] <=
+# - id: sink_thf
+#   equation: C00101[c] =>
+# - id: source_formylthf
+#   equation: C00234[c] <=
+# - id: sink_formylthf
+#   equation: C00234[c] =>
+- id: source_formate
+  equation: C00058[c] <=
+# - id: sink_formate
+#   equation: C00058[c] =>
+# - id: source_proPhis
+#   equation: C04261[c] <=
+# - id: sink_prohis
+#   equation: C00615[c] =>
 
 # - id: source_5mthf
 #   equation: C00440[c] <=>
@@ -60,6 +71,8 @@
 #   equation: C00101[c] <=>
 # - id: sink_aicar
 #   equation: C04677[c] =>
+# - id: sink_faicar
+#   equation: C04734[c] =>
 # - id: source_emm
 #   equation: C06032[c] <=
 # - id: sink_ppi
@@ -70,8 +83,8 @@
 #   equation: C00342[c] <=
 
 
-# - id: sink_pyr
-#   equation: C00022[c] =>
+- id: sink_pyr
+  equation: C00022[c] =>
 # - id: sink_accoa
 #   equation: C00024[c] =>
 # - id: sink_coa
@@ -179,7 +192,9 @@
 # - id: sink_test
 #   equation: C00044[c] =>
 
-
+# artificial transport
+- id: trans_oaa
+  equation: C00036[e] => C00036[c]
 
 
 

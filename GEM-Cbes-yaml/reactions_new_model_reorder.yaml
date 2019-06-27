@@ -537,9 +537,10 @@
   translated_equation: '|alpha-D-Glucosamine 1-phosphate[c]| <=> |D-Glucosamine 6-phosphate[c]|'
 - id: R03920
   name: ATP:D-fructose 6-phosphotransferase
-  equation: C00002[c] + C02336[c] <=> C00008[c] + C05345[c]
+  genes: peg.2673
+  curated: true
+  equation: C00002[c] + C02336[c] => C00008[c] + C05345[c]
   ec:
-  - 2.7.1.1
   - 2.7.1.4
   EggNOG_annotation: peg.2673:PfkB domain protein
   KEGG_annotation: Athe_2118:K00847 fructokinase [EC:2.7.1.4] | (GenBank) PfkB domain
@@ -558,7 +559,7 @@
   pathway: Amino sugar and nucleotide sugar metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: ATP[c] + beta-D-Fructose[c] <=> ADP[c] + |beta-D-Fructose
+  translated_equation: ATP[c] + beta-D-Fructose[c] => ADP[c] + |beta-D-Fructose
     6-phosphate[c]|
 - id: R00420
   name: UDP-N-acetyl-D-glucosamine 2-epimerase
@@ -705,33 +706,35 @@
   source: KEGG
   tag: KEGG_Cbes,Cth,Tsac
   translated_equation: UDP-N-acetyl-alpha-D-glucosamine[c] <=> UDP-N-acetyl-D-galactosamine[c]
-- id: R01433
-  name: D-xylose xylohydrolase
-  equation: C00181[c] + C02352[c] <=> C02352[c] + C00001[c]
-  ec:
-  - 3.2.1.37
-  EggNOG_annotation: peg.581:Xylan 1,4-beta-xylosidase (EC 3.2.1.37);   peg.584:Xylan
-    1,4-beta-xylosidase (EC 3.2.1.37)
-  KEGG_annotation: peg.584:-;   Athe_0184:K01198 xylan 1,4-beta-xylosidase [EC:3.2.1.37]
-    | (GenBank) Xylan 1,4-beta-xylosidase
-  PATRIC_annotation: Xylan 1,4-beta-xylosidase (EC 3.2.1.37) or Xylan 1,4-beta-xylosidase
-    (EC 3.2.1.37)
-  genes_Cce: (peg.581 or peg.584)
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.581
-  genes_string_NCBI_id: Athe_0184,peg.584
-  genes_string_PATRIC_id: peg.581,peg.584
-  names:
-  - D-xylose xylohydrolase
-  other_pathways:
-  - Amino sugar and nucleotide sugar metabolism
-  - Metabolic pathways
-  pathway: Amino sugar and nucleotide sugar metabolism
-  source: KEGG
-  tag: KEGG_Cbes,Cce
-  translated_equation: D-Xylose[c] + 1,4-beta-D-Xylan[c] <=> 1,4-beta-D-Xylan[c]
-    + H2O[c]
+# - id: R01433
+#   name: D-xylose xylohydrolase
+#   genes: peg.581 or peg.584
+#   curated: true
+#   equation: C00181[c] + C02352[c] <= C02352[c] + C00001[c]
+#   ec:
+#   - 3.2.1.37
+#   EggNOG_annotation: peg.581:Xylan 1,4-beta-xylosidase (EC 3.2.1.37);   peg.584:Xylan
+#     1,4-beta-xylosidase (EC 3.2.1.37)
+#   KEGG_annotation: peg.584:-;   Athe_0184:K01198 xylan 1,4-beta-xylosidase [EC:3.2.1.37]
+#     | (GenBank) Xylan 1,4-beta-xylosidase
+#   PATRIC_annotation: Xylan 1,4-beta-xylosidase (EC 3.2.1.37) or Xylan 1,4-beta-xylosidase
+#     (EC 3.2.1.37)
+#   genes_Cce: (peg.581 or peg.584)
+#   genes_Cth: None
+#   genes_Tsac: None
+#   genes_kegg: peg.581
+#   genes_string_NCBI_id: Athe_0184,peg.584
+#   genes_string_PATRIC_id: peg.581,peg.584
+#   names:
+#   - D-xylose xylohydrolase
+#   other_pathways:
+#   - Amino sugar and nucleotide sugar metabolism
+#   - Metabolic pathways
+#   pathway: Amino sugar and nucleotide sugar metabolism
+#   source: KEGG
+#   tag: KEGG_Cbes,Cce
+#   translated_equation: D-Xylose[c] + 1,4-beta-D-Xylan[c] <= 1,4-beta-D-Xylan[c]
+#     + H2O[c]
 - id: R00022
   name: chitobiose N-acetylglucosaminohydrolase
   equation: C01674[c] + C00001[c] <=> (2) C00140[c]
@@ -762,7 +765,9 @@
   translated_equation: Chitobiose[c] + H2O[c] <=> (2) N-Acetyl-D-glucosamine[c]
 - id: R01762
   name: alpha-L-arabinan arabinofuranohydrolase
-  equation: C02474[c] + C00001[c] <=> C02474[c] + C00259[c]
+  equation: C02474[c] + C00001[c] => C02474[c] + C00259[c]
+  genes: peg.1584
+  curated: true
   ec:
   - 3.2.1.55
   EggNOG_annotation: peg.1584:alpha-N-arabinofuranosidase (EC 3.2.1.55)
@@ -772,9 +777,9 @@
   genes_Cce: '- or peg.1584 or peg.1584 or - or -'
   genes_Cth: None
   genes_Tsac: None
-  genes_kegg: '#NAME?'
-  genes_string_NCBI_id: Athe_1103
-  genes_string_PATRIC_id: peg.1584
+  genes_kegg: Athe_0182 or Athe_1103
+  genes_string_NCBI_id: Athe_0182, Athe_1103
+  genes_string_PATRIC_id: -, peg.1584
   names:
   - alpha-L-arabinan arabinofuranohydrolase
   other_pathways:
@@ -782,7 +787,7 @@
   pathway: Amino sugar and nucleotide sugar metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: Arabinan[c] + H2O[c] <=> Arabinan[c] + L-Arabinose[c]
+  translated_equation: Arabinan[c] + H2O[c] => Arabinan[c] + L-Arabinose[c]
 - id: R02059
   name: N-Acetyl-D-glucosamine-6-phosphate amidohydrolase
   genes: peg.481
@@ -916,7 +921,9 @@
     + |N-Acetyl-alpha-D-glucosamine 1-phosphate[c]|
 - id: R09942
   name: N,N'-diacetylchitobiose:phosphate N-acetyl-D-glucosaminyltransferase
-  equation: C01674[c] + C00009[c] <=> C00140[c] + C04501[c]
+  genes: peg.879
+  curated: true
+  equation: C01674[c] + C00009[c] => C00140[c] + C04501[c]
   ec:
   - 2.4.1.280
   EggNOG_annotation: peg.879:Glycosyltransferase 36
@@ -936,8 +943,9 @@
   pathway: Amino sugar and nucleotide sugar metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: Chitobiose[c] + Orthophosphate[c] <=> N-Acetyl-D-glucosamine[c]
+  translated_equation: Chitobiose[c] + Orthophosphate[c] => N-Acetyl-D-glucosamine[c]
     + |N-Acetyl-alpha-D-glucosamine 1-phosphate[c]|
+  PMID: 9863057, 10913116
 - id: R00421
   name: UDP-N-acetyl-D-glucosamine:NAD+ 6-oxidoreductase
   equation: C00043[c] + (2) C00003[c] + C00001[c] <=> C04573[c] + (2) C00004[c] +
@@ -4106,7 +4114,8 @@
   genes_string_PATRIC_id: peg.2478
   names:
   - L-Homoserine:NAD+ oxidoreductase
-  note: according to literature, reactions carried by this enzyme are reversile.
+  note: according to literature, reactions carried by this enzyme are reversile. 
+    In tsac model, it is highlighted as irreversible.
   other_pathways:
   - Glycine, serine and threonine metabolism
   - Cysteine and methionine metabolism
@@ -7466,36 +7475,12 @@
   translated_equation: '|7,8-Dihydroneopterin 3-triphosphate[c]| + (3) H2O[c] <=>
     2-Amino-4-hydroxy-6-(D-erythro-1,2,3-trihydroxypropyl)-7,8-dihydropteridine[c]
     + (3) Orthophosphate[c]'
-- id: R09030
-  name: D-allose-6-phosphate aldose-ketose-isomerase
-  equation: C02962[c] <=> C18096[c]
-  ec:
-  - 5.3.1.6
-  EggNOG_annotation: peg.1073:isomerase
-  KEGG_annotation: Athe_0632:K01808 ribose 5-phosphate isomerase B [EC:5.3.1.6] |
-    (GenBank) sugar-phosphate isomerase, RpiB/LacA/
-  PATRIC_annotation: Ribose-5-phosphate isomerase B (EC 5.3.1.6)
-  comment: allose-6-phosphate isomerase
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1073
-  genes_string_NCBI_id: Athe_0632
-  genes_string_PATRIC_id: peg.1073
-  names:
-  - D-allose-6-phosphate aldose-ketose-isomerase
-  other_pathways:
-  - Fructose and mannose metabolism
-  - Microbial metabolism in diverse environments
-  pathway: Fructose and mannose metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: '|D-Allose 6-phosphate[c]| <=> |D-Allulose 6-phosphate[c]|'
 - id: R00867
   name: ATP:D-fructose 6-phosphotransferase
-  equation: C00002[c] + C00095[c] <=> C00008[c] + C05345[c]
+  genes: peg.2673
+  curated: true
+  equation: C00002[c] + C00095[c] => C00008[c] + C05345[c]
   ec:
-  - 2.7.1.1
   - 2.7.1.4
   EggNOG_annotation: peg.2673:PfkB domain protein
   KEGG_annotation: Athe_2118:K00847 fructokinase [EC:2.7.1.4] | (GenBank) PfkB domain
@@ -7515,41 +7500,40 @@
   pathway: Fructose and mannose metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: ATP[c] + D-Fructose[c] <=> ADP[c] + |beta-D-Fructose 6-phosphate[c]|
-# - id: R01332
-#   name: beta-D-mannan hydrolases
-#   equation: C02492[c] + (n - 1) C00001[c] <=> (n) C00159[c]
-#   ec:
-#   - 3.2.1.25
-#   - 3.2.1.78
-#   EggNOG_annotation: 'peg.625:Glycoside hydrolase, family 2;   peg.2379:Inherit from
-#     firmNOG: Mannan endo-1,4-beta-mannosidase;   peg.2375:hydrolase family 9'
-#   KEGG_annotation: Athe_1865:K01218 mannan endo-1,4-beta-mannosidase [EC:3.2.1.78]
-#     | (GenBank) glycoside hydrolase family 9;   Athe_1859:K01218 mannan endo-1,4-beta-mannosidase
-#     [EC:3.2.1.78] | (GenBank) glycoside hydrolase family 5;   Athe_0227:K01192 beta-mannosidase
-#     [EC:3.2.1.25] | (GenBank) glycoside hydrolase family 2 sugar binding
-#   PATRIC_annotation: Beta-mannosidase (EC 3.2.1.25) or Mannan endo-1,4-beta-mannosidase
-#     (EC 3.2.1.78) / beta-1,4-glucanase (cellulase) (EC 3.2.1.4) / Domain of unknown
-#     function or Glucan 1,4-beta-glucosidase (EC 3.2.1.74) / Mannan endo-1,4-beta-mannosidase
-#     (EC 3.2.1.78)
-#   comment: 'multi-step reaction
-
-#     endo-hydrolysis (ec 3.2.1.78, see R08612)
-
-#     exo-hydrolysis (ec 3.2.1.25, see R08614)'
-#   genes_Cce: None
-#   genes_Cth: None
-#   genes_Tsac: None
-#   genes_kegg: peg.2375,peg.2379,peg.625
-#   genes_string_NCBI_id: Athe_0227,Athe_1859,Athe_1865
-#   genes_string_PATRIC_id: peg.625,peg.2379,peg.2375
-#   names:
-#   - beta-D-mannan hydrolases
-#   other_pathways:
-#   - Fructose and mannose metabolism
-#   pathway: Fructose and mannose metabolism
-#   source: KEGG
-#   tag: KEGG_Cbes
+  translated_equation: ATP[c] + D-Fructose[c] => ADP[c] + |beta-D-Fructose 6-phosphate[c]|
+- id: R01332_n4
+  name: beta-D-mannan hydrolases (endo)
+  equation: C02492[c] + (3) C00001[c] => (4) C00159[c]
+  genes: (peg.2375 or peg.2376 or peg.2379) and peg.625
+  curated: true
+  ec:
+  - 3.2.1.78
+  - 3.2.1.25
+  EggNOG_annotation: 'peg.625:Glycoside hydrolase, family 2;   peg.2379:Inherit from
+    firmNOG: Mannan endo-1,4-beta-mannosidase;   peg.2375:hydrolase family 9'
+  KEGG_annotation: Athe_1865:K01218 mannan endo-1,4-beta-mannosidase [EC:3.2.1.78]
+    | (GenBank) glycoside hydrolase family 9;   Athe_1859:K01218 mannan endo-1,4-beta-mannosidase
+    [EC:3.2.1.78] | (GenBank) glycoside hydrolase family 5;   Athe_0227:K01192 beta-mannosidase
+    [EC:3.2.1.25] | (GenBank) glycoside hydrolase family 2 sugar binding
+  PATRIC_annotation: Beta-mannosidase (EC 3.2.1.25) or Mannan endo-1,4-beta-mannosidase
+    (EC 3.2.1.78) / beta-1,4-glucanase (cellulase) (EC 3.2.1.4) / Domain of unknown
+    function or Glucan 1,4-beta-glucosidase (EC 3.2.1.74) / Mannan endo-1,4-beta-mannosidase
+    (EC 3.2.1.78)
+  comment: 'multi-step reaction,endo-hydrolysis (ec 3.2.1.78, see R08612),
+    exo-hydrolysis (ec 3.2.1.25, see R08614)'
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2375,peg.2379,peg.625
+  genes_string_NCBI_id: Athe_0227,Athe_1859,Athe_1865
+  genes_string_PATRIC_id: peg.625,peg.2379,peg.2375
+  names:
+  - beta-D-mannan hydrolases
+  other_pathways:
+  - Fructose and mannose metabolism
+  pathway: Fructose and mannose metabolism
+  source: KEGG
+  tag: KEGG_Cbes
 - id: R01818
   name: D-mannose 6-phosphate 1,6-phosphomutase
   genes: peg.632 or peg.2262
@@ -7614,6 +7598,7 @@
     |Protein histidine[c]| + |D-Fructose 1-phosphate[c]|'
 - id: R02568
   name: D-fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase
+  genes: peg.1061 or peg.2523 or peg.2972
   equation: C01094[c] <=> C00111[c] + C00577[c]
   ec:
   - 4.1.2.13
@@ -7645,6 +7630,8 @@
 - id: R02262
   name: L-Fuculose-1-phosphate lactaldehyde-lyase
   equation: C01099[c] <=> C00111[c] + C00424[c]
+  genes: peg.1149
+  curated: true
   ec:
   - 4.1.2.17
   EggNOG_annotation: peg.127:Class II aldolase adducin family protein;   peg.1149:Class
@@ -7670,10 +7657,13 @@
   pathway: Fructose and mannose metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce
+  note: gene annotation is from kegg db and manual curation
   translated_equation: '|L-Fuculose 1-phosphate[c]| <=> |Glycerone phosphate[c]|
     + (S)-Lactaldehyde[c]'
 - id: R02437
   name: L-rhamnose ketol-isomerase
+  genes: peg.1160
+  curated: true
   equation: C00507[c] <=> C00861[c]
   ec:
   - 5.3.1.14
@@ -7694,10 +7684,12 @@
   - Microbial metabolism in diverse environments
   pathway: Fructose and mannose metabolism
   source: KEGG
-  tag: KEGG_Cbes
+  tag: KEGG_Cbes, manual_curation
   translated_equation: L-Rhamnose[c] <=> L-Rhamnulose[c]
 - id: R00885
   name: GTP:alpha-D-mannose-1-phosphate guanylyltransferase
+  genes: peg.632 or peg.810 or peg.1964
+  curated: true
   equation: C00044[c] + C00636[c] <=> C00013[c] + C00096[c]
   ec:
   - 2.7.7.13
@@ -7757,9 +7749,27 @@
   tag: Cce
   translated_equation: GDP[c] + |D-Mannose 1-phosphate[c]| <=> Orthophosphate[c]
     + GDP-mannose[c]
+- id: R03241
+  name: ATP:L-fuculose 1-phosphotransferase
+  genes: peg.1301
+  curated: true
+  names:
+  - ATP:L-fuculose 1-phosphotransferase
+  equation: C00002[c] + C01721[c] => C00008[c] + C01099[c]
+  translated_equation: 'ATP[c] + L-Fuculose[c] => ADP[c] + |L-Fuculose 1-phosphate[c]|'
+  enzymes:
+  - 2.7.1.51
+  pathways:
+  - Fructose and mannose metabolism
+  - Microbial metabolism in diverse environments
+  PMID: 22215998 
+  note: annotated by Dima, this gene encodes a bifunctional enzyme that can catalase
+   phosphorylation of both rhamnulose and fuculose.
 - id: R03014
   name: ATP:L-rhamnulose 1-phosphotransferase
-  equation: C00002[c] + C00861[c] <=> C00008[c] + C01131[c]
+  genes: peg.1301
+  curated: true
+  equation: C00002[c] + C00861[c] => C00008[c] + C01131[c]
   ec:
   - 2.7.1.5
   EggNOG_annotation: peg.1301:Rhamnulokinase
@@ -7780,7 +7790,7 @@
   pathway: Fructose and mannose metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: ATP[c] + L-Rhamnulose[c] <=> ADP[c] + |L-Rhamnulose 1-phosphate[c]|
+  translated_equation: ATP[c] + L-Rhamnulose[c] => ADP[c] + |L-Rhamnulose 1-phosphate[c]|
 - id: R02071
   name: ATP:D-fructose-1-phosphate 6-phosphotransferase
   genes: peg.542
@@ -7862,6 +7872,8 @@
     + H+[c]
 - id: R05607
   name: D-sorbitol-6-phosphate:NAD 2-oxidoreductase
+  genes: peg.1152
+  curated: true
   equation: C01096[c] + C00003[c] <=> C05345[c] + C00004[c] + C00080[c]
   ec:
   - 1.1.1.140
@@ -7882,13 +7894,13 @@
   pathway: Fructose and mannose metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: '|Sorbitol 6-phosphate[c]| + NAD+[c] <=> |beta-D-Fructose
-    6-phosphate[c]| + NADH[c] + H+[c]'
+  translated_equation: '|Sorbitol 6-phosphate[c]| + NAD+[c] <=> |beta-D-Fructose 6-phosphate[c]| + NADH[c] + H+[c]'
 - id: R03163
   name: L-fucose aldose-ketose-isomerase
   equation: C01019[c] <=> C01721[c]
+  genes: peg.2619
+  curated: true
   ec:
-  - 5.3.1.3
   - 5.3.1.25
   EggNOG_annotation: peg.2619:Converts the aldose L-fucose into the corresponding
     ketose L-fuculose (By similarity)
@@ -7909,10 +7921,12 @@
   - Microbial metabolism in diverse environments
   pathway: Fructose and mannose metabolism
   source: KEGG
-  tag: KEGG_Cbes
+  tag: KEGG_Cbes, manual_curation
   translated_equation: 6-Deoxy-L-galactose[c] <=> L-Fuculose[c]
 - id: R00878
   name: alpha-D-Glucose aldose-ketose-isomerase
+  genes: peg.1037
+  curated: true
   equation: C00267[c] <=> C00095[c]
   ec:
   - 5.3.1.5
@@ -7937,6 +7951,8 @@
   translated_equation: alpha-D-Glucose[c] <=> D-Fructose[c]
 - id: R01819
   name: D-mannose-6-phosphate aldose-ketose-isomerase
+  genes: peg.1059
+  curated: true
   equation: C00275[c] <=> C05345[c]
   ec:
   - 5.3.1.8
@@ -7963,28 +7979,6 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: '|D-Mannose 6-phosphate[c]| <=> |beta-D-Fructose 6-phosphate[c]|'
-- id: R03234
-  equation: C01096[c] + C00006[c] <=> C02888[c] + C00005[c] + C00080[c]
-  ec:
-  - 1.1.1.-
-  EggNOG_annotation: peg.1153:Alcohol dehydrogenase zinc-binding domain protein
-  KEGG_annotation: Athe_0699:K19956 L-sorbose 1-phosphate reductase [EC:1.1.1.-]
-    | (GenBank) Alcohol dehydrogenase zinc-binding d
-  PATRIC_annotation: Uncharacterized protein YggP
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1153
-  genes_string_NCBI_id: Athe_0699
-  genes_string_PATRIC_id: peg.1153
-  names: []
-  other_pathways:
-  - Fructose and mannose metabolism
-  pathway: Fructose and mannose metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: '|Sorbitol 6-phosphate[c]| + NADP+[c] <=> |Sorbose 1-phosphate[c]|
-    + NADPH[c] + H+[c]'
 - id: R03236
   name: ATP:D-tagatose-6-phosphate 1-phosphotransferase
   genes: peg.542 or peg.1752
@@ -9401,7 +9395,7 @@
 - id: R01513
   name: 3-Phospho-D-glycerate:NAD+ 2-oxidoreductase
   genes: peg.2680
-  equation: C00197[c] + C00003[c] <=> C03232[c] + C00004[c] + C00080[c]
+  equation: C00197[c] + C00003[c] => C03232[c] + C00004[c] + C00080[c]
   ec:
   - 1.1.1.95
   EggNOG_annotation: peg.2970:Dehydrogenase;   peg.2522:Dehydrogenase;   peg.2680:Dehydrogenase
@@ -9433,7 +9427,7 @@
   pathway: Glycine, serine and threonine metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: 3-Phospho-D-glycerate[c] + NAD+[c] <=> 3-Phosphonooxypyruvate[c]
+  translated_equation: 3-Phospho-D-glycerate[c] + NAD+[c] => 3-Phosphonooxypyruvate[c]
     + NADH[c] + H+[c]
 - id: R04173
   name: 3-Phosphoserine:2-oxoglutarate aminotransferase
@@ -9575,8 +9569,8 @@
   KEGG_annotation: Athe_1265:K00850 6-phosphofructokinase 1 [EC:2.7.1.11] | (GenBank)
     6-phosphofructokinase;   Athe_1824:K21071 ATP-dependent phosphofructokinase /
     diphosphate-dependent phosphofructokinase [EC:2.7.1.11 2.
-  PATRIC_annotation: Pyrophosphate-dependent fructose 6-phosphate-1-kinase (EC 2.7.1.90)
-    or 6-phosphofructokinase (EC 2.7.1.11)
+  PATRIC_annotation: peg.2336:Pyrophosphate-dependent fructose 6-phosphate-1-kinase (EC 2.7.1.90)
+    or peg.1752:6-phosphofructokinase (EC 2.7.1.11)
   curated: true
   genes_Cce: None
   genes_Cth: None
@@ -9666,9 +9660,10 @@
   tag: KEGG_Cbes,Cce
   translated_equation: GTP[c] + Oxaloacetate[c] => GDP[c] + Phosphoenolpyruvate[c]
     + CO2[c]
+  PMID: 19636077
 - id: R01070
   name: beta-D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)
-  genes: peg.1061
+  genes: peg.1061 or peg.2523 or peg.2972
   equation: C05378[c] <=> C00111[c] + C00118[c]
   ec:
   - 4.1.2.13
@@ -9828,7 +9823,8 @@
   name: diphosphate:beta-D-fructose-6-phosphate 1-phosphotransferase
   genes: peg.2336
   equation: C00013[c] + C05345[c] <=> C00009[c] + C05378[c]
-  ec: 2.7.1.90
+  ec: 
+  - 2.7.1.90
   EggNOG_annotation: peg.2336:ec 2.7.1.11
   KEGG_annotation: Athe_1824:K21071 ATP-dependent phosphofructokinase / diphosphate-dependent
     phosphofructokinase [EC:2.7.1.11 2.
@@ -10115,7 +10111,7 @@
   EggNOG_annotation: peg.984:ROK family;   peg.1056:ROK family
   KEGG_annotation: Athe_0552:K00845 glucokinase [EC:2.7.1.2] | (GenBank) glucokinase,
     ROK family;   Athe_0617:no KO assigned | (GenBank) ROK family protein
-  PATRIC_annotation: ROK family protein (putative glucokinase) or Xylose-responsive
+  PATRIC_annotation: peg.984:ROK family protein (putative glucokinase) or peg.1056:Xylose-responsive
     transcription regulator, ROK family
   curated: true
   genes_Cce: '-'
@@ -10123,6 +10119,7 @@
   genes_Tsac: (peg.1056 or peg.984)
   genes_kegg: peg.984
   genes_string_NCBI_id: Athe_0552,Athe_0617
+  genes_string_PATRIC_id: peg.984, peg.1056
   names:
   - ATP:D-glucose 6-phosphotransferase
   other_pathways:
@@ -10159,31 +10156,31 @@
   pathway: Glycolysis / Gluconeogenesis
   source: added manually
   tag: KEGG_Cbes
-  translated_equation: '|D-Glucose 6-phosphate[c]| <=> |D-Fructose 6-phosphate[c]|'
-- id: R00771
-  name: D-glucose-6-phosphate aldose-ketose-isomerase
-  genes: peg.1059
-  curated: true
-  equation: C00092[c] <=> C00085[c]
-  EggNOG_annotation: peg.1059:Bifunctional phosphoglucose phosphomannose isomerase
-  KEGG_annotation: Athe_0619:K15916 glucose/mannose-6-phosphate isomerase [EC:5.3.1.9
-    5.3.1.8] | (GenBank) bifunctional phosphogl
-  PATRIC_annotation: Glucose-6-phosphate isomerase, archaeal II (EC 5.3.1.9) / Mannose-6-phosphate
-    isomerase, archaeal (EC 5.3.1.8)
-  ec:
-  - 5.3.1.9
-  genes_Cce: '-'
-  genes_Cth: '-'
-  genes_NCBI_id: Athe_0619
-  genes_Tsac: '-'
-  genes_kegg: peg.1059
-  names:
-  - D-glucose-6-phosphate aldose-ketose-isomerase
-  other_pathways:
-  - Starch and sucrose metabolism
-  pathway: Starch and sucrose metabolism
-  source: KEGG_Cbes
-  translated_equation: '|D-Glucose 6-phosphate[c]| <=> |D-Fructose 6-phosphate[c]|'
+  translated_equation: '|D-Glucose 6-phosphate[c]| <=> |beta-D-Fructose 6-phosphate[c]|'
+# - id: R00771
+#   name: D-glucose-6-phosphate aldose-ketose-isomerase
+#   genes: peg.1059
+#   curated: true
+#   equation: C00092[c] <=> C00085[c]
+#   EggNOG_annotation: peg.1059:Bifunctional phosphoglucose phosphomannose isomerase
+#   KEGG_annotation: Athe_0619:K15916 glucose/mannose-6-phosphate isomerase [EC:5.3.1.9
+#     5.3.1.8] | (GenBank) bifunctional phosphogl
+#   PATRIC_annotation: Glucose-6-phosphate isomerase, archaeal II (EC 5.3.1.9) / Mannose-6-phosphate
+#     isomerase, archaeal (EC 5.3.1.8)
+#   ec:
+#   - 5.3.1.9
+#   genes_Cce: '-'
+#   genes_Cth: '-'
+#   genes_NCBI_id: Athe_0619
+#   genes_Tsac: '-'
+#   genes_kegg: peg.1059
+#   names:
+#   - D-glucose-6-phosphate aldose-ketose-isomerase
+#   other_pathways:
+#   - Starch and sucrose metabolism
+#   pathway: Starch and sucrose metabolism
+#   source: KEGG_Cbes
+#   translated_equation: '|D-Glucose 6-phosphate[c]| <=> |D-Fructose 6-phosphate[c]|'
 - id: R00230
   name: acetyl-CoA:phosphate acetyltransferase (Pta)
   genes: peg.1987
@@ -11279,6 +11276,7 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: Formylmethanofuran[c] + H2O[c] <=> Formate[c] + Methanofuran[c]
+  note: EC 1.2.99.5 transferred 2017 to EC 1.2.7.12
 - id: R00756
   name: ATP:D-fructose-6-phosphate 1-phosphotransferase
   genes: peg.1752
@@ -11336,7 +11334,7 @@
     + Orthophosphate[c]
 - id: R01068
   name: D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)
-  genes: peg.2523 or peg.1061 or peg.2972
+  genes: peg.1061 or peg.2523 or peg.2972
   equation: C00354[c] <=> C00111[c] + C00118[c]
   ec:
   - 4.1.2.13
@@ -13830,28 +13828,6 @@
   source: KEGG
   tag: Cth
   translated_equation: Cellopentaose[c] + H2O[c] <=> Cellotetraose[c] + D-Glucose[c]
-- id: R08614
-  name: 1,4-beta-D-Mannooligosaccharide mannohydrolase
-  equation: C17207[c] + C00001[c] <=> C00159[c] + C17207[c]
-  ec:
-  - 3.2.1.25
-  EggNOG_annotation: peg.625:Glycoside hydrolase, family 2
-  KEGG_annotation: Athe_0227:K01192 beta-mannosidase [EC:3.2.1.25] | (GenBank) glycoside
-    hydrolase family 2 sugar binding
-  PATRIC_annotation: Beta-mannosidase (EC 3.2.1.25)
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.625
-  genes_string_NCBI_id: Athe_0227
-  genes_string_PATRIC_id: peg.625
-  names:
-  - 1,4-beta-D-Mannooligosaccharide mannohydrolase
-  pathway: None
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: 1,4-beta-D-Mannooligosaccharide[c] + H2O[c] <=> D-Mannose[c]
-    + 1,4-beta-D-Mannooligosaccharide[c]
 - id: R03618
   name: Trihexosylceramide galactohydrolase
   equation: C04737[c] + C00001[c] <=> C00124[c] + C01290[c]
@@ -13943,32 +13919,6 @@
   source: KEGG
   tag: Cth
   translated_equation: Cellotriose[c] + H2O[c] <=> Cellobiose[c] + D-Glucose[c]
-- id: R08612
-  name: 4-beta-D-mannan mannanohydrolase
-  equation: C02492[c] + C00001[c] <=> C17207[c] + C02492[c]
-  ec:
-  - 3.2.1.78
-  EggNOG_annotation: 'peg.2379:Inherit from firmNOG: Mannan endo-1,4-beta-mannosidase;   peg.2375:hydrolase
-    family 9'
-  KEGG_annotation: Athe_1865:K01218 mannan endo-1,4-beta-mannosidase [EC:3.2.1.78]
-    | (GenBank) glycoside hydrolase family 9;   Athe_1859:K01218 mannan endo-1,4-beta-mannosidase
-    [EC:3.2.1.78] | (GenBank) glycoside hydrolase family 5
-  PATRIC_annotation: Mannan endo-1,4-beta-mannosidase (EC 3.2.1.78) / beta-1,4-glucanase
-    (cellulase) (EC 3.2.1.4) / Domain of unknown function or Glucan 1,4-beta-glucosidase
-    (EC 3.2.1.74) / Mannan endo-1,4-beta-mannosidase (EC 3.2.1.78)
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.2375,peg.2379
-  genes_string_NCBI_id: Athe_1859,Athe_1865
-  genes_string_PATRIC_id: peg.2379,peg.2375
-  names:
-  - 4-beta-D-mannan mannanohydrolase
-  pathway: None
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: 1,4-beta-D-Mannan[c] + H2O[c] <=> 1,4-beta-D-Mannooligosaccharide[c]
-    + 1,4-beta-D-Mannan[c]
 - id: R11524
   name: '[Sulfur-carrier protein]-L-cysteine carboxypeptidase'
   equation: C21437[c] + C00001[c] <=> C00097[c] + C15810[c]
@@ -14245,6 +14195,8 @@
     [Protein]-S-sulfanyl-L-cysteine[c]
 - id: R00764
   name: diphosphate:D-fructose-6-phosphate 1-phosphotransferase
+  genes: peg.2336
+  curated: true
   equation: C00013[c] + C00085[c] <=> C00009[c] + C00354[c]
   ec:
   - 2.7.1.90
@@ -14262,7 +14214,7 @@
   genes_string_PATRIC_id: peg.2336,peg.1752
   names:
   - diphosphate:D-fructose-6-phosphate 1-phosphotransferase
-  pathway: None
+  pathway: Fructose and mannose metabolism
   source: KEGG
   tag: KEGG_Cbes,Cth
   translated_equation: Diphosphate[c] + |D-Fructose 6-phosphate[c]| <=> Orthophosphate[c]
@@ -15575,28 +15527,30 @@
   tag: KEGG_Cbes
   translated_equation: Aldehyde[c] + H2O[c] + (2) |Oxidized ferredoxin[c]| <=> Carboxylate[c]
     + (2) |Reduced ferredoxin[c]| + (2) H+[c]
-- id: R07133
-  name: D-sorbitol-6-phosphate:NAD+ 2-oxidoreductase
-  equation: C01096[c] + C00003[c] <=> C00085[c] + C00004[c] + C00080[c]
-  ec:
-  - 1.1.1.140
-  EggNOG_annotation: peg.1152:Short-chain dehydrogenase reductase SDR
-  KEGG_annotation: Athe_0698:K00068 sorbitol-6-phosphate 2-dehydrogenase [EC:1.1.1.140]
-    | (GenBank) short-chain dehydrogenase/red
-  PATRIC_annotation: Oxidoreductase, short-chain dehydrogenase/reductase family
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1152
-  genes_string_NCBI_id: Athe_0698
-  genes_string_PATRIC_id: peg.1152
-  names:
-  - D-sorbitol-6-phosphate:NAD+ 2-oxidoreductase
-  pathway: None
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: '|Sorbitol 6-phosphate[c]| + NAD+[c] <=> |D-Fructose 6-phosphate[c]|
-    + NADH[c] + H+[c]'
+# - id: R07133
+#   name: D-sorbitol-6-phosphate:NAD+ 2-oxidoreductase
+#   genes: peg.1152
+#   curated: true
+#   equation: C01096[c] + C00003[c] <=> C00085[c] + C00004[c] + C00080[c]
+#   ec:
+#   - 1.1.1.140
+#   EggNOG_annotation: peg.1152:Short-chain dehydrogenase reductase SDR
+#   KEGG_annotation: Athe_0698:K00068 sorbitol-6-phosphate 2-dehydrogenase [EC:1.1.1.140]
+#     | (GenBank) short-chain dehydrogenase/red
+#   PATRIC_annotation: Oxidoreductase, short-chain dehydrogenase/reductase family
+#   genes_Cce: None
+#   genes_Cth: None
+#   genes_Tsac: None
+#   genes_kegg: peg.1152
+#   genes_string_NCBI_id: Athe_0698
+#   genes_string_PATRIC_id: peg.1152
+#   names:
+#   - D-sorbitol-6-phosphate:NAD+ 2-oxidoreductase
+#   pathway: None
+#   source: KEGG
+#   tag: KEGG_Cbes
+#   translated_equation: '|Sorbitol 6-phosphate[c]| + NAD+[c] <=> |D-Fructose 6-phosphate[c]|
+#     + NADH[c] + H+[c]'
 - id: R07161
   name: 3-(indol-3-yl)pyruvate:ferredoxin oxidoreductase (decarboxylating,CoA-indole-acetylating)
   genes: (peg.1999 and peg.1998) or (peg.1489 and peg.1488)
@@ -15704,48 +15658,29 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: D-Arabinose[c] <=> D-Ribulose[c]
-- id: R00307
-  name: D-glucose aldose-ketose-isomerase
-  equation: C00031[c] <=> C00095[c]
-  ec:
-  - 5.3.1.5
-  EggNOG_annotation: peg.1037:xylose isomerase
-  KEGG_annotation: Athe_0603:K01805 xylose isomerase [EC:5.3.1.5] | (GenBank) xylose
-    isomerase
-  PATRIC_annotation: Xylose isomerase (EC 5.3.1.5)
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: peg.1037
-  genes_kegg: peg.1037
-  genes_string_NCBI_id: Athe_0603
-  genes_string_PATRIC_id: peg.1037
-  names:
-  - D-glucose aldose-ketose-isomerase
-  pathway: None
-  source: KEGG
-  tag: KEGG_Cbes,Tsac
-  translated_equation: D-Glucose[c] <=> D-Fructose[c]
-- id: R00772
-  name: D-mannose-6-phosphate aldose-ketose-isomerase
-  equation: C00275[c] <=> C00085[c]
-  ec:
-  - 5.3.1.8
-  EggNOG_annotation: peg.1059:Bifunctional phosphoglucose phosphomannose isomerase
-  KEGG_annotation: Athe_0619:K15916 glucose/mannose-6-phosphate isomerase [EC:5.3.1.9
-    5.3.1.8] | (GenBank) bifunctional phosphogl
-  PATRIC_annotation: Glucose-6-phosphate isomerase, archaeal II (EC 5.3.1.9) / Mannose-6-phosphate
-    isomerase, archaeal (EC 5.3.1.8)
-  genes_Cce: '-'
-  genes_Cth: '-'
-  genes_Tsac: '-'
-  genes_kegg: peg.1059
-  genes_string_NCBI_id: Athe_0619
-  genes_string_PATRIC_id: peg.1059
-  names:
-  - D-mannose-6-phosphate aldose-ketose-isomerase
-  pathway: None
-  source: KEGG
-  tag: KEGG_Cbes
+# - id: R00772
+#   name: D-mannose-6-phosphate aldose-ketose-isomerase
+#   genes: peg.1059
+#   curated: true
+#   equation: C00275[c] <=> C00085[c]
+#   ec:
+#   - 5.3.1.8
+#   EggNOG_annotation: peg.1059:Bifunctional phosphoglucose phosphomannose isomerase
+#   KEGG_annotation: Athe_0619:K15916 glucose/mannose-6-phosphate isomerase [EC:5.3.1.9
+#     5.3.1.8] | (GenBank) bifunctional phosphogl
+#   PATRIC_annotation: Glucose-6-phosphate isomerase, archaeal II (EC 5.3.1.9) / Mannose-6-phosphate
+#     isomerase, archaeal (EC 5.3.1.8)
+#   genes_Cce: '-'
+#   genes_Cth: '-'
+#   genes_Tsac: '-'
+#   genes_kegg: peg.1059
+#   genes_string_NCBI_id: Athe_0619
+#   genes_string_PATRIC_id: peg.1059
+#   names:
+#   - D-mannose-6-phosphate aldose-ketose-isomerase
+#   pathway: None
+#   source: KEGG
+#   tag: KEGG_Cbes
   translated_equation: '|D-Mannose 6-phosphate[c]| <=> |D-Fructose 6-phosphate[c]|'
 - id: R02728
   name: beta-D-Glucose 1-phosphate 1,6-phosphomutase
@@ -16387,25 +16322,6 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: G10545(n+1)[c] + H2O[c] <=> alpha-D-Glucose[c] + G10545(n)[c]
-- id: R06203
-  equation: C00181[c] + G10512(n)[c] <=> G10512(n+1)[c] + C00001[c]
-  ec:
-  - 3.2.1.37
-  EggNOG_annotation: peg.581:Xylan 1,4-beta-xylosidase (EC 3.2.1.37)
-  KEGG_annotation: Athe_0184:K01198 xylan 1,4-beta-xylosidase [EC:3.2.1.37] | (GenBank)
-    Xylan 1,4-beta-xylosidase
-  PATRIC_annotation: Xylan 1,4-beta-xylosidase (EC 3.2.1.37)
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.581
-  genes_string_NCBI_id: Athe_0184
-  genes_string_PATRIC_id: peg.581
-  names: []
-  pathway: None
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: D-Xylose[c] + G10512(n)[c] <=> G10512(n+1)[c] + H2O[c]
 - id: R06200
   equation: G10481(n+2)[c] + C00001[c] <=> G10481(n)[c] + G00289[c]
   ec:
@@ -16632,7 +16548,7 @@
   pathway: One carbon pool by folate
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: Tetrahydrofolate[c] + Formate[c] + ATP[c] <=> ADP[c] + Orthophosphate[c]
+  translated_equation: Tetrahydrofolate[c] + Formate[c] + ATP[c] => ADP[c] + Orthophosphate[c]
     + 10-Formyltetrahydrofolate[c]
 - id: R01655
   name: 5,10-Methenyltetrahydrofolate 5-hydrolase (decyclizing)
@@ -18271,83 +18187,82 @@
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: L-Phenylalanine[c] + 2-Oxoglutarate[c] <=> Phenylpyruvate[c]
     + L-Glutamate[c]
-- id: R02340
-  name: (1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate D-glyceraldehyde-3-phosphate-lyase
-  genes: peg.2199 and peg.2200
-  equation: C03506[c] <=> C00463[c] + C00118[c]
-  ec:
-  - 4.2.1.20
-  EggNOG_annotation: peg.2200:The beta subunit is responsible for the synthesis of
-    L- tryptophan from indole and L-serine (By similarity);   peg.411:The beta subunit
-    is responsible for the synthesis of L- tryptophan from indole and L-serine (By
-    similarity);   peg.2199:The alpha subunit is responsible for the aldol cleavage
-    of indoleglycerol phosphate to indole and glyceraldehyde 3- phosphate (By similarity)
-  KEGG_annotation: Athe_0031:K06001 tryptophan synthase beta chain [EC:4.2.1.20]
-    | (GenBank) pyridoxal-phosphate dependent TrpB-l;   Athe_1690:K01695 tryptophan
-    synthase alpha chain [EC:4.2.1.20] | (GenBank) tryptophan synthase, alpha subunit;   Athe_1691:K01696
-    tryptophan synthase beta chain [EC:4.2.1.20] | (GenBank) tryptophan synthase,
-    beta subunit
-  PATRIC_annotation: Tryptophan synthase beta chain (EC 4.2.1.20) or Tryptophan synthase
-    alpha chain (EC 4.2.1.20) or Tryptophan synthase (indole-salvaging) (EC 4.2.1.122)
-  comment: a part of multi-step reaction (ec 4.2.1.20, see R02722, R02340+R00674)
-  curated: true
-  genes_Cce: '#NAME?'
-  genes_Cth: peg.2199 and ((peg.2200 or peg.411) or (peg.2200 or peg.411))
-  genes_Tsac: (peg.2200 or peg.411)
-  genes_kegg: peg.411,peg.2199,peg.2200
-  genes_string_NCBI_id: Athe_1691,Athe_1690,Athe_0031
-  genes_string_PATRIC_id: peg.2200,peg.2199,peg.411
-  names:
-  - (1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate D-glyceraldehyde-3-phosphate-lyase
-  other_pathways:
-  - Phenylalanine, tyrosine and tryptophan biosynthesis
-  - Benzoxazinoid biosynthesis
-  - Metabolic pathways
-  - Biosynthesis of secondary metabolites
-  pathway: Phenylalanine, tyrosine and tryptophan biosynthesis
-  source: KEGG
-  tag: KEGG_Cbes,Cth,Tsac
-  translated_equation: '|Indoleglycerol phosphate[c]| <=> Indole[c] + |D-Glyceraldehyde
-    3-phosphate[c]|'
-- id: R00674
-  name: L-serine hydro-lyase (adding indole, L-tryptophan-forming)
-  genes: peg.2199 and peg.2200
-  equation: C00065[c] + C00463[c] => C00078[c] + C00001[c]
-  ec:
-  - 4.2.1.20
-  EggNOG_annotation: peg.2200:The beta subunit is responsible for the synthesis of
-    L- tryptophan from indole and L-serine (By similarity);   peg.411:The beta subunit
-    is responsible for the synthesis of L- tryptophan from indole and L-serine (By
-    similarity);   peg.2199:The alpha subunit is responsible for the aldol cleavage
-    of indoleglycerol phosphate to indole and glyceraldehyde 3- phosphate (By similarity)
-  KEGG_annotation: Athe_0031:K06001 tryptophan synthase beta chain [EC:4.2.1.20]
-    | (GenBank) pyridoxal-phosphate dependent TrpB-l;   Athe_1690:K01695 tryptophan
-    synthase alpha chain [EC:4.2.1.20] | (GenBank) tryptophan synthase, alpha subunit;   Athe_1691:K01696
-    tryptophan synthase beta chain [EC:4.2.1.20] | (GenBank) tryptophan synthase,
-    beta subunit
-  PATRIC_annotation: Tryptophan synthase beta chain (EC 4.2.1.20) or Tryptophan synthase
-    alpha chain (EC 4.2.1.20) or Tryptophan synthase (indole-salvaging) (EC 4.2.1.122)
-  comment: 'multi-step reaction
-
-    intermediate (2-aminoacrylate Schiff base with PLP)'
-  curated: true
-  genes_Cce: '#NAME?'
-  genes_Cth: peg.2199 and ((peg.2200 or peg.411) or (peg.2200 or peg.411))
-  genes_Tsac: (peg.2200 or peg.411)
-  genes_kegg: peg.411,peg.2199,peg.2200
-  genes_string_NCBI_id: Athe_1691,Athe_1690,Athe_0031
-  genes_string_PATRIC_id: peg.2200,peg.2199,peg.411
-  names:
-  - L-serine hydro-lyase (adding indole
-  - L-tryptophan-forming)
-  other_pathways:
-  - Phenylalanine, tyrosine and tryptophan biosynthesis
-  - Metabolic pathways
-  - Biosynthesis of secondary metabolites
-  pathway: Phenylalanine, tyrosine and tryptophan biosynthesis
-  source: KEGG
-  tag: KEGG_Cbes,Cth,Tsac
-  translated_equation: L-Serine[c] + Indole[c] => L-Tryptophan[c] + H2O[c]
+# - id: R02340
+#   name: (1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate D-glyceraldehyde-3-phosphate-lyase
+#   genes: peg.2199 and peg.2200
+#   equation: C03506[c] <=> C00463[c] + C00118[c]
+#   ec:
+#   - 4.2.1.20
+#   EggNOG_annotation: peg.2200:The beta subunit is responsible for the synthesis of
+#     L- tryptophan from indole and L-serine (By similarity);   peg.411:The beta subunit
+#     is responsible for the synthesis of L- tryptophan from indole and L-serine (By
+#     similarity);   peg.2199:The alpha subunit is responsible for the aldol cleavage
+#     of indoleglycerol phosphate to indole and glyceraldehyde 3- phosphate (By similarity)
+#   KEGG_annotation: Athe_0031:K06001 tryptophan synthase beta chain [EC:4.2.1.20]
+#     | (GenBank) pyridoxal-phosphate dependent TrpB-l;   Athe_1690:K01695 tryptophan
+#     synthase alpha chain [EC:4.2.1.20] | (GenBank) tryptophan synthase, alpha subunit;   Athe_1691:K01696
+#     tryptophan synthase beta chain [EC:4.2.1.20] | (GenBank) tryptophan synthase,
+#     beta subunit
+#   PATRIC_annotation: Tryptophan synthase beta chain (EC 4.2.1.20) or Tryptophan synthase
+#     alpha chain (EC 4.2.1.20) or Tryptophan synthase (indole-salvaging) (EC 4.2.1.122)
+#   comment: a part of multi-step reaction (ec 4.2.1.20, see R02722, R02340+R00674)
+#   curated: true
+#   genes_Cce: '#NAME?'
+#   genes_Cth: peg.2199 and ((peg.2200 or peg.411) or (peg.2200 or peg.411))
+#   genes_Tsac: (peg.2200 or peg.411)
+#   genes_kegg: peg.411,peg.2199,peg.2200
+#   genes_string_NCBI_id: Athe_1691,Athe_1690,Athe_0031
+#   genes_string_PATRIC_id: peg.2200,peg.2199,peg.411
+#   names:
+#   - (1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate D-glyceraldehyde-3-phosphate-lyase
+#   other_pathways:
+#   - Phenylalanine, tyrosine and tryptophan biosynthesis
+#   - Benzoxazinoid biosynthesis
+#   - Metabolic pathways
+#   - Biosynthesis of secondary metabolites
+#   pathway: Phenylalanine, tyrosine and tryptophan biosynthesis
+#   source: KEGG
+#   tag: KEGG_Cbes,Cth,Tsac
+#   translated_equation: '|Indoleglycerol phosphate[c]| <=> Indole[c] + |D-Glyceraldehyde
+#     3-phosphate[c]|'
+# - id: R00674
+#   name: L-serine hydro-lyase (adding indole, L-tryptophan-forming)
+#   genes: peg.2199 and peg.2200
+#   equation: C00065[c] + C00463[c] => C00078[c] + C00001[c]
+#   ec:
+#   - 4.2.1.20
+#   EggNOG_annotation: peg.2200:The beta subunit is responsible for the synthesis of
+#     L- tryptophan from indole and L-serine (By similarity);   peg.411:The beta subunit
+#     is responsible for the synthesis of L- tryptophan from indole and L-serine (By
+#     similarity);   peg.2199:The alpha subunit is responsible for the aldol cleavage
+#     of indoleglycerol phosphate to indole and glyceraldehyde 3- phosphate (By similarity)
+#   KEGG_annotation: Athe_0031:K06001 tryptophan synthase beta chain [EC:4.2.1.20]
+#     | (GenBank) pyridoxal-phosphate dependent TrpB-l;   Athe_1690:K01695 tryptophan
+#     synthase alpha chain [EC:4.2.1.20] | (GenBank) tryptophan synthase, alpha subunit;   Athe_1691:K01696
+#     tryptophan synthase beta chain [EC:4.2.1.20] | (GenBank) tryptophan synthase,
+#     beta subunit
+#   PATRIC_annotation: Tryptophan synthase beta chain (EC 4.2.1.20) or Tryptophan synthase
+#     alpha chain (EC 4.2.1.20) or Tryptophan synthase (indole-salvaging) (EC 4.2.1.122)
+#   comment: 'multi-step reaction
+#     intermediate (2-aminoacrylate Schiff base with PLP)'
+#   curated: true
+#   genes_Cce: '#NAME?'
+#   genes_Cth: peg.2199 and ((peg.2200 or peg.411) or (peg.2200 or peg.411))
+#   genes_Tsac: (peg.2200 or peg.411)
+#   genes_kegg: peg.411,peg.2199,peg.2200
+#   genes_string_NCBI_id: Athe_1691,Athe_1690,Athe_0031
+#   genes_string_PATRIC_id: peg.2200,peg.2199,peg.411
+#   names:
+#   - L-serine hydro-lyase (adding indole
+#   - L-tryptophan-forming)
+#   other_pathways:
+#   - Phenylalanine, tyrosine and tryptophan biosynthesis
+#   - Metabolic pathways
+#   - Biosynthesis of secondary metabolites
+#   pathway: Phenylalanine, tyrosine and tryptophan biosynthesis
+#   source: KEGG
+#   tag: KEGG_Cbes,Cth,Tsac
+#   translated_equation: L-Serine[c] + Indole[c] => L-Tryptophan[c] + H2O[c]
 - id: R03508
   name: 1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose-5-phosphate carboxy-lyase(cyclizing)
   genes: peg.2202
@@ -21307,7 +21222,7 @@
 - id: R04325
   name: 10-Formyltetrahydrofolate:5'-phosphoribosylglycinamide formyltransferase
   genes: peg.1938
-  equation: C00234[c] + C03838[c] <=> C00101[c] + C04376[c]
+  equation: C00234[c] + C03838[c] => C00101[c] + C04376[c]
   ec:
   - 2.1.2.2
   EggNOG_annotation: peg.1938:phosphoribosylglycinamide formyltransferase
@@ -21334,6 +21249,7 @@
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: 10-Formyltetrahydrofolate[c] + 5'-Phosphoribosylglycinamide[c]
     <=> Tetrahydrofolate[c] + 5'-Phosphoribosyl-N-formylglycinamide[c]
+  note: irrebversible based on Tsac model rxn GARFTi
 - id: R04560
   name: 10-Formyltetrahydrofolate:5'-phosphoribosyl-5-amino-4-imidazolecarboxamide
     formyltransferase
@@ -23438,7 +23354,7 @@
 - id: R00760
   name: ATP:D-fructose 6-phosphotransferase
   genes: peg.2673
-  equation: C00002[c] + C00095[c] <=> C00008[c] + C00085[c]
+  equation: C00002[c] + C00095[c] => C00008[c] + C00085[c]
   ec:
   - 2.7.1.4
   EggNOG_annotation: peg.2967:Kinase, PfkB family;   peg.2673:PfkB domain protein;   peg.542:1-phosphofructokinase
@@ -23461,7 +23377,7 @@
   pathway: Starch and sucrose metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: ATP[c] + D-Fructose[c] <=> ADP[c] + |D-Fructose 6-phosphate[c]|
+  translated_equation: ATP[c] + D-Fructose[c] => ADP[c] + |D-Fructose 6-phosphate[c]|
 - id: R00306
   name: cellobiose glucohydrolase
   genes: peg.878
@@ -23662,32 +23578,32 @@
   source: KEGG
   tag: Cce
   translated_equation: Starch[c] + H2O[c] <=> D-Glucose[c] + Starch[c]
-- id: R01791
-  name: Dextrin 6-alpha-D-glucanohydrolase
-  genes: peg.561
-  curated: true
-  equation: C00721[c] + C00001[c] => C00031[c] + C00721[c]
-  ec:
-  - 3.2.1.10
-  EggNOG_annotation: peg.561:alpha amylase, catalytic
-  KEGG_annotation: Athe_0165:K01182 oligo-1,6-glucosidase [EC:3.2.1.10] | (GenBank)
-    alpha amylase catalytic region
-  PATRIC_annotation: Oligo-1,6-glucosidase (EC 3.2.1.10)
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.561
-  genes_string_NCBI_id: Athe_0165
-  genes_string_PATRIC_id: peg.561
-  names:
-  - Dextrin 6-alpha-D-glucanohydrolase
-  other_pathways:
-  - Starch and sucrose metabolism
-  - Metabolic pathways
-  pathway: Starch and sucrose metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: Dextrin[c] + H2O[c] => D-Glucose[c] + Dextrin[c]
+# - id: R01791
+#   name: Dextrin 6-alpha-D-glucanohydrolase
+#   genes: peg.561
+#   curated: true
+#   equation: C00721[c] + C00001[c] => C00031[c] + C00721[c]
+#   ec:
+#   - 3.2.1.10
+#   EggNOG_annotation: peg.561:alpha amylase, catalytic
+#   KEGG_annotation: Athe_0165:K01182 oligo-1,6-glucosidase [EC:3.2.1.10] | (GenBank)
+#     alpha amylase catalytic region
+#   PATRIC_annotation: Oligo-1,6-glucosidase (EC 3.2.1.10)
+#   genes_Cce: None
+#   genes_Cth: None
+#   genes_Tsac: None
+#   genes_kegg: peg.561
+#   genes_string_NCBI_id: Athe_0165
+#   genes_string_PATRIC_id: peg.561
+#   names:
+#   - Dextrin 6-alpha-D-glucanohydrolase
+#   other_pathways:
+#   - Starch and sucrose metabolism
+#   - Metabolic pathways
+#   pathway: Starch and sucrose metabolism
+#   source: KEGG
+#   tag: KEGG_Cbes
+#   translated_equation: Dextrin[c] + H2O[c] => D-Glucose[c] + Dextrin[c]
 - id: R00948
   name: ATP:alpha-D-glucose-1-phosphate adenylyltransferase
   equation: C00002[c] + C00103[c] => C00013[c] + C00498[c]
@@ -27408,4 +27324,15 @@
   pathway: alpha-Linolenic acid metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: 3-Hexenal[c] + NADH[c] + H+[c] <=> 3-Hexenol[c] + NAD+[c]j
+  translated_equation: 3-Hexenal[c] + NADH[c] + H+[c] <=> 3-Hexenol[c] + NAD+[c]
+- id: R02628
+  name: Phosphoenolpyruvate:protein-L-histidine N-pros-phosphotransferase
+  genes: peg.546
+  curated: true
+  equation: C00074[c] + C00615[c] <=> C00022[c] + C04261[c]
+  translated_eqaution: 'phosphoenolpyruvate + protein histidine = pyruvate + protein Npi-phospho-L-histidine'
+  enzymes:
+  - 2.7.3.9
+  pathways: null
+  comment: enzyme I of the phosphotransferase system (see map02060)
+  note: used for transport fructose vis PTS system

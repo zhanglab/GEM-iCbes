@@ -843,33 +843,6 @@
   tag: KEGG_Cbes
   translated_equation: 2,5-Diamino-6-(5'-triphosphoryl-3',4'-trihydroxy-2'-oxopentyl)-amino-4-oxopyrimidine[c]
     => |7,8-Dihydroneopterin 3'-triphosphate[c]| + H2O[c]
-- id: R00955
-  name: UDP-glucose:alpha-D-galactose-1-phosphate uridylyltransferase
-  equation: C00029[c] + C00446[c] <=> C00103[c] + C00052[c]
-  ec:
-  - 2.7.7.12
-  EggNOG_annotation: peg.1408:Galactose-1-phosphate uridylyltransferase
-  KEGG_annotation: Athe_0938:K00965 UDPglucose--hexose-1-phosphate uridylyltransferase
-    [EC:2.7.7.12] | (GenBank) galactose-1-phos
-  PATRIC_annotation: Galactose-1-phosphate uridylyltransferase (EC 2.7.7.10)
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1408
-  genes_string_NCBI_id: Athe_0938
-  genes_string_PATRIC_id: peg.1408
-  names:
-  - UDP-glucose:alpha-D-galactose-1-phosphate uridylyltransferase
-  note: peg.481 is annotated as EC 2.7.7.10 in PATRIC and EggNOG, not 2.7.1.12
-  other_pathways:
-  - Galactose metabolism
-  - Amino sugar and nucleotide sugar metabolism
-  - Metabolic pathways
-  pathway: Galactose metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: UDP-glucose[c] + |alpha-D-Galactose 1-phosphate[c]| <=> |D-Glucose
-    1-phosphate[c]| + UDP-alpha-D-galactose[c]
 - id: R00585
   name: L-Serine:pyruvate aminotransferase
   equation: C00065[c] + C00022[c] <=> C00168[c] + C00041[c]
@@ -4074,3 +4047,174 @@
   tag: KEGG_Cbes
   translated_equation: G00293[c] + Orthophosphate[c] <=> D-Glucose[c] + |beta-D-Glucose
     1-phosphate[c]|
+ id: R00955
+  name: UDP-glucose:alpha-D-galactose-1-phosphate uridylyltransferase
+  equation: C00029[c] + C00446[c] <=> C00103[c] + C00052[c]
+  ec:
+  - 2.7.7.12
+  EggNOG_annotation: peg.1408:Galactose-1-phosphate uridylyltransferase
+  KEGG_annotation: Athe_0938:K00965 UDPglucose--hexose-1-phosphate uridylyltransferase
+    [EC:2.7.7.12] | (GenBank) galactose-1-phos
+  PATRIC_annotation: Galactose-1-phosphate uridylyltransferase (EC 2.7.7.10)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1408
+  genes_string_NCBI_id: Athe_0938
+  genes_string_PATRIC_id: peg.1408
+  names:
+  - UDP-glucose:alpha-D-galactose-1-phosphate uridylyltransferase
+  note: peg.481 is annotated as EC 2.7.7.10 in PATRIC and EggNOG, not 2.7.1.12
+  other_pathways:
+  - Galactose metabolism
+  - Amino sugar and nucleotide sugar metabolism
+  - Metabolic pathways
+  pathway: Galactose metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: UDP-glucose[c] + |alpha-D-Galactose 1-phosphate[c]| <=> |D-Glucose
+    1-phosphate[c]| + UDP-alpha-D-galactose[c]
+
+# amino sugar and nucleotide sugar
+- id: R06203
+  equation: C00181[c] + G10512(n)[c] <=> G10512(n+1)[c] + C00001[c]
+  ec:
+  - 3.2.1.37
+  EggNOG_annotation: peg.581:Xylan 1,4-beta-xylosidase (EC 3.2.1.37)
+  KEGG_annotation: Athe_0184:K01198 xylan 1,4-beta-xylosidase [EC:3.2.1.37] | (GenBank)
+    Xylan 1,4-beta-xylosidase
+  PATRIC_annotation: Xylan 1,4-beta-xylosidase (EC 3.2.1.37)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.581
+  genes_string_NCBI_id: Athe_0184
+  genes_string_PATRIC_id: peg.581
+  names: []
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: D-Xylose[c] + G10512(n)[c] <=> G10512(n+1)[c] + H2O[c]
+
+# fructose and mannose metabolism
+- id: R00307
+  name: D-glucose aldose-ketose-isomerase
+  equation: C00031[c] <=> C00095[c]
+  ec:
+  - 5.3.1.5
+  EggNOG_annotation: peg.1037:xylose isomerase
+  KEGG_annotation: Athe_0603:K01805 xylose isomerase [EC:5.3.1.5] | (GenBank) xylose
+    isomerase
+  PATRIC_annotation: Xylose isomerase (EC 5.3.1.5)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: peg.1037
+  genes_kegg: peg.1037
+  genes_string_NCBI_id: Athe_0603
+  genes_string_PATRIC_id: peg.1037
+  names:
+  - D-glucose aldose-ketose-isomerase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes,Tsac
+  translated_equation: D-Glucose[c] <=> D-Fructose[c]
+- id: R09030
+  name: D-allose-6-phosphate aldose-ketose-isomerase
+  genes: peg.1073
+  curated: true
+  equation: C02962[c] => C18096[c]
+  ec:
+  - 5.3.1.6
+  EggNOG_annotation: peg.1073:isomerase
+  KEGG_annotation: Athe_0632:K01808 ribose 5-phosphate isomerase B [EC:5.3.1.6] |
+    (GenBank) sugar-phosphate isomerase, RpiB/LacA/
+  PATRIC_annotation: Ribose-5-phosphate isomerase B (EC 5.3.1.6)
+  comment: allose-6-phosphate isomerase
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1073
+  genes_string_NCBI_id: Athe_0632
+  genes_string_PATRIC_id: peg.1073
+  names:
+  - D-allose-6-phosphate aldose-ketose-isomerase
+  other_pathways:
+  - Fructose and mannose metabolism
+  - Microbial metabolism in diverse environments
+  pathway: Fructose and mannose metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|D-Allose 6-phosphate[c]| => |D-Allulose 6-phosphate[c]|'
+  note: no genomic context based on kegg pathway map; only supported by kegg_cbes; ecoli iJO1366 only present 1 rxn for this gene.
+- id: R03234
+  equation: C01096[c] + C00006[c] <=> C02888[c] + C00005[c] + C00080[c]
+  ec:
+  - 1.1.1.-
+  EggNOG_annotation: peg.1153:Alcohol dehydrogenase zinc-binding domain protein
+  KEGG_annotation: Athe_0699:K19956 L-sorbose 1-phosphate reductase [EC:1.1.1.-]
+    | (GenBank) Alcohol dehydrogenase zinc-binding d
+  PATRIC_annotation: Uncharacterized protein YggP
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1153
+  genes_string_NCBI_id: Athe_0699
+  genes_string_PATRIC_id: peg.1153
+  names: []
+  other_pathways:
+  - Fructose and mannose metabolism
+  pathway: Fructose and mannose metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|Sorbitol 6-phosphate[c]| + NADP+[c] <=> |Sorbose 1-phosphate[c]|
+    + NADPH[c] + H+[c]'
+- id: R08612
+  name: 4-beta-D-mannan mannanohydrolase
+  genes: peg.2375 or peg.2376 or peg.2379
+  equation: C02492[c] + C00001[c] <=> C17207[c] + C02492[c]
+  ec:
+  - 3.2.1.78
+  EggNOG_annotation: 'peg.2379:Inherit from firmNOG: Mannan endo-1,4-beta-mannosidase;   peg.2375:hydrolase
+    family 9'
+  KEGG_annotation: Athe_1865:K01218 mannan endo-1,4-beta-mannosidase [EC:3.2.1.78]
+    | (GenBank) glycoside hydrolase family 9;   Athe_1859:K01218 mannan endo-1,4-beta-mannosidase
+    [EC:3.2.1.78] | (GenBank) glycoside hydrolase family 5
+  PATRIC_annotation: Mannan endo-1,4-beta-mannosidase (EC 3.2.1.78) / beta-1,4-glucanase
+    (cellulase) (EC 3.2.1.4) / Domain of unknown function or Glucan 1,4-beta-glucosidase
+    (EC 3.2.1.74) / Mannan endo-1,4-beta-mannosidase (EC 3.2.1.78)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2375,peg.2379
+  genes_string_NCBI_id: Athe_1859,Athe_1865
+  genes_string_PATRIC_id: peg.2379,peg.2375
+  names:
+  - 4-beta-D-mannan mannanohydrolase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: 1,4-beta-D-Mannan[c] + H2O[c] <=> 1,4-beta-D-Mannooligosaccharide[c]
+    + 1,4-beta-D-Mannan[c]
+- id: R08614
+  name: 1,4-beta-D-Mannooligosaccharide mannohydrolase
+  genes: peg.625
+  equation: C17207[c] + C00001[c] <=> C00159[c] + C17207[c]
+  ec:
+  - 3.2.1.25
+  EggNOG_annotation: peg.625:Glycoside hydrolase, family 2
+  KEGG_annotation: Athe_0227:K01192 beta-mannosidase [EC:3.2.1.25] | (GenBank) glycoside
+    hydrolase family 2 sugar binding
+  PATRIC_annotation: Beta-mannosidase (EC 3.2.1.25)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.625
+  genes_string_NCBI_id: Athe_0227
+  genes_string_PATRIC_id: peg.625
+  names:
+  - 1,4-beta-D-Mannooligosaccharide mannohydrolase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: 1,4-beta-D-Mannooligosaccharide[c] + H2O[c] <=> D-Mannose[c]
+    + 1,4-beta-D-Mannooligosaccharide[c]

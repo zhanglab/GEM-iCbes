@@ -1,3 +1,25 @@
+- id: C00275
+  name: D-Mannose 6-phosphate
+  formula: C6H13O9P
+  charge: 0
+  mol_weight: 260.1358
+  source: KEGG
+- id: C00354
+  name: D-Fructose 1,6-bisphosphate
+  formula: C6H14O12P2
+  charge: 0
+  mol_weight: 340.1157
+  source: KEGG
+- id: C01096
+  name: Sorbitol 6-phosphate
+  charge: 0
+  names:
+  - Sorbitol 6-phosphate
+  - D-Sorbitol 6-phosphate
+  - D-Glucitol 6-phosphate
+  formula: C6H15O9P
+  mol_weight: 262.1517
+  source: KEGG
 - id: Biomass
   name: Biomass
   formula: R
@@ -3456,3 +3478,18 @@
   source: KEGG
   tag: AddFromRxn
   note: Both C09332 and C04144 are THF-polyglutamate. C09332, n=2; C04144, n=3
+- id: C00181
+  name: D-Xylose
+  names:
+  - D-Xylose
+  - Wood sugar
+  formula: C5H10O5
+  mol_weight: 150.1299
+- id: C00310
+  name: D-Xylulose
+  names:
+  - D-Xylulose
+  - D-threo-Pentulose
+  - D-Lyxulose
+  formula: C5H10O5
+  mol_weight: 150.1299

@@ -211,7 +211,7 @@
   PMID: 21423164
   pathway: Transport
   tag: transportDB
-- id: nat
+- id: ATPSYN
   name: Na+ dependent F0F1 ATP synthase
   genes: peg.1915 and peg.1916 and peg.1917 and peg.1918 and peg.1919 peg.1920 and
     peg.1921 and peg.1922
@@ -262,13 +262,13 @@
   pathway: Transport
   source: manual curation
   tag: Dima's annotation
-- id: frut
-  name: fructose-specific PTS Enzyme IIABC
-  genes: peg.543 and peg.544
-  equation: C04261[c] + C00095[e] => C00615[c] + C01094[c]
-  ec: TC=4.A.2.1.1
-  pathway: Transport
-  tag: transportDB
+# - id: frut
+#   name: fructose-specific PTS Enzyme IIABC
+#   genes: peg.543 and peg.544
+#   equation: C04261[c] + C00095[e] => C00615[c] + C01094[c]
+#   ec: TC=4.A.2.1.1
+#   pathway: Transport
+#   tag: transportDB
 - id: R03232
   name: fructose uptake (PTS system)
   genes: peg.543 and peg.544
@@ -294,6 +294,7 @@
   pathway: Transport
   source: KEGG
   tag: KEGG_Cbes
+  note: genes come from manual annotation
   translated_equation: '|Protein N(pi)-phospho-L-histidine[c]| + D-Fructose[e] =>
     |Protein histidine[c]| + |D-Fructose 1-phosphate[c]|'
 - id: ThiT
@@ -340,14 +341,14 @@
   equation: C00080[e] + C00186[e] <=> C00080[c] + C00186[c]
   pathway: Transport
   tag: (Cce & Tsac)-L-LACt2
-- id: GLCabc
-  name: D-glucose transport via ABC system
-  genes: peg.2831 and peg.2832 and peg.2833
-  equation: (2) C00001[c] + (2) C00002[c] + C00031[e] => (2) C00008[c] + (2) C00009[c]
-    + C00031[c]
-  ec: TC=3.A.1.1.20
-  pathway: Transport
-  tag: psammotate-Cce-Glcabc
+# - id: GLCabc
+#   name: D-glucose transport via ABC system
+#   genes: peg.2831 and peg.2832 and peg.2833
+#   equation: (2) C00001[c] + (2) C00002[c] + C00031[e] => (2) C00008[c] + (2) C00009[c]
+#     + C00031[c]
+#   ec: TC=3.A.1.2.20
+#   pathway: Transport
+#   tag: psammotate-Cce-Glcabc
 - id: vb12ABC
   name: Vitamin B12 uptake via ABC system
   genes: peg.2411 and peg.2410 and peg.2412
@@ -355,3 +356,33 @@
   ec: TC=3.A.1.13.1
   pathway: Vitamin B12 uptake
   tag: Dima's annotation
+
+# gene association comes from Dima's annotation
+- id: Xyloseabc
+  name: D-xylose transport via ABC system
+  genes: ((peg.486 or peg.490) and peg.491 and peg.492) or (peg.2831 and peg.2832 and (peg.2833 or peg.2836))
+  equation: C00001[c] + C00002[c] + C00181[e] => C00008[c] + C00009[c] + C00181[c]
+  ec: TC=3.A.1.2
+  pathway: Transport
+  tag: manual curation
+- id: Gluabc
+  name:  D-glucose transport via ABC system
+  genes: (peg.486 or peg.490) and peg.491 and peg.492
+  equation: C00001[c] + C00002[c] + C00031[e] => C00008[c] + C00009[c] + C00031[c]
+  ec: TC=3.A.1.2
+  pathway: Transport
+  tag: manual curation
+- id: Galtabc
+  name: Galactose transport via ABC system
+  genes: ((peg.486 or peg.490) and peg.491 and peg.492) or (peg.2831 and peg.2832 and (peg.2833 or peg.2836))
+  equation: C00001[c] + C00002[c] + [e] => C00008[c] + C00009[c] + [c]
+  ec: TC=3.A.1.2
+  pathway: Transport
+  tag: manual curation
+- id: Arababc
+  name: peg.2831 and peg.2832 and peg.2833
+  genes: (peg.486 or peg.490) and peg.491 and peg.492
+  equation: C00001[c] + C00002[c] + [e] => C00008[c] + C00009[c] + [c]
+  ec: TC=3.A.1.2
+  pathway: Transport
+  tag: manual curation
