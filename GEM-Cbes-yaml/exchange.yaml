@@ -146,21 +146,15 @@ compounds:
   upper: 1000.0
 
 # test different carbon source
-# - id: C00031
-#   name: D-glucose
-#   lower: -25.0
-#   upper: 1000.0
+- id: C00031
+  name: D-glucose
+  lower: -25.0
+  upper: 1000.0
 # - id: C00095
 #   name: fructose
 #   lower: -25.0
 #   upper: 1000.0
-- id: C00181
-  name: D-xylose
-  lower: -25.0
-  upper: 1000.0
-
-# fake media
-- id: C00036
-  name: oxaloacetate
-  lower: -25.0
-  upper: 0
+# - id: C00181
+#   name: D-xylose
+#   lower: -25.0
+#   upper: 1000.0

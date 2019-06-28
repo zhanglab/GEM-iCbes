@@ -3301,7 +3301,7 @@
   name: H2-evolving membrane-bound hydrogenase
   genes: fig|31899.10.peg.1563 and fig|31899.10.peg.1564 and fig|31899.10.peg.1565
     and fig|31899.10.peg.1566 and fig|31899.10.peg.1567 and fig|31899.10.peg.1568
-  equation: C00138[c] + (3) C00080[c] <=> C00282[c] + C00139[c] + C00080[e]
+  equation: C00138[c] + (3) C00080[c] => C00282[c] + C00139[c] + C00080[e]
   ec:
   - 1.12.7.2
   curated: true
@@ -3312,7 +3312,7 @@
   regulon: Rex, target to echABCDEF-hypABFCDE
   source: KEGG
   tag: psammotate (tsac) & manual curation
-  translated_equation: fdred[c] + (3) h[c] <=> fdox[c] + h2[c] + h[e]
+  translated_equation: fdred[c] + (3) h[c] => fdox[c] + h2[c] + h[e]
 - id: BF-Nfn
   name: NADH-dependent reduced ferredoxin:NADP+ oxidoreductase
   genes: peg.1085 and peg.1086

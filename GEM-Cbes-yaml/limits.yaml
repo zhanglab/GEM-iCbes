@@ -1,0 +1,5 @@
+# constrain rxn flux
+- reaction: source_oaa
+  upper: 25
+
+
