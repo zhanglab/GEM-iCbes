@@ -4551,7 +4551,9 @@
   name: H2-evolving membrane-bound hydrogenase
   genes: fig|31899.10.peg.1563 and fig|31899.10.peg.1564 and fig|31899.10.peg.1565
     and fig|31899.10.peg.1566 and fig|31899.10.peg.1567 and fig|31899.10.peg.1568
-  equation: (2) C00138[c] + (2) C00080[c] => C00282[c] + (2) C00139[c]
+  # equation: (2) C00138[c] + (2) C00080[c] => C00282[c] + (2) C00139[c]
+  equation: C00138[c] + (3) C00080[c] <=> C00282[c] + C00139[c] + C00080[e]
+  translated_equation: fdred[c] + (3) h[c] <=> fdox[c] + h2[c] + h[e]
   ec:
   - 1.12.7.2
   curated: true
