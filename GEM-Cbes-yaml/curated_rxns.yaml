@@ -3301,7 +3301,7 @@
   name: H2-evolving membrane-bound hydrogenase
   genes: fig|31899.10.peg.1563 and fig|31899.10.peg.1564 and fig|31899.10.peg.1565
     and fig|31899.10.peg.1566 and fig|31899.10.peg.1567 and fig|31899.10.peg.1568
-  equation: C00138[c] + (3) C00080[c] => C00282[c] + C00139[c] + C00080[e]
+  equation: (2) C00138[c] + (3) C00080[c] => C00282[c] + (2) C00139[c] + C00080[e]
   ec:
   - 1.12.7.2
   curated: true
@@ -7218,7 +7218,7 @@
     + NADPH[c]
 - id: R04326
   genes: peg.1938
-  equation: C03838[c] + C00445[c] + C00001[c] => C04376[c] + C00101[c]
+  equation: C03838[c] + C00445[c] + C00001[c] => C04376[c] + C00101[c] + C00080[c]
   ec:
   - 2.1.2.2
   EggNOG_annotation: peg.1938:phosphoribosylglycinamide formyltransferase
