@@ -487,10 +487,10 @@
   source: KEGG
   tag: KEGG_Cbes,Cth,Tsac
   translated_equation: UDP-N-acetyl-alpha-D-glucosamine[c] <=> UDP-N-acetyl-D-galactosamine[c]
-- id: R01762
+- id: R01762_n2
   name: alpha-L-arabinan arabinofuranohydrolase
   genes: peg.1584
-  equation: C02474[c] + C00001[c] => C02474[c] + C00259[c]
+  equation: C02474_n2[c] + (6) C00001[c] => (6) C00259[c]
   ec:
   - 3.2.1.55
   EggNOG_annotation: peg.1584:alpha-N-arabinofuranosidase (EC 3.2.1.55)
@@ -511,7 +511,7 @@
   pathway: Amino sugar and nucleotide sugar metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: Arabinan[c] + H2O[c] => Arabinan[c] + L-Arabinose[c]
+  translated_equation: Arabinan[c] + H2O[c] =>  L-Arabinose[c]
 - id: R02059
   name: N-Acetyl-D-glucosamine-6-phosphate amidohydrolase
   genes: peg.481
@@ -2198,7 +2198,7 @@
     + H+[c]
 - id: R01197
   name: 2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)
-  genes: peg.1576 and peg,1577 and peg.1578 and peg.1579
+  genes: peg.1576 and peg.1577 and peg.1578 and peg.1579
   equation: (2) C00139[c] + C00026[c] + C00010[c] => (2) C00138[c] + C00091[c] +
     C00011[c] + (2) C00080[c]
   ec:
@@ -2349,6 +2349,41 @@
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: (S)-Malate[c] + NADP+[c] => Pyruvate[c] + CO2[c] + NADPH[c]
     + H+[c]
+- id: R00342
+  name: (S)-malate:NAD+ oxidoreductase
+  genes: peg.2434
+  equation: C00149[c] + C00003[c] <=> C00036[c] + C00004[c] + C00080[c]
+  ec:
+  - 1.1.1.37
+  EggNOG_annotation: peg.2434:L-lactate dehydrogenase
+  KEGG_annotation: Athe_1918:K00016 L-lactate dehydrogenase [EC:1.1.1.27] | (GenBank)
+    L-lactate dehydrogenase
+  PATRIC_annotation: L-lactate dehydrogenase (EC 1.1.1.27)
+  PMID: 28206708
+  curated: true
+  genes_Cce: peg.2434
+  genes_Cth: peg.2434 or -
+  genes_NCBI_id: Athe_1918
+  genes_Tsac: peg.2434
+  genes_kegg: None
+  names:
+  - (S)-malate:NAD+ oxidoreductase
+  note: add this rxn based on experimental data from Dr. Adams's group
+  other_pathways:
+  - Citrate cycle (TCA cycle)
+  - Pyruvate metabolism
+  - Glyoxylate and dicarboxylate metabolism
+  - Methane metabolism
+  - Carbon fixation in photosynthetic organisms
+  - Carbon fixation pathways in prokaryotes
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Microbial metabolism in diverse environments
+  - Biosynthesis of antibiotics
+  - Carbon metabolism
+  pathway: Citrate cycle (TCA cycle)
+  source: Cce,Cth,Tsac
+  translated_equation: (S)-Malate[c] + NAD+[c] <=> Oxaloacetate[c] + NADH[c] + H+[c]
 - id: R10991
   name: 2-aminobutanoate:2-oxoglutarate aminotransferase
   genes: peg.1109
@@ -2961,32 +2996,6 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: Acetyl-CoA[c] + L-Homoserine[c] => CoA[c] + O-Acetyl-L-homoserine[c]
-- id: R03104
-  name: 3-Mercaptolactate:NAD+ oxidoreductase
-  genes: peg.2434
-  equation: C00957[c] + C00004[c] + C00080[c] => C05823[c] + C00003[c]
-  ec:
-  - 1.1.1.27
-  EggNOG_annotation: peg.2434:L-lactate dehydrogenase
-  KEGG_annotation: Athe_1918:K00016 L-lactate dehydrogenase [EC:1.1.1.27] | (GenBank)
-    L-lactate dehydrogenase
-  PATRIC_annotation: L-lactate dehydrogenase (EC 1.1.1.27)
-  curated: true
-  genes_Cce: peg.2434 or peg.2434
-  genes_Cth: None
-  genes_Tsac: peg.2434
-  genes_kegg: peg.2434
-  genes_string_NCBI_id: Athe_1918
-  genes_string_PATRIC_id: peg.2434
-  names:
-  - 3-Mercaptolactate:NAD+ oxidoreductase
-  other_pathways:
-  - Cysteine and methionine metabolism
-  pathway: Cysteine and methionine metabolism
-  source: KEGG
-  tag: KEGG_Cbes,Cce,Tsac
-  translated_equation: Mercaptopyruvate[c] + NADH[c] + H+[c] => 3-Mercaptolactate[c]
-    + NAD+[c]
 - id: R04420
   name: 5-Methylthio-5-deoxy-D-ribose-1-phosphate ketol-isomerase
   genes: peg.1849
@@ -3682,7 +3691,7 @@
 - id: R01332_n4
   name: beta-D-mannan hydrolases (endo)
   genes: (peg.2375 or peg.2376 or peg.2379) and peg.625
-  equation: C02492[c] + (3) C00001[c] => (4) C00159[c]
+  equation: C02492_n4[c] + (4) C00001[c] => (4) C00159[c]
   ec:
   - 3.2.1.78
   - 3.2.1.25
@@ -3712,6 +3721,7 @@
   pathway: Fructose and mannose metabolism
   source: KEGG
   tag: KEGG_Cbes
+  translated_equation: 1,4-beta-D-Mannan + (4) H2O <=> (4) D-Mannose
 - id: R01818
   name: D-mannose 6-phosphate 1,6-phosphomutase
   genes: peg.632 or peg.2262
@@ -5318,29 +5328,6 @@
   source: KEGG
   tag: KEGG_Cbes,Cce
   translated_equation: ATP[c] + Pyruvate[c] => ADP[c] + Phosphoenolpyruvate[c]
-- id: R00659
-  name: UTP:pyruvate 2-O-phosphotransferase
-  genes: peg.1753
-  equation: C00015[c] + C00074[c] => C00075[c] + C00022[c]
-  ec:
-  - 2.7.1.40
-  EggNOG_annotation: peg.1753:Pyruvate kinase
-  KEGG_annotation: Athe_1266:K00873 pyruvate kinase [EC:2.7.1.40] | (GenBank) pyruvate
-    kinase
-  PATRIC_annotation: Pyruvate kinase (EC 2.7.1.40) / Phosphohistidine swiveling domain
-  curated: true
-  genes_Cce: peg.1753
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1753
-  genes_string_NCBI_id: Athe_1266
-  genes_string_PATRIC_id: peg.1753
-  names:
-  - UTP:pyruvate 2-O-phosphotransferase
-  pathway: Glycolysis / Gluconeogenesis
-  source: KEGG
-  tag: KEGG_Cbes,Cce
-  translated_equation: UTP[c] + Pyruvate[c] <= UDP[c] + Phosphoenolpyruvate[c]
 - id: R02073
   name: diphosphate:beta-D-fructose-6-phosphate 1-phosphotransferase
   genes: peg.2336
@@ -5408,7 +5395,7 @@
 - id: R00703
   name: (S)-Lactate:NAD+ oxidoreductase
   genes: peg.2434
-  equation: C00022[c] + C00004[c] + C00080[c] => C00186[c] + C00003[c]
+  equation: C00022[c] + C00004[c] + C00080[c] <=> C00186[c] + C00003[c]
   ec:
   - 1.1.1.27
   EggNOG_annotation: peg.2434:L-lactate dehydrogenase
@@ -5433,7 +5420,7 @@
   pathway: Glycolysis / Gluconeogenesis
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: Pyruvate[c] + NADH[c] + H+[c] => (S)-Lactate[c] + NAD+[c]
+  translated_equation: Pyruvate[c] + NADH[c] + H+[c] <=> (S)-Lactate[c] + NAD+[c]
 - id: R01196
   name: pyruvate:ferredoxin 2-oxidoreductase (CoA-acetylating)
   genes: (peg.1337 and peg.1338 and peg.1339 and peg.1340) or (peg.2217 and peg.2218)
@@ -7032,7 +7019,8 @@
 - id: R07161
   name: 3-(indol-3-yl)pyruvate:ferredoxin oxidoreductase (decarboxylating,CoA-indole-acetylating)
   genes: (peg.1999 and peg.1998) or (peg.1489 and peg.1488)
-  equation: C00331[c] + C00010[c] + C00139[c] <=> C15489[c] + C00011[c] + C00138[c]
+  equation: C00331[c] + C00010[c] + (2) C00139[c] <=> C15489[c] + C00011[c] + (2)
+    C00138[c] + (2) C00080[c]
   ec:
   - 1.2.7.8
   EggNOG_annotation: peg.1337:oxidoreductase gamma subunit;   peg.1999:indolepyruvate
@@ -7065,8 +7053,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes,Cth,Tsac
-  translated_equation: Indolepyruvate[c] + CoA[c] + |Oxidized ferredoxin[c]| <=>
-    S-2-(Indol-3-yl)acetyl-CoA[c] + CO2[c] + |Reduced ferredoxin[c]|
+  translated_equation: Indolepyruvate[c] + CoA[c] + (2) |Oxidized ferredoxin[c]|
+    <=> S-2-(Indol-3-yl)acetyl-CoA[c] + CO2[c] + (2) |Reduced ferredoxin[c]| + (2)
+    H+[c]
 - id: R02728
   name: beta-D-Glucose 1-phosphate 1,6-phosphomutase
   genes: peg.812
@@ -9109,32 +9098,6 @@
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: Propanoyl-CoA[c] + Orthophosphate[c] <=> |Propanoyl phosphate[c]|
     + CoA[c]
-- id: R01000
-  name: 2-hydroxybutyrate:NAD+ oxidoreductase
-  genes: peg.2434
-  equation: C05984[c] + C00003[c] <=> C00109[c] + C00004[c] + C00080[c]
-  ec:
-  - 1.1.1.27
-  EggNOG_annotation: peg.2434:L-lactate dehydrogenase
-  KEGG_annotation: Athe_1918:K00016 L-lactate dehydrogenase [EC:1.1.1.27] | (GenBank)
-    L-lactate dehydrogenase
-  PATRIC_annotation: L-lactate dehydrogenase (EC 1.1.1.27)
-  curated: true
-  genes_Cce: peg.2434 or peg.2434
-  genes_Cth: peg.2434 or -
-  genes_Tsac: peg.2434
-  genes_kegg: peg.2434
-  genes_string_NCBI_id: Athe_1918
-  genes_string_PATRIC_id: peg.2434
-  names:
-  - 2-hydroxybutyrate:NAD+ oxidoreductase
-  other_pathways:
-  - Propanoate metabolism
-  pathway: Propanoate metabolism
-  source: KEGG
-  tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: '|2-Hydroxybutanoic acid[c]| + NAD+[c] <=> 2-Oxobutanoate[c]
-    + NADH[c] + H+[c]'
 - id: R02016
   name: NADPH:oxidized-thioredoxin oxidoreductase
   genes: peg.154
@@ -9730,84 +9693,6 @@
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: ADP-ribose[c] + H2O[c] => AMP[c] + |D-Ribose 5-phosphate[c]|
-- id: R00430
-  name: GTP:pyruvate 2-O-phosphotransferase
-  genes: peg.1753
-  equation: C00035[c] + C00074[c] => C00044[c] + C00022[c]
-  ec:
-  - 2.7.1.40
-  EggNOG_annotation: peg.1753:Pyruvate kinase
-  KEGG_annotation: Athe_1266:K00873 pyruvate kinase [EC:2.7.1.40] | (GenBank) pyruvate
-    kinase
-  PATRIC_annotation: Pyruvate kinase (EC 2.7.1.40) / Phosphohistidine swiveling domain
-  curated: true
-  genes_Cce: peg.1753
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1753
-  genes_string_NCBI_id: Athe_1266
-  genes_string_PATRIC_id: peg.1753
-  names:
-  - GTP:pyruvate 2-O-phosphotransferase
-  other_pathways:
-  - Purine metabolism
-  - Metabolic pathways
-  pathway: Purine metabolism
-  source: KEGG
-  tag: KEGG_Cbes,Cce
-  translated_equation: GTP[c] + Pyruvate[c] <= GDP[c] + Phosphoenolpyruvate[c]
-- id: R01138
-  name: dATP:pyruvate 2-O-phosphotransferase
-  genes: peg.1753
-  equation: C00206[c] + C00074[c] => C00131[c] + C00022[c]
-  ec:
-  - 2.7.1.40
-  EggNOG_annotation: peg.1753:Pyruvate kinase
-  KEGG_annotation: Athe_1266:K00873 pyruvate kinase [EC:2.7.1.40] | (GenBank) pyruvate
-    kinase
-  PATRIC_annotation: Pyruvate kinase (EC 2.7.1.40) / Phosphohistidine swiveling domain
-  curated: true
-  genes_Cce: peg.1753
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1753
-  genes_string_NCBI_id: Athe_1266
-  genes_string_PATRIC_id: peg.1753
-  names:
-  - dATP:pyruvate 2-O-phosphotransferase
-  other_pathways:
-  - Purine metabolism
-  - Metabolic pathways
-  pathway: Purine metabolism
-  source: KEGG
-  tag: KEGG_Cbes,Cce
-  translated_equation: dATP[c] + Pyruvate[c] <= dADP[c] + Phosphoenolpyruvate[c]
-- id: R01858
-  name: dGTP:pyruvate 2-O-phosphotransferase
-  genes: peg.1753
-  equation: C00361[c] + C00074[c] => C00286[c] + C00022[c]
-  ec:
-  - 2.7.1.40
-  EggNOG_annotation: peg.1753:Pyruvate kinase
-  KEGG_annotation: Athe_1266:K00873 pyruvate kinase [EC:2.7.1.40] | (GenBank) pyruvate
-    kinase
-  PATRIC_annotation: Pyruvate kinase (EC 2.7.1.40) / Phosphohistidine swiveling domain
-  curated: true
-  genes_Cce: peg.1753
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1753
-  genes_string_NCBI_id: Athe_1266
-  genes_string_PATRIC_id: peg.1753
-  names:
-  - dGTP:pyruvate 2-O-phosphotransferase
-  other_pathways:
-  - Purine metabolism
-  - Metabolic pathways
-  pathway: Purine metabolism
-  source: KEGG
-  tag: KEGG_Cbes,Cce
-  translated_equation: dGTP[c] + Pyruvate[c] <= dGDP[c] + Phosphoenolpyruvate[c]
 - id: R01561
   name: Adenosine:phosphate alpha-D-ribosyltransferase
   genes: peg.2283
@@ -11728,19 +11613,18 @@
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: 5-Amino-6-(5'-phosphoribosylamino)uracil[c] + NADPH[c] + H+[c]
     => 5-Amino-6-(5'-phospho-D-ribitylamino)uracil[c] + NADP+[c]
-- id: R02112
+- id: R02112_n3
   name: 1,4-alpha-D-Glucan maltohydrolase
   genes: peg.126
-  equation: C00369[c] => C00721[c] + C00208[c]
+  equation: C00369_n3[c] + C00001[c] => C00721_n2[c] + C00208[c]
   ec:
   - 3.2.1.133
   EggNOG_annotation: peg.126:Alpha amylase catalytic
   KEGG_annotation: Athe_2579:K01208 cyclomaltodextrinase / maltogenic alpha-amylase
     / neopullulanase [EC:3.2.1.54 3.2.1.133 3.2.1
   PATRIC_annotation: Neopullulanase (EC 3.2.1.135)
-  comment: 'ec 3.2.1.1 and 3.2.1.133 form alpha-maltose [CPD:C00897]
-
-    ec 3.2.1.2 forms beta-maltose [CPD:C01971]'
+  comment: ec 3.2.1.1 and 3.2.1.133 form alpha-maltose [CPD:C00897], ec 3.2.1.2 forms
+    beta-maltose [CPD:C01971]
   curated: true
   genes_Cce: None
   genes_Cth: None
@@ -11756,7 +11640,7 @@
   pathway: Starch and sucrose metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: Starch[c] => Dextrin[c] + Maltose[c]
+  translated_equation: Starch[c] + H2O => Dextrin[c] + Maltose[c]
 - id: R11262
   name: maltodextrin maltohydrolase
   genes: peg.126
@@ -11785,7 +11669,7 @@
   pathway: Starch and sucrose metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: Maltodextrin[c] + H2O[c] => Maltose[c]
+  translated_equation: Maltodextrin[c] + H2O[c] => (2) Maltose[c]
 - id: R00760
   name: ATP:D-fructose 6-phosphotransferase
   genes: peg.2673
@@ -11989,6 +11873,32 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: Cyclomaltodextrin[c] + H2O[c] => Maltodextrin[c]
+- id: R01791_n2
+  name: Dextrin 6-alpha-D-glucanohydrolase
+  genes: peg.561
+  equation: C00721[c] + (4) C00001[c] => (4) C00031[c]
+  ec:
+  - 3.2.1.10
+  EggNOG_annotation: peg.561:alpha amylase, catalytic
+  KEGG_annotation: Athe_0165:K01182 oligo-1,6-glucosidase [EC:3.2.1.10] | (GenBank)
+    alpha amylase catalytic region
+  PATRIC_annotation: Oligo-1,6-glucosidase (EC 3.2.1.10)
+  curated: true
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.561
+  genes_string_NCBI_id: Athe_0165
+  genes_string_PATRIC_id: peg.561
+  names:
+  - Dextrin 6-alpha-D-glucanohydrolase
+  other_pathways:
+  - Starch and sucrose metabolism
+  - Metabolic pathways
+  pathway: Starch and sucrose metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: Dextrin[c] + (4) H2O[c] => (4) D-Glucose[c]
 - id: R00948
   name: ATP:alpha-D-glucose-1-phosphate adenylyltransferase
   genes: peg.988 or peg.989
@@ -12205,7 +12115,7 @@
   translated_equation: Cellodextrin[c] <=> Cellobiose[c]
 - id: R11307_n10
   genes: peg.2380 or peg.2376 or peg.633 or peg.1027
-  equation: C00760_n10[c] + C00001[c] => C00760_n6[c] + C01898[c]
+  equation: C00760_n10[c] + C00001[c] => C00760_n6[c] + C01898_n4[c]
   ec:
   - 3.2.1.4
   EggNOG_annotation: peg.633:Glycoside hydrolase family 5;   peg.2376:Cellulase (glycosyl

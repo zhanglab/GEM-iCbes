@@ -18,40 +18,6 @@
   source: KEGG
   tag: Cce
   translated_equation: N-Acetylornithine + L-Glutamate <=> L-Ornithine + N-Acetyl-L-glutamate
-# - id: R00342
-#   name: (S)-malate:NAD+ oxidoreductase
-#   genes: gap
-#   equation: C00149[c] + C00003[c] <=> C00036[c] + C00004[c] + C00080[c]
-#   ec:
-#   - 1.1.1.37
-#   EggNOG_annotation: peg.2434:L-lactate dehydrogenase
-#   KEGG_annotation: Athe_1918:K00016 L-lactate dehydrogenase [EC:1.1.1.27] | (GenBank)
-#     L-lactate dehydrogenase
-#   PATRIC_annotation: L-lactate dehydrogenase (EC 1.1.1.27)
-#   PMID: 28206708
-#   genes_Cce: peg.2434
-#   genes_Cth: peg.2434 or -
-#   genes_NCBI_id: Athe_1918
-#   genes_Tsac: peg.2434
-#   genes_kegg: None
-#   names:
-#   - (S)-malate:NAD+ oxidoreductase
-#   note: Athe_1918 is annotated as lactase dehydrogenase in literature
-#   other_pathways:
-#   - Citrate cycle (TCA cycle)
-#   - Pyruvate metabolism
-#   - Glyoxylate and dicarboxylate metabolism
-#   - Methane metabolism
-#   - Carbon fixation in photosynthetic organisms
-#   - Carbon fixation pathways in prokaryotes
-#   - Metabolic pathways
-#   - Biosynthesis of secondary metabolites
-#   - Microbial metabolism in diverse environments
-#   - Biosynthesis of antibiotics
-#   - Carbon metabolism
-#   pathway: Citrate cycle (TCA cycle)
-#   source: Cce,Cth,Tsac
-#   translated_equation: (S)-Malate[c] + NAD+[c] <=> Oxaloacetate[c] + NADH[c] + H+[c]
 - id: R00939
   name: 5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase
   genes: gap

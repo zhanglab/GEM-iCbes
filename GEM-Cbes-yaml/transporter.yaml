@@ -375,14 +375,14 @@
 - id: Galtabc
   name: Galactose transport via ABC system
   genes: ((peg.486 or peg.490) and peg.491 and peg.492) or (peg.2831 and peg.2832 and (peg.2833 or peg.2836))
-  equation: C00001[c] + C00002[c] + [e] => C00008[c] + C00009[c] + [c]
+  equation: C00001[c] + C00002[c] + C00124[e] => C00008[c] + C00009[c] + C00124[c]
   ec: TC=3.A.1.2
   pathway: Transport
   tag: manual curation
 - id: Arababc
-  name: peg.2831 and peg.2832 and peg.2833
-  genes: (peg.486 or peg.490) and peg.491 and peg.492
-  equation: C00001[c] + C00002[c] + [e] => C00008[c] + C00009[c] + [c]
+  name: Arabinose transport via ABC system
+  genes: peg.2831 and peg.2832 and (peg.2833 or peg.2836)
+  equation: C00001[c] + C00002[c] + C00216[e] => C00008[c] + C00009[c] + C00216[c]
   ec: TC=3.A.1.2
   pathway: Transport
   tag: manual curation

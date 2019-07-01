@@ -2997,7 +2997,8 @@
 - id: C05752
   name: Octanoyl-[acp]
   charge: 0
-  formula: C8H15OSR
+  # formula: C8H15OSR
+  formula: C19H36N2O8PSR
   names:
   - Octanoyl-[acp]
   - Octanoyl-[acyl-carrier protein]
@@ -3401,6 +3402,1224 @@
   - tRNA preQ1
   source: KEGG
   tag: kegg-generic-database
+- id: C03479
+  name: Folinic acid
+  formula: C20H23N7O7
+  charge: 0
+  mol_weight: 473.4393
+  source: KEGG
+  tag: A501
+- id: C03508
+  name: L-2-Amino-3-oxobutanoic acid (AOB)
+  formula: C4H7NO3
+  charge: 0
+  mol_weight: 117.1033
+  source: KEGG
+  tag: A501
+- id: C03684
+  name: 6-Pyruvoyl-5,6,7,8-tetrahydropterin
+  formula: C9H11N5O3
+  charge: 0
+  mol_weight: 237.2153
+  source: KEGG
+  tag: A501
+- id: C04501
+  name: N-Acetyl-D-glucosamine 1-phosphate
+  formula: C8H16NO9P
+  charge: 0
+  mol_weight: 301.1877
+  source: KEGG
+  tag: A501
+- id: C06156
+  name: D-Glucosamine 1-phosphate
+  formula: C6H14NO8P
+  charge: 0
+  mol_weight: 259.151
+  source: KEGG
+  tag: A501
+- id: C11907
+  name: dTDP-4-dehydro-6-deoxy-D-glucose
+  formula: C16H24N2O15P2
+  charge: 0
+  mol_weight: 546.3137
+  source: KEGG
+  tag: A501
+- id: C15489
+  name: S-2-(indol-3-yl)acetyl-CoA
+  formula: C31H43N8O17P3S
+  charge: 0
+  mol_weight: 924.7028
+  source: KEGG
+  tag: A501
+- id: C00096
+  name: GDP-D-mannose
+  formula: C16H25N5O16P2
+  charge: 0
+  mol_weight: 605.3411
+  source: KEGG
+  tag: A501
+- id: C00083
+  name: Malonyl-CoA
+  formula: C24H38N7O19P3S
+  charge: 0
+  mol_weight: 853.5803
+  source: KEGG
+  tag: A501
+- id: C00086
+  name: Urea
+  formula: CH4N2O
+  charge: 0
+  mol_weight: 60.0553
+  source: KEGG
+  tag: A501
+- id: C00093
+  name: sn-Glycerol 3-phosphate
+  formula: C3H9O6P
+  charge: 0
+  mol_weight: 172.0737
+  source: KEGG
+  tag: A501
+- id: C00100
+  name: Propanoyl-CoA
+  formula: C24H40N7O17P3S
+  charge: 0
+  mol_weight: 823.5974
+  source: KEGG
+  tag: A501
+- id: C00103
+  name: D-Glucose 1-phosphate (G1P)
+  formula: C6H13O9P
+  charge: 0
+  mol_weight: 260.1358
+  source: KEGG
+  tag: A501
+- id: C00116
+  name: Glycerol
+  formula: C3H8O3
+  charge: 0
+  mol_weight: 92.0938
+  source: KEGG
+  tag: A501
+- id: C00203
+  name: UDP-N-acetyl-D-galactosamine
+  formula: C17H27N3O17P2
+  charge: 0
+  mol_weight: 607.3537
+  source: KEGG
+  tag: A501
+- id: C00208
+  name: Maltose
+  formula: C12H22O11
+  charge: 0
+  mol_weight: 342.2965
+  source: KEGG
+  tag: A501
+- id: C00235
+  name: Dimethylallyl diphosphate
+  formula: C5H12O7P2
+  charge: 0
+  mol_weight: 246.0921
+  source: KEGG
+  tag: A501
+- id: C00258
+  name: (R)-Glycerate (GlycR)
+  formula: C3H6O4
+  charge: 0
+  mol_weight: 106.0773
+  source: KEGG
+  tag: A501
+- id: C00623
+  name: Glycerol 1-phosphate (Glyc1P)
+  formula: C3H9O6P
+  charge: 0
+  mol_weight: 172.0737
+  source: KEGG
+  tag: A501
+- id: C00718
+  name: glycogen
+  formula: C6H10O5
+  charge: 0
+  mol_weight: 162.141
+  source: KEGG
+  tag: A501
+- id: C00842
+  name: dTDPglucose
+  formula: C16H26N2O16P2
+  charge: 0
+  mol_weight: 564.329
+  source: KEGG
+  tag: A501
+- id: C00369_n3
+  name: Starch, glycogen
+  formula: (C12H20O10)3
+  charge: 0
+  source: KEGG
+  tag: A501
+- id: C00424
+  name: L-Lactaldehyde
+  formula: C3H6O2
+  charge: 0
+  mol_weight: 74.0785
+  source: KEGG
+  tag: A501
+- id: C00409
+  name: Methanethiol
+  formula: CH4S
+  charge: 0
+  mol_weight: 48.1075
+  source: KEGG
+  tag: A501
+- id: C00448
+  name: Farnesyl diphosphate
+  formula: C15H28O7P2
+  charge: 0
+  mol_weight: 382.3261
+  source: KEGG
+  tag: A501
+- id: C00546
+  name: Methylglyoxal
+  formula: C3H4O2
+  charge: 0
+  mol_weight: 72.0627
+  source: KEGG
+  tag: A501
+- id: C00498
+  name: ADP-glucose
+  formula: C16H25N5O15P2
+  charge: 0
+  mol_weight: 589.3417
+  source: KEGG
+  tag: A501
+- id: C00029
+  name: UDPglucose
+  formula: C15H24N2O17P2
+  charge: 0
+  mol_weight: 566.3018
+  source: KEGG
+  tag: A501
+- id: C00043
+  name: UDP-N-acetyl-D-glucosamine
+  formula: C17H27N3O17P2
+  charge: 0
+  mol_weight: 607.3537
+  source: KEGG
+  tag: A501
+- id: C01083
+  name: alpha,alpha-Trehalose
+  formula: C12H22O11
+  charge: 0
+  mol_weight: 342.2965
+  source: KEGG
+  tag: A501
+- id: C01099
+  name: L-Fuculose 1-phosphate
+  formula: C6H13O8P
+  charge: 0
+  mol_weight: 244.1364
+  source: KEGG
+  tag: A501
+- id: C01170
+  name: UDP-N-acetyl-D-mannosamine
+  formula: C17H27N3O17P2
+  charge: 0
+  mol_weight: 607.3537
+  source: KEGG
+  tag: A501
+- id: C01172
+  name: beta-D-Glucose 6-phosphate
+  formula: C6H13O9P
+  charge: 0
+  mol_weight: 260.1358
+  source: KEGG
+  tag: A501
+- id: C01352
+  name: Flavin adenine dinucleotide reduced (FADH2)
+  formula: C27H35N9O15P2
+  charge: 0
+  mol_weight: 787.5656
+  source: KEGG
+  tag: A501
+- id: C01674
+  name: Chitobiose
+  formula: C16H28N2O11
+  charge: 0
+  mol_weight: 424.4003
+  source: KEGG
+  tag: A501
+- id: C02226
+  name: Citraconic acid
+  formula: C5H6O4
+  charge: 0
+  mol_weight: 130.0987
+  source: KEGG
+  tag: A501
+- id: C01209
+  name: Malonyl-[acyl-carrier protein]
+  # formula: C3H3O3SR
+  formula: C14H24N2O10PSR
+  charge: 0
+  names:
+  - Malonyl-[acyl-carrier protein]
+  - Malonyl-[acp]
+  tag: A501
+- id: C00582
+  name: Phenylacetyl-CoA
+  formula: C29H42N7O17P3S
+  charge: 0
+  mol_weight: 885.6668
+  names:
+  - Phenylacetyl-CoA
+  - Phenylacetyl coenzyme A
+  source: KEGG
+  tag: A501
+- id: C07086
+  name: Phenylacetic acid
+  formula: C8H8O2
+  charge: 0
+  mol_weight: 136.1479
+  names:
+  - Phenylacetic acid
+  - Benzylformic acid
+  - Phenylacetate
+  - Benzeneacetic acid
+  source: KEGG
+  tag: A501
+- id: C00052
+  name: UDP galactose
+  formula: C15H24N2O17P2
+  charge: 0
+  mol_weight: 566.3018
+  source: KEGG
+  tag: A501
+- id: C00129
+  name: Isopentenyl diphosphate (IPP)
+  formula: C5H12O7P2
+  charge: 0
+  mol_weight: 246.0921
+  source: KEGG
+  tag: A501
+- id: C00137
+  name: myo-Inositol
+  formula: C6H12O6
+  charge: 0
+  mol_weight: 180.1559
+  source: KEGG
+  tag: A501
+- id: C00140
+  name: N-Acetyl-D-glucosamine (GlcNAc)
+  formula: C8H15NO6
+  charge: 0
+  mol_weight: 221.2078
+  source: KEGG
+  tag: A501
+- id: C00163
+  name: Propionate (n-C3:0)
+  formula: C3H6O2
+  charge: 0
+  mol_weight: 74.0785
+  source: KEGG
+  tag: A501
+- id: C00179
+  name: Agmatine
+  formula: C5H14N4
+  charge: 0
+  mol_weight: 130.1915
+  source: KEGG
+  tag: A501
+- id: C00267
+  name: alpha-D-Glucose
+  formula: C6H12O6
+  charge: 0
+  mol_weight: 180.1559
+  source: KEGG
+  tag: A501
+- id: C00331
+  name: Indolepyruvate
+  formula: C11H9NO3
+  charge: 0
+  mol_weight: 203.1941
+  source: KEGG
+  tag: A501
+- id: C00341
+  name: Geranyl diphosphate
+  formula: C10H20O7P2
+  charge: 0
+  mol_weight: 314.2091
+  source: KEGG
+  tag: A501
+- id: C00353
+  name: Geranylgeranyl diphosphate
+  formula: C20H36O7P2
+  charge: 0
+  mol_weight: 450.4432
+  source: KEGG
+  tag: A501
+- id: C01131
+  name: L-Rhamnulose 1-phosphate
+  formula: C6H13O8P
+  charge: 0
+  mol_weight: 244.1364
+  names:
+  - L-Rhamnulose 1-phosphate
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C01721
+  name: L-Fuculose
+  formula: C6H12O5
+  charge: 0
+  mol_weight: 164.1565
+  names:
+  - L-Fuculose
+  - 6-Deoxy-L-tagatose
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C04574
+  name: di-trans,poly-cis-Undecaprenyl diphosphate
+  formula: C55H92O7P2
+  charge: 0
+  mol_weight: 927.2623
+  names:
+  - di-trans,poly-cis-Undecaprenyl diphosphate
+  - Undecaprenyl diphosphate
+  - Bactoprenyl diphosphate
+  - ditrans,octacis-Undecaprenyl diphosphate
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C11811
+  name: 1-Hydroxy-2-methyl-2-butenyl 4-diphosphate
+  formula: C5H12O8P2
+  charge: 0
+  mol_weight: 262.0915
+  names:
+  - 1-Hydroxy-2-methyl-2-butenyl 4-diphosphate
+  - (E)-4-Hydroxy-3-methyl-but-2-enyl diphosphate
+  - (E)-4-Hydroxy-3-methylbut-2-en-1-yl diphosphate
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00159
+  name: D-Mannose
+  formula: C6H12O6
+  charge: 0
+  mol_weight: 180.1559
+  names:
+  - D-Mannose
+  - Mannose
+  - Seminose
+  - Carubinose
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00645
+  name: N-Acetyl-D-mannosamine
+  formula: C8H15NO6
+  charge: 0
+  mol_weight: 221.2078
+  names:
+  - N-Acetyl-D-mannosamine
+  - 2-Acetamido-2-deoxy-D-mannose
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00794
+  name: D-Sorbitol
+  formula: C6H14O6
+  charge: 0
+  mol_weight: 182.1718
+  names:
+  - D-Sorbitol
+  - D-Glucitol
+  - L-Gulitol
+  - Sorbitol
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C05402
+  name: Melibiose
+  formula: C12H22O11
+  charge: 0
+  mol_weight: 342.2965
+  names:
+  - Melibiose
+  - 6-O-(alpha-D-Galactopyranosyl)-D-glucopyranose
+  - D-Gal-alpha1->6D-Glucose
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00984
+  name: alpha-D-Galactose
+  formula: C6H12O6
+  charge: 0
+  mol_weight: 180.1559
+  names:
+  - alpha-D-Galactose
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00259
+  name: L-Arabinose
+  formula: C5H10O5
+  charge: 0
+  mol_weight: 150.1299
+  names:
+  - L-Arabinose
+  - L-Arabinopyranose
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C01019
+  name: 6-Deoxy-L-galactose
+  formula: C6H12O5
+  charge: 0
+  mol_weight: 164.1565
+  names:
+  - 6-Deoxy-L-galactose
+  - L-Fucose
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C05401
+  name: 3-beta-D-Galactosyl-sn-glycerol
+  formula: C9H18O8
+  charge: 0
+  mol_weight: 254.2344
+  names:
+  - 3-beta-D-Galactosyl-sn-glycerol
+  - Galactosylglycerol
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00507
+  name: L-Rhamnose
+  formula: C6H12O5
+  charge: 0
+  mol_weight: 164.1565
+  names:
+  - L-Rhamnose
+  - 6-Deoxy-L-mannose
+  - L-Mannomethylose
+  - L-Rhamnopyranose
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00089
+  name: Sucrose
+  formula: C12H22O11
+  charge: 0
+  mol_weight: 342.2965
+  names:
+  - Sucrose
+  - Cane sugar
+  - Saccharose
+  - 1-alpha-D-Glucopyranosyl-2-beta-D-fructofuranoside
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00217
+  name: D-Glutamate
+  formula: C5H9NO4
+  charge: 0
+  mol_weight: 147.1293
+  names:
+  - D-Glutamate
+  - D-Glutamic acid
+  - D-Glutaminic acid
+  - D-2-Aminoglutaric acid
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00243
+  name: Lactose
+  formula: C12H22O11
+  charge: 0
+  mol_weight: 342.2965
+  names:
+  - Lactose
+  - 1-beta-D-Galactopyranosyl-4-D-glucopyranose
+  - beta-D-Gal-(1->4)-D-Glc
+  - Milk sugar
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00446
+  name: alpha-D-Galactose 1-phosphate
+  formula: C6H13O9P
+  charge: 0
+  mol_weight: 260.1358
+  names:
+  - alpha-D-Galactose 1-phosphate
+  - alpha-D-Galactopyranose 1-phosphate
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00492
+  name: Raffinose
+  formula: C18H32O16
+  charge: 0
+  mol_weight: 504.4371
+  names:
+  - Raffinose
+  - Melitose
+  - Melitriose
+  - Gossypose
+  - 6G-alpha-D-galactosylsucrose
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00048
+  name: Glyoxylate
+  formula: C2H2O3
+  charge: 0
+  mol_weight: 74.0355
+  names:
+  - Glyoxylate
+  - Glyoxalate
+  - Glyoxylic acid
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00133
+  name: D-Alanine
+  formula: C3H7NO2
+  charge: 0
+  mol_weight: 89.0932
+  names:
+  - D-Alanine
+  - D-2-Aminopropionic acid
+  - D-Ala
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00663
+  name: beta-D-Glucose 1-phosphate
+  formula: C6H13O9P
+  charge: 0
+  mol_weight: 260.1358
+  names:
+  - beta-D-Glucose 1-phosphate
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C01613
+  name: Stachyose
+  formula: C24H42O21
+  charge: 0
+  mol_weight: 666.5777
+  names:
+  - Stachyose
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C02336
+  name: beta-D-Fructose
+  formula: C6H12O6
+  charge: 0
+  mol_weight: 180.1559
+  names:
+  - beta-D-Fructose
+  - beta-Fruit sugar
+  - beta-D-arabino-Hexulose
+  - beta-Levulose
+  - Fructose
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C04631
+  name: UDP-N-acetyl-3-(1-carboxyvinyl)-D-glucosamine
+  formula: C20H29N3O19P2
+  charge: 0
+  mol_weight: 677.4005
+  names:
+  - UDP-N-acetyl-3-(1-carboxyvinyl)-D-glucosamine
+  - UDP-N-acetyl-3-O-(1-carboxyvinyl)-D-glucosamine
+  - UDP-N-acetylglucosamine-3-O-pyruvateether
+  - UDP-N-acetylglucosamine enolpyruvate
+  - UDP-N-acetyl-3-O-(1-carboxyvinyl)-alpha-D-glucosamine
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00963
+  name: beta-D-Glucoside
+  formula: C6H11O6R
+  charge: 0
+  names:
+  - beta-D-Glucoside
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C05980
+  name: Cardiolipin
+  formula: C13H18O17P2R4
+  charge: 0
+  names:
+  - Cardiolipin
+  - Diphosphatidylglycerol
+  - 1',3'-Bis(1,2-diacyl-sn-glycero-3-phospho)-sn-glycerol
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C11435
+  name: 4-(Cytidine 5'-diphospho)-2-C-methyl-D-erythritol
+  formula: C14H25N3O14P2
+  charge: 0
+  mol_weight: 521.3075
+  names:
+  - 4-(Cytidine 5'-diphospho)-2-C-methyl-D-erythritol
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C11453
+  name: 2-C-Methyl-D-erythritol 2,4-cyclodiphosphate
+  formula: C5H12O9P2
+  charge: 0
+  mol_weight: 278.0909
+  names:
+  - 2-C-Methyl-D-erythritol 2,4-cyclodiphosphate
+  - 3-Methyl-1,2,3,4-tetrahydroxybutane-1,3-cyclic bisphosphate
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00185
+  name: Cellobiose
+  formula: C12H22O11
+  charge: 0
+  mol_weight: 342.2965
+  names:
+  - Cellobiose
+  - 1-beta-D-Glucopyranosyl-4-D-glucopyranose
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00252
+  name: Isomaltose
+  formula: C12H22O11
+  charge: 0
+  mol_weight: 342.2965
+  names:
+  - Isomaltose
+  - Brachiose
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00692
+  name: UDP-N-acetylmuramoyl-L-alanyl-D-glutamate
+  formula: C28H43N5O23P2
+  charge: 0
+  mol_weight: 879.6082
+  names:
+  - UDP-N-acetylmuramoyl-L-alanyl-D-glutamate
+  - UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-D-glutamate
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C01050
+  name: UDP-N-acetylmuramate
+  formula: C20H31N3O19P2
+  charge: 0
+  mol_weight: 679.4164
+  names:
+  - UDP-N-acetylmuramate
+  - UDP-N-acetyl-alpha-D-muramate
+  - UDP-N-acetylmuramic acid
+  - UDP-MurNAc
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C01097
+  name: D-Tagatose 6-phosphate
+  formula: C6H13O9P
+  charge: 0
+  mol_weight: 260.1358
+  names:
+  - D-Tagatose 6-phosphate
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C01212
+  name: UDP-N-acetylmuramoyl-L-alanine
+  formula: C23H36N4O20P2
+  charge: 0
+  mol_weight: 750.4943
+  names:
+  - UDP-N-acetylmuramoyl-L-alanine
+  - UDP-N-acetyl-alpha-D-muramoyl-L-alanine
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C05404
+  name: D-Gal alpha 1->6D-Gal alpha 1->6D-Glucose
+  formula: C18H32O16
+  charge: 0
+  mol_weight: 504.4371
+  names:
+  - D-Gal alpha 1->6D-Gal alpha 1->6D-Glucose
+  - D-Gal-alpha1->6D-Gal-alpha1->6D-Glucose
+  - Manninotriose
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C05400
+  name: Epimelibiose
+  formula: C12H22O11
+  charge: 0
+  mol_weight: 342.2965
+  names:
+  - Epimelibiose
+  - 6-O-(alpha-D-Galactopyranosyl)-D-mannopyranose
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C05947
+  name: L-erythro-4-Hydroxyglutamate
+  formula: C5H9NO5
+  charge: 0
+  mol_weight: 163.1287
+  names:
+  - L-erythro-4-Hydroxyglutamate
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C11436
+  name: 2-Phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol
+  formula: C14H26N3O17P3
+  charge: 0
+  mol_weight: 601.2874
+  names:
+  - 2-Phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C11434
+  name: 2-C-Methyl-D-erythritol 4-phosphate
+  formula: C5H13O7P
+  charge: 0
+  mol_weight: 216.1263
+  names:
+  - 2-C-Methyl-D-erythritol 4-phosphate
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00344
+  name: Phosphatidylglycerol
+  formula: C8H13O10PR2
+  charge: 0
+  names:
+  - Phosphatidylglycerol
+  - 3-(3-sn-Phosphatidyl)glycerol
+  - 3(3-Phosphatidyl-)glycerol
+  - PtdGro
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C04046
+  name: 3-D-Glucosyl-1,2-diacylglycerol
+  formula: C11H16O10R2
+  charge: 0
+  names:
+  - 3-D-Glucosyl-1,2-diacylglycerol
+  - 1,2-Diacyl-3-beta-D-glucosyl-sn-glycerol
+  - Monoglucosyldiglyceride
+  - Monoglucosyldiacylglycerol
+  - Glcbeta1->3acyl2Gro
+  - 1,2-Diacyl-3-O-(beta-D-glucopyranosyl)-sn-glycerol
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C06040
+  name: Diglucosyldiacylglycerol
+  formula: C17H26O15R2
+  charge: 0
+  names:
+  - Diglucosyldiacylglycerol
+  - beta-Gentiobiosyldiacylglycerol
+  - Glc-beta1->6Glc-beta1->3acyl2Gro
+  - Glcbeta1->6Glcbeta1->3acyl2Gro
+  - 1,2-Diacyl-3-O-[beta-D-glucopyranosyl-(1->6)-O-beta-D-glucopyranosyl]-sn-glycerol
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C17556
+  name: di-trans,poly-cis-Undecaprenyl phosphate
+  formula: C55H91O4P
+  charge: 0
+  mol_weight: 847.2824
+  names:
+  - di-trans,poly-cis-Undecaprenyl phosphate
+  - Undecaprenyl phosphate
+  - ditrans,octacis-Undecaprenyl phosphate
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00040
+  name: Acyl-CoA
+  formula: C22H35N7O17P3SR
+  charge: 0
+  names:
+  - Acyl-CoA
+  - Acyl coenzyme A
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C03892
+  name: Phosphatidylglycerophosphate
+  formula: C8H14O13P2R2
+  charge: 0
+  names:
+  - Phosphatidylglycerophosphate
+  - 1-(3-sn-Phosphatidyl)-sn-glycerol 3-phosphate
+  - 3-(3-Phosphatidyl)-D-glycerol 1-phosphate
+  - 1,2-Diacyl-sn-glycero-3-phospho-sn-glycerol 3'-phosphate
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C06037
+  name: Digalactosyl-diacylglycerol
+  formula: C17H26O15R2
+  charge: 0
+  names:
+  - Digalactosyl-diacylglycerol
+  - DGDG
+  - Gal-alpha1->6Gal-beta1->3acyl2Gro
+  - Galalpha1->6Galbeta1->3acyl2Gro
+  - 1,2-Diacyl-3-O-[alpha-D-galactosyl-(1->6)-beta-D-galactosyl]-sn-glycerol
+  - 3-[alpha-D-Galactosyl-(1->6)-beta-D-galactosyl]-1,2-diacyl-sn-glycerol
+  - 2,3-Di-O-acyl-1-O-(6-O-alpha-D-galactosyl-beta-D-galactosyl)-D-glycerol
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C02133
+  name: Acyl phosphate
+  formula: CH2O5PR
+  charge: 0
+  names:
+  - Acyl phosphate
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00173
+  name: Acyl-[acyl-carrier protein]
+  # formula: C3H4OSR2
+  formula: C14H25N2O8PSR2
+  charge: 0
+  names:
+  - Acyl-[acyl-carrier protein]
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00269
+  name: CDP-diacylglycerol
+  formula: C14H19N3O15P2R2
+  charge: 0
+  names:
+  - CDP-diacylglycerol
+  - CDP-1,2-diacylglycerol
+  - 1,2-Diacyl-sn-glycero-3-cytidine-5'-diphosphate
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C03692
+  name: 1,2-Diacyl-3-beta-D-galactosyl-sn-glycerol
+  formula: C11H16O10R2
+  charge: 0
+  names:
+  - 1,2-Diacyl-3-beta-D-galactosyl-sn-glycerol
+  - D-Galactosyldiacylglycerol
+  - 3-beta-D-Galactosyl-1,2-diacylglycerol
+  - Monogalactosyldiglyceride
+  - Monogalactosyl-diacylglycerol
+  - MGDG
+  - Galbeta1->3acyl2Gro
+  - 3-(beta-D-Galactosyl)-1,2-diacyl-sn-glycerol
+  - 1,2-Diacyl-3-O-(beta-D-galactopyranosyl)-sn-glycerol
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00641
+  name: 1,2-Diacyl-sn-glycerol
+  formula: C5H6O5R2
+  charge: 0
+  names:
+  - 1,2-Diacyl-sn-glycerol
+  - 1,2-Diacylglycerol
+  - L-1,2-Diacylglycerol
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00681
+  name: 1-Acyl-sn-glycerol 3-phosphate
+  formula: C4H8O7PR
+  charge: 0
+  names:
+  - 1-Acyl-sn-glycerol 3-phosphate
+  - 2-Lysophosphatidate
+  - Lysophosphatidate
+  - Lysophosphatidic acid
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00416
+  name: Phosphatidate
+  formula: C5H7O8PR2
+  charge: 0
+  names:
+  - Phosphatidate
+  - Phosphatidic acid
+  - 1,2-Diacyl-sn-glycerol 3-phosphate
+  - 3-sn-Phosphatidate
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00605
+  name: 2,3-Dehydroacyl-CoA
+  formula: C24H37N7O17P3SR
+  charge: 0
+  names:
+  - 2,3-Dehydroacyl-CoA
+  - Dehydroacyl-CoA
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C05897
+  name: Undecaprenyl-diphospho-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine
+  formula: C87H143N7O23P2
+  charge: 0
+  mol_weight: 1717.0469
+  names:
+  - Undecaprenyl-diphospho-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C06376
+  name: N-Acetyl-D-galactosamine 6-phosphate
+  formula: C8H16NO9P
+  charge: 0
+  mol_weight: 301.1877
+  names:
+  - N-Acetyl-D-galactosamine 6-phosphate
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C06377
+  name: D-Galactosamine 6-phosphate
+  formula: C6H14NO8P
+  charge: 0
+  mol_weight: 259.151
+  names:
+  - D-Galactosamine 6-phosphate
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C03785
+  name: D-Tagatose 1,6-bisphosphate
+  formula: C6H14O12P2
+  charge: 0
+  mol_weight: 340.1157
+  names:
+  - D-Tagatose 1,6-bisphosphate
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C04702
+  name: UDPMurNAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala)
+  formula: C40H65N9O26P2
+  charge: 0
+  mol_weight: 1149.9363
+  names:
+  - UDPMurNAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala)
+  - UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine
+  - UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-L-lysyl-D-alanyl-D-alanine
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C04851
+  name: MurAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala)-diphospho-undecaprenol
+  formula: C86H143N7O21P2
+  charge: 0
+  mol_weight: 1673.0374
+  names:
+  - MurAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala)-diphospho-undecaprenol
+  - Undecaprenyl-diphospho-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C05399
+  name: Melibiitol
+  formula: C12H24O11
+  charge: 0
+  mol_weight: 344.3124
+  names:
+  - Melibiitol
+  - 6-O-alpha-D-Galactosyl-D-glucitol
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C05946
+  name: (4R)-4-Hydroxy-2-oxoglutarate
+  formula: C5H6O6
+  charge: 0
+  mol_weight: 162.0975
+  names:
+  - (4R)-4-Hydroxy-2-oxoglutarate
+  - (R)-2-Hydroxy-4-oxopentanedioate
+  - D-4-Hydroxy-2-oxoglutarate
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C01235
+  name: alpha-D-Galactosyl-(1->3)-1D-myo-inositol
+  formula: C12H22O11
+  charge: 0
+  mol_weight: 342.2965
+  names:
+  - alpha-D-Galactosyl-(1->3)-1D-myo-inositol
+  - O-alpha-D-Galactosyl-(1->3)-1D-myo-inositol
+  - 3-O-alpha-D-Galactosyl-1D-myo-inositol
+  - 1-alpha-D-Galactosyl-myo-inositol
+  - Galactinol
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C02876
+  name: Propanoyl phosphate
+  formula: C3H7O5P
+  charge: 0
+  mol_weight: 154.0584
+  names:
+  - Propanoyl phosphate
+  - Propionyl phosphate
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C01127
+  name: 4-Hydroxy-2-oxoglutarate
+  formula: C5H6O6
+  charge: 0
+  mol_weight: 162.0975
+  names:
+  - 4-Hydroxy-2-oxoglutarate
+  - 4-Hydroxy-2-oxoglutaric acid
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C20860
+  name: Triglucosyldiacylglycerol
+  formula: C23H36O20R2
+  charge: 0
+  names:
+  - Triglucosyldiacylglycerol
+  - 1,2-Diacyl-3-O-[beta-D-glucopyranosyl-(1->6)-beta-D-glucopyranosyl-(1->6)-O-beta-D-glucopyranosyl]-sn-glycerol
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C01335
+  name: ROH
+  formula: HOR
+  charge: 0
+  names:
+  - ROH
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00357
+  name: N-Acetyl-D-glucosamine 6-phosphate
+  formula: C8H16NO9P
+  charge: 0
+  mol_weight: 301.1877
+  names:
+  - N-Acetyl-D-glucosamine 6-phosphate
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00861
+  name: L-Rhamnulose
+  formula: C6H12O5
+  charge: 0
+  mol_weight: 164.1565
+  names:
+  - L-Rhamnulose
+  - 6-Deoxy-L-fructose
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C02745
+  name: Reduced flavodoxin
+  charge: 0
+  names:
+  - Reduced flavodoxin
+  source: KEGG
+  tag: kegg-generic-database
+- id: C02869
+  name: Oxidized flavodoxin
+  charge: 0
+  names:
+  - Oxidized flavodoxin
+  source: KEGG
+  tag: kegg-generic-database
+- id: C00721_n2
+  name: Dextrin
+  formula: (C12H20O10)2
+  charge: 0
+  names:
+  - Dextrin
+  source: KEGG
+  tag: kegg-generic-database
+- id: C01898_n4
+  name: Cellodextrin(n=4)
+  formula: H2O(C6H10O5)4
+  charge: 0
+  names:
+  - Cellodextrin
+  - Cellooligosaccharide
+  source: KEGG
+  tag: kegg-generic-database
+- id: C02474_n2
+  name: Arabinan
+  formula: (C15H24O12)2
+  charge: 0
+  names:
+  - Arabinan
+  - alpha-L-Arabinan
+  - alpha-L-Araban
+  source: KEGG
+  tag: kegg-generic-database
+- id: C00973
+  name: Cyclomaltodextrin
+  formula: (C6H10O5)n
+  charge: 0
+  names:
+  - Cyclomaltodextrin
+  - Cyclodextrin
+  source: KEGG
+  tag: kegg-generic-database
+- id: C01935_n4
+  name: Maltodextrin
+  formula: H2O(C6H10O5)4
+  charge: 0
+  names:
+  - Maltodextrin
+  - Maltodextrin(n)
+  - Maltodextrin(n-2)
+  - n+2 Maltodextrin
+  - Linear maltodextrin
+  - Maltooligosaccharide
+  source: KEGG
+  tag: kegg-generic-database
+- id: C02492_n4
+  name: 1,4-beta-D-Mannan
+  formula: (C6H10O5)4
+  charge: 0
+  names:
+  - 1,4-beta-D-Mannan
+  source: KEGG
+  tag: kegg-generic-database
+- id: C00216
+  name: D-Arabinose
+  formula: C5H10O5
+  charge: 0
+  mol_weight: 150.1299
+  names:
+  - D-Arabinose
+  source: KEGG
+  tag: kegg-generic-database
+- id: C00124
+  name: D-Galactose
+  formula: C6H12O6
+  charge: 0
+  mol_weight: 180.1559
+  names:
+  - D-Galactose
+  - D-Galactopyranose
+  source: KEGG
+  tag: kegg-generic-database
+- id: C00760_n6
+  name: Cellulose(n=6)
+  formula: (C6H10O5)6
+  charge: 0
+  names:
+  - Cellulose
+  - (1,4-beta-D-Glucosyl)n
+  - (1,4-beta-D-Glucosyl)n+1
+  - (1,4-beta-D-Glucosyl)n-1
+  - 1,4-beta-D-Glucan
+  - Microcrystalline cellulose
+  source: KEGG
+  tag: add-from-rxn
+- id: C00760_n10
+  name: Cellulose(n=10)
+  formula: (C6H10O5)10
+  charge: 0
+  names:
+  - Cellulose
+  - (1,4-beta-D-Glucosyl)n
+  - (1,4-beta-D-Glucosyl)n+1
+  - (1,4-beta-D-Glucosyl)n-1
+  - 1,4-beta-D-Glucan
+  - Microcrystalline cellulose
+  source: KEGG
+  tag: add-from-rxn
+- id: C00718_n5
+  name: Amylose(n=5)
+  formula: (C6H10O5)5
+  charge: 0
+  names:
+  - Amylose
+  - Amylose chain
+  - (1,4-alpha-D-Glucosyl)n
+  - (1,4-alpha-D-Glucosyl)n+1
+  - (1,4-alpha-D-Glucosyl)n-1
+  - 4-{(1,4)-alpha-D-Glucosyl}(n-1)-D-glucose
+  - 1,4-alpha-D-Glucan
+  source: KEGG
+  tag: add-from-rxn
+- id: C00718_n4
+  name: Amylose(n=4)
+  formula: (C6H10O5)4
+  charge: 0
+  names:
+  - Amylose
+  - Amylose chain
+  - (1,4-alpha-D-Glucosyl)n
+  - (1,4-alpha-D-Glucosyl)n+1
+  - (1,4-alpha-D-Glucosyl)n-1
+  - 4-{(1,4)-alpha-D-Glucosyl}(n-1)-D-glucose
+  - 1,4-alpha-D-Glucan
+  source: KEGG
+  tag: add-from-rxn
+
 
 # mannually added
 - id: epxqtrna
