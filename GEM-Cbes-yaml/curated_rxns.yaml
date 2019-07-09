@@ -81,6 +81,16 @@
   note: used for transport fructose vis PTS system
   translated_eqaution: phosphoenolpyruvate + protein histidine = pyruvate + protein
     Npi-phospho-L-histidine
+- id: NplT
+  name: neopullulanase
+  genes: peg.126
+  equation: C00480_kz[c] + (4) C00001[c] <=> (4) C00713[c]
+  curated: true
+  enzymes:
+  - 3.2.1.135
+  note: function annotation is from manual curation, assigned in maltose pathway.
+    but no corresponding kegg pathway assigned to this EC
+  translated_eqaution: pullulan + (4) H2O => (4) panose
 - id: R12241
   name: acyl phosphoate:sn-glycerol 3-phosphate acyltransferase
   genes: peg.1208 or peg.2740
@@ -487,10 +497,10 @@
   source: KEGG
   tag: KEGG_Cbes,Cth,Tsac
   translated_equation: UDP-N-acetyl-alpha-D-glucosamine[c] <=> UDP-N-acetyl-D-galactosamine[c]
-- id: R01762_n2
+- id: R01762_kz
   name: alpha-L-arabinan arabinofuranohydrolase
-  genes: peg.1584
-  equation: C02474_n2[c] + (6) C00001[c] => (6) C00259[c]
+  genes: peg.1584 or peg.579
+  equation: C02474_kz[e] + (6) C00001[e] => (6) C00259[e]
   ec:
   - 3.2.1.55
   EggNOG_annotation: peg.1584:alpha-N-arabinofuranosidase (EC 3.2.1.55)
@@ -511,7 +521,7 @@
   pathway: Amino sugar and nucleotide sugar metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: Arabinan[c] + H2O[c] =>  L-Arabinose[c]
+  translated_equation: Arabinan[e] + H2O[e] =>  L-Arabinose[e]
 - id: R02059
   name: N-Acetyl-D-glucosamine-6-phosphate amidohydrolase
   genes: peg.481
@@ -2312,7 +2322,7 @@
 - id: R00216
   name: NADP-dependent malate oxidoreductase
   genes: peg.1543
-  equation: C00149[c] + C00006[c] => C00022[c] + C00011[c] + C00005[c] + C00080[c]
+  equation: C00149[c] + C00006[c] <=> C00022[c] + C00011[c] + C00005[c] + C00080[c]
   ec:
   - 1.1.1.40
   EggNOG_annotation: peg.1543:Malic enzyme;   peg.1804:Acetyl-CoA carboxylase, carboxyltransferase
@@ -2327,6 +2337,7 @@
     transferase beta chain (EC 6.4.1.2); Propionyl-CoA carboxylase beta chain (EC
     6.4.1.3) or Pyruvate:Oxaloacetate transcarboxylase domain protein or Biotin carboxyl
     carrier protein => methylmalonyl-CoA decarboxylase; Biotin carboxyl carrier protein
+  PMID: 15876562
   curated: true
   gene_string_PATRIC: peg.1543,peg.1804,peg.1807,peg.1806
   genes_Cce: peg.1543
@@ -2347,7 +2358,7 @@
   pathway: Citrate cycle (TCA cycle)
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: (S)-Malate[c] + NADP+[c] => Pyruvate[c] + CO2[c] + NADPH[c]
+  translated_equation: (S)-Malate[c] + NADP+[c] <=> Pyruvate[c] + CO2[c] + NADPH[c]
     + H+[c]
 - id: R00342
   name: (S)-malate:NAD+ oxidoreductase
@@ -3688,10 +3699,10 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: ATP[c] + D-Fructose[c] => ADP[c] + |beta-D-Fructose 6-phosphate[c]|
-- id: R01332_n4
+- id: R01332_kz
   name: beta-D-mannan hydrolases (endo)
-  genes: (peg.2375 or peg.2376 or peg.2379) and peg.625
-  equation: C02492_n4[c] + (4) C00001[c] => (4) C00159[c]
+  genes: (peg.2375 or peg.2376 or peg.2379 or peg.633) and peg.625
+  equation: C02492_kz[c] + (4) C00001[c] => (4) C00159[c]
   ec:
   - 3.2.1.78
   - 3.2.1.25
@@ -4597,39 +4608,6 @@
   tag: KEGG_Cbes
   translated_equation: 3-D-Glucosyl-1,2-diacylglycerol[c] + UDP-glucose[c] => Diglucosyldiacylglycerol[c]
     + UDP[c]
-- id: R12240
-  name: acyl-[acyl-carrier protein]:phosphate acyltransferase
-  genes: peg.1636
-  equation: C00173[c] + C00009[c] => C02133[c] + C00229[c]
-  ec:
-  - 2.3.1.274
-  EggNOG_annotation: peg.1208:Catalyzes the transfer of an acyl group from acyl-
-    phosphate (acyl-PO(4)) to glycerol-3-phosphate (G3P) to form lysophosphatidic
-    acid (LPA). This enzyme utilizes acyl-phosphate as fatty acyl donor, but not
-    acyl-CoA or acyl-ACP (By similarity);   peg.1636:Catalyzes the reversible formation
-    of acyl-phosphate (acyl-PO(4)) from acyl- acyl-carrier-protein (acyl-ACP). This
-    enzyme utilizes acyl-ACP as fatty acyl donor, but not acyl-CoA (By similarity);   peg.2740:Pfam:DUF205
-  KEGG_annotation: Athe_1153:K03621 phosphate acyltransferase [EC:2.3.1.274] | (GenBank)
-    fatty acid/phospholipid synthesis protei;   Athe_0752:K08591 acyl phosphate:glycerol-3-phosphate
-    acyltransferase [EC:2.3.1.275] | (GenBank) protein of unk;   Athe_2184:K08591
-    acyl phosphate:glycerol-3-phosphate acyltransferase [EC:2.3.1.275] | (GenBank)
-    protein of unk
-  PATRIC_annotation: Phosphate:acyl-ACP acyltransferase PlsX (EC 2.3.1.n2)
-  curated: true
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: Athe_1153
-  genes_string_NCBI_id: Athe_1153
-  genes_string_PATRIC_id: peg.1636
-  other_pathways:
-  - Glycerolipid metabolism
-  - Metabolic pathways
-  pathway: Glycerolipid metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: '|Acyl-[acyl-carrier protein]| + Orthophosphate => |Acyl phosphate|
-    + |Acyl-carrier protein|'
 - id: R05680
   name: sn-glycerol-1-phosphate:NADP 2-oxidoreductase
   genes: peg.1261
@@ -5159,7 +5137,7 @@
   translated_equation: '|D-Glyceraldehyde 3-phosphate[c]| + Orthophosphate[c] + NAD+[c]
     <=> |3-Phospho-D-glyceroyl phosphate[c]| + NADH[c] + H+[c]'
 - id: R00431
-  name: GTP:oxaloacetate carboxylyase
+  name: Phosphoenolpyruvate carboxykinase (GTP)
   genes: peg.808
   equation: C00044[c] + C00036[c] => C00035[c] + C00074[c] + C00011[c]
   ec:
@@ -6448,30 +6426,6 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: Mannobiose[c] <=> 4-O-beta-D-Mannopyranosyl-D-glucopyranose[c]
-- id: b14Manpmt
-  name: 1,4-beta-D-mannooligosaccharide:phosphate alpha-D-mannosyltransferase
-  genes: peg.92
-  equation: C17207[c] + C00009[c] <=> b14man_n-1[c] + C00636[c]
-  ec:
-  - 2.4.1.319
-  EggNOG_annotation: peg.92:Glycosidase related protein
-  KEGG_annotation: Athe_2555:K18785 beta-1,4-mannooligosaccharide/beta-1,4-mannosyl-N-acetylglucosamine
-    phosphorylase [EC:2.4.1.3
-  PATRIC_annotation: 1,4-beta-mannosyl-N-acetylglucosamine phosphorylase (EC 2.4.1.320)
-  curated: true
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.92
-  genes_string_NCBI_id: Athe_2555
-  genes_string_PATRIC_id: peg.92
-  names:
-  - 1,4-beta-D-mannooligosaccharide:phosphate alpha-D-mannosyltransferase
-  pathway: Mannose pathway
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: '|[(1->4)-beta-D-mannosyl]n| + phosphate => |[(1->4)-beta-D-mannosyl]n-1|
-    + alpha-D-mannose 1-phosphate'
 - id: R00756
   name: ATP:D-fructose-6-phosphate 1-phosphotransferase
   genes: peg.1752
@@ -6942,56 +6896,38 @@
   tag: KEGG_Cbes,Cth,Tsac
   translated_equation: O-Acetyl-L-homoserine[c] + Methanethiol[c] <=> L-Methionine[c]
     + Acetate[c]
-- id: R09381
-  name: acyl-ACP:1-acyl-sn-glycerol-3-phosphate 2-O-acyltransferase
-  genes: peg.1814
-  equation: C00173[c] + C00681[c] <=> C00229[c] + C00416[c]
+- id: R01821_kz
+  name: 1,4-alpha-D-Glucan:orthophosphate alpha-D-glucosyltransferase
+  genes: peg.123 or peg.986
+  equation: C00718_kz2[c] + C00009[c] => C00718_kz1[c] + C00103[c]
   ec:
-  - 2.3.1.51
-  EggNOG_annotation: peg.1814:1-acyl-sn-glycerol-3-phosphate acyltransferase
-  KEGG_annotation: Athe_1326:K00655 1-acyl-sn-glycerol-3-phosphate acyltransferase
-    [EC:2.3.1.51] | (GenBank) phospholipid/glycero
-  PATRIC_annotation: Acyl-CoA:1-acyl-sn-glycerol-3-phosphate acyltransferase (EC
-    2.3.1.51)
-  curated: true
-  genes_Cce: peg.1814
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1814
-  genes_string_NCBI_id: Athe_1326
-  genes_string_PATRIC_id: peg.1814
-  names:
-  - acyl-ACP:1-acyl-sn-glycerol-3-phosphate 2-O-acyltransferase
-  pathway: None
-  source: KEGG
-  tag: KEGG_Cbes,Cce
-  translated_equation: '|Acyl-[acyl-carrier protein][c]| + |1-Acyl-sn-glycerol 3-phosphate[c]|
-    <=> |Acyl-carrier protein[c]| + Phosphatidate[c]'
-- id: R02760
-  name: 2,3-Dehydroacyl-CoA:1-acyl-sn-glycerol-3-phosphate 2-O-acyltransferase
-  genes: peg.1814
-  equation: C00605[c] + C00681[c] <=> C00010[c] + C00416[c]
-  ec:
-  - 2.3.1.51
-  EggNOG_annotation: peg.1814:1-acyl-sn-glycerol-3-phosphate acyltransferase
-  KEGG_annotation: Athe_1326:K00655 1-acyl-sn-glycerol-3-phosphate acyltransferase
-    [EC:2.3.1.51] | (GenBank) phospholipid/glycero
-  PATRIC_annotation: Acyl-CoA:1-acyl-sn-glycerol-3-phosphate acyltransferase (EC
-    2.3.1.51)
+  - 2.4.1.1
+  EggNOG_annotation: peg.986:Phosphorylase is an important allosteric enzyme in carbohydrate
+    metabolism. Enzymes from different sources differ in their regulatory mechanisms
+    and in their natural substrates. However, all known phosphorylases share catalytic
+    and structural properties (By similarity);   peg.123:Phosphorylase is an important
+    allosteric enzyme in carbohydrate metabolism. Enzymes from different sources
+    differ in their regulatory mechanisms and in their natural substrates. However,
+    all known phosphorylases share catalytic and structural properties (By similarity)
+  KEGG_annotation: Athe_2576:K00688 glycogen phosphorylase [EC:2.4.1.1] | (GenBank)
+    alpha-glucan phosphorylase;   Athe_0554:K00688 glycogen phosphorylase [EC:2.4.1.1]
+    | (GenBank) glycogen/starch/alpha-glucan phosphorylase
+  PATRIC_annotation: Glycogen phosphorylase (EC 2.4.1.1) or Glycogen phosphorylase
+    (EC 2.4.1.1)
   curated: true
   genes_Cce: None
   genes_Cth: None
   genes_Tsac: None
-  genes_kegg: peg.1814
-  genes_string_NCBI_id: Athe_1326
-  genes_string_PATRIC_id: peg.1814
+  genes_kegg: peg.123,peg.986
+  genes_string_NCBI_id: Athe_0554,Athe_2576
+  genes_string_PATRIC_id: peg.986,peg.123
   names:
-  - 2,3-Dehydroacyl-CoA:1-acyl-sn-glycerol-3-phosphate 2-O-acyltransferase
+  - 1,4-alpha-D-Glucan:orthophosphate alpha-D-glucosyltransferase
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: 2,3-Dehydroacyl-CoA[c] + |1-Acyl-sn-glycerol 3-phosphate[c]|
-    <=> CoA[c] + Phosphatidate[c]
+  translated_equation: Amylose[c] + Orthophosphate[c] => Amylose[c] + |D-Glucose
+    1-phosphate[c]|
 - id: R10807
   name: UDP-alpha-D-glucose:diglucosyldiacylglycerol 6-glucosyltransferase
   genes: peg.2306
@@ -11613,63 +11549,6 @@
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: 5-Amino-6-(5'-phosphoribosylamino)uracil[c] + NADPH[c] + H+[c]
     => 5-Amino-6-(5'-phospho-D-ribitylamino)uracil[c] + NADP+[c]
-- id: R02112_n3
-  name: 1,4-alpha-D-Glucan maltohydrolase
-  genes: peg.126
-  equation: C00369_n3[c] + C00001[c] => C00721_n2[c] + C00208[c]
-  ec:
-  - 3.2.1.133
-  EggNOG_annotation: peg.126:Alpha amylase catalytic
-  KEGG_annotation: Athe_2579:K01208 cyclomaltodextrinase / maltogenic alpha-amylase
-    / neopullulanase [EC:3.2.1.54 3.2.1.133 3.2.1
-  PATRIC_annotation: Neopullulanase (EC 3.2.1.135)
-  comment: ec 3.2.1.1 and 3.2.1.133 form alpha-maltose [CPD:C00897], ec 3.2.1.2 forms
-    beta-maltose [CPD:C01971]
-  curated: true
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.126
-  genes_string_NCBI_id: Athe_2579
-  genes_string_PATRIC_id: peg.126
-  names:
-  - 1,4-alpha-D-Glucan maltohydrolase
-  other_pathways:
-  - Starch and sucrose metabolism
-  - Metabolic pathways
-  pathway: Starch and sucrose metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: Starch[c] + H2O => Dextrin[c] + Maltose[c]
-- id: R11262
-  name: maltodextrin maltohydrolase
-  genes: peg.126
-  equation: C01935[c] + C00001[c] => C00208[c]
-  ec:
-  - 3.2.1.133
-  EggNOG_annotation: peg.126:Alpha amylase catalytic
-  KEGG_annotation: Athe_2579:K01208 cyclomaltodextrinase / maltogenic alpha-amylase
-    / neopullulanase [EC:3.2.1.54 3.2.1.133 3.2.1
-  PATRIC_annotation: Neopullulanase (EC 3.2.1.135)
-  comment: 'ec 3.2.1.1 and 3.2.1.133 form alpha-maltose [CPD:C00897]
-
-    ec 3.2.1.2 forms beta-maltose [CPD:C01971]'
-  curated: true
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.126
-  genes_string_NCBI_id: Athe_2579
-  genes_string_PATRIC_id: peg.126
-  names:
-  - maltodextrin maltohydrolase
-  other_pathways:
-  - Starch and sucrose metabolism
-  - Metabolic pathways
-  pathway: Starch and sucrose metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: Maltodextrin[c] + H2O[c] => (2) Maltose[c]
 - id: R00760
   name: ATP:D-fructose 6-phosphotransferase
   genes: peg.2673
@@ -11727,10 +11606,10 @@
   source: KEGG
   tag: KEGG_Cbes,Cth
   translated_equation: Cellobiose[c] + H2O[c] <=> (2) D-Glucose[c]
-- id: R02111
+- id: R02111_kz
   name: 1,4-alpha-D-Glucan:orthophosphate alpha-D-glucosyltransferase
-  genes: peg.986 or peg.123
-  equation: C00369[c] + C00009[c] => C00718[c] + C00103[c]
+  genes: peg.123 or peg.986
+  equation: C00369_kz[c] + (4) C00009[c] => C00718_kz1[c] + (4) C00103[c]
   ec:
   - 2.4.1.1
   EggNOG_annotation: peg.1045:pullulanase, type i;   peg.986:Phosphorylase is an
@@ -11765,7 +11644,8 @@
   pathway: Starch and sucrose metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: Starch[c] + Orthophosphate[c] => Amylose[c] + |D-Glucose 1-phosphate[c]|
+  translated_equation: Starch[c] + (4) Orthophosphate[c] => Amylose_kz1[c] + (4)
+    |D-Glucose 1-phosphate[c]|
 - id: R01718
   name: Isomaltose 6-alpha-D-glucanohydrolase
   genes: peg.561
@@ -11819,12 +11699,13 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: beta-D-Glucoside[c] + H2O[c] => D-Glucose[c] + ROH[c]
-- id: R02887_n4
+- id: R02887_kz
   name: 1,4-beta-D-Glucan glucohydrolase
-  genes: peg.878
-  equation: C01898[c] + (2) C00001[c] => (2) C00031[c] + C00185[c]
+  genes: peg.878 or peg.2375
+  equation: C01898_kz[e] + (2) C00001[e] => (2) C00031[e] + C00185[e]
   ec:
   - 3.2.1.21
+  - 3.2.1.74
   EggNOG_annotation: peg.2930:Glycoside hydrolase family 3 domain protein;   peg.878:hydrolase,
     family 1
   KEGG_annotation: Athe_2354:K05349 beta-glucosidase [EC:3.2.1.21] | (GenBank) glycoside
@@ -11847,36 +11728,11 @@
   pathway: Starch and sucrose metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: Cellodextrin + (2) H2O => (2) D-Glucose + Cellobiose
-- id: R03122
-  name: Cyclomaltodextrin dextrin-hydrolase (decyclizing)
-  genes: peg.126
-  equation: C00973[c] + C00001[c] => C01935[c]
-  ec:
-  - 3.2.1.54
-  EggNOG_annotation: peg.126:Alpha amylase catalytic
-  KEGG_annotation: Athe_2579:K01208 cyclomaltodextrinase / maltogenic alpha-amylase
-    / neopullulanase [EC:3.2.1.54 3.2.1.133 3.2.1
-  PATRIC_annotation: Neopullulanase (EC 3.2.1.135)
-  curated: true
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.126
-  genes_string_NCBI_id: Athe_2579
-  genes_string_PATRIC_id: peg.126
-  names:
-  - Cyclomaltodextrin dextrin-hydrolase (decyclizing)
-  other_pathways:
-  - Starch and sucrose metabolism
-  pathway: Starch and sucrose metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: Cyclomaltodextrin[c] + H2O[c] => Maltodextrin[c]
-- id: R01791_n2
+  translated_equation: Cellodextrin[e] + (2) H2O[e] => (2) D-Glucose[e] + Cellobiose[e]
+- id: R01791_kz
   name: Dextrin 6-alpha-D-glucanohydrolase
   genes: peg.561
-  equation: C00721[c] + (4) C00001[c] => (4) C00031[c]
+  equation: C00721_kz[c] + (4) C00001[c] => (4) C00031[c]
   ec:
   - 3.2.1.10
   EggNOG_annotation: peg.561:alpha amylase, catalytic
@@ -11938,10 +11794,10 @@
   source: KEGG
   tag: KEGG_Cbes,Tsac
   translated_equation: ATP[c] + |D-Glucose 1-phosphate[c]| => Diphosphate[c] + ADP-glucose[c]
-- id: R02421_n4
+- id: R02421_kz
   name: ADP-glucose:1,4-alpha-D-glucan 4-alpha-D-glucosyltransferase
   genes: peg.987
-  equation: C00498[c] + C00718_n4[c] => C00008[c] + C00718_n5[c]
+  equation: C00498[c] + C00718_kz1[c] => C00008[c] + C00718_kz2[c]
   ec:
   - 2.4.1.21
   EggNOG_annotation: peg.987:Synthesizes alpha-1,4-glucan chains using ADP-glucose
@@ -11996,10 +11852,10 @@
   tag: KEGG_Cbes,Cce,Cth
   translated_equation: Cellobiose[c] + Orthophosphate[c] => |D-Glucose 1-phosphate[c]|
     + D-Glucose[c]
-- id: R02110
+- id: R02110_kz
   name: 1,4-alpha-D-Glucan:1,4-alpha-D-glucan 6-alpha-D-(1,4-alpha-D-glucano)-transferase
   genes: peg.990
-  equation: C00718[c] => C00369[c]
+  equation: (2) C00718_kz1[c] => C00369_kz[c]
   ec:
   - 2.4.1.18
   EggNOG_annotation: peg.990:Catalyzes the formation of the alpha-1,6-glucosidic
@@ -12026,7 +11882,7 @@
   pathway: Starch and sucrose metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: Amylose[c] => Starch[c]
+  translated_equation: (2) Amylose(n=4)[c] => Starch(n=4)[c]
 - id: R02727
   name: alpha,alpha-Trehalose:orthophosphate beta-D-glucosyltransferase
   genes: peg.818
@@ -12079,9 +11935,9 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: '|beta-D-Glucose 1-phosphate[c]| <=> |D-Glucose 6-phosphate[c]|'
-- id: R11308_n4
-  genes: peg.2380 or peg.2376 or peg.633 or peg.1027
-  equation: C01898[c] => (2) C00185[c]
+- id: R11308_kz
+  genes: peg.2380 or peg.2376 or peg.633 or peg.1027 or peg.2370 or peg.2375
+  equation: C01898_kz[e] + C00001[e] => (2) C00185[e]
   ec:
   - 3.2.1.4
   EggNOG_annotation: peg.633:Glycoside hydrolase family 5;   peg.2376:Cellulase (glycosyl
@@ -12105,17 +11961,16 @@
   genes_kegg: peg.2380,peg.2376,peg.633,peg.1027
   genes_string_NCBI_id: Athe_0234,Athe_0594,Athe_1867,Athe_1866
   genes_string_PATRIC_id: peg.633,peg.1027,peg.2380,peg.2376
-  names: []
   other_pathways:
   - Starch and sucrose metabolism
   - Metabolic pathways
   pathway: Starch and sucrose metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: Cellodextrin[c] <=> Cellobiose[c]
-- id: R11307_n10
-  genes: peg.2380 or peg.2376 or peg.633 or peg.1027
-  equation: C00760_n10[c] + C00001[c] => C00760_n6[c] + C01898_n4[c]
+  translated_equation: Cellodextrin[e] + C00001[e] <=> (2) Cellobiose[e]
+- id: R11307_kz
+  genes: peg.2380 or peg.2376 or peg.633 or peg.1027 or peg.2370 or peg.2375
+  equation: C00760_kz[e] + (2) C00001[e] => (2) C01898_kz[e]
   ec:
   - 3.2.1.4
   EggNOG_annotation: peg.633:Glycoside hydrolase family 5;   peg.2376:Cellulase (glycosyl
@@ -12136,16 +11991,13 @@
   genes_kegg: peg.2380,peg.2376,peg.633,peg.1027
   genes_string_NCBI_id: Athe_0234,Athe_0594,Athe_1867,Athe_1866
   genes_string_PATRIC_id: peg.633,peg.1027,peg.2380,peg.2376
-  names: []
-  note: C00760 is generic compound ((C6H10O5)n), in this rxn for reactant cellulose
-    I choose n=10, then product cellulose n=6 since cellodextrin has n=4.
   other_pathways:
   - Starch and sucrose metabolism
   - Metabolic pathways
   pathway: Starch and sucrose metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: Cellulose[c] + H2O[c] => Cellulose[c] + Cellodextrin[c]
+  translated_equation: Cellulose[e] + (2) H2O[e] => (2) Cellodextrin[e]
 - id: R06513
   name: dTDPglucose 4,6-hydro-lyase
   genes: peg.436
@@ -13017,7 +12869,7 @@
     acid[c]| + NADPH[c] + H+[c]
 - id: R05069
   name: (S)-2-Aceto-2-hydroxybutanoate:NADP+ oxidoreductase (isomerizing)
-  genes: peg.936
+  genes: peg.935
   equation: C06006[c] <=> C14463[c]
   ec:
   - 1.1.1.86

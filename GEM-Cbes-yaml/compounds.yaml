@@ -3340,8 +3340,8 @@
   - tRNA queuine
   source: KEGG
   tag: kegg-generic-database
-- id: C17207
-  name: 1,4-beta-D-Mannooligosaccharide
+- id: C17207_kz
+  name: 1,4-beta-D-Mannooligosaccharide(n=3)
   formula: C18H32O16
   charge: 0
   mol_weight: 504.438
@@ -3507,6 +3507,13 @@
   mol_weight: 607.3537
   source: KEGG
   tag: A501
+- id: C00897
+  name: alpha-Maltose
+  formula: C12H22O11
+  charge: 0
+  source: KEGG
+  mol_weight: 342.2965
+  tag: AddFromRxn
 - id: C00208
   name: Maltose
   formula: C12H22O11
@@ -3535,13 +3542,13 @@
   mol_weight: 172.0737
   source: KEGG
   tag: A501
-- id: C00718
-  name: glycogen
-  formula: C6H10O5
-  charge: 0
-  mol_weight: 162.141
-  source: KEGG
-  tag: A501
+# - id: C00718
+#   name: glycogen
+#   formula: C6H10O5
+#   charge: 0
+#   mol_weight: 162.141
+#   source: KEGG
+#   tag: A501
 - id: C00842
   name: dTDPglucose
   formula: C16H26N2O16P2
@@ -3549,9 +3556,9 @@
   mol_weight: 564.329
   source: KEGG
   tag: A501
-- id: C00369_n3
-  name: Starch, glycogen
-  formula: (C12H20O10)3
+- id: C00369_kz
+  name: Starch(n=4), glycogen(n=4)
+  formula: (C12H20O10)4
   charge: 0
   source: KEGG
   tag: A501
@@ -4489,15 +4496,15 @@
   - Oxidized flavodoxin
   source: KEGG
   tag: kegg-generic-database
-- id: C00721_n2
-  name: Dextrin
+- id: C00721_kz
+  name: Dextrin(n=2)
   formula: (C12H20O10)2
   charge: 0
   names:
   - Dextrin
   source: KEGG
   tag: kegg-generic-database
-- id: C01898_n4
+- id: C01898_kz
   name: Cellodextrin(n=4)
   formula: H2O(C6H10O5)4
   charge: 0
@@ -4506,8 +4513,8 @@
   - Cellooligosaccharide
   source: KEGG
   tag: kegg-generic-database
-- id: C02474_n2
-  name: Arabinan
+- id: C02474_kz
+  name: Arabinan(n=2)
   formula: (C15H24O12)2
   charge: 0
   names:
@@ -4516,17 +4523,17 @@
   - alpha-L-Araban
   source: KEGG
   tag: kegg-generic-database
-- id: C00973
-  name: Cyclomaltodextrin
-  formula: (C6H10O5)n
+- id: C00973_kz
+  name: Cyclomaltodextrin(n=4)
+  formula: (C6H10O5)4
   charge: 0
   names:
   - Cyclomaltodextrin
   - Cyclodextrin
   source: KEGG
   tag: kegg-generic-database
-- id: C01935_n4
-  name: Maltodextrin
+- id: C01935_kz
+  name: Maltodextrin(n=4)
   formula: H2O(C6H10O5)4
   charge: 0
   names:
@@ -4538,8 +4545,8 @@
   - Maltooligosaccharide
   source: KEGG
   tag: kegg-generic-database
-- id: C02492_n4
-  name: 1,4-beta-D-Mannan
+- id: C02492_kz
+  name: 1,4-beta-D-Mannan(n=4)
   formula: (C6H10O5)4
   charge: 0
   names:
@@ -4565,9 +4572,9 @@
   - D-Galactopyranose
   source: KEGG
   tag: kegg-generic-database
-- id: C00760_n6
-  name: Cellulose(n=6)
-  formula: (C6H10O5)6
+- id: C00760_kz
+  name: Cellulose(n=8)
+  formula: (C6H10O5)8
   charge: 0
   names:
   - Cellulose
@@ -4577,35 +4584,21 @@
   - 1,4-beta-D-Glucan
   - Microcrystalline cellulose
   source: KEGG
-  tag: add-from-rxn
-- id: C00760_n10
-  name: Cellulose(n=10)
-  formula: (C6H10O5)10
-  charge: 0
-  names:
-  - Cellulose
-  - (1,4-beta-D-Glucosyl)n
-  - (1,4-beta-D-Glucosyl)n+1
-  - (1,4-beta-D-Glucosyl)n-1
-  - 1,4-beta-D-Glucan
-  - Microcrystalline cellulose
-  source: KEGG
-  tag: add-from-rxn
-- id: C00718_n5
-  name: Amylose(n=5)
-  formula: (C6H10O5)5
-  charge: 0
-  names:
-  - Amylose
-  - Amylose chain
-  - (1,4-alpha-D-Glucosyl)n
-  - (1,4-alpha-D-Glucosyl)n+1
-  - (1,4-alpha-D-Glucosyl)n-1
-  - 4-{(1,4)-alpha-D-Glucosyl}(n-1)-D-glucose
-  - 1,4-alpha-D-Glucan
-  source: KEGG
-  tag: add-from-rxn
-- id: C00718_n4
+  tag: AddFromRxn
+# - id: C00760_kz2
+#   name: Cellulose(n=10)
+#   formula: (C6H10O5)10
+#   charge: 0
+#   names:
+#   - Cellulose
+#   - (1,4-beta-D-Glucosyl)n
+#   - (1,4-beta-D-Glucosyl)n+1
+#   - (1,4-beta-D-Glucosyl)n-1
+#   - 1,4-beta-D-Glucan
+#   - Microcrystalline cellulose
+#   source: KEGG
+#   tag: AddFromRxn
+- id: C00718_kz1
   name: Amylose(n=4)
   formula: (C6H10O5)4
   charge: 0
@@ -4618,7 +4611,21 @@
   - 4-{(1,4)-alpha-D-Glucosyl}(n-1)-D-glucose
   - 1,4-alpha-D-Glucan
   source: KEGG
-  tag: add-from-rxn
+  tag: AddFromRxn
+- id: C00718_kz2
+  name: Amylose(n=5)
+  formula: (C6H10O5)5
+  charge: 0
+  names:
+  - Amylose
+  - Amylose chain
+  - (1,4-alpha-D-Glucosyl)n
+  - (1,4-alpha-D-Glucosyl)n+1
+  - (1,4-alpha-D-Glucosyl)n-1
+  - 4-{(1,4)-alpha-D-Glucosyl}(n-1)-D-glucose
+  - 1,4-alpha-D-Glucan
+  source: KEGG
+  tag: AddFromRxn
 
 
 # mannually added
@@ -4629,13 +4636,13 @@
   note: http://bigg.ucsd.edu/universal/metabolites/epxqtrna 
   source: BIGG
   tag: AddFromRxn
-- id: b14man_n-1
-  name: '[(1->4)-beta-D-mannosyl]n-1'
-  formula: H2O(C6H10O5)2
-  charge: 0
-  source: BIGG
-  tag: AddFromRxn
-  note: https://www.genome.jp/dbget-bin/www_bget?ec:2.4.1.319
+# - id: b14man_n-1
+#   name: '[(1->4)-beta-D-mannosyl]n-1'
+#   formula: H2O(C6H10O5)2
+#   charge: 0
+#   source: BIGG
+#   tag: AddFromRxn
+#   note: https://www.genome.jp/dbget-bin/www_bget?ec:2.4.1.319
   
 
 # added when do simulation
@@ -4703,7 +4710,9 @@
   - D-Xylose
   - Wood sugar
   formula: C5H10O5
+  charge: 0
   mol_weight: 150.1299
+  tag: AddFromRxn
 - id: C00310
   name: D-Xylulose
   names:
@@ -4712,3 +4721,21 @@
   - D-Lyxulose
   formula: C5H10O5
   mol_weight: 150.1299
+  tag: AddFromRxn
+  charge: 0
+- id: C00713
+  name: Panose
+  names:
+  - Panose
+  formula: C18H32O16
+  mol_weight: 504.4371
+  charge: 0
+  tag: kegg-filterred-database
+- id: C00480_kz
+  name: Pullulan(n=2)
+  names:
+  - Pullulan
+  formula: (C36H60O30)2
+  charge: 0
+  source: KEGG
+  tag: kegg-generic-database

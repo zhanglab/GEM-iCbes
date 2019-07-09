@@ -37,6 +37,6 @@ exchange:
 # Cbes growth media components
 - include: exchange.yaml
 
-limits:
-- include: limits.yaml
+# limits:
+# - include: limits.yaml
 

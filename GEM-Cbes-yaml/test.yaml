@@ -24,7 +24,7 @@
 # - id: source_nadh
 #   equation: C00004[c] <=>
 # - id: source_nad
-#   equation: C00003[c] <=>
+#   equation: C00003[c] <=
 # - id: source_nadph
 #   equation: C00005[c] <=>
 # - id: source_nadp
@@ -46,8 +46,10 @@
 #   equation: C00036[c] =>
 
 
-- id: source_oaa
-  equation: C00036[c] <=
+# - id: source_oaa
+#   equation: C00036[c] <=
+# - id: sink_oaa
+#   equation: C00036[c] =>
 - id: source_h2s
   equation: C00283[c] <=
 # - id: sink_thf

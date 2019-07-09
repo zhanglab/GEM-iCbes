@@ -159,3 +159,14 @@
   pathway: Valine, leucine and isoleucine biosynthesis
   source: KEGG_Cbes
   translated_equation: (R)-2-Methylmalate[c] <=> 2-Methylmaleate[c] + H2O[c]
+- id: R00330
+  name: ATP:GDP phosphotransferase
+  names:
+  - ATP:GDP phosphotransferase
+  equation: C00002[c] + C00035[c] <=> C00008[c] + C00044[c]
+  translated_equation: ATP[c] + GDP[c] <=> ADP[c] + GTP[c]
+  enzymes:
+  - 2.7.4.6
+  pathways:
+  - Purine metabolism
+  - Metabolic pathways
