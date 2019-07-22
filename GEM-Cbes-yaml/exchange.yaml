@@ -26,7 +26,8 @@ compounds:
   upper: 1000.0
 - id: C00080
   name: proton
-  lower: -6.30957e-08
+  lower: -6.30957e-05
+  # lower: -1000.0
   upper: 1000.0
 - id: C00106
   name: uracil
@@ -49,7 +50,7 @@ compounds:
   lower: -0.000406141
   upper: 1000.0
 - id: C00255
-  name: DD
+  name: Riboflavin(VB2)
   lower: -0.000132852
   upper: 1000.0
 - id: C00288

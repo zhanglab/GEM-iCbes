@@ -2356,8 +2356,8 @@
 - id: R01078
   name: dethiobiotin:sulfur sulfurtransferase
   genes: peg.76
-  equation: C01909[c] + C00283[c] + (2) C00019[c] => C00120[c] + (2) C00073[c] +
-    (2) C05198[c]
+  equation: C01909[c] + C00097[c] + (2) C00019[c] + (2) C00080[c] + (2) C05359[c] 
+    <=> C00120[c] + (2) C00073[c] + (2) C05198[c] + C00041[c]
   ec:
   - 2.8.1.6
   EggNOG_annotation: peg.203:radical SAM domain protein;   peg.76:Catalyzes the conversion
@@ -2387,8 +2387,8 @@
   pathway: Biotin metabolism
   source: KEGG
   tag: KEGG_Cbes,Tsac
-  translated_equation: Dethiobiotin[c] + H2S[c] + (2) S-Adenosyl-L-methionine[c]
-    => Biotin[c] + (2) L-Methionine[c] + (2) 5'-Deoxyadenosine[c]
+  translated_equation: Dethiobiotin + L-Cys + (2) S-Adenosyl-L-methionine + 
+    (2) e- + (2) H+ <=> Biotin + 2 L-Methionine + (2) 5'-Deoxyadenosine + L-Alanine
 - id: R05145
   name: Biotinyl-5'-AMP:apo-[carboxylase] ligase (AMP-forming)
   genes: peg.607
@@ -2458,7 +2458,7 @@
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: ATP[c] + Biotin[c] => Diphosphate[c] + Biotinyl-5'-AMP[c]
-- id: R03231
+- id: R03231_h
   name: Adenosylmethionine-8-amino-7-oxononanoate aminotransferase
   genes: peg.77
   equation: C00019[c] + C01092[c] + C00080[c] => C04425[c] + C01037[c]
@@ -2688,29 +2688,6 @@
   tag: KEGG_Cbes
   translated_equation: '|3-Hydroxypimeloyl-[acp] methyl ester[c]| <=> |Enoylpimeloyl-[acp]
     methyl ester[c]| + H2O[c]'
-- id: R00995
-  name: methyloxaloacetate carboxy-lyase (2-oxobutanoate-forming)
-  equation: C00109[c] + C00011[c] <=> C06030[c]
-  ec:
-  - 4.1.1.3
-  EggNOG_annotation: peg.1807:carboxylase
-  KEGG_annotation: Athe_1319:K01571 oxaloacetate decarboxylase (Na+ extruding), alpha
-    subunit [EC:7.2.4.2] | (GenBank) Conserved
-  PATRIC_annotation: Pyruvate:Oxaloacetate transcarboxylase domain protein
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1807
-  genes_string_NCBI_id: Athe_1319
-  genes_string_PATRIC_id: peg.1807
-  names:
-  - methyloxaloacetate carboxy-lyase (2-oxobutanoate-forming)
-  other_pathways:
-  - C5-Branched dibasic acid metabolism
-  pathway: C5-Branched dibasic acid metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: 2-Oxobutanoate[c] + CO2[c] <=> Methyloxaloacetate[c]
 - id: R01829
   name: sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase
   equation: C00447[c] <=> C00111[c] + C00279[c]
@@ -3233,12 +3210,12 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: Isocitrate[c] <=> cis-Aconitate[c] + H2O[c]
-- id: R00216
-  name: NADP-dependent malate oxidoreductase
+- id: R00214
+  name: NAD-dependent malate oxidoreductase
   genes: peg.1543
-  equation: C00149[c] + C00006[c] <=> C00022[c] + C00011[c] + C00005[c] + C00080[c]
+  equation: C00149[c] + C00003[c] => C00022[c] + C00011[c] + C00004[c] + C00080[c]
   ec:
-  - 1.1.1.40
+  - 1.1.1.38
   EggNOG_annotation: peg.1543:Malic enzyme;   peg.1804:Acetyl-CoA carboxylase, carboxyltransferase
     component (subunits alpha and beta);   peg.1807:carboxylase;   peg.1806:Acetyl-CoA
     carboxylase, biotin carboxyl carrier protein
@@ -3271,9 +3248,9 @@
   pathway: Citrate cycle (TCA cycle)
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: (S)-Malate[c] + NADP+[c] <=> Pyruvate[c] + CO2[c] + NADPH[c]
+  translated_equation: (S)-Malate[c] + NAD+[c] => Pyruvate[c] + CO2[c] + NADH[c]
     + H+[c]
-  PMID: 15876562
+  PMID: 15876562, 3142524
 - id: BTS
   name: Biotin synthase
   equation: dtbt[c] + (2) s[c] => btn[c] + h2s[c]
@@ -3815,7 +3792,7 @@
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: O-Acetyl-L-homoserine[c] + |Hydrogen sulfide[c]| => L-Homocysteine[c]
     + Acetate[c]
-- id: R01920
+- id: R01920_h
   name: S-adenosylmethioninamine:putrescine 3-aminopropyltransferase
   genes: peg.1802
   equation: C01137[c] + C00134[c] => C00170[c] + C00315[c] + C00080[c]
@@ -4016,7 +3993,7 @@
 - id: R01776
   name: Acetyl-CoA:L-homoserine O-acetyltransferase
   genes: peg.1607
-  equation: C00024[c] + C00263[c] => C00010[c] + C01077[c]
+  equation: C00024[c] + C00263[c] <=> C00010[c] + C01077[c]
   ec:
   - 2.3.1.31
   EggNOG_annotation: peg.1607:homoserine o-acetyltransferase (EC 2.3.1.31)
@@ -4039,7 +4016,7 @@
   pathway: Cysteine and methionine metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: Acetyl-CoA[c] + L-Homoserine[c] => CoA[c] + O-Acetyl-L-homoserine[c]
+  translated_equation: Acetyl-CoA[c] + L-Homoserine[c] <=> CoA[c] + O-Acetyl-L-homoserine[c]
 - id: R04420
   name: 5-Methylthio-5-deoxy-D-ribose-1-phosphate ketol-isomerase
   genes: peg.1849
@@ -7549,6 +7526,7 @@
   translated_equation: '|D-Mannose 6-phosphate[c]| <=> |D-Mannose 1-phosphate[c]|'
 - id: R03232
   name: protein-N(pi)-phosphohistidine:D-fructose 1-phosphotransferase
+  genes: peg.
   equation: C04261[c] + C00095[c] <=> C00615[c] + C01094[c]
   ec:
   - 2.7.1.202
@@ -7698,6 +7676,8 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: GTP[c] + |D-Mannose 1-phosphate[c]| <=> Diphosphate[c] + GDP-mannose[c]
+  note: direction based on literature
+  PMID: 14245350
 - id: R00883
   name: GDP:D-mannose-1-phosphate guanylyltransferase
   equation: C00035[c] + C00636[c] <=> C00009[c] + C00096[c]
@@ -7735,7 +7715,7 @@
   - ATP:L-fuculose 1-phosphotransferase
   equation: C00002[c] + C01721[c] => C00008[c] + C01099[c]
   translated_equation: 'ATP[c] + L-Fuculose[c] => ADP[c] + |L-Fuculose 1-phosphate[c]|'
-  enzymes:
+  ec:
   - 2.7.1.51
   pathways:
   - Fructose and mannose metabolism
@@ -7957,37 +7937,6 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: '|D-Mannose 6-phosphate[c]| <=> |beta-D-Fructose 6-phosphate[c]|'
-- id: R03236
-  name: ATP:D-tagatose-6-phosphate 1-phosphotransferase
-  genes: peg.542 or peg.1752
-  equation: C01097[c] + C00002[c] <=> C03785[c] + C00008[c]
-  ec:
-  - 2.7.1.11
-  - 2.7.1.56
-  EggNOG_annotation: peg.2336:ec 2.7.1.11;   peg.542:1-phosphofructokinase;   peg.1752:phosphohexokinase
-  KEGG_annotation: Athe_0147:K00882 1-phosphofructokinase [EC:2.7.1.56] | (GenBank)
-    1-phosphofructokinase;   Athe_1824:K21071 ATP-dependent phosphofructokinase /
-    diphosphate-dependent phosphofructokinase [EC:2.7.1.11 2.;   Athe_1265:K00850
-    6-phosphofructokinase 1 [EC:2.7.1.11] | (GenBank) 6-phosphofructokinase
-  PATRIC_annotation: Pyrophosphate-dependent fructose 6-phosphate-1-kinase (EC 2.7.1.90)
-    or 1-phosphofructokinase (EC 2.7.1.56) or 6-phosphofructokinase (EC 2.7.1.11)
-  curated: true
-  genes_Cce: peg.2336 or peg.1752
-  genes_Cth: peg.1752 or peg.2336 or peg.542
-  genes_Tsac: peg.1752
-  genes_kegg: peg.542,peg.2336,peg.1752
-  genes_string_NCBI_id: Athe_1824,Athe_0147,Athe_1265
-  genes_string_PATRIC_id: peg.2336,peg.542,peg.1752
-  names:
-  - ATP:D-tagatose-6-phosphate 1-phosphotransferase
-  other_pathways:
-  - Galactose metabolism
-  - Metabolic pathways
-  pathway: Galactose metabolism
-  source: KEGG
-  tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: '|D-Tagatose 6-phosphate[c]| + ATP[c] <=> |D-Tagatose 1,6-bisphosphate[c]|
-    + ADP[c]'
 - id: R03237
   name: CTP:D-tagatose 6-phosphate 1-phosphotransferase
   equation: C00063[c] + C01097[c] <=> C00112[c] + C03785[c]
@@ -9035,7 +8984,7 @@
   genes: peg.1208 or peg.2740
   curated: true
   equation: C02133[c] + C00093[c] => C00681[c] + C00009[c]
-  ec: 
+  ec:
   - 2.3.1.275
   EggNOG_annotation: peg.1208:Catalyzes the transfer of an acyl group from acyl-
     phosphate (acyl-PO(4)) to glycerol-3-phosphate (G3P) to form lysophosphatidic
@@ -9638,7 +9587,7 @@
   tag: KEGG_Cbes,Cce
   translated_equation: GTP[c] + Oxaloacetate[c] => GDP[c] + Phosphoenolpyruvate[c]
     + CO2[c]
-  PMID: 19636077
+  PMID: 19636077, 14550651
 - id: R01070
   name: beta-D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)
   genes: peg.1061 or peg.2523 or peg.2972
@@ -9745,7 +9694,7 @@
 - id: R00200
   name: pyruvate kinase (ATP)
   genes: peg.1753
-  equation: C00008[c] + C00074[c] => C00002[c] + C00022[c]
+  equation: C00002[c] + C00022[c] <= C00008[c] + C00074[c]
   ec:
   - 2.7.1.40
   EggNOG_annotation: peg.1753:Pyruvate kinase
@@ -9773,12 +9722,12 @@
   pathway: Glycolysis / Gluconeogenesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: ATP[c] + Pyruvate[c] => ADP[c] + Phosphoenolpyruvate[c]
+  translated_equation: ATP + Pyruvate <= ADP + Phosphoenolpyruvate
 - id: R02073
   name: diphosphate:beta-D-fructose-6-phosphate 1-phosphotransferase
   genes: peg.2336
   equation: C00013[c] + C05345[c] <=> C00009[c] + C05378[c]
-  ec: 
+  ec:
   - 2.7.1.90
   EggNOG_annotation: peg.2336:ec 2.7.1.11
   KEGG_annotation: Athe_1824:K21071 ATP-dependent phosphofructokinase / diphosphate-dependent
@@ -10020,7 +9969,8 @@
   genes: peg.1279 and peg.1280
   equation: C00118[c] + C00001[c] + (2) C00139[c] => C00197[c] + (2) C00080[c] +
     (2) C00138[c]
-  ec: 1.2.7.6
+  ec: 
+  - 1.2.7.6
   PMID: The thermophilic biomass-degrading bacterium Caldicellulosiruptor bescii
     utilizes two enzymes to oxidize glyceraldehyde-3-phosphate during glycolysis,
     an unpublished paper, so no PMID.
@@ -10061,7 +10011,7 @@
   pathway: Glycolysis / Gluconeogenesis
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: ATP[c] + Acetate[c] => ADP[c] + |Acetyl phosphate[c]|
+  translated_equation: ATP[c] + Acetate[c] <=> ADP[c] + |Acetyl phosphate[c]|
 - id: R00206
   name: Pyruvate,phosphate dikinase
   genes: peg.1902
@@ -11527,7 +11477,7 @@
   tag: KEGG_Cbes,Cth
   translated_equation: Iminoaspartate[c] + |Glycerone phosphate[c] => Quinolinate[c]
     + (2) H2O[c] + Orthophosphate[c]|
-- id: R00137
+- id: R00137_h
   name: ATP:nicotinamide-nucleotide adenylyltransferase
   genes: peg.1737
   equation: C00002[c] + C00455[c] + C00080[c] <=> C00013[c] + C00003[c]
@@ -11583,7 +11533,7 @@
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: ATP[c] + |Nicotinate D-ribonucleotide[c]| <=> Diphosphate[c]
     + Deamino-NAD+[c]
-- id: R03348
+- id: R03348_h
   name: Nicotinate-nucleotide:pyrophosphate phosphoribosyltransferase (carboxylating)
   genes: peg.1701
   equation: C03722[c] + C00119[c] + C00080[c] => C01185[c] + C00013[c] + C00011[c]
@@ -11762,7 +11712,7 @@
   tag: KEGG_Cbes
   translated_equation: '|Nicotinamide D-ribonucleotide[c]| + H2O[c] <=> |Nicotinate
     D-ribonucleotide[c]| + Ammonia[c]'
-- id: R02294
+- id: R02294_h
   name: N-Ribosylnicotinamide:orthophosphate ribosyltransferase
   genes: peg.2283
   equation: C03150[c] + C00009[c] <=> C00153[c] + C00620[c] + C00080[c]
@@ -15513,7 +15463,7 @@
 #   tag: KEGG_Cbes
 #   translated_equation: '|Sorbitol 6-phosphate[c]| + NAD+[c] <=> |D-Fructose 6-phosphate[c]|
 #     + NADH[c] + H+[c]'
-- id: R07161
+- id: R07161_h
   name: 3-(indol-3-yl)pyruvate:ferredoxin oxidoreductase (decarboxylating,CoA-indole-acetylating)
   genes: (peg.1999 and peg.1998) or (peg.1489 and peg.1488)
   curated: true
@@ -16551,7 +16501,7 @@
   tag: Cce,Cth,Tsac
   translated_equation: 5,10-Methylenetetrahydrofolate[c] + NADP+[c] <=> 5,10-Methenyltetrahydrofolate[c]
     + NADPH[c]
-- id: R04326
+- id: R04326_h
   genes: peg.1938
   equation: C03838[c] + C00445[c] + C00001[c] => C04376[c] + C00101[c] + C00080[c]
   ec:
@@ -18803,7 +18753,8 @@
   name: Hydroxymethylbilane cycling (Uroporphyrinogen I- forming)
   genes: spontaneous
   equation: C01024[c] => C05766[c] + C00001[c]
-  ec: []
+  ec:
+  - spontaneous
   comment: spontaneous
   curated: true
   names: []
@@ -19450,7 +19401,7 @@
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: ATP[c] + 5-Phosphoribosylamine[c] + Glycine[c] => ADP[c] +
     Orthophosphate[c] + 5'-Phosphoribosylglycinamide[c]
-- id: R07404
+- id: R07404_h
   name: 5-amino-1-(5-phospho-D-ribosyl)imidazole:carbon-dioxide ligase (ADP-forming)
   genes: peg.1662
   equation: C00002[c] + C03373[c] + C00288[c] + C00080[c] => C00008[c] + C00009[c]
@@ -21250,7 +21201,7 @@
   tag: KEGG_Cbes,Cce
   translated_equation: ATP[c] + UTP[c] + L-Glutamine[c] + H2O[c] => ADP[c] + Orthophosphate[c]
     + CTP[c] + L-Glutamate[c]
-- id: R00575
+- id: R00575_h
   name: HCO3-:L-glutamine amido-ligase (ADP-forming, carbamate-phosphorylating)
   genes: (peg.1868 or peg.2036) and peg.2035
   equation: (2) C00002[c] + C00064[c] + C00288[c] + C00001[c] + C00080[c] => (2)
@@ -22466,7 +22417,7 @@
   genes: peg.1543
   equation: C00036[c] => C00022[c] + C00011[c]
   ec:
-  - 1.1.1.40
+  - 1.1.1.38
   EggNOG_annotation: peg.936:Catalyzes the condensation of the acetyl group of acetyl-CoA
     with 3-methyl-2-oxobutanoate (2-oxoisovalerate) to form 3-carboxy-3-hydroxy-4-methylpentanoate
     (2-isopropylmalate) (By similarity);   peg.938:2-isopropylmalate synthase homocitrate
@@ -22506,6 +22457,7 @@
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: Oxaloacetate[c] => Pyruvate[c] + CO2[c]
+  PMID: 3142524
 - id: R09978
   name: 7-carboxy-7-carbaguanine:ammonia ligase (ADP-forming)
   genes: peg.588
@@ -23595,7 +23547,7 @@
   pathway: Starch and sucrose metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: Cellodextrin[e] + C00001[e] <=> (2) Cellobiose[e]
+  translated_equation: Cellodextrin[e] + H2O[e] <=> (2) Cellobiose[e]
 - id: R11307_kz
   equation: C00760_kz[e] + (2) C00001[e] => (2) C01898_kz[e]
   genes: peg.2380 or peg.2376 or peg.633 or peg.1027 or peg.2370 or peg.2375
@@ -24306,6 +24258,7 @@
   tag: KEGG_Cbes
   translated_equation: L-Tyrosine[c] + S-Adenosyl-L-methionine[c] + NADPH[c] => Iminoglycine[c]
     + 4-Cresol[c] + 5'-Deoxyadenosine[c] + L-Methionine[c] + NADP+[c] + H+[c]
+  PMID: 17969213
 - id: R03472
   name: Phosphomethylpyrimidine synthase ThiC
   genes: peg.786
@@ -24616,7 +24569,7 @@
   - Thiamine metabolism
   - Metabolic pathways
   translated_equation: ATP + 5-(2-Hydroxyethyl)-4-methylthiazole => ADP + 4-Methyl-5-(2-phosphooxyethyl)thiazole
-- id: R03223
+- id: R03223_h
   name: Thiamin-phosphate pyrophosphorylase
   genes: peg.785
   equation: C04752[c] + C04327[c] + C00080[c] => C00013[c] + C01081[c]
@@ -24646,7 +24599,7 @@
   tag: KEGG_Cbes,Cce,Tsac
   translated_equation: '|4-Amino-5-hydroxymethyl-2-methylpyrimidine diphosphate[c]|
     + 4-Methyl-5-(2-phosphooxyethyl)thiazole[c] => Diphosphate[c] + |Thiamin monophosphate[c]|'
-- id: R10712
+- id: R10712_h
   name: 2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:2-(2-carboxy-4-methylthiazol-5-yl)ethyl
     phosphate 2-methyl-4-aminopyrimidine-5-methenyltransferase
   genes: peg.785
@@ -26448,7 +26401,8 @@
 - id: R01652
   genes: spontaneous
   equation: C04236[c] => C00233[c] + C00011[c]
-  ec: None
+  ec:
+  - spontaneous
   EggNOG_annotation: peg.2650:Catalyzes the oxidation of 3-carboxy-2-hydroxy-4- methylpentanoate
     (3-isopropylmalate) to 3-carboxy-4-methyl-2- oxopentanoate. The product decarboxylates
     to 4-methyl-2 oxopentanoate (By similarity)
@@ -26722,8 +26676,8 @@
   - 2-Oxocarboxylic acid metabolism
   - Biosynthesis of amino acids
   source: KEGG
-  tag: added when curating "Valine, leucine and isoleucine biosynthesis" pathway,
-    based on Dima's annotation table "Reconstructed_Pathways_Vitamins_amino_acid_central".
+  tag: Added when curating Valine, leucine and isoleucine biosynthesis pathway,
+    based on Dimas annotation table Reconstructed_Pathways_Vitamins_amino_acid_central.
   translated_equation: Acetyl-CoA [c]+ Pyruvate[c] + H2O[c] <=> (R)-2-Methylmalate[c]
     + CoA[c]
 - id: R01859
@@ -27075,12 +27029,13 @@
   genes: peg.546
   curated: true
   equation: C00074[c] + C00615[c] <=> C00022[c] + C04261[c]
-  translated_eqaution: 'phosphoenolpyruvate + protein histidine = pyruvate + protein Npi-phospho-L-histidine'
-  enzymes:
+  translated_equation: 'phosphoenolpyruvate + protein histidine = pyruvate + protein Npi-phospho-L-histidine'
+  ec:
   - 2.7.3.9
   pathways: null
   comment: enzyme I of the phosphotransferase system (see map02060)
   note: used for transport fructose vis PTS system
+  translated_equation: Phosphoenolpyruvate + Protein histidine <=> Pyruvate + Protein N(pi)-phospho-L-histidine
 
 # added rxns
 - id: NplT
@@ -27089,9 +27044,26 @@
   curated: true
   equation: C00480_kz[c] + (4) C00001[c] <=> (4) C00713[c]
   translated_eqaution: pullulan + (4) H2O => (4) panose
-  enzymes:
+  ec:
   - 3.2.1.135
-  note: function annotation is from manual curation, assigned in maltose pathway. but no corresponding kegg pathway assigned to this EC
-
-
-
+  note: function annotation is from manual curation, assigned in maltose pathway. But no corresponding kegg pathway assigned to this EC
+- id: Xyl14base
+  name: Endo-1,4-beta-xylanase (secreted)
+  genes: peg.1057
+  curated: true
+  genes_string_NCBI_id: Athe_0618
+  equation: C02352[e] + (4) C00001[e] => (4) C00181[e]
+  translated_equation: 1,4-beta-xylan + (4) H2O => (4) D-Xylose
+  ec:
+  - 3.2.1.8
+  pathway: Xylan and xylose metabolism
+- id: Xylos
+  name: alpha-xylosidase
+  genes: peg.2603
+  curated: true
+  genes_string_NCBI_id: Athe_2057
+  equation: axyls[c] + (4) C00001[c] => (4) C02205[c]
+  translated_equation: Alpha-xyloside + (4) H2O => (4) alpha-D-xylose
+  ec:
+  - 3.2.1.177
+  pathway: Xylan and xylose metabolism

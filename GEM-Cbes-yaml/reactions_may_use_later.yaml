@@ -4522,5 +4522,108 @@
   translated_equation: Cyclomaltodextrin[c] + H2O[c] => Maltodextrin[c]
 
 
+# removed when curating pyruvate metabolism pathway
+- id: R00995
+  name: methyloxaloacetate carboxy-lyase (2-oxobutanoate-forming)
+  equation: C00109[c] + C00011[c] <=> C06030[c]
+  ec:
+  - 4.1.1.3
+  EggNOG_annotation: peg.1807:carboxylase
+  KEGG_annotation: Athe_1319:K01571 oxaloacetate decarboxylase (Na+ extruding), alpha
+    subunit [EC:7.2.4.2] | (GenBank) Conserved
+  PATRIC_annotation: Pyruvate:Oxaloacetate transcarboxylase domain protein
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1807
+  genes_string_NCBI_id: Athe_1319
+  genes_string_PATRIC_id: peg.1807
+  names:
+  - methyloxaloacetate carboxy-lyase (2-oxobutanoate-forming)
+  other_pathways:
+  - C5-Branched dibasic acid metabolism
+  pathway: C5-Branched dibasic acid metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: 2-Oxobutanoate[c] + CO2[c] <=> Methyloxaloacetate[c]
 
-# removed when go thorugh Dima's manual curation table
+
+
+# removed when go thorugh Dima's manual curation table (2019-06-15 version)
+# fructose
+- id: R03236
+  name: ATP:D-tagatose-6-phosphate 1-phosphotransferase
+  genes: peg.542 or peg.1752
+  equation: C01097[c] + C00002[c] <=> C03785[c] + C00008[c]
+  ec:
+  - 2.7.1.11
+  - 2.7.1.56
+  EggNOG_annotation: peg.2336:ec 2.7.1.11;   peg.542:1-phosphofructokinase;   peg.1752:phosphohexokinase
+  KEGG_annotation: Athe_0147:K00882 1-phosphofructokinase [EC:2.7.1.56] | (GenBank)
+    1-phosphofructokinase;   Athe_1824:K21071 ATP-dependent phosphofructokinase /
+    diphosphate-dependent phosphofructokinase [EC:2.7.1.11 2.;   Athe_1265:K00850
+    6-phosphofructokinase 1 [EC:2.7.1.11] | (GenBank) 6-phosphofructokinase
+  PATRIC_annotation: Pyrophosphate-dependent fructose 6-phosphate-1-kinase (EC 2.7.1.90)
+    or 1-phosphofructokinase (EC 2.7.1.56) or 6-phosphofructokinase (EC 2.7.1.11)
+  curated: true
+  genes_Cce: peg.2336 or peg.1752
+  genes_Cth: peg.1752 or peg.2336 or peg.542
+  genes_Tsac: peg.1752
+  genes_kegg: peg.542,peg.2336,peg.1752
+  genes_string_NCBI_id: Athe_1824,Athe_0147,Athe_1265
+  genes_string_PATRIC_id: peg.2336,peg.542,peg.1752
+  names:
+  - ATP:D-tagatose-6-phosphate 1-phosphotransferase
+  other_pathways:
+  - Galactose metabolism
+  - Metabolic pathways
+  pathway: Galactose metabolism
+  source: KEGG
+  tag: KEGG_Cbes,Cce,Cth,Tsac
+  translated_equation: '|D-Tagatose 6-phosphate[c]| + ATP[c] <=> |D-Tagatose 1,6-bisphosphate[c]|
+    + ADP[c]'
+  note: removed from curated_rxns becasue D-Tagatose 6-phosphate only occur in this rxn, no context; and 
+    this rxn is not the primary rxn associated with these two EC
+
+# removed when fix the blocked cpds OAA:
+- id: R00216
+  name: NADP-dependent malate oxidoreductase
+  genes: peg.1543
+  equation: C00149[c] + C00006[c] <=> C00022[c] + C00011[c] + C00005[c] + C00080[c]
+  ec:
+  - 1.1.1.40
+  EggNOG_annotation: peg.1543:Malic enzyme;   peg.1804:Acetyl-CoA carboxylase, carboxyltransferase
+    component (subunits alpha and beta);   peg.1807:carboxylase;   peg.1806:Acetyl-CoA
+    carboxylase, biotin carboxyl carrier protein
+  KEGG_annotation: Athe_1319:K01571 oxaloacetate decarboxylase (Na+ extruding), alpha
+    subunit [EC:7.2.4.2] | (GenBank) Conserved;   peg.1806:-;   Athe_1316:no KO assigned
+    | (GenBank) carboxyl transferase;   Athe_1062:K00027 malate dehydrogenase (oxaloacetate-decarboxylating)
+    [EC:1.1.1.38] | (GenBank) Malate dehydrog
+  PATRIC_annotation: NADP-dependent malic enzyme (EC 1.1.1.40) or Acetyl-coenzyme
+    A carboxyl transferase alpha chain (EC 6.4.1.2) / Acetyl-coenzyme A carboxyl
+    transferase beta chain (EC 6.4.1.2); Propionyl-CoA carboxylase beta chain (EC
+    6.4.1.3) or Pyruvate:Oxaloacetate transcarboxylase domain protein or Biotin carboxyl
+    carrier protein => methylmalonyl-CoA decarboxylase; Biotin carboxyl carrier protein
+  PMID: 15876562, 3142524
+  curated: true
+  gene_string_PATRIC: peg.1543,peg.1804,peg.1807,peg.1806
+  genes_Cce: peg.1543
+  genes_Cth: peg.1543 or (peg.1804 and peg.1806 and peg.1807)
+  genes_Tsac: peg.1543
+  genes_kegg: peg.1543
+  genes_string_NCBI_id: Athe_1062,Athe_1316,Athe_1319,peg.1806
+  names:
+  - (S)-malate:NADP+ oxidoreductase (oxaloacetate-decarboxylating)
+  note: reaction direction is based on uniprot description (https://www.uniprot.org/uniprot/P48163)
+    and iJO1366 model
+  other_pathways:
+  - Pyruvate metabolism
+  - Carbon fixation in photosynthetic organisms
+  - Metabolic pathways
+  - Microbial metabolism in diverse environments
+  - Carbon metabolism
+  pathway: Citrate cycle (TCA cycle)
+  source: KEGG
+  tag: KEGG_Cbes,Cce,Cth,Tsac
+  translated_equation: (S)-Malate[c] + NADP+[c] <=> Pyruvate[c] + CO2[c] + NADPH[c]
+    + H+[c]

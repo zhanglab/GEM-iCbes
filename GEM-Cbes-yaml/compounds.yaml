@@ -4658,7 +4658,7 @@
   name: iron-sulfur cluster
   formula: Fe2S2
   charge: -2
-  source: manually add
+  source: manually-add
   tag: AddFromRxn
 # - id: C00028
 #   name: Acceptor
@@ -4739,3 +4739,38 @@
   charge: 0
   source: KEGG
   tag: kegg-generic-database
+- id: C05359
+  name: e-
+  charge: -1
+  names:
+  - e-
+  - Electron
+- id: C02352_kz
+  name: 1,4-beta-D-Xylan(n=8)
+  names:
+  - 1,4-beta-D-Xylan
+  - (1,4-beta-D-Xylan)n
+  - (1,4-beta-D-Xylan)n+1
+  formula: (C5H8O4)8
+  charge: 0
+  source: KEGG
+  tag: AddFromRxn
+# - id: O-xte
+#   name: Xylotetraose
+#   formula: C20H34O17
+#   charge: 0
+#   source: Pubchem
+#   tag: AddFromRxn
+- id: C02337_kz
+  name: beta-D-Xyloside
+  names:
+  - beta-D-Xyloside
+  formula: (C5H9O5)4
+  charge: 0
+  tag: AddFromRxn
+- id: axyls
+  name: alpha-D-Xyloside
+  formula: (C5H9O5)4
+  charge: 0
+  source: manually-add
+  tag: AddFromRxn

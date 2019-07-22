@@ -2,7 +2,8 @@
   name: L-alanine transaminase
   genes: gap
   equation: C00041[c] + C00026[c] <=> C00022[c] + C00025[c]
-  ec: 2.6.1.2
+  ec: 
+  - 2.6.1.2
   note: not from psammotate, in Cce model, this reaction (ALATA_L) doesn't have gene
     association.
   pathway: Alanine, aspartate and glutamate metabolism
@@ -13,7 +14,8 @@
   name: ornithine transacetylase
   genes: gap
   equation: C00437[c] + C00025[c] <=> C00077[c] + C00624[c]
-  ec: 2.3.1.35
+  ec: 
+  - 2.3.1.35
   pathway: Arginine biosynthesis
   source: KEGG
   tag: Cce
@@ -170,3 +172,45 @@
   pathways:
   - Purine metabolism
   - Metabolic pathways
+# - id: R12212
+#   name: oxaloacetate carboxylyase (pyruvate-forming; Na+-extruding)
+#   genes: peg.1806 and peg.1807 and peg.2877
+#   genes_string_NCBI_id: Athe_1319
+#   equation: C00036[c] + (2) C01330[c] <=> C00022[c] + C00011[c] + (2) C01330[e]
+#   ec:
+#   - 7.2.4.2
+#   pathway: Pyruvate metabolism
+#   pathways:
+#   - Pyruvate metabolism
+#   - Metabolic pathways
+- id: R00344
+  name: Pyruvate:carbon-dioxide ligase (ADP-forming)
+  genes: peg.1806 and peg.1807
+  names:
+  - Pyruvate:carbon-dioxide ligase (ADP-forming)
+  equation: C00002[c] + C00022[c] + C00288[c] <=> C00008[c] + C00009[c] + C00036[c]
+  translated_equation: ATP + Pyruvate + HCO3- <=> ADP + Orthophosphate + Oxaloacetate
+  enzymes:
+  - 6.4.1.1
+  pathways:
+  - Citrate cycle (TCA cycle)
+  - Pyruvate metabolism
+  - Carbon fixation pathways in prokaryotes
+  - Metabolic pathways
+  - Microbial metabolism in diverse environments
+  - Carbon metabolism
+  - Biosynthesis of amino acids
+  comment: intermediate (carboxybiotin-[enzyme])
+- id: R00212
+  name: Acetyl-CoA:formate C-acetyltransferase
+  names:
+  - Acetyl-CoA:formate C-acetyltransferase
+  equation: C00024[c] + C00058[c] <=> C00010[c] + C00022[c]
+  enzymes:
+  - 2.3.1.54
+  pathways:
+  - Pyruvate metabolism
+  - Butanoate metabolism
+  - Metabolic pathways
+  - Microbial metabolism in diverse environments
+

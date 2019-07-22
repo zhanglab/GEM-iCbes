@@ -215,7 +215,9 @@
   name: Na+ dependent F0F1 ATP synthase
   genes: peg.1915 and peg.1916 and peg.1917 and peg.1918 and peg.1919 peg.1920 and
     peg.1921 and peg.1922
-  equation: (4) C01330[c] + C00002[c] + C00001[c] <=> (4) C01330[e] + C00008[c] +
+  # equation: (4) C01330[c] + C00002[c] + C00001[c] <=> (4) C01330[e] + C00008[c] +
+  #   C00009[c]
+  equation: (4) C00080[c] + C00002[c] + C00001[c] <=> (4) C00080[e] + C00008[c] +
     C00009[c]
   ec: TC=3.A.2.1.5
   PMID: 8905099, 16816177
@@ -273,7 +275,8 @@
   name: fructose uptake (PTS system)
   genes: peg.543 and peg.544
   equation: C04261[c] + C00095[e] => C00615[c] + C01094[c]
-  ec: 2.7.1.202
+  ec: 
+  - 2.7.1.202
   EggNOG_annotation: peg.544:pts system
   KEGG_annotation: Athe_0149:K02769 PTS system, fructose-specific IIB component [EC:2.7.1.202]
     K02770 PTS system, fructose-specif
@@ -386,3 +389,16 @@
   ec: TC=3.A.1.2
   pathway: Transport
   tag: manual curation
+- id: a-Xylosabc
+  name: alpha-xyloside transport via ABC system
+  genes: peg.2599 and peg.2600 and peg.2601
+  equation: C00001[c] + C00002[c] + axyls[e] => C00008[c] + C00009[c] + axyls[c]
+  pathway: Transport
+  tag: manual curation
+- id: b-Xylosabc
+  name: beta-xyloside transport via ABC system
+  genes: peg.1053 and peg.1054 and peg.1055
+  equation: C00001[c] + C00002[c] + C02337[e] => C00008[c] + C00009[c] + C02337[c]
+  pathway: Transport
+  tag: manual curation
+

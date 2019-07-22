@@ -2,7 +2,7 @@
 # - id: source_atp
 #   equation: C00002[c] <=
 # - id: source_adp
-#   equation: C00008[c] =>
+#   equation: C00008[c] <=
 # - id: source_amp
 #   equation: C00020[c] =>
 # - id: source_damp
@@ -30,9 +30,9 @@
 # - id: source_nadp
 #   equation: C00006[c] <=>
 # - id: source_fedox
-#   equation: C00139[c] <=
-# - id: sink_fedred
-#   equation: C00138[c] <=>
+#   equation: C00139[c] =>
+# - id: source_fedred
+#   equation: C00138[c] <=
 # - id: source_coa
 #   equation: C00010[c] <=>
 
@@ -52,20 +52,32 @@
 #   equation: C00036[c] =>
 - id: source_h2s
   equation: C00283[c] <=
+#- id: source_h
+#  equation: C00080[e] <=
 # - id: sink_thf
 #   equation: C00101[c] =>
 # - id: source_formylthf
 #   equation: C00234[c] <=
 # - id: sink_formylthf
 #   equation: C00234[c] =>
-- id: source_formate
-  equation: C00058[c] <=
+# - id: source_formate
+#   equation: C00058[c] <=
 # - id: sink_formate
 #   equation: C00058[c] =>
 # - id: source_proPhis
 #   equation: C04261[c] <=
 # - id: sink_prohis
 #   equation: C00615[c] =>
+# - id: sink_25dhpp
+#   equation: C01304[c] =>
+# - id: sink_ppi
+#   equation: C00013[c] =>
+
+# - id: sink_dihydropterin
+#   equation: C04895[c] =>
+
+# - id: sink_sodium
+#   equation: C01330[c] =>
 
 # - id: source_5mthf
 #   equation: C00440[c] <=>
