@@ -52,6 +52,8 @@
 #   equation: C00036[c] =>
 - id: source_h2s
   equation: C00283[c] <=
+# - id: sink_accys
+#   equation: C00979[c] =>
 #- id: source_h
 #  equation: C00080[e] <=
 # - id: sink_thf

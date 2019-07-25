@@ -188,8 +188,8 @@
   genes: peg.1806 and peg.1807
   names:
   - Pyruvate:carbon-dioxide ligase (ADP-forming)
-  equation: C00002[c] + C00022[c] + C00288[c] <=> C00008[c] + C00009[c] + C00036[c]
-  translated_equation: ATP + Pyruvate + HCO3- <=> ADP + Orthophosphate + Oxaloacetate
+  equation: C00002[c] + C00022[c] + C00288[c] + C00080[c] <=> C00008[c] + C00009[c] + C00036[c] 
+  translated_equation: ATP[c] + Pyruvate[c] + HCO3-[c] + H+[c] <=> ADP[c] + Orthophosphate[c] + Oxaloacetate[c]
   enzymes:
   - 6.4.1.1
   pathways:

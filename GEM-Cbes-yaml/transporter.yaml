@@ -1,9 +1,12 @@
 - id: cysT
-  equation: C00736[e] <=> C00736[c]
+  name: Cysteine transport via proton symport
+  equation: C00097[e] + C00080[e] => C00097[c] + C00080[c]
+  pathway: Transport
+  tag: Cth-CYSt2r
 - id: lipoateT
   equation: C00725[e] <=> C00725[c]
 - id: borateT
-  name: H3BO3 tramnsport
+  name: H3BO3 transport
   equation: C12486[e] <=> C12486[c]
 - id: clT
   equation: C00698[e] <=> C00698[c]
@@ -256,7 +259,7 @@
   tag: TCDB
 - id: PdxU2
   name: pyridoxin(VB6) uptake (ECF)
-  genes: peg.2278 peg.2195 and peg.2196 and peg.2197
+  genes: peg.2278 and peg.2195 and peg.2196 and peg.2197
   equation: C00314[e] + C00002[c] + C00001[c] => C00314[c] + C00008[c] + C00009[c]
   ec: TC=unknown
   note: peg.2278 is annotated as folate transport based on TCDB blastp. In Dima's
@@ -398,7 +401,7 @@
 - id: b-Xylosabc
   name: beta-xyloside transport via ABC system
   genes: peg.1053 and peg.1054 and peg.1055
-  equation: C00001[c] + C00002[c] + C02337[e] => C00008[c] + C00009[c] + C02337[c]
+  equation: C00001[c] + C00002[c] + C02337_kz[e] => C00008[c] + C00009[c] + C02337_kz[c]
   pathway: Transport
   tag: manual curation
 

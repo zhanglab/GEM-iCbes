@@ -2606,16 +2606,6 @@
   - D-arabino-Hexulose
   source: KEGG
   tag: kegg-filterred-database
-- id: C00736
-  name: Cysteine
-  formula: C3H7NO2S
-  charge: 0
-  mol_weight: 121.1582
-  names:
-  - Cysteine
-  - 2-Amino-3-mercaptopropionic acid
-  source: KEGG
-  tag: kegg-filterred-database
 - id: C05528
   name: 3-Sulfopyruvate
   formula: C3H4O6S
@@ -3557,7 +3547,10 @@
   source: KEGG
   tag: A501
 - id: C00369_kz
-  name: Starch(n=4), glycogen(n=4)
+  name: Starch(n=4)
+  names:
+  - Starch
+  - glycogen
   formula: (C12H20O10)4
   charge: 0
   source: KEGG
@@ -4773,4 +4766,12 @@
   formula: (C5H9O5)4
   charge: 0
   source: manually-add
+  tag: AddFromRxn
+- id: C02205
+  name: alpha-D-Xylose
+  names:
+  - alpha-D-Xylose
+  formula: C5H10O5
+  charge: 0
+  mol_weight: 150.1299
   tag: AddFromRxn

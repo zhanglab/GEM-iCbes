@@ -85,8 +85,8 @@ compounds:
   name: Lipoic acid
   lower: -0.00024233
   upper: 1000.0
-- id: C00736
-  name: Cysteine
+- id: C00097
+  name: L-Cysteine(Cys-L)
   lower: -6.345
   upper: 1000.0
 - id: C20679
