@@ -85,10 +85,10 @@ compounds:
   name: Lipoic acid
   lower: -0.00024233
   upper: 1000.0
-- id: C00097
-  name: L-Cysteine(Cys-L)
-  lower: -6.345
-  upper: 1000.0
+# - id: C00097
+#   name: L-Cysteine(Cys-L)
+#   lower: -6.345
+#   upper: 1000.0
 - id: C20679
   name: Tungstate
   lower: -0.000164
@@ -134,7 +134,7 @@ compounds:
   lower: 0
   upper: 1000.0
 - id: C00186
-  name: Lactate
+  name: L-Lactate
   lower: 0
   upper: 1000.0
 - id: C00011
@@ -150,6 +150,7 @@ compounds:
 - id: C00031
   name: D-glucose
   lower: -25.0
+  # lower: -2.5
   upper: 1000.0
 # - id: C00095
 #   name: fructose

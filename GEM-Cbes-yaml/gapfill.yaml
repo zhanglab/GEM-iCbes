@@ -201,16 +201,4 @@
   - Carbon metabolism
   - Biosynthesis of amino acids
   comment: intermediate (carboxybiotin-[enzyme])
-- id: R00212
-  name: Acetyl-CoA:formate C-acetyltransferase
-  names:
-  - Acetyl-CoA:formate C-acetyltransferase
-  equation: C00024[c] + C00058[c] <=> C00010[c] + C00022[c]
-  enzymes:
-  - 2.3.1.54
-  pathways:
-  - Pyruvate metabolism
-  - Butanoate metabolism
-  - Metabolic pathways
-  - Microbial metabolism in diverse environments
 

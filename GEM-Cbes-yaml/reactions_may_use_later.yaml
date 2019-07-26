@@ -4677,3 +4677,17 @@
   tag: KEGG_Cbes
   translated_equation: 2,3-Dehydroacyl-CoA[c] + |1-Acyl-sn-glycerol 3-phosphate[c]|
     <=> CoA[c] + Phosphatidate[c]
+
+- id: R00212
+  name: Acetyl-CoA:formate C-acetyltransferase
+  genes: gap
+  names:
+  - Acetyl-CoA:formate C-acetyltransferase
+  equation: C00024[c] + C00058[c] <=> C00010[c] + C00022[c]
+  enzymes:
+  - 2.3.1.54
+  pathways:
+  - Pyruvate metabolism
+  - Butanoate metabolism
+  - Metabolic pathways
+  - Microbial metabolism in diverse environments
