@@ -103,7 +103,7 @@ compounds:
   upper: 1000.0
 - id: C01342
   name: ammonium
-  lower: -11.904656
+  lower: -24.11
   upper: 1000.0
 - id: C05776
   name: Cobalamin (B12)
