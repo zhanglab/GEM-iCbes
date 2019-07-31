@@ -2441,8 +2441,7 @@
   genes_string_NCBI_id: Athe_1062,Athe_1316,Athe_1319,peg.1806
   names:
   - (S)-malate:NADP+ oxidoreductase (oxaloacetate-decarboxylating)
-  note: reaction direction is based on uniprot description (https://www.uniprot.org/uniprot/P48163)
-    and iJO1366 model
+  note: No activity detecdted with either NADPH or NADH in assays.
   other_pathways:
   - Pyruvate metabolism
   - Carbon fixation in photosynthetic organisms
@@ -2458,7 +2457,7 @@
 - id: R00342
   name: (S)-malate:NAD+ oxidoreductase
   genes: fig|31899.10.peg.2434
-  equation: C00149[c] + C00003[c] <=> C00036[c] + C00004[c] + C00080[c]
+  equation: C00036[c] + C00004[c] + C00080[c] => C00149[c] + C00003[c]
   ec:
   - 1.1.1.37
   EggNOG_annotation: peg.2434:L-lactate dehydrogenase
@@ -2475,7 +2474,8 @@
   genes_kegg: None
   names:
   - (S)-malate:NAD+ oxidoreductase
-  note: add this rxn based on experimental data from Dr. Adams's group
+  note: Based on assay done by Dr.Adams's group, this rxn goes from malate to OAA
+    when malate concentration is high (> 5mM), physilogically this may not be possible.
   other_pathways:
   - Citrate cycle (TCA cycle)
   - Pyruvate metabolism
@@ -2490,9 +2490,9 @@
   - Carbon metabolism
   pathway: Citrate cycle (TCA cycle)
   source: Cce,Cth,Tsac
-  translated_equation: L-Malate[c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
-    <=> |Oxaloacetate (Oaa)[c]| + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]|
-    + |Proton (H+)[c]|
+  translated_equation: '|Oxaloacetate (Oaa)[c]| + |Nicotinamide adenine dinucleotide
+    - reduced (NADH)[c]| + |Proton (H+)[c]| => L-Malate[c] + |Nicotinamide adenine
+    dinucleotide (NAD)[c]|'
 - id: R10991
   name: 2-aminobutanoate:2-oxoglutarate aminotransferase
   genes: fig|31899.10.peg.1109
@@ -5323,7 +5323,7 @@
 - id: R00431
   name: Phosphoenolpyruvate carboxykinase (GTP)
   genes: fig|31899.10.peg.808
-  equation: C00044[c] + C00036[c] => C00035[c] + C00074[c] + C00011[c]
+  equation: C00044[c] + C00036[c] <=> C00035[c] + C00074[c] + C00011[c]
   ec:
   - 4.1.1.32
   EggNOG_annotation: peg.808:Catalyzes the conversion of oxaloacetate (OAA) to phosphoenolpyruvate
@@ -5343,6 +5343,7 @@
   names:
   - GTP:oxaloacetate carboxy-lyase (adding GTP; phosphoenolpyruvate-forming)
   - GTP:oxaloacetate carboxy-lyase (transphosphorylating)
+  note: Experimemntally proved that Cbes PEPCk can go in direction of PEP to OAA.
   other_pathways:
   - Glycolysis / Gluconeogenesis
   - Citrate cycle (TCA cycle)
@@ -5354,7 +5355,7 @@
   pathway: Glycolysis / Gluconeogenesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: GTP[c] + |Oxaloacetate (Oaa)[c]| => GDP[c] + |Phosphoenolpyruvate
+  translated_equation: GTP[c] + |Oxaloacetate (Oaa)[c]| <=> GDP[c] + |Phosphoenolpyruvate
     (PEP)[c]| + CO2[c]
 - id: R01070
   name: beta-D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)
@@ -5531,7 +5532,7 @@
   translated_equation: Diphosphate[c] + |beta-D-Fructose 6-phosphate (bF6P)[c]| <=>
     Phosphate[c] + |beta-D-Fructose 1,6-bisphosphate (F16P2)[c]|
 - id: R01512
-  name: ATP:3-phospho-D-glycerate 1-phosphotransferase
+  name: phosphoglycerate kinase (ATP)
   genes: fig|31899.10.peg.1899
   equation: C00002[c] + C00197[c] <=> C00008[c] + C00236[c]
   ec:
@@ -5563,6 +5564,40 @@
   source: KEGG
   tag: KEGG_Cbes,Cce
   translated_equation: ATP[c] + |3-Phospho-D-glycerate (3PG)[c]| <=> ADP[c] + |3-Phospho-D-glyceroyl
+    phosphate (13DPG)[c]|
+- id: PGK2
+  name: phosphoglycerate kinase (GTP)
+  genes: fig|31899.10.peg.1899
+  equation: C00044[c] + C00197[c] <=> 00035[c] + C00236[c]
+  ec:
+  - 2.7.2.3
+  EggNOG_annotation: peg.1899:Phosphoglycerate kinase
+  KEGG_annotation: Athe_1405:K00927 phosphoglycerate kinase [EC:2.7.2.3] K01803 triosephosphate
+    isomerase (TIM) [EC:5.3.1.1] | (G
+  PATRIC_annotation: Phosphoglycerate kinase (EC 2.7.2.3) / Triosephosphate isomerase
+    (EC 5.3.1.1)
+  curated: true
+  genesNCBI: Athe_1405
+  genes_Cce: peg.1899
+  genes_Cth: '-'
+  genes_Tsac: '-'
+  genes_kegg: peg.1899
+  genes_string_NCBI_id: Athe_1405
+  note: Based on experiment data from Dr. Adams' group, Cbes PGK is more active with
+    GDP than ADP.
+  other_pathways:
+  - Glycolysis / Gluconeogenesis
+  - Carbon fixation in photosynthetic organisms
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Microbial metabolism in diverse environments
+  - Biosynthesis of antibiotics
+  - Carbon metabolism
+  - Biosynthesis of amino acids
+  pathway: Glycolysis / Gluconeogenesis
+  source: KEGG
+  tag: KEGG_Cbes,Cce
+  translated_equation: GTP[c] + |3-Phospho-D-glycerate (3PG)[c]| <=> GDP[c] + |3-Phospho-D-glyceroyl
     phosphate (13DPG)[c]|
 - id: R00703
   name: (S)-Lactate:NAD+ oxidoreductase
@@ -5768,9 +5803,9 @@
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: ATP[c] + Acetate[c] <=> ADP[c] + |Acetyl phosphate[c]|
 - id: R00206
-  name: Pyruvate,phosphate dikinase
+  name: Pyruvate phosphate dikinase
   genes: fig|31899.10.peg.1902
-  equation: C00002[c] + C00022[c] + C00009[c] => C00020[c] + C00074[c] + C00013[c]
+  equation: C00002[c] + C00022[c] + C00009[c] <=> C00020[c] + C00074[c] + C00013[c]
   ec:
   - 2.7.9.1
   EggNOG_annotation: peg.1902:Pyruvate phosphate dikinase
@@ -5797,7 +5832,7 @@
   pathway: Glycolysis / Gluconeogenesis
   source: KEGG
   tag: KEGG_Cbes,Cth,Tsac
-  translated_equation: ATP[c] + |Pyruvate (Pyr)[c]| + Phosphate[c] => AMP[c] + |Phosphoenolpyruvate
+  translated_equation: ATP[c] + |Pyruvate (Pyr)[c]| + Phosphate[c] <=> AMP[c] + |Phosphoenolpyruvate
     (PEP)[c]| + Diphosphate[c]
 - id: R00299
   name: ATP:D-glucose 6-phosphotransferase

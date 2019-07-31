@@ -3418,10 +3418,11 @@
   translated_equation: L-Malate[c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
     => |Pyruvate (Pyr)[c]| + CO2[c] + |Nicotinamide adenine dinucleotide - reduced
     (NADH)[c]| + |Proton (H+)[c]|
+  note: No activity detecdted with either NADPH or NADH in assays.
 - id: R00342
   name: (S)-malate:NAD+ oxidoreductase
   genes: fig|31899.10.peg.2434
-  equation: C00149[c] + C00003[c] <=> C00036[c] + C00004[c] + C00080[c]
+  equation: C00036[c] + C00004[c] + C00080[c] => C00149[c] + C00003[c]
   ec:
   - 1.1.1.37
   EggNOG_annotation: peg.2434:L-lactate dehydrogenase
@@ -3453,9 +3454,10 @@
   - Carbon metabolism
   pathway: Citrate cycle (TCA cycle)
   source: Cce,Cth,Tsac
-  translated_equation: L-Malate[c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
-    <=> |Oxaloacetate (Oaa)[c]| + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]|
-    + |Proton (H+)[c]|
+  translated_equation: '|Oxaloacetate (Oaa)[c]| + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]|
+    + |Proton (H+)[c]| => L-Malate[c] + |Nicotinamide adenine dinucleotide (NAD)[c]|'
+  note: Based on assay done by Dr.Adams's group, this rxn goes from malate to OAA when 
+    malate concentration is high (> 5mM), physilogically this may not be possible.
 - id: BTS
   name: Biotin synthase
   equation: dtbt[c] + (2) s[c] => btn[c] + h2s[c]
@@ -9801,7 +9803,7 @@
 - id: R00431
   name: Phosphoenolpyruvate carboxykinase (GTP)
   genes: fig|31899.10.peg.808
-  equation: C00044[c] + C00036[c] => C00035[c] + C00074[c] + C00011[c]
+  equation: C00044[c] + C00036[c] <=> C00035[c] + C00074[c] + C00011[c]
   ec:
   - 4.1.1.32
   EggNOG_annotation: peg.808:Catalyzes the conversion of oxaloacetate (OAA) to phosphoenolpyruvate
@@ -9832,8 +9834,9 @@
   pathway: Glycolysis / Gluconeogenesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: GTP[c] + |Oxaloacetate (Oaa)[c]| => GDP[c] + |Phosphoenolpyruvate
+  translated_equation: GTP[c] + |Oxaloacetate (Oaa)[c]| <=> GDP[c] + |Phosphoenolpyruvate
     (PEP)[c]| + CO2[c]
+  note: Experimemntally proved that Cbes PEPCk can go in direction of PEP to OAA.
 - id: R01070
   name: beta-D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)
   genes: fig|31899.10.peg.1061 or fig|31899.10.peg.2523 or fig|31899.10.peg.2972
@@ -10009,7 +10012,7 @@
   translated_equation: Diphosphate[c] + |beta-D-Fructose 6-phosphate (bF6P)[c]| <=>
     Phosphate[c] + |beta-D-Fructose 1,6-bisphosphate (F16P2)[c]|
 - id: R01512
-  name: ATP:3-phospho-D-glycerate 1-phosphotransferase
+  name: phosphoglycerate kinase (ATP)
   genes: fig|31899.10.peg.1899
   equation: C00002[c] + C00197[c] <=> C00008[c] + C00236[c]
   ec:
@@ -10042,6 +10045,39 @@
   tag: KEGG_Cbes,Cce
   translated_equation: ATP[c] + |3-Phospho-D-glycerate (3PG)[c]| <=> ADP[c] + |3-Phospho-D-glyceroyl
     phosphate (13DPG)[c]|
+- id: PGK2
+  name: phosphoglycerate kinase (GTP)
+  genes: fig|31899.10.peg.1899
+  equation: C00044[c] + C00197[c] <=> 00035[c] + C00236[c]
+  ec:
+  - 2.7.2.3
+  EggNOG_annotation: peg.1899:Phosphoglycerate kinase
+  KEGG_annotation: Athe_1405:K00927 phosphoglycerate kinase [EC:2.7.2.3] K01803 triosephosphate
+    isomerase (TIM) [EC:5.3.1.1] | (G
+  PATRIC_annotation: Phosphoglycerate kinase (EC 2.7.2.3) / Triosephosphate isomerase
+    (EC 5.3.1.1)
+  curated: true
+  genesNCBI: Athe_1405
+  genes_Cce: peg.1899
+  genes_Cth: '-'
+  genes_Tsac: '-'
+  genes_kegg: peg.1899
+  genes_string_NCBI_id: Athe_1405
+  other_pathways:
+  - Glycolysis / Gluconeogenesis
+  - Carbon fixation in photosynthetic organisms
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Microbial metabolism in diverse environments
+  - Biosynthesis of antibiotics
+  - Carbon metabolism
+  - Biosynthesis of amino acids
+  pathway: Glycolysis / Gluconeogenesis
+  source: KEGG
+  tag: KEGG_Cbes,Cce
+  translated_equation: GTP[c] + |3-Phospho-D-glycerate (3PG)[c]| <=> GDP[c] + |3-Phospho-D-glyceroyl
+    phosphate (13DPG)[c]|
+  note: Based on experiment data from Dr. Adams' group, Cbes PGK is more active with GDP than ADP.
 - id: R00703
   name: (S)-Lactate:NAD+ oxidoreductase
   genes: fig|31899.10.peg.2434
@@ -10246,9 +10282,9 @@
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: ATP[c] + Acetate[c] <=> ADP[c] + |Acetyl phosphate[c]|
 - id: R00206
-  name: Pyruvate,phosphate dikinase
+  name: Pyruvate phosphate dikinase
   genes: fig|31899.10.peg.1902
-  equation: C00002[c] + C00022[c] + C00009[c] => C00020[c] + C00074[c] + C00013[c]
+  equation: C00002[c] + C00022[c] + C00009[c] <=> C00020[c] + C00074[c] + C00013[c]
   ec:
   - 2.7.9.1
   EggNOG_annotation: peg.1902:Pyruvate phosphate dikinase
@@ -10275,7 +10311,7 @@
   pathway: Glycolysis / Gluconeogenesis
   source: KEGG
   tag: KEGG_Cbes,Cth,Tsac
-  translated_equation: ATP[c] + |Pyruvate (Pyr)[c]| + Phosphate[c] => AMP[c] + |Phosphoenolpyruvate
+  translated_equation: ATP[c] + |Pyruvate (Pyr)[c]| + Phosphate[c] <=> AMP[c] + |Phosphoenolpyruvate
     (PEP)[c]| + Diphosphate[c]
 - id: R00299
   name: ATP:D-glucose 6-phosphotransferase
@@ -13671,40 +13707,40 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: C00066[c] + Phosphate[c] <=> C00066[c] + C00454[c]
-- id: R10813
-  name: nucleoside-triphosphate:nucleoside-triphosphate nucleotidyltransferase (DNA-directed)
-  equation: (n) C00201[c] <=> C20864(n)[c] + (n - 1) C00013[c]
-  ec:
-  - 2.7.7.6
-  EggNOG_annotation: peg.1517:Promotes RNA polymerase assembly. Latches the N- and
-    C- terminal regions of the beta' subunit thereby facilitating its interaction
-    with the beta and alpha subunits (By similarity);   peg.1264:DNA-dependent RNA
-    polymerase catalyzes the transcription of DNA into RNA using the four ribonucleoside
-    triphosphates as substrates (By similarity);   peg.2226:DNA-dependent RNA polymerase
-    catalyzes the transcription of DNA into RNA using the four ribonucleoside triphosphates
-    as substrates (By similarity);   peg.1263:DNA-dependent RNA polymerase catalyzes
-    the transcription of DNA into RNA using the four ribonucleoside triphosphates
-    as substrates (By similarity)
-  KEGG_annotation: Athe_1717:K03040 DNA-directed RNA polymerase subunit alpha [EC:2.7.7.6]
-    | (GenBank) DNA-directed RNA polymeras;   Athe_0804:K03043 DNA-directed RNA polymerase
-    subunit beta [EC:2.7.7.6] | (GenBank) DNA-directed RNA polymerase;   Athe_1036:K03060
-    DNA-directed RNA polymerase subunit omega [EC:2.7.7.6] | (GenBank) DNA-directed
-    RNA polymeras;   Athe_0805:K03046 DNA-directed RNA polymerase subunit beta' [EC:2.7.7.6]
-    | (GenBank) DNA-directed RNA polymeras
-  PATRIC_annotation: DNA-directed RNA polymerase omega subunit (EC 2.7.7.6) or DNA-directed
-    RNA polymerase beta' subunit (EC 2.7.7.6) or DNA-directed RNA polymerase alpha
-    subunit (EC 2.7.7.6) or DNA-directed RNA polymerase beta subunit (EC 2.7.7.6)
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.2226,peg.1263,peg.1517,peg.1264
-  genes_string_NCBI_id: Athe_1036,Athe_0805,Athe_1717,Athe_0804
-  genes_string_PATRIC_id: peg.1517,peg.1264,peg.2226,peg.1263
-  names:
-  - nucleoside-triphosphate:nucleoside-triphosphate nucleotidyltransferase (DNA-directed)
-  pathway: None
-  source: KEGG
-  tag: KEGG_Cbes
+# - id: R10813
+#   name: nucleoside-triphosphate:nucleoside-triphosphate nucleotidyltransferase (DNA-directed)
+#   equation: (n) C00201[c] <=> C20864(n)[c] + (n - 1) C00013[c]
+#   ec:
+#   - 2.7.7.6
+#   EggNOG_annotation: peg.1517:Promotes RNA polymerase assembly. Latches the N- and
+#     C- terminal regions of the beta' subunit thereby facilitating its interaction
+#     with the beta and alpha subunits (By similarity);   peg.1264:DNA-dependent RNA
+#     polymerase catalyzes the transcription of DNA into RNA using the four ribonucleoside
+#     triphosphates as substrates (By similarity);   peg.2226:DNA-dependent RNA polymerase
+#     catalyzes the transcription of DNA into RNA using the four ribonucleoside triphosphates
+#     as substrates (By similarity);   peg.1263:DNA-dependent RNA polymerase catalyzes
+#     the transcription of DNA into RNA using the four ribonucleoside triphosphates
+#     as substrates (By similarity)
+#   KEGG_annotation: Athe_1717:K03040 DNA-directed RNA polymerase subunit alpha [EC:2.7.7.6]
+#     | (GenBank) DNA-directed RNA polymeras;   Athe_0804:K03043 DNA-directed RNA polymerase
+#     subunit beta [EC:2.7.7.6] | (GenBank) DNA-directed RNA polymerase;   Athe_1036:K03060
+#     DNA-directed RNA polymerase subunit omega [EC:2.7.7.6] | (GenBank) DNA-directed
+#     RNA polymeras;   Athe_0805:K03046 DNA-directed RNA polymerase subunit beta' [EC:2.7.7.6]
+#     | (GenBank) DNA-directed RNA polymeras
+#   PATRIC_annotation: DNA-directed RNA polymerase omega subunit (EC 2.7.7.6) or DNA-directed
+#     RNA polymerase beta' subunit (EC 2.7.7.6) or DNA-directed RNA polymerase alpha
+#     subunit (EC 2.7.7.6) or DNA-directed RNA polymerase beta subunit (EC 2.7.7.6)
+#   genes_Cce: None
+#   genes_Cth: None
+#   genes_Tsac: None
+#   genes_kegg: peg.2226,peg.1263,peg.1517,peg.1264
+#   genes_string_NCBI_id: Athe_1036,Athe_0805,Athe_1717,Athe_0804
+#   genes_string_PATRIC_id: peg.1517,peg.1264,peg.2226,peg.1263
+#   names:
+#   - nucleoside-triphosphate:nucleoside-triphosphate nucleotidyltransferase (DNA-directed)
+#   pathway: None
+#   source: KEGG
+#   tag: KEGG_Cbes
 - id: R09383
   name: CTP:tRNA cytidylyltransferase
   equation: C02211[c] + C00063[c] <=> C19078[c] + C00013[c]

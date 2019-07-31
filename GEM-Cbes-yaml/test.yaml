@@ -52,8 +52,6 @@
 #   equation: C00036[c] =>
 - id: source_h2s
   equation: C00283[c] <=
-# - id: sink_accys
-#   equation: C00979[c] =>
 #- id: source_h
 #  equation: C00080[e] <=
 # - id: sink_thf
@@ -74,6 +72,10 @@
 #   equation: C01304[c] =>
 # - id: sink_ppi
 #   equation: C00013[c] =>
+# - id: source_ser
+#   equation: C00065[c] <=
+# - id: source_gly
+#   equation: C00037[c] =>
 
 # - id: sink_dihydropterin
 #   equation: C04895[c] =>
@@ -125,6 +127,8 @@
 #   equation: C00122[c] =>
 # - id: sink_mal
 #   equation: C00149[c] =>
+# - id: source_mal
+#   equation: C00149[c] <=
 # - id: sink_PRPP
 #   equation: C00119[c] =>
 # - id: sink_ribose5p
@@ -144,7 +148,7 @@
 # - id: sink_cys
 #   equation: C00097[c] =>
 # - id: sink_acser
-#   equation: C00979[c] =>  
+#   equation: C00979[c] =>
 # - id: sink_ser
 #   equation: C00065[c] =>
 # - id: sink_gly
@@ -210,7 +214,6 @@
 
 # - id: sink_thiamine
 #   equation: C00378[c] =>
-
 
 
 

@@ -150,7 +150,6 @@ compounds:
 - id: C00031
   name: D-glucose
   lower: -25.0
-  # lower: -2.5
   upper: 1000.0
 # - id: C00095
 #   name: fructose
