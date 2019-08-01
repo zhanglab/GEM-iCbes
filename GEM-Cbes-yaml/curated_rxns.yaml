@@ -5568,7 +5568,7 @@
 - id: PGK2
   name: phosphoglycerate kinase (GTP)
   genes: fig|31899.10.peg.1899
-  equation: C00044[c] + C00197[c] <=> 00035[c] + C00236[c]
+  equation: C00044[c] + C00197[c] <=> C00035[c] + C00236[c]
   ec:
   - 2.7.2.3
   EggNOG_annotation: peg.1899:Phosphoglycerate kinase

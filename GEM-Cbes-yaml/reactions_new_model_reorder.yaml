@@ -15,7 +15,7 @@
   genes_string_PATRIC_id: peg.2930,peg.878
   source: Cth model
   tag: Cth
-  translated_equation: cpd11746[e] + cpd00001[e] <=> cpd00027[e]
+  translated_equation: Cellulose[e] + H2O[e] <=> D-Glucose[e]
 - id: cellhp
   equation: cpd00009[c] + cpd00067[c] + cpd03719[c] <=> cpd00089[c] + cpd03720[c]
   EggNOG_annotation: peg.880:Glycosyltransferase 36
@@ -30,8 +30,8 @@
   genes_string_PATRIC_id: peg.880
   source: Cth model
   tag: Cth
-  translated_equation: cpd00009[c] + cpd00067[c] + cpd03719[c] <=> cpd00089[c] +
-    cpd03720[c]
+  translated_equation: Phosphate[c] + H+[c] + Cellohexaose[c] <=> Glucose-1-phosphate[c]
+    + Cellopentaose[c]
 - id: cellpp
   equation: cpd00009[c] + cpd00067[c] + cpd03720[c] <=> cpd00089[c] + cpd01376[c]
   EggNOG_annotation: peg.880:Glycosyltransferase 36
@@ -46,8 +46,8 @@
   genes_string_PATRIC_id: peg.880
   source: Cth model
   tag: Cth
-  translated_equation: cpd00009[c] + cpd00067[c] + cpd03720[c] <=> cpd00089[c] +
-    cpd01376[c]
+  translated_equation: Phosphate[c] + H+[c] + Cellopentaose[c] <=> Glucose-1-phosphate[c]
+    + Cellotetraose[c]
 - id: celltp
   equation: cpd00009[c] + cpd00067[c] + cpd03721[c] <=> cpd00158[c] + cpd00089[c]
   EggNOG_annotation: peg.880:Glycosyltransferase 36
@@ -62,8 +62,7 @@
   genes_string_PATRIC_id: peg.880
   source: Cth model
   tag: Cth
-  translated_equation: cpd00009[c] + cpd00067[c] + cpd03721[c] <=> cpd00158[c] +
-    cpd00089[c]
+  translated_equation: Phosphate[c] + H+[c] + Cellotriose[c] <=> CELB[c] + Glucose-1-phosphate[c]
 - id: cellttp
   equation: cpd00009[c] + cpd00067[c] + cpd01376[c] <=> cpd00089[c] + cpd03721[c]
   EggNOG_annotation: peg.880:Glycosyltransferase 36
@@ -78,8 +77,8 @@
   genes_string_PATRIC_id: peg.880
   source: Cth model
   tag: Cth
-  translated_equation: cpd00009[c] + cpd00067[c] + cpd01376[c] <=> cpd00089[c] +
-    cpd03721[c]
+  translated_equation: Phosphate[c] + H+[c] + Cellotetraose[c] <=> Glucose-1-phosphate[c]
+    + Cellotriose[c]
 - id: BTS2
   equation: cpd01311[c] + cpd00084[c] => cpd00104[c] + (2) cpd00067[c] + cpd00035[c]
   EggNOG_annotation: peg.203:radical SAM domain protein;   peg.76:Catalyzes the conversion
@@ -98,8 +97,7 @@
   genes_string_PATRIC_id: peg.203,peg.76
   source: Cth model
   tag: Cth
-  translated_equation: cpd01311[c] + cpd00084[c] => cpd00104[c] + (2) cpd00067[c]
-    + cpd00035[c]
+  translated_equation: Dethiobiotin[c] + L-Cysteine[c] => BIOT[c] + (2) H+[c] + L-Alanine[c]
 - id: BTS3r
   equation: cpd01311[c] + (2) cpd00074[c] => cpd00239[c] + cpd00104[c]
   EggNOG_annotation: peg.203:radical SAM domain protein;   peg.76:Catalyzes the conversion
@@ -118,7 +116,7 @@
   genes_string_PATRIC_id: peg.203,peg.76
   source: Cth model
   tag: Cth
-  translated_equation: cpd01311[c] + (2) cpd00074[c] => cpd00239[c] + cpd00104[c]
+  translated_equation: Dethiobiotin[c] + (2) S[c] => H2S[c] + BIOT[c]
 - id: BTSr
   equation: cpd01311[c] + cpd00074[c] <=> cpd00104[c] + (2) cpd00067[c]
   EggNOG_annotation: peg.203:radical SAM domain protein;   peg.76:Catalyzes the conversion
@@ -137,7 +135,7 @@
   genes_string_PATRIC_id: peg.203,peg.76
   source: Cth model
   tag: Cth
-  translated_equation: cpd01311[c] + cpd00074[c] <=> cpd00104[c] + (2) cpd00067[c]
+  translated_equation: Dethiobiotin[c] + S[c] <=> BIOT[c] + (2) H+[c]
 - id: R03647
   name: L-Aspartate:tRNAAsp ligase (AMP-forming)
   genes: fig|31899.10.peg.1026
@@ -529,7 +527,9 @@
   pathway: Amino acids metabolism
   source: Cce model
   tag: Cce,Cth
-  translated_equation: 23dhdp[c] + h[c] + nadph[c] => nadp[c] + thdp[c]
+  translated_equation: 2,3-Dihydrodipicolinate[c] + H+[c] + |Nicotinamide adenine
+    dinucleotide phosphate - reduced[c]| => |Nicotinamide adenine dinucleotide phosphate[c]|
+    + 2,3,4,5-Tetrahydrodipicolinate[c]
 - id: DHDPRx
   name: dihydrodipicolinate reductase (NADPH)
   equation: 23dhdp[c] + h[c] + nadh[c] => nad[c] + thdp[c]
@@ -549,7 +549,8 @@
   pathway: Amino acids metabolism
   source: Cce model
   tag: Cce
-  translated_equation: 23dhdp[c] + h[c] + nadh[c] => nad[c] + thdp[c]
+  translated_equation: 2,3-Dihydrodipicolinate[c] + H+[c] + |Nicotinamide adenine
+    dinucleotide - reduced[c]| => |Nicotinamide adenine dinucleotide[c]| + 2,3,4,5-Tetrahydrodipicolinate[c]
 - id: UAAGDS
   name: UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelate synthetase
   equation: 26dap-M[c] + atp[c] + uamag[c] => adp[c] + h[c] + pi[c] + ugmd[c]
@@ -569,8 +570,8 @@
   pathway: Amino acids metabolism
   source: Cce model
   tag: Cth
-  translated_equation: 26dap-M[c] + atp[c] + uamag[c] => adp[c] + h[c] + pi[c] +
-    ugmd[c]
+  translated_equation: Meso-2,6-Diaminoheptanedioate[c] + ATP[c] + UDP-N-acetylmuramoyl-L-alanyl-D-glutamate[c]
+    => ADP[c] + H+[c] + Phosphate[c] + UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diaminopimelate[c]
 - id: UGMDDS
   name: UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine
     synthetase
@@ -593,8 +594,9 @@
   pathway: Amino acids metabolism
   source: Cce model
   tag: Cth
-  translated_equation: alaala[c] + atp[c] + ugmd[c] => ugmda[c] + pi[c] + h[c] +
-    adp[c]
+  translated_equation: D-Alanyl-D-alanine[c] + ATP[c] + UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diaminopimelate[c]
+    => UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine[c]
+    + Phosphate[c] + H+[c] + ADP[c]
 - id: R02060
   name: D-Glucosamine 1-phosphate 1,6-phosphomutase
   genes: fig|31899.10.peg.2899
@@ -830,7 +832,7 @@
   pathway: Amino sugar and nucleotide sugar metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C02352[c] + H2O[c] => D-Xylose[c] + C02352[c]
+  translated_equation: 1,4-beta-D-Xylan[c] + H2O[c] => D-Xylose[c] + 1,4-beta-D-Xylan[c]
 - id: R00022
   name: chitobiose N-acetylglucosaminohydrolase
   equation: C01674[c] + C00001[c] <=> (2) C00140[c]
@@ -1072,8 +1074,8 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: UDP-N-acetyl-D-glucosamine[c] + (2) |Nicotinamide adenine
-    dinucleotide (NAD)[c]| + H2O[c] <=> C04573[c] + (2) |Nicotinamide adenine dinucleotide
-    - reduced (NADH)[c]| + (2) |Proton (H+)[c]|
+    dinucleotide (NAD)[c]| + H2O[c] <=> UDP-N-acetyl-2-amino-2-deoxy-D-glucuronate[c]
+    + (2) |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + (2) |Proton (H+)[c]|
 - id: R03905
   name: Glu-tRNA(Gln):L-glutamine amido-ligase(ADP-forming)
   genes: fig|31899.10.peg.1218 and fig|31899.10.peg.1219 and fig|31899.10.peg.1220
@@ -1830,7 +1832,8 @@
   pathway: Aminobenzoate degradation
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C03360[c] + H2O[c] <=> C00870[c] + Phosphate[c]
+  translated_equation: '|4-Nitrophenyl phosphate[c]| + H2O[c] <=> 4-Nitrophenol[c]
+    + Phosphate[c]'
 - id: UAGDP
   name: UDP-N-acetylglucosaminediphosphorylase
   equation: acgam1p[c] + h[c] + utp[c] => uacgam[c] + ppi[c]
@@ -1855,7 +1858,8 @@
   pathway: Aminosugar Metabolism
   source: Tsac model
   tag: Cth
-  translated_equation: acgam1p[c] + h[c] + utp[c] => uacgam[c] + ppi[c]
+  translated_equation: '|N-Acetyl-D-glucosamine 1-phosphate[c]| + H+[c] + UTP[c]
+    => UDP-N-acetyl-D-glucosamine[c] + Diphosphate[c]'
 - id: R00667
   name: L-Ornithine:2-oxo-acid aminotransferase
   equation: C00077[c] + C00026[c] <=> C01165[c] + C00025[c]
@@ -1941,7 +1945,8 @@
   pathway: Arginine and proline metabolism
   source: KEGG
   tag: Tsac
-  translated_equation: C03078[c] + H2O[c] <=> C01035[c] + Ammonia[c]
+  translated_equation: 4-Guanidinobutanamide[c] + H2O[c] <=> 4-Guanidinobutanoate[c]
+    + Ammonia[c]
 - id: R01157
   name: Agmatine amidinohydrolase
   genes: fig|31899.10.peg.1803
@@ -2026,9 +2031,9 @@
   pathway: Arginine and proline metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C01157[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    C04281[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+  translated_equation: Hydroxyproline[c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
+    <=> L-1-Pyrroline-3-hydroxy-5-carboxylate[c] + |Nicotinamide adenine dinucleotide
+    - reduced (NADH)[c]| + |Proton (H+)[c]|
 - id: R03293
   name: trans-4-Hydroxy-L-proline:NADP+ 5-oxidoreductase
   equation: C01157[c] + C00006[c] <=> C04281[c] + C00005[c] + C00080[c]
@@ -2052,9 +2057,9 @@
   pathway: Arginine and proline metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C01157[c] + |Nicotinamide adenine dinucleotide phosphate (NADP)[c]|
-    <=> C04281[c] + |Nicotinamide adenine dinucleotide phosphate - reduced (NADPH)[c]|
-    + |Proton (H+)[c]|
+  translated_equation: Hydroxyproline[c] + |Nicotinamide adenine dinucleotide phosphate
+    (NADP)[c]| <=> L-1-Pyrroline-3-hydroxy-5-carboxylate[c] + |Nicotinamide adenine
+    dinucleotide phosphate - reduced (NADPH)[c]| + |Proton (H+)[c]|
 - id: R01954
   name: L-Citrulline:L-aspartate ligase (AMP-forming)
   genes: fig|31899.10.peg.1736
@@ -2354,7 +2359,7 @@
   pathway: Biosynthesis and degradation of polysaccharides
   source: Cce model
   tag: Cth,Tsac
-  translated_equation: glycogen[c] + pi[c] => g1p[c]
+  translated_equation: Glycogen[c] + Phosphate[c] => |D-Glucose 1-phosphate[c]|
 - id: GLCS1
   name: glycogen synthase (ADPGlc)
   equation: adpglc[c] => adp[c] + glycogen[c] + h[c]
@@ -2379,7 +2384,7 @@
   pathway: Biosynthesis and degradation of polysaccharides
   source: Cce model
   tag: Cth,Tsac
-  translated_equation: adpglc[c] => adp[c] + glycogen[c] + h[c]
+  translated_equation: ADPglucose[c] => ADP[c] + Glycogen[c] + H+[c]
 - id: R01158
   name: L-histidinol:NAD+ oxidoreductase
   genes: fig|31899.10.peg.1971
@@ -2439,8 +2444,8 @@
   pathway: Biosynthesis of ansamycins
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C12214[c] + |alpha-D-Ribose 5-phosphate (R5P)[c]| <=> C12215[c]
-    + |Sedoheptulose 7-phosphate[c]|
+  translated_equation: '|Aminofructose 6-phosphate[c]| + |alpha-D-Ribose 5-phosphate
+    (R5P)[c]| <=> |Iminoerythrose 4-phosphate[c]| + |Sedoheptulose 7-phosphate[c]|'
 - id: R07759
   equation: C16216[c] + C00005[c] + C00080[c] <=> C16217[c] + C00006[c]
   ec:
@@ -2462,9 +2467,9 @@
   pathway: Biosynthesis of unsaturated fatty acids
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C16216[c] + |Nicotinamide adenine dinucleotide phosphate -
-    reduced (NADPH)[c]| + |Proton (H+)[c]| <=> C16217[c] + |Nicotinamide adenine
-    dinucleotide phosphate (NADP)[c]|
+  translated_equation: 3-Oxostearoyl-CoA[c] + |Nicotinamide adenine dinucleotide
+    phosphate - reduced (NADPH)[c]| + |Proton (H+)[c]| <=> 3-Hydroxyoctadecanoyl-CoA[c]
+    + |Nicotinamide adenine dinucleotide phosphate (NADP)[c]|
 - id: R03182
   name: 7,8-Diaminononanoate:carbon-dioxide cyclo-ligase
   genes: fig|31899.10.peg.78
@@ -2669,7 +2674,7 @@
   pathway: Biotin metabolism
   source: KEGG
   tag: Cth,Tsac
-  translated_equation: C01063[c] + |L-Alanine (Ala-L)[c]| <=> 8-Amino-7-oxononanoate[c]
+  translated_equation: 6-Carboxyhexanoyl-CoA[c] + |L-Alanine (Ala-L)[c]| <=> 8-Amino-7-oxononanoate[c]
     + |Coenzyme A (CoA)[c]| + CO2[c]
 - id: R10115
   name: malonyl-[acyl-carrier protein]-methyl-ester:malonyl-[acyl-carrier protein]  C-acyltransferase
@@ -2696,8 +2701,9 @@
   pathway: Biotin metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C19673[c] + |Malonyl-[acyl-carrier protein][c]| <=> C20372[c]
-    + CO2[c] + |Acyl-carrier protein[c]|
+  translated_equation: '|Malonyl-[acp] methyl ester[c]| + |Malonyl-[acyl-carrier
+    protein][c]| <=> |3-Ketoglutaryl-[acp] methyl ester[c]| + CO2[c] + |Acyl-carrier
+    protein[c]|'
 - id: R10119
   name: glutaryl-[acp]-methyl-ester:malonyl-[acyl-carrier protein] C-acyltransferase
     (decarboxylating)
@@ -2725,8 +2731,9 @@
   pathway: Biotin metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C20375[c] + |Malonyl-[acyl-carrier protein][c]| <=> C20376[c]
-    + CO2[c] + |Acyl-carrier protein[c]|
+  translated_equation: '|Glutaryl-[acp] methyl ester[c]| + |Malonyl-[acyl-carrier
+    protein][c]| <=> |3-Ketopimeloyl-[acp] methyl ester[c]| + CO2[c] + |Acyl-carrier
+    protein[c]|'
 - id: R10116
   name: 3-hydroxyglutaryl-[acp]-methyl-ester:NADP+ oxidoreductase
   equation: C20372[c] + C00005[c] + C00080[c] <=> C20373[c] + C00006[c]
@@ -2750,9 +2757,9 @@
   pathway: Biotin metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C20372[c] + |Nicotinamide adenine dinucleotide phosphate -
-    reduced (NADPH)[c]| + |Proton (H+)[c]| <=> C20373[c] + |Nicotinamide adenine
-    dinucleotide phosphate (NADP)[c]|
+  translated_equation: '|3-Ketoglutaryl-[acp] methyl ester[c]| + |Nicotinamide adenine
+    dinucleotide phosphate - reduced (NADPH)[c]| + |Proton (H+)[c]| <=> |3-Hydroxyglutaryl-[acp]
+    methyl ester[c]| + |Nicotinamide adenine dinucleotide phosphate (NADP)[c]|'
 - id: R10120
   name: 3-hydroxypimeloyl-[acp]-methyl-ester:NADP+ oxidoreductase
   equation: C20376[c] + C00005[c] + C00080[c] <=> C20377[c] + C00006[c]
@@ -2776,9 +2783,9 @@
   pathway: Biotin metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C20376[c] + |Nicotinamide adenine dinucleotide phosphate -
-    reduced (NADPH)[c]| + |Proton (H+)[c]| <=> C20377[c] + |Nicotinamide adenine
-    dinucleotide phosphate (NADP)[c]|
+  translated_equation: '|3-Ketopimeloyl-[acp] methyl ester[c]| + |Nicotinamide adenine
+    dinucleotide phosphate - reduced (NADPH)[c]| + |Proton (H+)[c]| <=> |3-Hydroxypimeloyl-[acp]
+    methyl ester[c]| + |Nicotinamide adenine dinucleotide phosphate (NADP)[c]|'
 - id: R10117
   name: 3-hydroxyglutaryl-[acp]-methyl-ester hydro-lyase
   equation: C20373[c] <=> C20374[c] + C00001[c]
@@ -2805,7 +2812,8 @@
   pathway: Biotin metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C20373[c] <=> C20374[c] + H2O[c]
+  translated_equation: '|3-Hydroxyglutaryl-[acp] methyl ester[c]| <=> |Enoylglutaryl-[acp]
+    methyl ester[c]| + H2O[c]'
 - id: R10121
   name: 3-hydroxypimeloyl-[acp]-methyl-ester hydro-lyase
   equation: C20377[c] <=> C20378[c] + C00001[c]
@@ -2832,7 +2840,8 @@
   pathway: Biotin metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C20377[c] <=> C20378[c] + H2O[c]
+  translated_equation: '|3-Hydroxypimeloyl-[acp] methyl ester[c]| <=> |Enoylpimeloyl-[acp]
+    methyl ester[c]| + H2O[c]'
 - id: R01829
   name: sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase
   equation: C00447[c] <=> C00111[c] + C00279[c]
@@ -2862,8 +2871,8 @@
   pathway: Carbon fixation in photosynthetic organisms
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00447[c] <=> |Dihydroxyacetone phosphate (DHAP)[c]| + |D-Erythrose
-    4-phosphate[c]|
+  translated_equation: '|Sedoheptulose 1,7-bisphosphate[c]| <=> |Dihydroxyacetone
+    phosphate (DHAP)[c]| + |D-Erythrose 4-phosphate[c]|'
 - id: R05233
   name: trans-3-Chloro-2-propene-1-ol:NAD+ oxidoreductase
   equation: C06611[c] + C00003[c] <=> C06613[c] + C00004[c] + C00080[c]
@@ -2888,9 +2897,9 @@
   pathway: Chloroalkane and chloroalkene degradation
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C06611[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    C06613[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+  translated_equation: trans-3-Chloro-2-propene-1-ol[c] + |Nicotinamide adenine dinucleotide
+    (NAD)[c]| <=> |trans-3-Chloroallyl aldehyde[c]| + |Nicotinamide adenine dinucleotide
+    - reduced (NADH)[c]| + |Proton (H+)[c]|
 - id: R05234
   name: cis-3-chloro-2-propene-1-ol:NAD+ oxidoreductase
   equation: C06612[c] + C00003[c] <=> C16348[c] + C00004[c] + C00080[c]
@@ -2915,9 +2924,9 @@
   pathway: Chloroalkane and chloroalkene degradation
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C06612[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    C16348[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+  translated_equation: cis-3-Chloro-2-propene-1-ol[c] + |Nicotinamide adenine dinucleotide
+    (NAD)[c]| <=> |cis-3-Chloroallyl aldehyde[c]| + |Nicotinamide adenine dinucleotide
+    - reduced (NADH)[c]| + |Proton (H+)[c]|
 - id: R01826
   name: Phosphoenolpyruvate:D-erythrose-4-phosphate C-(1-carboxyvinyl)transferase
     (phosphate hydrolysing, 2-carboxy-2-oxoethyl-forming)
@@ -3404,8 +3413,7 @@
   genes_string_NCBI_id: Athe_1062,Athe_1316,Athe_1319,peg.1806
   names:
   - (S)-malate:NADP+ oxidoreductase (oxaloacetate-decarboxylating)
-  note: reaction direction is based on uniprot description (https://www.uniprot.org/uniprot/P48163)
-    and iJO1366 model
+  note: No activity detecdted with either NADPH or NADH in assays.
   other_pathways:
   - Pyruvate metabolism
   - Carbon fixation in photosynthetic organisms
@@ -3418,7 +3426,6 @@
   translated_equation: L-Malate[c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
     => |Pyruvate (Pyr)[c]| + CO2[c] + |Nicotinamide adenine dinucleotide - reduced
     (NADH)[c]| + |Proton (H+)[c]|
-  note: No activity detecdted with either NADPH or NADH in assays.
 - id: R00342
   name: (S)-malate:NAD+ oxidoreductase
   genes: fig|31899.10.peg.2434
@@ -3439,7 +3446,8 @@
   genes_kegg: None
   names:
   - (S)-malate:NAD+ oxidoreductase
-  note: add this rxn based on experimental data from Dr. Adams's group
+  note: Based on assay done by Dr.Adams's group, this rxn goes from malate to OAA
+    when malate concentration is high (> 5mM), physilogically this may not be possible.
   other_pathways:
   - Citrate cycle (TCA cycle)
   - Pyruvate metabolism
@@ -3454,10 +3462,9 @@
   - Carbon metabolism
   pathway: Citrate cycle (TCA cycle)
   source: Cce,Cth,Tsac
-  translated_equation: '|Oxaloacetate (Oaa)[c]| + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]|
-    + |Proton (H+)[c]| => L-Malate[c] + |Nicotinamide adenine dinucleotide (NAD)[c]|'
-  note: Based on assay done by Dr.Adams's group, this rxn goes from malate to OAA when 
-    malate concentration is high (> 5mM), physilogically this may not be possible.
+  translated_equation: '|Oxaloacetate (Oaa)[c]| + |Nicotinamide adenine dinucleotide
+    - reduced (NADH)[c]| + |Proton (H+)[c]| => L-Malate[c] + |Nicotinamide adenine
+    dinucleotide (NAD)[c]|'
 - id: BTS
   name: Biotin synthase
   equation: dtbt[c] + (2) s[c] => btn[c] + h2s[c]
@@ -3476,7 +3483,7 @@
   pathway: Coenzymes and Vitamins
   source: Cce model
   tag: Cce
-  translated_equation: dtbt[c] + (2) s[c] => btn[c] + h2s[c]
+  translated_equation: Dethiobiotin[c] + (2) Sulfur[c] => Biotin[c] + |Hydrogen sulfide[c]|
 - id: R10040
   name: beta-D-glucoside glucohydrolase
   equation: C01594[c] + C00001[c] <=> C02659[c] + C00221[c]
@@ -3502,7 +3509,7 @@
   pathway: Cyanoamino acid metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C01594[c] + H2O[c] <=> C02659[c] + C00221[c]
+  translated_equation: Linamarin[c] + H2O[c] <=> |Acetone cyanohydrin[c]| + beta-D-Glucose[c]
 - id: R10035
   name: beta-D-glucoside glucohydrolase
   equation: C05143[c] + C00001[c] <=> C03742[c] + C00221[c]
@@ -3528,7 +3535,7 @@
   pathway: Cyanoamino acid metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C05143[c] + H2O[c] <=> C03742[c] + C00221[c]
+  translated_equation: Dhurrin[c] + H2O[c] <=> (S)-4-Hydroxymandelonitrile[c] + beta-D-Glucose[c]
 - id: R02558
   name: (R)-Prunasin beta-D-glucohydrolase
   equation: C00844[c] + C00001[c] <=> C00561[c] + C00031[c]
@@ -3556,7 +3563,7 @@
   pathway: Cyanoamino acid metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00844[c] + H2O[c] <=> C00561[c] + D-Glucose[c]
+  translated_equation: Prunasin[c] + H2O[c] <=> Mandelonitrile[c] + D-Glucose[c]
 - id: R10039
   name: beta-D-glucoside glucohydrolase
   equation: C08334[c] + C00001[c] <=> C18796[c] + C00221[c]
@@ -3582,7 +3589,8 @@
   pathway: Cyanoamino acid metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C08334[c] + H2O[c] <=> C18796[c] + C00221[c]
+  translated_equation: Lotaustralin[c] + H2O[c] <=> (2R)-2-Hydroxy-2-methylbutanenitrile[c]
+    + beta-D-Glucose[c]
 - id: R02985
   name: amygdalin beta-glucosidase
   equation: C00844[c] + C00031[c] <=> C08325[c] + C00001[c]
@@ -3610,7 +3618,7 @@
   pathway: Cyanoamino acid metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00844[c] + D-Glucose[c] <=> C08325[c] + H2O[c]
+  translated_equation: Prunasin[c] + D-Glucose[c] <=> Amygdalin[c] + H2O[c]
 - id: R10991
   name: 2-aminobutanoate:2-oxoglutarate aminotransferase
   genes: fig|31899.10.peg.1109
@@ -4569,9 +4577,9 @@
   pathway: Drug metabolism - cytochrome P450
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C16586[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    C16587[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+  translated_equation: '|2-Phenyl-1,3-propanediol monocarbamate[c]| + |Nicotinamide
+    adenine dinucleotide (NAD)[c]| <=> 3-Carbamoyl-2-phenylpropionaldehyde[c] + |Nicotinamide
+    adenine dinucleotide - reduced (NADH)[c]| + |Proton (H+)[c]|'
 - id: R08310
   name: 4-hydroxy-5-phenyltetrahydro-1,3-oxazin-2-one:NAD+ oxidoreductase
   equation: C16595[c] + C00003[c] <=> C16596[c] + C00004[c] + C00080[c]
@@ -4594,9 +4602,9 @@
   pathway: Drug metabolism - cytochrome P450
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C16595[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    C16596[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+  translated_equation: 4-Hydroxy-5-phenyltetrahydro-1,3-oxazin-2-one[c] + |Nicotinamide
+    adenine dinucleotide (NAD)[c]| <=> 5-Phenyl-1,3-oxazinane-2,4-dione[c] + |Nicotinamide
+    adenine dinucleotide - reduced (NADH)[c]| + |Proton (H+)[c]|
 - id: R08281
   name: alcophosphamide:NAD+ oxidoreductase
   equation: C07645[c] + C00004[c] + C00080[c] <=> C16551[c] + C00003[c]
@@ -4619,8 +4627,9 @@
   pathway: Drug metabolism - cytochrome P450
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C07645[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]|
-    + |Proton (H+)[c]| <=> C16551[c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
+  translated_equation: Aldophosphamide[c] + |Nicotinamide adenine dinucleotide -
+    reduced (NADH)[c]| + |Proton (H+)[c]| <=> Alcophosphamide[c] + |Nicotinamide
+    adenine dinucleotide (NAD)[c]|
 - id: R08237
   name: 6-thioinosine 5'-monophosphate:diphosphate phospho-D-ribosyltransferase
   equation: C02380[c] + C00119[c] <=> C04646[c] + C00013[c]
@@ -4643,8 +4652,8 @@
   pathway: Drug metabolism - other enzymes
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C02380[c] + |5-Phospho-alpha-D-ribose 1-diphosphate (PRPP)[c]|
-    <=> C04646[c] + Diphosphate[c]
+  translated_equation: 6-Mercaptopurine[c] + |5-Phospho-alpha-D-ribose 1-diphosphate
+    (PRPP)[c]| <=> 6-Thioinosine-5'-monophosphate[c] + Diphosphate[c]
 - id: R08245
   name: 6-thioguanosine monophosphate:diphosphate phospho-D-ribosyltransferase
   equation: C07648[c] + C00119[c] <=> C16619[c] + C00013[c]
@@ -4667,8 +4676,8 @@
   pathway: Drug metabolism - other enzymes
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C07648[c] + |5-Phospho-alpha-D-ribose 1-diphosphate (PRPP)[c]|
-    <=> C16619[c] + Diphosphate[c]
+  translated_equation: Thioguanine[c] + |5-Phospho-alpha-D-ribose 1-diphosphate (PRPP)[c]|
+    <=> |6-Thioguanosine monophosphate[c]| + Diphosphate[c]
 - id: R08238
   name: 6-methylthiopurine 5'-monophosphate ribonucleotide:diphosphate phospho-D-ribosyltransferase
   equation: C16614[c] + C00119[c] <=> C16615[c] + C00013[c]
@@ -4691,8 +4700,8 @@
   pathway: Drug metabolism - other enzymes
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C16614[c] + |5-Phospho-alpha-D-ribose 1-diphosphate (PRPP)[c]|
-    <=> C16615[c] + Diphosphate[c]
+  translated_equation: 6-Methylmercaptopurine[c] + |5-Phospho-alpha-D-ribose 1-diphosphate
+    (PRPP)[c]| <=> |6-Methylthiopurine 5'-monophosphate ribonucleotide[c]| + Diphosphate[c]
 - id: R08240
   name: 6-thioinosine 5'-monophosphate:NAD+ oxidoreductase
   equation: C04646[c] + C00003[c] + C00001[c] <=> C16618[c] + C00004[c] + C00080[c]
@@ -4719,9 +4728,9 @@
   pathway: Drug metabolism - other enzymes
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C04646[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| +
-    H2O[c] <=> C16618[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]|
-    + |Proton (H+)[c]|
+  translated_equation: 6-Thioinosine-5'-monophosphate[c] + |Nicotinamide adenine
+    dinucleotide (NAD)[c]| + H2O[c] <=> |6-Thioxanthine 5'-monophosphate[c]| + |Nicotinamide
+    adenine dinucleotide - reduced (NADH)[c]| + |Proton (H+)[c]|
 - id: BF-H2ase
   name: Bifurcating hydrogenase
   genes: fig|31899.10.peg.1783 and fig|31899.10.peg.1784 and fig|31899.10.peg.1785
@@ -4806,8 +4815,9 @@
   pathway: Energy Metabolism
   source: Cce model
   tag: Tsac
-  translated_equation: accoa[c] + (2) fdox[c] + h2o[c] + h4spt[c] <=> co2[c] + coa[c]
-    + (2) fdred[c] + (2) h[c] + mh4spt[c]
+  translated_equation: Acetyl-CoA[c] + (2) |Ferredoxin (oxidized) 2[4Fe-4S][c]| +
+    water[c] + Tetrahydrosarcinapterin[c] <=> |carbon dioxide[c]| + |Coenzyme A[c]|
+    + (2) |Ferredoxin (reduced) 2[4Fe-4S][c]| + (2) H+[c] + N5-methyl-tetrahydrosarcinapterin[c]
 - id: NADH5
   name: NADH dehydrogenase (ubiquinone-8 )
   equation: h[c] + nadh[c] + q8[c] => nad[c] + q8h2[c]
@@ -4827,7 +4837,8 @@
   pathway: Energy Metabolism
   source: Cce model
   tag: Tsac
-  translated_equation: h[c] + nadh[c] + q8[c] => nad[c] + q8h2[c]
+  translated_equation: H+[c] + |Nicotinamide adenine dinucleotide - reduced[c]| +
+    Ubiquinone-8[c] => |Nicotinamide adenine dinucleotide[c]| + Ubiquinol-8[c]
 - id: KAS1
   name: 'b ketoacyl synthetase Iso C140 '
   equation: (14) h[c] + (10) nadph[c] + ibcoa[c] + (5) malcoa[c] => (10) nadp[c]
@@ -4871,8 +4882,10 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: (14) h[c] + (10) nadph[c] + ibcoa[c] + (5) malcoa[c] => (10)
-    nadp[c] + (6) coa[c] + (4) h2o[c] + (5) co2[c] + fa1[c]
+  translated_equation: (14) H+[c] + (10) |Nicotinamide adenine dinucleotide phosphate
+    - reduced[c]| + Isobutyryl-CoA[c] + (5) |Malonyl CoA[c]| => (10) |Nicotinamide
+    adenine dinucleotide phosphate[c]| + (6) |Coenzyme A[c]| + (4) water[c] + (5)
+    |carbon dioxide[c]| + |Fatty acid (Iso-C14:0)[c]|
 - id: KAS10
   name: 'b ketoacyl synthetase Anteiso C171 '
   equation: 2mbcoa[c] + (16) h[c] + (11) nadph[c] + (6) malcoa[c] => (11) nadp[c]
@@ -4916,8 +4929,10 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: 2mbcoa[c] + (16) h[c] + (11) nadph[c] + (6) malcoa[c] => (11)
-    nadp[c] + (7) coa[c] + fa10[c] + (5) h2o[c] + (6) co2[c]
+  translated_equation: 2-Methylbutanoyl-CoA[c] + (16) H+[c] + (11) |Nicotinamide
+    adenine dinucleotide phosphate - reduced[c]| + (6) |Malonyl CoA[c]| => (11) |Nicotinamide
+    adenine dinucleotide phosphate[c]| + (7) |Coenzyme A[c]| + |Fatty acid (Anteiso-C17:1)[c]|
+    + (5) water[c] + (6) |carbon dioxide[c]|
 - id: KAS100iso
   name: b ketoacyl synthetase branched(iso) C100
   equation: (8) h[c] + (6) nadph[c] + ibcoa[c] + (3) malcoa[c] => (6) nadp[c] + (4)
@@ -4961,8 +4976,10 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth
-  translated_equation: (8) h[c] + (6) nadph[c] + ibcoa[c] + (3) malcoa[c] => (6)
-    nadp[c] + (4) coa[c] + (2) h2o[c] + dca[c] + (3) co2[c]
+  translated_equation: (8) H+[c] + (6) |Nicotinamide adenine dinucleotide phosphate
+    - reduced[c]| + Isobutyryl-CoA[c] + (3) |Malonyl CoA[c]| => (6) |Nicotinamide
+    adenine dinucleotide phosphate[c]| + (4) |Coenzyme A[c]| + (2) water[c] + |Decanoate
+    (n-C10:0)[c]| + (3) |carbon dioxide[c]|
 - id: KAS11
   name: 'b ketoacyl synthetase Iso C170 '
   equation: (17) h[c] + (12) nadph[c] + ivcoa[c] + (6) malcoa[c] => (12) nadp[c]
@@ -5006,8 +5023,10 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: (17) h[c] + (12) nadph[c] + ivcoa[c] + (6) malcoa[c] => (12)
-    nadp[c] + (7) coa[c] + fa11[c] + (5) h2o[c] + (6) co2[c]
+  translated_equation: (17) H+[c] + (12) |Nicotinamide adenine dinucleotide phosphate
+    - reduced[c]| + Isovaleryl-CoA[c] + (6) |Malonyl CoA[c]| => (12) |Nicotinamide
+    adenine dinucleotide phosphate[c]| + (7) |Coenzyme A[c]| + |Fatty acid (Iso-C17:0)[c]|
+    + (5) water[c] + (6) |carbon dioxide[c]|
 - id: KAS12
   name: 'b ketoacyl synthetase Anteiso C170 '
   equation: 2mbcoa[c] + (17) h[c] + (12) nadph[c] + (6) malcoa[c] => (12) nadp[c]
@@ -5051,8 +5070,10 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: 2mbcoa[c] + (17) h[c] + (12) nadph[c] + (6) malcoa[c] => (12)
-    nadp[c] + (7) coa[c] + fa12[c] + (5) h2o[c] + (6) co2[c]
+  translated_equation: 2-Methylbutanoyl-CoA[c] + (17) H+[c] + (12) |Nicotinamide
+    adenine dinucleotide phosphate - reduced[c]| + (6) |Malonyl CoA[c]| => (12) |Nicotinamide
+    adenine dinucleotide phosphate[c]| + (7) |Coenzyme A[c]| + |Fatty acid (Anteiso-C17:0)[c]|
+    + (5) water[c] + (6) |carbon dioxide[c]|
 - id: KAS13
   name: 'b ketoacyl synthetase n C180 '
   equation: (23) h[c] + (16) nadph[c] + accoa[c] + (8) malcoa[c] => ocdca[c] + (16)
@@ -5096,8 +5117,10 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: (23) h[c] + (16) nadph[c] + accoa[c] + (8) malcoa[c] => ocdca[c]
-    + (16) nadp[c] + (9) coa[c] + (7) h2o[c] + (8) co2[c]
+  translated_equation: (23) H+[c] + (16) |Nicotinamide adenine dinucleotide phosphate
+    - reduced[c]| + Acetyl-CoA[c] + (8) |Malonyl CoA[c]| => |Octadecanoate (n-C18:0)[c]|
+    + (16) |Nicotinamide adenine dinucleotide phosphate[c]| + (9) |Coenzyme A[c]|
+    + (7) water[c] + (8) |carbon dioxide[c]|
 - id: KAS130iso
   name: b ketoacyl synthetase branched(iso) C130
   equation: (11) h[c] + (8) nadph[c] + ivcoa[c] + (4) malcoa[c] => (8) nadp[c] +
@@ -5141,8 +5164,10 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth
-  translated_equation: (11) h[c] + (8) nadph[c] + ivcoa[c] + (4) malcoa[c] => (8)
-    nadp[c] + (5) coa[c] + (3) h2o[c] + trdca[c] + (4) co2[c]
+  translated_equation: (11) H+[c] + (8) |Nicotinamide adenine dinucleotide phosphate
+    - reduced[c]| + Isovaleryl-CoA[c] + (4) |Malonyl CoA[c]| => (8) |Nicotinamide
+    adenine dinucleotide phosphate[c]| + (5) |Coenzyme A[c]| + (3) water[c] + None[c]
+    + (4) |carbon dioxide[c]|
 - id: KAS141
   name: 'b ketoacyl synthetase n C141 '
   equation: (16) h[c] + (11) nadph[c] + accoa[c] + (6) malcoa[c] => ttdcea[c] + (11)
@@ -5186,8 +5211,10 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth
-  translated_equation: (16) h[c] + (11) nadph[c] + accoa[c] + (6) malcoa[c] => ttdcea[c]
-    + (11) nadp[c] + (7) coa[c] + (5) h2o[c] + (6) co2[c]
+  translated_equation: (16) H+[c] + (11) |Nicotinamide adenine dinucleotide phosphate
+    - reduced[c]| + Acetyl-CoA[c] + (6) |Malonyl CoA[c]| => |tetradecenoate (n-C14:1)[c]|
+    + (11) |Nicotinamide adenine dinucleotide phosphate[c]| + (7) |Coenzyme A[c]|
+    + (5) water[c] + (6) |carbon dioxide[c]|
 - id: KAS17
   name: 'b ketoacyl synthetase n C181 '
   equation: (22) h[c] + (15) nadph[c] + accoa[c] + (8) malcoa[c] => (15) nadp[c]
@@ -5231,8 +5258,10 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: (22) h[c] + (15) nadph[c] + accoa[c] + (8) malcoa[c] => (15)
-    nadp[c] + (9) coa[c] + (7) h2o[c] + ocdcea[c] + (8) co2[c]
+  translated_equation: (22) H+[c] + (15) |Nicotinamide adenine dinucleotide phosphate
+    - reduced[c]| + Acetyl-CoA[c] + (8) |Malonyl CoA[c]| => (15) |Nicotinamide adenine
+    dinucleotide phosphate[c]| + (9) |Coenzyme A[c]| + (7) water[c] + |octadecenoate
+    (n-C18:1)[c]| + (8) |carbon dioxide[c]|
 - id: KAS2
   name: 'b ketoacyl synthetase n C140 '
   equation: (17) h[c] + (12) nadph[c] + accoa[c] + (6) malcoa[c] => ttdca[c] + (12)
@@ -5276,8 +5305,10 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: (17) h[c] + (12) nadph[c] + accoa[c] + (6) malcoa[c] => ttdca[c]
-    + (12) nadp[c] + (7) coa[c] + (5) h2o[c] + (6) co2[c]
+  translated_equation: (17) H+[c] + (12) |Nicotinamide adenine dinucleotide phosphate
+    - reduced[c]| + Acetyl-CoA[c] + (6) |Malonyl CoA[c]| => |Tetradecanoate (n-C14:0)[c]|
+    + (12) |Nicotinamide adenine dinucleotide phosphate[c]| + (7) |Coenzyme A[c]|
+    + (5) water[c] + (6) |carbon dioxide[c]|
 - id: KAS3
   name: 'b ketoacyl synthetase Iso C150 '
   equation: (14) h[c] + (10) nadph[c] + ivcoa[c] + (5) malcoa[c] => (10) nadp[c]
@@ -5321,8 +5352,10 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: (14) h[c] + (10) nadph[c] + ivcoa[c] + (5) malcoa[c] => (10)
-    nadp[c] + (6) coa[c] + (4) h2o[c] + fa3[c] + (5) co2[c]
+  translated_equation: (14) H+[c] + (10) |Nicotinamide adenine dinucleotide phosphate
+    - reduced[c]| + Isovaleryl-CoA[c] + (5) |Malonyl CoA[c]| => (10) |Nicotinamide
+    adenine dinucleotide phosphate[c]| + (6) |Coenzyme A[c]| + (4) water[c] + |Fatty
+    acid (Iso-C15:0)[c]| + (5) |carbon dioxide[c]|
 - id: KAS4
   name: 'b ketoacyl synthetase Anteiso C150 '
   equation: 2mbcoa[c] + (14) h[c] + (10) nadph[c] + (5) malcoa[c] => (10) nadp[c]
@@ -5366,8 +5399,10 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: 2mbcoa[c] + (14) h[c] + (10) nadph[c] + (5) malcoa[c] => (10)
-    nadp[c] + (6) coa[c] + (4) h2o[c] + fa4[c] + (5) co2[c]
+  translated_equation: 2-Methylbutanoyl-CoA[c] + (14) H+[c] + (10) |Nicotinamide
+    adenine dinucleotide phosphate - reduced[c]| + (5) |Malonyl CoA[c]| => (10) |Nicotinamide
+    adenine dinucleotide phosphate[c]| + (6) |Coenzyme A[c]| + (4) water[c] + |Fatty
+    acid (Anteiso-C15:0)[c]| + (5) |carbon dioxide[c]|
 - id: KAS5
   name: 'b ketoacyl synthetase Iso C161 '
   equation: (16) h[c] + (11) nadph[c] + ibcoa[c] + (6) malcoa[c] => (11) nadp[c]
@@ -5411,8 +5446,10 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: (16) h[c] + (11) nadph[c] + ibcoa[c] + (6) malcoa[c] => (11)
-    nadp[c] + (7) coa[c] + (5) h2o[c] + fa5[c] + (6) co2[c]
+  translated_equation: (16) H+[c] + (11) |Nicotinamide adenine dinucleotide phosphate
+    - reduced[c]| + Isobutyryl-CoA[c] + (6) |Malonyl CoA[c]| => (11) |Nicotinamide
+    adenine dinucleotide phosphate[c]| + (7) |Coenzyme A[c]| + (5) water[c] + |Fatty
+    acid (Iso-C16:1)[c]| + (6) |carbon dioxide[c]|
 - id: KAS6
   name: 'b ketoacyl synthetase Iso C160 '
   equation: (17) h[c] + (12) nadph[c] + ibcoa[c] + (6) malcoa[c] => fa6[c] + (12)
@@ -5456,8 +5493,10 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: (17) h[c] + (12) nadph[c] + ibcoa[c] + (6) malcoa[c] => fa6[c]
-    + (12) nadp[c] + (7) coa[c] + (5) h2o[c] + (6) co2[c]
+  translated_equation: (17) H+[c] + (12) |Nicotinamide adenine dinucleotide phosphate
+    - reduced[c]| + Isobutyryl-CoA[c] + (6) |Malonyl CoA[c]| => |Fatty acid (iso-C16:0)[c]|
+    + (12) |Nicotinamide adenine dinucleotide phosphate[c]| + (7) |Coenzyme A[c]|
+    + (5) water[c] + (6) |carbon dioxide[c]|
 - id: KAS7
   name: 'b ketoacyl synthetase n C161 '
   equation: (19) h[c] + (13) nadph[c] + accoa[c] + (7) malcoa[c] => (13) nadp[c]
@@ -5501,8 +5540,10 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: (19) h[c] + (13) nadph[c] + accoa[c] + (7) malcoa[c] => (13)
-    nadp[c] + (8) coa[c] + (6) h2o[c] + (7) co2[c] + hdcea[c]
+  translated_equation: (19) H+[c] + (13) |Nicotinamide adenine dinucleotide phosphate
+    - reduced[c]| + Acetyl-CoA[c] + (7) |Malonyl CoA[c]| => (13) |Nicotinamide adenine
+    dinucleotide phosphate[c]| + (8) |Coenzyme A[c]| + (6) water[c] + (7) |carbon
+    dioxide[c]| + |Hexadecenoate (n-C16:1)[c]|
 - id: KAS8
   name: 'b ketoacyl synthetase palmitate n C160 '
   equation: (20) h[c] + (14) nadph[c] + accoa[c] + (7) malcoa[c] => (14) nadp[c]
@@ -5546,8 +5587,10 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: (20) h[c] + (14) nadph[c] + accoa[c] + (7) malcoa[c] => (14)
-    nadp[c] + (8) coa[c] + (6) h2o[c] + hdca[c] + (7) co2[c]
+  translated_equation: (20) H+[c] + (14) |Nicotinamide adenine dinucleotide phosphate
+    - reduced[c]| + Acetyl-CoA[c] + (7) |Malonyl CoA[c]| => (14) |Nicotinamide adenine
+    dinucleotide phosphate[c]| + (8) |Coenzyme A[c]| + (6) water[c] + |Hexadecanoate
+    (n-C16:0)[c]| + (7) |carbon dioxide[c]|
 - id: KAS9
   name: 'b ketoacyl synthetase Iso C171 '
   equation: (16) h[c] + (11) nadph[c] + ivcoa[c] + (6) malcoa[c] => (11) nadp[c]
@@ -5591,8 +5634,10 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: (16) h[c] + (11) nadph[c] + ivcoa[c] + (6) malcoa[c] => (11)
-    nadp[c] + (7) coa[c] + (5) h2o[c] + fa9[c] + (6) co2[c]
+  translated_equation: (16) H+[c] + (11) |Nicotinamide adenine dinucleotide phosphate
+    - reduced[c]| + Isovaleryl-CoA[c] + (6) |Malonyl CoA[c]| => (11) |Nicotinamide
+    adenine dinucleotide phosphate[c]| + (7) |Coenzyme A[c]| + (5) water[c] + |Fatty
+    acid (Iso-C17:1)[c]| + (6) |carbon dioxide[c]|
 - id: FACOAL140
   name: 'fatty acid CoA-Ligase tetradecanoate '
   equation: ttdca[c] + coa[c] + atp[c] <=> tdcoa[c] + amp[c] + ppi[c]
@@ -5611,7 +5656,8 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Tsac
-  translated_equation: ttdca[c] + coa[c] + atp[c] <=> tdcoa[c] + amp[c] + ppi[c]
+  translated_equation: '|Tetradecanoate (n-C14:0)[c]| + |Coenzyme A[c]| + ATP[c]
+    <=> |Tetradecanoyl-CoA (n-C14:0CoA)[c]| + AMP[c] + Diphosphate[c]'
 - id: FACOAL140_ISO_
   name: 'fatty acid CoA ligase Iso C140 '
   equation: coa[c] + atp[c] + fa1[c] <=> amp[c] + ppi[c] + fa1coa[c]
@@ -5630,7 +5676,8 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Tsac
-  translated_equation: coa[c] + atp[c] + fa1[c] <=> amp[c] + ppi[c] + fa1coa[c]
+  translated_equation: '|Coenzyme A[c]| + ATP[c] + |Fatty acid (Iso-C14:0)[c]| <=>
+    AMP[c] + Diphosphate[c] + None[c]'
 - id: FACOAL150_ISO_
   name: 'fatty acid CoA ligase Iso C150 '
   equation: coa[c] + atp[c] + fa3[c] <=> fa3coa[c] + amp[c] + ppi[c]
@@ -5649,7 +5696,8 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Tsac
-  translated_equation: coa[c] + atp[c] + fa3[c] <=> fa3coa[c] + amp[c] + ppi[c]
+  translated_equation: '|Coenzyme A[c]| + ATP[c] + |Fatty acid (Iso-C15:0)[c]| <=>
+    None[c] + AMP[c] + Diphosphate[c]'
 - id: FACOAL150_anteiso_
   name: 'fatty acid CoA-Ligase anteiso C150 '
   equation: coa[c] + atp[c] + fa4[c] <=> fa4coa[c] + amp[c] + ppi[c]
@@ -5668,7 +5716,8 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Tsac
-  translated_equation: coa[c] + atp[c] + fa4[c] <=> fa4coa[c] + amp[c] + ppi[c]
+  translated_equation: '|Coenzyme A[c]| + ATP[c] + |Fatty acid (Anteiso-C15:0)[c]|
+    <=> None[c] + AMP[c] + Diphosphate[c]'
 - id: FACOAL160_ISO_
   name: 'fatty acid CoA-Ligase Iso C160 '
   equation: fa6[c] + coa[c] + atp[c] <=> fa6coa[c] + amp[c] + ppi[c]
@@ -5687,7 +5736,8 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Tsac
-  translated_equation: fa6[c] + coa[c] + atp[c] <=> fa6coa[c] + amp[c] + ppi[c]
+  translated_equation: '|Fatty acid (iso-C16:0)[c]| + |Coenzyme A[c]| + ATP[c] <=>
+    None[c] + AMP[c] + Diphosphate[c]'
 - id: FACOAL161
   name: 'fatty acid CoA ligase hexadecenoate '
   equation: coa[c] + atp[c] + hdcea[c] <=> amp[c] + ppi[c] + hdcoa[c]
@@ -5706,7 +5756,8 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Tsac
-  translated_equation: coa[c] + atp[c] + hdcea[c] <=> amp[c] + ppi[c] + hdcoa[c]
+  translated_equation: '|Coenzyme A[c]| + ATP[c] + |Hexadecenoate (n-C16:1)[c]| <=>
+    AMP[c] + Diphosphate[c] + |Hexadecenoyl-CoA (n-C16:1CoA)[c]|'
 - id: FACOAL161_ISO_
   name: 'fatty acid CoA-Ligase Iso C161 '
   equation: coa[c] + atp[c] + fa5[c] <=> fa5coa[c] + amp[c] + ppi[c]
@@ -5725,7 +5776,8 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Tsac
-  translated_equation: coa[c] + atp[c] + fa5[c] <=> fa5coa[c] + amp[c] + ppi[c]
+  translated_equation: '|Coenzyme A[c]| + ATP[c] + |Fatty acid (Iso-C16:1)[c]| <=>
+    None[c] + AMP[c] + Diphosphate[c]'
 - id: FACOAL170_ISO_
   name: 'fatty acid CoA-Ligase Iso C170 '
   equation: coa[c] + fa11[c] + atp[c] <=> fa11coa[c] + amp[c] + ppi[c]
@@ -5744,7 +5796,8 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Tsac
-  translated_equation: coa[c] + fa11[c] + atp[c] <=> fa11coa[c] + amp[c] + ppi[c]
+  translated_equation: '|Coenzyme A[c]| + |Fatty acid (Iso-C17:0)[c]| + ATP[c] <=>
+    Iso_C170_CoA[c] + AMP[c] + Diphosphate[c]'
 - id: FACOAL170_anteiso_
   name: 'fatty acid CoA ligase anteiso C170 '
   equation: coa[c] + fa12[c] + atp[c] <=> fa12coa[c] + amp[c] + ppi[c]
@@ -5763,7 +5816,8 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Tsac
-  translated_equation: coa[c] + fa12[c] + atp[c] <=> fa12coa[c] + amp[c] + ppi[c]
+  translated_equation: '|Coenzyme A[c]| + |Fatty acid (Anteiso-C17:0)[c]| + ATP[c]
+    <=> Anteiso_C170_CoA[c] + AMP[c] + Diphosphate[c]'
 - id: FACOAL171_ISO_
   name: 'fatty acid CoA-Ligase Iso C171 '
   equation: coa[c] + atp[c] + fa9[c] <=> fa9coa[c] + amp[c] + ppi[c]
@@ -5782,7 +5836,8 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Tsac
-  translated_equation: coa[c] + atp[c] + fa9[c] <=> fa9coa[c] + amp[c] + ppi[c]
+  translated_equation: '|Coenzyme A[c]| + ATP[c] + |Fatty acid (Iso-C17:1)[c]| <=>
+    None[c] + AMP[c] + Diphosphate[c]'
 - id: FACOAL171_anteiso_
   name: 'fatty acid CoA-Ligase anteiso C171 '
   equation: coa[c] + fa10[c] + atp[c] <=> fa10coa[c] + amp[c] + ppi[c]
@@ -5801,7 +5856,8 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Tsac
-  translated_equation: coa[c] + fa10[c] + atp[c] <=> fa10coa[c] + amp[c] + ppi[c]
+  translated_equation: '|Coenzyme A[c]| + |Fatty acid (Anteiso-C17:1)[c]| + ATP[c]
+    <=> Anteiso_C171_CoA[c] + AMP[c] + Diphosphate[c]'
 - id: FACOAL180
   name: 'fatty acid CoA ligase octadecanoate '
   equation: ocdca[c] + coa[c] + atp[c] <=> stcoa[c] + amp[c] + ppi[c]
@@ -5820,7 +5876,8 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Tsac
-  translated_equation: ocdca[c] + coa[c] + atp[c] <=> stcoa[c] + amp[c] + ppi[c]
+  translated_equation: '|Octadecanoate (n-C18:0)[c]| + |Coenzyme A[c]| + ATP[c] <=>
+    |Stearoyl-CoA (n-C18:0CoA)[c]| + AMP[c] + Diphosphate[c]'
 - id: FACOAL181
   name: 'fatty acid CoA ligase octadecenoate '
   equation: coa[c] + atp[c] + ocdcea[c] <=> odecoa[c] + amp[c] + ppi[c]
@@ -5839,7 +5896,8 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Tsac
-  translated_equation: coa[c] + atp[c] + ocdcea[c] <=> odecoa[c] + amp[c] + ppi[c]
+  translated_equation: '|Coenzyme A[c]| + ATP[c] + |octadecenoate (n-C18:1)[c]| <=>
+    |Octadecenoyl-CoA (n-C18:1CoA)[c]| + AMP[c] + Diphosphate[c]'
 - id: R00742
   name: acetyl-CoA:carbon-dioxide ligase (ADP-forming)
   equation: C00002[c] + C00024[c] + C00288[c] <=> C00008[c] + C00009[c] + C00083[c]
@@ -5907,7 +5965,8 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C04688[c] <=> C05760[c] + H2O[c]
+  translated_equation: '|(3R)-3-Hydroxytetradecanoyl-[acyl-carrier protein][c]| <=>
+    trans-Tetradec-2-enoyl-[acp][c] + H2O[c]'
 - id: R04954
   name: (3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase
   equation: C05747[c] <=> C05748[c] + C00001[c]
@@ -5938,7 +5997,8 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C05747[c] <=> C05748[c] + H2O[c]
+  translated_equation: (R)-3-Hydroxyhexanoyl-[acp][c] <=> trans-Hex-2-enoyl-[acp][c]
+    + H2O[c]
 - id: R04965
   name: (3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase
   equation: C05757[c] <=> C05758[c] + C00001[c]
@@ -5969,7 +6029,8 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C05757[c] <=> C05758[c] + H2O[c]
+  translated_equation: (R)-3-Hydroxydodecanoyl-[acp][c] <=> trans-Dodec-2-enoyl-[acp][c]
+    + H2O[c]
 - id: R04428
   name: (3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase
   equation: C04618[c] <=> C04246[c] + C00001[c]
@@ -6000,7 +6061,8 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C04618[c] <=> C04246[c] + H2O[c]
+  translated_equation: '|(3R)-3-Hydroxybutanoyl-[acyl-carrier protein][c]| <=> |But-2-enoyl-[acyl-carrier
+    protein][c]| + H2O[c]'
 - id: R04535
   name: (3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase
   equation: C04619[c] <=> C05754[c] + C00001[c]
@@ -6031,7 +6093,8 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C04619[c] <=> C05754[c] + H2O[c]
+  translated_equation: '|(3R)-3-Hydroxydecanoyl-[acyl-carrier protein][c]| <=> trans-Dec-2-enoyl-[acp][c]
+    + H2O[c]'
 - id: R04537
   name: (3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase
   equation: C04620[c] <=> C05751[c] + C00001[c]
@@ -6063,7 +6126,8 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C04620[c] <=> C05751[c] + H2O[c]
+  translated_equation: '|(3R)-3-Hydroxyoctanoyl-[acyl-carrier protein][c]| <=> trans-Oct-2-enoyl-[acp][c]
+    + H2O[c]'
 - id: R04544
   name: (3R)-3-hydroxypalmitoyl-[acyl-carrier-protein] hydro-lyase
   equation: C04633[c] <=> C05763[c] + C00001[c]
@@ -6094,7 +6158,8 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C04633[c] <=> C05763[c] + H2O[c]
+  translated_equation: '|(3R)-3-Hydroxypalmitoyl-[acyl-carrier protein][c]| <=> trans-Hexadec-2-enoyl-[acp][c]
+    + H2O[c]'
 - id: R04952
   name: butyryl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase
     (decarboxylating)
@@ -6141,8 +6206,8 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C05745[c] + |Malonyl-[acyl-carrier protein][c]| <=> C05746[c]
-    + CO2[c] + |Acyl-carrier protein[c]|
+  translated_equation: Butyryl-[acp][c] + |Malonyl-[acyl-carrier protein][c]| <=>
+    3-Oxohexanoyl-[acp][c] + CO2[c] + |Acyl-carrier protein[c]|
 - id: R04957
   name: hexanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase
     (decarboxylating)
@@ -6189,8 +6254,8 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C05749[c] + |Malonyl-[acyl-carrier protein][c]| <=> C05750[c]
-    + CO2[c] + |Acyl-carrier protein[c]|
+  translated_equation: Hexanoyl-[acp][c] + |Malonyl-[acyl-carrier protein][c]| <=>
+    3-Oxooctanoyl-[acp][c] + CO2[c] + |Acyl-carrier protein[c]|
 - id: R04960
   name: Octanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase
     (decarboxylating)
@@ -6238,7 +6303,7 @@
   source: KEGG
   tag: KEGG_Cbes,Cce
   translated_equation: Octanoyl-[acp][c] + |Malonyl-[acyl-carrier protein][c]| <=>
-    C05753[c] + CO2[c] + |Acyl-carrier protein[c]|
+    3-Oxodecanoyl-[acp][c] + CO2[c] + |Acyl-carrier protein[c]|
 - id: R04963
   name: Decanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase
     (decarboxylating)
@@ -6285,8 +6350,8 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C05755[c] + |Malonyl-[acyl-carrier protein][c]| <=> C05756[c]
-    + CO2[c] + |Acyl-carrier protein[c]|
+  translated_equation: Decanoyl-[acp][c] + |Malonyl-[acyl-carrier protein][c]| <=>
+    3-Oxododecanoyl-[acp][c] + CO2[c] + |Acyl-carrier protein[c]|
 - id: R04968
   name: Tetradecanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase
     (decarboxylating)
@@ -6333,8 +6398,8 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C05761[c] + |Malonyl-[acyl-carrier protein][c]| <=> C05762[c]
-    + CO2[c] + |Acyl-carrier protein[c]|
+  translated_equation: Tetradecanoyl-[acp][c] + |Malonyl-[acyl-carrier protein][c]|
+    <=> 3-Oxohexadecanoyl-[acp][c] + CO2[c] + |Acyl-carrier protein[c]|
 - id: R01624
   name: acetyl-CoA:[acyl-carrier-protein] S-acetyltransferase
   equation: C00024[c] + C00229[c] <=> C00010[c] + C03939[c]
@@ -6379,7 +6444,7 @@
   source: KEGG
   tag: Cce
   translated_equation: '|Acetyl-CoA (AcCoA)[c]| + |Acyl-carrier protein[c]| <=> |Coenzyme
-    A (CoA)[c]| + C03939[c]'
+    A (CoA)[c]| + |Acetyl-[acyl-carrier protein][c]|'
 - id: R01626
   name: Malonyl-CoA:[acyl-carrier-protein] S-malonyltransferase
   genes: fig|31899.10.peg.1638
@@ -6455,8 +6520,8 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C03939[c] + |Malonyl-[acyl-carrier protein][c]| <=> C05744[c]
-    + CO2[c] + |Acyl-carrier protein[c]|
+  translated_equation: '|Acetyl-[acyl-carrier protein][c]| + |Malonyl-[acyl-carrier
+    protein][c]| <=> Acetoacetyl-[acp][c] + CO2[c] + |Acyl-carrier protein[c]|'
 - id: R04726
   name: dodecanoyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein] C-acyltransferase
     (decarboxylating)
@@ -6503,8 +6568,8 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C05223[c] + |Malonyl-[acyl-carrier protein][c]| <=> C05759[c]
-    + CO2[c] + |Acyl-carrier protein[c]|
+  translated_equation: '|Dodecanoyl-[acyl-carrier protein][c]| + |Malonyl-[acyl-carrier
+    protein][c]| <=> 3-Oxotetradecanoyl-[acp][c] + CO2[c] + |Acyl-carrier protein[c]|'
 - id: R10707
   name: acetyl-CoA:malonyl-[acyl-carrier protein] C-acetyltransferase (decarboxylating)
   equation: C00024[c] + C01209[c] <=> C05744[c] + C00010[c] + C00011[c]
@@ -6536,7 +6601,7 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: '|Acetyl-CoA (AcCoA)[c]| + |Malonyl-[acyl-carrier protein][c]|
-    <=> C05744[c] + |Coenzyme A (CoA)[c]| + CO2[c]'
+    <=> Acetoacetyl-[acp][c] + |Coenzyme A (CoA)[c]| + CO2[c]'
 - id: R04961
   name: decanoyl-[acp]:NAD+ trans-2-oxidoreductase
   equation: C05755[c] + C00003[c] <=> C05754[c] + C00004[c] + C00080[c]
@@ -6566,9 +6631,9 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: Cce
-  translated_equation: C05755[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    C05754[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+  translated_equation: Decanoyl-[acp][c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
+    <=> trans-Dec-2-enoyl-[acp][c] + |Nicotinamide adenine dinucleotide - reduced
+    (NADH)[c]| + |Proton (H+)[c]|
 - id: R04966
   name: tetradecanoyl-[acp]:NAD+ trans-2-oxidoreductase
   equation: C05761[c] + C00003[c] <=> C05760[c] + C00004[c] + C00080[c]
@@ -6598,9 +6663,9 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: Cce
-  translated_equation: C05761[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    C05760[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+  translated_equation: Tetradecanoyl-[acp][c] + |Nicotinamide adenine dinucleotide
+    (NAD)[c]| <=> trans-Tetradec-2-enoyl-[acp][c] + |Nicotinamide adenine dinucleotide
+    - reduced (NADH)[c]| + |Proton (H+)[c]|
 - id: R04969
   name: hexadecanoyl-[acp]:NAD+ trans-2-oxidoreductase
   equation: C05764[c] + C00003[c] <=> C05763[c] + C00004[c] + C00080[c]
@@ -6630,9 +6695,9 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: Cce
-  translated_equation: C05764[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    C05763[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+  translated_equation: Hexadecanoyl-[acp][c] + |Nicotinamide adenine dinucleotide
+    (NAD)[c]| <=> trans-Hexadec-2-enoyl-[acp][c] + |Nicotinamide adenine dinucleotide
+    - reduced (NADH)[c]| + |Proton (H+)[c]|
 - id: R07765
   name: octadecanoyl-[acp]:NAD+ trans-2-oxidoreductase
   equation: C16221[c] + C00004[c] + C00080[c] <=> C04088[c] + C00003[c]
@@ -6663,8 +6728,9 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: Cce
-  translated_equation: C16221[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]|
-    + |Proton (H+)[c]| <=> C04088[c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
+  translated_equation: (2E)-Octadecenoyl-[acp][c] + |Nicotinamide adenine dinucleotide
+    - reduced (NADH)[c]| + |Proton (H+)[c]| <=> |Octadecanoyl-[acyl-carrier protein][c]|
+    + |Nicotinamide adenine dinucleotide (NAD)[c]|
 - id: R04724
   name: dodecanoyl-[acp]:NAD+ trans-2-oxidoreductase
   equation: C05223[c] + C00003[c] <=> C05758[c] + C00004[c] + C00080[c]
@@ -6694,9 +6760,9 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: Cce
-  translated_equation: C05223[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    C05758[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+  translated_equation: '|Dodecanoyl-[acyl-carrier protein][c]| + |Nicotinamide adenine
+    dinucleotide (NAD)[c]| <=> trans-Dodec-2-enoyl-[acp][c] + |Nicotinamide adenine
+    dinucleotide - reduced (NADH)[c]| + |Proton (H+)[c]|'
 - id: R04429
   name: butyryl-[acp]:NAD+ trans-2-oxidoreductase
   equation: C05745[c] + C00003[c] <=> C04246[c] + C00004[c] + C00080[c]
@@ -6726,9 +6792,9 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: Cce
-  translated_equation: C05745[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    C04246[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+  translated_equation: Butyryl-[acp][c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
+    <=> |But-2-enoyl-[acyl-carrier protein][c]| + |Nicotinamide adenine dinucleotide
+    - reduced (NADH)[c]| + |Proton (H+)[c]|
 - id: R04955
   name: hexanoyl-[acp]:NAD+ trans-2-oxidoreductase
   equation: C05749[c] + C00003[c] <=> C05748[c] + C00004[c] + C00080[c]
@@ -6758,9 +6824,9 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: Cce
-  translated_equation: C05749[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    C05748[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+  translated_equation: Hexanoyl-[acp][c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
+    <=> trans-Hex-2-enoyl-[acp][c] + |Nicotinamide adenine dinucleotide - reduced
+    (NADH)[c]| + |Proton (H+)[c]|
 - id: R04958
   name: octanoyl-[acp]:NAD+ trans-2-oxidoreductase
   equation: C05752[c] + C00003[c] <=> C05751[c] + C00004[c] + C00080[c]
@@ -6791,8 +6857,8 @@
   source: KEGG
   tag: Cce
   translated_equation: Octanoyl-[acp][c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
-    <=> C05751[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+    <=> trans-Oct-2-enoyl-[acp][c] + |Nicotinamide adenine dinucleotide - reduced
+    (NADH)[c]| + |Proton (H+)[c]|
 - id: R04543
   name: (3R)-3-Hydroxypalmitoyl-[acyl-carrier-protein]:NADP+ oxidoreductase
   equation: C04633[c] + C00006[c] <=> C05762[c] + C00005[c] + C00080[c]
@@ -6831,9 +6897,9 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C04633[c] + |Nicotinamide adenine dinucleotide phosphate (NADP)[c]|
-    <=> C05762[c] + |Nicotinamide adenine dinucleotide phosphate - reduced (NADPH)[c]|
-    + |Proton (H+)[c]|
+  translated_equation: '|(3R)-3-Hydroxypalmitoyl-[acyl-carrier protein][c]| + |Nicotinamide
+    adenine dinucleotide phosphate (NADP)[c]| <=> 3-Oxohexadecanoyl-[acp][c] + |Nicotinamide
+    adenine dinucleotide phosphate - reduced (NADPH)[c]| + |Proton (H+)[c]|'
 - id: R04566
   name: (3R)-3-Hydroxytetradecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase
   equation: C04688[c] + C00006[c] <=> C05759[c] + C00005[c] + C00080[c]
@@ -6872,9 +6938,10 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C04688[c] + |Nicotinamide adenine dinucleotide phosphate (NADP)[c]|
-    <=> C05759[c] + |Nicotinamide adenine dinucleotide phosphate - reduced (NADPH)[c]|
-    + |Proton (H+)[c]|
+  translated_equation: '|(3R)-3-Hydroxytetradecanoyl-[acyl-carrier protein][c]| +
+    |Nicotinamide adenine dinucleotide phosphate (NADP)[c]| <=> 3-Oxotetradecanoyl-[acp][c]
+    + |Nicotinamide adenine dinucleotide phosphate - reduced (NADPH)[c]| + |Proton
+    (H+)[c]|'
 - id: R04953
   name: (3R)-3-Hydroxyhexanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase
   equation: C05747[c] + C00006[c] <=> C05746[c] + C00005[c] + C00080[c]
@@ -6913,9 +6980,9 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C05747[c] + |Nicotinamide adenine dinucleotide phosphate (NADP)[c]|
-    <=> C05746[c] + |Nicotinamide adenine dinucleotide phosphate - reduced (NADPH)[c]|
-    + |Proton (H+)[c]|
+  translated_equation: (R)-3-Hydroxyhexanoyl-[acp][c] + |Nicotinamide adenine dinucleotide
+    phosphate (NADP)[c]| <=> 3-Oxohexanoyl-[acp][c] + |Nicotinamide adenine dinucleotide
+    phosphate - reduced (NADPH)[c]| + |Proton (H+)[c]|
 - id: R04964
   name: (3R)-3-Hydroxydodecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase
   equation: C05757[c] + C00006[c] <=> C05756[c] + C00005[c] + C00080[c]
@@ -6954,9 +7021,9 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C05757[c] + |Nicotinamide adenine dinucleotide phosphate (NADP)[c]|
-    <=> C05756[c] + |Nicotinamide adenine dinucleotide phosphate - reduced (NADPH)[c]|
-    + |Proton (H+)[c]|
+  translated_equation: (R)-3-Hydroxydodecanoyl-[acp][c] + |Nicotinamide adenine dinucleotide
+    phosphate (NADP)[c]| <=> 3-Oxododecanoyl-[acp][c] + |Nicotinamide adenine dinucleotide
+    phosphate - reduced (NADPH)[c]| + |Proton (H+)[c]|
 - id: R04533
   name: (3R)-3-Hydroxybutanoyl-[acyl-carrier protein]:NADP+ oxidoreductase
   equation: C04618[c] + C00006[c] <=> C05744[c] + C00005[c] + C00080[c]
@@ -6984,9 +7051,9 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C04618[c] + |Nicotinamide adenine dinucleotide phosphate (NADP)[c]|
-    <=> C05744[c] + |Nicotinamide adenine dinucleotide phosphate - reduced (NADPH)[c]|
-    + |Proton (H+)[c]|
+  translated_equation: '|(3R)-3-Hydroxybutanoyl-[acyl-carrier protein][c]| + |Nicotinamide
+    adenine dinucleotide phosphate (NADP)[c]| <=> Acetoacetyl-[acp][c] + |Nicotinamide
+    adenine dinucleotide phosphate - reduced (NADPH)[c]| + |Proton (H+)[c]|'
 - id: R04534
   name: (3R)-3-Hydroxydecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase
   equation: C04619[c] + C00006[c] <=> C05753[c] + C00005[c]
@@ -7025,8 +7092,9 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C04619[c] + |Nicotinamide adenine dinucleotide phosphate (NADP)[c]|
-    <=> C05753[c] + |Nicotinamide adenine dinucleotide phosphate - reduced (NADPH)[c]|
+  translated_equation: '|(3R)-3-Hydroxydecanoyl-[acyl-carrier protein][c]| + |Nicotinamide
+    adenine dinucleotide phosphate (NADP)[c]| <=> 3-Oxodecanoyl-[acp][c] + |Nicotinamide
+    adenine dinucleotide phosphate - reduced (NADPH)[c]|'
 - id: R04536
   name: (3R)-3-Hydroxyoctanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase
   equation: C04620[c] + C00006[c] <=> C05750[c] + C00005[c] + C00080[c]
@@ -7065,9 +7133,9 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C04620[c] + |Nicotinamide adenine dinucleotide phosphate (NADP)[c]|
-    <=> C05750[c] + |Nicotinamide adenine dinucleotide phosphate - reduced (NADPH)[c]|
-    + |Proton (H+)[c]|
+  translated_equation: '|(3R)-3-Hydroxyoctanoyl-[acyl-carrier protein][c]| + |Nicotinamide
+    adenine dinucleotide phosphate (NADP)[c]| <=> 3-Oxooctanoyl-[acp][c] + |Nicotinamide
+    adenine dinucleotide phosphate - reduced (NADPH)[c]| + |Proton (H+)[c]|'
 - id: R01280
   name: Palmitate:CoA ligase (AMP-forming)
   equation: C00002[c] + C00249[c] + C00010[c] <=> C00020[c] + C00154[c] + C00013[c]
@@ -7093,8 +7161,8 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: Cce,Tsac
-  translated_equation: ATP[c] + C00249[c] + |Coenzyme A (CoA)[c]| <=> AMP[c] + C00154[c]
-    + Diphosphate[c]
+  translated_equation: ATP[c] + |Hexadecanoic acid[c]| + |Coenzyme A (CoA)[c]| <=>
+    AMP[c] + Palmitoyl-CoA[c] + Diphosphate[c]
 - id: R07764
   equation: C16220[c] <=> C16221[c] + C00001[c]
   ec:
@@ -7121,7 +7189,8 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C16220[c] <=> C16221[c] + H2O[c]
+  translated_equation: (R)-3-Hydroxyoctadecanoyl-[acp][c] <=> (2E)-Octadecenoyl-[acp][c]
+    + H2O[c]
 - id: R07762
   equation: C05764[c] + C01209[c] <=> C16219[c] + C00229[c] + C00011[c]
   ec:
@@ -7163,8 +7232,8 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C05764[c] + |Malonyl-[acyl-carrier protein][c]| <=> C16219[c]
-    + |Acyl-carrier protein[c]| + CO2[c]
+  translated_equation: Hexadecanoyl-[acp][c] + |Malonyl-[acyl-carrier protein][c]|
+    <=> 3-Oxostearoyl-[acp][c] + |Acyl-carrier protein[c]| + CO2[c]
 - id: R07763
   equation: C16219[c] + C00005[c] + C00080[c] <=> C16220[c] + C00006[c]
   ec:
@@ -7199,9 +7268,9 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C16219[c] + |Nicotinamide adenine dinucleotide phosphate -
-    reduced (NADPH)[c]| + |Proton (H+)[c]| <=> C16220[c] + |Nicotinamide adenine
-    dinucleotide phosphate (NADP)[c]|
+  translated_equation: 3-Oxostearoyl-[acp][c] + |Nicotinamide adenine dinucleotide
+    phosphate - reduced (NADPH)[c]| + |Proton (H+)[c]| <=> (R)-3-Hydroxyoctadecanoyl-[acp][c]
+    + |Nicotinamide adenine dinucleotide phosphate (NADP)[c]|
 - id: R00623
   name: primary_alcohol:NAD+ oxidoreductase
   equation: C00226[c] + C00003[c] <=> C00071[c] + C00004[c] + C00080[c]
@@ -7228,9 +7297,9 @@
   pathway: Fatty acid degradation
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00226[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    C00071[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+  translated_equation: '|Primary alcohol[c]| + |Nicotinamide adenine dinucleotide
+    (NAD)[c]| <=> Aldehyde[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]|
+    + |Proton (H+)[c]|'
 - id: R01716
   name: chorismate:L-glutamine aminotransferase
   genes: fig|31899.10.peg.2779 and fig|31899.10.peg.2780
@@ -7382,8 +7451,9 @@
   pathway: Folate biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: GTP[c] + |S-Adenosyl-L-methionine (SAM)[c]| + C00030[c] <=>
-    C21310[c] + 5'-Deoxyadenosine[c] + |L-Methionine (Met-L)[c]| + C00028[c]
+  translated_equation: GTP[c] + |S-Adenosyl-L-methionine (SAM)[c]| + |Reduced acceptor[c]|
+    <=> |(8S)-3',8-Cyclo-7,8-dihydroguanosine 5'-triphosphate[c]| + 5'-Deoxyadenosine[c]
+    + |L-Methionine (Met-L)[c]| + Acceptor[c]
 - id: R11581
   name: GTP:molybdenum cofactor guanylyltransferase
   equation: C18237[c] + C00044[c] <=> C19871[c] + C00013[c]
@@ -7409,7 +7479,8 @@
   pathway: Folate biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C18237[c] + GTP[c] <=> C19871[c] + Diphosphate[c]
+  translated_equation: '|Molybdoenzyme molybdenum cofactor[c]| + GTP[c] <=> |Guanylyl
+    molybdenum cofactor[c]| + Diphosphate[c]'
 - id: R11372
   name: (8S)-3',8-cyclo-7,8-dihydroguanosine 5'-triphosphate lyase (cyclic pyranopterin
     phosphate-forming)
@@ -7438,7 +7509,8 @@
   pathway: Folate biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C21310[c] + H2O[c] <=> C18239[c] + Diphosphate[c]
+  translated_equation: '|(8S)-3'',8-Cyclo-7,8-dihydroguanosine 5''-triphosphate[c]|
+    + H2O[c] <=> |Precursor Z[c]| + Diphosphate[c]'
 - id: R03503
   name: 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase (ATP)
   genes: fig|31899.10.peg.610
@@ -7555,7 +7627,8 @@
   pathway: Folate biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C19848[c] + Molybdate[c] <=> C18237[c] + AMP[c] + H2O[c]
+  translated_equation: '|Adenylated molybdopterin[c]| + Molybdate[c] <=> |Molybdoenzyme
+    molybdenum cofactor[c]| + AMP[c] + H2O[c]'
 - id: R02237
   name: 7,8-dihydropteroate:L-glutamate ligase (ADP-forming)
   genes: fig|31899.10.peg.1983
@@ -7803,7 +7876,7 @@
   source: KEGG
   tag: KEGG_Cbes,Cce
   translated_equation: '|D-Fructose 1-phosphate[c]| <=> |Dihydroxyacetone phosphate
-    (DHAP)[c]| + C00577[c]'
+    (DHAP)[c]| + D-Glyceraldehyde[c]'
 - id: R02262
   name: L-Fuculose-1-phosphate lactaldehyde-lyase
   genes: fig|31899.10.peg.1149
@@ -8662,7 +8735,8 @@
   pathway: Glucosinolate biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C17210[c] <=> C17212[c]
+  translated_equation: '|2-(2''-Methylthio)ethylmalic acid[c]| <=> |3-(2''-Methylthio)ethylmalic
+    acid[c]|'
 - id: R08624
   name: 2-(3'-methylthio)propylmalate hydroxymutase
   equation: C17214[c] <=> C17215[c]
@@ -8688,7 +8762,8 @@
   pathway: Glucosinolate biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C17214[c] <=> C17215[c]
+  translated_equation: '|2-(3''-Methylthio)propylmalic acid[c]| <=> |3-(3''-Methylthio)propylmalic
+    acid[c]|'
 - id: R08628
   name: 2-(3'-methylthio)butylmalate hydroxymutase
   equation: C17218[c] <=> C17219[c]
@@ -8714,7 +8789,8 @@
   pathway: Glucosinolate biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C17218[c] <=> C17219[c]
+  translated_equation: '|2-(4''-Methylthio)butylmalic acid[c]| <=> |3-(4''-Methylthio)butylmalic
+    acid[c]|'
 - id: R08634
   name: 2-(3'-methylthio)pentylmalate hydroxymutase
   equation: C17222[c] <=> C17223[c]
@@ -8740,7 +8816,8 @@
   pathway: Glucosinolate biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C17222[c] <=> C17223[c]
+  translated_equation: '|2-(5''-Methylthio)pentylmalic acid[c]| <=> |3-(5''-Methylthio)pentylmalic
+    acid[c]|'
 - id: R08641
   name: 2-(3'-methylthio)hexylmalate hydroxymutase
   equation: C17226[c] <=> C17227[c]
@@ -8766,7 +8843,8 @@
   pathway: Glucosinolate biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C17226[c] <=> C17227[c]
+  translated_equation: '|2-(6''-Methylthio)hexylmalic acid[c]| <=> |3-(6''-Methylthio)hexylmalic
+    acid[c]|'
 - id: R08645
   name: 2-(3'-methylthio)heptylmalate hydroxymutase
   equation: C17230[c] <=> C17231[c]
@@ -8792,7 +8870,8 @@
   pathway: Glucosinolate biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C17230[c] <=> C17231[c]
+  translated_equation: '|2-(7''-Methylthio)heptylmalic acid[c]| <=> |3-(7''-Methylthio)heptylmalic
+    acid[c]|'
 - id: R08359
   name: S-adenosylmethioninamine:cadaverine 3-aminopropyltransferase
   equation: C01137[c] + C01672[c] <=> C00170[c] + C16565[c]
@@ -8817,8 +8896,8 @@
   pathway: Glutathione metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: S-Adenosylmethioninamine[c] + C01672[c] <=> 5-Methylthioadenosine[c]
-    + C16565[c]
+  translated_equation: S-Adenosylmethioninamine[c] + Cadaverine[c] <=> 5-Methylthioadenosine[c]
+    + Aminopropylcadaverine[c]
 - id: R08362
   name: trypanothione:hydroperoxide oxidoreductase
   equation: C02090[c] + C15498[c] <=> C03170[c] + C00001[c] + C01335[c]
@@ -8842,7 +8921,8 @@
   pathway: Glutathione metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C02090[c] + C15498[c] <=> C03170[c] + H2O[c] + ROH[c]
+  translated_equation: Trypanothione[c] + ROOH[c] <=> |Trypanothione disulfide[c]|
+    + H2O[c] + ROH[c]
 - id: R08360
   name: tryparedoxin:hydroperoxide oxidoreductase
   equation: C16663[c] + C15498[c] <=> C16664[c] + C00001[c] + C01335[c]
@@ -8866,7 +8946,8 @@
   pathway: Glutathione metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C16663[c] + C15498[c] <=> C16664[c] + H2O[c] + ROH[c]
+  translated_equation: Tryparedoxin[c] + ROOH[c] <=> |Tryparedoxin disulfide[c]|
+    + H2O[c] + ROH[c]
 - id: R02240
   name: ATP:1,2-diacylglycerol 3-phosphotransferase
   genes: fig|31899.10.peg.1762
@@ -8923,8 +9004,8 @@
   source: KEGG
   tag: Cce
   translated_equation: Glycerol[c] + |Nicotinamide adenine dinucleotide phosphate
-    (NADP)[c]| <=> C00577[c] + |Nicotinamide adenine dinucleotide phosphate - reduced
-    (NADPH)[c]| + |Proton (H+)[c]|
+    (NADP)[c]| <=> D-Glyceraldehyde[c] + |Nicotinamide adenine dinucleotide phosphate
+    - reduced (NADPH)[c]| + |Proton (H+)[c]|
 - id: R00847
   name: ATP:glycerol 3-phosphotransferase
   genes: fig|31899.10.peg.2526
@@ -9433,8 +9514,8 @@
   source: KEGG
   tag: Cce
   translated_equation: '|(R)-Glycerate (GlycR)[c]| + |Nicotinamide adenine dinucleotide
-    (NAD)[c]| <=> C00168[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]|
-    + |Proton (H+)[c]|'
+    (NAD)[c]| <=> Hydroxypyruvate[c] + |Nicotinamide adenine dinucleotide - reduced
+    (NADH)[c]| + |Proton (H+)[c]|'
 - id: R01514
   name: ATP:(R)-glycerate 3-phosphotransferase
   genes: fig|31899.10.peg.2617
@@ -9679,9 +9760,9 @@
   pathway: Glycine, serine and threonine metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00114[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    C00576[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+  translated_equation: Choline[c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
+    <=> |Betaine aldehyde[c]| + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]|
+    + |Proton (H+)[c]|
 - id: R08558
   equation: C00114[c] + C00006[c] <=> C00576[c] + C00005[c] + C00080[c]
   ec:
@@ -9703,9 +9784,9 @@
   pathway: Glycine, serine and threonine metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00114[c] + |Nicotinamide adenine dinucleotide phosphate (NADP)[c]|
-    <=> C00576[c] + |Nicotinamide adenine dinucleotide phosphate - reduced (NADPH)[c]|
-    + |Proton (H+)[c]|
+  translated_equation: Choline[c] + |Nicotinamide adenine dinucleotide phosphate
+    (NADP)[c]| <=> |Betaine aldehyde[c]| + |Nicotinamide adenine dinucleotide phosphate
+    - reduced (NADPH)[c]| + |Proton (H+)[c]|
 - id: GBEZ
   name: ' 1,4-alpha-glucanbranchingenzyme'
   equation: 14glun[c] => h2o[c] + glycogen[c]
@@ -9729,7 +9810,7 @@
   pathway: Glycogen Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: 14glun[c] => h2o[c] + glycogen[c]
+  translated_equation: (1,4-alpha-D-Glucosyl)n[c] => water[c] + Glycogen[c]
 - id: R04779
   name: ATP:D-fructose-6-phosphate 1-phosphotransferase
   genes: fig|31899.10.peg.1752
@@ -9823,6 +9904,7 @@
   names:
   - GTP:oxaloacetate carboxy-lyase (adding GTP; phosphoenolpyruvate-forming)
   - GTP:oxaloacetate carboxy-lyase (transphosphorylating)
+  note: Experimemntally proved that Cbes PEPCk can go in direction of PEP to OAA.
   other_pathways:
   - Glycolysis / Gluconeogenesis
   - Citrate cycle (TCA cycle)
@@ -9836,7 +9918,6 @@
   tag: KEGG_Cbes,Cce
   translated_equation: GTP[c] + |Oxaloacetate (Oaa)[c]| <=> GDP[c] + |Phosphoenolpyruvate
     (PEP)[c]| + CO2[c]
-  note: Experimemntally proved that Cbes PEPCk can go in direction of PEP to OAA.
 - id: R01070
   name: beta-D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)
   genes: fig|31899.10.peg.1061 or fig|31899.10.peg.2523 or fig|31899.10.peg.2972
@@ -10048,7 +10129,7 @@
 - id: PGK2
   name: phosphoglycerate kinase (GTP)
   genes: fig|31899.10.peg.1899
-  equation: C00044[c] + C00197[c] <=> 00035[c] + C00236[c]
+  equation: C00044[c] + C00197[c] <=> C00035[c] + C00236[c]
   ec:
   - 2.7.2.3
   EggNOG_annotation: peg.1899:Phosphoglycerate kinase
@@ -10063,6 +10144,8 @@
   genes_Tsac: '-'
   genes_kegg: peg.1899
   genes_string_NCBI_id: Athe_1405
+  note: Based on experiment data from Dr. Adams' group, Cbes PGK is more active with
+    GDP than ADP.
   other_pathways:
   - Glycolysis / Gluconeogenesis
   - Carbon fixation in photosynthetic organisms
@@ -10077,7 +10160,6 @@
   tag: KEGG_Cbes,Cce
   translated_equation: GTP[c] + |3-Phospho-D-glycerate (3PG)[c]| <=> GDP[c] + |3-Phospho-D-glyceroyl
     phosphate (13DPG)[c]|
-  note: Based on experiment data from Dr. Adams' group, Cbes PGK is more active with GDP than ADP.
 - id: R00703
   name: (S)-Lactate:NAD+ oxidoreductase
   genes: fig|31899.10.peg.2434
@@ -10528,7 +10610,7 @@
   pathway: Glyoxylate and dicarboxylate metabolism
   source: KEGG
   tag: Cce,Tsac
-  translated_equation: C00988[c] + H2O[c] <=> C00160[c] + Phosphate[c]
+  translated_equation: 2-Phosphoglycolate[c] + H2O[c] <=> Glycolate[c] + Phosphate[c]
 - id: R00519
   name: formate:NAD+ oxidoreductase
   equation: C00058[c] + C00003[c] <=> C00080[c] + C00011[c] + C00004[c]
@@ -10626,9 +10708,9 @@
   pathway: Glyoxylate and dicarboxylate metabolism
   source: KEGG
   tag: Cce
-  translated_equation: C00160[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    Glyoxylate[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+  translated_equation: Glycolate[c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
+    <=> Glyoxylate[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| +
+    |Proton (H+)[c]|
 - id: R03012
   name: L-Histidinol:NAD+ oxidoreductase
   genes: fig|31899.10.peg.1971
@@ -11459,9 +11541,9 @@
   pathway: Metabolism of xenobiotics by cytochrome P450
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C06899[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]|
-    + |Proton (H+)[c]| <=> C07490[c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
-    + H2O[c]
+  translated_equation: '|Chloral hydrate[c]| + |Nicotinamide adenine dinucleotide
+    - reduced (NADH)[c]| + |Proton (H+)[c]| <=> Trichloroethanol[c] + |Nicotinamide
+    adenine dinucleotide (NAD)[c]| + H2O[c]'
 - id: R08060
   equation: C01001[c] + C00001[c] <=> C00058[c] + C00862[c]
   ec:
@@ -11486,7 +11568,7 @@
   pathway: Methane metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C01001[c] + H2O[c] <=> |Formate (For)[c]| + C00862[c]
+  translated_equation: Formylmethanofuran[c] + H2O[c] <=> |Formate (For)[c]| + Methanofuran[c]
 - id: R00756
   name: ATP:D-fructose-6-phosphate 1-phosphotransferase
   genes: fig|31899.10.peg.1752
@@ -11541,7 +11623,8 @@
   pathway: Methane metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C11536[c] + H2O[c] <=> C11537[c] + Phosphate[c]
+  translated_equation: (2R)-O-Phospho-3-sulfolactate[c] + H2O[c] <=> (2R)-3-Sulfolactate[c]
+    + Phosphate[c]
 - id: R01068
   name: D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)
   genes: fig|31899.10.peg.1061 or fig|31899.10.peg.2523 or fig|31899.10.peg.2972
@@ -11632,7 +11715,8 @@
   pathway: Methane metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C01001[c] + H2O[c] + C00028[c] <=> CO2[c] + C00862[c] + C00030[c]
+  translated_equation: Formylmethanofuran[c] + H2O[c] + Acceptor[c] <=> CO2[c] +
+    Methanofuran[c] + |Reduced acceptor[c]|
 - id: R01224
   name: 5-methyltetrahydrofolate:NADP+ oxidoreductase
   genes: fig|31899.10.peg.736
@@ -11685,7 +11769,8 @@
   pathway: Miscellaneous
   source: Tsac model
   tag: Tsac
-  translated_equation: q8[c] + for[c] + (3) h[c] => (2) h[e] + q8h2[c] + co2[c]
+  translated_equation: Ubiquinone-8[c] + Formate[c] + (3) H+[c] => (2) H+[e] + Ubiquinol-8[c]
+    + |carbon dioxide[c]|
 - id: R00481_fum
   name: L-aspartate oxidoreductase (anaerobic type)
   genes: fig|31899.10.peg.1700
@@ -11884,9 +11969,9 @@
   pathway: Naphthalene degradation
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C02909[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    C14099[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+  translated_equation: (2-Naphthyl)methanol[c] + |Nicotinamide adenine dinucleotide
+    (NAD)[c]| <=> 2-Naphthaldehyde[c] + |Nicotinamide adenine dinucleotide - reduced
+    (NADH)[c]| + |Proton (H+)[c]|
 - id: R06917
   name: 1-hydroxymethylnaphthalene:NAD+ oxidoreductase
   equation: C14089[c] + C00003[c] <=> C14090[c] + C00004[c] + C00080[c]
@@ -11911,9 +11996,9 @@
   pathway: Naphthalene degradation
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C14089[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    C14090[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+  translated_equation: 1-Hydroxymethylnaphthalene[c] + |Nicotinamide adenine dinucleotide
+    (NAD)[c]| <=> 1-Naphthaldehyde[c] + |Nicotinamide adenine dinucleotide - reduced
+    (NADH)[c]| + |Proton (H+)[c]|
 - id: R00257
   name: Deamido-NAD+:L-glutamine amido-ligase (AMP-forming)
   equation: C00002[c] + C00857[c] + C00064[c] + C00001[c] <=> C00020[c] + C00013[c]
@@ -12154,8 +12239,8 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: Ammonia[c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
-    + H2O[c] <=> C00192[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]|
-    + |Proton (H+)[c]|
+    + H2O[c] <=> Hydroxylamine[c] + |Nicotinamide adenine dinucleotide - reduced
+    (NADH)[c]| + |Proton (H+)[c]|
 - id: R09497
   name: nitrite:quinone oxidoreductase
   equation: C00244[c] + C15603[c] <=> C00088[c] + C15602[c] + C00001[c]
@@ -12186,7 +12271,8 @@
   pathway: Nitrogen metabolism
   source: KEGG
   tag: Tsac
-  translated_equation: C00244[c] + C15603[c] <=> C00088[c] + C15602[c] + H2O[c]
+  translated_equation: Nitrate[c] + Hydroquinone[c] <=> Nitrite[c] + Quinone[c] +
+    H2O[c]
 - id: R08034
   equation: C16396[c] <=> C16399[c]
   ec:
@@ -12230,7 +12316,7 @@
   pathway: Nitrotoluene degradation
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C16396[c] <=> C16399[c]
+  translated_equation: 2,4-Diamino-6-nitrotoluene[c] <=> 2,4-Diamino-6-hydroxylaminotoluene[c]
 - id: R10811_kz
   name: 1,4-beta-D-mannooligosaccharide:phosphate alpha-D-mannosyltransferase
   equation: C17207_kz[c] + C00009[c] <=> C20861[c] + C00636[c]
@@ -12274,8 +12360,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: ATP[c] + C19709[c] + |L-Aspartate (Asp-L)[c]| <=> ADP[c] +
-    Phosphate[c] + C19710[c]
+  translated_equation: ATP[c] + [L-Asp(4-L-Arg)]n[c] + |L-Aspartate (Asp-L)[c]| <=>
+    ADP[c] + Phosphate[c] + [L-Asp(4-L-Arg)]n-L-Asp[c]
 - id: R09593
   name: cyanophycin:L-arginine ligase (ADP-forming)
   equation: C00002[c] + C19710[c] + C00062[c] <=> C00008[c] + C00009[c] + C19713[c]
@@ -12296,8 +12382,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: ATP[c] + C19710[c] + |L-Arginine (Arg-L)[c]| <=> ADP[c] +
-    Phosphate[c] + C19713[c]
+  translated_equation: ATP[c] + [L-Asp(4-L-Arg)]n-L-Asp[c] + |L-Arginine (Arg-L)[c]|
+    <=> ADP[c] + Phosphate[c] + [L-Asp(4-L-Arg)]n+1[c]
 - id: R09597
   name: L-lysine:[tRNA(Ile2)]-cytidine34 ligase (AMP-forming)
   equation: C19722[c] + C00047[c] + C00002[c] <=> C19723[c] + C00020[c] + C00013[c]
@@ -12322,8 +12408,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C19722[c] + |L-Lysine (lys-L)[c]| + ATP[c] <=> C19723[c] +
-    AMP[c] + Diphosphate[c] + H2O[c]
+  translated_equation: '[tRNA(Ile2)]-cytidine34[c] + |L-Lysine (lys-L)[c]| + ATP[c]
+    <=> [tRNA(Ile2)]-lysidine34[c] + AMP[c] + Diphosphate[c] + H2O[c]'
 - id: R09382
   name: CTP,CTP,ATP:tRNA cytidylyl,cytidylyl,adenylyltransferase
   equation: C02211[c] + (2) C00063[c] + C00002[c] <=> C19085[c] + (3) C00013[c]
@@ -12345,7 +12431,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C02211[c] + (2) CTP[c] + ATP[c] <=> C19085[c] + (3) Diphosphate[c]
+  translated_equation: '|tRNA precursor[c]| + (2) CTP[c] + ATP[c] <=> |tRNA with
+    a 3'' CCA end[c]| + (3) Diphosphate[c]'
 - id: R11099
   name: 2-iminopropanoate aminohydrolase
   equation: C20904[c] + C00001[c] <=> C00022[c] + C00014[c]
@@ -12371,7 +12458,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C20904[c] + H2O[c] <=> |Pyruvate (Pyr)[c]| + Ammonia[c]
+  translated_equation: 2-Iminopropanoate[c] + H2O[c] <=> |Pyruvate (Pyr)[c]| + Ammonia[c]
 - id: R11098
   name: 2-iminobutanoate aminohydrolase
   equation: C20905[c] + C00001[c] <=> C00109[c] + C00014[c]
@@ -12397,7 +12484,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C20905[c] + H2O[c] <=> 2-Oxobutanoate[c] + Ammonia[c]
+  translated_equation: 2-Iminobutanoate[c] + H2O[c] <=> 2-Oxobutanoate[c] + Ammonia[c]
 - id: R02531
   name: Lactaldehyde:NAD+ 1-oxidoreductase
   equation: C05999[c] + C00003[c] <=> C00546[c] + C00004[c] + C00080[c]
@@ -12419,9 +12506,9 @@
   pathway: None
   source: KEGG
   tag: Cce
-  translated_equation: C05999[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    Methylglyoxal[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| +
-    |Proton (H+)[c]|
+  translated_equation: Lactaldehyde[c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
+    <=> Methylglyoxal[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]|
+    + |Proton (H+)[c]|
 - id: R08550
   name: protein N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase
   equation: C16832[c] + C00003[c] <=> C16237[c] + C00004[c] + C00080[c]
@@ -12444,9 +12531,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C16832[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    |Protein N6-(lipoyl)lysine[c]| + |Nicotinamide adenine dinucleotide - reduced
-    (NADH)[c]| + |Proton (H+)[c]|
+  translated_equation: '|Protein N6-(dihydrolipoyl)lysine[c]| + |Nicotinamide adenine
+    dinucleotide (NAD)[c]| <=> |Protein N6-(lipoyl)lysine[c]| + |Nicotinamide adenine
+    dinucleotide - reduced (NADH)[c]| + |Proton (H+)[c]|'
 - id: R02767
   name: (3R)-3-Hydroxyacyl-[acyl-carrier-protein]:NADP+ oxidoreductase
   equation: C01271[c] + C00006[c] <=> C00685[c] + C00005[c] + C00080[c]
@@ -12480,9 +12567,10 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C01271[c] + |Nicotinamide adenine dinucleotide phosphate (NADP)[c]|
-    <=> C00685[c] + |Nicotinamide adenine dinucleotide phosphate - reduced (NADPH)[c]|
-    + |Proton (H+)[c]|
+  translated_equation: '|(3R)-3-Hydroxyacyl-[acyl-carrier protein][c]| + |Nicotinamide
+    adenine dinucleotide phosphate (NADP)[c]| <=> |3-Oxoacyl-[acyl-carrier protein][c]|
+    + |Nicotinamide adenine dinucleotide phosphate - reduced (NADPH)[c]| + |Proton
+    (H+)[c]|'
 - id: R01810
   name: N-Acyl-O-acetylneuraminate O-acetylesterase
   equation: C03708[c] + C00001[c] <=> C00270[c] + C00033[c]
@@ -12504,7 +12592,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C03708[c] + H2O[c] <=> C00270[c] + Acetate[c]
+  translated_equation: N-Acetyl-O-acetylneuraminate[c] + H2O[c] <=> N-Acetylneuraminate[c]
+    + Acetate[c]
 - id: R00162
   name: ATP:protein phosphotransferase
   equation: C00002[c] + C00017[c] <=> C00008[c] + C00562[c]
@@ -12544,7 +12633,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: ATP[c] + C00017[c] <=> ADP[c] + C00562[c]
+  translated_equation: ATP[c] + Protein[c] <=> ADP[c] + Phosphoprotein[c]
 - id: R00626
   name: phosphate-monoester phosphohydrolase
   equation: C01153[c] + C00001[c] <=> C00069[c] + C00009[c]
@@ -12567,7 +12656,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C01153[c] + H2O[c] <=> C00069[c] + Phosphate[c]
+  translated_equation: '|Orthophosphoric monoester[c]| + H2O[c] <=> Alcohol[c] +
+    Phosphate[c]'
 - id: R01480
   name: alpha-D-Glucosiduronate glucuronohydrolase
   equation: C06370[c] + C00001[c] <=> C00069[c] + C00191[c]
@@ -12589,7 +12679,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C06370[c] + H2O[c] <=> C00069[c] + C00191[c]
+  translated_equation: alpha-D-Glucuronoside[c] + H2O[c] <=> Alcohol[c] + D-Glucuronate[c]
 - id: R10208
   name: (3R)-3-hydroxyacyl-[acyl-carrier protein] hydro-lyase (trans-2-enoyl-[acyl-carrier
     protein]-forming)
@@ -12616,7 +12706,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C01271[c] <=> C00693[c] + H2O[c]
+  translated_equation: '|(3R)-3-Hydroxyacyl-[acyl-carrier protein][c]| <=> |trans-2,3-Dehydroacyl-[acyl-carrier
+    protein][c]| + H2O[c]'
 - id: R00624
   name: Secondary_alcohol:NAD+ oxidoreductase
   equation: C01612[c] + C00003[c] <=> C01450[c] + C00004[c] + C00080[c]
@@ -12638,9 +12729,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C01612[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    C01450[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+  translated_equation: '|Secondary alcohol[c]| + |Nicotinamide adenine dinucleotide
+    (NAD)[c]| <=> Ketone[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]|
+    + |Proton (H+)[c]|'
 - id: R03266
   name: 4-Hydroxy-L-glutamate:2-oxoglutarate aminotransferase
   equation: C03079[c] + C00026[c] <=> C01127[c] + C00025[c]
@@ -12663,7 +12754,7 @@
   pathway: None
   source: KEGG
   tag: Cth
-  translated_equation: C03079[c] + |2-Oxoglutarate (Akg)[c]| <=> 4-Hydroxy-2-oxoglutarate[c]
+  translated_equation: 4-Hydroxy-L-glutamate[c] + |2-Oxoglutarate (Akg)[c]| <=> 4-Hydroxy-2-oxoglutarate[c]
     + |L-Glutamate (Glu-L)[c]|
 - id: R10283
   name: (4S)-4-hydroxy-2-oxoglutarate glyoxylate-lyase (pyruvate-forming)
@@ -12691,7 +12782,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C20485[c] <=> |Pyruvate (Pyr)[c]| + Glyoxylate[c]
+  translated_equation: (4S)-4-Hydroxy-2-oxoglutarate[c] <=> |Pyruvate (Pyr)[c]| +
+    Glyoxylate[c]
 - id: R06863
   name: D-sedoheptulose-7-phosphate:thiamin diphosphate glycolaldehydetransferase
   equation: C05382[c] + C00068[c] <=> C13378[c] + C00117[c]
@@ -12717,7 +12809,7 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: '|Sedoheptulose 7-phosphate[c]| + |Thiamine diphosphate[c]|
-    <=> C13378[c] + |alpha-D-Ribose 5-phosphate (R5P)[c]|'
+    <=> alpha,beta-Dihydroxyethyl-TPP[c] + |alpha-D-Ribose 5-phosphate (R5P)[c]|'
 - id: R10806
   name: S-adenosyl-L-methionine:[protein]-L-glutamine (N5-glutamine)-methyltransferase
   equation: C02583[c] + C00019[c] <=> C20858[c] + C00021[c]
@@ -12746,8 +12838,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C02583[c] + |S-Adenosyl-L-methionine (SAM)[c]| <=> C20858[c]
-    + S-Adenosyl-L-homocysteine[c]
+  translated_equation: '|Protein glutamine[c]| + |S-Adenosyl-L-methionine (SAM)[c]|
+    <=> |Protein N5-methyl-L-glutamine[c]| + S-Adenosyl-L-homocysteine[c]'
 - id: R11529
   name: '[enzyme]-S-sulfanylcysteine:sulfur-acceptor sulfurtransferase'
   equation: C15812[c] + C02743[c] <=> C15811[c] + C21440[c]
@@ -12773,7 +12865,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C15812[c] + C02743[c] <=> C15811[c] + C21440[c]
+  translated_equation: '[Enzyme]-S-sulfanylcysteine[c] + [Protein]-L-cysteine[c]
+    <=> [Enzyme]-cysteine[c] + [Protein]-S-sulfanyl-L-cysteine[c]'
 - id: R11485
   name: flavodoxin:NADP+ oxidoreductase
   equation: C02745[c] + C00006[c] <=> C02869[c] + C00005[c] + C00080[c]
@@ -12820,7 +12913,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: ATP[c] + |Sedoheptulose 7-phosphate[c]| <=> ADP[c] + C00447[c]
+  translated_equation: ATP[c] + |Sedoheptulose 7-phosphate[c]| <=> ADP[c] + |Sedoheptulose
+    1,7-bisphosphate[c]|
 - id: R00767
   name: CTP:D-fructose-6-phosphate 1-phosphotransferase
   equation: C00063[c] + C00085[c] <=> C00112[c] + C00354[c]
@@ -12963,8 +13057,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: ATP[c] + C05335[c] + H2O[c] <=> Phosphate[c] + Diphosphate[c]
-    + C05691[c]
+  translated_equation: ATP[c] + L-Selenomethionine[c] + H2O[c] <=> Phosphate[c] +
+    Diphosphate[c] + Se-Adenosylselenomethionine[c]
 - id: R08701
   name: tRNA uridine 5-carboxymethylaminomethyl modification
   equation: C17322[c] + C00037[c] + C03479[c] + C00030[c] <=> C17323[c] + C00101[c]
@@ -12995,8 +13089,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C17322[c] + |L-Glycine (Gly-L)[c]| + |Folinic acid[c]| + C00030[c]
-    <=> C17323[c] + |5,6,7,8-Tetrahydrofolate (THF)[c]| + C00028[c] + H2O[c]
+  translated_equation: '|tRNA containing 2-thiouridine[c]| + |L-Glycine (Gly-L)[c]|
+    + |Folinic acid[c]| + |Reduced acceptor[c]| <=> |tRNA containing 5-carboxymethylaminomethyl-2-thiouridine[c]|
+    + |5,6,7,8-Tetrahydrofolate (THF)[c]| + Acceptor[c] + H2O[c]'
 - id: R08700
   name: '[enzyme]-S-sulfanylcysteine:tRNA-uridine sulfurtransferase (ATP-hydrolysing)'
   equation: C00868[c] + C15812[c] + C00002[c] <=> C17322[c] + C15811[c] + C00020[c]
@@ -13023,8 +13118,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00868[c] + C15812[c] + ATP[c] <=> C17322[c] + C15811[c] +
-    AMP[c] + Diphosphate[c]
+  translated_equation: '|tRNA uridine[c]| + [Enzyme]-S-sulfanylcysteine[c] + ATP[c]
+    <=> |tRNA containing 2-thiouridine[c]| + [Enzyme]-cysteine[c] + AMP[c] + Diphosphate[c]'
 - id: R01210
   name: 3-methyl-2-oxobutanoate:NAD+ oxidoreductase (CoA-mehtylpropanoylating)
   equation: C00141[c] + C00010[c] + C00003[c] <=> C00630[c] + C00011[c] + C00004[c]
@@ -13051,8 +13146,8 @@
   source: KEGG
   tag: Tsac
   translated_equation: '|2-Oxoisovalerate (oxoiv)[c]| + |Coenzyme A (CoA)[c]| + |Nicotinamide
-    adenine dinucleotide (NAD)[c]| <=> C00630[c] + CO2[c] + |Nicotinamide adenine
-    dinucleotide - reduced (NADH)[c]| + |Proton (H+)[c]|'
+    adenine dinucleotide (NAD)[c]| <=> 2-Methylpropanoyl-CoA[c] + CO2[c] + |Nicotinamide
+    adenine dinucleotide - reduced (NADH)[c]| + |Proton (H+)[c]|'
 - id: R01651
   name: 4-methyl-2-oxopentanoate:NAD+ oxidoreductase (CoA-mehtylpropanoylating)
   equation: C00233[c] + C00010[c] + C00003[c] <=> C02939[c] + C00011[c] + C00004[c]
@@ -13079,8 +13174,8 @@
   source: KEGG
   tag: Tsac
   translated_equation: 4-Methyl-2-oxopentanoate[c] + |Coenzyme A (CoA)[c]| + |Nicotinamide
-    adenine dinucleotide (NAD)[c]| <=> C02939[c] + CO2[c] + |Nicotinamide adenine
-    dinucleotide - reduced (NADH)[c]| + |Proton (H+)[c]|
+    adenine dinucleotide (NAD)[c]| <=> 3-Methylbutanoyl-CoA[c] + CO2[c] + |Nicotinamide
+    adenine dinucleotide - reduced (NADH)[c]| + |Proton (H+)[c]|
 - id: R03171
   name: (S)-3-methyl-2-oxopentanoate:NAD+ 2-oxidoreductase (CoA-methylbutanoylating)
   equation: C00671[c] + C00010[c] + C00003[c] <=> C15980[c] + C00011[c] + C00004[c]
@@ -13107,8 +13202,9 @@
   source: KEGG
   tag: Tsac
   translated_equation: '|(S)-3-Methyl-2-oxopentanoic acid[c]| + |Coenzyme A (CoA)[c]|
-    + |Nicotinamide adenine dinucleotide (NAD)[c]| <=> C15980[c] + CO2[c] + |Nicotinamide
-    adenine dinucleotide - reduced (NADH)[c]| + |Proton (H+)[c]|'
+    + |Nicotinamide adenine dinucleotide (NAD)[c]| <=> (S)-2-Methylbutanoyl-CoA[c]
+    + CO2[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
+    (H+)[c]|'
 - id: R03050
   name: 2-Acetolactate pyruvate-lyase (carboxylating)
   equation: C00900[c] + C00068[c] <=> C05125[c] + C00022[c]
@@ -13136,8 +13232,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00900[c] + |Thiamine diphosphate[c]| <=> C05125[c] + |Pyruvate
-    (Pyr)[c]|
+  translated_equation: 2-Acetolactate[c] + |Thiamine diphosphate[c]| <=> |2-(alpha-Hydroxyethyl)thiamine
+    diphosphate[c]| + |Pyruvate (Pyr)[c]|
 - id: R04672
   name: (S)-2-Acetolactate pyruvate-lyase (carboxylating)
   equation: C06010[c] + C00068[c] <=> C05125[c] + C00022[c]
@@ -13165,8 +13261,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: (S)-2-Acetolactate[c] + |Thiamine diphosphate[c]| <=> C05125[c]
-    + |Pyruvate (Pyr)[c]|
+  translated_equation: (S)-2-Acetolactate[c] + |Thiamine diphosphate[c]| <=> |2-(alpha-Hydroxyethyl)thiamine
+    diphosphate[c]| + |Pyruvate (Pyr)[c]|
 - id: R04673
   name: (S)-2-Aceto-2-hydroxybutanoate pyruvate-lyase (carboxylating)
   equation: C00109[c] + C05125[c] <=> C06006[c] + C00068[c]
@@ -13194,8 +13290,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: 2-Oxobutanoate[c] + C05125[c] <=> (S)-2-Aceto-2-hydroxybutanoate[c]
-    + |Thiamine diphosphate[c]|
+  translated_equation: 2-Oxobutanoate[c] + |2-(alpha-Hydroxyethyl)thiamine diphosphate[c]|
+    <=> (S)-2-Aceto-2-hydroxybutanoate[c] + |Thiamine diphosphate[c]|
 - id: R06861
   name: D-xylulose-5-phosphate:thiamin diphosphate glycolaldehydetransferase
   equation: C00231[c] + C00068[c] <=> C13378[c] + C00118[c]
@@ -13225,7 +13321,7 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: '|D-Xylulose 5-phosphate[c]| + |Thiamine diphosphate[c]| <=>
-    C13378[c] + |Glyceraldehyde 3-phosphate (GAP)[c]|'
+    alpha,beta-Dihydroxyethyl-TPP[c] + |Glyceraldehyde 3-phosphate (GAP)[c]|'
 - id: R00382
   name: (deoxyribonucleotide)n:5'-phospho-(deoxyribonucleotide)m ligase (AMP-forming,
     NMN-forming)
@@ -13274,7 +13370,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: ATP[c] + C00046[c] <=> AMP[c] + Diphosphate[c] + C02073[c]
+  translated_equation: ATP[c] + RNA[c] <=> AMP[c] + Diphosphate[c] + RNA(circular)[c]
 - id: R04562
   name: Biotin:apo-[acetyl-CoA:carbondioxide ligase (ADP-forming)] ligase (AMP-forming)
   equation: C00002[c] + C00120[c] + C04735[c] <=> C00020[c] + C00013[c] + C04681[c]
@@ -13299,8 +13395,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: ATP[c] + Biotin[c] + C04735[c] <=> AMP[c] + Diphosphate[c]
-    + C04681[c]
+  translated_equation: ATP[c] + Biotin[c] + |Apo-[acetyl-CoA:carbon-dioxide ligase
+    (ADP-forming)][c]| <=> AMP[c] + Diphosphate[c] + |[Acetyl-CoA:carbon-dioxide
+    ligase (ADP-forming)][c]|
 - id: R00444
   name: nucleoside-triphosphate:RNA nucleotidyltransferase (DNA-directed)
   equation: C00201[c] + C00046[c] <=> C00013[c] + C00046[c]
@@ -13340,7 +13437,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00201[c] + C00046[c] <=> Diphosphate[c] + C00046[c]
+  translated_equation: '|Nucleoside triphosphate[c]| + RNA[c] <=> Diphosphate[c]
+    + RNA[c]'
 - id: R00379
   name: Deoxynucleoside triphosphate:DNA deoxynucleotidyltransferase
   equation: C00677[c] + C00039(n)[c] <=> C00013[c] + C00039(n+1)[c]
@@ -13397,7 +13495,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00677[c] + C00039(n)[c] <=> Diphosphate[c] + C00039(n+1)[c]
+  translated_equation: '|Deoxynucleoside triphosphate[c]| + C00039(n)[c] <=> Diphosphate[c]
+    + C00039(n+1)[c]'
 - id: R07640
   name: poly(ribonucleotide):poly(ribonucleotide) ligase (AMP-forming)
   equation: C00002[c] + C00046(n)[c] + C00046(m)[c] <=> C00020[c] + C00013[c] + C00046(n+m)[c]
@@ -13442,7 +13541,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C21158[c] + H2O[c] <=> C01117[c] + Phosphate[c]
+  translated_equation: '|Nucleoside 3'',5''-bisphosphate[c]| + H2O[c] <=> |Nucleoside
+    5''-phosphate[c]| + Phosphate[c]'
 - id: R00026
   name: cellobiose glucohydrolase
   equation: C00185[c] + C00001[c] <=> (2) C00221[c]
@@ -13466,7 +13566,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: Cellobiose[c] + H2O[c] <=> (2) C00221[c]
+  translated_equation: Cellobiose[c] + H2O[c] <=> (2) beta-D-Glucose[c]
 - id: R00164
   name: Phosphoprotein phosphohydrolase
   equation: C00562[c] + C00001[c] <=> C00017[c] + C00009[c]
@@ -13492,7 +13592,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00562[c] + H2O[c] <=> C00017[c] + Phosphate[c]
+  translated_equation: Phosphoprotein[c] + H2O[c] <=> Protein[c] + Phosphate[c]
 - id: R02585
   name: Protein-tyrosine-phosphate phosphohydrolase
   equation: C01167[c] + C00001[c] <=> C00585[c] + C00009[c]
@@ -13513,7 +13613,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C01167[c] + H2O[c] <=> C00585[c] + Phosphate[c]
+  translated_equation: '|Protein tyrosine phosphate[c]| + H2O[c] <=> |Protein tyrosine[c]|
+    + Phosphate[c]'
 - id: R00188
   name: adenosine-3',5'-bisphosphate 3'-phosphohydrolase
   equation: C00054[c] + C00001[c] <=> C00020[c] + C00009[c]
@@ -13566,7 +13667,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C05713[c] + H2O[c] <=> C05712[c] + D-Glucose[c]
+  translated_equation: Cyanoglycoside[c] + H2O[c] <=> Cyanohydrin[c] + D-Glucose[c]
 - id: R10613
   name: FAD:protein riboflavin-5'-phosphate transferase
   equation: C00016[c] + C19803[c] <=> C20730[c] + C00020[c]
@@ -13587,8 +13688,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: '|Flavin adenine dinucleotide oxidized (FAD)[c]| + C19803[c]
-    <=> C20730[c] + AMP[c]'
+  translated_equation: '|Flavin adenine dinucleotide oxidized (FAD)[c]| + [Protein]-L-threonine[c]
+    <=> [Protein]-FMN-L-Threonine[c] + AMP[c]'
 - id: R10339
   name: (7,8-dihydropterin-6-yl)methyl diphosphate:4-(beta-D-ribofuranosyl)aniline
     5'-phosphate 6-hydroxymethyl-7,8-dihydropterintransferase
@@ -13613,7 +13714,8 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: '|6-Hydroxymethyl-7,8-dihydropterin diphosphate (6-HMDP)[c]|
-    + C20559[c] <=> C20562[c] + Diphosphate[c]'
+    + |4-(beta-D-Ribofuranosyl)aniline 5''-phosphate[c]| <=> |N-[(7,8-Dihydropterin-6-yl)methyl]-4-(beta-D-ribofuranosyl)aniline
+    5''-phosphate[c]| + Diphosphate[c]'
 - id: R11159
   name: S-adenosyl 3-(methylthio)propylamine:spermidine 3-aminopropyltransferase
     (N4-aminopropylspermidine synthesizing)
@@ -13637,7 +13739,7 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: S-Adenosylmethioninamine[c] + Spermidine[c] <=> 5-Methylthioadenosine[c]
-    + C21009[c]
+    + N4-Aminopropylspermidine[c]
 - id: R11160
   name: S-adenosyl 3-(methylthio)propylamine:N4-aminopropylspermidine 3-aminopropyltransferase
     [N4-bis(aminopropyl)spermidine synthesizing]
@@ -13660,8 +13762,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: S-Adenosylmethioninamine[c] + C21009[c] <=> 5-Methylthioadenosine[c]
-    + C21010[c]
+  translated_equation: S-Adenosylmethioninamine[c] + N4-Aminopropylspermidine[c]
+    <=> 5-Methylthioadenosine[c] + N4-Bis(aminopropyl)spermidine[c]
 - id: R04206
   name: 3-Phospho-D-erythronate hydro-lyase
   equation: C03356[c] <=> C04309[c] + C00001[c]
@@ -13683,7 +13785,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C03356[c] <=> C04309[c] + H2O[c]
+  translated_equation: 3-Phospho-D-erythronate[c] <=> Phosphoenol-4-deoxy-3-tetrulosonate[c]
+    + H2O[c]
 - id: R07285
   name: tRNA:phosphate nucleotidyltransferase
   equation: C00066[c] + C00009[c] <=> C00066[c] + C00454[c]
@@ -13706,41 +13809,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00066[c] + Phosphate[c] <=> C00066[c] + C00454[c]
-# - id: R10813
-#   name: nucleoside-triphosphate:nucleoside-triphosphate nucleotidyltransferase (DNA-directed)
-#   equation: (n) C00201[c] <=> C20864(n)[c] + (n - 1) C00013[c]
-#   ec:
-#   - 2.7.7.6
-#   EggNOG_annotation: peg.1517:Promotes RNA polymerase assembly. Latches the N- and
-#     C- terminal regions of the beta' subunit thereby facilitating its interaction
-#     with the beta and alpha subunits (By similarity);   peg.1264:DNA-dependent RNA
-#     polymerase catalyzes the transcription of DNA into RNA using the four ribonucleoside
-#     triphosphates as substrates (By similarity);   peg.2226:DNA-dependent RNA polymerase
-#     catalyzes the transcription of DNA into RNA using the four ribonucleoside triphosphates
-#     as substrates (By similarity);   peg.1263:DNA-dependent RNA polymerase catalyzes
-#     the transcription of DNA into RNA using the four ribonucleoside triphosphates
-#     as substrates (By similarity)
-#   KEGG_annotation: Athe_1717:K03040 DNA-directed RNA polymerase subunit alpha [EC:2.7.7.6]
-#     | (GenBank) DNA-directed RNA polymeras;   Athe_0804:K03043 DNA-directed RNA polymerase
-#     subunit beta [EC:2.7.7.6] | (GenBank) DNA-directed RNA polymerase;   Athe_1036:K03060
-#     DNA-directed RNA polymerase subunit omega [EC:2.7.7.6] | (GenBank) DNA-directed
-#     RNA polymeras;   Athe_0805:K03046 DNA-directed RNA polymerase subunit beta' [EC:2.7.7.6]
-#     | (GenBank) DNA-directed RNA polymeras
-#   PATRIC_annotation: DNA-directed RNA polymerase omega subunit (EC 2.7.7.6) or DNA-directed
-#     RNA polymerase beta' subunit (EC 2.7.7.6) or DNA-directed RNA polymerase alpha
-#     subunit (EC 2.7.7.6) or DNA-directed RNA polymerase beta subunit (EC 2.7.7.6)
-#   genes_Cce: None
-#   genes_Cth: None
-#   genes_Tsac: None
-#   genes_kegg: peg.2226,peg.1263,peg.1517,peg.1264
-#   genes_string_NCBI_id: Athe_1036,Athe_0805,Athe_1717,Athe_0804
-#   genes_string_PATRIC_id: peg.1517,peg.1264,peg.2226,peg.1263
-#   names:
-#   - nucleoside-triphosphate:nucleoside-triphosphate nucleotidyltransferase (DNA-directed)
-#   pathway: None
-#   source: KEGG
-#   tag: KEGG_Cbes
+  translated_equation: tRNA[c] + Phosphate[c] <=> tRNA[c] + NDP[c]
 - id: R09383
   name: CTP:tRNA cytidylyltransferase
   equation: C02211[c] + C00063[c] <=> C19078[c] + C00013[c]
@@ -13761,7 +13830,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C02211[c] + CTP[c] <=> C19078[c] + Diphosphate[c]
+  translated_equation: '|tRNA precursor[c]| + CTP[c] <=> |tRNA with a 3'' cytidine[c]|
+    + Diphosphate[c]'
 - id: R09384
   name: CTP:tRNA cytidylyltransferase
   equation: C19078[c] + C00063[c] <=> C19080[c] + C00013[c]
@@ -13782,7 +13852,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C19078[c] + CTP[c] <=> C19080[c] + Diphosphate[c]
+  translated_equation: '|tRNA with a 3'' cytidine[c]| + CTP[c] <=> |tRNA with a 3''
+    CC end[c]| + Diphosphate[c]'
 - id: R09386
   name: ATP:tRNA adenylyltransferase
   equation: C19080[c] + C00002[c] <=> C19085[c] + C00013[c]
@@ -13803,7 +13874,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C19080[c] + ATP[c] <=> C19085[c] + Diphosphate[c]
+  translated_equation: '|tRNA with a 3'' CC end[c]| + ATP[c] <=> |tRNA with a 3''
+    CCA end[c]| + Diphosphate[c]'
 - id: R07282
   name: polyribonucleotide:phosphate nucleotidyltransferase
   equation: C00046[c] + C00009[c] <=> C00046[c] + C00454[c]
@@ -13825,7 +13897,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00046[c] + Phosphate[c] <=> C00046[c] + C00454[c]
+  translated_equation: RNA[c] + Phosphate[c] <=> RNA[c] + NDP[c]
 - id: R10342
   name: ATP:ATP adenylyltransferase (cyclizing)
   equation: (2) C00002[c] <=> (2) C00013[c] + C20565[c]
@@ -13847,7 +13919,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: (2) ATP[c] <=> (2) Diphosphate[c] + C20565[c]
+  translated_equation: (2) ATP[c] <=> (2) Diphosphate[c] + |Cyclic di-3',5'-adenylate[c]|
 - id: R10463
   name: ATP:L-threonyl,bicarbonate adenylyltransferase
   equation: C00188[c] + C00002[c] + C00288[c] + C00080[c] <=> C20641[c] + C00013[c]
@@ -13871,7 +13943,7 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: '|L-Threonine (Thr-L)[c]| + ATP[c] + Bicarbonate[c] + |Proton
-    (H+)[c]| <=> C20641[c] + Diphosphate[c] + H2O[c]'
+    (H+)[c]| <=> L-Threonylcarbamoyladenylate[c] + Diphosphate[c] + H2O[c]'
 - id: R02984
   name: dTDPglucose 4-epimerase
   equation: C00842[c] <=> C02097[c]
@@ -13895,7 +13967,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: dTDPglucose[c] <=> C02097[c]
+  translated_equation: dTDPglucose[c] <=> dTDP-galactose[c]
 - id: R10280
   name: (6R)-6beta-hydroxy-1,4,5,6-tetrahydronicotinamide-adenine-dinucleotide 6-epimerase
   equation: C20482[c] <=> C04856[c]
@@ -13921,7 +13993,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C20482[c] <=> C04856[c]
+  translated_equation: '|(6R)-6beta-Hydroxy-1,4,5,6-tetrahydronicotinamide-adenine
+    dinucleotide[c]| <=> |(6S)-6beta-Hydroxy-1,4,5,6-tetrahydronicotinamide-adenine
+    dinucleotide[c]|'
 - id: R10281
   name: (6R)-6beta-hydroxy-1,4,5,6-tetrahydronicotinamide-adenine-dinucleotide-phosphate
     6-epimerase
@@ -13949,7 +14023,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C20483[c] <=> C04899[c]
+  translated_equation: '|(6R)-6beta-Hydroxy-1,4,5,6-tetrahydronicotinamide-adenine
+    dinucleotide phosphate[c]| <=> |(6S)-6beta-Hydroxy-1,4,5,6-tetrahydronicotinamide-adenine
+    dinucleotide phosphate[c]|'
 - id: R04273
   name: Peptidylproline cis-trans-isomerase
   equation: C03798[c] <=> C03633[c]
@@ -13972,7 +14048,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C03798[c] <=> C03633[c]
+  translated_equation: '|Peptidylproline (omega=180)[c]| <=> |Peptidylproline (omega=0)[c]|'
 - id: R03162
   name: alpha-L-fucoside fucohydrolase
   equation: C02475[c] + C00001[c] <=> C00069[c] + C01019[c]
@@ -13993,7 +14069,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C02475[c] + H2O[c] <=> C00069[c] + 6-Deoxy-L-galactose[c]
+  translated_equation: alpha-L-Fucoside[c] + H2O[c] <=> Alcohol[c] + 6-Deoxy-L-galactose[c]
 - id: R03801
   name: 1,4-beta-D-Glucan glucohydrolase
   equation: C02013[c] + C00001[c] <=> C06219[c] + C00031[c]
@@ -14017,7 +14093,7 @@
   pathway: None
   source: KEGG
   tag: Cth
-  translated_equation: C02013[c] + H2O[c] <=> C06219[c] + D-Glucose[c]
+  translated_equation: Cellotetraose[c] + H2O[c] <=> Cellotriose[c] + D-Glucose[c]
 - id: R05142
   name: 1,4-beta-D-Glucan glucohydrolase
   equation: C06217[c] + C00001[c] <=> C06218[c] + C00031[c]
@@ -14041,7 +14117,7 @@
   pathway: None
   source: KEGG
   tag: Cth
-  translated_equation: C06217[c] + H2O[c] <=> C06218[c] + D-Glucose[c]
+  translated_equation: Cellohexaose[c] + H2O[c] <=> Cellopentaose[c] + D-Glucose[c]
 - id: R03802
   name: 1,4-beta-D-Glucan glucohydrolase
   equation: C06218[c] + C00001[c] <=> C02013[c] + C00031[c]
@@ -14065,7 +14141,7 @@
   pathway: None
   source: KEGG
   tag: Cth
-  translated_equation: C06218[c] + H2O[c] <=> C02013[c] + D-Glucose[c]
+  translated_equation: Cellopentaose[c] + H2O[c] <=> Cellotetraose[c] + D-Glucose[c]
 - id: R03618
   name: Trihexosylceramide galactohydrolase
   equation: C04737[c] + C00001[c] <=> C00124[c] + C01290[c]
@@ -14089,7 +14165,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C04737[c] + H2O[c] <=> D-Galactose[c] + C01290[c]
+  translated_equation: alpha-D-Galactosyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1)-ceramide[c]
+    + H2O[c] <=> D-Galactose[c] + beta-D-Galactosyl-(1->4)-beta-D-glucosyl-(1<->1)-ceramide[c]
 - id: R01100
   name: Lactose galactohydrolase
   equation: C00243[c] + C00001[c] <=> C00031[c] + C00124[c]
@@ -14131,7 +14208,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C02478[c] + H2O[c] <=> ROH[c] + D-Mannose[c]
+  translated_equation: beta-D-Mannoside[c] + H2O[c] <=> ROH[c] + D-Mannose[c]
 - id: R01444
   name: cellotriose glucohydrolase
   equation: C06219[c] + C00001[c] <=> C00185[c] + C00031[c]
@@ -14155,7 +14232,7 @@
   pathway: None
   source: KEGG
   tag: Cth
-  translated_equation: C06219[c] + H2O[c] <=> Cellobiose[c] + D-Glucose[c]
+  translated_equation: Cellotriose[c] + H2O[c] <=> Cellobiose[c] + D-Glucose[c]
 - id: R11524
   name: '[Sulfur-carrier protein]-L-cysteine carboxypeptidase'
   equation: C21437[c] + C00001[c] <=> C00097[c] + C15810[c]
@@ -14176,8 +14253,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C21437[c] + H2O[c] <=> |L-Cysteine (Cys-L)[c]| + |Sulfur-carrier
-    protein[c]|
+  translated_equation: '|[Sulfur-carrier protein]-Gly-Gly-L-Cys[c]| + H2O[c] <=>
+    |L-Cysteine (Cys-L)[c]| + |Sulfur-carrier protein[c]|'
 - id: R04112
   name: N-Acetylmuramoyl-Ala amidohydrolase
   equation: C02999[c] + C00001[c] <=> C02713[c] + C00041[c]
@@ -14202,7 +14279,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes,Cth
-  translated_equation: C02999[c] + H2O[c] <=> C02713[c] + |L-Alanine (Ala-L)[c]|
+  translated_equation: N-Acetylmuramoyl-Ala[c] + H2O[c] <=> N-Acetylmuramate[c] +
+    |L-Alanine (Ala-L)[c]|
 - id: R02622
   name: Protein glutamine amidohydrolase
   equation: C02583[c] + C00001[c] <=> C00614[c] + C00014[c]
@@ -14225,7 +14303,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C02583[c] + H2O[c] <=> C00614[c] + Ammonia[c]
+  translated_equation: '|Protein glutamine[c]| + H2O[c] <=> |Protein glutamate[c]|
+    + Ammonia[c]'
 - id: R04268
   name: N-Formyl-L-methionylaminoacyl-tRNA amidohydrolase
   equation: C04258[c] + C00001[c] <=> C00058[c] + C03617[c]
@@ -14249,7 +14328,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C04258[c] + H2O[c] <=> |Formate (For)[c]| + C03617[c]
+  translated_equation: N-Formyl-L-methionylaminoacyl-tRNA[c] + H2O[c] <=> |Formate
+    (For)[c]| + L-Methionylaminoacyl-tRNA[c]
 - id: R05635
   name: Formyl-L-methionyl peptide amidohydrolase
   equation: C11439[c] + C00001[c] <=> C11440[c] + C00058[c]
@@ -14273,7 +14353,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C11439[c] + H2O[c] <=> C11440[c] + |Formate (For)[c]|
+  translated_equation: '|Formyl-L-methionyl peptide[c]| + H2O[c] <=> |Methionyl peptide[c]|
+    + |Formate (For)[c]|'
 - id: R00321
   name: Acetamide amidohydrolase
   equation: C06244[c] + C00001[c] <=> C00033[c] + C00014[c]
@@ -14298,7 +14379,7 @@
   pathway: None
   source: KEGG
   tag: Cth,Tsac
-  translated_equation: C06244[c] + H2O[c] <=> Acetate[c] + Ammonia[c]
+  translated_equation: Acetamide[c] + H2O[c] <=> Acetate[c] + Ammonia[c]
 - id: R00193
   name: S-Adenosyl-L-homocysteine aminohydrolase
   equation: C00021[c] + C00001[c] <=> C03431[c] + C00014[c]
@@ -14322,7 +14403,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: S-Adenosyl-L-homocysteine[c] + H2O[c] <=> C03431[c] + Ammonia[c]
+  translated_equation: S-Adenosyl-L-homocysteine[c] + H2O[c] <=> S-Inosyl-L-homocysteine[c]
+    + Ammonia[c]
 - id: R10223
   name: tRNA(adenine34) aminohydrolase
   equation: C17324[c] + C00001[c] <=> C20451[c] + C00014[c]
@@ -14343,7 +14425,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C17324[c] + H2O[c] <=> C20451[c] + Ammonia[c]
+  translated_equation: '|tRNA adenine[c]| + H2O[c] <=> |tRNA hypoxanthine[c]| + Ammonia[c]'
 - id: R00004
   name: diphosphate phosphohydrolase
   genes: fig|31899.10.peg.1212
@@ -14425,8 +14507,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: '|L-Cysteine (Cys-L)[c]| + C02743[c] <=> |L-Alanine (Ala-L)[c]|
-    + C21440[c]'
+  translated_equation: '|L-Cysteine (Cys-L)[c]| + [Protein]-L-cysteine[c] <=> |L-Alanine
+    (Ala-L)[c]| + [Protein]-S-sulfanyl-L-cysteine[c]'
 - id: R03632
   name: ATP:protamine O-phosphotransferase
   equation: C00002[c] + C01609[c] <=> C00008[c] + C02729[c]
@@ -14450,7 +14532,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: ATP[c] + C01609[c] <=> ADP[c] + C02729[c]
+  translated_equation: ATP[c] + Protamine[c] <=> ADP[c] + O-Phosphoprotamine[c]
 - id: R10652
   name: '[ribosomal protein S12]-L-aspartate:sulfur-donor,S-adenosyl-L-methionine
     C3-methylthiotransferase'
@@ -14475,9 +14557,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C20756[c] + |Sulfur donor[c]| + (2) |S-Adenosyl-L-methionine
-    (SAM)[c]| <=> C20758[c] + S-Adenosyl-L-homocysteine[c] + |L-Methionine (Met-L)[c]|
-    + 5'-Deoxyadenosine[c]
+  translated_equation: '|[Ribosomal protein S12]-L-aspartate[c]| + |Sulfur donor[c]|
+    + (2) |S-Adenosyl-L-methionine (SAM)[c]| <=> |[Ribosomal protein S12]-3-methylthioaspartate[c]|
+    + S-Adenosyl-L-homocysteine[c] + |L-Methionine (Met-L)[c]| + 5''-Deoxyadenosine[c]'
 - id: R10654
   name: S-adenosyl-L-methionine:[ribosomal protein S12]-3-thioaspartate S-methyltransferase
   equation: C20757[c] + C00019[c] <=> C20758[c] + C00021[c]
@@ -14500,8 +14582,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C20757[c] + |S-Adenosyl-L-methionine (SAM)[c]| <=> C20758[c]
-    + S-Adenosyl-L-homocysteine[c]
+  translated_equation: '|[Ribosomal protein S12]-3-thioaspartate[c]| + |S-Adenosyl-L-methionine
+    (SAM)[c]| <=> |[Ribosomal protein S12]-3-methylthioaspartate[c]| + S-Adenosyl-L-homocysteine[c]'
 - id: R10649
   name: tRNA (N6-L-threonylcarbamoyladenosine37):sulfur-donor,S-adenosyl-L-methionine
     C2-methylthiotransferase
@@ -14525,9 +14607,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C20751[c] + |Sulfur donor[c]| + (2) |S-Adenosyl-L-methionine
-    (SAM)[c]| <=> C20752[c] + S-Adenosyl-L-homocysteine[c] + |L-Methionine (Met-L)[c]|
-    + 5'-Deoxyadenosine[c]
+  translated_equation: '|N6-L-Threonylcarbamoyladenine in tRNA[c]| + |Sulfur donor[c]|
+    + (2) |S-Adenosyl-L-methionine (SAM)[c]| <=> |2-Methylthio-N6-L-threonylcarbamoyladenine
+    in tRNA[c]| + S-Adenosyl-L-homocysteine[c] + |L-Methionine (Met-L)[c]| + 5''-Deoxyadenosine[c]'
 - id: R04238
   name: Aminoacyl-tRNA aminoacylhydrolase
   equation: C03880[c] + C00001[c] <=> C03523[c] + C00066[c]
@@ -14549,7 +14631,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C03880[c] + H2O[c] <=> C03523[c] + C00066[c]
+  translated_equation: '|N-Substituted aminoacyl-tRNA[c]| + H2O[c] <=> |N-Substituted
+    amino acid[c]| + tRNA[c]'
 - id: R10267
   name: (6S)-6beta-hydroxy-1,4,5,6-tetrahydronicotinamide-adenine-dinucleotide hydro-lyase
     (ADP-hydrolysing
@@ -14578,8 +14661,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: ADP[c] + C04856[c] <=> AMP[c] + Phosphate[c] + |Nicotinamide
-    adenine dinucleotide - reduced (NADH)[c]|
+  translated_equation: ADP[c] + |(6S)-6beta-Hydroxy-1,4,5,6-tetrahydronicotinamide-adenine
+    dinucleotide[c]| <=> AMP[c] + Phosphate[c] + |Nicotinamide adenine dinucleotide
+    - reduced (NADH)[c]|
 - id: R10268
   name: (6S)-6beta-hydroxy-1,4,5,6-tetrahydronicotinamide-adenine-dinucleotide-phosphate
     hydro-lyase (ADP-hydrolysing
@@ -14608,8 +14692,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: ADP[c] + C04899[c] <=> AMP[c] + Phosphate[c] + |Nicotinamide
-    adenine dinucleotide phosphate - reduced (NADPH)[c]|
+  translated_equation: ADP[c] + |(6S)-6beta-Hydroxy-1,4,5,6-tetrahydronicotinamide-adenine
+    dinucleotide phosphate[c]| <=> AMP[c] + Phosphate[c] + |Nicotinamide adenine
+    dinucleotide phosphate - reduced (NADPH)[c]|
 - id: R11090
   name: ATP:[protein]-L-arginine N(omega)-phosphotransferase
   equation: C00002[c] + C00613[c] <=> C00008[c] + C21101[c]
@@ -14630,7 +14715,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: ATP[c] + C00613[c] <=> ADP[c] + C21101[c]
+  translated_equation: ATP[c] + Protein-L-arginine[c] <=> ADP[c] + |Protein N(omega)-phospho-L-arginine[c]|
 - id: R10645
   name: tRNA (N6-dimethylallyladenosine):sulfur-donor,S-adenosyl-L-methionine C2-methylthiotransferase
   equation: C04432[c] + C17023[c] + (2) C00019[c] <=> C20753[c] + C00021[c] + C00073[c]
@@ -14655,9 +14740,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C04432[c] + |Sulfur donor[c]| + (2) |S-Adenosyl-L-methionine
-    (SAM)[c]| <=> C20753[c] + S-Adenosyl-L-homocysteine[c] + |L-Methionine (Met-L)[c]|
-    + 5'-Deoxyadenosine[c]
+  translated_equation: '|tRNA containing 6-isopentenyladenosine[c]| + |Sulfur donor[c]|
+    + (2) |S-Adenosyl-L-methionine (SAM)[c]| <=> |2-Methylthio-N6-dimethylallyladenine
+    in tRNA[c]| + S-Adenosyl-L-homocysteine[c] + |L-Methionine (Met-L)[c]| + 5''-Deoxyadenosine[c]'
 - id: R11154
   name: S-adenosyl 3-(methylthio)propylamine:spermidine 3-aminopropyltransferase
     [N4-bis(aminopropyl)spermidine synthesizing]
@@ -14682,7 +14767,7 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: (2) S-Adenosylmethioninamine[c] + Spermidine[c] <=> (2) 5-Methylthioadenosine[c]
-    + C21010[c]
+    + N4-Bis(aminopropyl)spermidine[c]
 - id: R00651
   name: O-acetyl-L-homoserine:methanethiol 3-amino-3-carboxypropyltransferase
   genes: fig|31899.10.peg.1606 or fig|31899.10.peg.1675
@@ -14732,8 +14817,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C15548[c] + Phosphate[c] <=> D-Glucose[c] + |beta-D-Glucose
-    1-phosphate[c]|
+  translated_equation: 2-alpha-D-Glucosyl-D-glucose[c] + Phosphate[c] <=> D-Glucose[c]
+    + |beta-D-Glucose 1-phosphate[c]|
 - id: R04314
   name: DNA-6-O-methylguanine:protein-L-cysteine S-methyltransferase
   equation: C04250[c] + C02743[c] <=> C03800[c] + C11475[c]
@@ -14758,7 +14843,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C04250[c] + C02743[c] <=> C03800[c] + C11475[c]
+  translated_equation: '|DNA containing 6-O-methylguanine[c]| + [Protein]-L-cysteine[c]
+    <=> |Protein S-methyl-L-cysteine[c]| + |DNA containing guanine[c]|'
 - id: R06049
   name: ADP-glucose:1,4-alpha-D-glucan 4-alpha-D-glucosyltransferase
   equation: G10495(n)[c] + G11109[c] <=> G10495(n+1)[c] + G11113[c]
@@ -14826,7 +14912,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: UDP-N-acetyl-D-mannosamine[c] + C01289[c] <=> UDP[c] + C04881[c]
+  translated_equation: UDP-N-acetyl-D-mannosamine[c] + N-Acetyl-D-glucosaminyldiphosphoundecaprenol[c]
+    <=> UDP[c] + N-Acetyl-beta-D-mannosaminyl-1,4-N-acetyl-D-glucosaminyldiphosphoundecaprenol[c]
 - id: R06129
   name: UDP-N-acetyl-D-mannosamine:N-acetyl-beta-D-glucosaminyldiphosphoundecaprenol
     beta-1,4-N-acetylmannosaminyltransferase
@@ -14850,7 +14937,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: G11112[c] + C01289[c] <=> G00177[c] + G10619[c]
+  translated_equation: G11112[c] + N-Acetyl-D-glucosaminyldiphosphoundecaprenol[c]
+    <=> G00177[c] + G10619[c]
 - id: R01195
   name: Ferredoxin:NADP+ oxidoreductase
   equation: (2) C00138[c] + C00006[c] + C00080[c] <=> (2) C00139[c] + C00005[c]
@@ -14898,9 +14986,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: (2) C00662[c] + |Nicotinamide adenine dinucleotide phosphate
-    (NADP)[c]| + |Proton (H+)[c]| <=> (2) C00667[c] + |Nicotinamide adenine dinucleotide
-    phosphate - reduced (NADPH)[c]|
+  translated_equation: (2) |Reduced adrenal ferredoxin[c]| + |Nicotinamide adenine
+    dinucleotide phosphate (NADP)[c]| + |Proton (H+)[c]| <=> (2) |Oxidized adrenal
+    ferredoxin[c]| + |Nicotinamide adenine dinucleotide phosphate - reduced (NADPH)[c]|
 - id: R04519
   name: '[poly-N-acetyl-D-glucosaminyl-(1->4)-(N-acetyl-D-muramoylpentapeptide)]-diphosphoundecaprenol:[N-acetyl-D-glucosaminyl-(1->4)-N-acetyl-D-muramoylpentapeptide]-diphosphoundecaprenol
     polysaccharidetransferase'
@@ -14926,8 +15014,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C05898[c] + C11827[c] <=> |di-trans,poly-cis-Undecaprenyl
-    diphosphate[c]| + C11827[c]
+  translated_equation: Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine[c]
+    + [GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-g-D-Glu-A2pm-D-Ala-D-Ala)]n-diphosphoundecaprenol[c]
+    <=> |di-trans,poly-cis-Undecaprenyl diphosphate[c]| + [GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-g-D-Glu-A2pm-D-Ala-D-Ala)]n-diphosphoundecaprenol[c]
 - id: R06178
   name: '[poly-N-acetyl-D-glucosaminyl-(1->4)-(N-acetyl-D-muramoylpentapeptide)]-diphosphoundecaprenol:[N-acetyl-D-glucosaminyl-(1->4)-N-acetyl-D-muramoylpentapeptide]-diphosphoundecaprenol
     polysaccharidetransferase'
@@ -14951,8 +15040,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C05893[c] + C11826[c] <=> |di-trans,poly-cis-Undecaprenyl
-    diphosphate[c]| + C11826[c]
+  translated_equation: Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine[c]
+    + [GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-g-D-Glu-L-Lys-D-Ala-D-Ala)]n-diphosphoundecaprenol[c]
+    <=> |di-trans,poly-cis-Undecaprenyl diphosphate[c]| + [GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-g-D-Glu-L-Lys-D-Ala-D-Ala)]n-diphosphoundecaprenol[c]
 - id: R05743
   name: rubredoxin:superoxide oxidoreductase
   equation: C00340[c] + C00704[c] + (2) C00080[c] <=> C00435[c] + C00027[c]
@@ -14973,8 +15063,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00340[c] + C00704[c] + (2) |Proton (H+)[c]| <=> C00435[c]
-    + |Hydrogen peroxide[c]|
+  translated_equation: '|Reduced rubredoxin[c]| + O2.-[c] + (2) |Proton (H+)[c]|
+    <=> |Oxidized rubredoxin[c]| + |Hydrogen peroxide[c]|'
 - id: R01821_kz
   name: 1,4-alpha-D-Glucan:orthophosphate alpha-D-glucosyltransferase
   genes: fig|31899.10.peg.123 or fig|31899.10.peg.986
@@ -15028,7 +15118,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C03172[c] + L-Homocysteine[c] <=> (2) |L-Methionine (Met-L)[c]|
+  translated_equation: S-Methyl-L-methionine[c] + L-Homocysteine[c] <=> (2) |L-Methionine
+    (Met-L)[c]|
 - id: R04710
   name: Protein-glycine,dihydroflavodoxin:S-adenosyl-L-methionine oxidoreductase
     (S-adenosyl-L-methionine cleaving)
@@ -15066,8 +15157,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: '|S-Adenosyl-L-methionine (SAM)[c]| + C05196[c] + C05197[c]
-    <=> 5''-Deoxyadenosine[c] + |L-Methionine (Met-L)[c]| + C05199[c] + C05312[c]'
+  translated_equation: '|S-Adenosyl-L-methionine (SAM)[c]| + Dihydroflavodoxin[c]
+    + |Protein glycine[c]| <=> 5''-Deoxyadenosine[c] + |L-Methionine (Met-L)[c]|
+    + |Flavodoxin semiquinone[c]| + |Protein glycin-2-yl radical[c]|'
 - id: R00860
   name: AMP,sulfite:acceptor oxidoreductase (adenosine-5'-phosphosulfate-forming)
   equation: C00094[c] + C00028[c] + C00020[c] <=> C00224[c] + C00030[c]
@@ -15091,8 +15183,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00094[c] + C00028[c] + AMP[c] <=> |Adenosine 5'-phosphosulfate[c]|
-    + C00030[c]
+  translated_equation: Sulfite[c] + Acceptor[c] + AMP[c] <=> |Adenosine 5'-phosphosulfate[c]|
+    + |Reduced acceptor[c]|
 - id: R04927
   name: AMP,sulfite:(acceptor) oxidoreductase
   equation: (2) C00125[c] + C05684[c] + C00020[c] <=> (2) C00126[c] + C05686[c]
@@ -15116,7 +15208,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: (2) C00125[c] + C05684[c] + AMP[c] <=> (2) C00126[c] + C05686[c]
+  translated_equation: (2) |Ferricytochrome c[c]| + Selenite[c] + AMP[c] <=> (2)
+    |Ferrocytochrome c[c]| + Adenylylselenate[c]
 - id: R11398
   name: beta-D-mannopyranosyl-(1->2)-D-mannopyranose:phosphate alpha-D-mannosyltransferase
   equation: C21336[c] + C00009[c] <=> C00159[c] + C00636[c]
@@ -15137,7 +15230,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C21336[c] + Phosphate[c] <=> D-Mannose[c] + |D-Mannose 1-phosphate[c]|
+  translated_equation: beta-1,2-Mannobiose[c] + Phosphate[c] <=> D-Mannose[c] + |D-Mannose
+    1-phosphate[c]|
 - id: R11397
   name: (1->2)-beta-D-mannan:phosphate beta-D-mannosyltransferase (conformation-inverting)
   equation: C21335(n)[c] + C00009[c] <=> C21335(n-1)[c] + C00636[c]
@@ -15181,9 +15275,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00579[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    C00248[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+  translated_equation: Dihydrolipoamide[c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
+    <=> Lipoamide[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| +
+    |Proton (H+)[c]|
 - id: R00284
   name: ammonia:acceptor oxidoreductase
   equation: C00028[c] + C00014[c] + C00001[c] <=> C00192[c] + C00030[c]
@@ -15205,7 +15299,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00028[c] + Ammonia[c] + H2O[c] <=> C00192[c] + C00030[c]
+  translated_equation: Acceptor[c] + Ammonia[c] + H2O[c] <=> Hydroxylamine[c] + |Reduced
+    acceptor[c]|
 - id: R10648
   name: L-threonylcarbamoyladenylate:adenine in tRNA N6-L-threonylcarbamoyltransferase
   equation: C20641[c] + C17324[c] <=> C00020[c] + C20751[c]
@@ -15228,7 +15323,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C20641[c] + C17324[c] <=> AMP[c] + C20751[c]
+  translated_equation: L-Threonylcarbamoyladenylate[c] + |tRNA adenine[c]| <=> AMP[c]
+    + |N6-L-Threonylcarbamoyladenine in tRNA[c]|
 - id: R00700
   name: hydrogen:NAD+ oxidoreductase
   equation: C00282[c] + C00003[c] <=> C00004[c] + C00080[c]
@@ -15363,7 +15459,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C15498[c] + (2) C16736[c] <=> C00069[c] + H2O[c] + C15496[c]
+  translated_equation: ROOH[c] + (2) |Thiol-containing reductant[c]| <=> Alcohol[c]
+    + H2O[c] + |Oxidized thiol-containing reductant[c]|
 - id: R08657
   name: sn-glycerol 3-phosphate:ubiquinone oxidoreductase
   equation: C00093[c] + C00399[c] <=> C00111[c] + C00390[c]
@@ -15384,8 +15481,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: '|sn-Glycerol 3-phosphate[c]| + C00399[c] <=> |Dihydroxyacetone
-    phosphate (DHAP)[c]| + C00390[c]'
+  translated_equation: '|sn-Glycerol 3-phosphate[c]| + Ubiquinone[c] <=> |Dihydroxyacetone
+    phosphate (DHAP)[c]| + Ubiquinol[c]'
 - id: R00849
   name: sn-glycerol 3-phosphate:quinone oxidoreductase
   equation: C00093[c] + C15602[c] <=> C00111[c] + C15603[c]
@@ -15406,8 +15503,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: '|sn-Glycerol 3-phosphate[c]| + C15602[c] <=> |Dihydroxyacetone
-    phosphate (DHAP)[c]| + C15603[c]'
+  translated_equation: '|sn-Glycerol 3-phosphate[c]| + Quinone[c] <=> |Dihydroxyacetone
+    phosphate (DHAP)[c]| + Hydroquinone[c]'
 - id: R03080
   name: (R)-Propane-1,2-diol:NAD+ oxidoreductase
   equation: C02912[c] + C00003[c] <=> C00937[c] + C00004[c] + C00080[c]
@@ -15428,9 +15525,9 @@
   pathway: None
   source: KEGG
   tag: Cce
-  translated_equation: C02912[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    C00937[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+  translated_equation: (R)-Propane-1,2-diol[c] + |Nicotinamide adenine dinucleotide
+    (NAD)[c]| <=> (R)-Lactaldehyde[c] + |Nicotinamide adenine dinucleotide - reduced
+    (NADH)[c]| + |Proton (H+)[c]|
 - id: R02961
   equation: C00019[c] + C00821[c] <=> C00021[c] + C03391[c]
   ec:
@@ -15452,8 +15549,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: '|S-Adenosyl-L-methionine (SAM)[c]| + C00821[c] <=> S-Adenosyl-L-homocysteine[c]
-    + C03391[c]'
+  translated_equation: '|S-Adenosyl-L-methionine (SAM)[c]| + |DNA adenine[c]| <=>
+    S-Adenosyl-L-homocysteine[c] + |DNA 6-methylaminopurine[c]|'
 - id: R04316
   name: Acetyl-CoA:ribosomal-protein-L-alanine N-acetyltransferase
   equation: C00024[c] + C03803[c] <=> C00010[c] + C04341[c]
@@ -15474,8 +15571,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: '|Acetyl-CoA (AcCoA)[c]| + C03803[c] <=> |Coenzyme A (CoA)[c]|
-    + C04341[c]'
+  translated_equation: '|Acetyl-CoA (AcCoA)[c]| + |Ribosomal-protein L-alanine[c]|
+    <=> |Coenzyme A (CoA)[c]| + |Ribosomal-protein N-acetyl-L-alanine[c]|'
 - id: R08575
   name: sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase
   equation: C05382[c] + C00118[c] <=> C00279[c] + C00085[c]
@@ -15543,8 +15640,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C20887[c] + Phosphate[c] <=> |N-Acetyl-D-glucosamine (GlcNAc)[c]|
-    + |D-Mannose 1-phosphate[c]|
+  translated_equation: beta-D-Mannosyl-1,4-N-acetyl-D-glucosamine[c] + Phosphate[c]
+    <=> |N-Acetyl-D-glucosamine (GlcNAc)[c]| + |D-Mannose 1-phosphate[c]|
 - id: R02623
   name: S-Adenosyl-L-methionine:protein-L-glutamate O-methyltransferase
   equation: C00019[c] + C00614[c] <=> C00021[c] + C04142[c]
@@ -15568,8 +15665,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: '|S-Adenosyl-L-methionine (SAM)[c]| + C00614[c] <=> S-Adenosyl-L-homocysteine[c]
-    + C04142[c]'
+  translated_equation: '|S-Adenosyl-L-methionine (SAM)[c]| + |Protein glutamate[c]|
+    <=> S-Adenosyl-L-homocysteine[c] + |Protein glutamate methyl ester[c]|'
 - id: R03704
   name: 5,10-Methylenetetrahydrofolate:tRNA-UpsiC (uracil-5-)-methyltransferase
   equation: C00143[c] + C01764[c] + C01352[c] <=> C00101[c] + C03446[c] + C00016[c]
@@ -15592,9 +15689,10 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: '|5,10-Methylenetetrahydrofolate (MLTHF)[c]| + C01764[c] +
-    |Flavin adenine dinucleotide reduced (FADH2)[c]| <=> |5,6,7,8-Tetrahydrofolate
-    (THF)[c]| + C03446[c] + |Flavin adenine dinucleotide oxidized (FAD)[c]|'
+  translated_equation: '|5,10-Methylenetetrahydrofolate (MLTHF)[c]| + |tRNA containing
+    uridine at position 54[c]| + |Flavin adenine dinucleotide reduced (FADH2)[c]|
+    <=> |5,6,7,8-Tetrahydrofolate (THF)[c]| + |tRNA containing ribothymidine at position
+    54[c]| + |Flavin adenine dinucleotide oxidized (FAD)[c]|'
 - id: R06134
   equation: C00241[c] + C00001[c] <=> C00060[c] + C00014[c]
   ec:
@@ -15633,7 +15731,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00241[c] + H2O[c] <=> C00060[c] + Ammonia[c]
+  translated_equation: Amide[c] + H2O[c] <=> Carboxylate[c] + Ammonia[c]
 - id: R07158
   name: aldehyde:ferredoxin oxidoreductase
   equation: C00071[c] + C00001[c] + (2) C00139[c] <=> C00060[c] + (2) C00138[c] +
@@ -15655,9 +15753,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00071[c] + H2O[c] + (2) |Oxidized ferredoxin (2[4Fe-4S])
-    (Fdox)[c]| <=> C00060[c] + (2) |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]| +
-    (2) |Proton (H+)[c]|
+  translated_equation: Aldehyde[c] + H2O[c] + (2) |Oxidized ferredoxin (2[4Fe-4S])
+    (Fdox)[c]| <=> Carboxylate[c] + (2) |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]|
+    + (2) |Proton (H+)[c]|
 - id: R07133
   name: D-sorbitol-6-phosphate:NAD+ 2-oxidoreductase
   genes: peg.1152
@@ -15746,9 +15844,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00161[c] + |Coenzyme A (CoA)[c]| + (2) |Oxidized ferredoxin
+  translated_equation: '|2-Oxo acid[c]| + |Coenzyme A (CoA)[c]| + (2) |Oxidized ferredoxin
     (2[4Fe-4S]) (Fdox)[c]| <=> Acyl-CoA[c] + CO2[c] + (2) |Reduced ferredoxin (2[4Fe-4S])
-    (Fdred)[c]| + (2) |Proton (H+)[c]|
+    (Fdred)[c]| + (2) |Proton (H+)[c]|'
 - id: R02878
   name: 1-Octanol:NAD+ oxidoreductase
   equation: C00756[c] + C00003[c] <=> C01545[c] + C00004[c] + C00080[c]
@@ -15770,9 +15868,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00756[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    C01545[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+  translated_equation: 1-Octanol[c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
+    <=> 1-Octanal[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| +
+    |Proton (H+)[c]|
 - id: R01577
   name: D-arabinose aldose-ketose-isomerase
   equation: C00216[c] <=> C00309[c]
@@ -15795,7 +15893,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: D-Arabinose[c] <=> C00309[c]
+  translated_equation: D-Arabinose[c] <=> D-Ribulose[c]
 - id: R00772
   name: D-mannose-6-phosphate aldose-ketose-isomerase
   genes: fig|31899.10.peg.1059
@@ -15866,7 +15964,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00868[c] <=> C02764[c]
+  translated_equation: '|tRNA uridine[c]| <=> |tRNA pseudouridine[c]|'
 - id: R10153
   name: L-glutamate 2,3-aminomutase
   equation: C00025[c] <=> C05574[c]
@@ -15887,7 +15985,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: '|L-Glutamate (Glu-L)[c]| <=> C05574[c]'
+  translated_equation: '|L-Glutamate (Glu-L)[c]| <=> 3-Aminopentanedioate[c]'
 - id: R04049
   equation: C02782[c] + C00003[c] <=> C03926[c] + C00004[c] + C00080[c]
   ec:
@@ -15907,9 +16005,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C02782[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    C03926[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+  translated_equation: 2-Deoxy-D-gluconate[c] + |Nicotinamide adenine dinucleotide
+    (NAD)[c]| <=> 3-Dehydro-2-deoxy-D-gluconate[c] + |Nicotinamide adenine dinucleotide
+    - reduced (NADH)[c]| + |Proton (H+)[c]|
 - id: R05552
   equation: C00251[c] + C00014[c] <=> C11355[c] + C00001[c]
   ec: []
@@ -15959,9 +16057,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C05444[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    C05445[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+  translated_equation: 3alpha,7alpha,26-Trihydroxy-5beta-cholestane[c] + |Nicotinamide
+    adenine dinucleotide (NAD)[c]| <=> 3alpha,7alpha-Dihydroxy-5beta-cholestan-26-al[c]
+    + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton (H+)[c]|
 - id: R06179
   equation: G10553[c] + G10554(n)[c] <=> C04574[c] + G10554(n+1)[c]
   ec:
@@ -16116,8 +16214,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C04432[c] + |Sulfur donor[c]| + |S-Adenosyl-L-methionine (SAM)[c]|
-    <=> C20755[c] + |L-Methionine (Met-L)[c]| + 5'-Deoxyadenosine[c]
+  translated_equation: '|tRNA containing 6-isopentenyladenosine[c]| + |Sulfur donor[c]|
+    + |S-Adenosyl-L-methionine (SAM)[c]| <=> |2-Thio-N6-dimethylallyladenine in tRNA[c]|
+    + |L-Methionine (Met-L)[c]| + 5''-Deoxyadenosine[c]'
 - id: R10647
   equation: C20755[c] + C00019[c] <=> C20753[c] + C00021[c]
   ec:
@@ -16139,8 +16238,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C20755[c] + |S-Adenosyl-L-methionine (SAM)[c]| <=> C20753[c]
-    + S-Adenosyl-L-homocysteine[c]
+  translated_equation: '|2-Thio-N6-dimethylallyladenine in tRNA[c]| + |S-Adenosyl-L-methionine
+    (SAM)[c]| <=> |2-Methylthio-N6-dimethylallyladenine in tRNA[c]| + S-Adenosyl-L-homocysteine[c]'
 - id: R10653
   equation: C20756[c] + C17023[c] + C00019[c] <=> C20757[c] + C00073[c] + C05198[c]
   ec:
@@ -16161,8 +16260,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C20756[c] + |Sulfur donor[c]| + |S-Adenosyl-L-methionine (SAM)[c]|
-    <=> C20757[c] + |L-Methionine (Met-L)[c]| + 5'-Deoxyadenosine[c]
+  translated_equation: '|[Ribosomal protein S12]-L-aspartate[c]| + |Sulfur donor[c]|
+    + |S-Adenosyl-L-methionine (SAM)[c]| <=> |[Ribosomal protein S12]-3-thioaspartate[c]|
+    + |L-Methionine (Met-L)[c]| + 5''-Deoxyadenosine[c]'
 - id: R10650
   equation: C20751[c] + C17023[c] + C00019[c] <=> C20754[c] + C00073[c] + C05198[c]
   ec:
@@ -16181,8 +16281,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C20751[c] + |Sulfur donor[c]| + |S-Adenosyl-L-methionine (SAM)[c]|
-    <=> C20754[c] + |L-Methionine (Met-L)[c]| + 5'-Deoxyadenosine[c]
+  translated_equation: '|N6-L-Threonylcarbamoyladenine in tRNA[c]| + |Sulfur donor[c]|
+    + |S-Adenosyl-L-methionine (SAM)[c]| <=> |2-Thio-N6-L-threonylcarbamoyladenine
+    in tRNA[c]| + |L-Methionine (Met-L)[c]| + 5''-Deoxyadenosine[c]'
 - id: R10651
   equation: C20754[c] + C00019[c] <=> C20752[c] + C00021[c]
   ec:
@@ -16201,8 +16302,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C20754[c] + |S-Adenosyl-L-methionine (SAM)[c]| <=> C20752[c]
-    + S-Adenosyl-L-homocysteine[c]
+  translated_equation: '|2-Thio-N6-L-threonylcarbamoyladenine in tRNA[c]| + |S-Adenosyl-L-methionine
+    (SAM)[c]| <=> |2-Methylthio-N6-L-threonylcarbamoyladenine in tRNA[c]| + S-Adenosyl-L-homocysteine[c]'
 - id: R06092
   equation: G00289[c] + C00001[c] <=> (2) C00221[c]
   ec:
@@ -16224,7 +16325,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: G00289[c] + H2O[c] <=> (2) C00221[c]
+  translated_equation: G00289[c] + H2O[c] <=> (2) beta-D-Glucose[c]
 - id: R06077
   equation: G10481(n+1)[c] + C00001[c] <=> G10481(n)[c] + C00221[c]
   ec:
@@ -16246,7 +16347,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: G10481(n+1)[c] + H2O[c] <=> G10481(n)[c] + C00221[c]
+  translated_equation: G10481(n+1)[c] + H2O[c] <=> G10481(n)[c] + beta-D-Glucose[c]
 - id: R06070
   equation: G00249[c] + C00001[c] <=> C00124[c] + G00370[c]
   ec:
@@ -16480,7 +16581,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C04015[c] + H2O[c] <=> C00270[c] + Acetate[c]
+  translated_equation: N-Acetyl-4-O-acetylneuraminate[c] + H2O[c] <=> N-Acetylneuraminate[c]
+    + Acetate[c]
 - id: R08601
   name: N-Acetyl-9-O-acetylneuraminate 9-O-acetylhydrolase
   equation: C04017[c] + C00001[c] <=> C00270[c] + C00033[c]
@@ -16501,7 +16603,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C04017[c] + H2O[c] <=> C00270[c] + Acetate[c]
+  translated_equation: N-Acetyl-9-O-acetylneuraminate[c] + H2O[c] <=> N-Acetylneuraminate[c]
+    + Acetate[c]
 - id: R02624
   name: Protein-L-glutamate-O4-methyl-ester acylhydrolase
   equation: C04142[c] + C00001[c] <=> C00614[c] + C00132[c]
@@ -16534,7 +16637,8 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C04142[c] + H2O[c] <=> C00614[c] + C00132[c]
+  translated_equation: '|Protein glutamate methyl ester[c]| + H2O[c] <=> |Protein
+    glutamate[c]| + Methanol[c]'
 - id: R01010
   name: Glycerone phosphate phosphohydrolase
   equation: C00111[c] + C00001[c] <=> C00184[c] + C00009[c]
@@ -16556,7 +16660,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: '|Dihydroxyacetone phosphate (DHAP)[c]| + H2O[c] <=> C00184[c]
+  translated_equation: '|Dihydroxyacetone phosphate (DHAP)[c]| + H2O[c] <=> Glycerone[c]
     + Phosphate[c]'
 - id: ADKd
   name: adenylatekinase(dform)
@@ -16578,7 +16682,7 @@
   pathway: Nucleobase Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: damp[c] + datp[c] <=> (2) dadp[c]
+  translated_equation: dAMP[c] + dATP[c] <=> (2) dADP[c]
 - id: PRAIS
   name: phosphoribosylaminoimidazole synthetase
   equation: atp[c] + fpram[c] => adp[c] + air[c] + (2) h[c] + pi[c]
@@ -16597,7 +16701,8 @@
   pathway: Nucleotide Metabolism
   source: Cce model
   tag: Tsac
-  translated_equation: atp[c] + fpram[c] => adp[c] + air[c] + (2) h[c] + pi[c]
+  translated_equation: ATP[c] + 2-(Formamido)-N1-(5-phospho-D-ribosyl)acetamidine[c]
+    => ADP[c] + 5-amino-1-(5-phospho-D-ribosyl)imidazole[c] + (2) H+[c] + Phosphate[c]
 - id: R02301
   name: 5-Formyltetrahydrofolate cyclo-ligase (ADP-forming)
   genes: fig|31899.10.peg.1747
@@ -16777,8 +16882,10 @@
   pathway: Oxidative phosphorylation
   source: Tsac model
   tag: Tsac
-  translated_equation: (2) nadp[c] + nadh[c] + fdred[c] => h2[c] + (2) nadph[c] +
-    nad[c] + fdox[c]
+  translated_equation: (2) |Nicotinamide adenine dinucleotide phosphate[c]| + |Nicotinamide
+    adenine dinucleotide - reduced[c]| + |Ferredoxin (reduced) 2[4Fe-4S][c]| => Hydrogen[c]
+    + (2) |Nicotinamide adenine dinucleotide phosphate - reduced[c]| + |Nicotinamide
+    adenine dinucleotide[c]| + |Ferredoxin (oxidized) 2[4Fe-4S][c]|
 - id: R04230
   name: (R)-4'-Phosphopantothenate:L-cysteine ligase
   genes: fig|31899.10.peg.1518
@@ -17154,7 +17261,8 @@
   pathway: Penicillin and cephalosporin biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00916[c] + H2O[c] <=> C03112[c] + Acetate[c]
+  translated_equation: '|Cephalosporin C[c]| + H2O[c] <=> |Deacetylcephalosporin
+    C[c]| + Acetate[c]'
 - id: R02439
   name: ATP:L-ribulose 5-phosphotransferase
   equation: C00002[c] + C00508[c] <=> C00008[c] + C01101[c]
@@ -17177,7 +17285,7 @@
   pathway: Pentose and glucuronate interconversions
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: ATP[c] + C00508[c] <=> ADP[c] + C01101[c]
+  translated_equation: ATP[c] + L-Ribulose[c] <=> ADP[c] + |L-Ribulose 5-phosphate[c]|
 - id: R01526
   name: ATP:D-ribulose 5-phosphotransferase
   equation: C00002[c] + C00309[c] <=> C00008[c] + C00199[c]
@@ -17201,7 +17309,8 @@
   pathway: Pentose and glucuronate interconversions
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: ATP[c] + C00309[c] <=> ADP[c] + |D-Ribulose 5-phosphate (Ru5P)[c]|
+  translated_equation: ATP[c] + D-Ribulose[c] <=> ADP[c] + |D-Ribulose 5-phosphate
+    (Ru5P)[c]|
 - id: R01759
   name: L-Arabitol:NADP+ 1-oxidoreductase
   equation: C00532[c] + C00006[c] <=> C00259[c] + C00005[c] + C00080[c]
@@ -17226,9 +17335,9 @@
   pathway: Pentose and glucuronate interconversions
   source: KEGG
   tag: Cce
-  translated_equation: C00532[c] + |Nicotinamide adenine dinucleotide phosphate (NADP)[c]|
-    <=> L-Arabinose[c] + |Nicotinamide adenine dinucleotide phosphate - reduced (NADPH)[c]|
-    + |Proton (H+)[c]|
+  translated_equation: L-Arabitol[c] + |Nicotinamide adenine dinucleotide phosphate
+    (NADP)[c]| <=> L-Arabinose[c] + |Nicotinamide adenine dinucleotide phosphate
+    - reduced (NADPH)[c]| + |Proton (H+)[c]|
 - id: R01639
   name: ATP:D-xylulose 5-phosphotransferase
   genes: fig|31899.10.peg.1000
@@ -17319,7 +17428,7 @@
   pathway: Pentose and glucuronate interconversions
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C01101[c] <=> |D-Xylulose 5-phosphate[c]|
+  translated_equation: '|L-Ribulose 5-phosphate[c]| <=> |D-Xylulose 5-phosphate[c]|'
 - id: R01482
   name: D-glucuronate aldose-ketose-isomerase
   equation: C00191[c] <=> C00905[c]
@@ -17343,7 +17452,7 @@
   pathway: Pentose and glucuronate interconversions
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C00191[c] <=> C00905[c]
+  translated_equation: D-Glucuronate[c] <=> D-Fructuronate[c]
 - id: R01983
   name: D-Galacturonate aldose-ketose-isomerase
   equation: C00333[c] <=> C00558[c]
@@ -17367,7 +17476,7 @@
   pathway: Pentose and glucuronate interconversions
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C00333[c] <=> C00558[c]
+  translated_equation: D-Galacturonate[c] <=> D-Tagaturonate[c]
 - id: R04383
   name: 5-Dehydro-4-deoxy-D-glucuronate ketol-isomerase
   equation: C04053[c] <=> C04349[c]
@@ -17391,7 +17500,7 @@
   pathway: Pentose and glucuronate interconversions
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C04053[c] <=> C04349[c]
+  translated_equation: 5-Dehydro-4-deoxy-D-glucuronate[c] <=> (4S)-4,6-Dihydroxy-2,5-dioxohexanoate[c]
 - id: R01902
   name: ATP:L-xylulose 1-phosphotransferase
   equation: C00002[c] + C00312[c] <=> C00008[c] + C06441[c]
@@ -17414,7 +17523,7 @@
   pathway: Pentose and glucuronate interconversions
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: ATP[c] + C00312[c] <=> ADP[c] + C06441[c]
+  translated_equation: ATP[c] + L-Xylulose[c] <=> ADP[c] + |L-Xylulose 1-phosphate[c]|
 - id: R02454
   name: D-Mannonate:NAD+ 5-oxidoreductase
   equation: C00514[c] + C00003[c] <=> C00905[c] + C00004[c] + C00080[c]
@@ -17438,9 +17547,9 @@
   pathway: Pentose and glucuronate interconversions
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C00514[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    C00905[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+  translated_equation: D-Mannonate[c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
+    <=> D-Fructuronate[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]|
+    + |Proton (H+)[c]|
 - id: R00286
   name: UDP-glucose:NAD+ 6-oxidoreductase
   equation: C00029[c] + C00001[c] + (2) C00003[c] <=> C00167[c] + (2) C00004[c] +
@@ -17467,8 +17576,8 @@
   source: KEGG
   tag: Cth
   translated_equation: UDPglucose[c] + H2O[c] + (2) |Nicotinamide adenine dinucleotide
-    (NAD)[c]| <=> C00167[c] + (2) |Nicotinamide adenine dinucleotide - reduced (NADH)[c]|
-    + (2) |Proton (H+)[c]|
+    (NAD)[c]| <=> UDP-glucuronate[c] + (2) |Nicotinamide adenine dinucleotide - reduced
+    (NADH)[c]| + (2) |Proton (H+)[c]|
 - id: R01542
   name: 2-Dehydro-3-deoxy-D-gluconate:NAD+ 5-oxidoreductase
   equation: C00204[c] + C00003[c] <=> C04349[c] + C00004[c] + C00080[c]
@@ -17494,8 +17603,8 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: 2-Dehydro-3-deoxy-D-gluconate[c] + |Nicotinamide adenine dinucleotide
-    (NAD)[c]| <=> C04349[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]|
-    + |Proton (H+)[c]|
+    (NAD)[c]| <=> (4S)-4,6-Dihydroxy-2,5-dioxohexanoate[c] + |Nicotinamide adenine
+    dinucleotide - reduced (NADH)[c]| + |Proton (H+)[c]|
 - id: R01432
   name: D-xylose aldose-ketose-isomerase
   genes: fig|31899.10.peg.1037
@@ -17546,7 +17655,7 @@
   pathway: Pentose and glucuronate interconversions
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: C00514[c] <=> 2-Dehydro-3-deoxy-D-gluconate[c] + H2O[c]
+  translated_equation: D-Mannonate[c] <=> 2-Dehydro-3-deoxy-D-gluconate[c] + H2O[c]
 - id: R01057
   name: D-Ribose 1,5-phosphomutase
   genes: fig|31899.10.peg.2284
@@ -17925,7 +18034,8 @@
   pathway: 'Peptidoglycan Biosynthesis '
   source: Cce model
   tag: Cce
-  translated_equation: uaagmda[c] => h[c] + pptg1[c] + udcpdp[c]
+  translated_equation: Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala[c]
+    => H+[c] + |Peptidoglycan subunit[c]| + |Undecaprenyl diphosphate[c]|
 - id: UDCPDP
   name: undecaprenyl-diphosphatase
   equation: h2o[c] + udcpdp[c] => h[c] + pi[c] + udcpp[c]
@@ -17945,7 +18055,8 @@
   pathway: 'Peptidoglycan Biosynthesis '
   source: Cce model
   tag: Cth
-  translated_equation: h2o[c] + udcpdp[c] => h[c] + pi[c] + udcpp[c]
+  translated_equation: water[c] + |Undecaprenyl diphosphate[c]| => H+[c] + Phosphate[c]
+    + |Undecaprenyl phosphate[c]|
 - id: R05629
   name: UDPMurAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala):undecaprenyl-phosphate
     phospho-N-acetylmuramoyl-pentapeptide-transferase
@@ -18057,7 +18168,7 @@
   pathway: Peptidoglycan biosynthesis
   source: KEGG
   tag: Cth,Tsac
-  translated_equation: ATP[c] + C17558[c] <=> ADP[c] + |di-trans,poly-cis-Undecaprenyl
+  translated_equation: ATP[c] + di-trans,poly-cis-Undecaprenol[c] <=> ADP[c] + |di-trans,poly-cis-Undecaprenyl
     phosphate[c]|
 - id: R05662
   name: UDP-N-acetyl-D-glucosamine:N-acetyl-alpha-D-muramyl(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)-diphosphoundecaprenol
@@ -18089,7 +18200,8 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: MurAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala)-diphospho-undecaprenol[c]
-    + UDP-N-acetyl-D-glucosamine[c] <=> C05893[c] + UDP[c]
+    + UDP-N-acetyl-D-glucosamine[c] <=> Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine[c]
+    + UDP[c]
 - id: R05032
   name: UDP-N-acetyl-D-glucosamine:undecaprenyl-diphospho-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine
     4-beta-N-acetylglucosaminlytransferase
@@ -18119,7 +18231,8 @@
   source: KEGG
   tag: KEGG_Cbes,Cce
   translated_equation: Undecaprenyl-diphospho-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine[c]
-    + UDP-N-acetyl-D-glucosamine[c] <=> C05898[c] + UDP[c]
+    + UDP-N-acetyl-D-glucosamine[c] <=> Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine[c]
+    + UDP[c]
 - id: R04573
   name: UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-L-lysine:alanyl-D-alanine ligase
     (ADP-forming)
@@ -18147,8 +18260,8 @@
   pathway: Peptidoglycan biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: ATP[c] + C05892[c] + D-Alanyl-D-alanine[c] <=> ADP[c] + Phosphate[c]
-    + UDPMurNAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala)[c]
+  translated_equation: ATP[c] + UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysine[c]
+    + D-Alanyl-D-alanine[c] <=> ADP[c] + Phosphate[c] + UDPMurNAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala)[c]
 - id: R00228
   name: acetaldehyde:NAD+ oxidoreductase (CoA-acetylating)
   equation: C00084[c] + C00010[c] + C00003[c] <=> C00024[c] + C00004[c] + C00080[c]
@@ -18211,7 +18324,8 @@
   pathway: Phenylalanine metabolism
   source: KEGG
   tag: Cth,Tsac
-  translated_equation: C02505[c] + H2O[c] <=> |Phenylacetic acid[c]| + Ammonia[c]
+  translated_equation: 2-Phenylacetamide[c] + H2O[c] <=> |Phenylacetic acid[c]| +
+    Ammonia[c]
 - id: R02539
   name: Phenylacetate:CoA ligase
   genes: fig|31899.10.peg.1490 or fig|31899.10.peg.1997 or fig|31899.10.peg.2000
@@ -18802,7 +18916,8 @@
   pathway: Phenylpropanoid biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C05839[c] + H2O[c] <=> C05838[c] + D-Glucose[c]
+  translated_equation: cis-beta-D-Glucosyl-2-hydroxycinnamate[c] + H2O[c] <=> cis-2-Hydroxycinnamate[c]
+    + D-Glucose[c]
 - id: R08871
   name: acetyl-CoA:demethylphosphinothricin N-acetyltransferase
   equation: C17962[c] + C00024[c] <=> C17949[c] + C00010[c]
@@ -18827,8 +18942,8 @@
   pathway: Phosphonate and phosphinate metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C17962[c] + |Acetyl-CoA (AcCoA)[c]| <=> C17949[c] + |Coenzyme
-    A (CoA)[c]|
+  translated_equation: Demethylphosphinothricin[c] + |Acetyl-CoA (AcCoA)[c]| <=>
+    N-Acetyldemethylphosphinothricin[c] + |Coenzyme A (CoA)[c]|
 - id: R08938
   name: acetyl-CoA:phosphinothricin N-acetyltransferase
   equation: C00024[c] + C04650[c] <=> C00010[c] + C17952[c]
@@ -18852,8 +18967,8 @@
   pathway: Phosphonate and phosphinate metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: '|Acetyl-CoA (AcCoA)[c]| + C04650[c] <=> |Coenzyme A (CoA)[c]|
-    + C17952[c]'
+  translated_equation: '|Acetyl-CoA (AcCoA)[c]| + L-Phosphinothricin[c] <=> |Coenzyme
+    A (CoA)[c]| + N-Acetylphosphinothricin[c]'
 - id: R03947
   name: S-Adenosyl-L-methionine:uroporphyrin-III C-methyltransferase
   genes: fig|31899.10.peg.1681
@@ -19133,7 +19248,7 @@
   pathway: Porphyrin and chlorophyll metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: O2[c] + (4) Fe2+[c] + (4) |Proton (H+)[c]| <=> (4) C14819[c]
+  translated_equation: O2[c] + (4) Fe2+[c] + (4) |Proton (H+)[c]| <=> (4) Fe3+[c]
     + (2) H2O[c]
 - id: R04109
   name: 'L-glutamate-semialdehyde: NADP+ oxidoreductase(L-glutamyl-tRNA(Glu)-forming)'
@@ -19191,7 +19306,8 @@
   pathway: Porphyrin and chlorophyll metabolism
   source: KEGG
   tag: Cth,Tsac
-  translated_equation: C04778[c] + H2O[c] <=> C05775[c] + Phosphate[c]
+  translated_equation: N1-(5-Phospho-alpha-D-ribosyl)-5,6-dimethylbenzimidazole[c]
+    + H2O[c] <=> alpha-Ribazole[c] + Phosphate[c]
 - id: R00036
   name: 5-aminolevulinate hydro-lyase (adding 5-aminolevulinate and cyclizing
   genes: fig|31899.10.peg.1686
@@ -19276,7 +19392,8 @@
   pathway: Prodigiosin biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: Malonyl-CoA[c] + |Acetyl-CoA (AcCoA)[c]| <=> C05223[c]
+  translated_equation: Malonyl-CoA[c] + |Acetyl-CoA (AcCoA)[c]| <=> |Dodecanoyl-[acyl-carrier
+    protein][c]|
 - id: R01251
   name: L-Proline:NADP+ 5-oxidoreductase
   genes: fig|31899.10.peg.1827
@@ -19572,7 +19689,7 @@
   pathway: Purine Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: h2o[c] + datp[c] => pi[c] + h[c] + dadp[c]
+  translated_equation: water[c] + dATP[c] => Phosphate[c] + H+[c] + dADP[c]
 - id: NTP4
   name: nucleoside-triphosphatase(dGTP)
   equation: h2o[c] + dgtp[c] => pi[c] + h[c] + dgdp[c]
@@ -19595,7 +19712,7 @@
   pathway: Purine Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: h2o[c] + dgtp[c] => pi[c] + h[c] + dgdp[c]
+  translated_equation: water[c] + dGTP[c] => Phosphate[c] + H+[c] + dGDP[c]
 - id: R02016
   name: NADPH:oxidized-thioredoxin oxidoreductase
   genes: fig|31899.10.peg.154
@@ -20023,7 +20140,7 @@
   pathway: Purine metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: GTP[c] + C00046[c] <=> Diphosphate[c] + C00046[c]
+  translated_equation: GTP[c] + RNA[c] <=> Diphosphate[c] + RNA[c]
 - id: R00435
   name: ATP:polynucleotide adenylyltransferase
   equation: C00002[c] + C00046[c] <=> C00013[c] + C00046[c]
@@ -20069,7 +20186,7 @@
   pathway: Purine metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: ATP[c] + C00046[c] <=> Diphosphate[c] + C00046[c]
+  translated_equation: ATP[c] + RNA[c] <=> Diphosphate[c] + RNA[c]
 - id: R01856
   name: dGTP triphosphohydrolase
   genes: fig|31899.10.peg.1165
@@ -20206,7 +20323,7 @@
   pathway: Purine metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: dATP[c] + C00039[c] <=> Diphosphate[c] + C00039[c]
+  translated_equation: dATP[c] + DNA[c] <=> Diphosphate[c] + DNA[c]
 - id: R00376
   name: Deoxyguanosine 5'-triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)
   equation: C00286[c] + C00039[c] <=> C00013[c] + C00039[c]
@@ -20259,7 +20376,7 @@
   pathway: Purine metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: dGTP[c] + C00039[c] <=> Diphosphate[c] + C00039[c]
+  translated_equation: dGTP[c] + DNA[c] <=> Diphosphate[c] + DNA[c]
 - id: R00437
   name: polyribonucleotide:phosphate adenylyltransferase
   equation: C00046[c] + C00009[c] <=> C00046[c] + C00008[c]
@@ -20283,7 +20400,7 @@
   pathway: Purine metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00046[c] + Phosphate[c] <=> C00046[c] + ADP[c]
+  translated_equation: RNA[c] + Phosphate[c] <=> RNA[c] + ADP[c]
 - id: R00439
   name: polyribonucleotide:phosphate guanylyltransferase
   equation: C00046[c] + C00009[c] <=> C00046[c] + C00035[c]
@@ -20307,7 +20424,7 @@
   pathway: Purine metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00046[c] + Phosphate[c] <=> C00046[c] + GDP[c]
+  translated_equation: RNA[c] + Phosphate[c] <=> RNA[c] + GDP[c]
 - id: R00509
   name: ATP:adenylylsulfate 3'-phosphotransferase
   equation: C00002[c] + C00224[c] <=> C00008[c] + C00053[c]
@@ -20334,7 +20451,8 @@
   pathway: Purine metabolism
   source: KEGG
   tag: Cth,Tsac
-  translated_equation: ATP[c] + |Adenosine 5'-phosphosulfate[c]| <=> ADP[c] + C00053[c]
+  translated_equation: ATP[c] + |Adenosine 5'-phosphosulfate[c]| <=> ADP[c] + |3'-Phosphoadenylyl
+    sulfate[c]|
 - id: R00127
   name: ATP:AMP phosphotransferase
   genes: fig|31899.10.peg.2234
@@ -21494,7 +21612,7 @@
   pathway: Pyrimidine Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: dctp[c] + h2o[c] => pi[c] + h[c] + dcdp[c]
+  translated_equation: dCTP[c] + water[c] => Phosphate[c] + H+[c] + dCDP[c]
 - id: R00571
   name: UTP:ammonia ligase (ADP-forming)
   genes: fig|31899.10.peg.462
@@ -21616,7 +21734,7 @@
   pathway: Pyrimidine metabolism
   source: KEGG
   tag: Cth,Tsac
-  translated_equation: dUTP[c] + H2O[c] <=> C01346[c] + Phosphate[c]
+  translated_equation: dUTP[c] + H2O[c] <=> dUDP[c] + Phosphate[c]
 - id: R00569
   name: CTP phosphohydrolase
   equation: C00063[c] + C00001[c] <=> C00112[c] + C00009[c]
@@ -21742,7 +21860,7 @@
   pathway: Pyrimidine metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: CTP[c] + C00046[c] <=> Diphosphate[c] + C00046[c]
+  translated_equation: CTP[c] + RNA[c] <=> Diphosphate[c] + RNA[c]
 - id: R00443
   name: UTP:RNA uridylyltransferase
   equation: C00075[c] + C00046[c] <=> C00013[c] + C00046[c]
@@ -21787,7 +21905,7 @@
   pathway: Pyrimidine metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: UTP[c] + C00046[c] <=> Diphosphate[c] + C00046[c]
+  translated_equation: UTP[c] + RNA[c] <=> Diphosphate[c] + RNA[c]
 - id: R00511
   name: cytidine-5'-monophosphate phosphohydrolase
   equation: C00055[c] + C00001[c] <=> C00475[c] + C00009[c]
@@ -21893,7 +22011,7 @@
   pathway: Pyrimidine metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: dCTP[c] + C00039[c] <=> Diphosphate[c] + C00039[c]
+  translated_equation: dCTP[c] + DNA[c] <=> Diphosphate[c] + DNA[c]
 - id: R00378
   name: deoxythymidine triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)
   equation: C00459[c] + C00039[c] <=> C00013[c] + C00039[c]
@@ -21946,7 +22064,7 @@
   pathway: Pyrimidine metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: dTTP[c] + C00039[c] <=> Diphosphate[c] + C00039[c]
+  translated_equation: dTTP[c] + DNA[c] <=> Diphosphate[c] + DNA[c]
 - id: R00438
   name: polyribonucleotide:phosphate uridylyltransferase
   equation: C00046[c] + C00009[c] <=> C00046[c] + C00015[c]
@@ -21970,7 +22088,7 @@
   pathway: Pyrimidine metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00046[c] + Phosphate[c] <=> C00046[c] + UDP[c]
+  translated_equation: RNA[c] + Phosphate[c] <=> RNA[c] + UDP[c]
 - id: R00440
   name: polyribonucleotide:phosphate cytidylyltransferase
   equation: C00046[c] + C00009[c] <=> C00046[c] + C00112[c]
@@ -21994,7 +22112,7 @@
   pathway: Pyrimidine metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00046[c] + Phosphate[c] <=> C00046[c] + CDP[c]
+  translated_equation: RNA[c] + Phosphate[c] <=> RNA[c] + CDP[c]
 - id: R00512
   name: ATP:CMP phosphotransferase
   genes: fig|31899.10.peg.1813
@@ -22735,7 +22853,8 @@
   pathway: Pyrimidine metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C11039[c] <=> C21031[c]
+  translated_equation: 2'-Deoxy-5-hydroxymethylcytidine-5'-triphosphate[c] <=> |DNA
+    5-hydroxymethylcytosine[c]|
 - id: R01055
   name: uracil hydro-lyase (adding D-ribose 5-phosphate
   equation: C00106[c] + C00117[c] <=> C01168[c] + C00001[c]
@@ -22767,8 +22886,8 @@
   pathway: Pyrimidine metabolism
   source: KEGG
   tag: Cth,Tsac
-  translated_equation: Uracil[c] + |alpha-D-Ribose 5-phosphate (R5P)[c]| <=> C01168[c]
-    + H2O[c]
+  translated_equation: Uracil[c] + |alpha-D-Ribose 5-phosphate (R5P)[c]| <=> |Pseudouridine
+    5'-phosphate[c]| + H2O[c]
 - id: PPAKr
   name: Propionatekinase
   equation: adp[c] + ppap[c] <=> atp[c] + ppa[c]
@@ -22789,7 +22908,8 @@
   pathway: Pyruvate Metabolism
   source: Tsac model
   tag: Cth
-  translated_equation: adp[c] + ppap[c] <=> atp[c] + ppa[c]
+  translated_equation: ADP[c] + |Propanoyl phosphate[c]| <=> ATP[c] + |Propionate
+    (n-C3:0)[c]|
 - id: R00217
   name: oxaloacetate carboxy-lyase (pyruvate-forming)
   genes: peg.1543
@@ -23080,8 +23200,8 @@
   pathway: Retinol metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00473[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    C00376[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
+  translated_equation: Retinol[c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
+    <=> Retinal[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
     (H+)[c]|
 - id: R00425
   name: GTP 7,8-8,9-dihydrolase (diphosphate-forming)
@@ -23391,7 +23511,7 @@
   pathway: Selenocompound metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: ATP[c] + C05697[c] <=> Diphosphate[c] + C05686[c]
+  translated_equation: ATP[c] + Selenate[c] <=> Diphosphate[c] + Adenylylselenate[c]
 - id: R09365
   name: 5-methyltetrahydropteroyltri-L-glutamate:L-selenohomocysteine Se-methyltransferase
   equation: C05698[c] + C04489[c] <=> C05335[c] + C04144[c]
@@ -23423,8 +23543,8 @@
   pathway: Selenocompound metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C05698[c] + 5-Methyltetrahydropteroyltri-L-glutamate[c] <=>
-    C05335[c] + Tetrahydropteroyltri-L-glutamate[c]
+  translated_equation: Selenohomocysteine[c] + 5-Methyltetrahydropteroyltri-L-glutamate[c]
+    <=> L-Selenomethionine[c] + Tetrahydropteroyltri-L-glutamate[c]
 - id: R04019
   name: Digalactosylceramide galactohydrolase
   equation: C06126[c] + C00001[c] <=> C02686[c] + C00124[c]
@@ -23449,7 +23569,8 @@
   pathway: Sphingolipid metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C06126[c] + H2O[c] <=> C02686[c] + D-Galactose[c]
+  translated_equation: Digalactosylceramide[c] + H2O[c] <=> Galactosylceramide[c]
+    + D-Galactose[c]
 - id: R01498
   name: D-Glucosyl-N-acylsphingosine glucohydrolase
   equation: C01190[c] + C00001[c] <=> C00031[c] + C00195[c]
@@ -23474,7 +23595,8 @@
   pathway: Sphingolipid metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C01190[c] + H2O[c] <=> D-Glucose[c] + C00195[c]
+  translated_equation: beta-D-Glucosyl-(1<->1)-ceramide[c] + H2O[c] <=> D-Glucose[c]
+    + N-Acylsphingosine[c]
 - id: R00771
   name: D-glucose-6-phosphate aldose-ketose-isomerase
   genes: peg.1059
@@ -23706,7 +23828,7 @@
   pathway: Starch and sucrose metabolism
   source: KEGG
   tag: Cce
-  translated_equation: C00369[c] + H2O[c] <=> D-Glucose[c] + C00369[c]
+  translated_equation: Starch[c] + H2O[c] <=> D-Glucose[c] + Starch[c]
 - id: R01791_kz
   name: Dextrin 6-alpha-D-glucanohydrolase
   genes: fig|31899.10.peg.561
@@ -23805,7 +23927,7 @@
   source: KEGG
   tag: Tsac
   translated_equation: CTP[c] + |D-Glucose 1-phosphate (G1P)[c]| <=> Diphosphate[c]
-    + C00501[c]
+    + CDP-glucose[c]
 - id: R02421_kz
   name: ADP-glucose:1,4-alpha-D-glucan 4-alpha-D-glucosyltransferase
   genes: fig|31899.10.peg.987
@@ -24039,7 +24161,8 @@
   pathway: Sterol Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: decdp[c] + ipdp[c] => udcpdp[c] + ppi[c]
+  translated_equation: '|all trans Decaprenyl diphosphate[c]| + |Isopentenyl diphosphate[c]|
+    => |Undecaprenyl diphosphate[c]| + Diphosphate[c]'
 - id: IPDPS
   name: ' 1-hydroxy-2-methyl-2-(E)-butenyl4-diphosphatereductase(ipdp)'
   equation: h2mb4p[c] + nadh[c] + h[c] => nad[c] + h2o[c] + ipdp[c]
@@ -24061,7 +24184,9 @@
   pathway: Sterol Metabolism
   source: Tsac model
   tag: Cth
-  translated_equation: h2mb4p[c] + nadh[c] + h[c] => nad[c] + h2o[c] + ipdp[c]
+  translated_equation: '|1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate[c]| + |Nicotinamide
+    adenine dinucleotide - reduced[c]| + H+[c] => |Nicotinamide adenine dinucleotide[c]|
+    + water[c] + |Isopentenyl diphosphate[c]|'
 - id: MECDPDH
   name: ' 2C-methyl-D-erythritol2,4cyclodiphosphatedehydratase'
   equation: 2mecdp[c] + h[c] + fdred[c] => h2mb4p[c] + fdox[c] + h2o[c]
@@ -24082,7 +24207,9 @@
   pathway: Sterol Metabolism
   source: Tsac model
   tag: Cth
-  translated_equation: 2mecdp[c] + h[c] + fdred[c] => h2mb4p[c] + fdox[c] + h2o[c]
+  translated_equation: '|2-C-methyl-D-erythritol 2,4-cyclodiphosphate[c]| + H+[c]
+    + |Ferredoxin (reduced) 2[4Fe-4S][c]| => |1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate[c]|
+    + |Ferredoxin (oxidized) 2[4Fe-4S][c]| + water[c]'
 - id: R06514
   name: dTDP-4-dehydro-6-deoxy-alpha-D-glucose 3,5-epimerase
   equation: C11907[c] <=> C00688[c]
@@ -24108,7 +24235,7 @@
   pathway: Streptomycin biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: dTDP-4-dehydro-6-deoxy-D-glucose[c] <=> C00688[c]
+  translated_equation: dTDP-4-dehydro-6-deoxy-D-glucose[c] <=> dTDP-4-dehydro-beta-L-rhamnose[c]
 - id: R02328
   name: dTTP:alpha-D-glucose-1-phosphate thymidylyltransferase
   equation: C00459[c] + C00103[c] <=> C00013[c] + C00842[c]
@@ -24166,9 +24293,9 @@
   pathway: Streptomycin biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C03319[c] + |Nicotinamide adenine dinucleotide phosphate (NADP)[c]|
-    <=> C00688[c] + |Nicotinamide adenine dinucleotide phosphate - reduced (NADPH)[c]|
-    + |Proton (H+)[c]|
+  translated_equation: dTDP-L-rhamnose[c] + |Nicotinamide adenine dinucleotide phosphate
+    (NADP)[c]| <=> dTDP-4-dehydro-beta-L-rhamnose[c] + |Nicotinamide adenine dinucleotide
+    phosphate - reduced (NADPH)[c]| + |Proton (H+)[c]|
 - id: R06513
   name: dTDPglucose 4,6-hydro-lyase
   genes: fig|31899.10.peg.436
@@ -24227,8 +24354,8 @@
   pathway: Sulfur metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00053[c] + H2O[c] <=> |Adenosine 5'-phosphosulfate[c]| +
-    Phosphate[c]
+  translated_equation: '|3''-Phosphoadenylyl sulfate[c]| + H2O[c] <=> |Adenosine
+    5''-phosphosulfate[c]| + Phosphate[c]'
 - id: R08553
   name: AMP,sulfite:acceptor oxidoreductase (adenosine-5'-phosphosulfate-forming)
   equation: C00020[c] + C00094[c] + C00016[c] <=> C00224[c] + C01352[c]
@@ -24256,7 +24383,7 @@
   pathway: Sulfur metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: AMP[c] + C00094[c] + |Flavin adenine dinucleotide oxidized
+  translated_equation: AMP[c] + Sulfite[c] + |Flavin adenine dinucleotide oxidized
     (FAD)[c]| <=> |Adenosine 5'-phosphosulfate[c]| + |Flavin adenine dinucleotide
     reduced (FADH2)[c]|
 - id: R00858
@@ -24291,8 +24418,8 @@
   source: KEGG
   tag: Cth
   translated_equation: '|Hydrogen sulfide[c]| + (3) |Nicotinamide adenine dinucleotide
-    phosphate (NADP)[c]| + (3) H2O[c] <=> C00094[c] + (3) |Nicotinamide adenine dinucleotide
-    phosphate - reduced (NADPH)[c]| + (3) |Proton (H+)[c]|'
+    phosphate (NADP)[c]| + (3) H2O[c] <=> Sulfite[c] + (3) |Nicotinamide adenine
+    dinucleotide phosphate - reduced (NADPH)[c]| + (3) |Proton (H+)[c]|'
 - id: R05634
   name: ATP:4-(Cytidine 5'-diphospho)-2-C-methyl-D-erythritol 2-phosphotransferase
   genes: fig|31899.10.peg.2033
@@ -24676,8 +24803,8 @@
   pathway: Thiamine metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C15811[c] + |L-Cysteine (Cys-L)[c]| <=> C15812[c] + |L-Alanine
-    (Ala-L)[c]|
+  translated_equation: '[Enzyme]-cysteine[c] + |L-Cysteine (Cys-L)[c]| <=> [Enzyme]-S-sulfanylcysteine[c]
+    + |L-Alanine (Ala-L)[c]|'
 - id: R10246
   name: L-tyrosine 4-methylphenol-lyase (2-iminoacetate-forming)
   genes: fig|31899.10.peg.783
@@ -24986,8 +25113,9 @@
   pathway: Thiamine metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C15812[c] + |Adenylyl-[sulfur-carrier protein][c]| + C00030[c]
-    <=> AMP[c] + |Thiocarboxy-[sulfur-carrier protein][c]| + C15811[c] + C00028[c]
+  translated_equation: '[Enzyme]-S-sulfanylcysteine[c] + |Adenylyl-[sulfur-carrier
+    protein][c]| + |Reduced acceptor[c]| <=> AMP[c] + |Thiocarboxy-[sulfur-carrier
+    protein][c]| + [Enzyme]-cysteine[c] + Acceptor[c]'
 - id: R10247
   name: 1-deoxy-D-xylulose 5-phosphate:thiol sulfurtransferase
   genes: fig|31899.10.peg.782
@@ -25192,7 +25320,8 @@
   pathway: Transport
   source: Cce model
   tag: Cce
-  translated_equation: atp[c] + h2o[c] + arg-L[e] => adp[c] + h[c] + arg-L[c] + pi[c]
+  translated_equation: ATP[c] + water[c] + L-Arginine[e] => ADP[c] + H+[c] + L-Arginine[c]
+    + Phosphate[c]
 - id: CAt6
   name: calcium / sodium antiporter
   equation: ca2[c] + na1[e] <=> ca2[e] + na1[c]
@@ -25215,7 +25344,7 @@
   pathway: Transport
   source: Cce model
   tag: Cce
-  translated_equation: ca2[c] + na1[e] <=> ca2[e] + na1[c]
+  translated_equation: Calcium[c] + Sodium[e] <=> Calcium[e] + Sodium[c]
 - id: BTNt2r
   name: Biotin uptake
   equation: btn[e] + h[e] <=> btn[c] + h[c]
@@ -25238,7 +25367,7 @@
   pathway: Transport
   source: Cce model
   tag: Cce
-  translated_equation: btn[e] + h[e] <=> btn[c] + h[c]
+  translated_equation: Biotin[e] + H+[e] <=> Biotin[c] + H+[c]
 - id: CELBabc
   name: cellobiose transport via ABC system
   equation: (2) atp[c] + cellb[e] + (2) h2o[c] => (2) adp[c] + cellb[c] + (2) h[c]
@@ -25350,8 +25479,8 @@
   pathway: Transport
   source: Cce model
   tag: Cce
-  translated_equation: (2) atp[c] + cellb[e] + (2) h2o[c] => (2) adp[c] + cellb[c]
-    + (2) h[c] + (2) pi[c]
+  translated_equation: (2) ATP[c] + Cellobiose[e] + (2) water[c] => (2) ADP[c] +
+    Cellobiose[c] + (2) H+[c] + (2) Phosphate[c]
 - id: CUt3
   name: copper transport out via proton antiport
   equation: cu[c] + h[e] => cu[e] + h[c]
@@ -25374,7 +25503,7 @@
   pathway: Transport
   source: Cce model
   tag: Cce
-  translated_equation: cu[c] + h[e] => cu[e] + h[c]
+  translated_equation: Cu+[c] + H+[e] => Cu+[e] + H+[c]
 - id: FE2abc
   name: iron (II) transport via ABC system
   equation: atp[c] + fe2[e] + h2o[c] => adp[c] + fe2[c] + h[c] + pi[c]
@@ -25396,7 +25525,8 @@
   pathway: Transport
   source: Cce model
   tag: Cce
-  translated_equation: atp[c] + fe2[e] + h2o[c] => adp[c] + fe2[c] + h[c] + pi[c]
+  translated_equation: ATP[c] + |Fe2+ mitochondria[e]| + water[c] => ADP[c] + |Fe2+
+    mitochondria[c]| + H+[c] + Phosphate[c]
 - id: FRUabc
   name: fructose transport via ABC system
   equation: (2) atp[c] + (2) h2o[c] + fru[e] => (2) adp[c] + (2) h[c] + (2) pi[c]
@@ -25424,8 +25554,8 @@
   pathway: Transport
   source: Cce model
   tag: Cce
-  translated_equation: (2) atp[c] + (2) h2o[c] + fru[e] => (2) adp[c] + (2) h[c]
-    + (2) pi[c] + fru[c]
+  translated_equation: (2) ATP[c] + (2) water[c] + D-Fructose[e] => (2) ADP[c] +
+    (2) H+[c] + (2) Phosphate[c] + D-Fructose[c]
 - id: GALabc
   name: D-galactose transport via ABC system
   equation: (2) atp[c] + (2) h2o[c] + gal[e] => (2) adp[c] + (2) h[c] + (2) pi[c]
@@ -25486,8 +25616,8 @@
   pathway: Transport
   source: Cce model
   tag: Cce,Cth,Tsac
-  translated_equation: (2) atp[c] + (2) h2o[c] + gal[e] => (2) adp[c] + (2) h[c]
-    + (2) pi[c] + gal[c]
+  translated_equation: (2) ATP[c] + (2) water[c] + D-Galactose[e] => (2) ADP[c] +
+    (2) H+[c] + (2) Phosphate[c] + D-Galactose[c]
 - id: GLCabc
   name: D-glucose transport via ABC system
   equation: (2) atp[c] + (2) h2o[c] + glc-D[e] => (2) adp[c] + (2) h[c] + (2) pi[c]
@@ -25568,8 +25698,8 @@
   pathway: Transport
   source: Cce model
   tag: Cce
-  translated_equation: (2) atp[c] + (2) h2o[c] + glc-D[e] => (2) adp[c] + (2) h[c]
-    + (2) pi[c] + glc-D[c]
+  translated_equation: (2) ATP[c] + (2) water[c] + alpha-D-Glucose[e] => (2) ADP[c]
+    + (2) H+[c] + (2) Phosphate[c] + alpha-D-Glucose[c]
 - id: GLNabc
   name: L-glutamine transport via ABC system
   equation: atp[c] + gln-L[e] + h2o[c] => adp[c] + gln-L[c] + h[c] + pi[c]
@@ -25588,7 +25718,8 @@
   pathway: Transport
   source: Cce model
   tag: Cce
-  translated_equation: atp[c] + gln-L[e] + h2o[c] => adp[c] + gln-L[c] + h[c] + pi[c]
+  translated_equation: ATP[c] + L-Glutamine[e] + water[c] => ADP[c] + L-Glutamine[c]
+    + H+[c] + Phosphate[c]
 - id: HISabc
   name: L-histidine transport via ABC system
   equation: atp[c] + h2o[c] + his-L[e] => adp[c] + h[c] + his-L[c] + pi[c]
@@ -25613,7 +25744,8 @@
   pathway: Transport
   source: Cce model
   tag: Cce
-  translated_equation: atp[c] + h2o[c] + his-L[e] => adp[c] + h[c] + his-L[c] + pi[c]
+  translated_equation: ATP[c] + water[c] + L-Histidine[e] => ADP[c] + H+[c] + L-Histidine[c]
+    + Phosphate[c]
 - id: Kt3g
   name: potassium transport via proton antiport
   equation: h[e] + k[c] <=> h[c] + k[e]
@@ -25636,7 +25768,7 @@
   pathway: Transport
   source: Cce model
   tag: Cce
-  translated_equation: h[e] + k[c] <=> h[c] + k[e]
+  translated_equation: H+[e] + Potassium[c] <=> H+[c] + Potassium[e]
 - id: LYSabc
   name: L-lysine transport via ABC system
   equation: atp[c] + h2o[c] + lys-L[e] => adp[c] + h[c] + lys-L[c] + pi[c]
@@ -25661,7 +25793,8 @@
   pathway: Transport
   source: Cce model
   tag: Cce
-  translated_equation: atp[c] + h2o[c] + lys-L[e] => adp[c] + h[c] + lys-L[c] + pi[c]
+  translated_equation: ATP[c] + water[c] + L-Lysine[e] => ADP[c] + H+[c] + L-Lysine[c]
+    + Phosphate[c]
 - id: MANabc
   name: D-mannose transport via ABC system
   equation: (2) atp[c] + (2) h2o[c] + man[e] => (2) adp[c] + (2) h[c] + (2) pi[c]
@@ -25689,8 +25822,8 @@
   pathway: Transport
   source: Cce model
   tag: Cce
-  translated_equation: (2) atp[c] + (2) h2o[c] + man[e] => (2) adp[c] + (2) h[c]
-    + (2) pi[c] + man[c]
+  translated_equation: (2) ATP[c] + (2) water[c] + D-Mannose[e] => (2) ADP[c] + (2)
+    H+[c] + (2) Phosphate[c] + D-Mannose[c]
 - id: MNabc
   name: manganese transport via ABC system
   equation: atp[c] + h2o[c] + mn2[e] => adp[c] + h[c] + mn2[c] + pi[c]
@@ -25709,7 +25842,8 @@
   pathway: Transport
   source: Cce model
   tag: Cce
-  translated_equation: atp[c] + h2o[c] + mn2[e] => adp[c] + h[c] + mn2[c] + pi[c]
+  translated_equation: ATP[c] + water[c] + Manganese[e] => ADP[c] + H+[c] + Manganese[c]
+    + Phosphate[c]
 - id: NAt3_1
   name: sodium transport out via proton antiport
   equation: h[e] + na1[c] <=> h[c] + na1[e]
@@ -25732,7 +25866,7 @@
   pathway: Transport
   source: Cce model
   tag: Cce
-  translated_equation: h[e] + na1[c] <=> h[c] + na1[e]
+  translated_equation: H+[e] + Sodium[c] <=> H+[c] + Sodium[e]
 - id: NH4t3r
   name: ammonia transport via proton antiport
   equation: h[e] + nh4[c] <=> h[c] + nh4[e]
@@ -25755,7 +25889,7 @@
   pathway: Transport
   source: Cce model
   tag: Cce
-  translated_equation: h[e] + nh4[c] <=> h[c] + nh4[e]
+  translated_equation: H+[e] + Ammonium[c] <=> H+[c] + Ammonium[e]
 - id: NIabc
   name: nickel transport via ABC system
   equation: atp[c] + h2o[c] + ni2[e] => adp[c] + h[c] + ni2[c] + pi[c]
@@ -25775,7 +25909,8 @@
   pathway: Transport
   source: Cce model
   tag: Cce
-  translated_equation: atp[c] + h2o[c] + ni2[e] => adp[c] + h[c] + ni2[c] + pi[c]
+  translated_equation: ATP[c] + water[c] + Nickel[e] => ADP[c] + H+[c] + Nickel[c]
+    + Phosphate[c]
 - id: ORNabc
   name: ornithine transport via ABC system
   equation: atp[c] + h2o[c] + orn[e] => adp[c] + h[c] + orn[c] + pi[c]
@@ -25800,7 +25935,8 @@
   pathway: Transport
   source: Cce model
   tag: Cce
-  translated_equation: atp[c] + h2o[c] + orn[e] => adp[c] + h[c] + orn[c] + pi[c]
+  translated_equation: ATP[c] + water[c] + Ornithine[e] => ADP[c] + H+[c] + Ornithine[c]
+    + Phosphate[c]
 - id: PIt8
   name: phosphate transport in via three Na+ symporter
   equation: (3) na1[e] + pi[e] => (3) na1[c] + pi[c]
@@ -25819,7 +25955,7 @@
   pathway: Transport
   source: Cce model
   tag: Cce
-  translated_equation: (3) na1[e] + pi[e] => (3) na1[c] + pi[c]
+  translated_equation: (3) Sodium[e] + Phosphate[e] => (3) Sodium[c] + Phosphate[c]
 - id: SULabc
   name: sulfate transport via ABC system
   equation: atp[c] + h2o[c] + so4[e] => adp[c] + h[c] + pi[c] + so4[c]
@@ -25880,7 +26016,8 @@
   pathway: Transport
   source: Cce model
   tag: Tsac
-  translated_equation: atp[c] + h2o[c] + so4[e] => adp[c] + h[c] + pi[c] + so4[c]
+  translated_equation: ATP[c] + water[c] + Sulfate[e] => ADP[c] + H+[c] + Phosphate[c]
+    + Sulfate[c]
 - id: RIBabc
   name: D-ribose transport via ABC system
   equation: (2) atp[c] + (2) h2o[c] + rib-D[e] => (2) adp[c] + (2) h[c] + (2) pi[c]
@@ -25941,8 +26078,8 @@
   pathway: Transport
   source: Cce model
   tag: Cce,Cth,Tsac
-  translated_equation: (2) atp[c] + (2) h2o[c] + rib-D[e] => (2) adp[c] + (2) h[c]
-    + (2) pi[c] + rib-D[c]
+  translated_equation: (2) ATP[c] + (2) water[c] + D-Ribose[e] => (2) ADP[c] + (2)
+    H+[c] + (2) Phosphate[c] + D-Ribose[c]
 - id: THMt3
   name: Thiamine transport in via proton antiport
   equation: h[c] + thm[e] <=> h[e] + thm[c]
@@ -25966,7 +26103,7 @@
   pathway: Transport
   source: Cce model
   tag: Cce
-  translated_equation: h[c] + thm[e] <=> h[e] + thm[c]
+  translated_equation: H+[c] + Thiamin[e] <=> H+[e] + Thiamin[c]
 - id: ZN2t4
   name: zinc transport out via antiport
   equation: h[e] + k[e] + zn2[c] => h[c] + k[c] + zn2[e]
@@ -25989,7 +26126,7 @@
   pathway: Transport
   source: Cce model
   tag: Cce
-  translated_equation: h[e] + k[e] + zn2[c] => h[c] + k[c] + zn2[e]
+  translated_equation: H+[e] + Potassium[e] + Zinc[c] => H+[c] + Potassium[c] + Zinc[e]
 - id: XYLabc
   name: D-xylose transport via ABC system
   equation: (2) atp[c] + (2) h2o[c] + xyl-D[e] => (2) adp[c] + (2) h[c] + (2) pi[c]
@@ -26051,8 +26188,8 @@
   pathway: Transport
   source: Cce model
   tag: Cce,Cth,Tsac
-  translated_equation: (2) atp[c] + (2) h2o[c] + xyl-D[e] => (2) adp[c] + (2) h[c]
-    + (2) pi[c] + xyl-D[c]
+  translated_equation: (2) ATP[c] + (2) water[c] + D-Xylose[e] => (2) ADP[c] + (2)
+    H+[c] + (2) Phosphate[c] + D-Xylose[c]
 - id: ARBabc
   name: L-arabinose transport via ABC system
   equation: (2) atp[c] + (2) h2o[c] + arab-L[e] => (2) adp[c] + (2) h[c] + (2) pi[c]
@@ -26113,8 +26250,8 @@
   pathway: Transport
   source: Cce model
   tag: Cce,Cth,Tsac
-  translated_equation: (2) atp[c] + (2) h2o[c] + arab-L[e] => (2) adp[c] + (2) h[c]
-    + (2) pi[c] + arab-L[c]
+  translated_equation: (2) ATP[c] + (2) water[c] + L-Arabinose[e] => (2) ADP[c] +
+    (2) H+[c] + (2) Phosphate[c] + L-Arabinose[c]
 - id: PTRCabc
   name: putrescinetransportviaABCsystem
   equation: h2o[c] + atp[c] + ptrc[e] => adp[c] + pi[c] + h[c] + ptrc[c]
@@ -26179,7 +26316,8 @@
   pathway: Transport, Extracellular
   source: Tsac model
   tag: Tsac
-  translated_equation: h2o[c] + atp[c] + ptrc[e] => adp[c] + pi[c] + h[c] + ptrc[c]
+  translated_equation: water[c] + ATP[c] + Putrescine[e] => ADP[c] + Phosphate[c]
+    + H+[c] + Putrescine[c]
 - id: Cut1
   name: CopperexportviaATPase
   equation: cu2[c] + h2o[c] + atp[c] => adp[c] + cu2[e] + pi[c] + h[c]
@@ -26200,7 +26338,8 @@
   pathway: Transport, Extracellular
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: cu2[c] + h2o[c] + atp[c] => adp[c] + cu2[e] + pi[c] + h[c]
+  translated_equation: Cu2+[c] + water[c] + ATP[c] => ADP[c] + Cu2+[e] + Phosphate[c]
+    + H+[c]
 - id: SPMDabc
   name: spermidinetransportviaABCsystem
   equation: spmd[e] + h2o[c] + atp[c] => spmd[c] + adp[c] + pi[c] + h[c]
@@ -26265,7 +26404,8 @@
   pathway: Transport, Extracellular
   source: Tsac model
   tag: Tsac
-  translated_equation: spmd[e] + h2o[c] + atp[c] => spmd[c] + adp[c] + pi[c] + h[c]
+  translated_equation: Spermidine[e] + water[c] + ATP[c] => Spermidine[c] + ADP[c]
+    + Phosphate[c] + H+[c]
 - id: FE3abc
   name: iron(III)transportviaABCsystem
   equation: h2o[c] + atp[c] + fe3[e] => adp[c] + pi[c] + h[c] + fe3[c]
@@ -26284,7 +26424,8 @@
   pathway: Transport, Extracellular
   source: Tsac model
   tag: Tsac
-  translated_equation: h2o[c] + atp[c] + fe3[e] => adp[c] + pi[c] + h[c] + fe3[c]
+  translated_equation: water[c] + ATP[c] + Fe3+[e] => ADP[c] + Phosphate[c] + H+[c]
+    + Fe3+[c]
 - id: R01933
   name: 2-oxoadipate dehydrogenase complex
   equation: C00322[c] + C00010[c] + C00003[c] <=> C00527[c] + C00011[c] + C00004[c]
@@ -26314,8 +26455,8 @@
   pathway: Tryptophan metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C00322[c] + |Coenzyme A (CoA)[c]| + |Nicotinamide adenine
-    dinucleotide (NAD)[c]| <=> C00527[c] + CO2[c] + |Nicotinamide adenine dinucleotide
+  translated_equation: 2-Oxoadipate[c] + |Coenzyme A (CoA)[c]| + |Nicotinamide adenine
+    dinucleotide (NAD)[c]| <=> Glutaryl-CoA[c] + CO2[c] + |Nicotinamide adenine dinucleotide
     - reduced (NADH)[c]| + |Proton (H+)[c]|
 - id: R01959
   name: N-Formyl-L-kynurenine amidohydrolase
@@ -26341,7 +26482,7 @@
   pathway: Tryptophan metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C02700[c] + H2O[c] <=> |Formate (For)[c]| + C00328[c]
+  translated_equation: L-Formylkynurenine[c] + H2O[c] <=> |Formate (For)[c]| + L-Kynurenine[c]
 - id: R03096
   name: Indole-3-acetamide amidohydrolase
   equation: C02693[c] + C00001[c] <=> C00954[c] + C00014[c]
@@ -26369,7 +26510,8 @@
   pathway: Tryptophan metabolism
   source: KEGG
   tag: Cth,Tsac
-  translated_equation: C02693[c] + H2O[c] <=> C00954[c] + Ammonia[c]
+  translated_equation: (Indol-3-yl)acetamide[c] + H2O[c] <=> Indole-3-acetate[c]
+    + Ammonia[c]
 - id: R04911
   name: Aryl-formylamine amidohydrolase
   equation: C05648[c] + C00001[c] <=> C05651[c] + C00058[c]
@@ -26392,7 +26534,8 @@
   pathway: Tryptophan metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C05648[c] + H2O[c] <=> C05651[c] + |Formate (For)[c]|
+  translated_equation: 5-Hydroxy-N-formylkynurenine[c] + H2O[c] <=> 5-Hydroxykynurenine[c]
+    + |Formate (For)[c]|
 - id: R00988
   name: N-Formylanthranilate amidohydrolase
   equation: C05653[c] + C00001[c] <=> C00058[c] + C00108[c]
@@ -26415,7 +26558,7 @@
   pathway: Tryptophan metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C05653[c] + H2O[c] <=> |Formate (For)[c]| + Anthranilate[c]
+  translated_equation: Formylanthranilate[c] + H2O[c] <=> |Formate (For)[c]| + Anthranilate[c]
 - id: R04880
   name: 3,4-dihydroxyphenylethyleneglycol:NAD+ oxidoreductase
   equation: C05576[c] + C00003[c] <=> C05577[c] + C00004[c] + C00080[c]
@@ -26439,9 +26582,9 @@
   pathway: Tyrosine metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C05576[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
-    C05577[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + |Proton
-    (H+)[c]|
+  translated_equation: 3,4-Dihydroxyphenylethyleneglycol[c] + |Nicotinamide adenine
+    dinucleotide (NAD)[c]| <=> 3,4-Dihydroxymandelaldehyde[c] + |Nicotinamide adenine
+    dinucleotide - reduced (NADH)[c]| + |Proton (H+)[c]|
 - id: R02699
   name: 4-Hydroxyphenylacetate:CoA ligase (AMP-forming)
   equation: C00002[c] + C00642[c] + C00010[c] <=> C00020[c] + C00013[c] + C05338[c]
@@ -26470,8 +26613,8 @@
   pathway: Tyrosine metabolism
   source: KEGG
   tag: Cth,Tsac
-  translated_equation: ATP[c] + C00642[c] + |Coenzyme A (CoA)[c]| <=> AMP[c] + Diphosphate[c]
-    + C05338[c]
+  translated_equation: ATP[c] + 4-Hydroxyphenylacetate[c] + |Coenzyme A (CoA)[c]|
+    <=> AMP[c] + Diphosphate[c] + 4-Hydroxyphenylacetyl-CoA[c]
 - id: PACCOAL3
   name: phenylacetate-CoAligase(indoleacetate)
   equation: coa[c] + ind3ac[c] + atp[c] => indaccoa[c] + amp[c] + ppi[c]
@@ -26496,7 +26639,8 @@
   pathway: Tyrosine, Tryptophan, and Phenylalanine Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: coa[c] + ind3ac[c] + atp[c] => indaccoa[c] + amp[c] + ppi[c]
+  translated_equation: '|Coenzyme A[c]| + Indole-3-acetate[c] + ATP[c] => S-2-(indol-3-yl)acetyl-CoA[c]
+    + AMP[c] + Diphosphate[c]'
 - id: IOR2
   name: indolepyruvateferredoxinoxidoreductase(phenylpyvurate)
   equation: coa[c] + fdox[c] + phpyr[c] <=> h[c] + fdred[c] + phaccoa[c] + co2[c]
@@ -26523,8 +26667,9 @@
   pathway: Tyrosine, Tryptophan, and Phenylalanine Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: coa[c] + fdox[c] + phpyr[c] <=> h[c] + fdred[c] + phaccoa[c]
-    + co2[c]
+  translated_equation: '|Coenzyme A[c]| + |Ferredoxin (oxidized) 2[4Fe-4S][c]| +
+    Phenylpyruvate[c] <=> H+[c] + |Ferredoxin (reduced) 2[4Fe-4S][c]| + Phenylacetyl-CoA[c]
+    + |carbon dioxide[c]|'
 - id: IOR3
   name: indolepyruvateferredoxinoxidoreductase(hydroxyphenylpyvurate)
   equation: coa[c] + fdox[c] + 34hpp[c] <=> hphaccoa[c] + h[c] + fdred[c] + co2[c]
@@ -26551,8 +26696,9 @@
   pathway: Tyrosine, Tryptophan, and Phenylalanine Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: coa[c] + fdox[c] + 34hpp[c] <=> hphaccoa[c] + h[c] + fdred[c]
-    + co2[c]
+  translated_equation: '|Coenzyme A[c]| + |Ferredoxin (oxidized) 2[4Fe-4S][c]| +
+    3-(4-Hydroxyphenyl)pyruvate[c] <=> 4-Hydroxyphenylacetyl-CoA[c] + H+[c] + |Ferredoxin
+    (reduced) 2[4Fe-4S][c]| + |carbon dioxide[c]|'
 - id: R04439
   name: (R)-2,3-dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)
   genes: fig|31899.10.peg.935
@@ -27195,7 +27341,7 @@
   source: KEGG
   tag: Cce,Tsac
   translated_equation: ATP[c] + Propanoyl-CoA[c] + Bicarbonate[c] <=> ADP[c] + Phosphate[c]
-    + C00683[c]
+    + (S)-Methylmalonyl-CoA[c]
 - id: R02765
   name: Methylmalonyl-CoA epimerase
   equation: C01213[c] <=> C00683[c]
@@ -27223,7 +27369,7 @@
   pathway: Valine, leucine and isoleucine degradation
   source: KEGG
   tag: Tsac
-  translated_equation: C01213[c] <=> C00683[c]
+  translated_equation: (R)-Methylmalonyl-CoA[c] <=> (S)-Methylmalonyl-CoA[c]
 - id: R07600
   genes: fig|31899.10.peg.1158
   equation: C15976[c] + C15972[c] => C15977[c] + C00068[c]
@@ -27436,7 +27582,7 @@
   pathway: Vitamin B6 metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: O-Phospho-4-hydroxy-L-threonine[c] + H2O[c] <=> C06056[c]
+  translated_equation: O-Phospho-4-hydroxy-L-threonine[c] + H2O[c] <=> 4-Hydroxy-L-threonine[c]
     + Phosphate[c]
 - id: ASPO5
   name: L-aspartateoxidase
@@ -27459,7 +27605,8 @@
   pathway: Vitamins and Cofactors - NAD Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: asp-L[c] + fum[c] => iasp[c] + succ[c] + h[c]
+  translated_equation: L-Aspartate[c] + Fumarate[c] => Iminoaspartate[c] + Succinate[c]
+    + H+[c]
 - id: Xyl14base
   name: Endo-1,4-beta-xylanase (secreted)
   genes: fig|31899.10.peg.1057
@@ -27508,8 +27655,8 @@
   pathway: Zeatin biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: '|Dimethylallyl diphosphate[c]| + C00066[c] <=> Diphosphate[c]
-    + C04432[c]'
+  translated_equation: '|Dimethylallyl diphosphate[c]| + tRNA[c] <=> Diphosphate[c]
+    + |tRNA containing 6-isopentenyladenosine[c]|'
 - id: R10783
   name: 3-hexenol:NAD+ oxidoreductase
   equation: C16310[c] + C00004[c] + C00080[c] <=> C08492[c] + C00003[c]
@@ -27533,5 +27680,6 @@
   pathway: alpha-Linolenic acid metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: C16310[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]|
-    + |Proton (H+)[c]| <=> C08492[c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
+  translated_equation: 3-Hexenal[c] + |Nicotinamide adenine dinucleotide - reduced
+    (NADH)[c]| + |Proton (H+)[c]| <=> 3-Hexenol[c] + |Nicotinamide adenine dinucleotide
+    (NAD)[c]|

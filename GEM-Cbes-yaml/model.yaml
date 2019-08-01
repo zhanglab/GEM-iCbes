@@ -11,6 +11,11 @@ compartments:
   name: Extracellular
 compounds:
 - include: compounds.yaml
+# - include: /Users/kzhang/Projects/Caldi/daily-work/kegg-draft-cbes-model/yaml-reaction-databases/kegg-reaction-database/compounds-kegg.yaml
+# - include: /Users/kzhang/Projects/Caldi/template-models/template-cce/cce-20181219-withcpds/compounds.yaml
+# - include: /Users/kzhang/Projects/Caldi/template-models/template-Tsac/t_saccharolyticum/converted_excel_model/compounds.yaml
+# - include: /Users/kzhang/Projects/Caldi/template-models/template-cth/converted_excel_model/compounds.yaml
+
 reactions:
 # # The entire rxn database, which I'm working on (do curation)
 # - include: reactions_new_model_reorder.yaml   
