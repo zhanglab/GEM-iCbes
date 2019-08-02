@@ -172,11 +172,12 @@
   pathways:
   - Purine metabolism
   - Metabolic pathways
+  note: Activity was proved by experiment, although activity is relatively low.
 - id: NMPK
   name: ATP:GMP diphosphotransferase
   equation: C00002[c] + C00144[c] <=> C00020[c] + C00044[c]
   translated_equation: ATP[c] + GMP[c] <=> AMP[c] + GTP[c]
-  note: Based on experimental, activity is detected. Although activity is relatively low.
+  note: Activity was proved by experiment. although activity is relatively low.
 # - id: R12212
 #   name: oxaloacetate carboxylyase (pyruvate-forming; Na+-extruding)
 #   genes: peg.1806 and peg.1807 and peg.2877

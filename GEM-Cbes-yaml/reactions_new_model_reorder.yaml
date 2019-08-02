@@ -3384,52 +3384,52 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: cis-Aconitate[c] + H2O[c] <=> Isocitrate[c]
-- id: R00214
-  name: NAD-dependent malate oxidoreductase
-  genes: fig|31899.10.peg.1543
-  equation: C00149[c] + C00003[c] => C00022[c] + C00011[c] + C00004[c] + C00080[c]
-  ec:
-  - 1.1.1.38
-  EggNOG_annotation: peg.1543:Malic enzyme;   peg.1804:Acetyl-CoA carboxylase, carboxyltransferase
-    component (subunits alpha and beta);   peg.1807:carboxylase;   peg.1806:Acetyl-CoA
-    carboxylase, biotin carboxyl carrier protein
-  KEGG_annotation: Athe_1319:K01571 oxaloacetate decarboxylase (Na+ extruding), alpha
-    subunit [EC:7.2.4.2] | (GenBank) Conserved;   peg.1806:-;   Athe_1316:no KO assigned
-    | (GenBank) carboxyl transferase;   Athe_1062:K00027 malate dehydrogenase (oxaloacetate-decarboxylating)
-    [EC:1.1.1.38] | (GenBank) Malate dehydrog
-  PATRIC_annotation: NADP-dependent malic enzyme (EC 1.1.1.40) or Acetyl-coenzyme
-    A carboxyl transferase alpha chain (EC 6.4.1.2) / Acetyl-coenzyme A carboxyl
-    transferase beta chain (EC 6.4.1.2); Propionyl-CoA carboxylase beta chain (EC
-    6.4.1.3) or Pyruvate:Oxaloacetate transcarboxylase domain protein or Biotin carboxyl
-    carrier protein => methylmalonyl-CoA decarboxylase; Biotin carboxyl carrier protein
-  PMID: 15876562, 3142524
-  curated: true
-  gene_string_PATRIC: peg.1543,peg.1804,peg.1807,peg.1806
-  genesNCBI: Athe_1062
-  genes_Cce: peg.1543
-  genes_Cth: peg.1543 or (peg.1804 and peg.1806 and peg.1807)
-  genes_Tsac: peg.1543
-  genes_kegg: peg.1543
-  genes_string_NCBI_id: Athe_1062,Athe_1316,Athe_1319,peg.1806
-  names:
-  - (S)-malate:NADP+ oxidoreductase (oxaloacetate-decarboxylating)
-  note: No activity detecdted with either NADPH or NADH in assays.
-  other_pathways:
-  - Pyruvate metabolism
-  - Carbon fixation in photosynthetic organisms
-  - Metabolic pathways
-  - Microbial metabolism in diverse environments
-  - Carbon metabolism
-  pathway: Citrate cycle (TCA cycle)
-  source: KEGG
-  tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: L-Malate[c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
-    => |Pyruvate (Pyr)[c]| + CO2[c] + |Nicotinamide adenine dinucleotide - reduced
-    (NADH)[c]| + |Proton (H+)[c]|
+# - id: R00214
+#   name: NAD-dependent malate oxidoreductase
+#   genes: fig|31899.10.peg.1543
+#   equation: C00149[c] + C00003[c] => C00022[c] + C00011[c] + C00004[c] + C00080[c]
+#   ec:
+#   - 1.1.1.38
+#   EggNOG_annotation: peg.1543:Malic enzyme;   peg.1804:Acetyl-CoA carboxylase, carboxyltransferase
+#     component (subunits alpha and beta);   peg.1807:carboxylase;   peg.1806:Acetyl-CoA
+#     carboxylase, biotin carboxyl carrier protein
+#   KEGG_annotation: Athe_1319:K01571 oxaloacetate decarboxylase (Na+ extruding), alpha
+#     subunit [EC:7.2.4.2] | (GenBank) Conserved;   peg.1806:-;   Athe_1316:no KO assigned
+#     | (GenBank) carboxyl transferase;   Athe_1062:K00027 malate dehydrogenase (oxaloacetate-decarboxylating)
+#     [EC:1.1.1.38] | (GenBank) Malate dehydrog
+#   PATRIC_annotation: NADP-dependent malic enzyme (EC 1.1.1.40) or Acetyl-coenzyme
+#     A carboxyl transferase alpha chain (EC 6.4.1.2) / Acetyl-coenzyme A carboxyl
+#     transferase beta chain (EC 6.4.1.2); Propionyl-CoA carboxylase beta chain (EC
+#     6.4.1.3) or Pyruvate:Oxaloacetate transcarboxylase domain protein or Biotin carboxyl
+#     carrier protein => methylmalonyl-CoA decarboxylase; Biotin carboxyl carrier protein
+#   PMID: 15876562, 3142524
+#   curated: true
+#   gene_string_PATRIC: peg.1543,peg.1804,peg.1807,peg.1806
+#   genesNCBI: Athe_1062
+#   genes_Cce: peg.1543
+#   genes_Cth: peg.1543 or (peg.1804 and peg.1806 and peg.1807)
+#   genes_Tsac: peg.1543
+#   genes_kegg: peg.1543
+#   genes_string_NCBI_id: Athe_1062,Athe_1316,Athe_1319,peg.1806
+#   names:
+#   - (S)-malate:NADP+ oxidoreductase (oxaloacetate-decarboxylating)
+#   note: No activity detecdted with either NADPH or NADH in assays.
+#   other_pathways:
+#   - Pyruvate metabolism
+#   - Carbon fixation in photosynthetic organisms
+#   - Metabolic pathways
+#   - Microbial metabolism in diverse environments
+#   - Carbon metabolism
+#   pathway: Citrate cycle (TCA cycle)
+#   source: KEGG
+#   tag: KEGG_Cbes,Cce,Cth,Tsac
+#   translated_equation: L-Malate[c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
+#     => |Pyruvate (Pyr)[c]| + CO2[c] + |Nicotinamide adenine dinucleotide - reduced
+#     (NADH)[c]| + |Proton (H+)[c]|
 - id: R00342
   name: (S)-malate:NAD+ oxidoreductase
   genes: fig|31899.10.peg.2434
-  equation: C00036[c] + C00004[c] + C00080[c] => C00149[c] + C00003[c]
+  equation: C00036[c] + C00004[c] + C00080[c] <=> C00149[c] + C00003[c]
   ec:
   - 1.1.1.37
   EggNOG_annotation: peg.2434:L-lactate dehydrogenase
@@ -3463,7 +3463,7 @@
   pathway: Citrate cycle (TCA cycle)
   source: Cce,Cth,Tsac
   translated_equation: '|Oxaloacetate (Oaa)[c]| + |Nicotinamide adenine dinucleotide
-    - reduced (NADH)[c]| + |Proton (H+)[c]| => L-Malate[c] + |Nicotinamide adenine
+    - reduced (NADH)[c]| + |Proton (H+)[c]| <=> L-Malate[c] + |Nicotinamide adenine
     dinucleotide (NAD)[c]|'
 - id: BTS
   name: Biotin synthase
