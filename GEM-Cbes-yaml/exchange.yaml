@@ -85,10 +85,10 @@ compounds:
   name: Lipoic acid
   lower: -0.00024233
   upper: 1000.0
-# - id: C00097
-#   name: L-Cysteine(Cys-L)
-#   lower: -6.345
-#   upper: 1000.0
+- id: C00097
+  name: L-Cysteine(Cys-L)
+  lower: -6.345
+  upper: 1000.0
 - id: C20679
   name: Tungstate
   lower: -0.000164
@@ -104,6 +104,7 @@ compounds:
 - id: C01342
   name: ammonium
   lower: -24.11
+  # lower: -6
   upper: 1000.0
 - id: C05776
   name: Cobalamin (B12)
@@ -159,3 +160,24 @@ compounds:
 #   name: D-xylose
 #   lower: -25.0
 #   upper: 1000.0
+# - id: C00185
+#   name: Cellobiose
+#   lower: -25.0
+#   upper: 1000.0
+# - id: C02492_kz
+#   name: 1,4-beta-D-Mannan(n=8)
+#   lower: -25.0
+#   upper: 1000.0
+# - id: C00707_kz
+#   name: Xylan
+#   lower: -25.0
+#   upper: 1000.0
+# - id: XGOS-xxxg
+#   name: XXXG-xyloglucan-oligosaccharides
+#   lower: -25.0
+#   upper: 1000.0
+
+
+
+
+

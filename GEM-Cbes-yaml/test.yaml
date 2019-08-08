@@ -29,10 +29,12 @@
 #   equation: C00005[c] <=>
 # - id: source_nadp
 #   equation: C00006[c] <=>
-# - id: source_fedox
+
+# - id: sink_fedox
 #   equation: C00139[c] =>
 # - id: source_fedred
 #   equation: C00138[c] <=
+
 # - id: source_coa
 #   equation: C00010[c] <=>
 

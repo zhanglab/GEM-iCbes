@@ -915,68 +915,11 @@
   tag: KEGG_Cbes
   translated_equation: Dihydrolipoylprotein[c] + NAD+[c] <=> Lipoylprotein[c] + NADH[c]
     + H+[c]
-- id: R01600
-  name: ATP:beta-D-glucose 6-phosphotransferase
-  genes: peg.984,peg.1056
-  equation: C00002[c] + C00221[c] <=> C00008[c] + C01172[c]
-  ec:
-  - 2.7.1.1
-  - 2.7.1.2
-  EggNOG_annotation: peg.984:ROK family;   peg.1056:ROK family
-  KEGG_annotation: Athe_0552:K00845 glucokinase [EC:2.7.1.2] | (GenBank) glucokinase,
-    ROK family;   Athe_0617:no KO assigned | (GenBank) ROK family protein
-  PATRIC_annotation: ROK family protein (putative glucokinase) or Xylose-responsive
-    transcription regulator, ROK family
-  genes_Cce: (peg.1056 or peg.984)
-  genes_Cth: None
-  genes_NCBI_id: Athe_0552,Athe_0617
-  genes_Tsac: None
-  genes_kegg: peg.984
-  names:
-  - ATP:beta-D-glucose 6-phosphotransferase
-  other_pathways:
-  - Glycolysis / Gluconeogenesis
-  - Biosynthesis of secondary metabolites
-  - Microbial metabolism in diverse environments
-  - Biosynthesis of antibiotics
-  pathway: Glycolysis / Gluconeogenesis
-  source: KEGG_Cbes,Cce
-  translated_equation: ATP[c] + beta-D-Glucose[c] <=> ADP[c] + |beta-D-Glucose 6-phosphate[c]|
-- id: R01786
-  name: ATP:alpha-D-glucose 6-phosphotransferase
-  genes: peg.984
-  equation: C00002[c] + C00267[c] <=> C00008[c] + C00668[c]
-  ec:
-  - 2.7.1.1
-  - 2.7.1.2
-  EggNOG_annotation: peg.984:ROK family
-  KEGG_annotation: Athe_0552:K00845 glucokinase [EC:2.7.1.2] | (GenBank) glucokinase,
-    ROK family
-  PATRIC_annotation: ROK family protein (putative glucokinase)
-  genes_Cce: None
-  genes_Cth: None
-  genes_NCBI_id: Athe_0552
-  genes_Tsac: None
-  genes_kegg: peg.984
-  names:
-  - ATP:alpha-D-glucose 6-phosphotransferase
-  other_pathways:
-  - Glycolysis / Gluconeogenesis
-  - Galactose metabolism
-  - Amino sugar and nucleotide sugar metabolism
-  - Metabolic pathways
-  - Biosynthesis of secondary metabolites
-  - Microbial metabolism in diverse environments
-  - Biosynthesis of antibiotics
-  - Carbon metabolism
-  pathway: Glycolysis / Gluconeogenesis
-  source: KEGG_Cbes
-  translated_equation: ATP[c] + alpha-D-Glucose[c] <=> ADP[c] + |alpha-D-Glucose
-    6-phosphate[c]|
-- id: R03321
-  name: beta-D-Glucose 6-phosphate ketol-isomerase
-  genes: peg.1059
-  equation: C01172[c] <=> C05345[c]
+- id: PGI2
+  name: D-glucose-6-phosphate aldose-ketose-isomerase
+  genes: fig|31899.10.peg.1059
+  genesNCBI: Athe_0619
+  equation: C00092[c] <=> C05345[c]
   ec:
   - 5.3.1.9
   EggNOG_annotation: peg.1059:Bifunctional phosphoglucose phosphomannose isomerase
@@ -984,82 +927,22 @@
     5.3.1.8] | (GenBank) bifunctional phosphogl
   PATRIC_annotation: Glucose-6-phosphate isomerase, archaeal II (EC 5.3.1.9) / Mannose-6-phosphate
     isomerase, archaeal (EC 5.3.1.8)
-  genes_Cce: None
-  genes_Cth: None
-  genes_NCBI_id: Athe_0619
-  genes_Tsac: None
-  genes_kegg: peg.1059
-  names:
-  - beta-D-Glucose 6-phosphate ketol-isomerase
-  other_pathways:
-  - Glycolysis / Gluconeogenesis
-  - Metabolic pathways
-  - Biosynthesis of secondary metabolites
-  - Microbial metabolism in diverse environments
-  - Biosynthesis of antibiotics
-  pathway: Glycolysis / Gluconeogenesis
-  source: KEGG_Cbes
-  translated_equation: '|beta-D-Glucose 6-phosphate[c]| <=> |beta-D-Fructose 6-phosphate[c]|'
-- id: R02739
-  name: alpha-D-Glucose 6-phosphate ketol-isomerase
-  genes: peg.1059
-  equation: C00668[c] <=> C01172[c]
-  ec:
-  - 5.1.3.15
-  - 5.3.1.9
-  EggNOG_annotation: peg.1059:Bifunctional phosphoglucose phosphomannose isomerase
-  KEGG_annotation: Athe_0619:K15916 glucose/mannose-6-phosphate isomerase [EC:5.3.1.9
-    5.3.1.8] | (GenBank) bifunctional phosphogl
-  PATRIC_annotation: Glucose-6-phosphate isomerase, archaeal II (EC 5.3.1.9) / Mannose-6-phosphate
-    isomerase, archaeal (EC 5.3.1.8)
+  comment: similar to R00771 (or equal to R02740 + R03321), product must be beta-Fru
+  curated: true
   genes_Cce: '-'
-  genes_Cth: None
-  genes_NCBI_id: Athe_0619
-  genes_Tsac: None
+  genes_Cth: '-'
+  genes_Tsac: '-'
   genes_kegg: peg.1059
+  genes_string_NCBI_id: Athe_0619
   names:
-  - alpha-D-Glucose 6-phosphate ketol-isomerase
+  - D-glucose-6-phosphate aldose-ketose-isomerase
   other_pathways:
-  - Glycolysis / Gluconeogenesis
-  - Pentose phosphate pathway
-  - Metabolic pathways
-  - Biosynthesis of secondary metabolites
-  - Microbial metabolism in diverse environments
-  - Biosynthesis of antibiotics
+  - Starch and sucrose metabolism
   pathway: Glycolysis / Gluconeogenesis
-  source: KEGG_Cbes
-  translated_equation: '|alpha-D-Glucose 6-phosphate[c]| <=> |beta-D-Glucose 6-phosphate[c]|'
-- id: R02740
-  name: alpha-D-Glucose 6-phosphate ketol-isomerase
-  genes: peg.1059
-  equation: C00668[c] <=> C05345[c]
-  ec:
-  - 5.3.1.9
-  EggNOG_annotation: peg.1059:Bifunctional phosphoglucose phosphomannose isomerase
-  KEGG_annotation: Athe_0619:K15916 glucose/mannose-6-phosphate isomerase [EC:5.3.1.9
-    5.3.1.8] | (GenBank) bifunctional phosphogl
-  PATRIC_annotation: Glucose-6-phosphate isomerase, archaeal II (EC 5.3.1.9) / Mannose-6-phosphate
-    isomerase, archaeal (EC 5.3.1.8)
-  comment: reversible
-  genes_Cce: None
-  genes_Cth: None
-  genes_NCBI_id: Athe_0619
-  genes_Tsac: None
-  genes_kegg: peg.1059
-  names:
-  - alpha-D-Glucose 6-phosphate ketol-isomerase
-  other_pathways:
-  - Glycolysis / Gluconeogenesis
-  - Pentose phosphate pathway
-  - Amino sugar and nucleotide sugar metabolism
-  - Metabolic pathways
-  - Biosynthesis of secondary metabolites
-  - Microbial metabolism in diverse environments
-  - Biosynthesis of antibiotics
-  - Carbon metabolism
-  pathway: Glycolysis / Gluconeogenesis
-  source: KEGG_Cbes
-  translated_equation: '|alpha-D-Glucose 6-phosphate[c]| <=> |beta-D-Fructose 6-phosphate[c]|'
+  source: added manually
+  tag: KEGG_Cbes
+  translated_equation: '|D-Glucose 6-phosphate[c]| <=> |beta-D-Fructose 6-phosphate
+    (bF6P)[c]|'
 - id: R02569
   name: acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase
   genes: peg.1156
@@ -1752,27 +1635,6 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: Cellobiose[c] <=> G01630[c]
-- id: R01445
-  name: cellobiose 2-epimerase
-  equation: C00185[c] <=> C02964[c]
-  ec:
-  - 5.1.3.11
-  EggNOG_annotation: peg.94:n-acylglucosamine 2-epimerase
-  KEGG_annotation: Athe_2557:K16213 cellobiose epimerase [EC:5.1.3.11] | (GenBank)
-    N-acylglucosamine 2-epimerase
-  PATRIC_annotation: N-acylglucosamine 2-epimerase (EC 5.1.3.8)
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.94
-  genes_string_NCBI_id: Athe_2557
-  genes_string_PATRIC_id: peg.94
-  names:
-  - cellobiose 2-epimerase
-  pathway: None
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: Cellobiose[c] <=> 4-O-beta-D-Glucopyranosyl-D-mannose[c]
 - id: b14Manpmt
   name: 1,4-beta-D-mannooligosaccharide:phosphate alpha-D-mannosyltransferase
   genes: peg.92
@@ -3797,36 +3659,6 @@
   tag: Cce,Cth,Tsac
   translated_equation: 1-(5-Phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate[c]
     <=> |Aminoimidazole ribotide[c]| + CO2[c]
-- id: R08639
-  name: alpha-D-glucose 1,6-phosphomutase
-  equation: C00103[c] <=> C00092[c]
-  ec:
-  - 5.4.2.2
-  - 5.4.2.5
-  EggNOG_annotation: peg.2262:Phosphoglucomutase phosphomannomutase alpha beta alpha
-    domain;   peg.2586:Phosphoglucomutase phosphomannomutase alpha beta alpha domain;   peg.2899:Catalyzes
-    the conversion of glucosamine-6-phosphate to glucosamine-1-phosphate (By similarity)
-  KEGG_annotation: Athe_1752:no KO assigned | (GenBank) Phosphoglucomutase;   Athe_2324:K03431
-    phosphoglucosamine mutase [EC:5.4.2.10] | (GenBank) phosphoglucosamine mutase;   Athe_2040:no
-    KO assigned | (GenBank) Phosphomannomutase
-  PATRIC_annotation: Phosphomannomutase (EC 5.4.2.8) or Phosphoglucosamine mutase
-    (EC 5.4.2.10) or Phosphoglucosamine mutase (EC 5.4.2.10)
-  genes_Cce: (peg.2262 or peg.2586)
-  genes_Cth: (peg.2262 or peg.2586)
-  genes_Tsac: peg.2899
-  genes_kegg: None
-  genes_string_NCBI_id: Athe_1752,Athe_2040,Athe_2324
-  genes_string_PATRIC_id: peg.2262,peg.2586,peg.2899
-  names:
-  - alpha-D-glucose 1,6-phosphomutase
-  other_pathways:
-  - Starch and sucrose metabolism
-  - Streptomycin biosynthesis
-  - Biosynthesis of antibiotics
-  pathway: Starch and sucrose metabolism
-  source: KEGG
-  tag: Cce,Cth,Tsac
-  translated_equation: '|D-Glucose 1-phosphate[c]| <=> |D-Glucose 6-phosphate[c]|'
 
 
 # glycerophospholipid metabolism
@@ -4199,29 +4031,40 @@
   tag: KEGG_Cbes
   translated_equation: 1,4-beta-D-Mannan[c] + H2O[c] <=> 1,4-beta-D-Mannooligosaccharide[c]
     + 1,4-beta-D-Mannan[c]
-- id: R08614
-  name: 1,4-beta-D-Mannooligosaccharide mannohydrolase
-  genes: peg.625
-  equation: C17207[c] + C00001[c] <=> C00159[c] + C17207[c]
+- id: R01332_kz
+  name: beta-D-mannan hydrolases (endo)
+  genes: fig|31899.10.peg.633 and fig|31899.10.peg.625
+  equation: C02492_kz[c] + (4) C00001[c] => (4) C00159[c]
   ec:
+  - 3.2.1.78
   - 3.2.1.25
-  EggNOG_annotation: peg.625:Glycoside hydrolase, family 2
-  KEGG_annotation: Athe_0227:K01192 beta-mannosidase [EC:3.2.1.25] | (GenBank) glycoside
-    hydrolase family 2 sugar binding
-  PATRIC_annotation: Beta-mannosidase (EC 3.2.1.25)
+  EggNOG_annotation: 'peg.625:Glycoside hydrolase, family 2;   peg.2379:Inherit from
+    firmNOG: Mannan endo-1,4-beta-mannosidase;   peg.2375:hydrolase family 9'
+  KEGG_annotation: Athe_1865:K01218 mannan endo-1,4-beta-mannosidase [EC:3.2.1.78]
+    | (GenBank) glycoside hydrolase family 9;   Athe_1859:K01218 mannan endo-1,4-beta-mannosidase
+    [EC:3.2.1.78] | (GenBank) glycoside hydrolase family 5;   Athe_0227:K01192 beta-mannosidase
+    [EC:3.2.1.25] | (GenBank) glycoside hydrolase family 2 sugar binding
+  PATRIC_annotation: Beta-mannosidase (EC 3.2.1.25) or Mannan endo-1,4-beta-mannosidase
+    (EC 3.2.1.78) / beta-1,4-glucanase (cellulase) (EC 3.2.1.4) / Domain of unknown
+    function or Glucan 1,4-beta-glucosidase (EC 3.2.1.74) / Mannan endo-1,4-beta-mannosidase
+    (EC 3.2.1.78)
+  comment: multi-step reaction,endo-hydrolysis (ec 3.2.1.78, see R08612), exo-hydrolysis
+    (ec 3.2.1.25, see R08614)
+  genesNCBI: Athe_0234 and Athe_0227
   genes_Cce: None
   genes_Cth: None
   genes_Tsac: None
-  genes_kegg: peg.625
-  genes_string_NCBI_id: Athe_0227
-  genes_string_PATRIC_id: peg.625
+  genes_kegg: peg.2375,peg.2379,peg.625
+  genes_string_NCBI_id: Athe_0227,Athe_1859,Athe_1865
+  genes_string_PATRIC_id: peg.625,peg.2379,peg.2375
   names:
-  - 1,4-beta-D-Mannooligosaccharide mannohydrolase
-  pathway: None
+  - beta-D-mannan hydrolases
+  other_pathways:
+  - Fructose and mannose metabolism
+  pathway: Fructose and mannose metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: 1,4-beta-D-Mannooligosaccharide[c] + H2O[c] <=> D-Mannose[c]
-    + 1,4-beta-D-Mannooligosaccharide[c]
+  translated_equation: 1,4-beta-D-Mannan(n=4)[c] + (4) H2O[c] => (4) D-Mannose[c]
 
 # remove based on experiment data from Mike's group
 - id: R01000
@@ -4691,3 +4534,433 @@
   - Butanoate metabolism
   - Metabolic pathways
   - Microbial metabolism in diverse environments
+- id: R00306
+  name: cellobiose glucohydrolase
+  genes: fig|31899.10.peg.878
+  equation: C00185[c] + C00001[c] <=> (2) C00031[c]
+  ec:
+  - 3.2.1.21
+  EggNOG_annotation: peg.2930:Glycoside hydrolase family 3 domain protein;   peg.878:hydrolase,
+    family 1
+  KEGG_annotation: Athe_2354:K05349 beta-glucosidase [EC:3.2.1.21] | (GenBank) glycoside
+    hydrolase family 3 domain protein;   Athe_0458:K05350 beta-glucosidase [EC:3.2.1.21]
+    | (GenBank) beta-galactosidase
+  PATRIC_annotation: Xylan 1,4-beta-xylosidase (EC 3.2.1.37) @ Arabinan endo-1,5-alpha-L-arabinosidase
+    (EC 3.2.1.99) or beta-glucosidase (EC 3.2.1.21)
+  comment: retaining anomeric configuration (see R00026)
+  genesNCBI: Athe_0458
+  genes_Cce: None
+  genes_Cth: peg.878 or peg.2930
+  genes_Tsac: None
+  genes_kegg: peg.2930,peg.878
+  genes_string_NCBI_id: Athe_2354,Athe_0458
+  genes_string_PATRIC_id: peg.2930,peg.878
+  names:
+  - cellobiose glucohydrolase
+  other_pathways:
+  - Starch and sucrose metabolism
+  - Metabolic pathways
+  pathway: Starch and sucrose metabolism
+  source: KEGG
+  tag: KEGG_Cbes,Cth
+  translated_equation: Cellobiose[c] + H2O[c] <=> (2) D-Glucose[c]
+  note: based on enzyme description in KEGG, product should be beta-glucose, not general glucose.
+- id: R06200
+  equation: G10481(n+2)[c] + C00001[c] <=> G10481(n)[c] + G00289[c]
+  ec:
+  - 3.2.1.4
+  - 3.2.1.91
+  EggNOG_annotation: peg.633:Glycoside hydrolase family 5;   peg.2376:Cellulase (glycosyl
+    hydrolase family 5);   peg.2380:glycoside hydrolase family protein;   peg.1027:cellulase
+    (EC 3.2.1.4)
+  KEGG_annotation: Athe_0594:K01179 endoglucanase [EC:3.2.1.4] | (GenBank) Cellulase;   Athe_0234:K01179
+    endoglucanase [EC:3.2.1.4] | (GenBank) glycoside hydrolase family 5;   Athe_1867:K01179
+    endoglucanase [EC:3.2.1.4] | (GenBank) glycoside hydrolase family 48;   Athe_1866:K01179
+    endoglucanase [EC:3.2.1.4] | (GenBank) Mannan endo-1,4-beta-mannosidase., Cellulase
+  PATRIC_annotation: glycoside hydrolase, family 5 or beta-1,4-glucanase (cellulase)
+    (EC 3.2.1.4) or beta-1,4-glucanase (cellulase) (EC 3.2.1.4) / Cellulose 1,4-beta-cellobiosidase
+    (reducing end) (EC 3.2.1.176) or Mannan endo-1,4-beta-mannosidase (EC 3.2.1.78)
+    / beta-1,4-glucanase (cellulase) (EC 3.2.1.4) / Domain of unknown function
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2380,peg.2376,peg.633,peg.1027
+  genes_string_NCBI_id: Athe_0234,Athe_0594,Athe_1867,Athe_1866
+  genes_string_PATRIC_id: peg.633,peg.1027,peg.2380,peg.2376
+  names: []
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: G10481(n+2)[c] + H2O[c] <=> G10481(n)[c] + G00289[c]
+- id: R10040
+  name: beta-D-glucoside glucohydrolase
+  equation: C01594[c] + C00001[c] <=> C02659[c] + C00221[c]
+  ec:
+  - 3.2.1.21
+  EggNOG_annotation: peg.2930:Glycoside hydrolase family 3 domain protein;   peg.878:hydrolase,
+    family 1
+  KEGG_annotation: Athe_2354:K05349 beta-glucosidase [EC:3.2.1.21] | (GenBank) glycoside
+    hydrolase family 3 domain protein;   Athe_0458:K05350 beta-glucosidase [EC:3.2.1.21]
+    | (GenBank) beta-galactosidase
+  PATRIC_annotation: Xylan 1,4-beta-xylosidase (EC 3.2.1.37) @ Arabinan endo-1,5-alpha-L-arabinosidase
+    (EC 3.2.1.99) or beta-glucosidase (EC 3.2.1.21)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2930,peg.878
+  genes_string_NCBI_id: Athe_2354,Athe_0458
+  genes_string_PATRIC_id: peg.2930,peg.878
+  names:
+  - beta-D-glucoside glucohydrolase
+  other_pathways:
+  - Cyanoamino acid metabolism
+  pathway: Cyanoamino acid metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: Linamarin[c] + H2O[c] <=> |Acetone cyanohydrin[c]| + beta-D-Glucose[c]
+- id: R10035
+  name: beta-D-glucoside glucohydrolase
+  equation: C05143[c] + C00001[c] <=> C03742[c] + C00221[c]
+  ec:
+  - 3.2.1.21
+  EggNOG_annotation: peg.2930:Glycoside hydrolase family 3 domain protein;   peg.878:hydrolase,
+    family 1
+  KEGG_annotation: Athe_2354:K05349 beta-glucosidase [EC:3.2.1.21] | (GenBank) glycoside
+    hydrolase family 3 domain protein;   Athe_0458:K05350 beta-glucosidase [EC:3.2.1.21]
+    | (GenBank) beta-galactosidase
+  PATRIC_annotation: Xylan 1,4-beta-xylosidase (EC 3.2.1.37) @ Arabinan endo-1,5-alpha-L-arabinosidase
+    (EC 3.2.1.99) or beta-glucosidase (EC 3.2.1.21)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2930,peg.878
+  genes_string_NCBI_id: Athe_2354,Athe_0458
+  genes_string_PATRIC_id: peg.2930,peg.878
+  names:
+  - beta-D-glucoside glucohydrolase
+  other_pathways:
+  - Cyanoamino acid metabolism
+  pathway: Cyanoamino acid metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: Dhurrin[c] + H2O[c] <=> (S)-4-Hydroxymandelonitrile[c] + beta-D-Glucose[c]
+- id: R02558
+  name: (R)-Prunasin beta-D-glucohydrolase
+  equation: C00844[c] + C00001[c] <=> C00561[c] + C00031[c]
+  ec:
+  - 3.2.1.21
+  - 3.2.1.118
+  EggNOG_annotation: peg.2930:Glycoside hydrolase family 3 domain protein;   peg.878:hydrolase,
+    family 1
+  KEGG_annotation: Athe_2354:K05349 beta-glucosidase [EC:3.2.1.21] | (GenBank) glycoside
+    hydrolase family 3 domain protein;   Athe_0458:K05350 beta-glucosidase [EC:3.2.1.21]
+    | (GenBank) beta-galactosidase
+  PATRIC_annotation: Xylan 1,4-beta-xylosidase (EC 3.2.1.37) @ Arabinan endo-1,5-alpha-L-arabinosidase
+    (EC 3.2.1.99) or beta-glucosidase (EC 3.2.1.21)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2930,peg.878
+  genes_string_NCBI_id: Athe_2354,Athe_0458
+  genes_string_PATRIC_id: peg.2930,peg.878
+  names:
+  - (R)-Prunasin beta-D-glucohydrolase
+  other_pathways:
+  - Cyanoamino acid metabolism
+  - Biosynthesis of secondary metabolites
+  pathway: Cyanoamino acid metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: Prunasin[c] + H2O[c] <=> Mandelonitrile[c] + D-Glucose[c]
+- id: R10039
+  name: beta-D-glucoside glucohydrolase
+  equation: C08334[c] + C00001[c] <=> C18796[c] + C00221[c]
+  ec:
+  - 3.2.1.21
+  EggNOG_annotation: peg.2930:Glycoside hydrolase family 3 domain protein;   peg.878:hydrolase,
+    family 1
+  KEGG_annotation: Athe_2354:K05349 beta-glucosidase [EC:3.2.1.21] | (GenBank) glycoside
+    hydrolase family 3 domain protein;   Athe_0458:K05350 beta-glucosidase [EC:3.2.1.21]
+    | (GenBank) beta-galactosidase
+  PATRIC_annotation: Xylan 1,4-beta-xylosidase (EC 3.2.1.37) @ Arabinan endo-1,5-alpha-L-arabinosidase
+    (EC 3.2.1.99) or beta-glucosidase (EC 3.2.1.21)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2930,peg.878
+  genes_string_NCBI_id: Athe_2354,Athe_0458
+  genes_string_PATRIC_id: peg.2930,peg.878
+  names:
+  - beta-D-glucoside glucohydrolase
+  other_pathways:
+  - Cyanoamino acid metabolism
+  pathway: Cyanoamino acid metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: Lotaustralin[c] + H2O[c] <=> (2R)-2-Hydroxy-2-methylbutanenitrile[c]
+    + beta-D-Glucose[c]
+- id: R02985
+  name: amygdalin beta-glucosidase
+  equation: C00844[c] + C00031[c] <=> C08325[c] + C00001[c]
+  ec:
+  - 3.2.1.21
+  - 3.2.1.117
+  EggNOG_annotation: peg.2930:Glycoside hydrolase family 3 domain protein;   peg.878:hydrolase,
+    family 1
+  KEGG_annotation: Athe_2354:K05349 beta-glucosidase [EC:3.2.1.21] | (GenBank) glycoside
+    hydrolase family 3 domain protein;   Athe_0458:K05350 beta-glucosidase [EC:3.2.1.21]
+    | (GenBank) beta-galactosidase
+  PATRIC_annotation: Xylan 1,4-beta-xylosidase (EC 3.2.1.37) @ Arabinan endo-1,5-alpha-L-arabinosidase
+    (EC 3.2.1.99) or beta-glucosidase (EC 3.2.1.21)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2930,peg.878
+  genes_string_NCBI_id: Athe_2354,Athe_0458
+  genes_string_PATRIC_id: peg.2930,peg.878
+  names:
+  - amygdalin beta-glucosidase
+  other_pathways:
+  - Cyanoamino acid metabolism
+  - Biosynthesis of secondary metabolites
+  pathway: Cyanoamino acid metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: Prunasin[c] + D-Glucose[c] <=> Amygdalin[c] + H2O[c]
+- id: R04949
+  name: Cyanoglycoside glucohydrolase
+  equation: C05713[c] + C00001[c] <=> C05712[c] + C00031[c]
+  ec:
+  - 3.2.1.21
+  EggNOG_annotation: peg.2930:Glycoside hydrolase family 3 domain protein;   peg.878:hydrolase,
+    family 1
+  KEGG_annotation: Athe_2354:K05349 beta-glucosidase [EC:3.2.1.21] | (GenBank) glycoside
+    hydrolase family 3 domain protein;   Athe_0458:K05350 beta-glucosidase [EC:3.2.1.21]
+    | (GenBank) beta-galactosidase
+  PATRIC_annotation: Xylan 1,4-beta-xylosidase (EC 3.2.1.37) @ Arabinan endo-1,5-alpha-L-arabinosidase
+    (EC 3.2.1.99) or beta-glucosidase (EC 3.2.1.21)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2930,peg.878
+  genes_string_NCBI_id: Athe_2354,Athe_0458
+  genes_string_PATRIC_id: peg.2930,peg.878
+  names:
+  - Cyanoglycoside glucohydrolase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: Cyanoglycoside[c] + H2O[c] <=> Cyanohydrin[c] + D-Glucose[c]
+- id: R06092
+  equation: G00289[c] + C00001[c] <=> (2) C00221[c]
+  ec:
+  - 3.2.1.21
+  EggNOG_annotation: peg.2930:Glycoside hydrolase family 3 domain protein;   peg.878:hydrolase,
+    family 1
+  KEGG_annotation: Athe_2354:K05349 beta-glucosidase [EC:3.2.1.21] | (GenBank) glycoside
+    hydrolase family 3 domain protein;   Athe_0458:K05350 beta-glucosidase [EC:3.2.1.21]
+    | (GenBank) beta-galactosidase
+  PATRIC_annotation: Xylan 1,4-beta-xylosidase (EC 3.2.1.37) @ Arabinan endo-1,5-alpha-L-arabinosidase
+    (EC 3.2.1.99) or beta-glucosidase (EC 3.2.1.21)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2930,peg.878
+  genes_string_NCBI_id: Athe_2354,Athe_0458
+  genes_string_PATRIC_id: peg.2930,peg.878
+  names: []
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: G00289[c] + H2O[c] <=> (2) beta-D-Glucose[c]
+- id: R06077
+  equation: G10481(n+1)[c] + C00001[c] <=> G10481(n)[c] + C00221[c]
+  ec:
+  - 3.2.1.21
+  EggNOG_annotation: peg.2930:Glycoside hydrolase family 3 domain protein;   peg.878:hydrolase,
+    family 1
+  KEGG_annotation: Athe_2354:K05349 beta-glucosidase [EC:3.2.1.21] | (GenBank) glycoside
+    hydrolase family 3 domain protein;   Athe_0458:K05350 beta-glucosidase [EC:3.2.1.21]
+    | (GenBank) beta-galactosidase
+  PATRIC_annotation: Xylan 1,4-beta-xylosidase (EC 3.2.1.37) @ Arabinan endo-1,5-alpha-L-arabinosidase
+    (EC 3.2.1.99) or beta-glucosidase (EC 3.2.1.21)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2930,peg.878
+  genes_string_NCBI_id: Athe_2354,Athe_0458
+  genes_string_PATRIC_id: peg.2930,peg.878
+  names: []
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: G10481(n+1)[c] + H2O[c] <=> G10481(n)[c] + beta-D-Glucose[c]
+- id: R04998
+  name: beta-D-Glucosyl-2-coumarinate glucohydrolase
+  equation: C05839[c] + C00001[c] <=> C05838[c] + C00031[c]
+  ec:
+  - 3.2.1.21
+  EggNOG_annotation: peg.2930:Glycoside hydrolase family 3 domain protein;   peg.878:hydrolase,
+    family 1
+  KEGG_annotation: Athe_2354:K05349 beta-glucosidase [EC:3.2.1.21] | (GenBank) glycoside
+    hydrolase family 3 domain protein;   Athe_0458:K05350 beta-glucosidase [EC:3.2.1.21]
+    | (GenBank) beta-galactosidase
+  PATRIC_annotation: Xylan 1,4-beta-xylosidase (EC 3.2.1.37) @ Arabinan endo-1,5-alpha-L-arabinosidase
+    (EC 3.2.1.99) or beta-glucosidase (EC 3.2.1.21)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2930,peg.878
+  genes_string_NCBI_id: Athe_2354,Athe_0458
+  genes_string_PATRIC_id: peg.2930,peg.878
+  names:
+  - beta-D-Glucosyl-2-coumarinate glucohydrolase
+  other_pathways:
+  - Phenylpropanoid biosynthesis
+  - Biosynthesis of secondary metabolites
+  pathway: Phenylpropanoid biosynthesis
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: cis-beta-D-Glucosyl-2-hydroxycinnamate[c] + H2O[c] <=> cis-2-Hydroxycinnamate[c]
+    + D-Glucose[c]
+- id: R04998
+  name: beta-D-Glucosyl-2-coumarinate glucohydrolase
+  equation: C05839[c] + C00001[c] <=> C05838[c] + C00031[c]
+  ec:
+  - 3.2.1.21
+  EggNOG_annotation: peg.2930:Glycoside hydrolase family 3 domain protein;   peg.878:hydrolase,
+    family 1
+  KEGG_annotation: Athe_2354:K05349 beta-glucosidase [EC:3.2.1.21] | (GenBank) glycoside
+    hydrolase family 3 domain protein;   Athe_0458:K05350 beta-glucosidase [EC:3.2.1.21]
+    | (GenBank) beta-galactosidase
+  PATRIC_annotation: Xylan 1,4-beta-xylosidase (EC 3.2.1.37) @ Arabinan endo-1,5-alpha-L-arabinosidase
+    (EC 3.2.1.99) or beta-glucosidase (EC 3.2.1.21)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2930,peg.878
+  genes_string_NCBI_id: Athe_2354,Athe_0458
+  genes_string_PATRIC_id: peg.2930,peg.878
+  names:
+  - beta-D-Glucosyl-2-coumarinate glucohydrolase
+  other_pathways:
+  - Phenylpropanoid biosynthesis
+  - Biosynthesis of secondary metabolites
+  pathway: Phenylpropanoid biosynthesis
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: cis-beta-D-Glucosyl-2-hydroxycinnamate[c] + H2O[c] <=> cis-2-Hydroxycinnamate[c]
+    + D-Glucose[c]
+- id: R00878
+  name: alpha-D-Glucose aldose-ketose-isomerase
+  genes: fig|31899.10.peg.1037
+  equation: C00267[c] <=> C00095[c]
+  ec:
+  - 5.3.1.5
+  EggNOG_annotation: peg.1037:xylose isomerase
+  KEGG_annotation: Athe_0603:K01805 xylose isomerase [EC:5.3.1.5] | (GenBank) xylose
+    isomerase
+  PATRIC_annotation: Xylose isomerase (EC 5.3.1.5)
+  curated: true
+  genesNCBI: Athe_0603
+  genes_Cce: peg.1037
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1037
+  genes_string_NCBI_id: Athe_0603
+  genes_string_PATRIC_id: peg.1037
+  names:
+  - alpha-D-Glucose aldose-ketose-isomerase
+  other_pathways:
+  - Fructose and mannose metabolism
+  - Metabolic pathways
+  pathway: Fructose and mannose metabolism
+  source: KEGG
+  tag: KEGG_Cbes,Cce
+  translated_equation: alpha-D-Glucose[c] <=> D-Fructose[c]
+- id: R05142
+  name: 1,4-beta-D-Glucan glucohydrolase
+  equation: C06217[c] + C00001[c] <=> C06218[c] + C00031[c]
+  ec:
+  - 3.2.1.74
+  EggNOG_annotation: peg.2930:Glycoside hydrolase family 3 domain protein;   peg.878:hydrolase,
+    family 1
+  KEGG_annotation: Athe_2354:K05349 beta-glucosidase [EC:3.2.1.21] | (GenBank) glycoside
+    hydrolase family 3 domain protein;   Athe_0458:K05350 beta-glucosidase [EC:3.2.1.21]
+    | (GenBank) beta-galactosidase
+  PATRIC_annotation: Xylan 1,4-beta-xylosidase (EC 3.2.1.37) @ Arabinan endo-1,5-alpha-L-arabinosidase
+    (EC 3.2.1.99) or beta-glucosidase (EC 3.2.1.21)
+  genes_Cce: None
+  genes_Cth: peg.878 or peg.2930
+  genes_Tsac: None
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_2354,Athe_0458
+  genes_string_PATRIC_id: peg.2930,peg.878
+  names:
+  - 1,4-beta-D-Glucan glucohydrolase
+  pathway: None
+  source: KEGG
+  tag: Cth
+  translated_equation: Cellohexaose[c] + H2O[c] <=> Cellopentaose[c] + D-Glucose[c]
+- id: R03802
+  name: 1,4-beta-D-Glucan glucohydrolase
+  equation: C06218[c] + C00001[c] <=> C02013[c] + C00031[c]
+  ec:
+  - 3.2.1.74
+  EggNOG_annotation: peg.2930:Glycoside hydrolase family 3 domain protein;   peg.878:hydrolase,
+    family 1
+  KEGG_annotation: Athe_2354:K05349 beta-glucosidase [EC:3.2.1.21] | (GenBank) glycoside
+    hydrolase family 3 domain protein;   Athe_0458:K05350 beta-glucosidase [EC:3.2.1.21]
+    | (GenBank) beta-galactosidase
+  PATRIC_annotation: Xylan 1,4-beta-xylosidase (EC 3.2.1.37) @ Arabinan endo-1,5-alpha-L-arabinosidase
+    (EC 3.2.1.99) or beta-glucosidase (EC 3.2.1.21)
+  genes_Cce: None
+  genes_Cth: peg.878 or peg.2930
+  genes_Tsac: None
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_2354,Athe_0458
+  genes_string_PATRIC_id: peg.2930,peg.878
+  names:
+  - 1,4-beta-D-Glucan glucohydrolase
+  pathway: None
+  source: KEGG
+  tag: Cth
+  translated_equation: Cellopentaose[c] + H2O[c] <=> Cellotetraose[c] + D-Glucose[c]
+# - id: XynF
+#   name: α-L-arabinosidase
+#   genes: fig|31899.10.peg.579
+#   curated: true
+#   equation: C00707_kz[e] + C00001[e] => (2) AXOS[e]
+#   ec:
+#   - 3.2.1.55
+#   genesNCBI: Athe_0182
+#   pathway: Xylan utilization
+#   source: manually-add
+#   tag: manual-curation
+#   translated_equation: Xylan(n=8)[e] + H2O[e] => (2) Arabinoxylan-oligosaccharides[e]
+- id: R11310
+  name: beta-D-glucose 1,6-phosphomutase
+  genes: fig|31899.10.peg.812
+  equation: C00663[c] <=> C00092[c]
+  ec:
+  - 5.4.2.6
+  EggNOG_annotation: peg.812:IA, variant 3
+  KEGG_annotation: Athe_0397:K01838 beta-phosphoglucomutase [EC:5.4.2.6] | (GenBank)
+    beta-phosphoglucomutase family hydrolase
+  PATRIC_annotation: Beta-phosphoglucomutase (EC 5.4.2.6)
+  curated: true
+  genesNCBI: Athe_0397
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.812
+  genes_string_NCBI_id: Athe_0397
+  genes_string_PATRIC_id: peg.812
+  names:
+  - beta-D-glucose 1,6-phosphomutase
+  other_pathways:
+  - Starch and sucrose metabolism
+  pathway: Starch and sucrose metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|beta-D-Glucose 1-phosphate[c]| <=> |D-Glucose 6-phosphate[c]|'

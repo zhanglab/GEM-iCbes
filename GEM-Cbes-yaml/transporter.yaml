@@ -37,8 +37,7 @@
   name: Sodium/calcium exchanger
   genes: peg.2942
   equation: C00076[e] + (3) C01330[c] <=> C00076[c] + (3) C01330[e]
-  ec:
-  - TC=2.A.19.5
+  ec: TC=2.A.19.5
   note: this gene not in filtered(25% identiyty) TCDB blast result; bidirectional
     or uptake Ca2+?
   pathway: Transport
@@ -74,8 +73,7 @@
   name: Zinc uptake via ABC system
   genes: peg.2746 and peg.2747 and peg.2748
   equation: C00038[e] + C00002[c] + C00001[c] => C00038[c] + C00008[c] + C00009[c]
-  ec:
-  - TC=3.A.1.15
+  ec: TC=3.A.1.15
   PMID: 28596134(3.A.1.15.3, AdcABC); 12426338(3.A.1.15.11, Zinc uptake)
   note: note sure it should be 3.A.1.15.11 or 3.A.1.15.3
   pathway: Transport
@@ -101,8 +99,7 @@
   name: Zinc(II) ion permease (uptake)
   genes: peg.1555
   equation: C00038[e] => C00038[c]
-  ec:
-  - TC=2.A.5.5.1
+  ec: TC=2.A.5.5.1
   PMID: 15716430
   note: 2.A.5.5.1 is Broad specificity heavy metal divalent cation uptake transporter,
     but peg.1555 is only annotated as zinc transporter
@@ -245,8 +242,8 @@
   equation: C00120[e] + C00080[c] => C00120[c] + C00080[e]
   ec: TC=3.A.1.25.5
   PMID: 23836870, 17301237, 23359690
-  note: based on 23836870 and 17301237, BioY can transport biotin by itself, dop
-    not need A and T component
+  note: based on 23836870 and 17301237, BioY can transport biotin by itself, does
+    not need A and T components
   pathway: Transport
   tag: transportDB
 - id: FolT
@@ -278,8 +275,7 @@
   name: fructose uptake (PTS system)
   genes: peg.543 and peg.544
   equation: C04261[c] + C00095[e] => C00615[c] + C01094[c]
-  ec: 
-  - 2.7.1.202
+  ec: 2.7.1.202
   EggNOG_annotation: peg.544:pts system
   KEGG_annotation: Athe_0149:K02769 PTS system, fructose-specific IIB component [EC:2.7.1.202]
     K02770 PTS system, fructose-specif
@@ -364,44 +360,104 @@
   tag: Dima's annotation
 
 # gene association comes from Dima's annotation
-- id: Xyloseabc
+- id: XyloseABC
   name: D-xylose transport via ABC system
   genes: ((peg.486 or peg.490) and peg.491 and peg.492) or (peg.2831 and peg.2832 and (peg.2833 or peg.2836))
   equation: C00001[c] + C00002[c] + C00181[e] => C00008[c] + C00009[c] + C00181[c]
   ec: TC=3.A.1.2
   pathway: Transport
   tag: manual curation
-- id: Gluabc
+- id: GluABC
   name:  D-glucose transport via ABC system
   genes: (peg.486 or peg.490) and peg.491 and peg.492
   equation: C00001[c] + C00002[c] + C00031[e] => C00008[c] + C00009[c] + C00031[c]
   ec: TC=3.A.1.2
   pathway: Transport
   tag: manual curation
-- id: Galtabc
+- id: GaltABC
   name: Galactose transport via ABC system
   genes: ((peg.486 or peg.490) and peg.491 and peg.492) or (peg.2831 and peg.2832 and (peg.2833 or peg.2836))
   equation: C00001[c] + C00002[c] + C00124[e] => C00008[c] + C00009[c] + C00124[c]
   ec: TC=3.A.1.2
   pathway: Transport
   tag: manual curation
-- id: Arababc
+- id: FruABC
+  name:  D-Fructose transport via ABC system
+  genes: (peg.486 or peg.490) and peg.491 and peg.492
+  equation: C00001[c] + C00002[c] + C00095[e] => C00008[c] + C00009[c] + C00095[c]
+  ec: TC=3.A.1.2
+  pathway: Transport
+  tag: manual curation
+- id: ArabABC
   name: Arabinose transport via ABC system
   genes: peg.2831 and peg.2832 and (peg.2833 or peg.2836)
   equation: C00001[c] + C00002[c] + C00216[e] => C00008[c] + C00009[c] + C00216[c]
   ec: TC=3.A.1.2
   pathway: Transport
   tag: manual curation
-- id: a-Xylosabc
-  name: alpha-xyloside transport via ABC system
-  genes: peg.2599 and peg.2600 and peg.2601
-  equation: C00001[c] + C00002[c] + axyls[e] => C00008[c] + C00009[c] + axyls[c]
-  pathway: Transport
-  tag: manual curation
-- id: b-Xylosabc
+# - id: a-XylosABC
+#   name: alpha-xyloside transport via ABC system
+#   genes: peg.2599 and peg.2600 and peg.2601
+#   equation: C00001[c] + C00002[c] + axyls[e] => C00008[c] + C00009[c] + axyls[c]
+#   pathway: Transport
+#   tag: manual curation
+- id: b-XysABC
   name: beta-xyloside transport via ABC system
-  genes: peg.1053 and peg.1054 and peg.1055
+  genes: (peg.1053 and peg.1054 and peg.1055) or ((fig|31899.10.peg.1307 or fig|31899.10.peg.1309) 
+    and fig|31899.10.peg.1310 and fig|31899.10.peg.1311)
   equation: C00001[c] + C00002[c] + C02337_kz[e] => C00008[c] + C00009[c] + C02337_kz[c]
   pathway: Transport
   tag: manual curation
+- id: celbABC
+  name: cellobiose transport via ABC system
+  genes: fig|31899.10.peg.1029 and fig|31899.10.peg.1030 and fig|31899.10.peg.1031 and fig|31899.10.peg.1032
+  genesNCBI: Athe_0595 and Athe_0596 and Athe_0597 and Athe_0598
+  equation: C00185[e] + C00002[c] + C00001[c] => C00185[c] + C00008[c] + C00009[c]
+  pathway: Transport
+  tag: manual curation
+- id: cosABC
+  name: cellulose oligosaccharides transport via ABC system
+  genes: fig|31899.10.peg.1029 and fig|31899.10.peg.1030 and fig|31899.10.peg.1031 and fig|31899.10.peg.1032
+  genesNCBI: Athe_0595 and Athe_0596 and Athe_0597 and Athe_0598
+  equation: C02013[e] + C00002[c] + C00001[c] => C02013[c] + C00008[c] + C00009[c]
+  pathway: Transport
+  tag: manual curation
+- id: mosABC
+  name: mannose oligosaccharides transport via ABC system
+  genes: fig|31899.10.peg.89 and fig|31899.10.peg.90 and fig|31899.10.peg.91
+  genesNCBI: Athe_2552 and Athe_2553 and Athe_2554
+  equation: C17207_kz[e] + C00002[c] + C00001[c] => C17207_kz[c] + C00008[c] + C00009[c]
+  pathway: Transport
+  tag: manual curation
+- id: xosABC
+  name: xylan oligosaccharides transport via ABC system
+  genes: fig|31899.10.peg.571 and fig|31899.10.peg.572 and fig|31899.10.peg.573
+  genesNCBI: Athe_0174 and Athe_0175 and Athe_0176
+  equation: XOS[e] + C00002[c] + C00001[c] => XOS[c] + C00008[c] + C00009[c]
+  pathway: Transport
+  tag: manual curation
+  tag: manual curation
+- id: xgosABC-1
+  name: XXXG Xyloglucan oligosaccharides transport via ABC system
+  genes: fig|31899.10.peg.2598 and fig|31899.10.peg.2599 and fig|31899.10.peg.2600
+  genesNCBI: Athe_2052 and Athe_2053 and Athe_2054
+  equation: XGOS-xxxg[e] + C00002[c] + C00001[c] => XGOS-xxxg[c] + C00008[c] + C00009[c]
+  pathway: Transport
+  tag: manual curation
+- id: xgosABC-2
+  name: XLLG Xyloglucan oligosaccharides transport via ABC system
+  genes: fig|31899.10.peg.2598 and fig|31899.10.peg.2599 and fig|31899.10.peg.2600
+  genesNCBI: Athe_2052 and Athe_2053 and Athe_2054
+  equation: XGOS-xllg[e] + C00002[c] + C00001[c] => XGOS-xllg[c] + C00008[c] + C00009[c]
+  pathway: Transport
+  tag: manual curation
+- id: axosABC
+  name: Arabinoxylan oligosaccharides transport via ABC system
+  genes: (fig|31899.10.peg.576 and fig|31899.10.peg.577 and fig|31899.10.peg.578) or 
+    (fig|31899.10.peg.2954 and fig|31899.10.peg.2955 and fig|31899.10.peg.2956)
+  genesNCBI: (Athe_0179 and Athe_0180 and Athe_0181) or (Athe_2374 and Athe_2375 and Athe_2376)
+  equation: AXOS[e] + C00002[c] + C00001[c] => AXOS[c] + C00008[c] + C00009[c]
+  pathway: Transport
+  tag: manual curation
+
 

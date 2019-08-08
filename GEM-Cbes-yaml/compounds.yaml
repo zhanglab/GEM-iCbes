@@ -3331,8 +3331,8 @@
   source: KEGG
   tag: kegg-generic-database
 - id: C17207_kz
-  name: 1,4-beta-D-Mannooligosaccharide(n=3)
-  formula: C18H32O16
+  name: 1,4-beta-D-Mannooligosaccharide(n=4)
+  formula: C24H42O21
   charge: 0
   mol_weight: 504.438
   names:
@@ -3340,7 +3340,7 @@
   - '[(1->4)-beta-D-Mannosyl]n'
   source: KEGG
   tag: kegg-generic-database
-  note: choose n=3, so that H2O(C6H10O5)n => H2O(C6H10O5)3 = C18H32O16
+  note: choose n=4, so that H2O(C6H10O5)n => H2O(C6H10O5)4 = C24H42O21
 - id: C17023
   name: Sulfur donor
   names:
@@ -4497,15 +4497,24 @@
   - Dextrin
   source: KEGG
   tag: kegg-generic-database
-- id: C01898_kz
-  name: Cellodextrin(n=4)
-  formula: H2O(C6H10O5)4
-  charge: 0
+# - id: C01898_kz
+#   name: Cellodextrin(n=4)
+#   formula: H2O(C6H10O5)4
+#   charge: 0
+#   names:
+#   - Cellodextrin
+#   - Cellooligosaccharide
+#   source: KEGG
+#   tag: kegg-generic-database
+- id: C02013
+  name: Cellotetraose
   names:
-  - Cellodextrin
-  - Cellooligosaccharide
+  - Cellotetraose
+  formula: C24H42O21
+  mol_weight: 666.5777
+  charge: 0
   source: KEGG
-  tag: kegg-generic-database
+  tag: kegg-filterred-database
 - id: C02474_kz
   name: Arabinan(n=2)
   formula: (C15H24O12)2
@@ -4539,8 +4548,8 @@
   source: KEGG
   tag: kegg-generic-database
 - id: C02492_kz
-  name: 1,4-beta-D-Mannan(n=4)
-  formula: (C6H10O5)4
+  name: 1,4-beta-D-Mannan(n=8)
+  formula: (C6H10O5)8
   charge: 0
   names:
   - 1,4-beta-D-Mannan
@@ -4738,16 +4747,50 @@
   names:
   - e-
   - Electron
-- id: C02352_kz
-  name: 1,4-beta-D-Xylan(n=8)
+# - id: C02352_kz
+#   name: 1,4-beta-D-Xylan(n=8)
+#   names:
+#   - 1,4-beta-D-Xylan
+#   - (1,4-beta-D-Xylan)n
+#   - (1,4-beta-D-Xylan)n+1
+#   formula: (C5H8O4)8
+#   charge: 0
+#   source: KEGG
+#   tag: AddFromRxn
+- id: C00707_kz
+  name: Xylan
   names:
-  - 1,4-beta-D-Xylan
-  - (1,4-beta-D-Xylan)n
-  - (1,4-beta-D-Xylan)n+1
-  formula: (C5H8O4)8
+  - Xylan
+  formula: H2O(C5H8O4)8(C10H16O8)4
   charge: 0
+  mol_weight: 2131.84
   source: KEGG
+  tag: kegg-generic-database
+- id: XOS
+  name: Xylan-oligosaccharides
+  formula: H2O(C5H8O4)4
+  charge: 0
+  mol_weight: 546.47
+  source: manually-add
   tag: AddFromRxn
+- id: XGOS-xxxg
+  name: XXXG-xyloglucan-oligosaccharides
+  formula: C39H66O33
+  charge: 0
+  mol_weight: 1062.92
+  source: manually-add
+  tag: AddFromRxn
+  note: ref-http://vm-trypanocyc.toulouse.inra.fr/META/NEW-IMAGE?type=COMPOUND&object=CPD-13375&orgids=LEISH
+- id: XGOS-xllg
+  name: XLLG-xyloglucan-oligosaccharides
+  formula: C51H86O43
+  charge: 0
+  mol_weight: 1387.20
+  source: manually-add
+  tag: AddFromRxn
+  note: ref-http://vm-trypanocyc.toulouse.inra.fr/META/NEW-IMAGE?type=COMPOUND&object=CPD-13378&orgids=LEISH
+
+
 # - id: O-xte
 #   name: Xylotetraose
 #   formula: C20H34O17
@@ -4761,12 +4804,12 @@
   formula: (C5H9O5)4
   charge: 0
   tag: AddFromRxn
-- id: axyls
-  name: alpha-D-Xyloside
-  formula: (C5H9O5)4
-  charge: 0
-  source: manually-add
-  tag: AddFromRxn
+# - id: axyls
+#   name: alpha-D-Xyloside
+#   formula: (C5H9O5)4
+#   charge: 0
+#   source: manually-add
+#   tag: AddFromRxn
 - id: C02205
   name: alpha-D-Xylose
   names:
@@ -4775,3 +4818,102 @@
   charge: 0
   mol_weight: 150.1299
   tag: AddFromRxn
+- id: C00221
+  name: beta-D-Glucose
+  names:
+  - beta-D-Glucose
+  formula: C6H12O6
+  mol_weight: 180.1559
+  source: KEGG
+  charge: 0
+  tag: kegg-filterred-database
+- id: C00668
+  name: alpha-D-Glucose 6-phosphate
+  names:
+  - alpha-D-Glucose 6-phosphate
+  formula: C6H13O9P
+  mol_weight: 260.1358
+  source: KEGG
+  charge: 0
+  tag: kegg-filterred-database
+- id: AXOS
+  name: Arabinoxylan-oligosaccharides
+  formula: H2O(C10H16O8)4
+  mol_weight: 1074.93
+  charge: 0
+  source: manually-add
+  tag: AddFromRxn
+- id: C02964
+  name: 4-O-beta-D-Glucopyranosyl-D-mannose
+  names:
+  - 4-O-beta-D-Glucopyranosyl-D-mannose
+  formula: C12H22O11
+  mol_weight: 342.2965
+  source: KEGG
+  charge: 0
+  tag: kegg-filterred-database
+- id: C03633
+  name: Peptidylproline (omega=0)
+  names:
+  - Peptidylproline (omega=0)
+  formula: C6H8N2O2R2
+  charge: 0
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C03798
+  name: Peptidylproline (omega=180)
+  names:
+  - Peptidylproline (omega=180)
+  formula: C6H8N2O2R2
+  charge: 0
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C06219
+  name: Cellotriose
+  names:
+  - Cellotriose
+  formula: C18H32O16
+  mol_weight: 504.4371
+  charge: 0
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00508
+  name: L-Ribulose
+  names:
+  - L-Ribulose
+  - L-erythro-Pentulose
+  - L-Arabinoketose
+  - L-Arabinulose
+  - L-Riboketose
+  formula: C5H10O5
+  mol_weight: 150.1299
+  charge: 0
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C01101
+  name: L-Ribulose 5-phosphate
+  names:
+  - L-Ribulose 5-phosphate
+  formula: C5H11O8P
+  mol_weight: 230.1098
+  charge: 0
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C00309
+  name: D-Ribulose
+  names:
+  - D-Ribulose
+  - D-erythro-2-Pentulose
+  - D-Arabinoketose
+  - D-Arabinulose
+  - D-Riboketose
+  formula: C5H10O5
+  mol_weight: 150.1299
+  comment: alpha-D-Ribulose [CPD:C08354]
+  charge: 0
+  source: KEGG
+  tag: kegg-filterred-database
+
+
+
+
