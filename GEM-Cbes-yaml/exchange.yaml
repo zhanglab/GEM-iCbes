@@ -176,6 +176,40 @@ compounds:
 #   name: XXXG-xyloglucan-oligosaccharides
 #   lower: -25.0
 #   upper: 1000.0
+# - id: XGOS-xllg
+#   name: XLLG-xyloglucan-oligosaccharides
+#   lower: -25.0
+#   upper: 1000.0
+# - id: C00124
+#   name: D-Galactose
+#   lower: -25.0
+#   upper: 1000.0
+# - id: C00208
+#   name: Maltose
+#   lower: -25.0
+#   upper: 1000.0
+# - id: C01935_kz
+#   name: Maltodextrin(n=4)
+#   lower: -25.0
+#   upper: 1000.0
+# - id: C00369_kz
+#   name: Starch(n=4)
+#   lower: -25.0
+#   upper: 1000.0
+# - id: C00259
+#   name: L-Arabinose
+#   lower: -25.0
+#   upper: 1000.0
+# - id: C00392
+#   name: Mannitol
+#   lower: -25.0
+#   upper: 1000.0
+# - id: C00507
+#   name: L-Rhamnose
+#   lower: -25.0
+#   upper: 1000.0
+
+
 
 
 

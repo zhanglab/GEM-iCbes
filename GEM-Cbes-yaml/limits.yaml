@@ -1,6 +1,7 @@
 # constrain rxn flux
-- reaction: R00703
-  fixed: 20
+- reaction: sink_test
+  lower: -25
+  upper: 1000
 
 
 

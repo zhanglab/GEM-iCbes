@@ -3880,18 +3880,6 @@
   - Galactosylglycerol
   source: KEGG
   tag: kegg-filterred-database
-- id: C00507
-  name: L-Rhamnose
-  formula: C6H12O5
-  charge: 0
-  mol_weight: 164.1565
-  names:
-  - L-Rhamnose
-  - 6-Deoxy-L-mannose
-  - L-Mannomethylose
-  - L-Rhamnopyranose
-  source: KEGG
-  tag: kegg-filterred-database
 - id: C00089
   name: Sucrose
   formula: C12H22O11
@@ -4478,17 +4466,23 @@
 - id: C02745
   name: Reduced flavodoxin
   charge: 0
+  formula: C17H21N4O9P
+  mol_weight: 456.35
   names:
   - Reduced flavodoxin
   source: KEGG
   tag: kegg-generic-database
+  note: formula comes from metacyc
 - id: C02869
   name: Oxidized flavodoxin
+  formula: C17H19N4O9P
+  mol_weight: 454.33
   charge: 0
   names:
   - Oxidized flavodoxin
   source: KEGG
   tag: kegg-generic-database
+  note: formula comes from metacyc
 - id: C00721_kz
   name: Dextrin(n=2)
   formula: (C12H20O10)2
@@ -4734,13 +4728,21 @@
   charge: 0
   tag: kegg-filterred-database
 - id: C00480_kz
-  name: Pullulan(n=2)
+  name: Pullulan(n=1)
   names:
   - Pullulan
-  formula: (C36H60O30)2
+  formula: C36H60O30
   charge: 0
   source: KEGG
   tag: kegg-generic-database
+# - id: C00480_kz2
+#   name: Pullulan(n=1)
+#   names:
+#   - Pullulan
+#   formula: C36H60O30
+#   charge: 0
+#   source: KEGG
+#   tag: kegg-generic-database
 - id: C05359
   name: e-
   charge: -1
@@ -4913,7 +4915,58 @@
   charge: 0
   source: KEGG
   tag: kegg-filterred-database
-
+- id: C00392
+  name: Mannitol
+  charge: 0
+  names:
+  - Mannitol
+  - D-Mannitol
+  formula: C6H14O6
+  mol_weight: 182.1718
+  source: KEGG
+  tag: kegg-filterred-database
+- id: Rhaos
+  name: rhamnose-oligosaccharides
+  charge: 0
+  formula: H2O(C6H10O4)4
+  mol_weight: 584.56
+  source: manually-add
+  tag: AddFromRxn
+- id: C00507
+  name: L-Rhamnose
+  names:
+  - L-Rhamnose
+  - 6-Deoxy-L-mannose
+  - L-Mannomethylose
+  - L-Rhamnopyranose
+  formula: C6H12O5
+  charge: 0
+  mol_weight: 164.1565
+  comment: 'alpha-L-Rhamnose [CPD:C02476]
+    beta-L-Rhamnose [CPD:C02338]'
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C21336
+  name: beta-1,2-Mannobiose
+  charge: 0
+  names:
+  - beta-1,2-Mannobiose
+  - beta-D-Mannopyranosyl-(1->2)-D-mannopyranose
+  formula: C12H22O11
+  mol_weight: 342.2965
+  source: KEGG
+  tag: kegg-filterred-database
+- id: C02917
+  name: (S)-Propane-1,2-diol
+  names:
+  - (S)-Propane-1,2-diol
+  - (S)-1,2-Propanediol
+  - (S)-Propylene glycol
+  formula: C3H8O2
+  mol_weight: 76.0944
+  charge: 0
+  source: KEGG
+  tag: kegg-filterred-database
 
 
 

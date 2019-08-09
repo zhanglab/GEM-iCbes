@@ -90,15 +90,36 @@
 - id: NplT
   name: neopullulanase
   genes: fig|31899.10.peg.126
-  equation: C00480_kz[c] + (4) C00001[c] <=> (4) C00713[c]
+  equation: C00480_kz[c] + (2) C00001[c] => (2) C00713[c]
   ec:
   - 3.2.1.135
   curated: true
   genesNCBI: Athe_2579
   note: function annotation is from manual curation, assigned in maltose pathway.
     But no corresponding kegg pathway assigned to this EC
-  translated_eqaution: pullulan + (4) H2O => (4) panose
-  translated_equation: Pullulan(n=2)[c] + (4) H2O[c] <=> (4) Panose[c]
+  translated_eqaution: pullulan + (4) H2O => (2) panose
+  translated_equation: Pullulan(n=2)[c] + (4) H2O[c] => (2) Panose[c]
+- id: R02112_kz
+  name: alpha-D-Glucan maltohydrolase
+  genes: fig|31899.10.peg.1045 and fig|31899.10.peg.1046
+  equation: C00369_kz[e] + (2) C00001[e] <=> (2) C01935_kz[e]
+  ec:
+  - 3.2.1.41
+  - 3.2.1.1
+  comment: ec 3.2.1.1 and 3.2.1.133 form alpha-maltose [CPD:C00897], ec 3.2.1.2 forms
+    beta-maltose [CPD:C01971]
+  curated: true
+  genesNCBI: Athe_0609 and Athe_0610
+  note: EC 3.2.1.1 catalyzes endohydrolysis of (1->4)-alpha-D-glucosidic linkages
+    in polysaccharides containing three or more (1->4)-alpha-linked D-glucose units.
+    EC 3.2.1.41 acts on alpha-1,6-glycosidic bonds. Starch contains both 1,4- and
+    1,6- bonds.
+  pathways:
+  - Starch and sucrose metabolism
+  - Metabolic pathways
+  source: KEGG
+  tag: manually-add
+  translated_equation: Starch[e] + (2) H2O[c] <=> Maltodextrin(n=4)
 - id: R12241
   name: acyl phosphoate:sn-glycerol 3-phosphate acyltransferase
   genes: fig|31899.10.peg.1208 or fig|31899.10.peg.2740
@@ -4164,6 +4185,40 @@
   - Fructose and mannose metabolism
   - Amino sugar and nucleotide sugar metabolism
   - Metabolic pathways
+- id: R00868
+  name: D-Mannitol:NAD+ 2-oxidoreductase
+  genes: fig|31899.10.peg.968
+  equation: C00392[c] + C00003[c] <=> C00095[c] + C00004[c] + C00080[c]
+  ec:
+  - 1.1.1.67
+  curated: true
+  genesNCBI: Athe_0537
+  names:
+  - D-Mannitol:NAD+ 2-oxidoreductase
+  pathway: Fructose and mannose metabolism
+  pathways:
+  - Fructose and mannose metabolism
+  source: KEGG
+  tag: manually-add
+  translated_equation: Mannitol[c] + NAD+[c] <=> D-Fructose[c] + NADH[c] + H+[c]
+- id: R02263
+  name: L-Rhamnulose-1-phosphate lactaldehyde-lyase
+  genes: fig|31899.10.peg.1150
+  equation: C01131[c] <=> C00111[c] + C00424[c]
+  ec:
+  - 4.1.2.19
+  curated: true
+  genesNCBI: Athe_0696
+  names:
+  - L-Rhamnulose-1-phosphate lactaldehyde-lyase
+  pathway: Fructose and mannose metabolism
+  pathways:
+  - Fructose and mannose metabolism
+  - Microbial metabolism in diverse environments
+  source: KEGG
+  tag: manually-add
+  translated_equation: '|L-Rhamnulose 1-phosphate[c]| <=> |Glycerone phosphate[c]|
+    + (S)-Lactaldehyde[c]'
 - id: R00801
   name: sucrose glucohydrolase
   genes: fig|31899.10.peg.561
@@ -4473,6 +4528,7 @@
   genes_string_PATRIC_id: peg.1409
   names:
   - ATP:alpha-D-galactose 1-phosphotransferase
+  note: direction is based on Cce model
   other_pathways:
   - Galactose metabolism
   - Amino sugar and nucleotide sugar metabolism
@@ -6773,37 +6829,6 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: Mannobiose[c] <=> 4-O-beta-D-Mannopyranosyl-D-glucopyranose[c]
-- id: R00756
-  name: ATP:D-fructose-6-phosphate 1-phosphotransferase
-  genes: fig|31899.10.peg.1752
-  equation: C00002[c] + C00085[c] => C00008[c] + C00354[c]
-  ec:
-  - 2.7.1.11
-  EggNOG_annotation: peg.2336:ec 2.7.1.11;   peg.1752:phosphohexokinase
-  KEGG_annotation: Athe_1265:K00850 6-phosphofructokinase 1 [EC:2.7.1.11] | (GenBank)
-    6-phosphofructokinase;   Athe_1824:K21071 ATP-dependent phosphofructokinase /
-    diphosphate-dependent phosphofructokinase [EC:2.7.1.11 2.
-  PATRIC_annotation: Pyrophosphate-dependent fructose 6-phosphate-1-kinase (EC 2.7.1.90)
-    or 6-phosphofructokinase (EC 2.7.1.11)
-  curated: true
-  genesNCBI: Athe_1265
-  genes_Cce: peg.2336 or peg.1752
-  genes_Cth: None
-  genes_Tsac: peg.1752
-  genes_kegg: peg.1752,peg.2336
-  genes_string_NCBI_id: Athe_1824,Athe_1265
-  genes_string_PATRIC_id: peg.2336,peg.1752
-  names:
-  - ATP:D-fructose-6-phosphate 1-phosphotransferase
-  other_pathways:
-  - Methane metabolism
-  - Microbial metabolism in diverse environments
-  - Carbon metabolism
-  pathway: Methane metabolism
-  source: KEGG
-  tag: KEGG_Cbes,Cce,Tsac
-  translated_equation: ATP[c] + |D-Fructose 6-phosphate[c]| => ADP[c] + |D-Fructose
-    1,6-bisphosphate[c]|
 - id: R01068
   name: D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)
   genes: fig|31899.10.peg.1061 or fig|31899.10.peg.2523 or fig|31899.10.peg.2972
@@ -7483,6 +7508,31 @@
   tag: KEGG_Cbes
   translated_equation: Amylose(n=5)[c] + Phosphate[c] => Amylose(n=4)[c] + |D-Glucose
     1-phosphate (G1P)[c]|
+- id: R11398
+  name: beta-D-mannopyranosyl-(1->2)-D-mannopyranose:phosphate alpha-D-mannosyltransferase
+  genes: fig|31899.10.peg.967
+  equation: C21336[c] + C00009[c] <=> C00159[c] + C00636[c]
+  ec:
+  - 2.4.1.339
+  EggNOG_annotation: peg.967:Glycosidase related protein
+  KEGG_annotation: Athe_0536:K20885 beta-1,2-mannobiose phosphorylase / 1,2-beta-oligomannan
+    phosphorylase [EC:2.4.1.339 2.4.1.34
+  PATRIC_annotation: 'FIG01423360: glycoside hydrolase'
+  curated: true
+  genesNCBI: Athe_0536
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.967
+  genes_string_NCBI_id: Athe_0536
+  genes_string_PATRIC_id: peg.967
+  names:
+  - beta-D-mannopyranosyl-(1->2)-D-mannopyranose:phosphate alpha-D-mannosyltransferase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: beta-1,2-Mannobiose[c] + Phosphate[c] <=> D-Mannose[c] + |D-Mannose
+    1-phosphate[c]|
 - id: R10807
   name: UDP-alpha-D-glucose:diglucosyldiacylglycerol 6-glucosyltransferase
   genes: fig|31899.10.peg.2306
@@ -12149,6 +12199,22 @@
   translated_equation: '|Epoxyquenosine34 tRNA[c]| + |Nicotinamide adenine dinucleotide
     phosphate - reduced (NADPH)[c]| + |Proton (H+)[c]| => |Quenosine34 tRNA[c]| +
     |Nicotinamide adenine dinucleotide phosphate (NADP)[c]| + H2O[c]'
+- id: R02258
+  name: (S)-Propane-1,2-diol:NAD+ oxidoreductase
+  genes: fig|31899.10.peg.1156 and fig|31899.10.peg.1157 and fig|31899.10.peg.1158
+  equation: C02917[c] + C00003[c] <=> C00424[c] + C00004[c] + C00080[c]
+  ec:
+  - 1.1.1.77
+  curated: true
+  genesNCBI: Athe_0702 and Athe_0703 and Athe_0704
+  names:
+  - (S)-Propane-1,2-diol:NAD+ oxidoreductase
+  note: this function is annotated by Dima, could be found in sugar catabolic network
+  pathway: Rhamulose and fuculose utilization
+  source: KEGG
+  tag: manually-add
+  translated_equation: Propane-1,2-diol[c] + NADP+[c] <=> (S)-Lactaldehyde[c] + NADPH[c]
+    + H+[c]
 - id: R00425
   name: GTP 7,8-8,9-dihydrolase (diphosphate-forming)
   genes: fig|31899.10.peg.994
@@ -12441,6 +12507,51 @@
   source: KEGG
   tag: Cce,Cth,Tsac
   translated_equation: '|D-Glucose 1-phosphate[c]| <=> |D-Glucose 6-phosphate[c]|'
+- id: R00771_kz
+  name: D-glucose-6-phosphate aldose-ketose-isomerase
+  genes: fig|31899.10.peg.1059
+  equation: C00092[c] <=> C01172[c]
+  ec:
+  - 5.3.1.9
+  EggNOG_annotation: peg.1059:Bifunctional phosphoglucose phosphomannose isomerase
+  KEGG_annotation: Athe_0619:K15916 glucose/mannose-6-phosphate isomerase [EC:5.3.1.9
+    5.3.1.8] | (GenBank) bifunctional phosphogl
+  PATRIC_annotation: Glucose-6-phosphate isomerase, archaeal II (EC 5.3.1.9) / Mannose-6-phosphate
+    isomerase, archaeal (EC 5.3.1.8)
+  curated: true
+  genesNCBI: Athe_0619
+  genes_Cce: '-'
+  genes_Cth: '-'
+  genes_NCBI_id: Athe_0619
+  genes_Tsac: '-'
+  genes_kegg: peg.1059
+  names:
+  - D-glucose-6-phosphate aldose-ketose-isomerase
+  other_pathways:
+  - Starch and sucrose metabolism
+  pathway: Starch and sucrose metabolism
+  source: KEGG_Cbes
+  translated_equation: '|D-Glucose 6-phosphate[c]| <=> |beta-D-Fructose 6-phosphate[c]|'
+- id: R01555
+  name: Maltose:phosphate 1-beta-D-glucosyltransferase
+  genes: fig|31899.10.peg.123 or fig|31899.10.peg.986
+  equation: C00208[c] + C00009[c] <=> C00031[c] + C00663[c]
+  ec:
+  - 2.4.1.1
+  curated: true
+  genesNCBI: Athe_2576 or Athe_0554
+  names:
+  - Maltose:phosphate 1-beta-D-glucosyltransferase
+  note: in kegg, this rxn is associated with EC 2.4.1.8, but in Dima's sugar catabolic
+    network, EC 2.4.1.1 catalyzes this rxn
+  pathway: Starch and sucrose metabolism
+  pathways:
+  - Starch and sucrose metabolism
+  - Metabolic pathways
+  source: KEGG
+  tag: manually-add
+  translated_equation: Maltose[c] + Orthophosphate[c] <=> D-Glucose[cc] + |beta-D-Glucose
+    1-phosphate[c]|
 - id: R00760
   name: ATP:D-fructose 6-phosphotransferase
   genes: fig|31899.10.peg.2673
@@ -12469,73 +12580,6 @@
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: ATP[c] + D-Fructose[c] => ADP[c] + |D-Fructose 6-phosphate[c]|
-- id: R02111_kz
-  name: 1,4-alpha-D-Glucan:orthophosphate alpha-D-glucosyltransferase
-  genes: fig|31899.10.peg.123 or fig|31899.10.peg.986
-  equation: C00369_kz[c] + (4) C00009[c] => C00718_kz1[c] + (4) C00103[c]
-  ec:
-  - 2.4.1.1
-  EggNOG_annotation: peg.1045:pullulanase, type i;   peg.986:Phosphorylase is an
-    important allosteric enzyme in carbohydrate metabolism. Enzymes from different
-    sources differ in their regulatory mechanisms and in their natural substrates.
-    However, all known phosphorylases share catalytic and structural properties (By
-    similarity);   peg.123:Phosphorylase is an important allosteric enzyme in carbohydrate
-    metabolism. Enzymes from different sources differ in their regulatory mechanisms
-    and in their natural substrates. However, all known phosphorylases share catalytic
-    and structural properties (By similarity)
-  KEGG_annotation: Athe_2576:K00688 glycogen phosphorylase [EC:2.4.1.1] | (GenBank)
-    alpha-glucan phosphorylase;   Athe_0554:K00688 glycogen phosphorylase [EC:2.4.1.1]
-    | (GenBank) glycogen/starch/alpha-glucan phosphorylase;   Athe_0609:K01200 pullulanase
-    [EC:3.2.1.41] | (GenBank) pullulanase, type I
-  PATRIC_annotation: Limit dextrin alpha-1,6-maltotetraose-hydrolase (EC 3.2.1.196)
-    / Pullulanase (EC 3.2.1.41) or Glycogen phosphorylase (EC 2.4.1.1) or Glycogen
-    phosphorylase (EC 2.4.1.1)
-  comment: Any one of debranching enzymes ([KO:K01196 K02438 K01200]) is required.
-  curated: true
-  genesNCBI: Athe_2576 or Athe_0554
-  genes_Cce: peg.123
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.123,peg.986,peg.1045
-  genes_string_NCBI_id: Athe_0609,Athe_0554,Athe_2576
-  genes_string_PATRIC_id: peg.1045,peg.986,peg.123
-  names:
-  - 1,4-alpha-D-Glucan:orthophosphate alpha-D-glucosyltransferase
-  other_pathways:
-  - Starch and sucrose metabolism
-  - Metabolic pathways
-  - Biosynthesis of secondary metabolites
-  pathway: Starch and sucrose metabolism
-  source: KEGG
-  tag: KEGG_Cbes,Cce
-  translated_equation: Starch(n=4)[c] + (4) Phosphate[c] => Amylose(n=4)[c] + (4)
-    |D-Glucose 1-phosphate (G1P)[c]|
-- id: R01718
-  name: Isomaltose 6-alpha-D-glucanohydrolase
-  genes: fig|31899.10.peg.561
-  equation: C00252[c] + C00001[c] => C00267[c] + C00031[c]
-  ec:
-  - 3.2.1.10
-  EggNOG_annotation: peg.561:alpha amylase, catalytic
-  KEGG_annotation: Athe_0165:K01182 oligo-1,6-glucosidase [EC:3.2.1.10] | (GenBank)
-    alpha amylase catalytic region
-  PATRIC_annotation: Oligo-1,6-glucosidase (EC 3.2.1.10)
-  curated: true
-  genesNCBI: Athe_0165
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.561
-  genes_string_NCBI_id: Athe_0165
-  genes_string_PATRIC_id: peg.561
-  names:
-  - Isomaltose 6-alpha-D-glucanohydrolase
-  other_pathways:
-  - Starch and sucrose metabolism
-  pathway: Starch and sucrose metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: Isomaltose[c] + H2O[c] => alpha-D-Glucose[c] + D-Glucose[c]
 - id: R03527
   name: D-Glucoside glucohydrolase
   genes: fig|31899.10.peg.878
@@ -12595,33 +12639,33 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: Cellotetraose[c] + (4) H2O[c] => (4) beta-D-Glucose[c]
-- id: R01791_kz
-  name: Dextrin 6-alpha-D-glucanohydrolase
-  genes: fig|31899.10.peg.561
-  equation: C00721_kz[c] + (4) C00001[c] => (4) C00031[c]
+- id: R01790_kz
+  name: 1,4-alpha-D-Glucan glucohydrolase
+  genes: fig|31899.10.peg.627
+  equation: C01935_kz[c] + (3) C00001[c] => (4) C00221[c]
   ec:
-  - 3.2.1.10
-  EggNOG_annotation: peg.561:alpha amylase, catalytic
-  KEGG_annotation: Athe_0165:K01182 oligo-1,6-glucosidase [EC:3.2.1.10] | (GenBank)
-    alpha amylase catalytic region
-  PATRIC_annotation: Oligo-1,6-glucosidase (EC 3.2.1.10)
+  - 3.2.1.3
+  EggNOG_annotation: peg.627:glycoside hydrolase 15-related
+  KEGG_annotation: Athe_0228:no KO assigned | (GenBank) glycoside hydrolase 15-related
+  PATRIC_annotation: Glucoamylase (EC 3.2.1.3)
   curated: true
-  genesNCBI: Athe_0165
-  genes_Cce: None
+  genesNCBI: Athe_0228
+  genes_Cce: peg.627
   genes_Cth: None
   genes_Tsac: None
-  genes_kegg: peg.561
-  genes_string_NCBI_id: Athe_0165
-  genes_string_PATRIC_id: peg.561
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_0228
+  genes_string_PATRIC_id: peg.627
   names:
-  - Dextrin 6-alpha-D-glucanohydrolase
+  - 1,4-alpha-D-Glucan glucohydrolase
+  note: based on KEGG, product of this enzyme is beta-glucose.
   other_pathways:
   - Starch and sucrose metabolism
   - Metabolic pathways
   pathway: Starch and sucrose metabolism
   source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: Dextrin(n=2)[c] + (4) H2O[c] => (4) D-Glucose[c]
+  tag: Cce
+  translated_equation: Maltodextrin(n=4)[c] + (3) H2O[c] => (4) beta-D-Glucose[c]
 - id: R00948
   name: ATP:alpha-D-glucose-1-phosphate adenylyltransferase
   genes: fig|31899.10.peg.988 or fig|31899.10.peg.989
@@ -12850,6 +12894,38 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: Cellulose(n=8)[e] + (2) H2O[e] => (2) Cellotetraose[e]
+- id: R11262_kz
+  name: maltodextrin maltohydrolase
+  genes: fig|31899.10.peg.141 or fig|31899.10.peg.538
+  equation: C01935_kz[c] + C00001[c] => (2) C00897[c]
+  ec:
+  - 3.2.1.1
+  EggNOG_annotation: peg.126:Alpha amylase catalytic
+  KEGG_annotation: Athe_2579:K01208 cyclomaltodextrinase / maltogenic alpha-amylase
+    / neopullulanase [EC:3.2.1.54 3.2.1.133 3.2.1
+  PATRIC_annotation: Neopullulanase (EC 3.2.1.135)
+  comment: ec 3.2.1.1 and 3.2.1.133 form alpha-maltose [CPD:C00897] ec 3.2.1.2 forms
+    beta-maltose [CPD:C01971]
+  curated: true
+  genesNCBI: Athe_2593 or Athe_0143
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.126
+  genes_string_NCBI_id: Athe_2579
+  genes_string_PATRIC_id: peg.126
+  names:
+  - maltodextrin maltohydrolase
+  note: based on manual curation, peg.126 is annotated as EC 3.2.1.135, peg.538 (Athe_0143)
+    and peg.141 (Athe_2593) is annotated as EC 3.2.1.1; Based on KEGG, EC 3.2.1.1
+    form alpha-maltose
+  other_pathways:
+  - Starch and sucrose metabolism
+  - Metabolic pathways
+  pathway: Starch and sucrose metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: Maltodextrin[c] + H2O[c] => (2) alpha-Maltose[c]
 - id: R06513
   name: dTDPglucose 4,6-hydro-lyase
   genes: fig|31899.10.peg.436

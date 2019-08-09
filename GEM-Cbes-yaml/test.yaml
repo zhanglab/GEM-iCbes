@@ -212,10 +212,11 @@
 # - id: sink_aicar
 #   equation: C04677[c] =>
 # - id: sink_test
-#   equation: C00044[c] =>
+#   equation: C00392[c] <=>
 
-# - id: sink_thiamine
-#   equation: C00378[c] =>
+- id: sink_L-1,2-propanediol
+  equation: C02917[c] =>
+
 
 
 

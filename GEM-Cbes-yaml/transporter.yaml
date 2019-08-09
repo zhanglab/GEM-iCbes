@@ -391,7 +391,8 @@
 - id: ArabABC
   name: Arabinose transport via ABC system
   genes: peg.2831 and peg.2832 and (peg.2833 or peg.2836)
-  equation: C00001[c] + C00002[c] + C00216[e] => C00008[c] + C00009[c] + C00216[c]
+  # equation: C00001[c] + C00002[c] + C00216[e] => C00008[c] + C00009[c] + C00216[c]
+  equation: C00001[c] + C00002[c] + C00259[e] => C00008[c] + C00009[c] + C00259[c]
   ec: TC=3.A.1.2
   pathway: Transport
   tag: manual curation
@@ -430,7 +431,7 @@
   pathway: Transport
   tag: manual curation
 - id: xosABC
-  name: xylan oligosaccharides transport via ABC system
+  name: Xylan oligosaccharides transport via ABC system
   genes: fig|31899.10.peg.571 and fig|31899.10.peg.572 and fig|31899.10.peg.573
   genesNCBI: Athe_0174 and Athe_0175 and Athe_0176
   equation: XOS[e] + C00002[c] + C00001[c] => XOS[c] + C00008[c] + C00009[c]
@@ -457,6 +458,30 @@
     (fig|31899.10.peg.2954 and fig|31899.10.peg.2955 and fig|31899.10.peg.2956)
   genesNCBI: (Athe_0179 and Athe_0180 and Athe_0181) or (Athe_2374 and Athe_2375 and Athe_2376)
   equation: AXOS[e] + C00002[c] + C00001[c] => AXOS[c] + C00008[c] + C00009[c]
+  pathway: Transport
+  tag: manual curation
+- id: malABC
+  name: Maltose transport via ABC system
+  genes: (fig|31899.10.peg.121 and fig|31899.10.peg.124 and fig|31899.10.peg.125) or 
+    (fig|31899.10.peg.2881 and fig|31899.10.peg.2882 and fig|31899.10.peg.2883)
+  genesNCBI: (Athe_2574 and Athe_2577 and Athe_2578) and (Athe_2308 and Athe_2309 and Athe_2310)
+  equation: C00208[e] + C00002[c] + C00001[c] => C00208[c] + C00008[c] + C00009[c]
+  pathway: Transport
+  tag: manual curation
+- id: mdosABC
+  name: Maltodextrin transport via ABC system
+  genes: (fig|31899.10.peg.121 and fig|31899.10.peg.124 and fig|31899.10.peg.125) or 
+    (fig|31899.10.peg.2881 and fig|31899.10.peg.2882 and fig|31899.10.peg.2883)
+  genesNCBI: (Athe_2574 and Athe_2577 and Athe_2578) and (Athe_2308 and Athe_2309 and Athe_2310)
+  equation: C01935_kz[e] + C00002[c] + C00001[c] => C01935_kz[c] + C00008[c] + C00009[c]
+  pathway: Transport
+  tag: manual curation
+- id: rhaosABC
+  name: Rhamnose oligosaccharide transport via ABC system
+  genes: fig|31899.10.peg.2628 and fig|31899.10.peg.2629 and fig|31899.10.peg.2630
+  genesNCBI: Athe_2079 and Athe_2080 and Athe_2081
+  equation: C00507[e] + C00002[c] + C00001[c] => C00507[c] + C00008[c] + C00009[c]
+  # equation: Rhaos[e] + C00002[c] + C00001[c] => Rhaos[c] + C00008[c] + C00009[c]
   pathway: Transport
   tag: manual curation
 
