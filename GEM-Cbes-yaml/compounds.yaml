@@ -3330,6 +3330,7 @@
   - tRNA queuine
   source: KEGG
   tag: kegg-generic-database
+  note: formula is based on formula of queuine (https://www.genome.jp/dbget-bin/www_bget?cpd:C01449)
 - id: C17207_kz
   name: 1,4-beta-D-Mannooligosaccharide(n=4)
   formula: C24H42O21
@@ -3341,13 +3342,6 @@
   source: KEGG
   tag: kegg-generic-database
   note: choose n=4, so that H2O(C6H10O5)n => H2O(C6H10O5)4 = C24H42O21
-- id: C17023
-  name: Sulfur donor
-  names:
-  - Sulfur donor
-  - S-donor
-  source: KEGG
-  tag: kegg-generic-database
 - id: C00889
   name: Peptidoglycan
   formula: (C32H48N6O18R2)n
@@ -3392,6 +3386,7 @@
   - tRNA preQ1
   source: KEGG
   tag: kegg-generic-database
+  note: formula comes from PubChem preQ1
 - id: C03479
   name: Folinic acid
   formula: C20H23N7O7
@@ -4465,7 +4460,7 @@
   tag: kegg-filterred-database
 - id: C02745
   name: Reduced flavodoxin
-  charge: 0
+  charge: -2
   formula: C17H21N4O9P
   mol_weight: 456.35
   names:
@@ -4477,7 +4472,7 @@
   name: Oxidized flavodoxin
   formula: C17H19N4O9P
   mol_weight: 454.33
-  charge: 0
+  charge: -2
   names:
   - Oxidized flavodoxin
   source: KEGG
@@ -4511,7 +4506,7 @@
   tag: kegg-filterred-database
 - id: C02474_kz
   name: Arabinan(n=2)
-  formula: (C15H24O12)2
+  formula: H2O(C15H24O12)2
   charge: 0
   names:
   - Arabinan
@@ -4519,15 +4514,16 @@
   - alpha-L-Araban
   source: KEGG
   tag: kegg-generic-database
-- id: C00973_kz
-  name: Cyclomaltodextrin(n=4)
-  formula: (C6H10O5)4
-  charge: 0
-  names:
-  - Cyclomaltodextrin
-  - Cyclodextrin
-  source: KEGG
-  tag: kegg-generic-database
+  note: add H2O to the formula in order to get correct Smiles data
+# - id: C00973_kz
+#   name: Cyclomaltodextrin(n=4)
+#   formula: (C6H10O5)4
+#   charge: 0
+#   names:
+#   - Cyclomaltodextrin
+#   - Cyclodextrin
+#   source: KEGG
+#   tag: kegg-generic-database
 - id: C01935_kz
   name: Maltodextrin(n=4)
   formula: H2O(C6H10O5)4
@@ -4543,7 +4539,7 @@
   tag: kegg-generic-database
 - id: C02492_kz
   name: 1,4-beta-D-Mannan(n=8)
-  formula: (C6H10O5)8
+  formula: H2O(C6H10O5)8
   charge: 0
   names:
   - 1,4-beta-D-Mannan
@@ -4570,7 +4566,7 @@
   tag: kegg-generic-database
 - id: C00760_kz
   name: Cellulose(n=8)
-  formula: (C6H10O5)8
+  formula: H2O(C6H10O5)8
   charge: 0
   names:
   - Cellulose
@@ -4596,7 +4592,7 @@
 #   tag: AddFromRxn
 - id: C00718_kz1
   name: Amylose(n=4)
-  formula: (C6H10O5)4
+  formula: H2O(C6H10O5)4
   charge: 0
   names:
   - Amylose
@@ -4610,7 +4606,7 @@
   tag: AddFromRxn
 - id: C00718_kz2
   name: Amylose(n=5)
-  formula: (C6H10O5)5
+  formula: H2O(C6H10O5)5
   charge: 0
   names:
   - Amylose
@@ -4731,7 +4727,7 @@
   name: Pullulan(n=1)
   names:
   - Pullulan
-  formula: C36H60O30
+  formula: H2O(C36H60O30)
   charge: 0
   source: KEGG
   tag: kegg-generic-database
@@ -4746,6 +4742,7 @@
 - id: C05359
   name: e-
   charge: -1
+  formula: None
   names:
   - e-
   - Electron

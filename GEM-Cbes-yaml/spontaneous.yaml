@@ -4,36 +4,36 @@
   equation: C00011[c] + C00001[c] <=> C00288[c] + C00080[c]
   source: Ionization
   tag: Spontaneous
-  subsystem: Others
+  pathway: Others
 - id: nh4
   name: non-enzymatic ionization of NH4+
   equation: C01342[c] <=> C00014[c] + C00080[c]
   source: Ionization
   tag: Spontaneous
-  subsystem: Others
+  pathway: Others
 - id: TP_H2
   name: non-enzymatic H2 transporter
   equation: C00282[c] <=> C00282[e]
   source: Diffusion
   tag: Spontaneous
-  subsystem: Transport
+  pathway: Transport
 - id: TP_CO2
   name: non-enzymatic CO2 transporter
   equation: C00011[c] <=> C00011[e]
   source: Diffusion
   tag: Spontaneous
-  subsystem: Transport
+  pathway: Transport
 - id: TP_NH3
   name: non-enzymatic NH3 transporter
   equation: C00014[c] <=> C00014[e]
   source: Diffusion
   tag: Spontaneous
-  subsystem: Transport
+  pathway: Transport
 - id: h2ot
   name: H2O transport via diffusion
   genes: spontaneous
   equation: C00001[e] <=> C00001[c]
-  subsystem: Transport
+  pathway: Transport
 
 # also belong to metabolic rxns
 - id: G5SADs

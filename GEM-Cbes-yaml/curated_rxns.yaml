@@ -1,23 +1,3 @@
-- id: R03647
-  name: L-Aspartate:tRNAAsp ligase (AMP-forming)
-  genes: fig|31899.10.peg.1026
-  equation: C00002[c] + C00049[c] + C01637[c] => C00020[c] + C00013[c] + C06113[c]
-  ec:
-  - 6.1.1.23
-  PATRIC_annotation: Aspartyl-tRNA synthetase (EC 6.1.1.12) @ Aspartyl-tRNA(Asn)
-    synthetase (EC 6.1.1.23)
-  curated: true
-  genesNCBI: Athe_0593
-  genes_KEGG: None
-  names:
-  - L-Aspartate:tRNAAsp ligase (AMP-forming)
-  note: Add this reaction based on patric gene annotation - peg.1026 can be ec 6.1.1.12
-    or 6.1.1.23
-  other_pathways:
-  - Aminoacyl-tRNA biosynthesis
-  pathways: Aminoacyl-tRNA biosynthesis
-  translated_equation: ATP[c] + |L-Aspartate (Asp-L)[c]| + tRNA(Asn)[c] => AMP[c]
-    + Diphosphate[c] + aspartate-tRNA(asn)[c]
 - id: R00502
   name: UTP:alpha-D-galactose-1-phosphate uridylyltransferase
   genes: fig|31899.10.peg.1408
@@ -38,7 +18,7 @@
   genes_string_PATRIC_id: peg.1408
   names:
   - UTP:alpha-D-galactose-1-phosphate uridylyltransferase
-  pathways:
+  other_pathways:
   - Galactose metabolism
   - Amino sugar and nucleotide sugar metabolism
   - Metabolic pathways
@@ -54,7 +34,7 @@
   genesNCBI: NA
   names:
   - tetrahydropteroyl-gamma-polyglutamate:L-glutamate gamma-ligase (ADP-forming)
-  pathways:
+  other_pathways:
   - Folate biosynthesis
   translated_equation: ATP[c] + THF-L-glutamate[c] + |L-Glutamate (Glu-L)[c]| <=>
     ADP[c] + Phosphate[c] + Tetrahydropteroyltri-L-glutamate[c]
@@ -71,7 +51,7 @@
   - ATP:L-fuculose 1-phosphotransferase
   note: annotated by Dima, this gene encodes a bifunctional enzyme that can catalase
     phosphorylation of both rhamnulose and fuculose.
-  pathways:
+  other_pathways:
   - Fructose and mannose metabolism
   - Microbial metabolism in diverse environments
   translated_equation: ATP[c] + L-Fuculose[c] => ADP[c] + |L-Fuculose 1-phosphate[c]|
@@ -97,7 +77,6 @@
   genesNCBI: Athe_2579
   note: function annotation is from manual curation, assigned in maltose pathway.
     But no corresponding kegg pathway assigned to this EC
-  translated_eqaution: pullulan + (4) H2O => (2) panose
   translated_equation: Pullulan(n=2)[c] + (4) H2O[c] => (2) Panose[c]
 - id: R02112_kz
   name: alpha-D-Glucan maltohydrolase
@@ -114,7 +93,7 @@
     in polysaccharides containing three or more (1->4)-alpha-linked D-glucose units.
     EC 3.2.1.41 acts on alpha-1,6-glycosidic bonds. Starch contains both 1,4- and
     1,6- bonds.
-  pathways:
+  other_pathways:
   - Starch and sucrose metabolism
   - Metabolic pathways
   source: KEGG
@@ -763,6 +742,26 @@
   tag: KEGG_Cbes
   translated_equation: Chitobiose[c] + Phosphate[c] => |N-Acetyl-D-glucosamine (GlcNAc)[c]|
     + |N-Acetyl-D-glucosamine 1-phosphate[c]|
+- id: R03647
+  name: L-Aspartate:tRNAAsp ligase (AMP-forming)
+  genes: fig|31899.10.peg.1026
+  equation: C00002[c] + C00049[c] + C01637[c] => C00020[c] + C00013[c] + C06113[c]
+  ec:
+  - 6.1.1.23
+  PATRIC_annotation: Aspartyl-tRNA synthetase (EC 6.1.1.12) @ Aspartyl-tRNA(Asn)
+    synthetase (EC 6.1.1.23)
+  curated: true
+  genesNCBI: Athe_0593
+  genes_kegg: None
+  names:
+  - L-Aspartate:tRNAAsp ligase (AMP-forming)
+  note: Add this reaction based on patric gene annotation - peg.1026 can be ec 6.1.1.12
+    or 6.1.1.23
+  other_pathways:
+  - Aminoacyl-tRNA biosynthesis
+  pathway: Aminoacyl-tRNA biosynthesis
+  translated_equation: ATP[c] + |L-Aspartate (Asp-L)[c]| + tRNA(Asn)[c] => AMP[c]
+    + Diphosphate[c] + aspartate-tRNA(asn)[c]
 - id: R03905
   name: Glu-tRNA(Gln):L-glutamine amido-ligase(ADP-forming)
   genes: fig|31899.10.peg.1218 and fig|31899.10.peg.1219 and fig|31899.10.peg.1220
@@ -1533,13 +1532,13 @@
     argininosuccinate synthase
   PATRIC_annotation: Argininosuccinate synthase (EC 6.3.4.5)
   curated: true
-  gene_string_PATRIC: peg.1736
   genesNCBI: Athe_1249
   genes_Cce: peg.1736
   genes_Cth: peg.1736
   genes_Tsac: peg.1736
   genes_kegg: peg.1736
   genes_string_NCBI_id: Athe_1249
+  genes_string_PATRIC_id: peg.1736
   names:
   - L-Citrulline:L-aspartate ligase (AMP-forming)
   other_pathways:
@@ -2255,7 +2254,7 @@
   genes_Tsac: (peg.936 or peg.938)
   genes_kegg: None
   genes_string_NCBI_id: peg.938,Athe_0505
-  genes_string_PATRIC: peg.938,peg.936
+  genes_string_PATRIC_id: peg.938,peg.936
   names:
   - acetyl-CoA:oxaloacetate C-acetyltransferase (thioester-hydrolysing)
   other_pathways:
@@ -2288,13 +2287,13 @@
     dehydratase beta subunit (EC 4.2.1.32) or Fumarate hydratase class I, alpha region
     (EC 4.2.1.2); L(+)-tartrate dehydratase alpha subunit (EC 4.2.1.32)
   curated: true
-  gene_string_PATRIC: peg.941,peg.351
   genesNCBI: Athe_2746 and Athe_0510
   genes_Cce: peg.941 and peg.351
   genes_Cth: peg.351 and peg.941
   genes_Tsac: peg.351
   genes_kegg: peg.941,peg.351
   genes_string_NCBI_id: Athe_0510,Athe_2746
+  genes_string_PATRIC_id: peg.941,peg.351
   names:
   - (S)-malate hydro-lyase (fumarate-forming)
   other_pathways:
@@ -2375,13 +2374,13 @@
     (EC 1.2.7.-) or 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase, beta subunit
     (EC 1.2.7.-) or Indolepyruvate oxidoreductase subunit IorB (EC 1.2.7.8)
   curated: true
-  gene_string_PATRIC: peg.1337,peg.1998,peg.1577,peg.1576,peg.1579,peg.1578,peg.1489
   genesNCBI: Athe_1095 and NA and Athe_1097 and Athe_1098
   genes_Cce: '#NAME?'
   genes_Cth: None
   genes_Tsac: peg.1577
   genes_kegg: peg.1579,peg.1576,-,peg.1578
   genes_string_NCBI_id: Athe_0874,Athe_1505,peg.1577,Athe_1095,Athe_1098,Athe_1097,Athe_1009
+  genes_string_PATRIC_id: peg.1337,peg.1998,peg.1577,peg.1576,peg.1579,peg.1578,peg.1489
   names:
   - 2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)
   note: based on Dima's annottaion, gene association should be Athe_1096-97-98, but
@@ -2479,9 +2478,9 @@
   genesNCBI: Athe_1918
   genes_Cce: peg.2434
   genes_Cth: peg.2434 or -
-  genes_NCBI_id: Athe_1918
   genes_Tsac: peg.2434
   genes_kegg: None
+  genes_string_NCBI_id: Athe_1918
   names:
   - (S)-malate:NAD+ oxidoreductase
   note: Based on assay done by Dr.Adams's group, this rxn goes from malate to OAA
@@ -3450,10 +3449,8 @@
   curated: true
   genesNCBI: Athe_1295 and Athe_1296 and Athe_1297 and Athe_1298 and Athe_1299
   genes_kegg: None
-  kegg: R09508
   note: similar to kegg R09508 but not exactly same
   pathway: ETF
-  regulon: Rex, target to hydDECBA
   source: KEGG
   tag: psammotate (tsac) & manual curation
   translated_equation: (3) |Proton (H+)[c]| + |Nicotinamide adenine dinucleotide
@@ -3471,10 +3468,8 @@
   genesNCBI: Athe_1082 and Athe_1083 and Athe_1084 and Athe_1085 and Athe_1086 and
     Athe_1087
   genes_kegg: None
-  kegg: R00019
   note: reaction and enzyme based on tsac psammotate
   pathway: ETF pathway
-  regulon: Rex, target to echABCDEF-hypABFCDE
   source: KEGG
   tag: psammotate (tsac) & manual curation
   translated_equation: (2) |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]| + (3) |Proton
@@ -3491,7 +3486,6 @@
   curated: true
   genesNCBI: NA and Athe_0645
   genes_kegg: None
-  kegg: None
   names:
   - Bifurcating NADP-dependent ferredoxin oxidoreductase
   - NADH-dependent ferredoxin NADP+ oxidoreductase
@@ -4180,11 +4174,11 @@
   - ATP:D-mannose 6-phosphotransferase
   note: not sure about this function. peg.984 is annoptated as glucokinase, can it
     catalyze mannose phosphate?
-  pathway: Fructose and mannose metabolism
-  pathways:
+  other_pathways:
   - Fructose and mannose metabolism
   - Amino sugar and nucleotide sugar metabolism
   - Metabolic pathways
+  pathway: Fructose and mannose metabolism
 - id: R00868
   name: D-Mannitol:NAD+ 2-oxidoreductase
   genes: fig|31899.10.peg.968
@@ -4195,9 +4189,9 @@
   genesNCBI: Athe_0537
   names:
   - D-Mannitol:NAD+ 2-oxidoreductase
-  pathway: Fructose and mannose metabolism
-  pathways:
+  other_pathways:
   - Fructose and mannose metabolism
+  pathway: Fructose and mannose metabolism
   source: KEGG
   tag: manually-add
   translated_equation: Mannitol[c] + NAD+[c] <=> D-Fructose[c] + NADH[c] + H+[c]
@@ -4211,10 +4205,10 @@
   genesNCBI: Athe_0696
   names:
   - L-Rhamnulose-1-phosphate lactaldehyde-lyase
-  pathway: Fructose and mannose metabolism
-  pathways:
+  other_pathways:
   - Fructose and mannose metabolism
   - Microbial metabolism in diverse environments
+  pathway: Fructose and mannose metabolism
   source: KEGG
   tag: manually-add
   translated_equation: '|L-Rhamnulose 1-phosphate[c]| <=> |Glycerone phosphate[c]|
@@ -5194,9 +5188,8 @@
   - 2.6.1.52
   curated: true
   genesNCBI: Athe_2126
-  genes_KEGG: None
-  pathway: Glycine, serine and threonine metabolism
-  pathways:
+  genes_kegg: None
+  other_pathways:
   - Glycine, serine and threonine metabolism
   - Methane metabolism
   - Metabolic pathways
@@ -5204,6 +5197,7 @@
   - Biosynthesis of antibiotics
   - Carbon metabolism
   - Biosynthesis of amino acids
+  pathway: Glycine, serine and threonine metabolism
   translated_equation: '|O-Phospho-L-serine (Pser)[c]| + |2-Oxoglutarate (Akg)[c]|
     <=> |3-Phosphohydroxypyruvate (3PHP)[c]| + |L-Glutamate (Glu-L)[c]|'
 - id: R00945
@@ -5671,7 +5665,6 @@
     gamma subunit (EC 1.2.7.-) or 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase,
     beta subunit (EC 1.2.7.-) or Indolepyruvate oxidoreductase subunit IorB (EC 1.2.7.8)
   curated: true
-  gene_string_PATRIC: peg.2218,peg.1339,peg.1338,peg.1337,peg.2217,peg.1998,peg.1577,peg.1340,peg.1579,peg.1578,peg.1489
   genesNCBI: (Athe_0874 and Athe_0875 and Athe_0876 and Athe_0877) or (Athe_1708
     and Athe_1709)
   genes_Cce: '- or -'
@@ -5681,6 +5674,7 @@
   genes_Tsac: peg.1577
   genes_kegg: peg.2217,peg.2218,-,peg.1578,peg.1338,peg.1337,peg.1340,peg.1339
   genes_string_NCBI_id: Athe_1709,Athe_0876,Athe_0875,Athe_0874,Athe_1708,Athe_1505,peg.1577,Athe_0877,Athe_1098,Athe_1097,Athe_1009
+  genes_string_PATRIC_id: peg.2218,peg.1339,peg.1338,peg.1337,peg.2217,peg.1998,peg.1577,peg.1340,peg.1579,peg.1578,peg.1489
   names:
   - pyruvate:ferredoxin 2-oxidoreductase (CoA-acetylating)
   note: http://www.jbc.org/content/252/8/2657.full.pdf says it is reversible, but
@@ -5877,9 +5871,9 @@
   genesNCBI: Athe_0552
   genes_Cce: (peg.1056 or peg.984)
   genes_Cth: None
-  genes_NCBI_id: Athe_0552,Athe_0617
   genes_Tsac: None
   genes_kegg: peg.984
+  genes_string_NCBI_id: Athe_0552,Athe_0617
   names:
   - ATP:beta-D-glucose 6-phosphotransferase
   other_pathways:
@@ -5904,9 +5898,9 @@
   genesNCBI: Athe_0552
   genes_Cce: None
   genes_Cth: None
-  genes_NCBI_id: Athe_0552
   genes_Tsac: None
   genes_kegg: peg.984
+  genes_string_NCBI_id: Athe_0552
   names:
   - ATP:alpha-D-glucose 6-phosphotransferase
   other_pathways:
@@ -5937,9 +5931,9 @@
   genesNCBI: Athe_0619
   genes_Cce: None
   genes_Cth: None
-  genes_NCBI_id: Athe_0619
   genes_Tsac: None
   genes_kegg: peg.1059
+  genes_string_NCBI_id: Athe_0619
   names:
   - beta-D-Glucose 6-phosphate ketol-isomerase
   other_pathways:
@@ -5966,9 +5960,9 @@
   genesNCBI: Athe_0619
   genes_Cce: '-'
   genes_Cth: None
-  genes_NCBI_id: Athe_0619
   genes_Tsac: None
   genes_kegg: peg.1059
+  genes_string_NCBI_id: Athe_0619
   names:
   - alpha-D-Glucose 6-phosphate ketol-isomerase
   other_pathways:
@@ -5997,9 +5991,9 @@
   genesNCBI: Athe_0619
   genes_Cce: None
   genes_Cth: None
-  genes_NCBI_id: Athe_0619
   genes_Tsac: None
   genes_kegg: peg.1059
+  genes_string_NCBI_id: Athe_0619
   names:
   - alpha-D-Glucose 6-phosphate ketol-isomerase
   other_pathways:
@@ -6025,13 +6019,13 @@
     phosphate acetyltransferase
   PATRIC_annotation: Phosphate acetyltransferase (EC 2.3.1.8)
   curated: true
-  gene_string_PATRIC: peg.1987
   genesNCBI: Athe_1494
   genes_Cce: peg.1987
   genes_Cth: peg.1987
   genes_Tsac: peg.1987
   genes_kegg: peg.1987
   genes_string_NCBI_id: Athe_1494
+  genes_string_PATRIC_id: peg.1987
   names:
   - acetyl-CoA:phosphate acetyltransferase
   other_pathways:
@@ -6063,9 +6057,9 @@
   genesNCBI: Athe_0703
   genes_Cce: None
   genes_Cth: None
-  genes_NCBI_id: Athe_0703
   genes_Tsac: None
   genes_kegg: peg.1157
+  genes_string_NCBI_id: Athe_0703
   names:
   - enzyme N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase
   other_pathways:
@@ -6517,12 +6511,12 @@
   genes_kegg: None
   names:
   - N6-Acetyl-LL-2,6-diaminoheptanedioate amidohydrolase
-  pathway: Lysine biosynthesis
-  pathways:
+  other_pathways:
   - Lysine biosynthesis
   - Metabolic pathways
   - Biosynthesis of secondary metabolites
   - Biosynthesis of amino acids
+  pathway: Lysine biosynthesis
   source: KEGG
   tag: Dima's central carbon metabolism pathway reconstruction table
   translated_equation: N6-Acetyl-LL-2,6-diaminoheptanedioate[c] + H2O[c] <=> Acetate[c]
@@ -7060,10 +7054,10 @@
   genes_kegg: None
   names:
   - 5-phospho-alpha-D-ribose 1-diphosphate:nicotinate ligase (ADP, diphosphate-forming)
-  pathway: NAD salvage
-  pathways:
+  other_pathways:
   - Nicotinate and nicotinamide metabolism
   - Metabolic pathways
+  pathway: NAD salvage
   source: KEGG
   tag: add from Dima's central pathway table.
   translated_equation: '|Nicotinate D-ribonucleotide[c]| + Diphosphate[c] + ADP[c]
@@ -8057,11 +8051,11 @@
   names:
   - (R)-Pantoate:NADP+ 2-oxidoreductase
   - Ketopantoate reductase PanG
-  pathway: Pantothenate and CoA biosynthesis
-  pathways:
+  other_pathways:
   - Pantothenate and CoA biosynthesis
   - Metabolic pathways
   - Biosynthesis of secondary metabolites
+  pathway: Pantothenate and CoA biosynthesis
   source: KEGG
   tag: Dima's central carbon metabolism reconstruction table
   translated_equation: '|(R)-Pantoate (Pant)[c]| + |Nicotinamide adenine dinucleotide
@@ -8221,10 +8215,10 @@
   genesNCBI: Athe_0707
   names:
   - L-Arabinose aldose-ketose-isomerase
-  pathway: Pentose and glucuronate interconversions
-  pathways:
+  other_pathways:
   - Pentose and glucuronate interconversions
   - Metabolic pathways
+  pathway: Pentose and glucuronate interconversions
   source: KEGG
   tag: manually-curation
   translated_equation: L-Arabinose[c] <=> L-Ribulose[c]
@@ -8426,13 +8420,13 @@
   comment: TPP-dependent enzyme (see R06863+R06861). peg.2903-Transketolase; peg.2605-Transketolase,
     C-terminal sectioN; peg.2606-Transketolase, N-terminal section.
   curated: true
-  gene_string_PATRIC: peg.2606,peg.2903,peg.2605
   genesNCBI: Athe_2059 and Athe_2060 and Athe_2328
   genes_Cce: '-'
   genes_Cth: (peg.2606 or peg.2606) and (peg.2605 or peg.2605)
   genes_Tsac: peg.2605
   genes_kegg: peg.2605,peg.2606,peg.2903
   genes_string_NCBI_id: Athe_2060,Athe_2328,Athe_2059
+  genes_string_PATRIC_id: peg.2606,peg.2903,peg.2605
   names:
   - sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase
   other_pathways:
@@ -8645,13 +8639,13 @@
   PATRIC_annotation: Transketolase, N-terminal section (EC 2.2.1.1) or Transketolase
     (EC 2.2.1.1) or Transketolase, C-terminal section (EC 2.2.1.1)
   curated: true
-  gene_string_PATRIC: peg.2606,peg.2903,peg.2605
   genesNCBI: Athe_2060 and Athe_2328 and Athe_2059
   genes_Cce: None
   genes_Cth: None
   genes_Tsac: None
   genes_kegg: peg.2605,peg.2606,peg.2903
   genes_string_NCBI_id: Athe_2060,Athe_2328,Athe_2059
+  genes_string_PATRIC_id: peg.2606,peg.2903,peg.2605
   names:
   - beta-D-Fructose 6-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase
   other_pathways:
@@ -9163,12 +9157,12 @@
   genes_kegg: None
   names:
   - L-arogenate:2-oxoglutarate aminotransferase
-  pathway: Phenylalanine, tyrosine and tryptophan biosynthesis
-  pathways:
+  other_pathways:
   - Phenylalanine, tyrosine and tryptophan biosynthesis
   - Metabolic pathways
   - Biosynthesis of secondary metabolites
   - Biosynthesis of amino acids
+  pathway: Phenylalanine, tyrosine and tryptophan biosynthesis
   source: KEGG
   tag: added when curating "Phenylalanine, tyrosine and tryptophan biosynthesis"
     pathway, based on Dima's annotation table "Reconstructed_Pathways_Vitamins_amino_acid_central"
@@ -9191,12 +9185,12 @@
   note: peg.1304 is mapped to Athe_0844, in kegg, this gene is annotated as EC 1.3.1.12
     (R01728), so rxn R00732 doesn't exist in Cbes kegg model, so here genes kegg
     is recorded as None.
-  pathway: Phenylalanine, tyrosine and tryptophan biosynthesis
-  pathways:
+  other_pathways:
   - Phenylalanine, tyrosine and tryptophan biosynthesis
   - Metabolic pathways
   - Biosynthesis of secondary metabolites
   - Biosynthesis of amino acids
+  pathway: Phenylalanine, tyrosine and tryptophan biosynthesis
   source: KEGG
   tag: added when curating "Phenylalanine, tyrosine and tryptophan biosynthesis"
     pathway, based on Dima's annotation table "Reconstructed_Pathways_Vitamins_amino_acid_central"
@@ -9502,11 +9496,11 @@
   curated: true
   genesNCBI: spontaneous
   names: []
-  pathway: Porphyrin and chlorophyll metabolism
-  pathways:
+  other_pathways:
   - Porphyrin and chlorophyll metabolism
   - Metabolic pathways
   - Biosynthesis of secondary metabolites
+  pathway: Porphyrin and chlorophyll metabolism
   translated_equation: Hydroxymethylbilane[c] => |Uroporphyrinogen I[c]| + H2O[c]
 - id: R03197
   name: Uroporphyrinogen-III carboxy-lyase
@@ -12175,7 +12169,7 @@
   - 2.4.99.17
   curated: true
   genesNCBI: Athe_0245
-  genes_Kegg: None
+  genes_kegg: None
   note: added based on Dima's pathway table. Euqation come from itergratig kegg,
     uniprot and bigg info.
   pathway: Queuosine biosynthesis
@@ -12522,9 +12516,9 @@
   genesNCBI: Athe_0619
   genes_Cce: '-'
   genes_Cth: '-'
-  genes_NCBI_id: Athe_0619
   genes_Tsac: '-'
   genes_kegg: peg.1059
+  genes_string_NCBI_id: Athe_0619
   names:
   - D-glucose-6-phosphate aldose-ketose-isomerase
   other_pathways:
@@ -12544,10 +12538,10 @@
   - Maltose:phosphate 1-beta-D-glucosyltransferase
   note: in kegg, this rxn is associated with EC 2.4.1.8, but in Dima's sugar catabolic
     network, EC 2.4.1.1 catalyzes this rxn
-  pathway: Starch and sucrose metabolism
-  pathways:
+  other_pathways:
   - Starch and sucrose metabolism
   - Metabolic pathways
+  pathway: Starch and sucrose metabolism
   source: KEGG
   tag: manually-add
   translated_equation: Maltose[c] + Orthophosphate[c] <=> D-Glucose[cc] + |beta-D-Glucose
@@ -13511,11 +13505,10 @@
   genes_kegg: None
   names:
   - ATP:thiamin-phosphate phosphotransferase
-  pathway: Thiamine metabolism
-  pathways:
+  other_pathways:
   - Thiamine metabolism
   - Metabolic pathways
-  translated_eqaution: ATP[c] + |Thiamin monophosphate[c]| => ADP[c] + |Thiamin diphosphate[c]|
+  pathway: Thiamine metabolism
   translated_equation: ATP[c] + |Thiamin monophosphate[c]| => ADP[c] + |Thiamine
     diphosphate[c]|
 - id: R02134
@@ -13529,10 +13522,10 @@
   genes_kegg: None
   names:
   - ATP:thiamine phosphotransferase
-  pathway: Thiamine metabolism
-  pathways:
+  other_pathways:
   - Thiamine metabolism
   - Metabolic pathways
+  pathway: Thiamine metabolism
   translated_equation: ATP[c] + Thiamine[c] => ADP[c] + |Thiamin monophosphate[c]|
 - id: R03471
   name: ATP:4-amino-5-hydroxymethyl-2-methylpyrimidine 5-phosphotransferase
@@ -13604,10 +13597,10 @@
   genes_kegg: None
   names:
   - ATP:4-methyl-5-(2-hydroxyethyl)-thiazole 2-phosphotransferase
-  pathway: Thiamine metabolism
-  pathways:
+  other_pathways:
   - Thiamine metabolism
   - Metabolic pathways
+  pathway: Thiamine metabolism
   translated_equation: ATP[c] + 5-(2-Hydroxyethyl)-4-methylthiazole[c] => ADP[c]
     + 4-Methyl-5-(2-phosphoethyl)-thiazole[c]
 - id: R03223_h
@@ -13762,10 +13755,10 @@
   names:
   - (R)-2,3-dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)
   note: ec of peg.935 may need to be further check
-  pathway: Valine, leucine and isoleucine biosynthesis
-  pathways:
+  other_pathways:
   - Valine, leucine and isoleucine biosynthesis
   - Pantothenate and CoA biosynthesis
+  pathway: Valine, leucine and isoleucine biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: (S)-2-Acetolactate[c] + |Nicotinamide adenine dinucleotide
@@ -14337,13 +14330,13 @@
   curated: true
   genesNCBI: NA
   genes_kegg: None
-  pathway: Valine, leucine and isoleucine biosynthesis
-  pathways:
+  other_pathways:
   - Valine, leucine and isoleucine biosynthesis
   - C5-Branched dibasic acid metabolism
   - Metabolic pathways
   - 2-Oxocarboxylic acid metabolism
   - Biosynthesis of amino acids
+  pathway: Valine, leucine and isoleucine biosynthesis
   source: KEGG
   tag: Added when curating Valine, leucine and isoleucine biosynthesis pathway, based
     on Dimas annotation table Reconstructed_Pathways_Vitamins_amino_acid_central.
@@ -14532,11 +14525,11 @@
   - 2.6.1.52
   curated: true
   genesNCBI: Athe_2126
-  genes_KEGG: None
-  pathway: Vitamin B6 metabolism
-  pathways:
+  genes_kegg: None
+  other_pathways:
   - Vitamin B6 metabolism
   - Metabolic pathways
+  pathway: Vitamin B6 metabolism
   translated_equation: O-Phospho-4-hydroxy-L-threonine[c] + |2-Oxoglutarate (Akg)[c]|
     <=> 2-Oxo-3-hydroxy-4-phosphobutanoate[c] + |L-Glutamate (Glu-L)[c]|
 - id: Xylase

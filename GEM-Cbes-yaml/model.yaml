@@ -17,11 +17,11 @@ compounds:
 # - include: /Users/kzhang/Projects/Caldi/template-models/template-cth/converted_excel_model/compounds.yaml
 
 reactions:
-# # The entire rxn database, which I'm working on (do curation)
-# - include: reactions_new_model_reorder.yaml   
+# The entire rxn database, which I'm working on (do curation)
+- include: reactions_new_model_reorder.yaml   
 
-# used for growth simulation, it is subset of "reactions_new_model_reorder.yaml", containing curated reactions
-- include: curated_rxns.yaml
+# # used for growth simulation, it is subset of "reactions_new_model_reorder.yaml", containing curated reactions
+# - include: curated_rxns.yaml
 
 # transport rxns               
 - include: transporter.yaml
@@ -44,4 +44,11 @@ exchange:
 
 # limits:
 # - include: limits.yaml
+
+model:
+# enzymatic metabolic reactions
+-  include: model_def_meta.tsv
+
+# other reactions, including transport, spontaneous, gapfill and biomass reaction.
+-  include: model_def_others.tsv
 

@@ -68,7 +68,7 @@
   names:
   - dihydrofolate:NADP+ oxidoreductase
   pathway: Folate biosynthesis
-  pathways:
+  other_pathways:
   - One carbon pool by folate
   - Folate biosynthesis
   - Metabolic pathways
@@ -94,7 +94,7 @@
   name: nucleoside-diphosphate kinase (ATP:dTDP)
   equation: C00002[c] + C00363[c] <=> C00008[c] + C00459[c]
   ec: 2.7.4.6
-  gene: gap
+  genes: gap
   pathway: Pyrimidine metabolism
   tag: Tsac, Cce
   translated_equation: ATP + dTDP <=> ADP + dTTP
@@ -103,6 +103,7 @@
   equation: C02226[c] + C00001[c] <=> C06032[c]
   ec:
   - 4.2.1.35
+  genes: gap
   EggNOG_annotation: peg.2651:Catalyzes the isomerization between 2-isopropylmalate
     and 3-isopropylmalate, via the formation of 2-isopropylmaleate (By similarity);   peg.2652:Catalyzes
     the isomerization between 2-isopropylmalate and 3-isopropylmalate, via the formation
@@ -135,6 +136,7 @@
   equation: C02612[c] <=> C02226[c] + C00001[c]
   ec:
   - 4.2.1.35
+  genes: gap
   EggNOG_annotation: peg.2651:Catalyzes the isomerization between 2-isopropylmalate
     and 3-isopropylmalate, via the formation of 2-isopropylmaleate (By similarity);   peg.2652:Catalyzes
     the isomerization between 2-isopropylmalate and 3-isopropylmalate, via the formation
@@ -169,12 +171,14 @@
   translated_equation: ATP[c] + GDP[c] <=> ADP[c] + GTP[c]
   ec:
   - 2.7.4.6
-  pathways:
+  genes: gap
+  other_pathways:
   - Purine metabolism
   - Metabolic pathways
   note: Activity was proved by experiment, although activity is relatively low.
 - id: NMPK
   name: ATP:GMP diphosphotransferase
+  genes: gap
   equation: C00002[c] + C00144[c] <=> C00020[c] + C00044[c]
   translated_equation: ATP[c] + GMP[c] <=> AMP[c] + GTP[c]
   note: Activity was proved by experiment. although activity is relatively low.
