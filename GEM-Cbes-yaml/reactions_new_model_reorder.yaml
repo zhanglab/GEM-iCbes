@@ -240,14 +240,14 @@
 - id: NplT
   name: neopullulanase
   genes: fig|31899.10.peg.126
-  equation: C00480_kz[c] + (2) C00001[c] => (2) C00713[c]
+  equation: C00480_kz[c] + C00001[c] => (2) C00713[c]
   ec:
   - 3.2.1.135
   curated: true
   genesNCBI: Athe_2579
   note: function annotation is from manual curation, assigned in maltose pathway.
     But no corresponding kegg pathway assigned to this EC
-  translated_equation: Pullulan(n=2)[c] + (4) H2O[c] => (2) Panose[c]
+  translated_equation: Pullulan(n=2)[c] + H2O[c] => (2) Panose[c]
 - id: R12241
   name: acyl phosphoate:sn-glycerol 3-phosphate acyltransferase
   genes: fig|31899.10.peg.1208 or fig|31899.10.peg.2740
@@ -912,7 +912,7 @@
   name: alpha-L-arabinan arabinofuranohydrolase
   genes: fig|31899.10.peg.1854 or fig|31899.10.peg.2951
   genesNCBI: Athe_1103 or Athe_2371
-  equation: C02474_kz[e] + (6) C00001[e] => (6) C00259[e]
+  equation: C02474_kz[e] + (5) C00001[e] => (6) C00259[e]
   ec:
   - 3.2.1.55
   - 3.2.1.99
@@ -934,20 +934,21 @@
   pathway: Amino sugar and nucleotide sugar metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: Arabinan(n=2)[e] + (6) H2O[e] => (6) L-Arabinose[e]
+  translated_equation: Arabinan(n=2)[e] + (5) H2O[e] => (6) L-Arabinose[e]
   note: Athe_0182 is not identical to peg.579, but they have high similarity.
 - id: AbfA
   name: alpha-L-arabinan arabinofuranohydrolase
   genes: fig|31899.10.peg.1584 
   genesNCBI: Athe_1103
   curated: true
-  equation: AXOS[c] + (4) C00001[c] => XOS + (4) C00259
+  equation: AXOS[c] + (3) C00001[c] => XOS[c] + (3) C00259[c]
   ec:
   - 3.2.1.55
   pathway: Xylan utilization
   source: manually-add
   tag: manual-curation
-  translated_equation: Arabinoxylan-oligosaccharides[c]
+  translated_equation: Arabinoxylan-oligosaccharides[c] + (3) H2O[c] =>
+    Xylan-oligosaccharides[c] + (3) L-Arabinose[c]
 - id: R02059
   name: N-Acetyl-D-glucosamine-6-phosphate amidohydrolase
   genes: fig|31899.10.peg.481
@@ -2561,11 +2562,13 @@
   tag: KEGG_Cbes,Cth
   translated_equation: ATP[c] + 7,8-Diaminononanoate[c] + CO2[c] => ADP[c] + Phosphate[c]
     + Dethiobiotin[c]
-- id: R01078
+- id: R01078_kz
   name: dethiobiotin:sulfur sulfurtransferase
   genes: fig|31899.10.peg.76
-  equation: C01909[c] + C00097[c] + (2) C00019[c] + (2) C00080[c] + (2) C05359[c]
-    <=> C00120[c] + (2) C00073[c] + (2) C05198[c] + C00041[c]
+  # equation: C01909[c] + C00097[c] + (2) C00019[c] <=> C00120[c] + (2) C00073[c] 
+  #   + (2) C05198[c] + C00041[c]
+  equation: C01909[c] + C00097[c] + C00019[c] <=> C00120[c] + C00073[c]
+    + C05198[c] + C00041[c]
   ec:
   - 2.8.1.6
   EggNOG_annotation: peg.203:radical SAM domain protein;   peg.76:Catalyzes the conversion
@@ -2596,9 +2599,9 @@
   pathway: Biotin metabolism
   source: KEGG
   tag: KEGG_Cbes,Tsac
-  translated_equation: Dethiobiotin[c] + |L-Cysteine (Cys-L)[c]| + (2) |S-Adenosyl-L-methionine
-    (SAM)[c]| + (2) |Proton (H+)[c]| + (2) e-[c] <=> Biotin[c] + (2) |L-Methionine
-    (Met-L)[c]| + (2) 5'-Deoxyadenosine[c] + |L-Alanine (Ala-L)[c]|
+  translated_equation: Dethiobiotin[c] + |L-Cysteine (Cys-L)[c]| + |S-Adenosyl-L-methionine
+    (SAM)[c]| <=> Biotin[c] + |L-Methionine (Met-L)[c]| + 5'-Deoxyadenosine[c] + |L-Alanine (Ala-L)[c]|
+  note: change stoichiometry based on WP3 model
 - id: R05145
   name: Biotinyl-5'-AMP:apo-[carboxylase] ligase (AMP-forming)
   genes: fig|31899.10.peg.607
@@ -5826,7 +5829,8 @@
     |Octadecenoyl-CoA (n-C18:1CoA)[c]| + AMP[c] + Diphosphate[c]'
 - id: R00742
   name: acetyl-CoA:carbon-dioxide ligase (ADP-forming)
-  equation: C00002[c] + C00024[c] + C00288[c] <=> C00008[c] + C00009[c] + C00083[c]
+  equation: C00002[c] + C00024[c] + C00288[c] + C00080[c] <=> C00008[c] + C00009[c] 
+    + C00083[c]
   ec:
   - 6.4.1.2
   EggNOG_annotation: peg.1804:Acetyl-CoA carboxylase, carboxyltransferase component
@@ -5859,7 +5863,7 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: Tsac
-  translated_equation: ATP[c] + |Acetyl-CoA (AcCoA)[c]| + Bicarbonate[c] <=> ADP[c]
+  translated_equation: ATP[c] + |Acetyl-CoA (AcCoA)[c]| + Bicarbonate[c] + H+[c] <=> ADP[c]
     + Phosphate[c] + Malonyl-CoA[c]
 - id: R04568
   name: (3R)-3-Hydroxypalmitoyl-[acyl-carrier-protein] hydro-lyase
@@ -7677,7 +7681,7 @@
   genes: fig|31899.10.peg.2375 or fig|31899.10.peg.2376 or pfig|31899.10.peg.2379
   genesNCBI: Athe_1865 or Athe_1866 or Athe_1859
   curated: true
-  equation: C02492_kz[e] + (2) C00001[e] <=> (2) C17207_kz[e]
+  equation: C02492_kz[e] + C00001[e] <=> (2) C17207_kz[e]
   ec:
   - 3.2.1.78
   EggNOG_annotation: 'peg.2379:Inherit from firmNOG: Mannan endo-1,4-beta-mannosidase;   peg.2375:hydrolase
@@ -7699,7 +7703,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: 1,4-beta-D-Mannan[e] + (2) H2O[e] <=> (2) 1,4-beta-D-Mannooligosaccharide[e]
+  translated_equation: 1,4-beta-D-Mannan[e] + H2O[e] <=> (2) 1,4-beta-D-Mannooligosaccharide[e]
 - id: R08614_kz
   name: 1,4-beta-D-Mannooligosaccharide mannohydrolase
   genes: fig|31899.10.peg.633 and fig|31899.10.peg.625 
@@ -11642,7 +11646,8 @@
     (DHAP)[c]| + |Glyceraldehyde 3-phosphate (GAP)[c]|'
 - id: R07157
   name: carbon-monoxide,water:ferredoxin oxidoreductase
-  equation: C00237[c] + C00001[c] + C00139[c] <=> C00011[c] + C00138[c]
+  # equation: C00237[c] + C00001[c] + C00139[c] <=> C00011[c] + C00138[c]
+  equation: C00237[c] + C00001[c] + (2) C00139[c] <=> C00011[c] + (2) C00138[c] + (2) C00080[c]
   ec:
   - 1.2.7.4
   EggNOG_annotation: peg.1658:Catalyzes the reduction of hydroxylamine to form NH(3)
@@ -11668,8 +11673,8 @@
   pathway: Methane metabolism
   source: KEGG
   tag: KEGG_Cbes,Tsac
-  translated_equation: CO[c] + H2O[c] + |Oxidized ferredoxin (2[4Fe-4S]) (Fdox)[c]|
-    <=> CO2[c] + |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]|
+  translated_equation: CO[c] + H2O[c] + (2) |Oxidized ferredoxin (2[4Fe-4S]) (Fdox)[c]|
+    <=> CO2[c] + (2) |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]| + (2) H+[c]
 - id: R03015
   name: Formylmethanofuran:(acceptor) oxidoreductase
   equation: C01001[c] + C00001[c] + C00028[c] <=> C00011[c] + C00862[c] + C00030[c]
@@ -12037,9 +12042,9 @@
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: ATP[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| <=>
     ADP[c] + |Nicotinamide adenine dinucleotide phosphate (NADP)[c]|
-- id: R02322
+- id: R02322_h
   name: nicotinamide-D-ribonucleotide amidohydrolase
-  equation: C00455[c] + C00001[c] <=> C01185[c] + C00014[c]
+  equation: C00455[c] + C00001[c] + C00080[c] <=> C01185[c] + C00014[c]
   ec:
   - 3.5.1.42
   EggNOG_annotation: peg.1464:competence-damage inducible protein
@@ -12060,7 +12065,7 @@
   pathway: Nicotinate and nicotinamide metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: NMN[c] + H2O[c] <=> |Nicotinate D-ribonucleotide[c]| + Ammonia[c]
+  translated_equation: NMN[c] + H2O[c] + H+[c] <=> |Nicotinate D-ribonucleotide[c]| + Ammonia[c]
 - id: R02294_h
   name: N-Ribosylnicotinamide:orthophosphate ribosyltransferase
   genes: fig|31899.10.peg.2283
@@ -12299,7 +12304,7 @@
   translated_equation: 2,4-Diamino-6-nitrotoluene[c] <=> 2,4-Diamino-6-hydroxylaminotoluene[c]
 - id: R10811_kz
   name: 1,4-beta-D-mannooligosaccharide:phosphate alpha-D-mannosyltransferase
-  equation: C17207_kz[c] + C00009[c] <=> C20861[c] + C00636[c]
+  equation: C17207[c] + (2) C00009[c] <=> C20861[c] + (2) C00636[c]
   ec:
   - 2.4.1.319
   EggNOG_annotation: peg.92:Glycosidase related protein
@@ -15246,9 +15251,9 @@
   translated_equation: Hydrogen[c] + |Nicotinamide adenine dinucleotide phosphate
     (NADP)[c]| <=> |Nicotinamide adenine dinucleotide phosphate - reduced (NADPH)[c]|
     + |Proton (H+)[c]|
-- id: R09508
+- id: R09508_h
   name: hydrogen:NAD+, ferredoxin oxidoreductase
-  equation: (2) C00282[c] + C00003[c] + (2) C00139[c] <=> (5) C00080[c] + C00004[c]
+  equation: (2) C00282[c] + C00003[c] + (2) C00139[c] + (2) C00080[c] <=> (5) C00080[c] + C00004[c]
     + (2) C00138[c]
   ec:
   - 1.12.1.4
@@ -15285,7 +15290,7 @@
   source: KEGG
   tag: Tsac
   translated_equation: (2) Hydrogen[c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
-    + (2) |Oxidized ferredoxin (2[4Fe-4S]) (Fdox)[c]| <=> (5) |Proton (H+)[c]| +
+    + (2) |Oxidized ferredoxin (2[4Fe-4S]) (Fdox)[c]| + (2) H+[c] <=> (5) |Proton (H+)[c]| +
     |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + (2) |Reduced ferredoxin
     (2[4Fe-4S]) (Fdred)[c]|
 - id: R07180
@@ -15997,7 +16002,7 @@
   tag: KEGG_Cbes
   translated_equation: G10556[c] + G10610[c] <=> G10555[c] + G10619[c]
 - id: R11312
-  equation: C04752[c] + C20246[c] <=> C00013[c] + C01081[c] + C00011[c]
+  equation: C04752[c] + C20246[c] + C00080[c] <=> C00013[c] + C01081[c] + C00011[c]
   ec:
   - 2.5.1.3
   EggNOG_annotation: peg.785:Condenses 4-methyl-5-(beta-hydroxyethyl)thiazole monophosphate
@@ -16017,7 +16022,7 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: '|2-Methyl-4-amino-5-hydroxymethylpyrimidine diphosphate[c]|
-    + |thiazole tautomer[c]| <=> Diphosphate[c] + |Thiamin monophosphate[c]| + CO2[c]'
+    + |thiazole tautomer[c]|  + H+[c] <=> Diphosphate[c] + |Thiamin monophosphate[c]| + CO2[c]'
 - id: R10646
   equation: C04432[c] + C17023[c] + C00019[c] <=> C20755[c] + C00073[c] + C05198[c]
   ec:
@@ -23425,35 +23430,35 @@
 #   tag: KEGG_Cbes,Cce
 #   translated_equation: Starch(n=4)[c] + (4) Phosphate[c] => Amylose(n=4)[c] + (4)
 #     |D-Glucose 1-phosphate (G1P)[c]|
-- id: R03527
-  name: D-Glucoside glucohydrolase
-  genes: fig|31899.10.peg.878
-  equation: C00963[c] + C00001[c] => C00221[c] + C01335[c]
-  ec:
-  - 3.2.1.21
-  EggNOG_annotation: peg.2930:Glycoside hydrolase family 3 domain protein;   peg.878:hydrolase,
-    family 1
-  KEGG_annotation: Athe_2354:K05349 beta-glucosidase [EC:3.2.1.21] | (GenBank) glycoside
-    hydrolase family 3 domain protein;   Athe_0458:K05350 beta-glucosidase [EC:3.2.1.21]
-    | (GenBank) beta-galactosidase
-  PATRIC_annotation: Xylan 1,4-beta-xylosidase (EC 3.2.1.37) @ Arabinan endo-1,5-alpha-L-arabinosidase
-    (EC 3.2.1.99) or beta-glucosidase (EC 3.2.1.21)
-  curated: true
-  genesNCBI: Athe_0458
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.2930,peg.878
-  genes_string_NCBI_id: Athe_2354,Athe_0458
-  genes_string_PATRIC_id: peg.2930,peg.878
-  names:
-  - D-Glucoside glucohydrolase
-  other_pathways:
-  - Starch and sucrose metabolism
-  pathway: Starch and sucrose metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: beta-D-Glucoside[c] + H2O[c] => beta-D-glucose[c] + ROH[c]
+# - id: R03527
+#   name: D-Glucoside glucohydrolase
+#   genes: fig|31899.10.peg.878
+#   equation: C00963[c] + C00001[c] => C00221[c] + C01335[c]
+#   ec:
+#   - 3.2.1.21
+#   EggNOG_annotation: peg.2930:Glycoside hydrolase family 3 domain protein;   peg.878:hydrolase,
+#     family 1
+#   KEGG_annotation: Athe_2354:K05349 beta-glucosidase [EC:3.2.1.21] | (GenBank) glycoside
+#     hydrolase family 3 domain protein;   Athe_0458:K05350 beta-glucosidase [EC:3.2.1.21]
+#     | (GenBank) beta-galactosidase
+#   PATRIC_annotation: Xylan 1,4-beta-xylosidase (EC 3.2.1.37) @ Arabinan endo-1,5-alpha-L-arabinosidase
+#     (EC 3.2.1.99) or beta-glucosidase (EC 3.2.1.21)
+#   curated: true
+#   genesNCBI: Athe_0458
+#   genes_Cce: None
+#   genes_Cth: None
+#   genes_Tsac: None
+#   genes_kegg: peg.2930,peg.878
+#   genes_string_NCBI_id: Athe_2354,Athe_0458
+#   genes_string_PATRIC_id: peg.2930,peg.878
+#   names:
+#   - D-Glucoside glucohydrolase
+#   other_pathways:
+#   - Starch and sucrose metabolism
+#   pathway: Starch and sucrose metabolism
+#   source: KEGG
+#   tag: KEGG_Cbes
+#   translated_equation: beta-D-Glucoside[c] + H2O[c] => beta-D-glucose[c] + ROH[c]
 - id: R02887_kz
   name: 1,4-beta-D-Glucan glucohydrolase
   genes: fig|31899.10.peg.878
@@ -23673,7 +23678,7 @@
 - id: R02110_kz
   name: 1,4-alpha-D-Glucan:1,4-alpha-D-glucan 6-alpha-D-(1,4-alpha-D-glucano)-transferase
   genes: fig|31899.10.peg.990
-  equation: (2) C00718_kz1[c] => C00369_kz[c]
+  equation: (2) C00718_kz1[c] => C00369_kz[c] + (2)C00001[c]
   ec:
   - 2.4.1.18
   EggNOG_annotation: peg.990:Catalyzes the formation of the alpha-1,6-glucosidic
@@ -23701,7 +23706,7 @@
   pathway: Starch and sucrose metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: (2) Amylose(n=4)[c] => Starch(n=4)[c]
+  translated_equation: (2) Amylose(n=4)[c] => Starch(n=4)[c] + (2) H2O[c]
 - id: R02727
   name: alpha,alpha-Trehalose:orthophosphate beta-D-glucosyltransferase
   genes: fig|31899.10.peg.818
@@ -23768,7 +23773,7 @@
 - id: R11307_kz
   genes: fig|31899.10.peg.2380 or fig|31899.10.peg.2376 or fig|31899.10.peg.1027 
     or fig|31899.10.peg.2370 or fig|31899.10.peg.2377
-  equation: C00760_kz[e] + (2) C00001[e] => (2) C02013[e]
+  equation: C00760_kz[e] + C00001[e] => (2) C02013[e]
   ec:
   - 3.2.1.4
   EggNOG_annotation: peg.633:Glycoside hydrolase family 5;   peg.2376:Cellulase (glycosyl
@@ -23796,7 +23801,7 @@
   pathway: Starch and sucrose metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: Cellulose(n=8)[e] + (2) H2O[e] => (2) Cellotetraose[e]
+  translated_equation: Cellulose(n=8)[e] + H2O[e] => (2) Cellotetraose[e]
 - id: UDPDPS
   name: undecaprenyl-diphosphatesynthase
   equation: decdp[c] + ipdp[c] => udcpdp[c] + ppi[c]
@@ -27273,19 +27278,19 @@
 #   genes_string_NCBI_id: Athe_0618
 #   pathway: Xylan and xylose metabolism
 #   translated_equation: 1,4-beta-D-Xylan(n=8)[e] + (4) H2O[e] => (4) D-Xylose[e]
-- id: Xylase
-  name: Endo-1,4-beta-xylanase (secreted)
-  genes: (fig|31899.10.peg.473 or fig|31899.10.peg.580 or fig|31899.10.peg.1057 
-    or fig|31899.10.peg.330 or fig|31899.10.peg.582) and fig|31899.10.peg.579 
-  genesNCBI: (Athe_0089 or Athe_0183 or Athe_0618 or Athe_2724 or Athe_0185) and Athe_0182
-  equation: C00707_kz[e] + (2) C00001[e] => (2) XOS[e] + AXOS[e]
-  ec:
-  - 3.2.1.8
-  - 3.2.1.55
-  curated: true
-  pathway: Xylan and xylose metabolism
-  translated_equation: Xylan[e] + H2O[e] => (2) Xylan-oligosaccharides[e] + 
-    Arabinoxylan-oligosaccharides[e]
+# - id: Xylase
+#   name: Endo-1,4-beta-xylanase (secreted)
+#   genes: (fig|31899.10.peg.473 or fig|31899.10.peg.580 or fig|31899.10.peg.1057 
+#     or fig|31899.10.peg.330 or fig|31899.10.peg.582) and fig|31899.10.peg.579 
+#   genesNCBI: (Athe_0089 or Athe_0183 or Athe_0618 or Athe_2724 or Athe_0185) and Athe_0182
+#   equation: C00707_kz[e] + (2) C00001[e] => (2) XOS[e] + AXOS[e]
+#   ec:
+#   - 3.2.1.8
+#   - 3.2.1.55
+#   curated: true
+#   pathway: Xylan and xylose metabolism
+#   translated_equation: Xylan[e] + H2O[e] => (2) Xylan-oligosaccharides[e] + 
+#     Arabinoxylan-oligosaccharides[e]
 - id: XylS
   name: alpha-xylosidase
   genes: fig|31899.10.peg.2603

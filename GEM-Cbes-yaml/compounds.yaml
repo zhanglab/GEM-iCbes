@@ -4000,14 +4000,14 @@
   - UDP-N-acetyl-3-O-(1-carboxyvinyl)-alpha-D-glucosamine
   source: KEGG
   tag: kegg-filterred-database
-- id: C00963
-  name: beta-D-Glucoside
-  formula: C6H11O6R
-  charge: 0
-  names:
-  - beta-D-Glucoside
-  source: KEGG
-  tag: kegg-filterred-database
+# - id: C00963
+#   name: beta-D-Glucoside
+#   formula: C6H11O6R
+#   charge: 0
+#   names:
+#   - beta-D-Glucoside
+#   source: KEGG
+#   tag: kegg-filterred-database
 - id: C05980
   name: Cardiolipin
   formula: C13H18O17P2R4
@@ -4739,13 +4739,13 @@
 #   charge: 0
 #   source: KEGG
 #   tag: kegg-generic-database
-- id: C05359
-  name: e-
-  charge: -1
-  formula: None
-  names:
-  - e-
-  - Electron
+# - id: C05359
+#   name: e-
+#   charge: -1
+#   formula: None
+#   names:
+#   - e-
+#   - Electron
 # - id: C02352_kz
 #   name: 1,4-beta-D-Xylan(n=8)
 #   names:
@@ -4796,13 +4796,13 @@
 #   charge: 0
 #   source: Pubchem
 #   tag: AddFromRxn
-- id: C02337_kz
-  name: beta-D-Xyloside
-  names:
-  - beta-D-Xyloside
-  formula: (C5H9O5)4
-  charge: 0
-  tag: AddFromRxn
+# - id: C02337_kz
+#   name: beta-D-Xyloside
+#   names:
+#   - beta-D-Xyloside
+#   formula: (C5H9O5)4
+#   charge: 0
+#   tag: AddFromRxn
 # - id: axyls
 #   name: alpha-D-Xyloside
 #   formula: (C5H9O5)4
@@ -4837,11 +4837,13 @@
   tag: kegg-filterred-database
 - id: AXOS
   name: Arabinoxylan-oligosaccharides
-  formula: H2O(C10H16O8)4
-  mol_weight: 1074.93
+  # formula: H2O(C10H16O8)4
+  formula: C35H58O29
+  mol_weight: 958.81
   charge: 0
   source: manually-add
   tag: AddFromRxn
+  note: based on metacyc - https://biocyc.org/compound?orgid=META&id=Arabinoxylan
 - id: C02964
   name: 4-O-beta-D-Glucopyranosyl-D-mannose
   names:
