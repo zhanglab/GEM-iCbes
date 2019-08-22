@@ -5212,3 +5212,527 @@
   tag: KEGG_Cbes
   translated_equation: ITP[c] + |D-Fructose 6-phosphate[c]| <=> IDP[c] + |D-Fructose
     1,6-bisphosphate[c]|
+- id: R00435
+  name: ATP:polynucleotide adenylyltransferase
+  equation: C00002[c] + C00046[c] <=> C00013[c] + C00046[c]
+  ec:
+  - 2.7.7.6
+  - 2.7.7.19
+  - 2.7.7.48
+  EggNOG_annotation: peg.1517:Promotes RNA polymerase assembly. Latches the N- and
+    C- terminal regions of the beta' subunit thereby facilitating its interaction
+    with the beta and alpha subunits (By similarity);   peg.1264:DNA-dependent RNA
+    polymerase catalyzes the transcription of DNA into RNA using the four ribonucleoside
+    triphosphates as substrates (By similarity);   peg.2226:DNA-dependent RNA polymerase
+    catalyzes the transcription of DNA into RNA using the four ribonucleoside triphosphates
+    as substrates (By similarity);   peg.1263:DNA-dependent RNA polymerase catalyzes
+    the transcription of DNA into RNA using the four ribonucleoside triphosphates
+    as substrates (By similarity)
+  KEGG_annotation: Athe_1717:K03040 DNA-directed RNA polymerase subunit alpha [EC:2.7.7.6]
+    | (GenBank) DNA-directed RNA polymeras;   Athe_0804:K03043 DNA-directed RNA polymerase
+    subunit beta [EC:2.7.7.6] | (GenBank) DNA-directed RNA polymerase;   Athe_1036:K03060
+    DNA-directed RNA polymerase subunit omega [EC:2.7.7.6] | (GenBank) DNA-directed
+    RNA polymeras;   Athe_0805:K03046 DNA-directed RNA polymerase subunit beta' [EC:2.7.7.6]
+    | (GenBank) DNA-directed RNA polymeras
+  PATRIC_annotation: DNA-directed RNA polymerase omega subunit (EC 2.7.7.6) or DNA-directed
+    RNA polymerase beta' subunit (EC 2.7.7.6) or DNA-directed RNA polymerase alpha
+    subunit (EC 2.7.7.6) or DNA-directed RNA polymerase beta subunit (EC 2.7.7.6)
+  comment: 'DNA-directed (ec 2.7.7.6)
+
+    RNA-directed (ec 2.7.7.48)
+
+    non-template (ec 2.7.7.19)'
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2226,peg.1263,peg.1517,peg.1264
+  genes_string_NCBI_id: Athe_1036,Athe_0805,Athe_1717,Athe_0804
+  genes_string_PATRIC_id: peg.1517,peg.1264,peg.2226,peg.1263
+  names:
+  - ATP:polynucleotide adenylyltransferase
+  - ATP:RNA adenylyltransferase
+  other_pathways:
+  - Purine metabolism
+  - Metabolic pathways
+  pathway: Purine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: ATP[c] + RNA[c] <=> Diphosphate[c] + RNA[c]
+- id: R07618
+  name: enzyme N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase
+  genes: fig|31899.10.peg.1157
+  equation: C15973[c] + C00003[c] => C15972[c] + C00004[c] + C00080[c]
+  ec:
+  - 1.8.1.4
+  EggNOG_annotation: peg.1157:dihydrolipoyl dehydrogenase
+  KEGG_annotation: Athe_0703:K00382 dihydrolipoamide dehydrogenase [EC:1.8.1.4] |
+    (GenBank) dihydrolipoamide dehydrogenase
+  PATRIC_annotation: Dihydrolipoamide dehydrogenase of acetoin dehydrogenase (EC
+    1.8.1.4)
+  comment: Oxo-acid dehydrogenase complexes, dihydrolipoyl dehydrogenase
+  curated: true
+  genesNCBI: Athe_0703
+  genes_Cce: None
+  genes_Cth: None
+  genes_string_NCBI_id: Athe_0703
+  genes_Tsac: None
+  genes_kegg: peg.1157
+  names:
+  - enzyme N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase
+  other_pathways:
+  - Glycolysis / Gluconeogenesis
+  - Citrate cycle (TCA cycle)
+  - Valine, leucine and isoleucine degradation
+  - Pyruvate metabolism
+  - Propanoate metabolism
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Microbial metabolism in diverse environments
+  - Biosynthesis of antibiotics
+  pathway: Glycolysis / Gluconeogenesis
+  source: KEGG_Cbes
+  translated_equation: '|Enzyme N6-(dihydrolipoyl)lysine[c]| + |Nicotinamide adenine
+    dinucleotide (NAD)[c]| => |Enzyme N6-(lipoyl)lysine[c]| + |Nicotinamide adenine
+    dinucleotide - reduced (NADH)[c]| + |Proton (H+)[c]|'
+- id: R08550
+  name: protein N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase
+  equation: C16832[c] + C00003[c] <=> C16237[c] + C00004[c] + C00080[c]
+  ec:
+  - 1.8.1.4
+  EggNOG_annotation: peg.1157:dihydrolipoyl dehydrogenase
+  KEGG_annotation: Athe_0703:K00382 dihydrolipoamide dehydrogenase [EC:1.8.1.4] |
+    (GenBank) dihydrolipoamide dehydrogenase
+  PATRIC_annotation: Dihydrolipoamide dehydrogenase of acetoin dehydrogenase (EC
+    1.8.1.4)
+  comment: general reaction (see R03815 and R07618)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1157
+  genes_string_NCBI_id: Athe_0703
+  genes_string_PATRIC_id: peg.1157
+  names:
+  - protein N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|Protein N6-(dihydrolipoyl)lysine[c]| + |Nicotinamide adenine
+    dinucleotide (NAD)[c]| <=> |Protein N6-(lipoyl)lysine[c]| + |Nicotinamide adenine
+    dinucleotide - reduced (NADH)[c]| + |Proton (H+)[c]|'
+- id: R00441
+  name: GTP:RNA guanylyltransferase (DNA-directed)
+  equation: C00044[c] + C00046[c] <=> C00013[c] + C00046[c]
+  ec:
+  - 2.7.7.6
+  - 2.7.7.48
+  EggNOG_annotation: peg.1517:Promotes RNA polymerase assembly. Latches the N- and
+    C- terminal regions of the beta' subunit thereby facilitating its interaction
+    with the beta and alpha subunits (By similarity);   peg.1264:DNA-dependent RNA
+    polymerase catalyzes the transcription of DNA into RNA using the four ribonucleoside
+    triphosphates as substrates (By similarity);   peg.2226:DNA-dependent RNA polymerase
+    catalyzes the transcription of DNA into RNA using the four ribonucleoside triphosphates
+    as substrates (By similarity);   peg.1263:DNA-dependent RNA polymerase catalyzes
+    the transcription of DNA into RNA using the four ribonucleoside triphosphates
+    as substrates (By similarity)
+  KEGG_annotation: Athe_1717:K03040 DNA-directed RNA polymerase subunit alpha [EC:2.7.7.6]
+    | (GenBank) DNA-directed RNA polymeras;   Athe_0804:K03043 DNA-directed RNA polymerase
+    subunit beta [EC:2.7.7.6] | (GenBank) DNA-directed RNA polymerase;   Athe_1036:K03060
+    DNA-directed RNA polymerase subunit omega [EC:2.7.7.6] | (GenBank) DNA-directed
+    RNA polymeras;   Athe_0805:K03046 DNA-directed RNA polymerase subunit beta' [EC:2.7.7.6]
+    | (GenBank) DNA-directed RNA polymeras
+  PATRIC_annotation: DNA-directed RNA polymerase omega subunit (EC 2.7.7.6) or DNA-directed
+    RNA polymerase beta' subunit (EC 2.7.7.6) or DNA-directed RNA polymerase alpha
+    subunit (EC 2.7.7.6) or DNA-directed RNA polymerase beta subunit (EC 2.7.7.6)
+  comment: 'DNA-directed (ec 2.7.7.6)
+
+    RNA-directed (ec 2.7.7.48)'
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2226,peg.1263,peg.1517,peg.1264
+  genes_string_NCBI_id: Athe_1036,Athe_0805,Athe_1717,Athe_0804
+  genes_string_PATRIC_id: peg.1517,peg.1264,peg.2226,peg.1263
+  names:
+  - GTP:RNA guanylyltransferase (DNA-directed)
+  - GTP:RNA guanylyltransferase (RNA-directed)
+  other_pathways:
+  - Purine metabolism
+  - Metabolic pathways
+  pathway: Purine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: GTP[c] + RNA[c] <=> Diphosphate[c] + RNA[c]
+- id: R00444
+  name: nucleoside-triphosphate:RNA nucleotidyltransferase (DNA-directed)
+  equation: C00201[c] + C00046[c] <=> C00013[c] + C00046[c]
+  ec:
+  - 2.7.7.6
+  - 2.7.7.48
+  EggNOG_annotation: peg.1517:Promotes RNA polymerase assembly. Latches the N- and
+    C- terminal regions of the beta' subunit thereby facilitating its interaction
+    with the beta and alpha subunits (By similarity);   peg.1264:DNA-dependent RNA
+    polymerase catalyzes the transcription of DNA into RNA using the four ribonucleoside
+    triphosphates as substrates (By similarity);   peg.2226:DNA-dependent RNA polymerase
+    catalyzes the transcription of DNA into RNA using the four ribonucleoside triphosphates
+    as substrates (By similarity);   peg.1263:DNA-dependent RNA polymerase catalyzes
+    the transcription of DNA into RNA using the four ribonucleoside triphosphates
+    as substrates (By similarity)
+  KEGG_annotation: Athe_1717:K03040 DNA-directed RNA polymerase subunit alpha [EC:2.7.7.6]
+    | (GenBank) DNA-directed RNA polymeras;   Athe_0804:K03043 DNA-directed RNA polymerase
+    subunit beta [EC:2.7.7.6] | (GenBank) DNA-directed RNA polymerase;   Athe_1036:K03060
+    DNA-directed RNA polymerase subunit omega [EC:2.7.7.6] | (GenBank) DNA-directed
+    RNA polymeras;   Athe_0805:K03046 DNA-directed RNA polymerase subunit beta' [EC:2.7.7.6]
+    | (GenBank) DNA-directed RNA polymeras
+  PATRIC_annotation: DNA-directed RNA polymerase omega subunit (EC 2.7.7.6) or DNA-directed
+    RNA polymerase beta' subunit (EC 2.7.7.6) or DNA-directed RNA polymerase alpha
+    subunit (EC 2.7.7.6) or DNA-directed RNA polymerase beta subunit (EC 2.7.7.6)
+  comment: 'DNA-directed (ec 2.7.7.6)
+
+    RNA-directed (ec 2.7.7.48)'
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2226,peg.1263,peg.1517,peg.1264
+  genes_string_NCBI_id: Athe_1036,Athe_0805,Athe_1717,Athe_0804
+  genes_string_PATRIC_id: peg.1517,peg.1264,peg.2226,peg.1263
+  names:
+  - nucleoside-triphosphate:RNA nucleotidyltransferase (DNA-directed)
+  - nucleoside-triphosphate:RNA nucleotidyltransferase (RNA-directed)
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|Nucleoside triphosphate[c]| + RNA[c] <=> Diphosphate[c]
+    + RNA[c]'
+- id: R07282
+  name: polyribonucleotide:phosphate nucleotidyltransferase
+  equation: C00046[c] + C00009[c] <=> C00046[c] + C00454[c]
+  ec:
+  - 2.7.7.8
+  EggNOG_annotation: peg.1538:Involved in mRNA degradation. Hydrolyzes single-stranded
+    polyribonucleotides processively in the 3'- to 5'-direction (By similarity)
+  KEGG_annotation: Athe_1057:K00962 polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]
+    | (GenBank) Polyribonucleotide nucleot
+  PATRIC_annotation: Polyribonucleotide nucleotidyltransferase (EC 2.7.7.8)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1538
+  genes_string_NCBI_id: Athe_1057
+  genes_string_PATRIC_id: peg.1538
+  names:
+  - polyribonucleotide:phosphate nucleotidyltransferase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: RNA[c] + Phosphate[c] <=> RNA[c] + NDP[c]
+- id: R00375
+  name: Deoxyadenosine 5'-triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)
+  equation: C00131[c] + C00039[c] <=> C00013[c] + C00039[c]
+  ec:
+  - 2.7.7.7
+  EggNOG_annotation: peg.2318:Required for replicative DNA synthesis. This DNA polymerase
+    also exhibits 3' to 5' exonuclease activity (By similarity);   peg.2890:Poorly
+    processive, error-prone DNA polymerase involved in untargeted mutagenesis. Copies
+    undamaged DNA at stalled replication forks, which arise in vivo from mismatched
+    or misaligned primer ends. These misaligned primers can be extended by PolIV.
+    Exhibits no 3'-5' exonuclease (proofreading) activity. May be involved in translesional
+    synthesis, in conjunction with the beta clamp from PolIII (By similarity);   peg.376:DNA
+    polymerase III is a complex, multichain enzyme responsible for most of the replicative
+    synthesis in bacteria. This DNA polymerase also exhibits 3' to 5' exonuclease
+    activity. The beta chain is required for initiation of replication once it is
+    clamped onto DNA, it slides freely (bidirectional and ATP- independent) along
+    duplex DNA (By similarity);   peg.1933:DNA polymerase;   peg.945:DNA polymerase
+    III;   peg.2437:DNA polymerase III delta' subunit;   peg.2658:DNA polymerase
+    III, subunits gamma and tau;   peg.1749:DNA polymerase iii;   peg.2350:Phage
+    SPO1 DNA polymerase-related protein
+  KEGG_annotation: Athe_1838:K21929 uracil-DNA glycosylase [EC:3.2.2.27] | (GenBank)
+    phage SPO1 DNA polymerase-related protein;   Athe_0003:K02338 DNA polymerase
+    III subunit beta [EC:2.7.7.7] | (GenBank) DNA polymerase III, beta subunit;   Athe_2107:K02343
+    DNA polymerase III subunit gamma/tau [EC:2.7.7.7] | (GenBank) DNA polymerase
+    III, subunits ga;   Athe_1806:K03763 DNA polymerase III subunit alpha, Gram-positive
+    type [EC:2.7.7.7] | (GenBank) DNA polymerase;   Athe_0515:K02341 DNA polymerase
+    III subunit delta' [EC:2.7.7.7] | (GenBank) DNA-directed DNA polymerase;   Athe_2316:K02346
+    DNA polymerase IV [EC:2.7.7.7] | (GenBank) DNA-directed DNA polymerase;   Athe_1441:K02335
+    DNA polymerase I [EC:2.7.7.7] | (GenBank) DNA polymerase I;   Athe_1920:K02340
+    DNA polymerase III subunit delta [EC:2.7.7.7] | (GenBank) DNA polymerase III,
+    delta subunit;   Athe_1262:K02337 DNA polymerase III subunit alpha [EC:2.7.7.7]
+    | (GenBank) DNA polymerase III, alpha subunit
+  PATRIC_annotation: DNA polymerase III polC-type (EC 2.7.7.7) or DNA polymerase
+    IV (EC 2.7.7.7) or DNA polymerase III delta prime subunit (EC 2.7.7.7) or DNA
+    polymerase III delta subunit (EC 2.7.7.7) or DNA polymerase III beta subunit
+    (EC 2.7.7.7) or DNA polymerase I (EC 2.7.7.7) or DNA polymerase III subunits
+    gamma and tau (EC 2.7.7.7) or DNA polymerase III alpha subunit (EC 2.7.7.7) or
+    Uracil-DNA glycosylase, family 4 (EC 3.2.2.27)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2350,peg.376,peg.2658,peg.2318,peg.945,peg.2890,peg.1933,peg.2437,peg.1749
+  genes_string_NCBI_id: Athe_1806,Athe_2316,Athe_0515,Athe_1920,Athe_0003,Athe_1441,Athe_2107,Athe_1262,Athe_1838
+  genes_string_PATRIC_id: peg.2318,peg.2890,peg.945,peg.2437,peg.376,peg.1933,peg.2658,peg.1749,peg.2350
+  names:
+  - Deoxyadenosine 5'-triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)
+  other_pathways:
+  - Purine metabolism
+  - Metabolic pathways
+  pathway: Purine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: dATP[c] + DNA[c] <=> Diphosphate[c] + DNA[c]
+- id: R00376
+  name: Deoxyguanosine 5'-triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)
+  equation: C00286[c] + C00039[c] <=> C00013[c] + C00039[c]
+  ec:
+  - 2.7.7.7
+  EggNOG_annotation: peg.2318:Required for replicative DNA synthesis. This DNA polymerase
+    also exhibits 3' to 5' exonuclease activity (By similarity);   peg.2890:Poorly
+    processive, error-prone DNA polymerase involved in untargeted mutagenesis. Copies
+    undamaged DNA at stalled replication forks, which arise in vivo from mismatched
+    or misaligned primer ends. These misaligned primers can be extended by PolIV.
+    Exhibits no 3'-5' exonuclease (proofreading) activity. May be involved in translesional
+    synthesis, in conjunction with the beta clamp from PolIII (By similarity);   peg.376:DNA
+    polymerase III is a complex, multichain enzyme responsible for most of the replicative
+    synthesis in bacteria. This DNA polymerase also exhibits 3' to 5' exonuclease
+    activity. The beta chain is required for initiation of replication once it is
+    clamped onto DNA, it slides freely (bidirectional and ATP- independent) along
+    duplex DNA (By similarity);   peg.1933:DNA polymerase;   peg.945:DNA polymerase
+    III;   peg.2437:DNA polymerase III delta' subunit;   peg.2658:DNA polymerase
+    III, subunits gamma and tau;   peg.1749:DNA polymerase iii;   peg.2350:Phage
+    SPO1 DNA polymerase-related protein
+  KEGG_annotation: Athe_1838:K21929 uracil-DNA glycosylase [EC:3.2.2.27] | (GenBank)
+    phage SPO1 DNA polymerase-related protein;   Athe_0003:K02338 DNA polymerase
+    III subunit beta [EC:2.7.7.7] | (GenBank) DNA polymerase III, beta subunit;   Athe_2107:K02343
+    DNA polymerase III subunit gamma/tau [EC:2.7.7.7] | (GenBank) DNA polymerase
+    III, subunits ga;   Athe_1806:K03763 DNA polymerase III subunit alpha, Gram-positive
+    type [EC:2.7.7.7] | (GenBank) DNA polymerase;   Athe_0515:K02341 DNA polymerase
+    III subunit delta' [EC:2.7.7.7] | (GenBank) DNA-directed DNA polymerase;   Athe_2316:K02346
+    DNA polymerase IV [EC:2.7.7.7] | (GenBank) DNA-directed DNA polymerase;   Athe_1441:K02335
+    DNA polymerase I [EC:2.7.7.7] | (GenBank) DNA polymerase I;   Athe_1920:K02340
+    DNA polymerase III subunit delta [EC:2.7.7.7] | (GenBank) DNA polymerase III,
+    delta subunit;   Athe_1262:K02337 DNA polymerase III subunit alpha [EC:2.7.7.7]
+    | (GenBank) DNA polymerase III, alpha subunit
+  PATRIC_annotation: DNA polymerase III polC-type (EC 2.7.7.7) or DNA polymerase
+    IV (EC 2.7.7.7) or DNA polymerase III delta prime subunit (EC 2.7.7.7) or DNA
+    polymerase III delta subunit (EC 2.7.7.7) or DNA polymerase III beta subunit
+    (EC 2.7.7.7) or DNA polymerase I (EC 2.7.7.7) or DNA polymerase III subunits
+    gamma and tau (EC 2.7.7.7) or DNA polymerase III alpha subunit (EC 2.7.7.7) or
+    Uracil-DNA glycosylase, family 4 (EC 3.2.2.27)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2350,peg.376,peg.2658,peg.2318,peg.945,peg.2890,peg.1933,peg.2437,peg.1749
+  genes_string_NCBI_id: Athe_1806,Athe_2316,Athe_0515,Athe_1920,Athe_0003,Athe_1441,Athe_2107,Athe_1262,Athe_1838
+  genes_string_PATRIC_id: peg.2318,peg.2890,peg.945,peg.2437,peg.376,peg.1933,peg.2658,peg.1749,peg.2350
+  names:
+  - Deoxyguanosine 5'-triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)
+  other_pathways:
+  - Purine metabolism
+  - Metabolic pathways
+  pathway: Purine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: dGTP[c] + DNA[c] <=> Diphosphate[c] + DNA[c]
+- id: R00437
+  name: polyribonucleotide:phosphate adenylyltransferase
+  equation: C00046[c] + C00009[c] <=> C00046[c] + C00008[c]
+  ec:
+  - 2.7.7.8
+  EggNOG_annotation: peg.1538:Involved in mRNA degradation. Hydrolyzes single-stranded
+    polyribonucleotides processively in the 3'- to 5'-direction (By similarity)
+  KEGG_annotation: Athe_1057:K00962 polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]
+    | (GenBank) Polyribonucleotide nucleot
+  PATRIC_annotation: Polyribonucleotide nucleotidyltransferase (EC 2.7.7.8)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1538
+  genes_string_NCBI_id: Athe_1057
+  genes_string_PATRIC_id: peg.1538
+  names:
+  - polyribonucleotide:phosphate adenylyltransferase
+  other_pathways:
+  - Purine metabolism
+  pathway: Purine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: RNA[c] + Phosphate[c] <=> RNA[c] + ADP[c]
+- id: R00439
+  name: polyribonucleotide:phosphate guanylyltransferase
+  equation: C00046[c] + C00009[c] <=> C00046[c] + C00035[c]
+  ec:
+  - 2.7.7.8
+  EggNOG_annotation: peg.1538:Involved in mRNA degradation. Hydrolyzes single-stranded
+    polyribonucleotides processively in the 3'- to 5'-direction (By similarity)
+  KEGG_annotation: Athe_1057:K00962 polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]
+    | (GenBank) Polyribonucleotide nucleot
+  PATRIC_annotation: Polyribonucleotide nucleotidyltransferase (EC 2.7.7.8)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1538
+  genes_string_NCBI_id: Athe_1057
+  genes_string_PATRIC_id: peg.1538
+  names:
+  - polyribonucleotide:phosphate guanylyltransferase
+  other_pathways:
+  - Purine metabolism
+  pathway: Purine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: RNA[c] + Phosphate[c] <=> RNA[c] + GDP[c]
+- id: R00442
+  name: CTP:RNA cytidylyltransferase (DNA-directed)
+  equation: C00063[c] + C00046[c] <=> C00013[c] + C00046[c]
+  ec:
+  - 2.7.7.6
+  - 2.7.7.48
+  EggNOG_annotation: peg.1517:Promotes RNA polymerase assembly. Latches the N- and
+    C- terminal regions of the beta' subunit thereby facilitating its interaction
+    with the beta and alpha subunits (By similarity);   peg.1264:DNA-dependent RNA
+    polymerase catalyzes the transcription of DNA into RNA using the four ribonucleoside
+    triphosphates as substrates (By similarity);   peg.2226:DNA-dependent RNA polymerase
+    catalyzes the transcription of DNA into RNA using the four ribonucleoside triphosphates
+    as substrates (By similarity);   peg.1263:DNA-dependent RNA polymerase catalyzes
+    the transcription of DNA into RNA using the four ribonucleoside triphosphates
+    as substrates (By similarity)
+  KEGG_annotation: Athe_1717:K03040 DNA-directed RNA polymerase subunit alpha [EC:2.7.7.6]
+    | (GenBank) DNA-directed RNA polymeras;   Athe_0804:K03043 DNA-directed RNA polymerase
+    subunit beta [EC:2.7.7.6] | (GenBank) DNA-directed RNA polymerase;   Athe_1036:K03060
+    DNA-directed RNA polymerase subunit omega [EC:2.7.7.6] | (GenBank) DNA-directed
+    RNA polymeras;   Athe_0805:K03046 DNA-directed RNA polymerase subunit beta' [EC:2.7.7.6]
+    | (GenBank) DNA-directed RNA polymeras
+  PATRIC_annotation: DNA-directed RNA polymerase omega subunit (EC 2.7.7.6) or DNA-directed
+    RNA polymerase beta' subunit (EC 2.7.7.6) or DNA-directed RNA polymerase alpha
+    subunit (EC 2.7.7.6) or DNA-directed RNA polymerase beta subunit (EC 2.7.7.6)
+  comment: 'DNA-directed (ec 2.7.7.6)
+
+    RNA-directed (ec 2.7.7.48)'
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2226,peg.1263,peg.1517,peg.1264
+  genes_string_NCBI_id: Athe_1036,Athe_0805,Athe_1717,Athe_0804
+  genes_string_PATRIC_id: peg.1517,peg.1264,peg.2226,peg.1263
+  names:
+  - CTP:RNA cytidylyltransferase (DNA-directed)
+  - CTP:RNA cytidylyltransferase (RNA-directed)
+  other_pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: CTP[c] + RNA[c] <=> Diphosphate[c] + RNA[c]
+- id: R00443
+  name: UTP:RNA uridylyltransferase
+  equation: C00075[c] + C00046[c] <=> C00013[c] + C00046[c]
+  ec:
+  - 2.7.7.6
+  - 2.7.7.48
+  - 2.7.7.52
+  EggNOG_annotation: peg.1517:Promotes RNA polymerase assembly. Latches the N- and
+    C- terminal regions of the beta' subunit thereby facilitating its interaction
+    with the beta and alpha subunits (By similarity);   peg.1264:DNA-dependent RNA
+    polymerase catalyzes the transcription of DNA into RNA using the four ribonucleoside
+    triphosphates as substrates (By similarity);   peg.2226:DNA-dependent RNA polymerase
+    catalyzes the transcription of DNA into RNA using the four ribonucleoside triphosphates
+    as substrates (By similarity);   peg.1263:DNA-dependent RNA polymerase catalyzes
+    the transcription of DNA into RNA using the four ribonucleoside triphosphates
+    as substrates (By similarity)
+  KEGG_annotation: Athe_1717:K03040 DNA-directed RNA polymerase subunit alpha [EC:2.7.7.6]
+    | (GenBank) DNA-directed RNA polymeras;   Athe_0804:K03043 DNA-directed RNA polymerase
+    subunit beta [EC:2.7.7.6] | (GenBank) DNA-directed RNA polymerase;   Athe_1036:K03060
+    DNA-directed RNA polymerase subunit omega [EC:2.7.7.6] | (GenBank) DNA-directed
+    RNA polymeras;   Athe_0805:K03046 DNA-directed RNA polymerase subunit beta' [EC:2.7.7.6]
+    | (GenBank) DNA-directed RNA polymeras
+  PATRIC_annotation: DNA-directed RNA polymerase omega subunit (EC 2.7.7.6) or DNA-directed
+    RNA polymerase beta' subunit (EC 2.7.7.6) or DNA-directed RNA polymerase alpha
+    subunit (EC 2.7.7.6) or DNA-directed RNA polymerase beta subunit (EC 2.7.7.6)
+  comment: 'DNA-directed (ec 2.7.7.6)
+
+    RNA-directed (ec 2.7.7.48)
+
+    non-template (ec 2.7.7.52)'
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2226,peg.1263,peg.1517,peg.1264
+  genes_string_NCBI_id: Athe_1036,Athe_0805,Athe_1717,Athe_0804
+  genes_string_PATRIC_id: peg.1517,peg.1264,peg.2226,peg.1263
+  names:
+  - UTP:RNA uridylyltransferase
+  other_pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: UTP[c] + RNA[c] <=> Diphosphate[c] + RNA[c]
+- id: R00436
+  name: polyribonucleotide ligase (cyclizing, AMP-forming)
+  equation: C00002[c] + C00046[c] <=> C00020[c] + C00013[c] + C02073[c]
+  ec:
+  - 6.5.1.3
+  EggNOG_annotation: peg.2739:Pfam:UPF0027
+  KEGG_annotation: Athe_2183:K14415 tRNA-splicing ligase RtcB (3'-phosphate/5'-hydroxy
+    nucleic acid ligase) [EC:6.5.1.8] | (GenBa
+  PATRIC_annotation: RNA-2',3'-PO4:RNA-5'-OH ligase
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2739
+  genes_string_NCBI_id: Athe_2183
+  genes_string_PATRIC_id: peg.2739
+  names:
+  - polyribonucleotide ligase (cyclizing, AMP-forming)
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: ATP[c] + RNA[c] <=> AMP[c] + Diphosphate[c] + RNA(circular)[c]
+- id: R00438
+  name: polyribonucleotide:phosphate uridylyltransferase
+  equation: C00046[c] + C00009[c] <=> C00046[c] + C00015[c]
+  ec:
+  - 2.7.7.8
+  EggNOG_annotation: peg.1538:Involved in mRNA degradation. Hydrolyzes single-stranded
+    polyribonucleotides processively in the 3'- to 5'-direction (By similarity)
+  KEGG_annotation: Athe_1057:K00962 polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]
+    | (GenBank) Polyribonucleotide nucleot
+  PATRIC_annotation: Polyribonucleotide nucleotidyltransferase (EC 2.7.7.8)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1538
+  genes_string_NCBI_id: Athe_1057
+  genes_string_PATRIC_id: peg.1538
+  names:
+  - polyribonucleotide:phosphate uridylyltransferase
+  other_pathways:
+  - Pyrimidine metabolism
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: RNA[c] + Phosphate[c] <=> RNA[c] + UDP[c]
+- id: R00440
+  name: polyribonucleotide:phosphate cytidylyltransferase
+  equation: C00046[c] + C00009[c] <=> C00046[c] + C00112[c]
+  ec:
+  - 2.7.7.8
+  EggNOG_annotation: peg.1538:Involved in mRNA degradation. Hydrolyzes single-stranded
+    polyribonucleotides processively in the 3'- to 5'-direction (By similarity)
+  KEGG_annotation: Athe_1057:K00962 polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]
+    | (GenBank) Polyribonucleotide nucleot
+  PATRIC_annotation: Polyribonucleotide nucleotidyltransferase (EC 2.7.7.8)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1538
+  genes_string_NCBI_id: Athe_1057
+  genes_string_PATRIC_id: peg.1538
+  names:
+  - polyribonucleotide:phosphate cytidylyltransferase
+  other_pathways:
+  - Pyrimidine metabolism
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: RNA[c] + Phosphate[c] <=> RNA[c] + CDP[c]
