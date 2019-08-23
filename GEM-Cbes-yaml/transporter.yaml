@@ -221,8 +221,7 @@
     C00009[c]
   ec: TC=3.A.2.1.5
   PMID: 8905099, 16816177
-  note: trasnpoprtDB get candidate gene(proton as substarte), TCDB get the final
-    function (Na-dependent)
+  note: trasnpoprtDB get candidate gene(proton as substarte)
   pathway: Transport
   tag: transportDB & TCDB
 - id: RibU
