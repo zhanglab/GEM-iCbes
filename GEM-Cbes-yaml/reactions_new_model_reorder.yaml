@@ -3330,11 +3330,11 @@
   translated_equation: Isocitrate[c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
     => |2-Oxoglutarate (Akg)[c]| + CO2[c] + |Nicotinamide adenine dinucleotide -
     reduced (NADH)[c]| + |Proton (H+)[c]|
-- id: R01197_kz
+- id: R01197
   name: 2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)
   genes: fig|31899.10.peg.1576 and fig|31899.10.peg.1577 and fig|31899.10.peg.1578
     and fig|31899.10.peg.1579
-  equation: C00139[c] + C00026[c] + C00010[c] => C00138[c] + C00091[c] +
+  equation: (2) C00139[c] + C00026[c] + C00010[c] => (2) C00138[c] + C00091[c] +
     C00011[c] + (2) C00080[c]
   ec:
   - 1.2.7.3
@@ -3381,8 +3381,8 @@
   pathway: Citrate cycle (TCA cycle)
   source: KEGG
   tag: KEGG_Cbes,Tsac
-  translated_equation: '|Oxidized ferredoxin (2[4Fe-4S]) (Fdox)[c]| + |2-Oxoglutarate
-    (Akg)[c]| + |Coenzyme A (CoA)[c]| <=> |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]|
+  translated_equation: '(2) |Oxidized ferredoxin (2[4Fe-4S]) (Fdox)[c]| + |2-Oxoglutarate
+    (Akg)[c]| + |Coenzyme A (CoA)[c]| <=> (2) |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]|
     + |Succinyl-CoA (SucCoA)[c]| + CO2[c] + (2) |Proton (H+)[c]|'
 - id: R01325
   name: citrate hydro-lyase (cis-aconitate-forming)
@@ -4664,8 +4664,8 @@
   name: Bifurcating hydrogenase
   genes: fig|31899.10.peg.1783 and fig|31899.10.peg.1784 and fig|31899.10.peg.1785
     and fig|31899.10.peg.1786 and fig|31899.10.peg.1787
-  equation: (3) C00080[c] + C00004[c] + C00138[c] => (2) C00282[c] + C00003[c]
-    + C00139[c]
+  equation: (3) C00080[c] + C00004[c] + (2) C00138[c] => (2) C00282[c] + C00003[c]
+    + (2) C00139[c]
   ec:
   - 1.12.1.4
   curated: true
@@ -4678,15 +4678,15 @@
   source: KEGG
   tag: psammotate (tsac) & manual curation
   translated_equation: (3) |Proton (H+)[c]| + |Nicotinamide adenine dinucleotide
-    - reduced (NADH)[c]| + |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]| <=> (2)
-    Hydrogen[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| + |Oxidized ferredoxin
+    - reduced (NADH)[c]| + (2) |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]| <=> (2)
+    Hydrogen[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| + (2) |Oxidized ferredoxin
     (2[4Fe-4S]) (Fdox)[c]|
   PMID: 26536872,22800682
 - id: MBH
   name: H2-evolving membrane-bound hydrogenase
   genes: fig|31899.10.peg.1563 and fig|31899.10.peg.1564 and fig|31899.10.peg.1565
     and fig|31899.10.peg.1566 and fig|31899.10.peg.1567 and fig|31899.10.peg.1568
-  equation: C00138[c] + (3) C00080[c] => C00282[c] + C00139[c] + C00080[e]
+  equation: (2) C00138[c] + (3) C00080[c] => C00282[c] + (2) C00139[c] + C00080[e]
   ec:
   - 1.12.7.2
   curated: true
@@ -4698,15 +4698,15 @@
   pathway: ETF pathway
   source: KEGG
   tag: psammotate (tsac) & manual curation
-  translated_equation: '|Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]| + (3) |Proton
-    (H+)[c]| => Hydrogen[c] + |Oxidized ferredoxin (2[4Fe-4S]) (Fdox)[c]| + |Proton
+  translated_equation: '(2) |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]| + (3) |Proton
+    (H+)[c]| => Hydrogen[c] + (2) |Oxidized ferredoxin (2[4Fe-4S]) (Fdox)[c]| + |Proton
     (H+)[e]|'
   PMID: 22800682
 - id: BF-Nfn
   name: NADH-dependent reduced ferredoxin:NADP+ oxidoreductase
   genes: fig|31899.10.peg.1085 and fig|31899.10.peg.1086
-  equation: C00004[c] + C00138[c] + (2) C00006[c] + C00080[c] => C00003[c] +
-    C00139[c] + (2) C00005[c]
+  equation: C00004[c] + (2) C00138[c] + (2) C00006[c] + C00080[c] => C00003[c] +
+    (2) C00139[c] + (2) C00005[c]
   ec:
   - 1.6.1.4
   curated: true
@@ -4720,9 +4720,9 @@
   source: manual curation
   tag: None
   translated_equation: '|Nicotinamide adenine dinucleotide - reduced (NADH)[c]| +
-    |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]| + (2) |Nicotinamide adenine dinucleotide
+    (2) |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]| + (2) |Nicotinamide adenine dinucleotide
     phosphate (NADP)[c]| + |Proton (H+)[c]| => |Nicotinamide adenine dinucleotide
-    (NAD+)[c]| + |Oxidized ferredoxin (2[4Fe-4S]) (Fdox)[c]| + (2) |Nicotinamide
+    (NAD+)[c]| + (2) |Oxidized ferredoxin (2[4Fe-4S]) (Fdox)[c]| + (2) |Nicotinamide
     adenine dinucleotide phosphate - reduced (NADPH)[c]|'
   PMID: 28705933,22800682
 - id: CODHr
@@ -10019,11 +10019,11 @@
   translated_equation: '|Pyruvate (Pyr)[c]| + |Nicotinamide adenine dinucleotide
     - reduced (NADH)[c]| + |Proton (H+)[c]| <=> L-Lactate[c] + |Nicotinamide adenine
     dinucleotide (NAD)[c]|'
-- id: R01196_kz
+- id: R01196
   name: pyruvate:ferredoxin 2-oxidoreductase (CoA-acetylating)
   genes: (fig|31899.10.peg.1337 and fig|31899.10.peg.1338 and fig|31899.10.peg.1339
     and fig|31899.10.peg.1340) or (fig|31899.10.peg.2217 and fig|31899.10.peg.2218)
-  equation: C00139[c] + C00022[c] + C00010[c] => C00138[c] + C00024[c] +
+  equation: (2) C00139[c] + C00022[c] + C00010[c] => (2) C00138[c] + C00024[c] +
     C00011[c] + (2) C00080[c]
   ec:
   - 1.2.7.1
@@ -10089,8 +10089,8 @@
   pathway: Glycolysis / Gluconeogenesis
   source: KEGG
   tag: KEGG_Cbes,Cth,Tsac
-  translated_equation: '|Oxidized ferredoxin (2[4Fe-4S]) (Fdox)[c]| + |Pyruvate
-    (Pyr)[c]| + |Coenzyme A (CoA)[c]| => |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]|
+  translated_equation: '(2) |Oxidized ferredoxin (2[4Fe-4S]) (Fdox)[c]| + |Pyruvate
+    (Pyr)[c]| + |Coenzyme A (CoA)[c]| => (2) |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]|
     + |Acetyl-CoA (AcCoA)[c]| + CO2[c] + (2) |Proton (H+)[c]|'
 - id: R01518
   name: D-phosphoglycerate 2,3-phosphomutase
@@ -10137,11 +10137,11 @@
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: '|D-Glycerate 2-phosphate (2PG)[c]| <=> |3-Phospho-D-glycerate
     (3PG)[c]|'
-- id: R07159_kz
+- id: R07159
   name: glyceraldehyde-3-phosphate ferredoxin oxidoreductase(GOR)
   genes: fig|31899.10.peg.1279 and fig|31899.10.peg.1280
-  equation: C00118[c] + C00001[c] + C00139[c] => C00197[c] + (2) C00080[c] +
-    C00138[c]
+  equation: C00118[c] + C00001[c] + (2) C00139[c] => C00197[c] + (2) C00080[c] +
+    (2) C00138[c]
   ec:
   - 1.2.7.6
   PMID: The thermophilic biomass-degrading bacterium Caldicellulosiruptor bescii
@@ -10154,7 +10154,7 @@
   pathway: Glycolysis / Gluconeogenesis
   source: KEGG
   tag: manual annotation
-  translated_equation: '|Glyceraldehyde 3-phosphate (GAP)[c]| + H2O[c] + |Oxidized
+  translated_equation: '|Glyceraldehyde 3-phosphate (GAP)[c]| + H2O[c] + (2) |Oxidized
     ferredoxin (2[4Fe-4S]) (Fdox)[c]| => |3-Phospho-D-glycerate (3PG)[c]| + |Proton
     (H+)[c]| + (2) |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]|'
 - id: R00315
@@ -13287,7 +13287,7 @@
   genes: peg.878
   genesNCBI: Athe_0458
   curated: true
-  equation: C00185[c] + C00001[c] <=> (2) C00221[c]
+  equation: C00185[c] + C00001[c] => (2) C00221[c]
   ec:
   - 3.2.1.21
   EggNOG_annotation: peg.2930:Glycoside hydrolase family 3 domain protein;   peg.878:hydrolase,
@@ -13308,7 +13308,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: Cellobiose[c] + H2O[c] <=> (2) beta-D-Glucose[c]
+  translated_equation: Cellobiose[c] + H2O[c] => (2) beta-D-Glucose[c]
 - id: R00164
   name: Phosphoprotein phosphohydrolase
   equation: C00562[c] + C00001[c] <=> C00017[c] + C00009[c]
@@ -13772,7 +13772,7 @@
   translated_equation: alpha-L-Fucoside[c] + H2O[c] <=> Alcohol[c] + 6-Deoxy-L-galactose[c]
 - id: R03801
   name: 1,4-beta-D-Glucan glucohydrolase
-  equation: C02013[c] + C00001[c] <=> C06219[c] + C00031[c]
+  equation: C02013[c] + C00001[c] => C06219[c] + C00031[c]
   genes: fig|31899.10.peg.2375
   genesNCBI: Athe_1865
   curated: true
@@ -13796,7 +13796,7 @@
   pathway: None
   source: KEGG
   tag: Cth
-  translated_equation: Cellotetraose[c] + H2O[c] <=> Cellotriose[c] + D-Glucose[c]
+  translated_equation: Cellotetraose[c] + H2O[c] => Cellotriose[c] + D-Glucose[c]
 - id: R03618
   name: Trihexosylceramide galactohydrolase
   equation: C04737[c] + C00001[c] <=> C00124[c] + C01290[c]
@@ -13866,7 +13866,7 @@
   translated_equation: beta-D-Mannoside[c] + H2O[c] <=> ROH[c] + D-Mannose[c]
 - id: R01444
   name: cellotriose glucohydrolase
-  equation: C06219[c] + C00001[c] <=> C00185[c] + C00031[c]
+  equation: C06219[c] + C00001[c] => C00185[c] + C00031[c]
   genes: fig|31899.10.peg.2375
   genesNCBI: Athe_1865
   curated: true
@@ -13890,7 +13890,7 @@
   pathway: None
   source: KEGG
   tag: Cth
-  translated_equation: Cellotriose[c] + H2O[c] <=> Cellobiose[c] + D-Glucose[c]
+  translated_equation: Cellotriose[c] + H2O[c] => Cellobiose[c] + D-Glucose[c]
   note: gene association comes from manual curation
 - id: R11524
   name: '[Sulfur-carrier protein]-L-cysteine carboxypeptidase'
@@ -15399,7 +15399,8 @@
   name: 3-(indol-3-yl)pyruvate:ferredoxin oxidoreductase (decarboxylating,CoA-indole-acetylating)
   genes: (fig|31899.10.peg.1999 and fig|31899.10.peg.1998) or (fig|31899.10.peg.1489
     and fig|31899.10.peg.1488)
-  equation: C00331[c] + C00010[c] + C00139[c] <=> C15489[c] + C00011[c] + C00138[c] + (2) C00080[c]
+  equation: C00331[c] + C00010[c] + (2) C00139[c] <=> C15489[c] + C00011[c] + 
+    (2) C00138[c] + (2) C00080[c]
   ec:
   - 1.2.7.8
   EggNOG_annotation: peg.1337:oxidoreductase gamma subunit;   peg.1999:indolepyruvate
@@ -15433,9 +15434,9 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes,Cth,Tsac
-  translated_equation: Indolepyruvate[c] + |Coenzyme A (CoA)[c]| + |Oxidized
+  translated_equation: Indolepyruvate[c] + |Coenzyme A (CoA)[c]| + (2) |Oxidized
     ferredoxin (2[4Fe-4S]) (Fdox)[c]| <=> S-2-(indol-3-yl)acetyl-CoA[c] + CO2[c]
-    + |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]| + (2) |Proton (H+)[c]|
+    + (2) |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]| + (2) |Proton (H+)[c]|
 - id: R10516
   name: 2-oxocarboxylate:ferredoxin 2-oxidoreductase (decarboxylating, CoA-acylating)
   equation: C00161[c] + C00010[c] + (2) C00139[c] <=> C00040[c] + C00011[c] + (2)
@@ -23742,10 +23743,10 @@
   translated_equation: '|2-C-Methyl-D-erythritol 2,4-cyclodiphosphate[c]| + |Reduced
     flavodoxin[c]| => |1-Hydroxy-2-methyl-2-butenyl 4-diphosphate[c]| + H2O[c] +
     |Oxidized flavodoxin[c]|'
-- id: R08210_kz
+- id: R08210
   name: dimethylallyl diphosphate:ferredoxin oxidoreductase
   genes: fig|31899.10.peg.1815
-  equation: C11811[c] + C00138[c] + (2) C00080[c] => C00235[c] + C00139[c]
+  equation: C11811[c] + (2) C00138[c] + (2) C00080[c] => C00235[c] + (2) C00139[c]
     + C00001[c]
   ec:
   - 1.17.7.4
@@ -23773,13 +23774,13 @@
   pathway: Terpenoid backbone biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: '|1-Hydroxy-2-methyl-2-butenyl 4-diphosphate[c]| + |Reduced
+  translated_equation: '|1-Hydroxy-2-methyl-2-butenyl 4-diphosphate[c]| + (2) |Reduced
     ferredoxin (2[4Fe-4S]) (Fdred)[c]| + (2) |Proton (H+)[c]| => |Dimethylallyl diphosphate[c]|
-    + |Oxidized ferredoxin (2[4Fe-4S]) (Fdox)[c]| + H2O[c]'
-- id: R05884_kz
+    + (2) |Oxidized ferredoxin (2[4Fe-4S]) (Fdox)[c]| + H2O[c]'
+- id: R05884
   name: isopentenyl-diphosphate:ferredoxin oxidoreductase
   genes: fig|31899.10.peg.1815
-  equation: C11811[c] + C00138[c] + (2) C00080[c] => C00129[c] + C00139[c]
+  equation: C11811[c] + (2) C00138[c] + (2) C00080[c] => C00129[c] + (2) C00139[c]
     + C00001[c]
   ec:
   - 1.17.7.4
@@ -23808,9 +23809,9 @@
   pathway: Terpenoid backbone biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: '|1-Hydroxy-2-methyl-2-butenyl 4-diphosphate[c]| + |Reduced
+  translated_equation: '|1-Hydroxy-2-methyl-2-butenyl 4-diphosphate[c]| + (2) |Reduced
     ferredoxin (2[4Fe-4S]) (Fdred)[c]| + (2) |Proton (H+)[c]| => |Isopentenyl diphosphate
-    (IPP)[c]| + |Oxidized ferredoxin (2[4Fe-4S]) (Fdox)[c]| + H2O[c]'
+    (IPP)[c]| + (2) |Oxidized ferredoxin (2[4Fe-4S]) (Fdox)[c]| + H2O[c]'
 - id: R05688
   name: 1-Deoxy-D-xylulose-5-phosphate isomeroreductase
   genes: fig|31899.10.peg.2322

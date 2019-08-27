@@ -1560,13 +1560,13 @@
 - id: C00139
   name: Oxidized ferredoxin (2[4Fe-4S]) (Fdox)
   formula: Fe8S8X
-  charge: 0
+  charge: 3
   source: KEGG
   tag: A501
 - id: C00138
   name: Reduced ferredoxin (2[4Fe-4S]) (Fdred)
   formula: Fe8S8X
-  charge: -2
+  charge: 2
   source: KEGG
   tag: A501
 - id: C00135
