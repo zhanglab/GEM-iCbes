@@ -176,6 +176,7 @@
   genes_string_PATRIC_id: peg.1408
   names:
   - UTP:alpha-D-galactose-1-phosphate uridylyltransferase
+  pathway: Galactose metabolism
   other_pathways:
   - Galactose metabolism
   - Amino sugar and nucleotide sugar metabolism
@@ -192,6 +193,7 @@
   genesNCBI: NA
   names:
   - tetrahydropteroyl-gamma-polyglutamate:L-glutamate gamma-ligase (ADP-forming)
+  pathway: Folate biosynthesis
   other_pathways:
   - Folate biosynthesis
   translated_equation: ATP[c] + THF-L-glutamate[c] + |L-Glutamate (Glu-L)[c]| <=>
@@ -209,6 +211,7 @@
   - ATP:L-fuculose 1-phosphotransferase
   note: annotated by Dima, this gene encodes a bifunctional enzyme that can catalase
     phosphorylation of both rhamnulose and fuculose.
+  pathway: Fructose and mannose metabolism
   other_pathways:
   - Fructose and mannose metabolism
   - Microbial metabolism in diverse environments
@@ -220,6 +223,7 @@
   ec:
   - 2.7.3.9
   comment: enzyme I of the phosphotransferase system (see map02060)
+  pathway: Suagr utilization
   curated: true
   genesNCBI: NA
   note: used for transport fructose vis PTS system
@@ -244,6 +248,7 @@
   ec:
   - 3.2.1.135
   curated: true
+  pathway: Sugar utilization
   genesNCBI: Athe_2579
   note: function annotation is from manual curation, assigned in maltose pathway.
     But no corresponding kegg pathway assigned to this EC
@@ -882,7 +887,7 @@
   translated_equation: Xylan-oligosaccharides[c] + (3) H2O[c] => (4) D-Xylose[c]
 - id: R00022
   name: chitobiose N-acetylglucosaminohydrolase
-  equation: C01674[c] + C00001[c] <=> (2) C00140[c]
+  equation: C01674[c] + C00001[c] => (2) C00140[c]
   ec:
   - 3.2.1.52
   EggNOG_annotation: peg.1837:amino acids such as valine, to avoid such errors it
@@ -907,7 +912,7 @@
   pathway: Amino sugar and nucleotide sugar metabolism
   source: KEGG
   tag: Tsac
-  translated_equation: Chitobiose[c] + H2O[c] <=> (2) |N-Acetyl-D-glucosamine (GlcNAc)[c]|
+  translated_equation: Chitobiose[c] + H2O[c] => (2) |N-Acetyl-D-glucosamine (GlcNAc)[c]|
 - id: R01762_kz
   name: alpha-L-arabinan arabinofuranohydrolase
   genes: fig|31899.10.peg.1854 or fig|31899.10.peg.2951
@@ -1871,7 +1876,7 @@
     + Diphosphate[c] + AMP[c]
 - id: R03024
   name: 4-nitrophenyl phosphate phosphohydrolase
-  equation: C03360[c] + C00001[c] <=> C00870[c] + C00009[c]
+  equation: C03360[c] + C00001[c] => C00870[c] + C00009[c]
   ec:
   - 3.1.3.1
   - 3.1.3.2
@@ -1894,7 +1899,7 @@
   pathway: Aminobenzoate degradation
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: '|4-Nitrophenyl phosphate[c]| + H2O[c] <=> 4-Nitrophenol[c]
+  translated_equation: '|4-Nitrophenyl phosphate[c]| + H2O[c] => 4-Nitrophenol[c]
     + Phosphate[c]'
 - id: UAGDP
   name: UDP-N-acetylglucosaminediphosphorylase
@@ -3368,8 +3373,8 @@
   genes_string_NCBI_id: Athe_0874,Athe_1505,peg.1577,Athe_1095,Athe_1098,Athe_1097,Athe_1009
   names:
   - 2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)
-  note: based on Dima's annottaion, gene association should be Athe_1096-97-98, but
-    no idetical peg gene can map to Athe_1096. For Cce, psammotate of this rxn is
+  note: based on Dima's annottaion, gene association should be Athe_1096-97-98, no idetical peg gene 
+    can map to Athe_1096, but basltp shows . For Cce, psammotate of this rxn is
     FALSE.
   other_pathways:
   - Citrate cycle (TCA cycle)
@@ -4233,7 +4238,7 @@
   names:
   - L-Homoserine:NAD+ oxidoreductase
   note: according to literature, reactions carried by this enzyme are reversile.
-    In tsac model, it is highlighted as irreversible.
+    In tsac model, it is highlighted as irreversible. I follow the literature
   other_pathways:
   - Glycine, serine and threonine metabolism
   - Cysteine and methionine metabolism
@@ -4673,12 +4678,12 @@
   genes_kegg: None
   # kegg: R09508
   note: similar to kegg R09508 but not exactly same. Reaction equation is based on literature.
-  pathway: ETF
+  pathway: ETF pathway
   # regulon: Rex, target to hydDECBA
   source: KEGG
   tag: psammotate (tsac) & manual curation
   translated_equation: (3) |Proton (H+)[c]| + |Nicotinamide adenine dinucleotide
-    - reduced (NADH)[c]| + (2) |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]| <=> (2)
+    - reduced (NADH)[c]| + (2) |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]| => (2)
     Hydrogen[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| + (2) |Oxidized ferredoxin
     (2[4Fe-4S]) (Fdox)[c]|
   PMID: 26536872,22800682
@@ -7682,7 +7687,7 @@
   genes: fig|31899.10.peg.2375 or fig|31899.10.peg.2376 or pfig|31899.10.peg.2379
   genesNCBI: Athe_1865 or Athe_1866 or Athe_1859
   curated: true
-  equation: C02492_kz[e] + C00001[e] <=> (2) C17207_kz[e]
+  equation: C02492_kz[e] + C00001[e] => (2) C17207_kz[e]
   ec:
   - 3.2.1.78
   EggNOG_annotation: 'peg.2379:Inherit from firmNOG: Mannan endo-1,4-beta-mannosidase;   peg.2375:hydrolase
@@ -7704,13 +7709,14 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: 1,4-beta-D-Mannan[e] + H2O[e] <=> (2) 1,4-beta-D-Mannooligosaccharide[e]
+  pathway: Sugar utilization
+  translated_equation: 1,4-beta-D-Mannan[e] + H2O[e] => (2) 1,4-beta-D-Mannooligosaccharide[e]
 - id: R08614_kz
   name: 1,4-beta-D-Mannooligosaccharide mannohydrolase
   genes: fig|31899.10.peg.633 and fig|31899.10.peg.625 
   curated: true
   genesNCBI: Athe_0234 and Athe_0227
-  equation: C17207_kz[c] + (3) C00001[c] <=> (4) C00159[c]
+  equation: C17207_kz[c] + (3) C00001[c] => (4) C00159[c]
   ec:
   - 3.2.1.78
   - 3.2.1.25
@@ -7726,10 +7732,10 @@
   genes_string_PATRIC_id: peg.625
   names:
   - 1,4-beta-D-Mannooligosaccharide mannohydrolase
-  pathway: None
+  pathway: Sugar utilization
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: 1,4-beta-D-Mannooligosaccharide[c] + (4) H2O[c] <=> (4) D-Mannose[c]
+  translated_equation: 1,4-beta-D-Mannooligosaccharide[c] + (4) H2O[c] => (4) D-Mannose[c]
 - id: R01818
   name: D-mannose 6-phosphate 1,6-phosphomutase
   genes: fig|31899.10.peg.632 or fig|31899.10.peg.2262
@@ -11402,7 +11408,7 @@
   genes_string_PATRIC_id: peg.94
   names:
   - cellobiose 2-epimerase
-  pathway: None
+  pathway: Sugar utilization
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: Cellobiose[c] <=> 4-O-beta-D-Glucopyranosyl-D-mannose[c]
@@ -12240,7 +12246,7 @@
   translated_equation: 2,4-Diamino-6-nitrotoluene[c] <=> 2,4-Diamino-6-hydroxylaminotoluene[c]
 - id: R10811_kz
   name: 1,4-beta-D-mannooligosaccharide:phosphate alpha-D-mannosyltransferase
-  equation: C17207[c] + (2) C00009[c] <=> C20861[c] + (2) C00636[c]
+  equation: C17207[c] + (2) C00009[c] => C20861[c] + (2) C00636[c]
   ec:
   - 2.4.1.319
   EggNOG_annotation: peg.92:Glycosidase related protein
@@ -12260,7 +12266,7 @@
   pathway: None
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: 1,4-beta-D-Mannooligosaccharide(n=4)[c] + (2) Phosphate[c] <=>
+  translated_equation: 1,4-beta-D-Mannooligosaccharide(n=4)[c] + (2) Phosphate[c] =>
     Mannobiose[c] + (2) |D-Mannose 1-phosphate[c]|
 - id: R09592
   name: cyanophycin:L-aspartate ligase (ADP-forming)
@@ -12737,33 +12743,6 @@
   tag: KEGG_Cbes
   translated_equation: '|Protein glutamine[c]| + |S-Adenosyl-L-methionine (SAM)[c]|
     <=> |Protein N5-methyl-L-glutamine[c]| + S-Adenosyl-L-homocysteine[c]'
-- id: R11529
-  name: '[enzyme]-S-sulfanylcysteine:sulfur-acceptor sulfurtransferase'
-  equation: C15812[c] + C02743[c] <=> C15811[c] + C21440[c]
-  ec:
-  - 2.8.1.7
-  EggNOG_annotation: peg.2042:Cysteine desulfurase;   peg.2223:Cysteine desulfurase
-  KEGG_annotation: Athe_1547:K04487 cysteine desulfurase [EC:2.8.1.7] | (GenBank)
-    aminotransferase class V;   Athe_1714:K04487 cysteine desulfurase [EC:2.8.1.7]
-    | (GenBank) cysteine desulfurase NifS
-  PATRIC_annotation: Cysteine desulfurase (EC 2.8.1.7), associated with tRNA 4-thiouridine
-    synthase or Cysteine desulfurase (EC 2.8.1.7)
-  comment: '[Enzyme] is the enzyme itself [KO:K04487].
-
-    [Protein] is sulfur-carrier protein sulfurtransferases.'
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.2042,peg.2223
-  genes_string_NCBI_id: Athe_1547,Athe_1714
-  genes_string_PATRIC_id: peg.2042,peg.2223
-  names:
-  - '[enzyme]-S-sulfanylcysteine:sulfur-acceptor sulfurtransferase'
-  pathway: None
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: '[Enzyme]-S-sulfanylcysteine[c] + [Protein]-L-cysteine[c]
-    <=> [Enzyme]-cysteine[c] + [Protein]-S-sulfanyl-L-cysteine[c]'
 - id: R11485
   name: flavodoxin:NADP+ oxidoreductase
   equation: C02745[c] + C00006[c] <=> C02869[c] + C00005[c] + C00080[c]
@@ -13305,7 +13284,7 @@
   genes_string_PATRIC_id: peg.2930,peg.878
   names:
   - cellobiose glucohydrolase
-  pathway: None
+  pathway: Sugar utilization
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: Cellobiose[c] + H2O[c] => (2) beta-D-Glucose[c]
@@ -13744,7 +13723,7 @@
   genes_string_PATRIC_id: peg.1080
   names:
   - Peptidylproline cis-trans-isomerase
-  pathway: None
+  pathway: Sugar utilization
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: '|Peptidylproline (omega=180)[c]| <=> |Peptidylproline (omega=0)[c]|'
@@ -13793,7 +13772,7 @@
   genes_string_PATRIC_id: peg.2930,peg.878
   names:
   - 1,4-beta-D-Glucan glucohydrolase
-  pathway: None
+  pathway: Sugar utilization
   source: KEGG
   tag: Cth
   translated_equation: Cellotetraose[c] + H2O[c] => Cellotriose[c] + D-Glucose[c]
@@ -13887,7 +13866,7 @@
   genes_string_PATRIC_id: peg.2930,peg.878
   names:
   - cellotriose glucohydrolase
-  pathway: None
+  pathway: Sugar utilization
   source: KEGG
   tag: Cth
   translated_equation: Cellotriose[c] + H2O[c] => Cellobiose[c] + D-Glucose[c]
@@ -14088,7 +14067,7 @@
 - id: R00004
   name: diphosphate phosphohydrolase
   genes: fig|31899.10.peg.1212
-  equation: C00013[c] + C00001[c] => (2) C00009[c]
+  equation: C00013[c] + C00001[c] + C00080[c] => (2) C00009[c] + C00080[e]
   ec:
   - 3.6.1.1
   EggNOG_annotation: peg.812:IA, variant 3;   peg.1212:Sodium pump that utilizes
@@ -14110,10 +14089,10 @@
   names:
   - diphosphate phosphohydrolase
   - pyrophosphate phosphohydrolase
-  pathway: None
+  pathway: Others
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: Diphosphate[c] + H2O[c] => (2) Phosphate[c]
+  translated_equation: Diphosphate[c] + H2O[c] + H+[c] => (2) Phosphate[c] + H+[e]
 - id: R10209
   name: tRNA-guanosine34:7-aminomethyl-7-carbaguanine tRNA-D-ribosyltransferase
   genes: fig|31899.10.peg.797
@@ -14139,14 +14118,14 @@
   genes_string_PATRIC_id: peg.797
   names:
   - tRNA-guanosine34:7-aminomethyl-7-carbaguanine tRNA-D-ribosyltransferase
-  pathway: None
+  pathway: Sugar utilization
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: '|tRNA guanine[c]| + 7-Aminomethyl-7-deazaguanine[c] => |tRNA
     preQ1[c]| + Guanine[c]'
-- id: R11528
-  name: L-cysteine:sulfur-acceptor sulfurtransferase
-  equation: C00097[c] + C02743[c] <=> C00041[c] + C21440[c]
+- id: R07460
+  name: L-cysteine:[enzyme]-cysteine sulfurtransferase
+  equation: C15811[c] + C00097[c] <=> C15812[c] + C00041[c]
   ec:
   - 2.8.1.7
   EggNOG_annotation: peg.2042:Cysteine desulfurase;   peg.2223:Cysteine desulfurase
@@ -14155,6 +14134,7 @@
     | (GenBank) cysteine desulfurase NifS
   PATRIC_annotation: Cysteine desulfurase (EC 2.8.1.7), associated with tRNA 4-thiouridine
     synthase or Cysteine desulfurase (EC 2.8.1.7)
+  comment: '[Enzyme] is the enzyme itself [KO:K04487].'
   genes_Cce: None
   genes_Cth: None
   genes_Tsac: None
@@ -14162,12 +14142,15 @@
   genes_string_NCBI_id: Athe_1547,Athe_1714
   genes_string_PATRIC_id: peg.2042,peg.2223
   names:
-  - L-cysteine:sulfur-acceptor sulfurtransferase
-  pathway: None
+  - L-cysteine:[enzyme]-cysteine sulfurtransferase
+  other_pathways:
+  - Thiamine metabolism
+  - Metabolic pathways
+  pathway: Thiamine metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: '|L-Cysteine (Cys-L)[c]| + [Protein]-L-cysteine[c] <=> |L-Alanine
-    (Ala-L)[c]| + [Protein]-S-sulfanyl-L-cysteine[c]'
+  translated_equation: '[Enzyme]-cysteine[c] + |L-Cysteine (Cys-L)[c]| <=> [Enzyme]-S-sulfanylcysteine[c]
+    + |L-Alanine (Ala-L)[c]|'
 - id: R03632
   name: ATP:protamine O-phosphotransferase
   equation: C00002[c] + C01609[c] <=> C00008[c] + C02729[c]
@@ -14908,7 +14891,7 @@
   genes_string_PATRIC_id: peg.967
   names:
   - beta-D-mannopyranosyl-(1->2)-D-mannopyranose:phosphate alpha-D-mannosyltransferase
-  pathway: None
+  pathway: Sugar utilization
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: beta-1,2-Mannobiose[c] + Phosphate[c] <=> D-Mannose[c] + |D-Mannose
@@ -15254,7 +15237,7 @@
   genes_string_PATRIC_id: peg.2306
   names:
   - UDP-alpha-D-glucose:diglucosyldiacylglycerol 6-glucosyltransferase
-  pathway: None
+  pathway: Others
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: Diglucosyldiacylglycerol[c] + UDPglucose[c] <=> Triglucosyldiacylglycerol[c]
@@ -15431,7 +15414,7 @@
   genes_string_PATRIC_id: peg.1337,peg.1999,peg.1998,peg.1579,peg.1489,peg.1488
   names:
   - 3-(indol-3-yl)pyruvate:ferredoxin oxidoreductase (decarboxylating,CoA-indole-acetylating)
-  pathway: None
+  pathway: Others
   source: KEGG
   tag: KEGG_Cbes,Cth,Tsac
   translated_equation: Indolepyruvate[c] + |Coenzyme A (CoA)[c]| + (2) |Oxidized
@@ -23085,7 +23068,7 @@
 - id: R02110_kz
   name: 1,4-alpha-D-Glucan:1,4-alpha-D-glucan 6-alpha-D-(1,4-alpha-D-glucano)-transferase
   genes: fig|31899.10.peg.990
-  equation: (2) C00718_kz1[c] => C00369_kz[c] + (2)C00001[c]
+  equation: (2) C00718_kz1[c] => C00369_kz[c] + (2) C00001[c]
   ec:
   - 2.4.1.18
   EggNOG_annotation: peg.990:Catalyzes the formation of the alpha-1,6-glucosidic
@@ -23845,34 +23828,6 @@
   translated_equation: '|1-deoxy-D-xylulose 5-phosphate[c]| + |Nicotinamide adenine
     dinucleotide phosphate - reduced (NADPH)[c]| + |Proton (H+)[c]| => |2-C-Methyl-D-erythritol
     4-phosphate[c]| + |Nicotinamide adenine dinucleotide phosphate (NADP)[c]|'
-- id: R07460
-  name: L-cysteine:[enzyme]-cysteine sulfurtransferase
-  equation: C15811[c] + C00097[c] <=> C15812[c] + C00041[c]
-  ec:
-  - 2.8.1.7
-  EggNOG_annotation: peg.2042:Cysteine desulfurase;   peg.2223:Cysteine desulfurase
-  KEGG_annotation: Athe_1547:K04487 cysteine desulfurase [EC:2.8.1.7] | (GenBank)
-    aminotransferase class V;   Athe_1714:K04487 cysteine desulfurase [EC:2.8.1.7]
-    | (GenBank) cysteine desulfurase NifS
-  PATRIC_annotation: Cysteine desulfurase (EC 2.8.1.7), associated with tRNA 4-thiouridine
-    synthase or Cysteine desulfurase (EC 2.8.1.7)
-  comment: '[Enzyme] is the enzyme itself [KO:K04487].'
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.2042,peg.2223
-  genes_string_NCBI_id: Athe_1547,Athe_1714
-  genes_string_PATRIC_id: peg.2042,peg.2223
-  names:
-  - L-cysteine:[enzyme]-cysteine sulfurtransferase
-  other_pathways:
-  - Thiamine metabolism
-  - Metabolic pathways
-  pathway: Thiamine metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: '[Enzyme]-cysteine[c] + |L-Cysteine (Cys-L)[c]| <=> [Enzyme]-S-sulfanylcysteine[c]
-    + |L-Alanine (Ala-L)[c]|'
 - id: R10246
   name: L-tyrosine 4-methylphenol-lyase (2-iminoacetate-forming)
   genes: fig|31899.10.peg.783
@@ -26801,10 +26756,10 @@
   genes: fig|31899.10.peg.1045 and fig|31899.10.peg.1046
   genesNCBI: Athe_0609 and Athe_0610
   curated: true
-  equation: C00369_kz[e] + (2) C00001[e] <=> (2) C01935_kz[e]
+  equation: C00369_kz[e] + (2) C00001[e] => (2) C01935_kz[e]
   source: KEGG
   tag: manually-add
-  translated_equation: Starch[e] + (2) H2O[c] <=> Maltodextrin(n=4)
+  translated_equation: Starch[e] + (2) H2O[c] => Maltodextrin(n=4)
   ec:
   - 3.2.1.41
   - 3.2.1.1

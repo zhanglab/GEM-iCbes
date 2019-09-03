@@ -172,6 +172,7 @@
   ec:
   - 2.7.4.6
   genes: gap
+  pathway: Purine metabolism
   other_pathways:
   - Purine metabolism
   - Metabolic pathways

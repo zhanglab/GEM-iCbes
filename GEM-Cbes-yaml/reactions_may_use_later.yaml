@@ -3883,7 +3883,7 @@
   tag: KEGG_Cbes
   translated_equation: G00293[c] + Orthophosphate[c] <=> D-Glucose[c] + |beta-D-Glucose
     1-phosphate[c]|
- id: R00955
+- id: R00955
   name: UDP-glucose:alpha-D-galactose-1-phosphate uridylyltransferase
   equation: C00029[c] + C00446[c] <=> C00103[c] + C00052[c]
   ec:
@@ -5809,3 +5809,54 @@
   tag: KEGG_Cbes,Tsac
   translated_equation: CO[c] + H2O[c] + |Oxidized ferredoxin (2[4Fe-4S]) (Fdox)[c]|
     <=> CO2[c] + |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]| + (2) H+[c]
+- id: R11529
+  name: '[enzyme]-S-sulfanylcysteine:sulfur-acceptor sulfurtransferase'
+  equation: C15812[c] + C02743[c] <=> C15811[c] + C21440[c]
+  ec:
+  - 2.8.1.7
+  EggNOG_annotation: peg.2042:Cysteine desulfurase;   peg.2223:Cysteine desulfurase
+  KEGG_annotation: Athe_1547:K04487 cysteine desulfurase [EC:2.8.1.7] | (GenBank)
+    aminotransferase class V;   Athe_1714:K04487 cysteine desulfurase [EC:2.8.1.7]
+    | (GenBank) cysteine desulfurase NifS
+  PATRIC_annotation: Cysteine desulfurase (EC 2.8.1.7), associated with tRNA 4-thiouridine
+    synthase or Cysteine desulfurase (EC 2.8.1.7)
+  comment: '[Enzyme] is the enzyme itself [KO:K04487].
+
+    [Protein] is sulfur-carrier protein sulfurtransferases.'
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2042,peg.2223
+  genes_string_NCBI_id: Athe_1547,Athe_1714
+  genes_string_PATRIC_id: peg.2042,peg.2223
+  names:
+  - '[enzyme]-S-sulfanylcysteine:sulfur-acceptor sulfurtransferase'
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '[Enzyme]-S-sulfanylcysteine[c] + [Protein]-L-cysteine[c]
+    <=> [Enzyme]-cysteine[c] + [Protein]-S-sulfanyl-L-cysteine[c]'
+- id: R11528
+  name: L-cysteine:sulfur-acceptor sulfurtransferase
+  equation: C00097[c] + C02743[c] <=> C00041[c] + C21440[c]
+  ec:
+  - 2.8.1.7
+  EggNOG_annotation: peg.2042:Cysteine desulfurase;   peg.2223:Cysteine desulfurase
+  KEGG_annotation: Athe_1547:K04487 cysteine desulfurase [EC:2.8.1.7] | (GenBank)
+    aminotransferase class V;   Athe_1714:K04487 cysteine desulfurase [EC:2.8.1.7]
+    | (GenBank) cysteine desulfurase NifS
+  PATRIC_annotation: Cysteine desulfurase (EC 2.8.1.7), associated with tRNA 4-thiouridine
+    synthase or Cysteine desulfurase (EC 2.8.1.7)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2042,peg.2223
+  genes_string_NCBI_id: Athe_1547,Athe_1714
+  genes_string_PATRIC_id: peg.2042,peg.2223
+  names:
+  - L-cysteine:sulfur-acceptor sulfurtransferase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|L-Cysteine (Cys-L)[c]| + [Protein]-L-cysteine[c] <=> |L-Alanine
+    (Ala-L)[c]| + [Protein]-S-sulfanyl-L-cysteine[c]'

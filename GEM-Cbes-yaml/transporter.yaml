@@ -5,11 +5,14 @@
   tag: Cth-CYSt2r
 - id: lipoateT
   equation: C00725[e] <=> C00725[c]
+  pathway: Transport
 - id: borateT
   name: H3BO3 transport
   equation: C12486[e] <=> C12486[c]
+  pathway: Transport
 - id: clT
   equation: C00698[e] <=> C00698[c]
+  pathway: Transport
 - id: MgtE
   name: Mg2+ Transporter
   genes: peg.1099
@@ -131,7 +134,8 @@
   tag: transportDB
 - id: coEfflux
   name: Co2+ exporting P-type ATPase
-  genes: peg.725 or Athe_2280
+  genes: peg.725 or peg.2848
+  note: peg.2848 = Athe_2280
   equation: C00175[c] + C00001[c] + C00002[c] => C00175[e] + C00008[c] + C00009[c]
   ec: TC=3.A.3.6.10
   PMID: 12779235
@@ -247,7 +251,7 @@
   tag: transportDB
 - id: FolT
   name: folate uptake (ECF)
-  genes: peg.2195 and peg.2196 and peg.2197 and ?
+  genes: peg.2195 and peg.2196 and peg.2197
   equation: C00504[e] + C00002[c] + C00001[c] => C00504[c] + C00008[c] + C00009[c]
   ec: TC=3.A.1.26.10
   note: lack S component
@@ -355,7 +359,7 @@
   genes: peg.2411 and peg.2410 and peg.2412
   equation: C05776[e] + C00002[c] + C00001[c] => C05776[c] + C00008[c] + C00009[c]
   ec: TC=3.A.1.13.1
-  pathway: Vitamin B12 uptake
+  pathway: Transport
   tag: Dima's annotation
 
 # gene association comes from Dima's annotation
