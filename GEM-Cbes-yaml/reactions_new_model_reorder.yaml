@@ -3920,6 +3920,40 @@
   tag: Cth,Tsac
   translated_equation: O-Succinyl-L-homoserine[c] + |Hydrogen sulfide[c]| => L-Homocysteine[c]
     + Succinate[c]
+- id: R01286
+  name: L-cystathionine L-homocysteine-lyase (deaminating
+  equation: C02291[c] + C00001[c] <=> C00155[c] + C00014[c] + C00022[c]
+  genes: fig|31899.10.peg.1606 or fig|31899.10.peg.1675
+  genesNCBI: Athe_1124 or Athe_1190
+  curated: true
+  ec:
+  - 4.4.1.13
+  EggNOG_annotation: peg.1606:O-acetylhomoserine;   peg.1675:O-acetylhomoserine
+  KEGG_annotation: Athe_1124:K01740 O-acetylhomoserine (thiol)-lyase [EC:2.5.1.49]
+    | (GenBank) O-acetylhomoserine/O-acetylserine;   Athe_1190:K01740 O-acetylhomoserine
+    (thiol)-lyase [EC:2.5.1.49] | (GenBank) O-acetylhomoserine aminocarboxypro
+  PATRIC_annotation: O-acetylhomoserine sulfhydrylase (EC 2.5.1.49) @ O-succinylhomoserine
+    sulfhydrylase (EC 2.5.1.48) or O-acetylhomoserine sulfhydrylase (EC 2.5.1.49)
+    @ O-succinylhomoserine sulfhydrylase (EC 2.5.1.48)
+  genes_Cce: None
+  genes_Cth: (peg.1606 or peg.1675)
+  genes_Tsac: None
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1124,Athe_1190
+  genes_string_PATRIC_id: peg.1606,peg.1675
+  names:
+  - L-cystathionine L-homocysteine-lyase (deaminating
+  - pyruvate-forming)
+  note: in kegg, 4.4.1.8 has beed transferred to 4.4.1.13
+  other_pathways:
+  - Cysteine and methionine metabolism
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Biosynthesis of amino acids
+  pathway: Cysteine and methionine metabolism
+  source: Cth
+  translated_equation: L-Cystathionine[c] + H2O[c] <=> L-Homocysteine[c] + Ammonia[c]
+    + Pyruvate[c]
 - id: R01287
   name: O-acetyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase
   genes: fig|31899.10.peg.1606 or fig|31899.10.peg.1675
