@@ -52,8 +52,8 @@
 #   equation: C00036[c] <=
 # - id: sink_oaa
 #   equation: C00036[c] =>
-- id: source_h2s
-  equation: C00283[c] <=
+# - id: source_h2s
+#   equation: C00283[c] <=
 #- id: source_h
 #  equation: C00080[e] <=
 # - id: sink_thf
@@ -103,8 +103,8 @@
 #   equation: C00342[c] <=
 
 
-- id: sink_pyr
-  equation: C00022[c] =>
+# - id: sink_pyr
+#   equation: C00022[c] =>
 # - id: sink_accoa
 #   equation: C00024[c] =>
 # - id: sink_coa
