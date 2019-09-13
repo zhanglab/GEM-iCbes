@@ -29,11 +29,19 @@
 #   pathway: Biomass 
 
 - id: Biomass_Cbesii
-  name: total Biomass (based on Cbes, July 22, 2019)
+  name: total totla Biomass (based on Cbes, July 22, 2019)
   # equation: (0.016) dna[c] + (0.007) rna[c] + (0.516) protein[c] + (0.336) lipids + (0.125) carbohydrates => Biomass[c]
   # equation: (0.016) dna[c] + (0.007) rna[c] + (0.516) protein[c] + C00186[c] + C00022[c] => (0.539) Biomass[c]
-  equation: (0.016) dna[c] + (0.007) rna[c] + (0.516) protein[c] => Biomass[c]
+  # equation: (0.016) dna[c] + (0.007) rna[c] + (0.516) protein[c] => Biomass[c]
+
+  # late log phase, receibved in Seq 12, 2019
+  # equation: (0.127) dna[c] + (0.014) rna[c] + (0.457) protein[c] + (0.295) lipids + (0.11) carbohydrates => Biomass[c]
+  equation: (0.014) dna[c] + (0.127) rna[c] + (0.457) protein[c] => Biomass[c] 
   pathway: Biomass 
+
+  # # mid log phase, receibved in Seq 12, 2019
+  # equation: (0.013) dna[c] + (0.175) rna[c] + (0.591) protein[c] + (0.109) lipids + (0.113) carbohydrates => Biomass[c]  `
+  # pathway: Biomass 
 
 - id: sink_biomass
   equation: Biomass[c] =>

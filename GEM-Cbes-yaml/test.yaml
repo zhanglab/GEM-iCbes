@@ -62,8 +62,8 @@
 #   equation: C00234[c] <=
 # - id: sink_formylthf
 #   equation: C00234[c] =>
-# - id: source_formate
-#   equation: C00058[c] <=
+- id: source_formate
+  equation: C00058[c] <=
 # - id: sink_formate
 #   equation: C00058[c] =>
 # - id: source_proPhis
