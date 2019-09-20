@@ -4966,6 +4966,22 @@
   charge: 0
   source: KEGG
   tag: kegg-filterred-database
+- id: C21440
+  name: Protein-S-sulfanyl-L-cysteine
+  charge: 0
+  source: KEGG
+  tag: AddFromRxn
+- id: C00683
+  name: (S)-Methylmalonyl-CoA
+  charge: 0
+  names:
+  - (S)-Methylmalonyl-CoA
+  - (S)-Methylmalonyl-coenzyme A
+  - (2S)-Methylmalonyl-CoA
+  - D-Methylmalonyl-CoA
+  formula: C25H40N7O19P3S
+  mol_weight: 867.6069
+  tag: AddFromRxn
 
 
 

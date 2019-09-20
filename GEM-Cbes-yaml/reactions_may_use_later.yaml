@@ -4491,19 +4491,19 @@
   translated_equation: 2,3-Dehydroacyl-CoA[c] + |1-Acyl-sn-glycerol 3-phosphate[c]|
     <=> CoA[c] + Phosphatidate[c]
 
-- id: R00212
-  name: Acetyl-CoA:formate C-acetyltransferase
-  genes: gap
-  names:
-  - Acetyl-CoA:formate C-acetyltransferase
-  equation: C00024[c] + C00058[c] <=> C00010[c] + C00022[c]
-  enzymes:
-  - 2.3.1.54
-  pathways:
-  - Pyruvate metabolism
-  - Butanoate metabolism
-  - Metabolic pathways
-  - Microbial metabolism in diverse environments
+# - id: R00212
+#   name: Acetyl-CoA:formate C-acetyltransferase
+#   genes: gap
+#   names:
+#   - Acetyl-CoA:formate C-acetyltransferase
+#   equation: C00024[c] + C00058[c] <=> C00010[c] + C00022[c]
+#   enzymes:
+#   - 2.3.1.54
+#   pathways:
+#   - Pyruvate metabolism
+#   - Butanoate metabolism
+#   - Metabolic pathways
+#   - Microbial metabolism in diverse environments
 - id: R00306
   name: cellobiose glucohydrolase
   genes: fig|31899.10.peg.878
@@ -5864,3 +5864,931 @@
   tag: KEGG_Cbes
   translated_equation: '[Enzyme]-cysteine[c] + |L-Cysteine (Cys-L)[c]| <=> [Enzyme]-S-sulfanylcysteine[c]
     + |L-Alanine (Ala-L)[c]|'
+
+# remove when curate rxns that contains formate
+- id: R00519
+  name: formate:NAD+ oxidoreductase
+  equation: C00058[c] + C00003[c] <=> C00080[c] + C00011[c] + C00004[c]
+  ec:
+  - 1.17.1.9
+  EggNOG_annotation: peg.1786:NADH dehydrogenase (quinone) (EC 1.6.99.5)
+  KEGG_annotation: Athe_1298:K18331 NADP-reducing hydrogenase subunit HndC [EC:1.12.1.3]
+    | (GenBank) NADH dehydrogenase (quinone)
+  PATRIC_annotation: Electron-bifurcating [FeFe]-hydrogenase subunit B (NAD+ reductase,
+    ferredoxin reductase)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: peg.1786
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1298
+  genes_string_PATRIC_id: peg.1786
+  names:
+  - formate:NAD+ oxidoreductase
+  note: in Tsac EC is 1.2.1.2, but 1.2.1.2 is converted to 1.17.1.9
+  other_pathways:
+  - Glyoxylate and dicarboxylate metabolism
+  - Methane metabolism
+  - Metabolic pathways
+  - Microbial metabolism in diverse environments
+  - Carbon metabolism
+  pathway: Glyoxylate and dicarboxylate metabolism
+  source: KEGG
+  tag: Tsac
+  translated_equation: '|Formate (For)[c]| + |Nicotinamide adenine dinucleotide (NAD)[c]|
+    <=> |Proton (H+)[c]| + CO2[c] + |Nicotinamide adenine dinucleotide - reduced
+    (NADH)[c]|'
+- id: R03015
+  name: Formylmethanofuran:(acceptor) oxidoreductase
+  equation: C01001[c] + C00001[c] + C00028[c] <=> C00011[c] + C00862[c] + C00030[c]
+  ec:
+  - 1.2.99.5
+  EggNOG_annotation: peg.678:Formylmethanofuran dehydrogenase subunit E
+  KEGG_annotation: Athe_0277:K11261 formylmethanofuran dehydrogenase subunit E [EC:1.2.7.12]
+    | (GenBank) formylmethanofuran dehyd
+  PATRIC_annotation: Formylmethanofuran dehydrogenase FmdE
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.678
+  genes_string_NCBI_id: Athe_0277
+  genes_string_PATRIC_id: peg.678
+  names:
+  - Formylmethanofuran:(acceptor) oxidoreductase
+  other_pathways:
+  - Methane metabolism
+  - Metabolic pathways
+  - Microbial metabolism in diverse environments
+  - Carbon metabolism
+  pathway: Methane metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: Formylmethanofuran[c] + H2O[c] + Acceptor[c] <=> CO2[c] +
+    Methanofuran[c] + |Reduced acceptor[c]|
+- id: R08060
+  equation: C01001[c] + C00001[c] <=> C00058[c] + C00862[c]
+  ec:
+  - 1.2.99.5
+  EggNOG_annotation: peg.678:Formylmethanofuran dehydrogenase subunit E
+  KEGG_annotation: Athe_0277:K11261 formylmethanofuran dehydrogenase subunit E [EC:1.2.7.12]
+    | (GenBank) formylmethanofuran dehyd
+  PATRIC_annotation: Formylmethanofuran dehydrogenase FmdE
+  comment: fhc
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.678
+  genes_string_NCBI_id: Athe_0277
+  genes_string_PATRIC_id: peg.678
+  names: []
+  note: EC 1.2.99.5 transferred to EC 1.2.7.12 on 2017.
+  other_pathways:
+  - Methane metabolism
+  - Microbial metabolism in diverse environments
+  - Carbon metabolism
+  pathway: Methane metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: Formylmethanofuran[c] + H2O[c] <=> |Formate (For)[c]| + Methanofuran[c]
+- id: R04268
+  name: N-Formyl-L-methionylaminoacyl-tRNA amidohydrolase
+  equation: C04258[c] + C00001[c] <=> C00058[c] + C03617[c]
+  ec:
+  - 3.5.1.88
+  EggNOG_annotation: peg.1520:Removes the formyl group from the N-terminal Met of
+    newly synthesized proteins. Requires at least a dipeptide for an efficient rate
+    of reaction. N-terminal L-methionine is a prerequisite for activity but the enzyme
+    has broad specificity at other positions (By similarity)
+  KEGG_annotation: Athe_1039:K01462 peptide deformylase [EC:3.5.1.88] | (GenBank)
+    peptide deformylase
+  PATRIC_annotation: Peptide deformylase (EC 3.5.1.88)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1520
+  genes_string_NCBI_id: Athe_1039
+  genes_string_PATRIC_id: peg.1520
+  names:
+  - N-Formyl-L-methionylaminoacyl-tRNA amidohydrolase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: N-Formyl-L-methionylaminoacyl-tRNA[c] + H2O[c] <=> |Formate
+    (For)[c]| + L-Methionylaminoacyl-tRNA[c]
+- id: R05635
+  name: Formyl-L-methionyl peptide amidohydrolase
+  equation: C11439[c] + C00001[c] <=> C11440[c] + C00058[c]
+  ec:
+  - 3.5.1.88
+  EggNOG_annotation: peg.1520:Removes the formyl group from the N-terminal Met of
+    newly synthesized proteins. Requires at least a dipeptide for an efficient rate
+    of reaction. N-terminal L-methionine is a prerequisite for activity but the enzyme
+    has broad specificity at other positions (By similarity)
+  KEGG_annotation: Athe_1039:K01462 peptide deformylase [EC:3.5.1.88] | (GenBank)
+    peptide deformylase
+  PATRIC_annotation: Peptide deformylase (EC 3.5.1.88)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1520
+  genes_string_NCBI_id: Athe_1039
+  genes_string_PATRIC_id: peg.1520
+  names:
+  - Formyl-L-methionyl peptide amidohydrolase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|Formyl-L-methionyl peptide[c]| + H2O[c] <=> |Methionyl peptide[c]|
+    + |Formate (For)[c]|'
+- id: R04911
+  name: Aryl-formylamine amidohydrolase
+  equation: C05648[c] + C00001[c] <=> C05651[c] + C00058[c]
+  ec:
+  - 3.5.1.9
+  EggNOG_annotation: peg.1006:cyclase family
+  KEGG_annotation: Athe_0573:K07130 arylformamidase [EC:3.5.1.9] | (GenBank) cyclase
+    family protein
+  PATRIC_annotation: Metal-dependent hydrolase
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1006
+  genes_string_NCBI_id: Athe_0573
+  genes_string_PATRIC_id: peg.1006
+  names:
+  - Aryl-formylamine amidohydrolase
+  other_pathways:
+  - Tryptophan metabolism
+  pathway: Tryptophan metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: 5-Hydroxy-N-formylkynurenine[c] + H2O[c] <=> 5-Hydroxykynurenine[c]
+    + |Formate (For)[c]|
+- id: R00988
+  name: N-Formylanthranilate amidohydrolase
+  equation: C05653[c] + C00001[c] <=> C00058[c] + C00108[c]
+  ec:
+  - 3.5.1.9
+  EggNOG_annotation: peg.1006:cyclase family
+  KEGG_annotation: Athe_0573:K07130 arylformamidase [EC:3.5.1.9] | (GenBank) cyclase
+    family protein
+  PATRIC_annotation: Metal-dependent hydrolase
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1006
+  genes_string_NCBI_id: Athe_0573
+  genes_string_PATRIC_id: peg.1006
+  names:
+  - N-Formylanthranilate amidohydrolase
+  other_pathways:
+  - Tryptophan metabolism
+  pathway: Tryptophan metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: Formylanthranilate[c] + H2O[c] <=> |Formate (For)[c]| + Anthranilate[c]
+- id: R01959
+  name: N-Formyl-L-kynurenine amidohydrolase
+  equation: C02700[c] + C00001[c] <=> C00058[c] + C00328[c]
+  ec:
+  - 3.5.1.9
+  EggNOG_annotation: peg.1006:cyclase family
+  KEGG_annotation: Athe_0573:K07130 arylformamidase [EC:3.5.1.9] | (GenBank) cyclase
+    family protein
+  PATRIC_annotation: Metal-dependent hydrolase
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1006
+  genes_string_NCBI_id: Athe_0573
+  genes_string_PATRIC_id: peg.1006
+  names:
+  - N-Formyl-L-kynurenine amidohydrolase
+  other_pathways:
+  - Tryptophan metabolism
+  - Glyoxylate and dicarboxylate metabolism
+  - Metabolic pathways
+  pathway: Tryptophan metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: L-Formylkynurenine[c] + H2O[c] <=> |Formate (For)[c]| + L-Kynurenine[c]
+- id: R10531
+  name: ATP phosphohydrolase (tungstate-importing)
+  equation: C00002[c] + C00001[c] + C20679[c] <=> C00008[c] + C00009[c] + C20679[c]
+  ec:
+  - 3.6.3.55
+  EggNOG_annotation: peg.1286:ABC transporter
+  KEGG_annotation: Athe_0826:K06857 tungstate transport system ATP-binding protein
+    [EC:7.3.2.6] | (GenBank) ABC transporter relat
+  PATRIC_annotation: Tungstate ABC transporter, ATP-binding protein
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1286
+  genes_string_NCBI_id: Athe_0826
+  genes_string_PATRIC_id: peg.1286
+  names:
+  - ATP phosphohydrolase (tungstate-importing)
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: ATP[c] + H2O[c] + Tungstenate[c] <=> ADP[c] + Phosphate[c]
+    + Tungstenate[c]
+- id: R00159
+  name: UTP phosphohydrolase
+  equation: C00075[c] + C00001[c] <=> C00015[c] + C00009[c]
+  ec:
+  - 3.6.1.5
+  - 3.6.1.39
+  EggNOG_annotation: peg.1298:Pyrophosphatase that hydrolyzes non-canonical purine
+    nucleotides such as XTP and ITP dITP to their respective monophosphate derivatives.
+    Might exclude non-canonical purines from DNA precursor pool, thus preventing
+    their incorporation into DNA and avoiding chromosomal lesions (By similarity)
+  KEGG_annotation: Athe_0838:K02428 XTP/dITP diphosphohydrolase [EC:3.6.1.66] | (GenBank)
+    non-canonical purine NTP pyrophosphatas
+  PATRIC_annotation: Nucleoside 5-triphosphatase RdgB (dHAPTP, dITP, XTP-specific)
+    (EC 3.6.1.66)
+  genes_Cce: None
+  genes_Cth: peg.1298
+  genes_Tsac: peg.1298
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_0838
+  genes_string_PATRIC_id: peg.1298
+  names:
+  - UTP phosphohydrolase
+  other_pathways:
+  - Pyrimidine metabolism
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: Cth,Tsac
+  translated_equation: UTP[c] + H2O[c] <=> UDP[c] + Phosphate[c]
+- id: R02095
+  name: dTTP nucleotidohydrolase
+  equation: C00459[c] + C00001[c] <=> C00363[c] + C00009[c]
+  ec:
+  - 3.6.1.5
+  - 3.6.1.39
+  EggNOG_annotation: peg.1298:Pyrophosphatase that hydrolyzes non-canonical purine
+    nucleotides such as XTP and ITP dITP to their respective monophosphate derivatives.
+    Might exclude non-canonical purines from DNA precursor pool, thus preventing
+    their incorporation into DNA and avoiding chromosomal lesions (By similarity)
+  KEGG_annotation: Athe_0838:K02428 XTP/dITP diphosphohydrolase [EC:3.6.1.66] | (GenBank)
+    non-canonical purine NTP pyrophosphatas
+  PATRIC_annotation: Nucleoside 5-triphosphatase RdgB (dHAPTP, dITP, XTP-specific)
+    (EC 3.6.1.66)
+  genes_Cce: None
+  genes_Cth: peg.1298
+  genes_Tsac: peg.1298
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_0838
+  genes_string_PATRIC_id: peg.1298
+  names:
+  - dTTP nucleotidohydrolase
+  other_pathways:
+  - Pyrimidine metabolism
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: Cth,Tsac
+  translated_equation: dTTP[c] + H2O[c] <=> dTDP[c] + Phosphate[c]
+- id: R00426
+  name: GTP diphosphohydrolase (diphosphate-forming)
+  equation: C00044[c] + C00001[c] <=> C00144[c] + C00013[c]
+  ec:
+  - 3.6.1.8
+  - 3.6.1.-
+  EggNOG_annotation: peg.1298:Pyrophosphatase that hydrolyzes non-canonical purine
+    nucleotides such as XTP and ITP dITP to their respective monophosphate derivatives.
+    Might exclude non-canonical purines from DNA precursor pool, thus preventing
+    their incorporation into DNA and avoiding chromosomal lesions (By similarity)
+  KEGG_annotation: Athe_0838:K02428 XTP/dITP diphosphohydrolase [EC:3.6.1.66] | (GenBank)
+    non-canonical purine NTP pyrophosphatas
+  PATRIC_annotation: Nucleoside 5-triphosphatase RdgB (dHAPTP, dITP, XTP-specific)
+    (EC 3.6.1.66)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1298
+  genes_string_NCBI_id: Athe_0838
+  genes_string_PATRIC_id: peg.1298
+  names:
+  - GTP diphosphohydrolase (diphosphate-forming)
+  - Guanosine 5'-triphosphate pyrophosphohydrolase
+  other_pathways:
+  - Purine metabolism
+  pathway: Purine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: GTP[c] + H2O[c] <=> GMP[c] + Diphosphate[c]
+- id: R00378
+  name: deoxythymidine triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)
+  equation: C00459[c] + C00039[c] <=> C00013[c] + C00039[c]
+  ec:
+  - 2.7.7.7
+  EggNOG_annotation: peg.2318:Required for replicative DNA synthesis. This DNA polymerase
+    also exhibits 3' to 5' exonuclease activity (By similarity);   peg.2890:Poorly
+    processive, error-prone DNA polymerase involved in untargeted mutagenesis. Copies
+    undamaged DNA at stalled replication forks, which arise in vivo from mismatched
+    or misaligned primer ends. These misaligned primers can be extended by PolIV.
+    Exhibits no 3'-5' exonuclease (proofreading) activity. May be involved in translesional
+    synthesis, in conjunction with the beta clamp from PolIII (By similarity);   peg.376:DNA
+    polymerase III is a complex, multichain enzyme responsible for most of the replicative
+    synthesis in bacteria. This DNA polymerase also exhibits 3' to 5' exonuclease
+    activity. The beta chain is required for initiation of replication once it is
+    clamped onto DNA, it slides freely (bidirectional and ATP- independent) along
+    duplex DNA (By similarity);   peg.1933:DNA polymerase;   peg.945:DNA polymerase
+    III;   peg.2437:DNA polymerase III delta' subunit;   peg.2658:DNA polymerase
+    III, subunits gamma and tau;   peg.1749:DNA polymerase iii;   peg.2350:Phage
+    SPO1 DNA polymerase-related protein
+  KEGG_annotation: Athe_1838:K21929 uracil-DNA glycosylase [EC:3.2.2.27] | (GenBank)
+    phage SPO1 DNA polymerase-related protein;   Athe_0003:K02338 DNA polymerase
+    III subunit beta [EC:2.7.7.7] | (GenBank) DNA polymerase III, beta subunit;   Athe_2107:K02343
+    DNA polymerase III subunit gamma/tau [EC:2.7.7.7] | (GenBank) DNA polymerase
+    III, subunits ga;   Athe_1806:K03763 DNA polymerase III subunit alpha, Gram-positive
+    type [EC:2.7.7.7] | (GenBank) DNA polymerase;   Athe_0515:K02341 DNA polymerase
+    III subunit delta' [EC:2.7.7.7] | (GenBank) DNA-directed DNA polymerase;   Athe_2316:K02346
+    DNA polymerase IV [EC:2.7.7.7] | (GenBank) DNA-directed DNA polymerase;   Athe_1441:K02335
+    DNA polymerase I [EC:2.7.7.7] | (GenBank) DNA polymerase I;   Athe_1920:K02340
+    DNA polymerase III subunit delta [EC:2.7.7.7] | (GenBank) DNA polymerase III,
+    delta subunit;   Athe_1262:K02337 DNA polymerase III subunit alpha [EC:2.7.7.7]
+    | (GenBank) DNA polymerase III, alpha subunit
+  PATRIC_annotation: DNA polymerase III polC-type (EC 2.7.7.7) or DNA polymerase
+    IV (EC 2.7.7.7) or DNA polymerase III delta prime subunit (EC 2.7.7.7) or DNA
+    polymerase III delta subunit (EC 2.7.7.7) or DNA polymerase III beta subunit
+    (EC 2.7.7.7) or DNA polymerase I (EC 2.7.7.7) or DNA polymerase III subunits
+    gamma and tau (EC 2.7.7.7) or DNA polymerase III alpha subunit (EC 2.7.7.7) or
+    Uracil-DNA glycosylase, family 4 (EC 3.2.2.27)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2350,peg.376,peg.2658,peg.2318,peg.945,peg.2890,peg.1933,peg.2437,peg.1749
+  genes_string_NCBI_id: Athe_1806,Athe_2316,Athe_0515,Athe_1920,Athe_0003,Athe_1441,Athe_2107,Athe_1262,Athe_1838
+  genes_string_PATRIC_id: peg.2318,peg.2890,peg.945,peg.2437,peg.376,peg.1933,peg.2658,peg.1749,peg.2350
+  names:
+  - deoxythymidine triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)
+  other_pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: dTTP[c] + DNA[c] <=> Diphosphate[c] + DNA[c]
+- id: R00377
+  name: Deoxycytidine triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)
+  equation: C00458[c] + C00039[c] <=> C00013[c] + C00039[c]
+  ec:
+  - 2.7.7.7
+  EggNOG_annotation: peg.2318:Required for replicative DNA synthesis. This DNA polymerase
+    also exhibits 3' to 5' exonuclease activity (By similarity);   peg.2890:Poorly
+    processive, error-prone DNA polymerase involved in untargeted mutagenesis. Copies
+    undamaged DNA at stalled replication forks, which arise in vivo from mismatched
+    or misaligned primer ends. These misaligned primers can be extended by PolIV.
+    Exhibits no 3'-5' exonuclease (proofreading) activity. May be involved in translesional
+    synthesis, in conjunction with the beta clamp from PolIII (By similarity);   peg.376:DNA
+    polymerase III is a complex, multichain enzyme responsible for most of the replicative
+    synthesis in bacteria. This DNA polymerase also exhibits 3' to 5' exonuclease
+    activity. The beta chain is required for initiation of replication once it is
+    clamped onto DNA, it slides freely (bidirectional and ATP- independent) along
+    duplex DNA (By similarity);   peg.1933:DNA polymerase;   peg.945:DNA polymerase
+    III;   peg.2437:DNA polymerase III delta' subunit;   peg.2658:DNA polymerase
+    III, subunits gamma and tau;   peg.1749:DNA polymerase iii;   peg.2350:Phage
+    SPO1 DNA polymerase-related protein
+  KEGG_annotation: Athe_1838:K21929 uracil-DNA glycosylase [EC:3.2.2.27] | (GenBank)
+    phage SPO1 DNA polymerase-related protein;   Athe_0003:K02338 DNA polymerase
+    III subunit beta [EC:2.7.7.7] | (GenBank) DNA polymerase III, beta subunit;   Athe_2107:K02343
+    DNA polymerase III subunit gamma/tau [EC:2.7.7.7] | (GenBank) DNA polymerase
+    III, subunits ga;   Athe_1806:K03763 DNA polymerase III subunit alpha, Gram-positive
+    type [EC:2.7.7.7] | (GenBank) DNA polymerase;   Athe_0515:K02341 DNA polymerase
+    III subunit delta' [EC:2.7.7.7] | (GenBank) DNA-directed DNA polymerase;   Athe_2316:K02346
+    DNA polymerase IV [EC:2.7.7.7] | (GenBank) DNA-directed DNA polymerase;   Athe_1441:K02335
+    DNA polymerase I [EC:2.7.7.7] | (GenBank) DNA polymerase I;   Athe_1920:K02340
+    DNA polymerase III subunit delta [EC:2.7.7.7] | (GenBank) DNA polymerase III,
+    delta subunit;   Athe_1262:K02337 DNA polymerase III subunit alpha [EC:2.7.7.7]
+    | (GenBank) DNA polymerase III, alpha subunit
+  PATRIC_annotation: DNA polymerase III polC-type (EC 2.7.7.7) or DNA polymerase
+    IV (EC 2.7.7.7) or DNA polymerase III delta prime subunit (EC 2.7.7.7) or DNA
+    polymerase III delta subunit (EC 2.7.7.7) or DNA polymerase III beta subunit
+    (EC 2.7.7.7) or DNA polymerase I (EC 2.7.7.7) or DNA polymerase III subunits
+    gamma and tau (EC 2.7.7.7) or DNA polymerase III alpha subunit (EC 2.7.7.7) or
+    Uracil-DNA glycosylase, family 4 (EC 3.2.2.27)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2350,peg.376,peg.2658,peg.2318,peg.945,peg.2890,peg.1933,peg.2437,peg.1749
+  genes_string_NCBI_id: Athe_1806,Athe_2316,Athe_0515,Athe_1920,Athe_0003,Athe_1441,Athe_2107,Athe_1262,Athe_1838
+  genes_string_PATRIC_id: peg.2318,peg.2890,peg.945,peg.2437,peg.376,peg.1933,peg.2658,peg.1749,peg.2350
+  names:
+  - Deoxycytidine triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)
+  other_pathways:
+  - Pyrimidine metabolism
+  - Metabolic pathways
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: dCTP[c] + DNA[c] <=> Diphosphate[c] + DNA[c]
+- id: R01001
+  name: L-cystathionine cysteine-lyase (deaminating
+  equation: C02291[c] + C00001[c] <=> C00097[c] + C00014[c] + C00109[c]
+  ec:
+  - 4.4.1.1
+  EggNOG_annotation: peg.1606:O-acetylhomoserine;   peg.1675:O-acetylhomoserine
+  KEGG_annotation: Athe_1124:K01740 O-acetylhomoserine (thiol)-lyase [EC:2.5.1.49]
+    | (GenBank) O-acetylhomoserine/O-acetylserine;   Athe_1190:K01740 O-acetylhomoserine
+    (thiol)-lyase [EC:2.5.1.49] | (GenBank) O-acetylhomoserine aminocarboxypro
+  PATRIC_annotation: O-acetylhomoserine sulfhydrylase (EC 2.5.1.49) @ O-succinylhomoserine
+    sulfhydrylase (EC 2.5.1.48) or O-acetylhomoserine sulfhydrylase (EC 2.5.1.49)
+    @ O-succinylhomoserine sulfhydrylase (EC 2.5.1.48)
+  comment: multi-step reaction (see R08632+R08637)
+  genes_Cce: None
+  genes_Cth: (peg.1606 or peg.1675) or (peg.1606 or peg.1675)
+  genes_Tsac: (peg.1606 or peg.1675)
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1124,Athe_1190
+  genes_string_PATRIC_id: peg.1606,peg.1675
+  names:
+  - L-cystathionine cysteine-lyase (deaminating
+  - 2-oxobutanoate-forming)
+  other_pathways:
+  - Glycine, serine and threonine metabolism
+  - Cysteine and methionine metabolism
+  - Metabolic pathways
+  - Biosynthesis of antibiotics
+  - Biosynthesis of amino acids
+  pathway: Glycine, serine and threonine metabolism
+  source: KEGG
+  tag: Cth,Tsac
+  translated_equation: L-Cystathionine[c] + H2O[c] <=> |L-Cysteine (Cys-L)[c]| +
+    Ammonia[c] + 2-Oxobutanoate[c]
+- id: R01676
+  name: Guanine aminohydrolase
+  equation: C00242[c] + C00001[c] <=> C00385[c] + C00014[c]
+  ec:
+  - 3.5.4.3
+  EggNOG_annotation: peg.2977:deaminase
+  KEGG_annotation: Athe_2395:K11991 tRNA(adenine34) deaminase [EC:3.5.4.33] | (GenBank)
+    CMP/dCMP deaminase zinc-binding
+  PATRIC_annotation: tRNA-specific adenosine-34 deaminase (EC 3.5.4.33)
+  genes_Cce: None
+  genes_Cth: '-'
+  genes_Tsac: peg.2977
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_2395
+  genes_string_PATRIC_id: peg.2977
+  names:
+  - Guanine aminohydrolase
+  other_pathways:
+  - Purine metabolism
+  - Metabolic pathways
+  pathway: Purine metabolism
+  source: KEGG
+  tag: Tsac
+  translated_equation: Guanine[c] + H2O[c] <=> Xanthine[c] + Ammonia[c]
+- id: R00667
+  name: L-Ornithine:2-oxo-acid aminotransferase
+  equation: C00077[c] + C00026[c] <=> C01165[c] + C00025[c]
+  ec:
+  - 2.6.1.13
+  EggNOG_annotation: peg.1687:Glutamate-1-semialdehyde aminotransferase;   peg.2349:acetylornithine
+    aminotransferase;   peg.77:Catalyzes the transfer of the alpha-amino group from
+    S- adenosyl-L-methionine (SAM) to 7-keto-8-aminopelargonic acid (KAPA) to form
+    7,8-diaminopelargonic acid (DAPA). It is the only animotransferase known to utilize
+    SAM as an amino donor (By similarity)
+  KEGG_annotation: Athe_2542:K00833 adenosylmethionine---8-amino-7-oxononanoate aminotransferase
+    [EC:2.6.1.62] | (GenBank) adenos;   Athe_1201:K01845 glutamate-1-semialdehyde
+    2,1-aminomutase [EC:5.4.3.8] | (GenBank) glutamate-1-semialdehyde-2,;   Athe_1837:K00821
+    acetylornithine/N-succinyldiaminopimelate aminotransferase [EC:2.6.1.11 2.6.1.17]
+    | (GenBank)
+  PATRIC_annotation: Glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.8) or Adenosylmethionine-8-amino-7-oxononanoate
+    aminotransferase (EC 2.6.1.62) or N-acetylornithine aminotransferase (EC 2.6.1.11)
+  genes_Cce: (peg.1687 or peg.2349 or peg.77)
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1201,Athe_2542,Athe_1837
+  genes_string_PATRIC_id: peg.1687,peg.77,peg.2349
+  names:
+  - L-Ornithine:2-oxo-acid aminotransferase
+  other_pathways:
+  - Arginine and proline metabolism
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Biosynthesis of antibiotics
+  pathway: Arginine and proline metabolism
+  source: KEGG
+  tag: Cce
+  translated_equation: '|L-Ornithine (Orn)[c]| + |2-Oxoglutarate (Akg)[c]| <=> |L-Glutamate
+    5-semialdehyde (Gsa)[c]| + |L-Glutamate (Glu-L)[c]|'
+- id: R10052
+  name: (2R,3S)-3-isopropylmalate:NAD+ oxidoreductase
+  equation: C04411[c] + C00003[c] => C00233[c] + C00011[c] + C00004[c] + C00080[c]
+  genes: fig|31899.10.peg.2650
+  genesNCBI: Athe_2099
+  ec:
+  - 1.1.1.85
+  EggNOG_annotation: peg.2650:Catalyzes the oxidation of 3-carboxy-2-hydroxy-4- methylpentanoate
+    (3-isopropylmalate) to 3-carboxy-4-methyl-2- oxopentanoate. The product decarboxylates
+    to 4-methyl-2 oxopentanoate (By similarity)
+  KEGG_annotation: Athe_2099:K00052 3-isopropylmalate dehydrogenase [EC:1.1.1.85]
+    | (GenBank) 3-isopropylmalate dehydrogenase
+  PATRIC_annotation: 3-isopropylmalate dehydrogenase (EC 1.1.1.85)
+  comment: two-step reaction (see R04426+R01652)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2650
+  genes_string_NCBI_id: Athe_2099
+  genes_string_PATRIC_id: peg.2650
+  names:
+  - (2R,3S)-3-isopropylmalate:NAD+ oxidoreductase
+  other_pathways:
+  - 2-Oxocarboxylic acid metabolism
+  - Biosynthesis of amino acids
+  pathway: 2-Oxocarboxylic acid metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: (2R,3S)-3-Isopropylmalate[c] + |Nicotinamide adenine dinucleotide
+    (NAD)[c]| => 4-Methyl-2-oxopentanoate[c] + CO2[c] + |Nicotinamide adenine dinucleotide
+    - reduced (NADH)[c]| + |Proton (H+)[c]|
+  note: R10052 = R04426+R01652; rxn direction is based on Tsac and Cce model
+- id: R00568
+  name: CTP aminohydrolase
+  equation: C00063[c] + C00001[c] <=> C00075[c] + C00014[c]
+  ec:
+  - 3.5.4.13
+  EggNOG_annotation: peg.1910:This enzyme is involved in nucleotide metabolism it
+    produces dUMP, the immediate precursor of thymidine nucleotides and it decreases
+    the intracellular concentration of dUTP so that uracil cannot be incorporated
+    into DNA (By similarity)
+  KEGG_annotation: Athe_1418:K01520 dUTP pyrophosphatase [EC:3.6.1.23] | (GenBank)
+    deoxyuridine 5'-triphosphate nucleotidohydrola
+  PATRIC_annotation: Deoxyuridine 5'-triphosphate nucleotidohydrolase (EC 3.6.1.23)
+  genes_Cce: None
+  genes_Cth: '-'
+  genes_Tsac: peg.1910
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1418
+  genes_string_PATRIC_id: peg.1910
+  names:
+  - CTP aminohydrolase
+  other_pathways:
+  - Pyrimidine metabolism
+  pathway: Pyrimidine metabolism
+  source: KEGG
+  tag: Tsac
+  translated_equation: CTP[c] + H2O[c] <=> UTP[c] + Ammonia[c]
+- id: R03652
+  name: L-Glutamine:tRNA(Gln) ligase (AMP-forming)
+  equation: C00002[c] + C00064[c] + C01640[c] <=> C00020[c] + C00013[c] + C02282[c]
+  ec:
+  - 6.1.1.18
+  EggNOG_annotation: peg.1411:Catalyzes the attachment of glutamate to tRNA(Glu)
+    in a two-step reaction glutamate is first activated by ATP to form Glu-AMP and
+    then transferred to the acceptor end of tRNA(Glu) (By similarity);   peg.2820:Catalyzes
+    the attachment of glutamate to tRNA(Glu) in a two-step reaction glutamate is
+    first activated by ATP to form Glu-AMP and then transferred to the acceptor end
+    of tRNA(Glu) (By similarity)
+  KEGG_annotation: Athe_0941:K01885 glutamyl-tRNA synthetase [EC:6.1.1.17] | (GenBank)
+    glutamyl-tRNA synthetase;   Athe_2255:K09698 nondiscriminating glutamyl-tRNA
+    synthetase [EC:6.1.1.24] | (GenBank) glutamyl-tRNA synthetase
+  PATRIC_annotation: Glutamyl-tRNA synthetase (EC 6.1.1.17) @ Glutamyl-tRNA(Gln)
+    synthetase (EC 6.1.1.24) or Glutamyl-tRNA synthetase (EC 6.1.1.17) @ Glutamyl-tRNA(Gln)
+    synthetase (EC 6.1.1.24)
+  genes_Cce: None
+  genes_Cth: '-'
+  genes_Tsac: (peg.1411 or peg.2820)
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_0941,Athe_2255
+  genes_string_PATRIC_id: peg.1411,peg.2820
+  names:
+  - L-Glutamine:tRNA(Gln) ligase (AMP-forming)
+  other_pathways:
+  - Aminoacyl-tRNA biosynthesis
+  - Metabolic pathways
+  pathway: Aminoacyl-tRNA biosynthesis
+  source: KEGG
+  tag: Tsac
+  translated_equation: ATP[c] + |L-Glutamine (Gln-L)[c]| + tRNA(Gln)[c] <=> AMP[c]
+    + Diphosphate[c] + Glutaminyl-tRNA[c]
+- id: R08575
+  name: sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase
+  equation: C05382[c] + C00118[c] <=> C00279[c] + C00085[c]
+  ec:
+  - 2.2.1.2
+  EggNOG_annotation: peg.1982:Transaldolase is important for the balance of metabolites
+    in the pentose-phosphate pathway (By similarity)
+  KEGG_annotation: Athe_1489:K00616 transaldolase [EC:2.2.1.2] | (GenBank) transaldolase
+  PATRIC_annotation: Transaldolase (EC 2.2.1.2)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: '-'
+  genes_kegg: peg.1982
+  genes_string_NCBI_id: Athe_1489
+  genes_string_PATRIC_id: peg.1982
+  names:
+  - sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|Sedoheptulose 7-phosphate[c]| + |Glyceraldehyde 3-phosphate
+    (GAP)[c]| <=> |D-Erythrose 4-phosphate[c]| + |D-Fructose 6-phosphate[c]|'
+- id: R01221
+  name: glycine synthase
+  equation: C00037[c] + C00101[c] + C00003[c] <=> C00143[c] + C00014[c] + C00011[c]
+    + C00004[c] + C00080[c]
+  ec:
+  - 1.4.4.2
+  - 1.8.1.4
+  - 2.1.2.10
+  EggNOG_annotation: peg.1157:dihydrolipoyl dehydrogenase
+  KEGG_annotation: Athe_0703:K00382 dihydrolipoamide dehydrogenase [EC:1.8.1.4] |
+    (GenBank) dihydrolipoamide dehydrogenase
+  PATRIC_annotation: Dihydrolipoamide dehydrogenase of acetoin dehydrogenase (EC
+    1.8.1.4)
+  comment: 'multienzyme system
+
+    multi-step reaction (see R03425+R04125+R03815)'
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1157,-
+  genes_string_NCBI_id: Athe_0703
+  genes_string_PATRIC_id: peg.1157
+  names:
+  - glycine synthase
+  - glycine cleavage system
+  other_pathways:
+  - Glyoxylate and dicarboxylate metabolism
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Biosynthesis of antibiotics
+  - Carbon metabolism
+  pathway: Glyoxylate and dicarboxylate metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|L-Glycine (Gly-L)[c]| + |5,6,7,8-Tetrahydrofolate (THF)[c]|
+    + |Nicotinamide adenine dinucleotide (NAD)[c]| <=> |5,10-Methylenetetrahydrofolate
+    (MLTHF)[c]| + Ammonia[c] + CO2[c] + |Nicotinamide adenine dinucleotide - reduced
+    (NADH)[c]| + |Proton (H+)[c]|'
+- id: R08549
+  name: 2-Oxoglutarate dehydrogenase complex
+  equation: C00026[c] + C00010[c] + C00003[c] <=> C00091[c] + C00011[c] + C00004[c]
+    + C00080[c]
+  ec:
+  - 1.2.4.2
+  - 1.8.1.4
+  - 2.3.1.61
+  EggNOG_annotation: peg.1157:dihydrolipoyl dehydrogenase
+  KEGG_annotation: Athe_0703:K00382 dihydrolipoamide dehydrogenase [EC:1.8.1.4] |
+    (GenBank) dihydrolipoamide dehydrogenase
+  PATRIC_annotation: Dihydrolipoamide dehydrogenase of acetoin dehydrogenase (EC
+    1.8.1.4)
+  comment: multi-step reaction (see R01700+R02570+R07618)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1157
+  genes_string_NCBI_id: Athe_0703
+  genes_string_PATRIC_id: peg.1157
+  names:
+  - 2-Oxoglutarate dehydrogenase complex
+  other_pathways:
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Biosynthesis of antibiotics
+  - Carbon metabolism
+  pathway: Metabolic pathways
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|2-Oxoglutarate (Akg)[c]| + |Coenzyme A (CoA)[c]| + |Nicotinamide
+    adenine dinucleotide (NAD)[c]| <=> |Succinyl-CoA (SucCoA)[c]| + CO2[c] + |Nicotinamide
+    adenine dinucleotide - reduced (NADH)[c]| + |Proton (H+)[c]|'
+- id: R01933
+  name: 2-oxoadipate dehydrogenase complex
+  equation: C00322[c] + C00010[c] + C00003[c] <=> C00527[c] + C00011[c] + C00004[c]
+    + C00080[c]
+  ec:
+  - 1.2.4.2
+  - 1.8.1.4
+  - 2.3.1.61
+  EggNOG_annotation: peg.1157:dihydrolipoyl dehydrogenase
+  KEGG_annotation: Athe_0703:K00382 dihydrolipoamide dehydrogenase [EC:1.8.1.4] |
+    (GenBank) dihydrolipoamide dehydrogenase
+  PATRIC_annotation: Dihydrolipoamide dehydrogenase of acetoin dehydrogenase (EC
+    1.8.1.4)
+  comment: '2-oxoglutarate dehydrogenase complex (see R08549)
+
+    multi-step reaction (see R01940+R02571+R07618)'
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1157
+  genes_string_NCBI_id: Athe_0703
+  genes_string_PATRIC_id: peg.1157
+  names:
+  - 2-oxoadipate dehydrogenase complex
+  other_pathways:
+  - Tryptophan metabolism
+  pathway: Tryptophan metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: 2-Oxoadipate[c] + |Coenzyme A (CoA)[c]| + |Nicotinamide adenine
+    dinucleotide (NAD)[c]| <=> Glutaryl-CoA[c] + CO2[c] + |Nicotinamide adenine dinucleotide
+    - reduced (NADH)[c]| + |Proton (H+)[c]|
+- id: R01698
+  name: Dihydrolipoamide:NAD+ oxidoreductase
+  equation: C00579[c] + C00003[c] <=> C00248[c] + C00004[c] + C00080[c]
+  ec:
+  - 1.8.1.4
+  EggNOG_annotation: peg.1157:dihydrolipoyl dehydrogenase
+  KEGG_annotation: Athe_0703:K00382 dihydrolipoamide dehydrogenase [EC:1.8.1.4] |
+    (GenBank) dihydrolipoamide dehydrogenase
+  PATRIC_annotation: Dihydrolipoamide dehydrogenase of acetoin dehydrogenase (EC
+    1.8.1.4)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1157
+  genes_string_NCBI_id: Athe_0703
+  genes_string_PATRIC_id: peg.1157
+  names:
+  - Dihydrolipoamide:NAD+ oxidoreductase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: Dihydrolipoamide[c] + |Nicotinamide adenine dinucleotide (NAD)[c]|
+    <=> Lipoamide[c] + |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| +
+    |Proton (H+)[c]|
+- id: R11485
+  name: flavodoxin:NADP+ oxidoreductase
+  equation: C02745[c] + C00006[c] <=> C02869[c] + C00005[c] + C00080[c]
+  ec:
+  - 1.19.1.1
+  EggNOG_annotation: peg.1086:Oxidoreductase FAD NAD(P)-binding domain protein
+  KEGG_annotation: Athe_0645:K00528 ferredoxin/flavodoxin---NADP+ reductase [EC:1.18.1.2
+    1.19.1.1] | (GenBank) oxidoreductase FAD
+  PATRIC_annotation: NADH-dependent reduced ferredoxin:NADP+ oxidoreductase subunit
+    A
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1086
+  genes_string_NCBI_id: Athe_0645
+  genes_string_PATRIC_id: peg.1086
+  names:
+  - flavodoxin:NADP+ oxidoreductase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|Reduced flavodoxin[c]| + |Nicotinamide adenine dinucleotide
+    phosphate (NADP)[c]| <=> |Oxidized flavodoxin[c]| + |Nicotinamide adenine dinucleotide
+    phosphate - reduced (NADPH)[c]| + |Proton (H+)[c]|'
+- id: R00742
+  name: acetyl-CoA:carbon-dioxide ligase (ADP-forming)
+  equation: C00002[c] + C00024[c] + C00288[c] + C00080[c] <=> C00008[c] + C00009[c] 
+    + C00083[c]
+  ec:
+  - 6.4.1.2
+  EggNOG_annotation: peg.1804:Acetyl-CoA carboxylase, carboxyltransferase component
+    (subunits alpha and beta)
+  KEGG_annotation: Athe_1316:no KO assigned | (GenBank) carboxyl transferase
+  PATRIC_annotation: Acetyl-coenzyme A carboxyl transferase alpha chain (EC 6.4.1.2)
+    / Acetyl-coenzyme A carboxyl transferase beta chain (EC 6.4.1.2); Propionyl-CoA
+    carboxylase beta chain (EC 6.4.1.3)
+  comment: two-step reaction (see R04385 + R04386)
+  genes_Cce: '- and - and - and - and -'
+  genes_Cth: None
+  genes_Tsac: peg.1804
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1316
+  genes_string_PATRIC_id: peg.1804
+  names:
+  - acetyl-CoA:carbon-dioxide ligase (ADP-forming)
+  other_pathways:
+  - Fatty acid biosynthesis
+  - Aflatoxin biosynthesis
+  - Pyruvate metabolism
+  - Propanoate metabolism
+  - Carbon fixation pathways in prokaryotes
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Microbial metabolism in diverse environments
+  - Biosynthesis of antibiotics
+  - Carbon metabolism
+  - Fatty acid metabolism
+  pathway: Fatty acid biosynthesis
+  source: KEGG
+  tag: Tsac
+  translated_equation: ATP[c] + |Acetyl-CoA (AcCoA)[c]| + Bicarbonate[c] + H+[c] <=> ADP[c]
+    + Phosphate[c] + Malonyl-CoA[c]
+- id: R02767
+  name: (3R)-3-Hydroxyacyl-[acyl-carrier-protein]:NADP+ oxidoreductase
+  equation: C01271[c] + C00006[c] <=> C00685[c] + C00005[c] + C00080[c]
+  ec:
+  - 1.1.1.100
+  genes: fig|31899.10.peg.1639
+  genesNCBI: Athe_1156
+  curated: true
+  EggNOG_annotation: peg.611:Short-chain dehydrogenase reductase SDR;   peg.2965:Short-chain
+    dehydrogenase reductase SDR;   peg.1639:reductase;   peg.932:dehydrogenase reductase;   peg.1152:Short-chain
+    dehydrogenase reductase SDR
+  KEGG_annotation: Athe_0698:K00068 sorbitol-6-phosphate 2-dehydrogenase [EC:1.1.1.140]
+    | (GenBank) short-chain dehydrogenase/red;   Athe_0213:no KO assigned | (GenBank)
+    short-chain dehydrogenase/reductase SDR;   Athe_0501:no KO assigned | (GenBank)
+    short-chain dehydrogenase/reductase SDR;   Athe_2383:K00065 2-dehydro-3-deoxy-D-gluconate
+    5-dehydrogenase [EC:1.1.1.127] | (GenBank) 2-deoxy-D-gluconate;   Athe_1156:K00059
+    3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100] | (GenBank) 3-oxoacyl-(acyl-carrier
+  PATRIC_annotation: Oxidoreductase, short-chain dehydrogenase/reductase family or
+    2-dehydro-3-deoxy-D-gluconate 5-dehydrogenase (EC 1.1.1.127) @ 2-deoxy-D-gluconate
+    3-dehydrogenase (EC 1.1.1.125) or 3-oxoacyl-[acyl-carrier protein] reductase
+    (EC 1.1.1.100), FadG or Short-chain dehydrogenase/reductase SDR? or Oxidoreductase,
+    short-chain dehydrogenase/reductase family
+  comment: general reaction (see R04533, R04534, R04536, R04543, R04566, R04953,
+    R04964 and R07763)
+  genes_Cce: (peg.1152 or peg.1639 or peg.2965 or peg.611 or peg.932) or - or - or
+    (peg.1152 or peg.1639 or peg.2965 or peg.611 or peg.932)
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1639
+  genes_string_NCBI_id: Athe_0213,Athe_2383,Athe_1156,Athe_0501,Athe_0698
+  genes_string_PATRIC_id: peg.611,peg.2965,peg.1639,peg.932,peg.1152
+  names:
+  - (3R)-3-Hydroxyacyl-[acyl-carrier-protein]:NADP+ oxidoreductase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes,Cce
+  translated_equation: '|(3R)-3-Hydroxyacyl-[acyl-carrier protein][c]| + |Nicotinamide
+    adenine dinucleotide phosphate (NADP)[c]| <=> |3-Oxoacyl-[acyl-carrier protein][c]|
+    + |Nicotinamide adenine dinucleotide phosphate - reduced (NADPH)[c]| + |Proton
+    (H+)[c]|'
+- id: R10208
+  name: (3R)-3-hydroxyacyl-[acyl-carrier protein] hydro-lyase (trans-2-enoyl-[acyl-carrier
+    protein]-forming)
+  equation: C01271[c] <=> C00693[c] + C00001[c]
+  ec:
+  - 4.2.1.59
+  EggNOG_annotation: peg.2593:Involved in unsaturated fatty acids biosynthesis. Catalyzes
+    the dehydration of short chain beta-hydroxyacyl-ACPs and long chain saturated
+    and unsaturated beta-hydroxyacyl-ACPs (By similarity)
+  KEGG_annotation: Athe_2047:K02372 3-hydroxyacyl-[acyl-carrier-protein] dehydratase
+    [EC:4.2.1.59] | (GenBank) beta-hydroxyacyl-(
+  PATRIC_annotation: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase, FabZ form
+    (EC 4.2.1.59)
+  comment: general reaction
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2593
+  genes_string_NCBI_id: Athe_2047
+  genes_string_PATRIC_id: peg.2593
+  names:
+  - (3R)-3-hydroxyacyl-[acyl-carrier protein] hydro-lyase (trans-2-enoyl-[acyl-carrier
+    protein]-forming)
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|(3R)-3-Hydroxyacyl-[acyl-carrier protein][c]| <=> |trans-2,3-Dehydroacyl-[acyl-carrier
+    protein][c]| + H2O[c]'
+  note: general rxn, see R04428, ...
+- id: R01624
+  name: acetyl-CoA:[acyl-carrier-protein] S-acetyltransferase
+  equation: C00024[c] + C00229[c] <=> C00010[c] + C03939[c]
+  ec:
+  - 2.3.1.38
+  - 2.3.1.85
+  - 2.3.1.86
+  - 2.3.1.-
+  EggNOG_annotation: peg.1962:acetyltransferase;   peg.1586:GCN5-related N-acetyltransferase;   peg.1594:GCN5-related
+    N-acetyltransferase;   peg.1641:Catalyzes the condensation reaction of fatty
+    acid synthesis by the addition to an acyl acceptor of two carbons from malonyl-ACP
+    (By similarity);   peg.1637:Catalyzes the condensation reaction of fatty acid
+    synthesis by the addition to an acyl acceptor of two carbons from malonyl-ACP.
+    Catalyzes the first condensation reaction which initiates fatty acid synthesis
+    and may therefore play a role in governing the total rate of fatty acid production.
+    Possesses both acetoacetyl-ACP synthase and acetyl transacylase activities. Its
+    substrate specificity determines the biosynthesis of branched- chain and or straight-chain
+    of fatty acids (By similarity)
+  KEGG_annotation: Athe_1469:K03823 phosphinothricin acetyltransferase [EC:2.3.1.183]
+    | (GenBank) GCN5-related N-acetyltransferas;   Athe_1158:K09458 3-oxoacyl-[acyl-carrier-protein]
+    synthase II [EC:2.3.1.179] | (GenBank) 3-oxoacyl-(acyl-carri;   Athe_1105:no
+    KO assigned | (GenBank) GCN5-related N-acetyltransferase;   Athe_1154:K00648
+    3-oxoacyl-[acyl-carrier-protein] synthase III [EC:2.3.1.180] | (GenBank) 3-oxoacyl-(acyl-carr;   Athe_1113:no
+    KO assigned | (GenBank) GCN5-related N-acetyltransferase
+  PATRIC_annotation: Acetyltransferase, GNAT family or Acetyltransferase, GNAT family
+    or 3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.179) or Acetyltransferase,
+    GNAT family or 3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.180)
+  genes_Cce: peg.1641 or - or - or peg.1637 or peg.1637 or - or - or - or (peg.1586
+    or peg.1594 or peg.1962) or -
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1469,Athe_1105,Athe_1158,Athe_1113,Athe_1154
+  genes_string_PATRIC_id: peg.1962,peg.1586,peg.1641,peg.1594,peg.1637
+  names:
+  - acetyl-CoA:[acyl-carrier-protein] S-acetyltransferase
+  other_pathways:
+  - Fatty acid biosynthesis
+  - Metabolic pathways
+  - Fatty acid metabolism
+  pathway: Fatty acid biosynthesis
+  source: KEGG
+  tag: Cce
+  translated_equation: '|Acetyl-CoA (AcCoA)[c]| + |Acyl-carrier protein[c]| <=> |Coenzyme
+    A (CoA)[c]| + |Acetyl-[acyl-carrier protein][c]|'

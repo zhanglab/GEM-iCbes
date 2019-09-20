@@ -86,9 +86,9 @@
 #   equation: C01330[c] =>
 
 # - id: source_5mthf
-#   equation: C00440[c] <=>
+#   equation: C00440[c] <=
 # - id: sink_thf
-#   equation: C00101[c] <=>
+#   equation: C00101[c] =>
 # - id: sink_aicar
 #   equation: C04677[c] =>
 # - id: sink_faicar

@@ -35,7 +35,7 @@
   # equation: (0.016) dna[c] + (0.007) rna[c] + (0.516) protein[c] => Biomass[c]
 
   # late log phase, receibved in Seq 12, 2019
-  # equation: (0.127) dna[c] + (0.014) rna[c] + (0.457) protein[c] + (0.295) lipids + (0.11) carbohydrates => Biomass[c]
+  # equation: (0.014) dna[c] + (0.127) rna[c] + (0.457) protein[c] + (0.295) lipids + (0.11) carbohydrates => Biomass[c]
   equation: (0.014) dna[c] + (0.127) rna[c] + (0.457) protein[c] => Biomass[c] 
   pathway: Biomass 
 
