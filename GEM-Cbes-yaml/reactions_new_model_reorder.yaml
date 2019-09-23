@@ -1755,7 +1755,7 @@
   KEGG_annotation: peg.1521:-
   PATRIC_annotation: Methionyl-tRNA formyltransferase (EC 2.1.2.9)
   curated: true
-  genesNCBI: NA
+  genesNCBI: Athe_1040
   genes_Cce: '-'
   genes_Cth: peg.1521
   genes_Tsac: peg.1521
@@ -1772,6 +1772,7 @@
   tag: Cth,Tsac
   translated_equation: '|L-Methionyl-tRNA (Met)[c]| + 10-Formyltetrahydrofolate[c]
     => |5,6,7,8-Tetrahydrofolate (THF)[c]| + N-Formylmethionyl-tRNA[c]'
+  note: direction is based on Tsac and Cce model.
 - id: R05578
   name: L-glutamate:tRNA(Glu) ligase (AMP-forming)
   genes: fig|31899.10.peg.1411 or fig|31899.10.peg.2820
@@ -9382,7 +9383,7 @@
 - id: R00945
   name: 5,10-Methylenetetrahydrofolate:glycine hydroxymethyltransferase
   genes: fig|31899.10.peg.1541
-  equation: C00143[c] + C00037[c] + C00001[c] <=> C00101[c] + C00065[c]
+  equation: C00101[c] + C00065[c] <=> C00143[c] + C00037[c] + C00001[c]
   ec:
   - 2.1.2.1
   EggNOG_annotation: peg.1541:Catalyzes the reversible interconversion of serine
@@ -9419,8 +9420,8 @@
   pathway: Glycine, serine and threonine metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
-  translated_equation: '|5,10-Methylenetetrahydrofolate (MLTHF)[c]| + |L-Glycine
-    (Gly-L)[c]| + H2O[c] <=> |5,6,7,8-Tetrahydrofolate (THF)[c]| + |L-Serine (Ser-L)[c]|'
+  translated_equation: '|5,6,7,8-Tetrahydrofolate (THF)[c]| + |L-Serine (Ser-L)[c]| <=> 
+   |5,10-Methylenetetrahydrofolate (MLTHF)[c]| + |L-Glycine (Gly-L)[c]| + H2O[c]'
 - id: R08557
   equation: C00114[c] + C00003[c] <=> C00576[c] + C00004[c] + C00080[c]
   ec:
@@ -15790,7 +15791,7 @@
   PATRIC_annotation: Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9) / Methylenetetrahydrofolate
     dehydrogenase (NADP+) (EC 1.5.1.5) or Formate--tetrahydrofolate ligase (EC 6.3.4.3)
   curated: true
-  genesNCBI: NA
+  genesNCBI: Athe_0982
   genes_Cce: peg.1461
   genes_Cth: peg.1461 or peg.2770
   genes_Tsac: peg.1461

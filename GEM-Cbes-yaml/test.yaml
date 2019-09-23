@@ -62,8 +62,8 @@
 #   equation: C00234[c] <=
 # - id: sink_formylthf
 #   equation: C00234[c] =>
-- id: source_formate
-  equation: C00058[c] <=
+# - id: source_formate
+#   equation: C00058[c] <=
 # - id: sink_formate
 #   equation: C00058[c] =>
 # - id: source_proPhis
@@ -214,9 +214,70 @@
 # - id: sink_test
 #   equation: C00392[c] <=>
 
+# # 2019-09-20 test blocked R01830
+# # check R01830
+# - id: sink_x5p
+#   equation: C00231[c] =>
+# - id: sink_e4p
+#   equation: C00279[c] =>
+# - id: source_bf6p
+#   equation: C05345[c] <=
+# - id: source_G3P
+#   equation: C00118[c] <=
+# # check R01049
+# - id: sink_amp
+#   equation: C00020[c] =>
+# - id: sink_prpp
+#   equation: C00119[c] =>
+# - id: source_atp
+#   equation: C00002[c] <=
+# - id: source_r5p
+#   equation: C00117[c] <=
+# - id: sink_r5p
+#   equation: C00117[c] =>
+# # check R01072
+# # C00064[c] + C00119[c] + C00001[c] => C03090[c] + C00013[c] + C00025[c]
+# - id: source_10fthf
+#   equation: C00234[c] <=
+# - id: sink_test
+#   equation: C00143[c] =>
+
+# # check R00943 (EC 6.3.4.3)
+# - id: source_thf
+#   equation: C00101[c] <=
+# - id: source_for
+#   equation: C00058[c] <=
+# - id: source_ATP
+#   equation: C00002[c] <=
+# - id: sink_ADP
+#   equation: C00008[c] =>
+# - id: sink_pi
+#   equation: C00009[c] =>
+# - id: sink_10fthf
+#   equation: C00234[c] =>
+
+# # check R00945
+# - id: sink_gly
+#   equation: C00037[c] =>
+# - id: test_h2o
+#   equation: C00001[c] =>
+# - id: source_ser
+#   equation: C00065[c] <=
+# - id: source_thf
+#   equation: C00101[c] <=
+
+# # check R01220
+# - id: sink_METHF
+#   equation: C00445[c] =>
+
+# # check R01655
+# - id: sink_10fthf
+#   equation: C00234[c] =>
+
 - id: sink_L-1,2-propanediol
   equation: C02917[c] =>
-
+- id: sink_aob
+  equation: C03508[c] =>
 
 
 
