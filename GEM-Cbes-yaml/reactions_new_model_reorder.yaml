@@ -4042,7 +4042,7 @@
 - id: R00946
   name: 5-Methyltetrahydrofolate:L-homocysteine S-methyltransferase
   genes: fig|31899.10.peg.735
-  equation: C00440[c] + C00155[c] <=> C00101[c] + C00073[c]
+  equation: C00440[c] + C00155[c] => C00101[c] + C00073[c]
   ec:
   - 2.1.1.13
   EggNOG_annotation: peg.63:Dihydropteroate synthase, DHPS;   peg.735:Homocysteine
@@ -4075,7 +4075,7 @@
   pathway: Cysteine and methionine metabolism
   source: KEGG
   tag: KEGG_Cbes,Cce
-  translated_equation: 5-Methyltetrahydrofolate[c] + L-Homocysteine[c] <=> |5,6,7,8-Tetrahydrofolate
+  translated_equation: 5-Methyltetrahydrofolate[c] + L-Homocysteine[c] => |5,6,7,8-Tetrahydrofolate
     (THF)[c]| + |L-Methionine (Met-L)[c]|
 - id: R00586
   name: Serine acetyltransferase
@@ -12436,7 +12436,7 @@
   name: tRNA uridine 5-carboxymethylaminomethyl modification
   equation: C17322[c] + C00037[c] + C03479[c] + C00030[c] <=> C17323[c] + C00101[c]
     + C00028[c] + C00001[c]
-  ec: []
+  ec: None
   EggNOG_annotation: peg.362:NAD-binding protein involved in the addition of a carboxymethylaminomethyl
     (cmnm) group at the wobble position (U34) of certain tRNAs, forming tRNA-cmnm(5)s(2)U34
     (By similarity);   peg.363:Exhibits a very high intrinsic GTPase hydrolysis rate.
@@ -15112,7 +15112,7 @@
     - reduced (NADH)[c]| + |Proton (H+)[c]|
 - id: R05552
   equation: C00251[c] + C00014[c] <=> C11355[c] + C00001[c]
-  ec: []
+  ec: None
   EggNOG_annotation: peg.2779:synthase component I;   peg.2780:Glutamine amidotransferase
     of anthranilate synthase;   peg.2204:Glutamine amidotransferase of anthranilate
     synthase;   peg.2205:synthase component I
@@ -15724,11 +15724,11 @@
   KEGG_annotation: peg.1747:-
   PATRIC_annotation: 5-formyltetrahydrofolate cyclo-ligase (EC 6.3.3.2)
   curated: true
-  genesNCBI: NA
+  genesNCBI: Athe_1260
   genes_Cce: peg.1747
   genes_Cth: peg.1747
   genes_Tsac: '-'
-  genes_kegg: '-'
+  genes_kegg: Athe_1260
   genes_string_NCBI_id: peg.1747
   genes_string_PATRIC_id: peg.1747
   names:
@@ -15744,7 +15744,7 @@
 - id: R00943
   name: Formate:tetrahydrofolate ligase (ADP-forming)
   genes: fig|31899.10.peg.2770
-  equation: C00101[c] + C00058[c] + C00002[c] <=> C00008[c] + C00009[c] + C00234[c]
+  equation: C00101[c] + C00058[c] + C00002[c] => C00008[c] + C00009[c] + C00234[c]
   ec:
   - 6.3.4.3
   EggNOG_annotation: peg.1461:Catalyzes the oxidation of 5,10- methylenetetrahydrofolate
@@ -15775,7 +15775,7 @@
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: '|5,6,7,8-Tetrahydrofolate (THF)[c]| + |Formate (For)[c]|
-    + ATP[c] <=> ADP[c] + Phosphate[c] + 10-Formyltetrahydrofolate[c]'
+    + ATP[c] => ADP[c] + Phosphate[c] + 10-Formyltetrahydrofolate[c]'
 - id: R01655
   name: 5,10-Methenyltetrahydrofolate 5-hydrolase (decyclizing)
   genes: fig|31899.10.peg.1461
@@ -15824,7 +15824,7 @@
   PATRIC_annotation: Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9) / Methylenetetrahydrofolate
     dehydrogenase (NADP+) (EC 1.5.1.5)
   curated: true
-  genesNCBI: NA
+  genesNCBI: Athe_0982
   genes_Cce: peg.1461
   genes_Cth: peg.1461
   genes_Tsac: peg.1461
@@ -18406,7 +18406,7 @@
   translated_equation: Hydroxymethylbilane[c] => |Uroporphyrinogen III[c]| + H2O[c]
 - id: R11671
   equation: C00083[c] + C00024[c] <=> C05223[c]
-  ec: []
+  ec: None
   EggNOG_annotation: peg.1638:Malonyl CoA-acyl carrier protein transacylase;   peg.1639:reductase
   KEGG_annotation: Athe_1155:K00645 [acyl-carrier-protein] S-malonyltransferase [EC:2.3.1.39]
     | (GenBank) malonyl CoA-acyl carrie;   Athe_1156:K00059 3-oxoacyl-[acyl-carrier
