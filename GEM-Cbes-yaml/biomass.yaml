@@ -21,6 +21,14 @@
     + (0.3240) C00787[c] + (0.5330) C01653[c] + (15.1563) C00035[c] + (15.1563) C00009[c]
   pathway: Biomass
   comment: Equation of protein composition based on count of each amino acids of C.bescii CDS protein sequences.
+- id: lipid_met
+  name: Lipid
+  # equation: (0.153) C06424[c] + (0.153) C06424[c] + (0.236) C01530[c] + (0.088) C00712[c] + (0.068) C21944[c] + (0.353) fa3[c] + 
+  #   (0.112) fa6[c] + (1.766) fa11[c] + (0.043) fa12[c] + (0.386) fa1OH[c] => lipids[c]
+  equation: (0.153) C06424[c] + (0.153) C06424[c] + (0.236) C01530[c] + (0.088) C00712[c] + (0.068) C21944[c] + (0.353) fa3[c] + 
+    (0.112) fa6[c] + (1.766) fa11[c] + (0.043) fa12[c] => lipids[c]
+  pathway: Biomass
+
 # - id: Biomass_Cbesii
 #   name: total Biomass (based on E coli)
 #   # equation: (0.031) dna[c] + (0.205) rna[c] + (0.55) protein[c] + (0.091) lipids + (0.034) C00338[c] + (0.025) C00889[c] + 

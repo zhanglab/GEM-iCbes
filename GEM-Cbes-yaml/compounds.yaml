@@ -1383,7 +1383,7 @@
   source: KEGG
   tag: A501
 - id: C00006
-  name: Nicotinamide adenine dinucleotide phosphate (NADP)
+  name: Nicotinamide adenine dinucleotide phosphate (NADP+)
   formula: C21H29N7O17P3
   charge: 1
   mol_weight: 744.4129
@@ -1432,7 +1432,7 @@
   source: KEGG
   tag: A501
 - id: C00003
-  name: Nicotinamide adenine dinucleotide (NAD)
+  name: Nicotinamide adenine dinucleotide (NAD+)
   formula: C21H28N7O14P2
   charge: 1
   mol_weight: 664.433
@@ -1974,14 +1974,14 @@
   source: KEGG
   tag: A501
 - id: C04677
-  name: 5-Amino-1-(5-Phospho-D-ribosyl)imidazole-4-carboxamide
+  name: 5-Amino-1-(5-Phospho-D-ribosyl)imidazole-4-carboxamide (AICAR)
   formula: C9H15N4O8P
   charge: 0
   mol_weight: 338.2112
   source: KEGG
   tag: A501
 - id: C04734
-  name: 5-Formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide
+  name: 5-Formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide (FAICAR)
   formula: C10H15N4O9P
   charge: 0
   mol_weight: 366.2213
@@ -4982,6 +4982,239 @@
   formula: C25H40N7O19P3S
   mol_weight: 867.6069
   tag: AddFromRxn
+
+# cpds in FA biosynthesis
+- id: C01203
+  name: Oleoyl-[acyl-carrier protein]
+  names:
+  - Oleoyl-[acyl-carrier protein]
+  - Octadecenoyl-[acyl-carrier protein]
+  - Octadecenoyl-[acp]
+  formula: C18H33OSR
+  tag: AddFromRxn
+  comment: Generic compound in reaction hierarchy
+  PubChem: '4427'
+- id: C00712
+  name: (9Z)-Octadecenoic acid
+  names:
+  - (9Z)-Octadecenoic acid
+  - (Z)-Octadec-9-enoic acid
+  - Oleate
+  - Oleic acid
+  formula: C18H34O2
+  mol_weight: 282.4614
+  tag: AddFromRxn
+  CAS: 112-80-1
+  PubChem: '3978'
+  ChEBI: '16196'
+  ChEMBL: CHEMBL8659
+  LIPIDMAPS: LMFA01030002 LMFA01030763
+  LipidBank: DFA0111
+  KNApSAcK: C00001232
+  PDB-CCD: OLA
+  3DMET: B00158
+  NIKKAJI: J2.460K
+- id: C05764
+  name: Hexadecanoyl-[acp]
+  names:
+  - Hexadecanoyl-[acp]
+  - Hexadecanoyl-[acyl-carrier protein]
+  - Palmitoyl-[acyl-carrier protein]
+  formula: C16H31OSR
+  tag: AddFromRxn
+  comment: Generic compound in reaction hierarchy
+  PubChem: '8059'
+  ChEBI: '5697'
+  LIPIDMAPS: LMFA07060040
+- id: C00249
+  name: Hexadecanoic acid
+  names:
+  - Hexadecanoic acid
+  - Hexadecanoate
+  - Hexadecylic acid
+  - Palmitic acid
+  - Palmitate
+  - Cetylic acid
+  formula: C16H32O2
+  mol_weight: 256.4241
+  tag: AddFromRxn
+  CAS: 57-10-3
+  PubChem: '3548'
+  ChEBI: '15756'
+  ChEMBL: CHEMBL82293
+  LIPIDMAPS: LMFA01010001
+  LipidBank: DFA0016
+  KNApSAcK: C00001233 C00030479
+  PDB-CCD: PLM
+  3DMET: B00071
+  NIKKAJI: J1.378A
+- id: C04088
+  name: Octadecanoyl-[acyl-carrier protein]
+  names:
+  - Octadecanoyl-[acyl-carrier protein]
+  - Stearoyl-[acyl-carrier protein]
+  formula: C18H35OSR
+  tag: AddFromRxn
+  comment: Generic compound in reaction hierarchy
+  PubChem: '6780'
+- id: C01530
+  name: Octadecanoic acid
+  names:
+  - Octadecanoic acid
+  - Stearate
+  - Stearic acid
+  formula: C18H36O2
+  mol_weight: 284.4772
+  tag: AddFromRxn
+  CAS: 57-11-4
+  PubChem: '4692'
+  ChEBI: 25629 28842
+  ChEMBL: CHEMBL46403
+  LIPIDMAPS: LMFA01010018
+  LipidBank: DFA0018
+- id: C16520
+  name: Hexadecenoyl-[acyl-carrier protein]
+  names:
+  - Hexadecenoyl-[acyl-carrier protein]
+  - (9Z)-Hexadec-9-enoyl-[acyl-carrier protein]
+  formula: C16H29OSR
+  tag: AddFromRxn
+  comment: Generic compound in reaction hierarchy
+  PubChem: '51090849'
+  ChEBI: '80547'
+- id: C08362
+  name: (9Z)-Hexadecenoic acid
+  names:
+  - (9Z)-Hexadecenoic acid
+  - Palmitoleic acid
+  - cis-9-Hexadecenoic acid
+  - (9Z)-Hexadec-9-enoate
+  formula: C16H30O2
+  mol_weight: 254.4082
+  tag: AddFromRxn
+  CAS: 373-49-9
+  PubChem: '10558'
+  ChEBI: '28716'
+  ChEMBL: CHEMBL453509
+  LIPIDMAPS: LMFA01030056 LMFA01030057
+  LipidBank: DFA0095
+- id: C05223
+  name: Dodecanoyl-[acyl-carrier protein]
+  names:
+  - Dodecanoyl-[acyl-carrier protein]
+  - Dodecanoyl-[acp]
+  - Lauroyl-[acyl-carrier protein]
+  formula: C12H23OSR
+  comment: Generic compound in reaction hierarchy
+  PubChem: '7620'
+- id: C02679
+  name: Dodecanoic acid
+  names:
+  - Dodecanoic acid
+  - Dodecanoate
+  - Dodecylcarboxylate
+  - Lauric acid
+  formula: C12H24O2
+  mol_weight: 200.3178
+  tag: AddFromRxn
+  CAS: 143-07-7
+  PubChem: '5649'
+  ChEBI: 18262 30805
+  ChEMBL: CHEMBL108766
+  LIPIDMAPS: LMFA01010012
+  LipidBank: DFA0012
+- id: C05761
+  name: Tetradecanoyl-[acp]
+  names:
+  - Tetradecanoyl-[acp]
+  - Tetradecanoyl-[acyl-carrier protein]
+  - Myristoyl-[acyl-carrier protein]
+  formula: C14H27OSR
+  comment: Generic compound in reaction hierarchy
+  PubChem: '8056'
+  ChEBI: '50651'
+- id: C06424
+  name: Tetradecanoic acid
+  names:
+  - Tetradecanoic acid
+  - Tetradecanoate
+  - Myristic acid
+  formula: C14H28O2
+  mol_weight: 228.3709
+  tag: AddFromRxn
+  CAS: 544-63-8
+  PubChem: '8659'
+  ChEBI: 28875 30807
+  ChEMBL: CHEMBL111077
+  LIPIDMAPS: LMFA01010014
+  LipidBank: DFA0014
+- id: C02939
+  name: 3-Methylbutanoyl-CoA
+  names:
+  - 3-Methylbutanoyl-CoA
+  - Isovaleryl-CoA
+  formula: C26H44N7O17P3S
+  mol_weight: 851.6505
+  tag: AddFromRxn
+  PubChem: '5858'
+  ChEBI: '15487'
+  LIPIDMAPS: LMFA07050336
+  PDB-CCD: IVC
+  3DMET: B04869
+  NIKKAJI: J675.058C
+- id: C00630
+  name: 2-Methylpropanoyl-CoA
+  names:
+  - 2-Methylpropanoyl-CoA
+  - 2-Methylpropionyl-CoA
+  - Isobutyryl-CoA
+  formula: C25H42N7O17P3S
+  mol_weight: 837.624
+  PubChem: '3903'
+  ChEBI: '15479'
+  LIPIDMAPS: LMFA07050331
+  PDB-CCD: CO6
+  3DMET: B04708
+  NIKKAJI: J721.070A
+  tag: AddFromRxn
+- id: C21944
+  name: cis-Vaccenic acid
+  names:
+  - cis-Vaccenic acid;
+  - cis-11-Octadecenoic acid;
+  - 11Z-Octadecenoic acid;
+  - (Z)-Octadec-11-enoic acid
+  formula: C18H34O2
+  mol_weight: 282.461
+  PubChem: 376218977
+  ChEMBL: CHEMBL1236642
+  PDB-CCD: VCA[PDBj]
+- id: C01033
+  name: 2-Methylbutanoyl-CoA
+  names:
+  - 2-Methylbutanoyl-CoA
+  - 2-Methylbutyryl-CoA
+  formula: C26H44N7O17P3S
+  charge: 0
+  mol_weight: 851.6505
+  note: In Tsacmodel,  the cpd ID IS2mbcoa
+  PubChem: '4276'
+  ChEBI: '15477'
+- id: fa3
+  name: Fatty Acid iso-C15:0
+  formula: C15H30O2
+- id: fa6
+  name: Fatty Acid iso-C16:0
+  formula: C16H32O2
+- id: fa11
+  name: Fatty Acid iso-C17:0
+  formula: C17H34O2 
+- id: fa12
+  name: Fatty Acid anteiso-C17:0
+  formula: C17H34O2 
+
+
+
 
 
 

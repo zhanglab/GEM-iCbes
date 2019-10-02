@@ -497,7 +497,7 @@
     + N6-(1,2-Dicarboxyethyl)-AMP[c]
 - id: DHDPRy
   name: dihydrodipicolinate reductase (NADPH)
-  equation: 23dhdp[c] + h[c] + nadph[c] => nadp[c] + thdp[c]
+  equation: 23dhdp[c] + h[c] + nadph[c] => C00006[c] + thdp[c]
   subsystem: Amino acids metabolism
   ec: 1.3.1.26
   EggNOG_annotation: peg.1616:Catalyzes the conversion of 4-hydroxy- tetrahydrodipicolinate
@@ -2679,6 +2679,7 @@
   translated_equation: '|Malonyl-[acp] methyl ester[c]| + |Malonyl-[acyl-carrier
     protein][c]| => |3-Ketoglutaryl-[acp] methyl ester[c]| + CO2[c] + |Acyl-carrier
     protein[c]|'
+  note: Tsac_1755 maps to Cbes peg.1641, but in Tsac model this gene is associated with EC 2.3.1.41 rather than 2.3.1.179
 - id: R10119
   name: glutaryl-[acp]-methyl-ester:malonyl-[acyl-carrier protein] C-acyltransferase
     (decarboxylating)
@@ -3841,7 +3842,7 @@
   translated_equation: O-Succinyl-L-homoserine[c] + |Hydrogen sulfide[c]| => L-Homocysteine[c]
     + Succinate[c]
 - id: R01286
-  name: L-cystathionine L-homocysteine-lyase (deaminating
+  name: L-cystathionine L-homocysteine-lyase (deaminating)
   equation: C02291[c] + C00001[c] <=> C00155[c] + C00014[c] + C00022[c]
   genes: fig|31899.10.peg.1606 or fig|31899.10.peg.1675
   genesNCBI: Athe_1124 or Athe_1190
@@ -4688,7 +4689,7 @@
 - id: CODHr
   name: carbon monoxide dehydrogenase / acetyl-CoA synthase
   equation: accoa[c] + (2) fdox[c] + h2o[c] + h4spt[c] <=> co2[c] + coa[c] + (2)
-    fdred[c] + (2) h[c] + mh4spt[c]
+    fdred[c] + (2) C00080[c] + mh4spt[c]
   subsystem: Energy Metabolism
   ec: 1.2.99.2
   EggNOG_annotation: peg.1658:Catalyzes the reduction of hydroxylamine to form NH(3)
@@ -4731,8 +4732,8 @@
     Ubiquinone-8[c] => |Nicotinamide adenine dinucleotide[c]| + Ubiquinol-8[c]
 - id: KAS1
   name: 'b ketoacyl synthetase Iso C140 '
-  equation: (14) h[c] + (10) nadph[c] + ibcoa[c] + (5) malcoa[c] => (10) nadp[c]
-    + (6) coa[c] + (4) h2o[c] + (5) co2[c] + fa1[c]
+  equation: (14) C00080[c] + (10) C00005[c] + ibcoa[c] + (5) C00083[c] => (10) C00006[c]
+    + (6) C00010[c] + (4) h2o[c] + (5) C00011[c] + fa1[c]
   subsystem: Fatty Acid Metabolism
   ec: 2.3.1.41
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
@@ -4778,8 +4779,8 @@
     |carbon dioxide[c]| + |Fatty acid (Iso-C14:0)[c]|
 - id: KAS10
   name: 'b ketoacyl synthetase Anteiso C171 '
-  equation: 2mbcoa[c] + (16) h[c] + (11) nadph[c] + (6) malcoa[c] => (11) nadp[c]
-    + (7) coa[c] + fa10[c] + (5) h2o[c] + (6) co2[c]
+  equation: C01033[c] + (16) C00080[c] + (11) C00005[c] + (6) C00083[c] => (11) C00006[c]
+    + (7) C00010[c] + fa10[c] + (5) h2o[c] + (6) C00011[c]
   subsystem: Fatty Acid Metabolism
   ec: 2.3.1.41
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
@@ -4825,8 +4826,8 @@
     + (5) water[c] + (6) |carbon dioxide[c]|
 - id: KAS100iso
   name: b ketoacyl synthetase branched(iso) C100
-  equation: (8) h[c] + (6) nadph[c] + ibcoa[c] + (3) malcoa[c] => (6) nadp[c] + (4)
-    coa[c] + (2) h2o[c] + dca[c] + (3) co2[c]
+  equation: (8) C00080[c] + (6) C00005[c] + ibcoa[c] + (3) C00083[c] => (6) C00006[c] + (4)
+    coa[c] + (2) h2o[c] + dca[c] + (3) C00011[c]
   subsystem: Fatty Acid Metabolism
   ec: 2.3.1.41
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
@@ -4872,10 +4873,14 @@
     (n-C10:0)[c]| + (3) |carbon dioxide[c]|
 - id: KAS11
   name: 'b ketoacyl synthetase Iso C170 '
-  equation: (17) h[c] + (12) nadph[c] + ivcoa[c] + (6) malcoa[c] => (12) nadp[c]
-    + (7) coa[c] + fa11[c] + (5) h2o[c] + (6) co2[c]
-  subsystem: Fatty Acid Metabolism
-  ec: 2.3.1.41
+  equation: (17) C00080[c] + (12) C00005[c] + C02939[c] + (6) C00083[c] => (12) C00006[c]
+    + (7) C00010[c] + fa11[c] + (5) C00001[c] + (6) C00011[c]
+  pathway: Fatty Acid Metabolism
+  genes: fig|31899.10.peg.1641 and fig|31899.10.peg.1640 and fig|31899.10.peg.1636 and 
+    fig|31899.10.peg.1637 and fig|31899.10.peg.1635 and fig|31899.10.peg.1638 and fig|31899.10.peg.1639
+  genesNCBI: Athe_1158 and Athe_1157 and Athe_1153 and Athe_1154 and Athe_1152 and Athe_1155 and Athe_1156
+  curated: true
+  # ec: 2.3.1.41
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
     by the addition to an acyl acceptor of two carbons from malonyl-ACP (By similarity);   peg.1640:Carrier
     of the growing fatty acid chain in fatty acid biosynthesis (By similarity);   peg.1636:Catalyzes
@@ -4919,8 +4924,8 @@
     + (5) water[c] + (6) |carbon dioxide[c]|
 - id: KAS12
   name: 'b ketoacyl synthetase Anteiso C170 '
-  equation: 2mbcoa[c] + (17) h[c] + (12) nadph[c] + (6) malcoa[c] => (12) nadp[c]
-    + (7) coa[c] + fa12[c] + (5) h2o[c] + (6) co2[c]
+  equation: C01033[c] + (17) C00080[c] + (12) C00005[c] + (6) C00083[c] => (12) C00006[c]
+    + (7) C00010[c] + fa12[c] + (5) C00001[c] + (6) C00011[c]
   subsystem: Fatty Acid Metabolism
   ec: 2.3.1.41
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
@@ -4966,10 +4971,14 @@
     + (5) water[c] + (6) |carbon dioxide[c]|
 - id: KAS13
   name: 'b ketoacyl synthetase n C180 '
-  equation: (23) h[c] + (16) nadph[c] + accoa[c] + (8) malcoa[c] => ocdca[c] + (16)
-    nadp[c] + (9) coa[c] + (7) h2o[c] + (8) co2[c]
+  equation: (23) C00080[c] + (16) C00005[c] + C00024[c] + (8) C00083[c] => C01530[c] + (16)
+    C00006[c] + (9) C00010[c] + (7) C00001[c] + (8) C00011[c]
   subsystem: Fatty Acid Metabolism
-  ec: 2.3.1.41
+  genes: fig|31899.10.peg.1641 and fig|31899.10.peg.1640 and fig|31899.10.peg.1636 and 
+    fig|31899.10.peg.1637 and fig|31899.10.peg.1635 and fig|31899.10.peg.1638 and fig|31899.10.peg.1639
+  genesNCBI: Athe_1158 and Athe_1157 and Athe_1153 and Athe_1154 and Athe_1152 and Athe_1155 and 
+    Athe_1156
+  # ec: 2.3.1.41
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
     by the addition to an acyl acceptor of two carbons from malonyl-ACP (By similarity);   peg.1640:Carrier
     of the growing fatty acid chain in fatty acid biosynthesis (By similarity);   peg.1636:Catalyzes
@@ -5013,8 +5022,8 @@
     + (7) water[c] + (8) |carbon dioxide[c]|
 - id: KAS130iso
   name: b ketoacyl synthetase branched(iso) C130
-  equation: (11) h[c] + (8) nadph[c] + ivcoa[c] + (4) malcoa[c] => (8) nadp[c] +
-    (5) coa[c] + (3) h2o[c] + trdca[c] + (4) co2[c]
+  equation: (11) C00080[c] + (8) C00005[c] + ivcoa[c] + (4) C00083[c] => (8) C00006[c] +
+    (5) C00010[c] + (3) h2o[c] + trdca[c] + (4) C00011[c]
   subsystem: Fatty Acid Metabolism
   ec: 2.3.1.41
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
@@ -5060,8 +5069,8 @@
     + (4) |carbon dioxide[c]|
 - id: KAS141
   name: 'b ketoacyl synthetase n C141 '
-  equation: (16) h[c] + (11) nadph[c] + accoa[c] + (6) malcoa[c] => ttdcea[c] + (11)
-    nadp[c] + (7) coa[c] + (5) h2o[c] + (6) co2[c]
+  equation: (16) C00080[c] + (11) C00005[c] + C00024[c] + (6) C00083[c] => ttdcea[c] + (11)
+    C00006[c] + (7) C00010[c] + (5) h2o[c] + (6) C00011[c]
   subsystem: Fatty Acid Metabolism
   ec: 2.3.1.41
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
@@ -5105,10 +5114,12 @@
     - reduced[c]| + Acetyl-CoA[c] + (6) |Malonyl CoA[c]| => |tetradecenoate (n-C14:1)[c]|
     + (11) |Nicotinamide adenine dinucleotide phosphate[c]| + (7) |Coenzyme A[c]|
     + (5) water[c] + (6) |carbon dioxide[c]|
-- id: KAS17
-  name: 'b ketoacyl synthetase n C181 '
-  equation: (22) h[c] + (15) nadph[c] + accoa[c] + (8) malcoa[c] => (15) nadp[c]
-    + (9) coa[c] + (7) h2o[c] + ocdcea[c] + (8) co2[c]
+- id: KAS17_1
+  name: 'b ketoacyl synthetase n C181 (C18:1omega9c)'
+  # equation: (22) C00080[c] + (15) C00005[c] + C00024[c] + (8) C00083[c] => (15) C00006[c]
+  #   + (9) C00010[c] + (7) h2o[c] + ocdcea[c] + (8) C00011[c]
+  equation: (22) C00080[c] + (15) C00005[c] + C00024[c] + (8) C00083[c] => (15) C00006[c]
+    + (9) C00010[c] + (7) C00001[c] + C00712[c] + (8) C00011[c]
   subsystem: Fatty Acid Metabolism
   ec: 2.3.1.41
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
@@ -5151,13 +5162,49 @@
   translated_equation: (22) H+[c] + (15) |Nicotinamide adenine dinucleotide phosphate
     - reduced[c]| + Acetyl-CoA[c] + (8) |Malonyl CoA[c]| => (15) |Nicotinamide adenine
     dinucleotide phosphate[c]| + (9) |Coenzyme A[c]| + (7) water[c] + |octadecenoate
-    (n-C18:1)[c]| + (8) |carbon dioxide[c]|
+    (n-C18:1)[c]| + (8) |carbon dioxide[c]
+  note: in Cth model, no EC information
+- id: KAS17_2
+  name: 'b ketoacyl synthetase n C181 (C18:1omega7c) '
+  # equation: (22) C00080[c] + (15) C00005[c] + C00024[c] + (8) C00083[c] => (15) C00006[c]
+  #   + (9) C00010[c] + (7) h2o[c] + ocdcea[c] + (8) C00011[c]
+  equation: (22) C00080[c] + (15) C00005[c] + C00024[c] + (8) C00083[c] => (15) C00006[c]
+    + (9) C00010[c] + (7) C00001[c] + C21944[c] + (8) C00011[c]
+  subsystem: Fatty Acid Metabolism
+  # ec: 2.3.1.41
+  PATRIC_annotation: 3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.179)
+    or Acyl carrier protein or Phosphate:acyl-ACP acyltransferase PlsX (EC 2.3.1.n2)
+    or 3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.180) or Transcription
+    factor FapR or Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39) or
+    3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100), FadG
+  genes_Cce: None
+  genes_Cth: peg.1641 and peg.1640 and peg.1639 and peg.1638 and peg.1637 and peg.1636
+    and peg.1635
+  genes_Tsac: peg.1641
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1158,Athe_1157,Athe_1153,Athe_1154,Athe_1152,Athe_1155,Athe_1156
+  genes_string_PATRIC_id: peg.1641,peg.1640,peg.1636,peg.1637,peg.1635,peg.1638,peg.1639
+  pathway: Fatty Acid Metabolism
+  source: Tsac model
+  tag: Cth,Tsac
+  translated_equation: (22) H+[c] + (15) |Nicotinamide adenine dinucleotide phosphate
+    - reduced[c]| + Acetyl-CoA[c] + (8) |Malonyl CoA[c]| => (15) |Nicotinamide adenine
+    dinucleotide phosphate[c]| + (9) |Coenzyme A[c]| + (7) water[c] + |octadecenoate
+    (n-C18:1)[c]| + (8) |carbon dioxide[c]
+  note: in Cth model, no EC information
 - id: KAS2
   name: 'b ketoacyl synthetase n C140 '
-  equation: (17) h[c] + (12) nadph[c] + accoa[c] + (6) malcoa[c] => ttdca[c] + (12)
-    nadp[c] + (7) coa[c] + (5) h2o[c] + (6) co2[c]
+  # equation: (17) C00080[c] + (12) C00005[c] + C00024[c] + (6) C00083[c] => ttdca[c] + (12)
+  #   C00006[c] + (7) C00010[c] + (5) h2o[c] + (6) C00011[c]
+  equation: (17) C00080[c] + (12) C00005[c] + C00024[c] + (6) C00083[c] => C06424[c] + (12)
+    C00006[c] + (7) C00010[c] + (5) C00001[c] + (6) C00011[c]
+  genes: fig|31899.10.peg.1641 and fig|31899.10.peg.1640 and fig|31899.10.peg.1636 and 
+    fig|31899.10.peg.1637 and fig|31899.10.peg.1635 and fig|31899.10.peg.1638 and fig|31899.10.peg.1639
+  genesNCBI: Athe_1158 and Athe_1157 and Athe_1153 and Athe_1154 and Athe_1152 and Athe_1155 and 
+    Athe_1156
+  curated: true
   subsystem: Fatty Acid Metabolism
-  ec: 2.3.1.41
+  # ec: 2.3.1.41
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
     by the addition to an acyl acceptor of two carbons from malonyl-ACP (By similarity);   peg.1640:Carrier
     of the growing fatty acid chain in fatty acid biosynthesis (By similarity);   peg.1636:Catalyzes
@@ -5201,10 +5248,14 @@
     + (5) water[c] + (6) |carbon dioxide[c]|
 - id: KAS3
   name: 'b ketoacyl synthetase Iso C150 '
-  equation: (14) h[c] + (10) nadph[c] + ivcoa[c] + (5) malcoa[c] => (10) nadp[c]
-    + (6) coa[c] + (4) h2o[c] + fa3[c] + (5) co2[c]
-  subsystem: Fatty Acid Metabolism
-  ec: 2.3.1.41
+  equation: (14) C00080[c] + (10) C00005[c] + C02939[c] + (5) C00083[c] => (10) C00006[c]
+    + (6) C00010[c] + (4) C00001[c] + fa3[c] + (5) C00011[c]
+  genes: fig|31899.10.peg.1641 and fig|31899.10.peg.1640 and fig|31899.10.peg.1636 and 
+    fig|31899.10.peg.1637 and fig|31899.10.peg.1635 and fig|31899.10.peg.1638 and fig|31899.10.peg.1639
+  genesNCBI: Athe_1158 and Athe_1157 and Athe_1153 and Athe_1154 and Athe_1152 and Athe_1155 and Athe_1156
+  curated: true
+  pathway: Fatty Acid Metabolism
+  # ec: 2.3.1.41
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
     by the addition to an acyl acceptor of two carbons from malonyl-ACP (By similarity);   peg.1640:Carrier
     of the growing fatty acid chain in fatty acid biosynthesis (By similarity);   peg.1636:Catalyzes
@@ -5248,8 +5299,8 @@
     acid (Iso-C15:0)[c]| + (5) |carbon dioxide[c]|
 - id: KAS4
   name: 'b ketoacyl synthetase Anteiso C150 '
-  equation: 2mbcoa[c] + (14) h[c] + (10) nadph[c] + (5) malcoa[c] => (10) nadp[c]
-    + (6) coa[c] + (4) h2o[c] + fa4[c] + (5) co2[c]
+  equation: C01033[c] + (14) C00080[c] + (10) C00005[c] + (5) C00083[c] => (10) C00006[c]
+    + (6) C00010[c] + (4) h2o[c] + fa4[c] + (5) C00011[c]
   subsystem: Fatty Acid Metabolism
   ec: 2.3.1.41
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
@@ -5295,8 +5346,8 @@
     acid (Anteiso-C15:0)[c]| + (5) |carbon dioxide[c]|
 - id: KAS5
   name: 'b ketoacyl synthetase Iso C161 '
-  equation: (16) h[c] + (11) nadph[c] + ibcoa[c] + (6) malcoa[c] => (11) nadp[c]
-    + (7) coa[c] + (5) h2o[c] + fa5[c] + (6) co2[c]
+  equation: (16) C00080[c] + (11) C00005[c] + ibcoa[c] + (6) C00083[c] => (11) C00006[c]
+    + (7) C00010[c] + (5) h2o[c] + fa5[c] + (6) C00011[c]
   subsystem: Fatty Acid Metabolism
   ec: 2.3.1.41
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
@@ -5342,10 +5393,14 @@
     acid (Iso-C16:1)[c]| + (6) |carbon dioxide[c]|
 - id: KAS6
   name: 'b ketoacyl synthetase Iso C160 '
-  equation: (17) h[c] + (12) nadph[c] + ibcoa[c] + (6) malcoa[c] => fa6[c] + (12)
-    nadp[c] + (7) coa[c] + (5) h2o[c] + (6) co2[c]
-  subsystem: Fatty Acid Metabolism
-  ec: 2.3.1.41
+  equation: (17) C00080[c] + (12) C00005[c] + C00630[c] + (6) C00083[c] => fa6[c] + (12)
+    C00006[c] + (7) C00010[c] + (5) C00001[c] + (6) C00011[c]
+  pathway: Fatty Acid Metabolism
+  genes: fig|31899.10.peg.1641 and fig|31899.10.peg.1640 and fig|31899.10.peg.1636 and 
+    fig|31899.10.peg.1637 and fig|31899.10.peg.1635 and fig|31899.10.peg.1638 and fig|31899.10.peg.1639
+  genesNCBI: Athe_1158 and Athe_1157 and Athe_1153 and Athe_1154 and Athe_1152 and Athe_1155 and Athe_1156
+  curated: true
+  # ec: 2.3.1.41
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
     by the addition to an acyl acceptor of two carbons from malonyl-ACP (By similarity);   peg.1640:Carrier
     of the growing fatty acid chain in fatty acid biosynthesis (By similarity);   peg.1636:Catalyzes
@@ -5389,8 +5444,8 @@
     + (5) water[c] + (6) |carbon dioxide[c]|
 - id: KAS7
   name: 'b ketoacyl synthetase n C161 '
-  equation: (19) h[c] + (13) nadph[c] + accoa[c] + (7) malcoa[c] => (13) nadp[c]
-    + (8) coa[c] + (6) h2o[c] + (7) co2[c] + hdcea[c]
+  equation: (19) C00080[c] + (13) C00005[c] + C00024[c] + (7) C00083[c] => (13) C00006[c]
+    + (8) C00010[c] + (6) h2o[c] + (7) C00011[c] + hdcea[c]
   subsystem: Fatty Acid Metabolism
   ec: 2.3.1.41
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
@@ -5436,10 +5491,15 @@
     dioxide[c]| + |Hexadecenoate (n-C16:1)[c]|
 - id: KAS8
   name: 'b ketoacyl synthetase palmitate n C160 '
-  equation: (20) h[c] + (14) nadph[c] + accoa[c] + (7) malcoa[c] => (14) nadp[c]
-    + (8) coa[c] + (6) h2o[c] + hdca[c] + (7) co2[c]
+  equation: (20) C00080[c] + (14) C00005[c] + C00024[c] + (7) C00083[c] => (14) C00006[c]
+    + (8) C00010[c] + (6) C00001[c] + C00249[c] + (7) C00011[c]
   subsystem: Fatty Acid Metabolism
-  ec: 2.3.1.41
+  genes: fig|31899.10.peg.1641 and fig|31899.10.peg.1640 and fig|31899.10.peg.1636 and 
+    fig|31899.10.peg.1637 and fig|31899.10.peg.1635 and fig|31899.10.peg.1638 and fig|31899.10.peg.1639
+  genesNCBI: Athe_1158 and Athe_1157 and Athe_1153 and Athe_1154 and Athe_1152 and Athe_1155 and 
+    Athe_1156
+  curated: true
+  # ec: 2.3.1.41
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
     by the addition to an acyl acceptor of two carbons from malonyl-ACP (By similarity);   peg.1640:Carrier
     of the growing fatty acid chain in fatty acid biosynthesis (By similarity);   peg.1636:Catalyzes
@@ -5483,8 +5543,8 @@
     (n-C16:0)[c]| + (7) |carbon dioxide[c]|
 - id: KAS9
   name: 'b ketoacyl synthetase Iso C171 '
-  equation: (16) h[c] + (11) nadph[c] + ivcoa[c] + (6) malcoa[c] => (11) nadp[c]
-    + (7) coa[c] + (5) h2o[c] + fa9[c] + (6) co2[c]
+  equation: (16) C00080[c] + (11) C00005[c] + ivcoa[c] + (6) C00083[c] => (11) C00006[c]
+    + (7) C00010[c] + (5) h2o[c] + fa9[c] + (6) C00011[c]
   subsystem: Fatty Acid Metabolism
   ec: 2.3.1.41
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
@@ -6960,7 +7020,7 @@
   KEGG_annotation: Athe_0789:K00666 fatty-acyl-CoA synthase [EC:6.2.1.-] | (GenBank)
     AMP-dependent synthetase and ligase
   PATRIC_annotation: Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)
-  genes_Cce: '#NAME?'
+  genes_Cce: '- or - or - or - (Ccel_0896 or Ccel_1369 or Ccel_2472 or Ccel_3252)'
   genes_Cth: '-'
   genes_Tsac: peg.1248
   genes_kegg: None
@@ -11373,7 +11433,7 @@
     + |Nicotinamide adenine dinucleotide phosphate (NADP)[c]|'
 - id: FDH2
   name: formatedehydrogenase(quinone-8:2protons)
-  equation: q8[c] + for[c] + (3) h[c] => (2) h[e] + q8h2[c] + co2[c]
+  equation: q8[c] + for[c] + (3) C00080[c] => (2) h[e] + q8h2[c] + co2[c]
   subsystem: Miscellaneous
   ec: 1.2.2.1
   EggNOG_annotation: peg.1279:4Fe-4S ferredoxin iron-sulfur binding domain protein;   peg.2935:4Fe-4S
@@ -12498,7 +12558,14 @@
   equation: C00141[c] + C00010[c] + C00003[c] <=> C00630[c] + C00011[c] + C00004[c]
     + C00080[c]
   ec:
-  - 1.2.1.25
+  # - 1.2.1.25
+  - 1.2.4.4
+  - 2.3.1.168
+  - 1.8.1.4
+  genes: peg.1158 and peg.1156 and peg.1157
+  genesNCBI: Athe_0704 and Athe_0702 and Athe_0703 
+  curated: true
+  note: gene order follows ec order; current gene association is not sure.
   EggNOG_annotation: peg.2746:periplasmic solute binding protein
   KEGG_annotation: Athe_2190:K09815 zinc transport system substrate-binding protein
     | (GenBank) periplasmic solute binding protei
@@ -12526,7 +12593,14 @@
   equation: C00233[c] + C00010[c] + C00003[c] <=> C02939[c] + C00011[c] + C00004[c]
     + C00080[c]
   ec:
-  - 1.2.1.25
+  # - 1.2.1.25
+  - 1.2.4.4
+  - 2.3.1.168
+  - 1.8.1.4
+  genes: peg.1158 and peg.1156 and peg.1157
+  genesNCBI: Athe_0704 and Athe_0702 and Athe_0703 
+  curated: true
+  note: gene order follows ec order; current gene association is not sure.
   EggNOG_annotation: peg.2746:periplasmic solute binding protein
   KEGG_annotation: Athe_2190:K09815 zinc transport system substrate-binding protein
     | (GenBank) periplasmic solute binding protei
@@ -12554,7 +12628,14 @@
   equation: C00671[c] + C00010[c] + C00003[c] <=> C15980[c] + C00011[c] + C00004[c]
     + C00080[c]
   ec:
-  - 1.2.1.25
+  # - 1.2.1.25
+  - 1.2.4.4
+  - 2.3.1.168
+  - 1.8.1.4
+  genes: peg.1158 and peg.1156 and peg.1157
+  genesNCBI: Athe_0704 and Athe_0702 and Athe_0703 
+  curated: true
+  note: gene order follows ec order; current gene association is not sure.
   EggNOG_annotation: peg.2746:periplasmic solute binding protein
   KEGG_annotation: Athe_2190:K09815 zinc transport system substrate-binding protein
     | (GenBank) periplasmic solute binding protei
@@ -15696,7 +15777,7 @@
   translated_equation: dAMP[c] + dATP[c] <=> (2) dADP[c]
 - id: PRAIS
   name: phosphoribosylaminoimidazole synthetase
-  equation: atp[c] + fpram[c] => adp[c] + air[c] + (2) h[c] + pi[c]
+  equation: atp[c] + fpram[c] => adp[c] + air[c] + (2) C00080[c] + pi[c]
   subsystem: Nucleotide Metabolism
   ec: 6.3.3.1
   EggNOG_annotation: peg.1939:phosphoribosylaminoimidazole synthetase
@@ -15874,7 +15955,7 @@
     (THF)[c]| + |Proton (H+)[c]|'
 - id: NFNab
   name: Bifurcating ferredoxin-NAD(P) oxidoreductase
-  equation: (2) nadp[c] + nadh[c] + fdred[c] => h2[c] + (2) nadph[c] + nad[c] + fdox[c]
+  equation: (2) C00006[c] + nadh[c] + fdred[c] => h2[c] + (2) nadph[c] + nad[c] + fdox[c]
   subsystem: Oxidative phosphorylation
   ec: .
   EggNOG_annotation: peg.1085:glutamate synthase;   peg.1086:Oxidoreductase FAD NAD(P)-binding
@@ -23821,7 +23902,7 @@
     mitochondria[c]| + H+[c] + Phosphate[c]
 - id: FRUabc
   name: fructose transport via ABC system
-  equation: (2) atp[c] + (2) h2o[c] + fru[e] => (2) adp[c] + (2) h[c] + (2) pi[c]
+  equation: (2) atp[c] + (2) h2o[c] + fru[e] => (2) adp[c] + (2) C00080[c] + (2) pi[c]
     + fru[c]
   subsystem: Transport
   ec: TC 3.A.1.2.5
@@ -23850,7 +23931,7 @@
     (2) H+[c] + (2) Phosphate[c] + D-Fructose[c]
 - id: GALabc
   name: D-galactose transport via ABC system
-  equation: (2) atp[c] + (2) h2o[c] + gal[e] => (2) adp[c] + (2) h[c] + (2) pi[c]
+  equation: (2) atp[c] + (2) h2o[c] + gal[e] => (2) adp[c] + (2) C00080[c] + (2) pi[c]
     + gal[c]
   subsystem: Transport
   ec: TC 3.A.1.2.5
@@ -23912,7 +23993,7 @@
     (2) H+[c] + (2) Phosphate[c] + D-Galactose[c]
 - id: GLCabc
   name: D-glucose transport via ABC system
-  equation: (2) atp[c] + (2) h2o[c] + glc-D[e] => (2) adp[c] + (2) h[c] + (2) pi[c]
+  equation: (2) atp[c] + (2) h2o[c] + glc-D[e] => (2) adp[c] + (2) C00080[c] + (2) pi[c]
     + glc-D[c]
   subsystem: Transport
   ec: 'TC 3.A.1.2.5/TC 3.A.1.1.30 '
@@ -24089,7 +24170,7 @@
     + Phosphate[c]
 - id: MANabc
   name: D-mannose transport via ABC system
-  equation: (2) atp[c] + (2) h2o[c] + man[e] => (2) adp[c] + (2) h[c] + (2) pi[c]
+  equation: (2) atp[c] + (2) h2o[c] + man[e] => (2) adp[c] + (2) C00080[c] + (2) pi[c]
     + man[c]
   subsystem: Transport
   ec: TC 3.A.1.2.5
@@ -24312,7 +24393,7 @@
     + Sulfate[c]
 - id: RIBabc
   name: D-ribose transport via ABC system
-  equation: (2) atp[c] + (2) h2o[c] + rib-D[e] => (2) adp[c] + (2) h[c] + (2) pi[c]
+  equation: (2) atp[c] + (2) h2o[c] + rib-D[e] => (2) adp[c] + (2) C00080[c] + (2) pi[c]
     + rib-D[c]
   subsystem: Transport
   ec: TC 3.A.1.2.5/TC 3.A.1.2.1
@@ -24421,7 +24502,7 @@
   translated_equation: H+[e] + Potassium[e] + Zinc[c] => H+[c] + Potassium[c] + Zinc[e]
 - id: XYLabc
   name: D-xylose transport via ABC system
-  equation: (2) atp[c] + (2) h2o[c] + xyl-D[e] => (2) adp[c] + (2) h[c] + (2) pi[c]
+  equation: (2) atp[c] + (2) h2o[c] + xyl-D[e] => (2) adp[c] + (2) C00080[c] + (2) pi[c]
     + xyl-D[c]
   subsystem: Transport
   ec: TC 3.A.1.2.5/TC 3.A.1.2.4
@@ -24484,7 +24565,7 @@
     H+[c] + (2) Phosphate[c] + D-Xylose[c]
 - id: ARBabc
   name: L-arabinose transport via ABC system
-  equation: (2) atp[c] + (2) h2o[c] + arab-L[e] => (2) adp[c] + (2) h[c] + (2) pi[c]
+  equation: (2) atp[c] + (2) h2o[c] + arab-L[e] => (2) adp[c] + (2) C00080[c] + (2) pi[c]
     + arab-L[c]
   subsystem: Transport
   ec: TC 3.A.1.2.5
@@ -25991,37 +26072,76 @@
 #   source: KEGG
 #   tag: manually-add
 #   note: this function is annotated by Dima, could be found in sugar catabolic network
-- id: R00930
-  name: (S)-2-Methyl-3-oxopropanoyl-CoA:pyruvate carboxyltransferase
-  genes: fig|31899.10.peg.1804 and fig|31899.10.peg.1805 and fig|31899.10.peg.1806 
-    and fig|31899.10.peg.1807
-  genesNCBI: Athe_1316 and Athe_1317 and Athe_1318 and Athe_1319
-  curated: true
-  names:
-  - (S)-2-Methyl-3-oxopropanoyl-CoA:pyruvate carboxyltransferase
-  equation: C00683[c] + C00022[c] <=> C00100[c] + C00036[c]
-  translated_equation: (S)-Methylmalonyl-CoA[c] + |Pyruvate (Pyr)[c]| <=> Propanoyl-CoA[c] + |Oxaloacetate (Oaa)[c]|
+
+# - id: R00930
+#   name: (S)-2-Methyl-3-oxopropanoyl-CoA:pyruvate carboxyltransferase
+#   genes: fig|31899.10.peg.1804 and fig|31899.10.peg.1805 and fig|31899.10.peg.1806 
+#     and fig|31899.10.peg.1807
+#   genesNCBI: Athe_1316 and Athe_1317 and Athe_1318 and Athe_1319
+#   curated: true
+#   names:
+#   - (S)-2-Methyl-3-oxopropanoyl-CoA:pyruvate carboxyltransferase
+#   equation: C00683[c] + C00022[c] <=> C00100[c] + C00036[c]
+#   translated_equation: (S)-Methylmalonyl-CoA[c] + |Pyruvate (Pyr)[c]| <=> Propanoyl-CoA[c] + |Oxaloacetate (Oaa)[c]|
+#   ec:
+#   - 2.1.3.1
+#   pathway: Propanoate metabolism
+#   other_pathways:
+#   - Propanoate metabolism
+#   PMID: 2920730,9428714
+#   tag: manually-add
+# - id: R00353
+#   name: malonyl-CoA:pyruvate carboxytransferase
+#   genes: fig|31899.10.peg.1804 and fig|31899.10.peg.1805 and fig|31899.10.peg.1806 
+#     and fig|31899.10.peg.1807
+#   genesNCBI: Athe_1316 and Athe_1317 and Athe_1318 and Athe_1319
+#   curated: true
+#   equation: C00083[c] + C00022[c] <=> C00024[c] + C00036[c]
+#   translated_equation: Malonyl-CoA[c] + |Pyruvate (Pyr)[c]| <=> 
+#     |Acetyl-CoA (AcCoA)[c]| + |Oxaloacetate (Oaa)[c]|
+#   enzymes:
+#   - 2.1.3.1
+#   pathways:
+#   - Propanoate metabolism
+#   pathway: Propanoate metabolism
+#   tag: manually-add
+#   PMID: 2920730,9428714
+- id: R00742
+  name: acetyl-CoA:carbon-dioxide ligase (ADP-forming)
+  equation: C00002[c] + C00024[c] + C00288[c] + C00080[c] => C00008[c] + C00009[c] 
+    + C00083[c]
   ec:
-  - 2.1.3.1
-  pathway: Propanoate metabolism
+  - 6.4.1.2
+  EggNOG_annotation: peg.1804:Acetyl-CoA carboxylase, carboxyltransferase component
+    (subunits alpha and beta)
+  KEGG_annotation: Athe_1316:no KO assigned | (GenBank) carboxyl transferase
+  PATRIC_annotation: Acetyl-coenzyme A carboxyl transferase alpha chain (EC 6.4.1.2)
+    / Acetyl-coenzyme A carboxyl transferase beta chain (EC 6.4.1.2); Propionyl-CoA
+    carboxylase beta chain (EC 6.4.1.3)
+  comment: two-step reaction (see R04385 + R04386)
+  genes_Cce: '- and - and - and - and -'
+  genes_Cth: None
+  genes_Tsac: peg.1804
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1316
+  genes_string_PATRIC_id: peg.1804
+  names:
+  - acetyl-CoA:carbon-dioxide ligase (ADP-forming)
   other_pathways:
+  - Fatty acid biosynthesis
+  - Aflatoxin biosynthesis
+  - Pyruvate metabolism
   - Propanoate metabolism
-  PMID: 2920730,9428714
-  tag: manually-add
-- id: R00353
-  name: malonyl-CoA:pyruvate carboxytransferase
-  genes: fig|31899.10.peg.1804 and fig|31899.10.peg.1805 and fig|31899.10.peg.1806 
-    and fig|31899.10.peg.1807
-  genesNCBI: Athe_1316 and Athe_1317 and Athe_1318 and Athe_1319
-  curated: true
-  equation: C00083[c] + C00022[c] <=> C00024[c] + C00036[c]
-  translated_equation: Malonyl-CoA[c] + |Pyruvate (Pyr)[c]| <=> 
-    |Acetyl-CoA (AcCoA)[c]| + |Oxaloacetate (Oaa)[c]|
-  enzymes:
-  - 2.1.3.1
-  pathways:
-  - Propanoate metabolism
-  pathway: Propanoate metabolism
-  tag: manually-add
-  PMID: 2920730,9428714
+  - Carbon fixation pathways in prokaryotes
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Microbial metabolism in diverse environments
+  - Biosynthesis of antibiotics
+  - Carbon metabolism
+  - Fatty acid metabolism
+  pathway: Fatty acid biosynthesis
+  source: KEGG
+  tag: Tsac
+  translated_equation: ATP[c] + |Acetyl-CoA (AcCoA)[c]| + Bicarbonate[c] + H+[c] => ADP[c]
+    + Phosphate[c] + Malonyl-CoA[c]
 

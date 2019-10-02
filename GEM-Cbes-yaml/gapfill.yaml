@@ -213,3 +213,72 @@
 #   - Biosynthesis of amino acids
 #   comment: intermediate (carboxybiotin-[enzyme])
 
+# potential gapfill reactions in fatty acid biosynthesis
+- id: R02814
+  name: Oleoyl-[acyl-carrier-protein] hydrolase
+  names:
+  - Oleoyl-[acyl-carrier-protein] hydrolase
+  equation: C01203[c] + C00001[c] => C00229[c] + C00712[c]
+  translated_equation: '|Oleoyl-[acyl-carrier protein][c]| + H2O[c] => |Acyl-carrier protein[c]| + |(9Z)-Octadecenoic acid[c]|'
+  ec:
+  - 3.1.2.14
+  pathways:
+  - Fatty acid biosynthesis
+- id: R08163
+  name: octadecanoyl-[acyl-carrier protein] hydrolase
+  names:
+  - octadecanoyl-[acyl-carrier protein] hydrolase
+  equation: C04088[c] + C00001[c] => C00229[c] + C01530[c]
+  translated_equation: '|Octadecanoyl-[acyl-carrier protein][c]| + H2O[c] => |Acyl-carrier protein[c]| + |Octadecanoic acid[c]|'
+  ec:
+  - 3.1.2.14
+  pathways:
+  - Fatty acid biosynthesis
+- id: R08159
+  name: tetradecanoyl-[acyl-carrier protein] hydrolase
+  names:
+  - tetradecanoyl-[acyl-carrier protein] hydrolase
+  equation: C05761[c] + C00001[c] => C00229[c] + C06424[c]
+  translated_equation: 'Tetradecanoyl-[acp][c] + H2O[c] => |Acyl-carrier protein[c]| + |Tetradecanoic acid[c]|'
+  ec:
+  - 3.1.2.14
+  pathways:
+  - Fatty acid biosynthesis
+  - Metabolic pathways
+# - id: R08162
+#   name: hexadecenoyl-[acyl-carrier protein] hydrolase
+#   names:
+#   - hexadecenoyl-[acyl-carrier protein] hydrolase
+#   equation: C16520[c] + C00001[c] => C00229[c] + C08362[c][c]
+#   translated_equation: '|Hexadecenoyl-[acyl-carrier protein][c]| + H2O[c] => |Acyl-carrier protein[c]| + C08362[c][c]'
+#   ec:
+#   - 3.1.2.14
+#   pathways:
+#   - Fatty acid biosynthesis
+# - id: R04014
+#   name: dodecanoyl-[acyl-carrier-protein] hydrolase
+#   names:
+#   - dodecanoyl-[acyl-carrier-protein] hydrolase
+#   equation: C05223[c] + C00001[c] => C00229[c] + C02679[c]
+#   translated_equation: '|Dodecanoyl-[acyl-carrier protein][c]| + H2O[c] => |Acyl-carrier protein[c]| + |Dodecanoic acid[c]|'
+#   ec:
+#   - 3.1.2.14
+#   pathways:
+#   - Fatty acid biosynthesis
+#   - Prodigiosin biosynthesis
+#   - Metabolic pathways
+- id: R01706
+  name: hexadecanoyl-[acyl-carrier protein] hydrolase
+  names:
+  - hexadecanoyl-[acyl-carrier protein] hydrolase
+  equation: C05764[c] + C00001[c] => C00229[c] + C00249[c]
+  translated_equation: 'Hexadecanoyl-[acp][c] + H2O[c] => |Acyl-carrier protein[c]| + |Hexadecanoic acid[c]|'
+  ec:
+  - 3.1.2.14
+  pathways:
+  - Fatty acid biosynthesis
+  - Metabolic pathways
+  - Fatty acid metabolism
+  comment: the last step (thioester-hydrolysing) of fatty-acid synthase (ec 2.3.1.85,
+    see R05188, map00061)
+
