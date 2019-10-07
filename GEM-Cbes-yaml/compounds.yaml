@@ -133,8 +133,8 @@
   tag: A501
 - id: C00229
   name: Acyl-carrier protein
-  # formula: HSR
-  formula: C11H22N2O7PRS
+  formula: HSR
+  # formula: C11H22N2O7PRS
   charge: 0
   source: KEGG
   tag: A501
@@ -3650,8 +3650,8 @@
   tag: A501
 - id: C01209
   name: Malonyl-[acyl-carrier protein]
-  # formula: C3H3O3SR
-  formula: C14H24N2O10PSR
+  formula: C3H3O3SR
+  # formula: C14H24N2O10PSR
   charge: 0
   names:
   - Malonyl-[acyl-carrier protein]
@@ -5200,18 +5200,21 @@
   note: In Tsacmodel,  the cpd ID IS2mbcoa
   PubChem: '4276'
   ChEBI: '15477'
-- id: fa3
-  name: Fatty Acid iso-C15:0
-  formula: C15H30O2
-- id: fa6
-  name: Fatty Acid iso-C16:0
-  formula: C16H32O2
-- id: fa11
-  name: Fatty Acid iso-C17:0
-  formula: C17H34O2 
-- id: fa12
-  name: Fatty Acid anteiso-C17:0
-  formula: C17H34O2 
+- id: fa3ACP
+  name: Fatty Acid iso-C15:0-ACP
+  formula: C15H29OSR
+- id: fa6ACP
+  name: Fatty Acid iso-C16:0 ACP
+  formula: C16H31OSR
+- id: fa11ACP
+  name: Fatty Acid iso-C17:0 ACP
+  formula: C17H33OSR
+- id: fa12ACP
+  name: Fatty Acid anteiso-C17:0 ACP
+  formula: C17H33OSR
+- id: C181o7ACP
+  name: Fatty Acid anteiso-C18:1 omega-7 ACP
+  formula: C18H33OSR
 
 
 

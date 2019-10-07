@@ -52,8 +52,8 @@ model:
 # other reactions, including transport, spontaneous, gapfill and biomass reaction.
 -  include: model_def_others.tsv
 
-# # for some tests
-# -  include: model_def_test.tsv 
+# for some tests
+-  include: model_def_test.tsv 
 
 # - include: /Users/kzhang/Projects/Caldi/GEM-iCbes/GEM-Cbes-yaml/vis-test/test-190925/unblock_10fthf.tsv
 

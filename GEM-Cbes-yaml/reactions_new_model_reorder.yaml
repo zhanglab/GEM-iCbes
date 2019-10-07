@@ -4872,15 +4872,20 @@
     adenine dinucleotide phosphate[c]| + (4) |Coenzyme A[c]| + (2) water[c] + |Decanoate
     (n-C10:0)[c]| + (3) |carbon dioxide[c]|
 - id: KAS11
-  name: 'b ketoacyl synthetase Iso C170 '
-  equation: (17) C00080[c] + (12) C00005[c] + C02939[c] + (6) C00083[c] => (12) C00006[c]
-    + (7) C00010[c] + fa11[c] + (5) C00001[c] + (6) C00011[c]
-  pathway: Fatty Acid Metabolism
-  genes: fig|31899.10.peg.1641 and fig|31899.10.peg.1640 and fig|31899.10.peg.1636 and 
-    fig|31899.10.peg.1637 and fig|31899.10.peg.1635 and fig|31899.10.peg.1638 and fig|31899.10.peg.1639
-  genesNCBI: Athe_1158 and Athe_1157 and Athe_1153 and Athe_1154 and Athe_1152 and Athe_1155 and Athe_1156
+  name: 'b ketoacyl synthetase Iso C17:0 ACP '
+  # equation: (17) C00080[c] + (12) C00005[c] + C02939[c] + (6) C00083[c] => (12) C00006[c]
+  #   + (7) C00010[c] + fa11[c] + (5) C00001[c] + (6) C00011[c]
+  equation: (12) C00080[c] + (12) C00005[c] + C02939[c] + (6) C01209[c] => fa11ACP[c] + 
+    (12) C00006[c] + C00010[c] + (5) C00229[c] + (6) C00001[c] + (6) C00011[c]
+  genes: fig|31899.10.peg.1804 and fig|31899.10.peg.1638 and fig|31899.10.peg.1637 and fig|31899.10.peg.1639
+    and fig|31899.10.peg.2593 and fig|31899.10.peg.611 and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 
+    and peg.1635
+  genesNCBI: Athe_1316 and Athe_1155 and Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158
+    and Athe_1157 and Athe_1152
+  ec:
+  - 6.4.1.2, 2.3.1.39, 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
   curated: true
-  # ec: 2.3.1.41
+  pathway: Fatty Acid Metabolism
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
     by the addition to an acyl acceptor of two carbons from malonyl-ACP (By similarity);   peg.1640:Carrier
     of the growing fatty acid chain in fatty acid biosynthesis (By similarity);   peg.1636:Catalyzes
@@ -4918,16 +4923,25 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: (17) H+[c] + (12) |Nicotinamide adenine dinucleotide phosphate
-    - reduced[c]| + Isovaleryl-CoA[c] + (6) |Malonyl CoA[c]| => (12) |Nicotinamide
-    adenine dinucleotide phosphate[c]| + (7) |Coenzyme A[c]| + |Fatty acid (Iso-C17:0)[c]|
-    + (5) water[c] + (6) |carbon dioxide[c]|
+  translated_equation: (12) |Proton (H+)[c]| + (12) |Nicotinamide adenine dinucleotide phosphate - reduced 
+    (NADPH)[c]| + 3-Methylbutanoyl-CoA[c] + (6) |Malonyl-[acyl-carrier protein][c]| 
+    => |Fatty Acid iso-C17:0 ACP[c]| + (12) |Nicotinamide adenine dinucleotide phosphate (NADP+)[c]| 
+    + |Coenzyme A (CoA)[c]| + (5) |Acyl-carrier protein[c]| + (6) H2O[c] + (6) CO2[c]
 - id: KAS12
-  name: 'b ketoacyl synthetase Anteiso C170 '
-  equation: C01033[c] + (17) C00080[c] + (12) C00005[c] + (6) C00083[c] => (12) C00006[c]
-    + (7) C00010[c] + fa12[c] + (5) C00001[c] + (6) C00011[c]
-  subsystem: Fatty Acid Metabolism
-  ec: 2.3.1.41
+  name: 'b ketoacyl synthetase Anteiso C17:0 ACP'
+  # equation: C01033[c] + (17) C00080[c] + (12) C00005[c] + (6) C00083[c] => (12) C00006[c]
+  #   + (7) C00010[c] + fa12[c] + (5) C00001[c] + (6) C00011[c]
+  equation: (12) C00080[c] + (12) C00005[c] + C01033[c] + (6) C01209[c] => fa12ACP[c] + 
+    (12) C00006[c] + C00010[c] + (5) C00229[c] + (6) C00001[c] + (6) C00011[c]
+  genes: fig|31899.10.peg.1804 and fig|31899.10.peg.1638 and fig|31899.10.peg.1637 and fig|31899.10.peg.1639
+    and fig|31899.10.peg.2593 and fig|31899.10.peg.611 and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 
+    and peg.1635
+  genesNCBI: Athe_1316 and Athe_1155 and Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158
+    and Athe_1157 and Athe_1152
+  ec:
+  - 6.4.1.2, 2.3.1.39, 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+  curated: true
+  pathway: Fatty Acid Metabolism
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
     by the addition to an acyl acceptor of two carbons from malonyl-ACP (By similarity);   peg.1640:Carrier
     of the growing fatty acid chain in fatty acid biosynthesis (By similarity);   peg.1636:Catalyzes
@@ -4965,20 +4979,23 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: 2-Methylbutanoyl-CoA[c] + (17) H+[c] + (12) |Nicotinamide
-    adenine dinucleotide phosphate - reduced[c]| + (6) |Malonyl CoA[c]| => (12) |Nicotinamide
-    adenine dinucleotide phosphate[c]| + (7) |Coenzyme A[c]| + |Fatty acid (Anteiso-C17:0)[c]|
-    + (5) water[c] + (6) |carbon dioxide[c]|
+  translated_equation: (12) |Proton (H+)[c]| + (12) |Nicotinamide adenine dinucleotide phosphate - 
+    reduced (NADPH)[c]| + 2-Methylbutanoyl-CoA[c] + (6) |Malonyl-[acyl-carrier protein][c]| 
+    => |Fatty Acid anteiso-C17:0 ACP[c]| + (12) |Nicotinamide adenine dinucleotide phosphate (NADP+)[c]| 
+    + |Coenzyme A (CoA)[c]| + (5) |Acyl-carrier protein[c]| + (6) H2O[c] + (6) CO2[c]
 - id: KAS13
-  name: 'b ketoacyl synthetase n C180 '
-  equation: (23) C00080[c] + (16) C00005[c] + C00024[c] + (8) C00083[c] => C01530[c] + (16)
-    C00006[c] + (9) C00010[c] + (7) C00001[c] + (8) C00011[c]
-  subsystem: Fatty Acid Metabolism
-  genes: fig|31899.10.peg.1641 and fig|31899.10.peg.1640 and fig|31899.10.peg.1636 and 
-    fig|31899.10.peg.1637 and fig|31899.10.peg.1635 and fig|31899.10.peg.1638 and fig|31899.10.peg.1639
-  genesNCBI: Athe_1158 and Athe_1157 and Athe_1153 and Athe_1154 and Athe_1152 and Athe_1155 and 
-    Athe_1156
-  # ec: 2.3.1.41
+  name: 'b ketoacyl synthetase n C18:0 ACP '
+  equation: (16) C00080[c] + (16) C00005[c] + C00024[c] + (8) C01209[c] => C04088[c] + 
+    (16) C00006[c] + C00010[c] + (7) C00229[c] + (8) C00001[c] + (8) C00011[c]
+  pathway: Fatty Acid Metabolism
+  genes: fig|31899.10.peg.1804 and fig|31899.10.peg.1638 and fig|31899.10.peg.1637 and fig|31899.10.peg.1639
+    and fig|31899.10.peg.2593 and fig|31899.10.peg.611 and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 
+    and peg.1635
+  genesNCBI: Athe_1316 and Athe_1155 and Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158
+    and Athe_1157 and Athe_1152
+  ec:
+  - 6.4.1.2, 2.3.1.39, 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+  curated: true
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
     by the addition to an acyl acceptor of two carbons from malonyl-ACP (By similarity);   peg.1640:Carrier
     of the growing fatty acid chain in fatty acid biosynthesis (By similarity);   peg.1636:Catalyzes
@@ -5016,10 +5033,10 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: (23) H+[c] + (16) |Nicotinamide adenine dinucleotide phosphate
-    - reduced[c]| + Acetyl-CoA[c] + (8) |Malonyl CoA[c]| => |Octadecanoate (n-C18:0)[c]|
-    + (16) |Nicotinamide adenine dinucleotide phosphate[c]| + (9) |Coenzyme A[c]|
-    + (7) water[c] + (8) |carbon dioxide[c]|
+  translated_equation:  (16) |Proton (H+)[c]| + (16) |Nicotinamide adenine dinucleotide phosphate - 
+    reduced (NADPH)[c]| + |Acetyl-CoA (AcCoA)[c]| + (8) |Malonyl-[acyl-carrier protein][c]| 
+    => |Octadecanoyl-[acyl-carrier protein][c]| + (16) |Nicotinamide adenine dinucleotide phosphate (NADP+)[c]| 
+    + |Coenzyme A (CoA)[c]| + (7) |Acyl-carrier protein[c]| + (8) H2O[c] + (8) CO2[c]
 - id: KAS130iso
   name: b ketoacyl synthetase branched(iso) C130
   equation: (11) C00080[c] + (8) C00005[c] + ivcoa[c] + (4) C00083[c] => (8) C00006[c] +
@@ -5118,10 +5135,17 @@
   name: 'b ketoacyl synthetase n C181 (C18:1omega9c)'
   # equation: (22) C00080[c] + (15) C00005[c] + C00024[c] + (8) C00083[c] => (15) C00006[c]
   #   + (9) C00010[c] + (7) h2o[c] + ocdcea[c] + (8) C00011[c]
-  equation: (22) C00080[c] + (15) C00005[c] + C00024[c] + (8) C00083[c] => (15) C00006[c]
-    + (9) C00010[c] + (7) C00001[c] + C00712[c] + (8) C00011[c]
-  subsystem: Fatty Acid Metabolism
-  ec: 2.3.1.41
+  equation: (15) C00080[c] + (15) C00005[c] + C00024[c] + (8) C01209[c] => C01203[c] + 
+    (15) C00006[c] + C00010[c] + (7) C00229[c] + (8) C00001[c] + (8) C00011[c]
+  pathway: Fatty Acid Metabolism
+  genes: fig|31899.10.peg.1804 and fig|31899.10.peg.1638 and fig|31899.10.peg.1637 and fig|31899.10.peg.1639
+    and fig|31899.10.peg.2593 and fig|31899.10.peg.611 and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 
+    and peg.1635
+  genesNCBI: Athe_1316 and Athe_1155 and Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158
+    and Athe_1157 and Athe_1152
+  ec:
+  - 6.4.1.2, 2.3.1.39, 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+  curated: true
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
     by the addition to an acyl acceptor of two carbons from malonyl-ACP (By similarity);   peg.1640:Carrier
     of the growing fatty acid chain in fatty acid biosynthesis (By similarity);   peg.1636:Catalyzes
@@ -5159,19 +5183,26 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: (22) H+[c] + (15) |Nicotinamide adenine dinucleotide phosphate
-    - reduced[c]| + Acetyl-CoA[c] + (8) |Malonyl CoA[c]| => (15) |Nicotinamide adenine
-    dinucleotide phosphate[c]| + (9) |Coenzyme A[c]| + (7) water[c] + |octadecenoate
-    (n-C18:1)[c]| + (8) |carbon dioxide[c]
+  translated_equation: (15) |Proton (H+)[c]| + (15) |Nicotinamide adenine dinucleotide phosphate - 
+    reduced (NADPH)[c]| + |Acetyl-CoA (AcCoA)[c]| + (8) |Malonyl-[acyl-carrier protein][c]| 
+    => |Oleoyl-[acyl-carrier protein][c]| + (15) |Nicotinamide adenine dinucleotide phosphate (NADP+)[c]| 
+    + |Coenzyme A (CoA)[c]| + (7) |Acyl-carrier protein[c]| + (8) H2O[c] + (8) CO2[c]
   note: in Cth model, no EC information
 - id: KAS17_2
   name: 'b ketoacyl synthetase n C181 (C18:1omega7c) '
   # equation: (22) C00080[c] + (15) C00005[c] + C00024[c] + (8) C00083[c] => (15) C00006[c]
   #   + (9) C00010[c] + (7) h2o[c] + ocdcea[c] + (8) C00011[c]
-  equation: (22) C00080[c] + (15) C00005[c] + C00024[c] + (8) C00083[c] => (15) C00006[c]
-    + (9) C00010[c] + (7) C00001[c] + C21944[c] + (8) C00011[c]
-  subsystem: Fatty Acid Metabolism
-  # ec: 2.3.1.41
+  equation: (15) C00080[c] + (15) C00005[c] + C00024[c] + (8) C01209[c] => C181o7ACP[c] + 
+    (15) C00006[c] + C00010[c] + (7) C00229[c] + (8) C00001[c] + (8) C00011[c]
+  pathway: Fatty Acid Metabolism
+  genes: fig|31899.10.peg.1804 and fig|31899.10.peg.1638 and fig|31899.10.peg.1637 and fig|31899.10.peg.1639
+    and fig|31899.10.peg.2593 and fig|31899.10.peg.611 and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 
+    and peg.1635
+  genesNCBI: Athe_1316 and Athe_1155 and Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158
+    and Athe_1157 and Athe_1152
+  ec:
+  - 6.4.1.2, 2.3.1.39, 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+  curated: true
   PATRIC_annotation: 3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.179)
     or Acyl carrier protein or Phosphate:acyl-ACP acyltransferase PlsX (EC 2.3.1.n2)
     or 3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.180) or Transcription
@@ -5187,24 +5218,24 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: (22) H+[c] + (15) |Nicotinamide adenine dinucleotide phosphate
-    - reduced[c]| + Acetyl-CoA[c] + (8) |Malonyl CoA[c]| => (15) |Nicotinamide adenine
-    dinucleotide phosphate[c]| + (9) |Coenzyme A[c]| + (7) water[c] + |octadecenoate
-    (n-C18:1)[c]| + (8) |carbon dioxide[c]
-  note: in Cth model, no EC information
+  translated_equation: (15) |Proton (H+)[c]| + (15) |Nicotinamide adenine dinucleotide phosphate - r
+    educed (NADPH)[c]| + |Acetyl-CoA (AcCoA)[c]| + (8) |Malonyl-[acyl-carrier protein][c]| 
+    => C181o7acp[c] + (15) |Nicotinamide adenine dinucleotide phosphate (NADP+)[c]| 
+    + |Coenzyme A (CoA)[c]| + (7) |Acyl-carrier protein[c]| + (8) H2O[c] + (8) CO2[c]
 - id: KAS2
-  name: 'b ketoacyl synthetase n C140 '
-  # equation: (17) C00080[c] + (12) C00005[c] + C00024[c] + (6) C00083[c] => ttdca[c] + (12)
-  #   C00006[c] + (7) C00010[c] + (5) h2o[c] + (6) C00011[c]
-  equation: (17) C00080[c] + (12) C00005[c] + C00024[c] + (6) C00083[c] => C06424[c] + (12)
-    C00006[c] + (7) C00010[c] + (5) C00001[c] + (6) C00011[c]
-  genes: fig|31899.10.peg.1641 and fig|31899.10.peg.1640 and fig|31899.10.peg.1636 and 
-    fig|31899.10.peg.1637 and fig|31899.10.peg.1635 and fig|31899.10.peg.1638 and fig|31899.10.peg.1639
-  genesNCBI: Athe_1158 and Athe_1157 and Athe_1153 and Athe_1154 and Athe_1152 and Athe_1155 and 
-    Athe_1156
+  name: 'b ketoacyl synthetase n C14:0 ACP'
+  equation: (12) C00080[c] + (12) C00005[c] + C00024[c] + (6) C01209[c] => C05761[c] + (12)
+    C00006[c] + C00010[c] + (5) C00229[c] + (6) C00001[c] + (6) C00011[c]
+  genes: fig|31899.10.peg.1804 and fig|31899.10.peg.1638 and fig|31899.10.peg.1637 and fig|31899.10.peg.1639
+    and fig|31899.10.peg.2593 and fig|31899.10.peg.611 and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 
+    and peg.1635
+  genesNCBI: Athe_1316 and Athe_1155 and Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158
+    and Athe_1157 and Athe_1152
+  ec:
+  - 6.4.1.2, 2.3.1.39, 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
   curated: true
-  subsystem: Fatty Acid Metabolism
-  # ec: 2.3.1.41
+  note: Athe_1152 (peg.1635) is transcriotional regulator; Athe_1157 (peg.1640) is ACP; 1.3.1.10 or 1.3.1.174?
+  pathway: Fatty Acid Metabolism
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
     by the addition to an acyl acceptor of two carbons from malonyl-ACP (By similarity);   peg.1640:Carrier
     of the growing fatty acid chain in fatty acid biosynthesis (By similarity);   peg.1636:Catalyzes
@@ -5242,17 +5273,21 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: (17) H+[c] + (12) |Nicotinamide adenine dinucleotide phosphate
-    - reduced[c]| + Acetyl-CoA[c] + (6) |Malonyl CoA[c]| => |Tetradecanoate (n-C14:0)[c]|
-    + (12) |Nicotinamide adenine dinucleotide phosphate[c]| + (7) |Coenzyme A[c]|
-    + (5) water[c] + (6) |carbon dioxide[c]|
+  translated_equation: (12) |Proton (H+)[c]| + (12) |Nicotinamide adenine dinucleotide phosphate - 
+    reduced (NADPH)[c]| + |Acetyl-CoA (AcCoA)[c]| + (6) |Malonyl-[acyl-carrier protein][c]| => 
+    Tetradecanoyl-[acp][c] + (12) |Nicotinamide adenine dinucleotide phosphate (NADP+)[c]|
+    + |Coenzyme A (CoA)[c] + |(5) |Acyl-carrier protein[c]| + (6) H2O[c] + (6) CO2[c]
 - id: KAS3
-  name: 'b ketoacyl synthetase Iso C150 '
-  equation: (14) C00080[c] + (10) C00005[c] + C02939[c] + (5) C00083[c] => (10) C00006[c]
-    + (6) C00010[c] + (4) C00001[c] + fa3[c] + (5) C00011[c]
-  genes: fig|31899.10.peg.1641 and fig|31899.10.peg.1640 and fig|31899.10.peg.1636 and 
-    fig|31899.10.peg.1637 and fig|31899.10.peg.1635 and fig|31899.10.peg.1638 and fig|31899.10.peg.1639
-  genesNCBI: Athe_1158 and Athe_1157 and Athe_1153 and Athe_1154 and Athe_1152 and Athe_1155 and Athe_1156
+  name: 'b ketoacyl synthetase Iso C15:0 ACP'
+  equation: (10) C00080[c] + (10) C00005[c] + C02939[c] + (5) C01209[c] => fa3ACP[c] + 
+    (10) C00006[c] + C00010[c] + (4) C00229[c] + (5) C00001[c] + (5) C00011[c]
+  genes: fig|31899.10.peg.1804 and fig|31899.10.peg.1638 and fig|31899.10.peg.1637 and fig|31899.10.peg.1639
+    and fig|31899.10.peg.2593 and fig|31899.10.peg.611 and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 
+    and peg.1635
+  genesNCBI: Athe_1316 and Athe_1155 and Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158
+    and Athe_1157 and Athe_1152
+  ec:
+  - 6.4.1.2, 2.3.1.39, 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
   curated: true
   pathway: Fatty Acid Metabolism
   # ec: 2.3.1.41
@@ -5293,10 +5328,10 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: (14) H+[c] + (10) |Nicotinamide adenine dinucleotide phosphate
-    - reduced[c]| + Isovaleryl-CoA[c] + (5) |Malonyl CoA[c]| => (10) |Nicotinamide
-    adenine dinucleotide phosphate[c]| + (6) |Coenzyme A[c]| + (4) water[c] + |Fatty
-    acid (Iso-C15:0)[c]| + (5) |carbon dioxide[c]|
+  translated_equation: (10) |Proton (H+)[c]| + (10) |Nicotinamide adenine dinucleotide phosphate - 
+    reduced (NADPH)[c]| + 3-Methylbutanoyl-CoA[c] + (5) |Malonyl-[acyl-carrier protein][c]| 
+    => |Fatty Acid iso-C15:0-ACP[c]| + (10) |Nicotinamide adenine dinucleotide phosphate (NADP+)[c]| 
+    + |Coenzyme A (CoA)[c]| + (4) |Acyl-carrier protein[c]| + (5) H2O[c] + (5) CO2[c]
 - id: KAS4
   name: 'b ketoacyl synthetase Anteiso C150 '
   equation: C01033[c] + (14) C00080[c] + (10) C00005[c] + (5) C00083[c] => (10) C00006[c]
@@ -5392,15 +5427,19 @@
     adenine dinucleotide phosphate[c]| + (7) |Coenzyme A[c]| + (5) water[c] + |Fatty
     acid (Iso-C16:1)[c]| + (6) |carbon dioxide[c]|
 - id: KAS6
-  name: 'b ketoacyl synthetase Iso C160 '
-  equation: (17) C00080[c] + (12) C00005[c] + C00630[c] + (6) C00083[c] => fa6[c] + (12)
-    C00006[c] + (7) C00010[c] + (5) C00001[c] + (6) C00011[c]
-  pathway: Fatty Acid Metabolism
-  genes: fig|31899.10.peg.1641 and fig|31899.10.peg.1640 and fig|31899.10.peg.1636 and 
-    fig|31899.10.peg.1637 and fig|31899.10.peg.1635 and fig|31899.10.peg.1638 and fig|31899.10.peg.1639
-  genesNCBI: Athe_1158 and Athe_1157 and Athe_1153 and Athe_1154 and Athe_1152 and Athe_1155 and Athe_1156
+  name: 'b ketoacyl synthetase Iso C16:0 ACP'
+  equation: (12) C00080[c] + (12) C00005[c] + C00630[c] + (6) C01209[c] => fa6ACP[c] + 
+    (12) C00006[c] + C00010[c] + (5) C00229[c] + (6) C00001[c] + (6) C00011[c]
+  genes: fig|31899.10.peg.1804 and fig|31899.10.peg.1638 and fig|31899.10.peg.1637 and fig|31899.10.peg.1639
+    and fig|31899.10.peg.2593 and fig|31899.10.peg.611 and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 
+    and peg.1635
+  genesNCBI: Athe_1316 and Athe_1155 and Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158
+    and Athe_1157 and Athe_1152
+  ec:
+  - 6.4.1.2, 2.3.1.39, 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
   curated: true
-  # ec: 2.3.1.41
+  pathway: Fatty Acid Metabolism
+  # genesNCBI: Athe_1158 and Athe_1157 and Athe_1153 and Athe_1154 and Athe_1152 and Athe_1155 and Athe_1156
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
     by the addition to an acyl acceptor of two carbons from malonyl-ACP (By similarity);   peg.1640:Carrier
     of the growing fatty acid chain in fatty acid biosynthesis (By similarity);   peg.1636:Catalyzes
@@ -5490,16 +5529,23 @@
     dinucleotide phosphate[c]| + (8) |Coenzyme A[c]| + (6) water[c] + (7) |carbon
     dioxide[c]| + |Hexadecenoate (n-C16:1)[c]|
 - id: KAS8
-  name: 'b ketoacyl synthetase palmitate n C160 '
-  equation: (20) C00080[c] + (14) C00005[c] + C00024[c] + (7) C00083[c] => (14) C00006[c]
-    + (8) C00010[c] + (6) C00001[c] + C00249[c] + (7) C00011[c]
-  subsystem: Fatty Acid Metabolism
-  genes: fig|31899.10.peg.1641 and fig|31899.10.peg.1640 and fig|31899.10.peg.1636 and 
-    fig|31899.10.peg.1637 and fig|31899.10.peg.1635 and fig|31899.10.peg.1638 and fig|31899.10.peg.1639
-  genesNCBI: Athe_1158 and Athe_1157 and Athe_1153 and Athe_1154 and Athe_1152 and Athe_1155 and 
-    Athe_1156
-  curated: true
+  name: 'b ketoacyl synthetase palmitate n C16:0 ACP'
+  equation: (14) C00080[c] + (14) C00005[c] + C00024[c] + (7) C01209[c] => C05764[c] + 
+    (14) C00006[c] + C00010[c] + (6) C00229[c] + (7) C00001[c] + (7) C00011[c]
+  pathway: Fatty Acid Metabolism
+  # genes: fig|31899.10.peg.1641 and fig|31899.10.peg.1640 and fig|31899.10.peg.1636 and 
+  #   fig|31899.10.peg.1637 and fig|31899.10.peg.1635 and fig|31899.10.peg.1638 and fig|31899.10.peg.1639
+  # genesNCBI: Athe_1158 and Athe_1157 and Athe_1153 and Athe_1154 and Athe_1152 and Athe_1155 and 
+  #   Athe_1156
   # ec: 2.3.1.41
+  genes: fig|31899.10.peg.1804 and fig|31899.10.peg.1638 and fig|31899.10.peg.1637 and fig|31899.10.peg.1639
+    and fig|31899.10.peg.2593 and fig|31899.10.peg.611 and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 
+    and peg.1635
+  genesNCBI: Athe_1316 and Athe_1155 and Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158
+    and Athe_1157 and Athe_1152
+  ec:
+  - 6.4.1.2, 2.3.1.39, 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+  curated: true
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
     by the addition to an acyl acceptor of two carbons from malonyl-ACP (By similarity);   peg.1640:Carrier
     of the growing fatty acid chain in fatty acid biosynthesis (By similarity);   peg.1636:Catalyzes
@@ -5537,10 +5583,10 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: (20) H+[c] + (14) |Nicotinamide adenine dinucleotide phosphate
-    - reduced[c]| + Acetyl-CoA[c] + (7) |Malonyl CoA[c]| => (14) |Nicotinamide adenine
-    dinucleotide phosphate[c]| + (8) |Coenzyme A[c]| + (6) water[c] + |Hexadecanoate
-    (n-C16:0)[c]| + (7) |carbon dioxide[c]|
+  translated_equation: (14) |Proton (H+)[c]| + (14) |Nicotinamide adenine dinucleotide phosphate - 
+    reduced (NADPH)[c]| + |Acetyl-CoA (AcCoA)[c]| + (7) |Malonyl-[acyl-carrier protein][c]| => 
+    Hexadecanoyl-[acp][c] + (14) |Nicotinamide adenine dinucleotide phosphate (NADP+)[c]| 
+    + |Coenzyme A (CoA)[c]| + (6) |Acyl-carrier protein[c]| + (7) H2O[c] + (7) CO2[c]
 - id: KAS9
   name: 'b ketoacyl synthetase Iso C171 '
   equation: (16) C00080[c] + (11) C00005[c] + ivcoa[c] + (6) C00083[c] => (11) C00006[c]
@@ -6642,7 +6688,6 @@
   - 1.3.1.9
   genes: fig|31899.10.peg.1586 or fig|31899.10.peg.1594 or fig|31899.10.peg.1962
   genesNCBI: Athe_1105 or Athe_1113 or Athe_1469
-  curated: true
   EggNOG_annotation: peg.1962:acetyltransferase;   peg.1586:GCN5-related N-acetyltransferase;   peg.1594:GCN5-related
     N-acetyltransferase
   KEGG_annotation: Athe_1469:K03823 phosphinothricin acetyltransferase [EC:2.3.1.183]
@@ -6901,7 +6946,7 @@
     phosphate - reduced (NADPH)[c]| + |Proton (H+)[c]|
 - id: R04533
   name: (3R)-3-Hydroxybutanoyl-[acyl-carrier protein]:NADP+ oxidoreductase
-  equation: C04618[c] + C00006[c] <=> C05744[c] + C00005[c] + C00080[c]
+  equation: C05744[c] + C00005[c] + C00080[c] => C04618[c] + C00006[c]
   ec:
   - 1.1.1.100
   genes: fig|31899.10.peg.1639
@@ -6926,9 +6971,9 @@
   pathway: Fatty acid biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: '|(3R)-3-Hydroxybutanoyl-[acyl-carrier protein][c]| + |Nicotinamide
-    adenine dinucleotide phosphate (NADP)[c]| <=> Acetoacetyl-[acp][c] + |Nicotinamide
-    adenine dinucleotide phosphate - reduced (NADPH)[c]| + |Proton (H+)[c]|'
+  translated_equation: 'Acetoacetyl-[acp][c] + |Nicotinamide adenine dinucleotide phosphate - 
+    reduced (NADPH)[c]| + |Proton (H+)[c]| <=> |(3R)-3-Hydroxybutanoyl-[acyl-carrier protein][c]| 
+    + |Nicotinamide adenine dinucleotide phosphate (NADP)[c]|'
 - id: R04534
   name: (3R)-3-Hydroxydecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase
   equation: C04619[c] + C00006[c] <=> C05753[c] + C00005[c]
@@ -8928,38 +8973,38 @@
   tag: KEGG_Cbes
   translated_equation: 3-D-Glucosyl-1,2-diacylglycerol[c] + UDPglucose[c] => Diglucosyldiacylglycerol[c]
     + UDP[c]
-# - id: R12240
-#   name: acyl-[acyl-carrier protein]:phosphate acyltransferase
-#   genes: peg.1636
-#   equation: C00173[c] + C00009[c] => C02133[c] + C00229[c]
-#   ec:
-#   - 2.3.1.274
-#   EggNOG_annotation: peg.1208:Catalyzes the transfer of an acyl group from acyl-
-#     phosphate (acyl-PO(4)) to glycerol-3-phosphate (G3P) to form lysophosphatidic
-#     acid (LPA). This enzyme utilizes acyl-phosphate as fatty acyl donor, but not
-#     acyl-CoA or acyl-ACP (By similarity);   peg.1636:Catalyzes the reversible formation
-#     of acyl-phosphate (acyl-PO(4)) from acyl- acyl-carrier-protein (acyl-ACP). This
-#     enzyme utilizes acyl-ACP as fatty acyl donor, but not acyl-CoA (By similarity);   peg.2740:Pfam:DUF205
-#   KEGG_annotation: Athe_1153:K03621 phosphate acyltransferase [EC:2.3.1.274] | (GenBank)
-#     fatty acid/phospholipid synthesis protei;   Athe_0752:K08591 acyl phosphate:glycerol-3-phosphate
-#     acyltransferase [EC:2.3.1.275] | (GenBank) protein of unk;   Athe_2184:K08591
-#     acyl phosphate:glycerol-3-phosphate acyltransferase [EC:2.3.1.275] | (GenBank)
-#     protein of unk
-#   PATRIC_annotation: Phosphate:acyl-ACP acyltransferase PlsX (EC 2.3.1.n2)
-#   genes_Cce: None
-#   genes_Cth: None
-#   genes_Tsac: None
-#   genes_kegg: Athe_1153
-#   genes_string_NCBI_id: Athe_1153
-#   genes_string_PATRIC_id: peg.1636
-#   other_pathways:
-#   - Glycerolipid metabolism
-#   - Metabolic pathways
-#   pathway: Glycerolipid metabolism
-#   source: KEGG
-#   tag: KEGG_Cbes
-#   translated_equation: '|Acyl-[acyl-carrier protein][c]| + Phosphate[c] => |Acyl
-#     phosphate[c]| + |Acyl-carrier protein[c]|'
+- id: R12240
+  name: acyl-[acyl-carrier protein]:phosphate acyltransferase
+  genes: peg.1636
+  equation: C00173[c] + C00009[c] => C02133[c] + C00229[c]
+  ec:
+  - 2.3.1.274
+  EggNOG_annotation: peg.1208:Catalyzes the transfer of an acyl group from acyl-
+    phosphate (acyl-PO(4)) to glycerol-3-phosphate (G3P) to form lysophosphatidic
+    acid (LPA). This enzyme utilizes acyl-phosphate as fatty acyl donor, but not
+    acyl-CoA or acyl-ACP (By similarity);   peg.1636:Catalyzes the reversible formation
+    of acyl-phosphate (acyl-PO(4)) from acyl- acyl-carrier-protein (acyl-ACP). This
+    enzyme utilizes acyl-ACP as fatty acyl donor, but not acyl-CoA (By similarity);   peg.2740:Pfam:DUF205
+  KEGG_annotation: Athe_1153:K03621 phosphate acyltransferase [EC:2.3.1.274] | (GenBank)
+    fatty acid/phospholipid synthesis protei;   Athe_0752:K08591 acyl phosphate:glycerol-3-phosphate
+    acyltransferase [EC:2.3.1.275] | (GenBank) protein of unk;   Athe_2184:K08591
+    acyl phosphate:glycerol-3-phosphate acyltransferase [EC:2.3.1.275] | (GenBank)
+    protein of unk
+  PATRIC_annotation: Phosphate:acyl-ACP acyltransferase PlsX (EC 2.3.1.n2)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: Athe_1153
+  genes_string_NCBI_id: Athe_1153
+  genes_string_PATRIC_id: peg.1636
+  other_pathways:
+  - Glycerolipid metabolism
+  - Metabolic pathways
+  pathway: Glycerolipid metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|Acyl-[acyl-carrier protein][c]| + Phosphate[c] => |Acyl
+    phosphate[c]| + |Acyl-carrier protein[c]|'
 - id: R05680
   name: sn-glycerol-1-phosphate:NADP 2-oxidoreductase
   genes: fig|31899.10.peg.1261
@@ -21743,6 +21788,7 @@
 - id: R07280
   name: 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphohydrolase
   equation: C04454[c] + C00001[c] <=> C04732[c] + C00009[c]
+  genes: gap
   ec:
   - 3.1.3.104
   EggNOG_annotation: peg.2219:polyA polymerase

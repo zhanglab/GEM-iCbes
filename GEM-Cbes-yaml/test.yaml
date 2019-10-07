@@ -1,4 +1,9 @@
 # test.yaml
+- id: sink_test
+  equation: C00016[c] =>
+- id: sink_L-1,2-propanediol
+  equation: C02917[c] =>
+
 # - id: source_atp
 #   equation: C00002[c] <=
 # - id: source_adp
@@ -274,10 +279,8 @@
 # - id: sink_10fthf
 #   equation: C00234[c] =>
 
-- id: sink_L-1,2-propanediol
-  equation: C02917[c] =>
-- id: sink_aob
-  equation: C03508[c] =>
+# - id: sink_aob
+#   equation: C03508[c] =>
 
 
 
