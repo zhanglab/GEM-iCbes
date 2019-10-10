@@ -253,45 +253,6 @@
   note: function annotation is from manual curation, assigned in maltose pathway.
     But no corresponding kegg pathway assigned to this EC
   translated_equation: Pullulan(n=2)[c] + H2O[c] => (2) Panose[c]
-- id: R12241
-  name: acyl phosphoate:sn-glycerol 3-phosphate acyltransferase
-  genes: fig|31899.10.peg.1208 or fig|31899.10.peg.2740
-  equation: C02133[c] + C00093[c] => C00681[c] + C00009[c]
-  ec:
-  - 2.3.1.275
-  EggNOG_annotation: peg.1208:Catalyzes the transfer of an acyl group from acyl-
-    phosphate (acyl-PO(4)) to glycerol-3-phosphate (G3P) to form lysophosphatidic
-    acid (LPA). This enzyme utilizes acyl-phosphate as fatty acyl donor, but not
-    acyl-CoA or acyl-ACP (By similarity);   peg.1636:Catalyzes the reversible formation
-    of acyl-phosphate (acyl-PO(4)) from acyl- acyl-carrier-protein (acyl-ACP). This
-    enzyme utilizes acyl-ACP as fatty acyl donor, but not acyl-CoA (By similarity);   peg.2740:Pfam:DUF205
-  KEGG_annotation: Athe_1153:K03621 phosphate acyltransferase [EC:2.3.1.274] | (GenBank)
-    fatty acid/phospholipid synthesis protei;   Athe_0752:K08591 acyl phosphate:glycerol-3-phosphate
-    acyltransferase [EC:2.3.1.275] | (GenBank) protein of unk;   Athe_2184:K08591
-    acyl phosphate:glycerol-3-phosphate acyltransferase [EC:2.3.1.275] | (GenBank)
-    protein of unk
-  PATRIC_annotation: Acyl-phosphate:glycerol-3-phosphate O-acyltransferase PlsY (EC
-    2.3.1.n3)  or Acyl-phosphate:glycerol-3-phosphate O-acyltransferase PlsY (EC
-    2.3.1.n3)
-  curated: true
-  genesNCBI: Athe_0752 or Athe_2184
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1208,peg.2740
-  genes_string_NCBI_id: Athe_0752,Athe_2184
-  genes_string_PATRIC_id: peg.1208,peg.2740
-  other_pathways:
-  - Glycerolipid metabolism
-  - Glycerophospholipid metabolism
-  - Metabolic pathways
-  - Biosynthesis of secondary metabolites
-  pathway:
-  - Glycerophospholipid metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: '|Acyl phosphate[c]| + |sn-Glycerol 3-phosphate[c]| => |1-Acyl-sn-glycerol
-    3-phosphate[c]| + Phosphate[c]'
 - id: R02199
   name: L-Isoleucine:2-oxoglutarate aminotransferase
   genes: fig|31899.10.peg.1109
@@ -4730,12 +4691,19 @@
   tag: Tsac
   translated_equation: H+[c] + |Nicotinamide adenine dinucleotide - reduced[c]| +
     Ubiquinone-8[c] => |Nicotinamide adenine dinucleotide[c]| + Ubiquinol-8[c]
-- id: KAS1
-  name: 'b ketoacyl synthetase Iso C140 '
-  equation: (14) C00080[c] + (10) C00005[c] + ibcoa[c] + (5) C00083[c] => (10) C00006[c]
-    + (6) C00010[c] + (4) h2o[c] + (5) C00011[c] + fa1[c]
-  subsystem: Fatty Acid Metabolism
-  ec: 2.3.1.41
+- id: KAS1OH3
+  name: 'b ketoacyl synthetase Iso C140 3-OH ACP'
+  # equation: (10) C00080[c] + (10) C00005[c] + ibcoa[c] + (5) C00083[c] => (10) C00006[c]
+  #   + (6) C00010[c] + (4) h2o[c] + (5) C00011[c] + fa1[c]
+  equation: (8) C00080[c] + (10) C00005[c] + C00630[c] + (5) C01209[c] => fa1oh3ACP[c] + 
+    (10) C00006[c] + C00010[c] + (4) C00229[c] + (4) C00001[c] + (5) C00011[c]
+  genes: fig|31899.10.peg.1637 and fig|31899.10.peg.1639 and fig|31899.10.peg.2593 and fig|31899.10.peg.611 
+    and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 and peg.1635
+  genesNCBI: Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158 and Athe_1157 and Athe_1152
+  ec:
+  - 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+  curated: true
+  pathway: Fatty Acid Metabolism
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
     by the addition to an acyl acceptor of two carbons from malonyl-ACP (By similarity);   peg.1640:Carrier
     of the growing fatty acid chain in fatty acid biosynthesis (By similarity);   peg.1636:Catalyzes
@@ -4773,13 +4741,13 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: (14) H+[c] + (10) |Nicotinamide adenine dinucleotide phosphate
-    - reduced[c]| + Isobutyryl-CoA[c] + (5) |Malonyl CoA[c]| => (10) |Nicotinamide
-    adenine dinucleotide phosphate[c]| + (6) |Coenzyme A[c]| + (4) water[c] + (5)
-    |carbon dioxide[c]| + |Fatty acid (Iso-C14:0)[c]|
+  translated_equation: (8) |Proton (H+)[c]| + (10) |Nicotinamide adenine dinucleotide phosphate - 
+    reduced (NADPH)[c]| + 2-Methylpropanoyl-CoA[c] + (5) |Malonyl-[acyl-carrier protein][c]| 
+    => |Fatty Acid iso-C14:0 3-OH ACP[c]| + (10) |Nicotinamide adenine dinucleotide phosphate 
+    (NADP+)[c]| + |Coenzyme A (CoA)[c]| + (4) |Acyl-carrier protein[c]| + (4) H2O[c] + (5) CO2[c]
 - id: KAS10
   name: 'b ketoacyl synthetase Anteiso C171 '
-  equation: C01033[c] + (16) C00080[c] + (11) C00005[c] + (6) C00083[c] => (11) C00006[c]
+  equation: C15980[c] + (16) C00080[c] + (11) C00005[c] + (6) C00083[c] => (11) C00006[c]
     + (7) C00010[c] + fa10[c] + (5) h2o[c] + (6) C00011[c]
   subsystem: Fatty Acid Metabolism
   ec: 2.3.1.41
@@ -4820,7 +4788,7 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: 2-Methylbutanoyl-CoA[c] + (16) H+[c] + (11) |Nicotinamide
+  translated_equation: (S)-2-Methylbutanoyl-CoA[c] + (16) H+[c] + (11) |Nicotinamide
     adenine dinucleotide phosphate - reduced[c]| + (6) |Malonyl CoA[c]| => (11) |Nicotinamide
     adenine dinucleotide phosphate[c]| + (7) |Coenzyme A[c]| + |Fatty acid (Anteiso-C17:1)[c]|
     + (5) water[c] + (6) |carbon dioxide[c]|
@@ -4877,13 +4845,11 @@
   #   + (7) C00010[c] + fa11[c] + (5) C00001[c] + (6) C00011[c]
   equation: (12) C00080[c] + (12) C00005[c] + C02939[c] + (6) C01209[c] => fa11ACP[c] + 
     (12) C00006[c] + C00010[c] + (5) C00229[c] + (6) C00001[c] + (6) C00011[c]
-  genes: fig|31899.10.peg.1804 and fig|31899.10.peg.1638 and fig|31899.10.peg.1637 and fig|31899.10.peg.1639
-    and fig|31899.10.peg.2593 and fig|31899.10.peg.611 and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 
-    and peg.1635
-  genesNCBI: Athe_1316 and Athe_1155 and Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158
-    and Athe_1157 and Athe_1152
+  genes: fig|31899.10.peg.1637 and fig|31899.10.peg.1639 and fig|31899.10.peg.2593 and fig|31899.10.peg.611 
+    and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 and peg.1635
+  genesNCBI: Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158 and Athe_1157 and Athe_1152
   ec:
-  - 6.4.1.2, 2.3.1.39, 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+  - 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
   curated: true
   pathway: Fatty Acid Metabolism
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
@@ -4931,15 +4897,14 @@
   name: 'b ketoacyl synthetase Anteiso C17:0 ACP'
   # equation: C01033[c] + (17) C00080[c] + (12) C00005[c] + (6) C00083[c] => (12) C00006[c]
   #   + (7) C00010[c] + fa12[c] + (5) C00001[c] + (6) C00011[c]
-  equation: (12) C00080[c] + (12) C00005[c] + C01033[c] + (6) C01209[c] => fa12ACP[c] + 
+  equation: (12) C00080[c] + (12) C00005[c] + C15980[c] + (6) C01209[c] => fa12ACP[c] + 
     (12) C00006[c] + C00010[c] + (5) C00229[c] + (6) C00001[c] + (6) C00011[c]
-  genes: fig|31899.10.peg.1804 and fig|31899.10.peg.1638 and fig|31899.10.peg.1637 and fig|31899.10.peg.1639
-    and fig|31899.10.peg.2593 and fig|31899.10.peg.611 and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 
-    and peg.1635
-  genesNCBI: Athe_1316 and Athe_1155 and Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158
+  genes: fig|31899.10.peg.1637 and fig|31899.10.peg.1639 and fig|31899.10.peg.2593 and fig|31899.10.peg.611 
+    and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 and peg.1635
+  genesNCBI: Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158
     and Athe_1157 and Athe_1152
   ec:
-  - 6.4.1.2, 2.3.1.39, 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+  - 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
   curated: true
   pathway: Fatty Acid Metabolism
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
@@ -4980,7 +4945,7 @@
   source: Tsac model
   tag: Cth,Tsac
   translated_equation: (12) |Proton (H+)[c]| + (12) |Nicotinamide adenine dinucleotide phosphate - 
-    reduced (NADPH)[c]| + 2-Methylbutanoyl-CoA[c] + (6) |Malonyl-[acyl-carrier protein][c]| 
+    reduced (NADPH)[c]| + (S)-2-Methylbutanoyl-CoA[c] + (6) |Malonyl-[acyl-carrier protein][c]| 
     => |Fatty Acid anteiso-C17:0 ACP[c]| + (12) |Nicotinamide adenine dinucleotide phosphate (NADP+)[c]| 
     + |Coenzyme A (CoA)[c]| + (5) |Acyl-carrier protein[c]| + (6) H2O[c] + (6) CO2[c]
 - id: KAS13
@@ -4988,13 +4953,11 @@
   equation: (16) C00080[c] + (16) C00005[c] + C00024[c] + (8) C01209[c] => C04088[c] + 
     (16) C00006[c] + C00010[c] + (7) C00229[c] + (8) C00001[c] + (8) C00011[c]
   pathway: Fatty Acid Metabolism
-  genes: fig|31899.10.peg.1804 and fig|31899.10.peg.1638 and fig|31899.10.peg.1637 and fig|31899.10.peg.1639
-    and fig|31899.10.peg.2593 and fig|31899.10.peg.611 and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 
-    and peg.1635
-  genesNCBI: Athe_1316 and Athe_1155 and Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158
-    and Athe_1157 and Athe_1152
+  genes: fig|31899.10.peg.1637 and fig|31899.10.peg.1639 and fig|31899.10.peg.2593 and fig|31899.10.peg.611 
+    and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 and peg.1635
+  genesNCBI: Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158 and Athe_1157 and Athe_1152
   ec:
-  - 6.4.1.2, 2.3.1.39, 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+  - 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
   curated: true
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
     by the addition to an acyl acceptor of two carbons from malonyl-ACP (By similarity);   peg.1640:Carrier
@@ -5138,13 +5101,11 @@
   equation: (15) C00080[c] + (15) C00005[c] + C00024[c] + (8) C01209[c] => C01203[c] + 
     (15) C00006[c] + C00010[c] + (7) C00229[c] + (8) C00001[c] + (8) C00011[c]
   pathway: Fatty Acid Metabolism
-  genes: fig|31899.10.peg.1804 and fig|31899.10.peg.1638 and fig|31899.10.peg.1637 and fig|31899.10.peg.1639
-    and fig|31899.10.peg.2593 and fig|31899.10.peg.611 and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 
-    and peg.1635
-  genesNCBI: Athe_1316 and Athe_1155 and Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158
-    and Athe_1157 and Athe_1152
+  genes: fig|31899.10.peg.1637 and fig|31899.10.peg.1639 and fig|31899.10.peg.2593 and fig|31899.10.peg.611 
+    and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 and peg.1635
+  genesNCBI: Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158 and Athe_1157 and Athe_1152
   ec:
-  - 6.4.1.2, 2.3.1.39, 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+  - 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
   curated: true
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
     by the addition to an acyl acceptor of two carbons from malonyl-ACP (By similarity);   peg.1640:Carrier
@@ -5195,13 +5156,11 @@
   equation: (15) C00080[c] + (15) C00005[c] + C00024[c] + (8) C01209[c] => C181o7ACP[c] + 
     (15) C00006[c] + C00010[c] + (7) C00229[c] + (8) C00001[c] + (8) C00011[c]
   pathway: Fatty Acid Metabolism
-  genes: fig|31899.10.peg.1804 and fig|31899.10.peg.1638 and fig|31899.10.peg.1637 and fig|31899.10.peg.1639
-    and fig|31899.10.peg.2593 and fig|31899.10.peg.611 and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 
-    and peg.1635
-  genesNCBI: Athe_1316 and Athe_1155 and Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158
-    and Athe_1157 and Athe_1152
+  genes: fig|31899.10.peg.1637 and fig|31899.10.peg.1639 and fig|31899.10.peg.2593 and fig|31899.10.peg.611 
+    and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 and peg.1635
+  genesNCBI: Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158 and Athe_1157 and Athe_1152
   ec:
-  - 6.4.1.2, 2.3.1.39, 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+  - 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
   curated: true
   PATRIC_annotation: 3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.179)
     or Acyl carrier protein or Phosphate:acyl-ACP acyltransferase PlsX (EC 2.3.1.n2)
@@ -5226,13 +5185,11 @@
   name: 'b ketoacyl synthetase n C14:0 ACP'
   equation: (12) C00080[c] + (12) C00005[c] + C00024[c] + (6) C01209[c] => C05761[c] + (12)
     C00006[c] + C00010[c] + (5) C00229[c] + (6) C00001[c] + (6) C00011[c]
-  genes: fig|31899.10.peg.1804 and fig|31899.10.peg.1638 and fig|31899.10.peg.1637 and fig|31899.10.peg.1639
-    and fig|31899.10.peg.2593 and fig|31899.10.peg.611 and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 
-    and peg.1635
-  genesNCBI: Athe_1316 and Athe_1155 and Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158
-    and Athe_1157 and Athe_1152
+  genes: fig|31899.10.peg.1637 and fig|31899.10.peg.1639 and fig|31899.10.peg.2593 and fig|31899.10.peg.611 
+    and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 and peg.1635
+  genesNCBI: Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158 and Athe_1157 and Athe_1152
   ec:
-  - 6.4.1.2, 2.3.1.39, 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+  - 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
   curated: true
   note: Athe_1152 (peg.1635) is transcriotional regulator; Athe_1157 (peg.1640) is ACP; 1.3.1.10 or 1.3.1.174?
   pathway: Fatty Acid Metabolism
@@ -5281,13 +5238,11 @@
   name: 'b ketoacyl synthetase Iso C15:0 ACP'
   equation: (10) C00080[c] + (10) C00005[c] + C02939[c] + (5) C01209[c] => fa3ACP[c] + 
     (10) C00006[c] + C00010[c] + (4) C00229[c] + (5) C00001[c] + (5) C00011[c]
-  genes: fig|31899.10.peg.1804 and fig|31899.10.peg.1638 and fig|31899.10.peg.1637 and fig|31899.10.peg.1639
-    and fig|31899.10.peg.2593 and fig|31899.10.peg.611 and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 
-    and peg.1635
-  genesNCBI: Athe_1316 and Athe_1155 and Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158
-    and Athe_1157 and Athe_1152
+  genes: fig|31899.10.peg.1637 and fig|31899.10.peg.1639 and fig|31899.10.peg.2593 and fig|31899.10.peg.611 
+    and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 and peg.1635
+  genesNCBI: Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158 and Athe_1157 and Athe_1152
   ec:
-  - 6.4.1.2, 2.3.1.39, 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+  - 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
   curated: true
   pathway: Fatty Acid Metabolism
   # ec: 2.3.1.41
@@ -5334,7 +5289,7 @@
     + |Coenzyme A (CoA)[c]| + (4) |Acyl-carrier protein[c]| + (5) H2O[c] + (5) CO2[c]
 - id: KAS4
   name: 'b ketoacyl synthetase Anteiso C150 '
-  equation: C01033[c] + (14) C00080[c] + (10) C00005[c] + (5) C00083[c] => (10) C00006[c]
+  equation: C15980[c] + (14) C00080[c] + (10) C00005[c] + (5) C00083[c] => (10) C00006[c]
     + (6) C00010[c] + (4) h2o[c] + fa4[c] + (5) C00011[c]
   subsystem: Fatty Acid Metabolism
   ec: 2.3.1.41
@@ -5375,7 +5330,7 @@
   pathway: Fatty Acid Metabolism
   source: Tsac model
   tag: Cth,Tsac
-  translated_equation: 2-Methylbutanoyl-CoA[c] + (14) H+[c] + (10) |Nicotinamide
+  translated_equation: (S)-2-Methylbutanoyl-CoA[c] + (14) H+[c] + (10) |Nicotinamide
     adenine dinucleotide phosphate - reduced[c]| + (5) |Malonyl CoA[c]| => (10) |Nicotinamide
     adenine dinucleotide phosphate[c]| + (6) |Coenzyme A[c]| + (4) water[c] + |Fatty
     acid (Anteiso-C15:0)[c]| + (5) |carbon dioxide[c]|
@@ -5430,13 +5385,11 @@
   name: 'b ketoacyl synthetase Iso C16:0 ACP'
   equation: (12) C00080[c] + (12) C00005[c] + C00630[c] + (6) C01209[c] => fa6ACP[c] + 
     (12) C00006[c] + C00010[c] + (5) C00229[c] + (6) C00001[c] + (6) C00011[c]
-  genes: fig|31899.10.peg.1804 and fig|31899.10.peg.1638 and fig|31899.10.peg.1637 and fig|31899.10.peg.1639
-    and fig|31899.10.peg.2593 and fig|31899.10.peg.611 and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 
-    and peg.1635
-  genesNCBI: Athe_1316 and Athe_1155 and Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158
-    and Athe_1157 and Athe_1152
+  genes: fig|31899.10.peg.1637 and fig|31899.10.peg.1639 and fig|31899.10.peg.2593 and fig|31899.10.peg.611 
+    and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 and peg.1635
+  genesNCBI: Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158 and Athe_1157 and Athe_1152
   ec:
-  - 6.4.1.2, 2.3.1.39, 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+  - 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
   curated: true
   pathway: Fatty Acid Metabolism
   # genesNCBI: Athe_1158 and Athe_1157 and Athe_1153 and Athe_1154 and Athe_1152 and Athe_1155 and Athe_1156
@@ -5538,13 +5491,11 @@
   # genesNCBI: Athe_1158 and Athe_1157 and Athe_1153 and Athe_1154 and Athe_1152 and Athe_1155 and 
   #   Athe_1156
   # ec: 2.3.1.41
-  genes: fig|31899.10.peg.1804 and fig|31899.10.peg.1638 and fig|31899.10.peg.1637 and fig|31899.10.peg.1639
-    and fig|31899.10.peg.2593 and fig|31899.10.peg.611 and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 
-    and peg.1635
-  genesNCBI: Athe_1316 and Athe_1155 and Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158
-    and Athe_1157 and Athe_1152
+  genes: fig|31899.10.peg.1637 and fig|31899.10.peg.1639 and fig|31899.10.peg.2593 and fig|31899.10.peg.611 
+    and fig|31899.10.peg.1641 and fig|31899.10.peg.1640 and peg.1635
+  genesNCBI: Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158 and Athe_1157 and Athe_1152
   ec:
-  - 6.4.1.2, 2.3.1.39, 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+  - 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
   curated: true
   EggNOG_annotation: peg.1641:Catalyzes the condensation reaction of fatty acid synthesis
     by the addition to an acyl acceptor of two carbons from malonyl-ACP (By similarity);   peg.1640:Carrier
@@ -8800,12 +8751,11 @@
   translated_equation: ATP[c] + 1,2-Diacyl-sn-glycerol[c] => ADP[c] + Phosphatidate[c]
 - id: R01041
   name: glycerol:NADP+ oxidoreductase
-  equation: C00116[c] + C00006[c] <=> C00577[c] + C00005[c] + C00080[c]
+  equation: C00577[c] + C00005[c] + C00080[c] <=> C00116[c] + C00006[c]
   ec:
-  - 1.1.1.2
-  - 1.1.1.21
-  - 1.1.1.72
-  - 1.1.1.372
+  - 1.1.1.-
+  genes: fig|31899.10.peg.841
+  genesNCBI: Athe_0422
   EggNOG_annotation: peg.841:aldo keto reductase
   KEGG_annotation: Athe_0422:K19265 L-glyceraldehyde 3-phosphate reductase [EC:1.1.1.-]
     | (GenBank) aldo/keto reductase
@@ -8824,9 +8774,10 @@
   pathway: Glycerolipid metabolism
   source: KEGG
   tag: Cce
-  translated_equation: Glycerol[c] + |Nicotinamide adenine dinucleotide phosphate
-    (NADP)[c]| <=> D-Glyceraldehyde[c] + |Nicotinamide adenine dinucleotide phosphate
-    - reduced (NADPH)[c]| + |Proton (H+)[c]|
+  translated_equation: D-Glyceraldehyde[c] + |Nicotinamide adenine dinucleotide 
+    phosphate - reduced (NADPH)[c]| + |Proton (H+)[c] <=> |Glycerol[c] + |Nicotinamide 
+    adenine dinucleotide phosphate (NADP)[c]|
+  note: not sure the accurate EC number, may be 1.1.1.2/72/21
 - id: R00847
   name: ATP:glycerol 3-phosphotransferase
   genes: fig|31899.10.peg.2526
@@ -8887,37 +8838,6 @@
   tag: KEGG_Cbes
   translated_equation: Digalactosyl-diacylglycerol[c] + H2O[c] => 1,2-Diacyl-3-beta-D-galactosyl-sn-glycerol[c]
     + D-Galactose[c]
-- id: R02241
-  name: acyl-CoA:1-acyl-sn-glycerol-3-phosphate 2-O-acyltransferase
-  genes: fig|31899.10.peg.1814
-  equation: C00681[c] + C00040[c] => C00416[c] + C00010[c]
-  ec:
-  - 2.3.1.51
-  EggNOG_annotation: peg.1814:1-acyl-sn-glycerol-3-phosphate acyltransferase
-  KEGG_annotation: Athe_1326:K00655 1-acyl-sn-glycerol-3-phosphate acyltransferase
-    [EC:2.3.1.51] | (GenBank) phospholipid/glycero
-  PATRIC_annotation: Acyl-CoA:1-acyl-sn-glycerol-3-phosphate acyltransferase (EC
-    2.3.1.51)
-  curated: true
-  genesNCBI: Athe_1326
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1814
-  genes_string_NCBI_id: Athe_1326
-  genes_string_PATRIC_id: peg.1814
-  names:
-  - acyl-CoA:1-acyl-sn-glycerol-3-phosphate 2-O-acyltransferase
-  other_pathways:
-  - Glycerolipid metabolism
-  - Glycerophospholipid metabolism
-  - Metabolic pathways
-  - Biosynthesis of secondary metabolites
-  pathway: Glycerolipid metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: '|1-Acyl-sn-glycerol 3-phosphate[c]| + Acyl-CoA[c] => Phosphatidate[c]
-    + |Coenzyme A (CoA)[c]|'
 - id: R02689
   name: UDP-alpha-D-glucose:1,2-diacyl-sn-glycerol 3-beta-D-glucosyltransferase
   genes: fig|31899.10.peg.2306
@@ -8973,38 +8893,6 @@
   tag: KEGG_Cbes
   translated_equation: 3-D-Glucosyl-1,2-diacylglycerol[c] + UDPglucose[c] => Diglucosyldiacylglycerol[c]
     + UDP[c]
-- id: R12240
-  name: acyl-[acyl-carrier protein]:phosphate acyltransferase
-  genes: peg.1636
-  equation: C00173[c] + C00009[c] => C02133[c] + C00229[c]
-  ec:
-  - 2.3.1.274
-  EggNOG_annotation: peg.1208:Catalyzes the transfer of an acyl group from acyl-
-    phosphate (acyl-PO(4)) to glycerol-3-phosphate (G3P) to form lysophosphatidic
-    acid (LPA). This enzyme utilizes acyl-phosphate as fatty acyl donor, but not
-    acyl-CoA or acyl-ACP (By similarity);   peg.1636:Catalyzes the reversible formation
-    of acyl-phosphate (acyl-PO(4)) from acyl- acyl-carrier-protein (acyl-ACP). This
-    enzyme utilizes acyl-ACP as fatty acyl donor, but not acyl-CoA (By similarity);   peg.2740:Pfam:DUF205
-  KEGG_annotation: Athe_1153:K03621 phosphate acyltransferase [EC:2.3.1.274] | (GenBank)
-    fatty acid/phospholipid synthesis protei;   Athe_0752:K08591 acyl phosphate:glycerol-3-phosphate
-    acyltransferase [EC:2.3.1.275] | (GenBank) protein of unk;   Athe_2184:K08591
-    acyl phosphate:glycerol-3-phosphate acyltransferase [EC:2.3.1.275] | (GenBank)
-    protein of unk
-  PATRIC_annotation: Phosphate:acyl-ACP acyltransferase PlsX (EC 2.3.1.n2)
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: Athe_1153
-  genes_string_NCBI_id: Athe_1153
-  genes_string_PATRIC_id: peg.1636
-  other_pathways:
-  - Glycerolipid metabolism
-  - Metabolic pathways
-  pathway: Glycerolipid metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: '|Acyl-[acyl-carrier protein][c]| + Phosphate[c] => |Acyl
-    phosphate[c]| + |Acyl-carrier protein[c]|'
 - id: R05680
   name: sn-glycerol-1-phosphate:NADP 2-oxidoreductase
   genes: fig|31899.10.peg.1261
@@ -9066,6 +8954,7 @@
 - id: R01799
   name: CTP:phosphatidate cytidyltransferase
   genes: fig|31899.10.peg.2323
+  genesNCBI: Athe_1811
   equation: C00063[c] + C00416[c] => C00013[c] + C00269[c]
   ec:
   - 2.7.7.41
@@ -9082,7 +8971,7 @@
   genes_string_PATRIC_id: peg.2323
   names:
   - CTP:phosphatidate cytidyltransferase
-  note: in kegg, Athe_1811 is annotated as EC 2.7.7.41, it is not identical to peg.2323
+  note: In kegg, Athe_1811 is annotated as EC 2.7.7.41, it is not identical to peg.2323
   other_pathways:
   - Glycerophospholipid metabolism
   - Metabolic pathways
@@ -9091,6 +8980,7 @@
   source: KEGG
   tag: Cce,Cth
   translated_equation: CTP[c] + Phosphatidate[c] => Diphosphate[c] + CDP-diacylglycerol[c]
+  note: blastp of peg.2323 against Athe_1811, the result is 96% coverage, evalue is 0, identity 100.00%
 - id: R02030
   name: CDP-diacylglycerol:phosphatidylglycerol 3-phosphatidyltransferase
   genes: fig|31899.10.peg.1951
@@ -9151,35 +9041,6 @@
   tag: KEGG_Cbes,Cce,Cth
   translated_equation: CDP-diacylglycerol[c] + |sn-Glycerol 3-phosphate[c]| => CMP[c]
     + Phosphatidylglycerophosphate[c]
-- id: R00848
-  name: sn-Glycerol-3-phosphate:(acceptor) 2-oxidoreductase
-  genes: fig|31899.10.peg.1400
-  equation: C00093[c] + C00016[c] <=> C00111[c] + C01352[c]
-  ec:
-  - 1.1.5.3
-  EggNOG_annotation: peg.1400:fad dependent oxidoreductase
-  KEGG_annotation: Athe_0930:K00111 glycerol-3-phosphate dehydrogenase [EC:1.1.5.3]
-    | (GenBank) FAD dependent oxidoreductase
-  PATRIC_annotation: Glycerol-3-phosphate dehydrogenase (EC 1.1.5.3)
-  curated: true
-  genesNCBI: Athe_0930
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1400
-  genes_string_NCBI_id: Athe_0930
-  genes_string_PATRIC_id: peg.1400
-  names:
-  - sn-Glycerol-3-phosphate:(acceptor) 2-oxidoreductase
-  other_pathways:
-  - Glycerophospholipid metabolism
-  - Biosynthesis of secondary metabolites
-  pathway: Glycerophospholipid metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: '|sn-Glycerol 3-phosphate[c]| + |Flavin adenine dinucleotide
-    oxidized (FAD)[c]| <=> |Dihydroxyacetone phosphate (DHAP)[c]| + |Flavin adenine
-    dinucleotide reduced (FADH2)[c]|'
 - id: R00582
   name: O-phospho-L-serine phosphohydrolase
   genes: fig|31899.10.peg.354
@@ -13007,32 +12868,32 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: Cellobiose[c] + H2O[c] => (2) beta-D-Glucose[c]
-- id: R00164
-  name: Phosphoprotein phosphohydrolase
-  equation: C00562[c] + C00001[c] <=> C00017[c] + C00009[c]
-  ec:
-  - 3.1.3.16
-  EggNOG_annotation: peg.280:serine threonine protein phosphatase;   peg.615:stage
-    ii sporulation protein e;   peg.1525:phosphatase
-  KEGG_annotation: Athe_2692:K20074 PPM family protein phosphatase [EC:3.1.3.16]
-    | (GenBank) protein serine/threonine phosphatase;   Athe_0217:K06382 stage II
-    sporulation protein E [EC:3.1.3.16] | (GenBank) protein serine/threonine phosphatase;   Athe_1044:K20074
-    PPM family protein phosphatase [EC:3.1.3.16] | (GenBank) protein serine/threonine
-    phosphatase
-  PATRIC_annotation: Protein serine/threonine phosphatase PrpC, regulation of stationary
-    phase or Phosphoprotein phosphatase or protein serine/threonine phosphatases
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.280,peg.615,peg.1525
-  genes_string_NCBI_id: Athe_1044,Athe_0217,Athe_2692
-  genes_string_PATRIC_id: peg.1525,peg.615,peg.280
-  names:
-  - Phosphoprotein phosphohydrolase
-  pathway: None
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: Phosphoprotein[c] + H2O[c] <=> Protein[c] + Phosphate[c]
+# - id: R00164
+#   name: Phosphoprotein phosphohydrolase
+#   equation: C00562[c] + C00001[c] <=> C00017[c] + C00009[c]
+#   ec:
+#   - 3.1.3.16
+#   EggNOG_annotation: peg.280:serine threonine protein phosphatase;   peg.615:stage
+#     ii sporulation protein e;   peg.1525:phosphatase
+#   KEGG_annotation: Athe_2692:K20074 PPM family protein phosphatase [EC:3.1.3.16]
+#     | (GenBank) protein serine/threonine phosphatase;   Athe_0217:K06382 stage II
+#     sporulation protein E [EC:3.1.3.16] | (GenBank) protein serine/threonine phosphatase;   Athe_1044:K20074
+#     PPM family protein phosphatase [EC:3.1.3.16] | (GenBank) protein serine/threonine
+#     phosphatase
+#   PATRIC_annotation: Protein serine/threonine phosphatase PrpC, regulation of stationary
+#     phase or Phosphoprotein phosphatase or protein serine/threonine phosphatases
+#   genes_Cce: None
+#   genes_Cth: None
+#   genes_Tsac: None
+#   genes_kegg: peg.280,peg.615,peg.1525
+#   genes_string_NCBI_id: Athe_1044,Athe_0217,Athe_2692
+#   genes_string_PATRIC_id: peg.1525,peg.615,peg.280
+#   names:
+#   - Phosphoprotein phosphohydrolase
+#   pathway: None
+#   source: KEGG
+#   tag: KEGG_Cbes
+#   translated_equation: Phosphoprotein[c] + H2O[c] <=> Protein[c] + Phosphate[c]
 - id: R02585
   name: Protein-tyrosine-phosphate phosphohydrolase
   equation: C01167[c] + C00001[c] <=> C00585[c] + C00009[c]
@@ -14257,56 +14118,7 @@
   tag: KEGG_Cbes
   translated_equation: G11112[c] + N-Acetyl-D-glucosaminyldiphosphoundecaprenol[c]
     <=> G00177[c] + G10619[c]
-- id: R01195
-  name: Ferredoxin:NADP+ oxidoreductase
-  equation: (2) C00138[c] + C00006[c] + C00080[c] <=> (2) C00139[c] + C00005[c]
-  ec:
-  - 1.18.1.2
-  EggNOG_annotation: peg.1086:Oxidoreductase FAD NAD(P)-binding domain protein
-  KEGG_annotation: Athe_0645:K00528 ferredoxin/flavodoxin---NADP+ reductase [EC:1.18.1.2
-    1.19.1.1] | (GenBank) oxidoreductase FAD
-  PATRIC_annotation: NADH-dependent reduced ferredoxin:NADP+ oxidoreductase subunit
-    A
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1086
-  genes_string_NCBI_id: Athe_0645
-  genes_string_PATRIC_id: peg.1086
-  names:
-  - Ferredoxin:NADP+ oxidoreductase
-  pathway: None
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: (2) |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]| + |Nicotinamide
-    adenine dinucleotide phosphate (NADP)[c]| + |Proton (H+)[c]| <=> (2) |Oxidized
-    ferredoxin (2[4Fe-4S]) (Fdox)[c]| + |Nicotinamide adenine dinucleotide phosphate
-    - reduced (NADPH)[c]|
-- id: R10159
-  name: adrenodoxin:NADP+ oxidoreductase
-  equation: (2) C00662[c] + C00006[c] + C00080[c] <=> (2) C00667[c] + C00005[c]
-  ec:
-  - 1.18.1.2
-  - 1.18.1.6
-  EggNOG_annotation: peg.1086:Oxidoreductase FAD NAD(P)-binding domain protein
-  KEGG_annotation: Athe_0645:K00528 ferredoxin/flavodoxin---NADP+ reductase [EC:1.18.1.2
-    1.19.1.1] | (GenBank) oxidoreductase FAD
-  PATRIC_annotation: NADH-dependent reduced ferredoxin:NADP+ oxidoreductase subunit
-    A
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1086
-  genes_string_NCBI_id: Athe_0645
-  genes_string_PATRIC_id: peg.1086
-  names:
-  - adrenodoxin:NADP+ oxidoreductase
-  pathway: None
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: (2) |Reduced adrenal ferredoxin[c]| + |Nicotinamide adenine
-    dinucleotide phosphate (NADP)[c]| + |Proton (H+)[c]| <=> (2) |Oxidized adrenal
-    ferredoxin[c]| + |Nicotinamide adenine dinucleotide phosphate - reduced (NADPH)[c]|
+
 - id: R04519
   name: '[poly-N-acetyl-D-glucosaminyl-(1->4)-(N-acetyl-D-muramoylpentapeptide)]-diphosphoundecaprenol:[N-acetyl-D-glucosaminyl-(1->4)-N-acetyl-D-muramoylpentapeptide]-diphosphoundecaprenol
     polysaccharidetransferase'
@@ -14735,15 +14547,18 @@
   tag: KEGG_Cbes
   translated_equation: ROOH[c] + (2) |Thiol-containing reductant[c]| <=> Alcohol[c]
     + H2O[c] + |Oxidized thiol-containing reductant[c]|
-- id: R08657
-  name: sn-glycerol 3-phosphate:ubiquinone oxidoreductase
-  equation: C00093[c] + C00399[c] <=> C00111[c] + C00390[c]
+- id: R00848
+  name: sn-Glycerol-3-phosphate:(acceptor) 2-oxidoreductase
+  genes: fig|31899.10.peg.1400
+  genesNCBI: Athe_0930
+  equation: C00111[c] + C01352[c] <=> C00093[c] + C00016[c]
   ec:
   - 1.1.5.3
   EggNOG_annotation: peg.1400:fad dependent oxidoreductase
   KEGG_annotation: Athe_0930:K00111 glycerol-3-phosphate dehydrogenase [EC:1.1.5.3]
     | (GenBank) FAD dependent oxidoreductase
   PATRIC_annotation: Glycerol-3-phosphate dehydrogenase (EC 1.1.5.3)
+  curated: true
   genes_Cce: None
   genes_Cth: None
   genes_Tsac: None
@@ -14751,34 +14566,16 @@
   genes_string_NCBI_id: Athe_0930
   genes_string_PATRIC_id: peg.1400
   names:
-  - sn-glycerol 3-phosphate:ubiquinone oxidoreductase
-  pathway: None
+  - sn-Glycerol-3-phosphate:(acceptor) 2-oxidoreductase
+  other_pathways:
+  - Glycerophospholipid metabolism
+  - Biosynthesis of secondary metabolites
+  pathway: Glycerophospholipid metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: '|sn-Glycerol 3-phosphate[c]| + Ubiquinone[c] <=> |Dihydroxyacetone
-    phosphate (DHAP)[c]| + Ubiquinol[c]'
-- id: R00849
-  name: sn-glycerol 3-phosphate:quinone oxidoreductase
-  equation: C00093[c] + C15602[c] <=> C00111[c] + C15603[c]
-  ec:
-  - 1.1.5.3
-  EggNOG_annotation: peg.1400:fad dependent oxidoreductase
-  KEGG_annotation: Athe_0930:K00111 glycerol-3-phosphate dehydrogenase [EC:1.1.5.3]
-    | (GenBank) FAD dependent oxidoreductase
-  PATRIC_annotation: Glycerol-3-phosphate dehydrogenase (EC 1.1.5.3)
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1400
-  genes_string_NCBI_id: Athe_0930
-  genes_string_PATRIC_id: peg.1400
-  names:
-  - sn-glycerol 3-phosphate:quinone oxidoreductase
-  pathway: None
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: '|sn-Glycerol 3-phosphate[c]| + Quinone[c] <=> |Dihydroxyacetone
-    phosphate (DHAP)[c]| + Hydroquinone[c]'
+  translated_equation: '|Dihydroxyacetone phosphate (DHAP)[c]| + |Flavin adenine
+    dinucleotide reduced (FADH2)[c]| <=> |sn-Glycerol 3-phosphate[c]| + |Flavin adenine dinucleotide
+    oxidized (FAD)[c]|'
 - id: R03080
   name: (R)-Propane-1,2-diol:NAD+ oxidoreductase
   equation: C02912[c] + C00003[c] <=> C00937[c] + C00004[c] + C00080[c]
@@ -15998,31 +15795,6 @@
   translated_equation: '|N1-(5-Phospho-D-ribosyl)glycinamide (GAR)[c]| + 5,10-Methenyltetrahydrofolate[c]
     + H2O[c] => |N2-Formyl-N1-(5-phospho-D-ribosyl)glycinamide (FGAR)[c]| + |5,6,7,8-Tetrahydrofolate
     (THF)[c]| + |Proton (H+)[c]|'
-- id: NFNab
-  name: Bifurcating ferredoxin-NAD(P) oxidoreductase
-  equation: (2) C00006[c] + nadh[c] + fdred[c] => h2[c] + (2) nadph[c] + nad[c] + fdox[c]
-  subsystem: Oxidative phosphorylation
-  ec: .
-  EggNOG_annotation: peg.1085:glutamate synthase;   peg.1086:Oxidoreductase FAD NAD(P)-binding
-    domain protein
-  KEGG_annotation: peg.1085:-;   Athe_0645:K00528 ferredoxin/flavodoxin---NADP+ reductase
-    [EC:1.18.1.2 1.19.1.1] | (GenBank) oxidoreductase FAD
-  PATRIC_annotation: NADH-dependent reduced ferredoxin:NADP+ oxidoreductase subunit
-    B or NADH-dependent reduced ferredoxin:NADP+ oxidoreductase subunit A
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: peg.1085 and peg.1086
-  genes_kegg: None
-  genes_string_NCBI_id: peg.1085,Athe_0645
-  genes_string_PATRIC_id: peg.1085,peg.1086
-  note: the original rxn is bidirectional
-  pathway: Oxidative phosphorylation
-  source: Tsac model
-  tag: Tsac
-  translated_equation: (2) |Nicotinamide adenine dinucleotide phosphate[c]| + |Nicotinamide
-    adenine dinucleotide - reduced[c]| + |Ferredoxin (reduced) 2[4Fe-4S][c]| => Hydrogen[c]
-    + (2) |Nicotinamide adenine dinucleotide phosphate - reduced[c]| + |Nicotinamide
-    adenine dinucleotide[c]| + |Ferredoxin (oxidized) 2[4Fe-4S][c]|
 - id: R04230
   name: (R)-4'-Phosphopantothenate:L-cysteine ligase
   genes: fig|31899.10.peg.1518
@@ -18844,9 +18616,8 @@
     Might exclude non-canonical purines from DNA precursor pool, thus preventing
     their incorporation into DNA and avoiding chromosomal lesions (By similarity)
   KEGG_annotation: Athe_0838:K02428 XTP/dITP diphosphohydrolase [EC:3.6.1.66] | (GenBank)
-    non-canonical purine NTP pyrophosphatas
-  PATRIC_annotation: Nucleoside 5-triphosphatase RdgB (dHAPTP, dITP, XTP-specific)
-    (EC 3.6.1.66)
+    noncanonical purine NTP pyrophosphatas
+  PATRIC_annotation: Nucleoside 5-triphosphatase RdgB (dHAPTP, dITP, XTP specific)(EC 3.6.1.66)
   genes_Cce: None
   genes_Cth: peg.1298
   genes_Tsac: peg.1298
@@ -19322,9 +19093,12 @@
     <=> Fumarate[c] + 5-Amino-1-(5-Phospho-D-ribosyl)imidazole-4-carboxamide[c]
 - id: R00509
   name: ATP:adenylylsulfate 3'-phosphotransferase
-  equation: C00002[c] + C00224[c] <=> C00008[c] + C00053[c]
+  equation: C00002[c] + C00224[c] => C00008[c] + C00053[c]
   ec:
   - 2.7.1.25
+  genes: fig|31899.10.peg.1679
+  genesNCBI: Athe_1194
+  curated: true
   EggNOG_annotation: peg.1679:sulfate adenylyltransferase
   KEGG_annotation: Athe_1194:K00956 sulfate adenylyltransferase subunit 1 [EC:2.7.7.4]
     | (GenBank) sulfate adenylyltransferase, l
@@ -19346,7 +19120,7 @@
   pathway: Purine metabolism
   source: KEGG
   tag: Cth,Tsac
-  translated_equation: ATP[c] + |Adenosine 5'-phosphosulfate[c]| <=> ADP[c] + |3'-Phosphoadenylyl
+  translated_equation: ATP[c] + |Adenosine 5'-phosphosulfate[c]| => ADP[c] + |3'-Phosphoadenylyl
     sulfate[c]|
 - id: R00127
   name: ATP:AMP phosphotransferase
@@ -19583,200 +19357,6 @@
   note: Athe_0985 is considered able to encode ADP-ribose ribophosphohydrolase based on sequence similarity to 
     Thermus thermophilus gene TTH1820
   PMID: 25313401
-- id: R00086
-  name: ATP phosphohydrolase
-  equation: C00002[c] + C00001[c] <=> C00008[c] + C00009[c]
-  ec:
-  - 3.6.1.3
-  - 3.6.1.5
-  - 3.6.1.8
-  - 3.6.1.15
-  - 3.6.3.1
-  - 3.6.3.2
-  - 3.6.3.3
-  - 3.6.3.4
-  - 3.6.3.5
-  - 3.6.3.6
-  - 3.6.3.7
-  - 3.6.3.8
-  - 3.6.3.9
-  - 3.6.3.10
-  - 3.6.3.11
-  - 3.6.3.12
-  - 3.6.3.14
-  - 3.6.3.15
-  - 3.6.3.16
-  - 3.6.3.17
-  - 3.6.3.18
-  - 3.6.3.19
-  - 3.6.3.20
-  - 3.6.3.21
-  - 3.6.3.22
-  - 3.6.3.23
-  - 3.6.3.24
-  - 3.6.3.25
-  - 3.6.3.26
-  - 3.6.3.27
-  - 3.6.3.28
-  - 3.6.3.29
-  - 3.6.3.30
-  - 3.6.3.31
-  - 3.6.3.32
-  - 3.6.3.33
-  - 3.6.3.34
-  - 3.6.3.35
-  - 3.6.3.36
-  - 3.6.3.37
-  - 3.6.3.38
-  - 3.6.3.39
-  - 3.6.3.40
-  - 3.6.3.41
-  - 3.6.3.42
-  - 3.6.3.43
-  - 3.6.3.44
-  - 3.6.3.46
-  - 3.6.3.47
-  - 3.6.3.48
-  - 3.6.3.49
-  - 3.6.3.50
-  - 3.6.3.51
-  - 3.6.3.52
-  - 3.6.3.53
-  - 3.6.3.54
-  - 3.6.4.1
-  - 3.6.4.2
-  - 3.6.4.3
-  - 3.6.4.4
-  - 3.6.4.5
-  - 3.6.4.6
-  - 3.6.4.7
-  - 3.6.4.8
-  - 3.6.4.9
-  - 3.6.4.10
-  - 3.6.4.11
-  - 3.6.4.12
-  - 3.6.4.13
-  EggNOG_annotation: peg.2941:ATPase, P-type (transporting), HAD superfamily, subfamily
-    IC;   peg.1646:phosphate abc transporter;   peg.1645:phosphate abc transporter;   peg.2292:ABC
-    transporter;   peg.491:Abc transporter;   peg.2725:ATPase flii;   peg.498:ABC
-    transporter;   peg.2410:Abc transporter;   peg.725:p-type atpase;   peg.2459:ABC
-    transporter, ATP-binding protein;   peg.2019:ATPase, P-type (transporting), HAD
-    superfamily, subfamily IC;   peg.1711:ATP-dependent DNA helicase recg;   peg.1596:The
-    RuvA-RuvB complex in the presence of ATP renatures cruciform structure in supercoiled
-    DNA with palindromic sequence, indicating that it may promote strand exchange
-    reactions in homologous recombination. RuvAB is a helicase that mediates the
-    Holliday junction migration by localized denaturation and reannealing. RuvA stimulates,
-    in the presence of DNA, the weak ATPase activity of RuvB (By similarity);   peg.1922:it
-    plays a direct role in the translocation of protons across the membrane (By similarity);   peg.1772:ATP-dependent
-    DNA helicase pcra;   peg.1920:Component of the F(0) channel, it forms part of
-    the peripheral stalk, linking F(1) to F(0) (By similarity);   peg.1921:ATP synthase,
-    F0 subunit c;   peg.1298:Pyrophosphatase that hydrolyzes non-canonical purine
-    nucleotides such as XTP and ITP dITP to their respective monophosphate derivatives.
-    Might exclude non-canonical purines from DNA precursor pool, thus preventing
-    their incorporation into DNA and avoiding chromosomal lesions (By similarity);   peg.2833:Abc
-    transporter;   peg.2836:ABC transporter related;   peg.1597:The RuvA-RuvB complex
-    in the presence of ATP renatures cruciform structure in supercoiled DNA with
-    palindromic sequence, indicating that it may promote strand exchange reactions
-    in homologous recombination. RuvAB is a helicase that mediates the Holliday junction
-    migration by localized denaturation and reannealing (By similarity);   peg.1345:replicative
-    DNA helicase;   peg.676:Abc transporter;   peg.1976:Part of the ABC transporter
-    complex PstSACB involved in phosphate import. Responsible for energy coupling
-    to the transport system (By similarity);   peg.1919:F(1)F(0) ATP synthase produces
-    ATP from ADP in the presence of a proton or sodium gradient. F-type ATPases consist
-    of two structural domains, F(1) containing the extramembraneous catalytic core
-    and F(0) containing the membrane proton channel, linked together by a central
-    stalk and a peripheral stalk. During catalysis, ATP synthesis in the catalytic
-    domain of F(1) is coupled via a rotary mechanism of the central stalk subunits
-    to proton translocation (By similarity);   peg.1918:Produces ATP from ADP in
-    the presence of a proton gradient across the membrane. The alpha chain is a regulatory
-    subunit (By similarity);   peg.1917:Produces ATP from ADP in the presence of
-    a proton gradient across the membrane. The gamma chain is believed to be important
-    in regulating ATPase activity and the flow of protons through the CF(0) complex
-    (By similarity);   peg.1916:Produces ATP from ADP in the presence of a proton
-    gradient across the membrane. The catalytic sites are hosted primarily by the
-    beta subunits (By similarity);   peg.1915:Produces ATP from ADP in the presence
-    of a proton gradient across the membrane (By similarity)
-  KEGG_annotation: Athe_2363:K01537 Ca2+-transporting ATPase [EC:3.6.3.8] | (GenBank)
-    calcium-translocating P-type ATPase, PMCA-t;   Athe_2268:K10441 ribose transport
-    system ATP-binding protein [EC:3.6.3.17] | (GenBank) ABC transporter related;   Athe_2266:K10441
-    ribose transport system ATP-binding protein [EC:3.6.3.17] | (GenBank) ABC transporter
-    related;   Athe_1894:K02013 iron complex transport system ATP-binding protein
-    [EC:3.6.3.34] | (GenBank) ABC transporter r;   Athe_1430:K02108 F-type H+-transporting
-    ATPase subunit a | (GenBank) ATP synthase F0, A subunit;   Athe_1224:K03655 ATP-dependent
-    DNA helicase RecG [EC:3.6.4.12] | (GenBank) ATP-dependent DNA helicase RecG;   Athe_0882:K02314
-    replicative DNA helicase [EC:3.6.4.12] | (GenBank) replicative DNA helicase;   Athe_1524:K01537
-    Ca2+-transporting ATPase [EC:3.6.3.8] | (GenBank) ATPase, P-type (transporting),
-    HAD superfam;   Athe_0314:K01534 Cd2+/Zn2+-exporting ATPase [EC:3.6.3.3 3.6.3.5]
-    | (GenBank) heavy metal translocating P-type;   Athe_0275:K02013 iron complex
-    transport system ATP-binding protein [EC:3.6.3.34] | (GenBank) ABC transporter
-    r;   Athe_0113:K09697 sodium transport system ATP-binding protein [EC:7.2.2.4]
-    | (GenBank) ABC transporter related;   Athe_1424:K02112 F-type H+/Na+-transporting
-    ATPase subunit beta [EC:7.1.2.2 7.2.2.1] | (GenBank) ATP synthase;   Athe_1115:K03550
-    holliday junction DNA helicase RuvA [EC:3.6.4.12] | (GenBank) Holliday junction
-    DNA helicase;   Athe_1116:K03551 holliday junction DNA helicase RuvB [EC:3.6.4.12]
-    | (GenBank) Holliday junction DNA helicase;   Athe_1429:K02110 F-type H+-transporting
-    ATPase subunit c | (GenBank) ATP synthase F0, C subunit;   Athe_1428:K02109 F-type
-    H+-transporting ATPase subunit b | (GenBank) ATP synthase F0, B subunit;   Athe_1425:K02115
-    F-type H+-transporting ATPase subunit gamma | (GenBank) ATP synthase F1, gamma
-    subunit;   Athe_0838:K02428 XTP/dITP diphosphohydrolase [EC:3.6.1.66] | (GenBank)
-    non-canonical purine NTP pyrophosphatas;   Athe_1427:K02113 F-type H+-transporting
-    ATPase subunit delta | (GenBank) ATP synthase F1, delta subunit;   Athe_1426:K02111
-    F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1] | (GenBank)
-    ATP synthase;   Athe_1423:K02114 F-type H+-transporting ATPase subunit epsilon
-    | (GenBank) ATP synthase F1, epsilon subunit;   Athe_2170:K02412 flagellum-specific
-    ATP synthase [EC:3.6.3.50] | (GenBank) ATPase, FliI/YscN family;   Athe_1483:K02036
-    phosphate transport system ATP-binding protein [EC:7.3.2.1] | (GenBank) phosphate
-    ABC transpo;   Athe_1781:K02056 simple sugar transport system ATP-binding protein
-    [EC:3.6.3.17] | (GenBank) ABC transporter r;   Athe_1940:K02028 polar amino acid
-    transport system ATP-binding protein [EC:7.4.2.1] | (GenBank) ABC transporte;   Athe_0106:K10545
-    D-xylose transport system ATP-binding protein [EC:3.6.3.17] | (GenBank) ABC transporter
-    relat;   Athe_1285:K03657 DNA helicase II / ATP-dependent DNA helicase PcrA [EC:3.6.4.12]
-    | (GenBank) UvrD/REP helicase;   Athe_1162:K02037 phosphate transport system
-    permease protein | (GenBank) phosphate ABC transporter, inner memb;   Athe_1163:K02038
-    phosphate transport system permease protein | (GenBank) phosphate ABC transporter,
-    inner memb
-  PATRIC_annotation: Cation-transporting ATPase, E1-E2 family? or Phosphate ABC transporter,
-    permease protein PstA (TC 3.A.1.7.1) or Phosphate ABC transporter, permease protein
-    PstC (TC 3.A.1.7.1) or ABC transporter, ATP-binding protein (cluster 2, ribose/xylose/arabinose/galactose)
-    / ABC transporter, ATP-binding protein (cluster 2, ribose/xylose/arabinose/galactose)
-    or ABC transporter, ATP-binding protein (cluster 11, riboflavin/purine nucleoside/unknown)
-    / ABC transporter, ATP-binding protein (cluster 11, riboflavin/purine nucleoside/unknown)
-    or Flagellum-specific ATP synthase FliI or ABC-type Na+ transport system not
-    coupled with H+ or K+ uptake, ATPase component NatA or Vitamin B12 ABC transporter,
-    ATP-binding protein BtuD or Cadmium-transporting ATPase (EC 3.6.3.3) or Glutamine
-    ABC transporter, ATP-binding protein GlnQ or Cation-transporting ATPase, E1-E2
-    family or Holliday junction ATP-dependent DNA helicase RuvB (EC 3.6.4.12) or
-    Holliday junction ATP-dependent DNA helicase RuvA (EC 3.6.4.12) or ATP synthase
-    F0 sector subunit a (EC 3.6.3.14) or ATP-dependent DNA helicase UvrD/PcrA (EC
-    3.6.4.12) or ATP synthase F0 sector subunit b (EC 3.6.3.14) or ATP synthase F0
-    sector subunit c (EC 3.6.3.14) or Nucleoside 5-triphosphatase RdgB (dHAPTP, dITP,
-    XTP-specific) (EC 3.6.1.66) or ABC transporter, ATP-binding protein (cluster
-    2, ribose/xylose/arabinose/galactose) / ABC transporter, ATP-binding protein
-    (cluster 2, ribose/xylose/arabinose/galactose) or ABC transporter, ATP-binding
-    protein (cluster 2, ribose/xylose/arabinose/galactose) / ABC transporter, ATP-binding
-    protein (cluster 2, ribose/xylose/arabinose/galactose) or ATP-dependent DNA helicase
-    RecG (EC 3.6.4.12) or Replicative DNA helicase (DnaB) (EC 3.6.4.12) or ABC transporter,
-    ATP-binding protein (cluster 8, B12/iron complex) or Phosphate ABC transporter,
-    ATP-binding protein PstB (TC 3.A.1.7.1) or ATP synthase delta chain (EC 3.6.3.14)
-    or ATP synthase alpha chain (EC 3.6.3.14) or ATP synthase gamma chain (EC 3.6.3.14)
-    or ATP synthase beta chain (EC 3.6.3.14) or ATP synthase epsilon chain (EC 3.6.3.14)
-  genes_Cce: (peg.1922 and peg.1921 and peg.1920 and peg.1919 and peg.1918 and peg.1917
-    and (peg.1916 or peg.2725) and peg.1915) or (peg.1916 or peg.2725) or (peg.1645
-    or peg.1646)
-  genes_Cth: peg.1298 or peg.1918 and (peg.1916 or peg.2725) and peg.1917 and peg.1919
-    and peg.1915 and peg.1922 and - and peg.1921
-  genes_Tsac: peg.1298 or peg.1918
-  genes_kegg: peg.2941,peg.676,peg.2833,peg.2410,peg.1711,peg.1345,peg.2019,peg.725,-,peg.2836,peg.498,-,peg.1596,peg.1597,peg.1916,peg.1918,peg.2725,peg.1976,peg.2292,peg.2459,peg.491,peg.1772,-
-  genes_string_NCBI_id: Athe_2363,Athe_1163,Athe_1162,Athe_0106,Athe_1781,Athe_2170,Athe_0113,Athe_1894,Athe_0314,Athe_1940,Athe_1524,Athe_1116,Athe_1115,Athe_1430,Athe_1285,Athe_1428,Athe_1429,Athe_0838,Athe_2266,Athe_2268,Athe_1224,Athe_0882,Athe_0275,Athe_1483,Athe_1427,Athe_1426,Athe_1425,Athe_1424,Athe_1423
-  genes_string_PATRIC_id: peg.2941,peg.1646,peg.1645,peg.491,peg.2292,peg.2725,peg.498,peg.2410,peg.725,peg.2459,peg.2019,peg.1597,peg.1596,peg.1922,peg.1772,peg.1920,peg.1921,peg.1298,peg.2833,peg.2836,peg.1711,peg.1345,peg.676,peg.1976,peg.1919,peg.1918,peg.1917,peg.1916,peg.1915
-  names:
-  - ATP phosphohydrolase
-  other_pathways:
-  - Purine metabolism
-  pathway: Purine metabolism
-  source: KEGG
-  tag: KEGG_Cbes,Tsac
-  translated_equation: ATP[c] + H2O[c] <=> ADP[c] + Phosphate[c]
 - id: R01561
   name: Adenosine:phosphate alpha-D-ribosyltransferase
   genes: fig|31899.10.peg.2283
@@ -20636,32 +20216,6 @@
   source: KEGG
   tag: Cth,Tsac
   translated_equation: CTP[c] + H2O[c] <=> CDP[c] + Phosphate[c]
-- id: R00511
-  name: cytidine-5'-monophosphate phosphohydrolase
-  equation: C00055[c] + C00001[c] <=> C00475[c] + C00009[c]
-  ec:
-  - 3.1.3.5
-  - 3.1.3.91
-  EggNOG_annotation: peg.808:Catalyzes the conversion of oxaloacetate (OAA) to phosphoenolpyruvate
-    (PEP), the rate-limiting step in the metabolic pathway that produces glucose
-    from lactate and other precursors derived from the citric acid cycle (By similarity)
-  KEGG_annotation: Athe_0393:K01596 phosphoenolpyruvate carboxykinase (GTP) [EC:4.1.1.32]
-    | (GenBank) Phosphoenolpyruvate carboxy
-  PATRIC_annotation: Phosphoenolpyruvate carboxykinase [GTP] (EC 4.1.1.32)
-  genes_Cce: '-'
-  genes_Cth: peg.808
-  genes_Tsac: None
-  genes_kegg: None
-  genes_string_NCBI_id: Athe_0393
-  genes_string_PATRIC_id: peg.808
-  names:
-  - cytidine-5'-monophosphate phosphohydrolase
-  other_pathways:
-  - Pyrimidine metabolism
-  pathway: Pyrimidine metabolism
-  source: KEGG
-  tag: Cth
-  translated_equation: CMP[c] + H2O[c] <=> Cytidine[c] + Phosphate[c]
 - id: R00965
   name: orotidine-5'-phosphate carboxy-lyase (UMP-forming)
   genes: fig|31899.10.peg.1867
@@ -22778,32 +22332,32 @@
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: dTDPglucose[c] => dTDP-4-dehydro-6-deoxy-D-glucose[c] + H2O[c]
-- id: R00508
-  name: 3'-phospho-5'-adenylyl sulfate 3'-phosphohydrolase
-  equation: C00053[c] + C00001[c] <=> C00224[c] + C00009[c]
-  ec:
-  - 3.1.3.7
-  EggNOG_annotation: peg.1534:domain protein
-  KEGG_annotation: Athe_1053:K06881 bifunctional oligoribonuclease and PAP phosphatase
-    NrnA [EC:3.1.3.7 3.1.13.3] | (GenBank) pho
-  PATRIC_annotation: 3'-to-5' oligoribonuclease A, Bacillus type
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.1534
-  genes_string_NCBI_id: Athe_1053
-  genes_string_PATRIC_id: peg.1534
-  names:
-  - 3'-phospho-5'-adenylyl sulfate 3'-phosphohydrolase
-  other_pathways:
-  - Sulfur metabolism
-  - Metabolic pathways
-  - Microbial metabolism in diverse environments
-  pathway: Sulfur metabolism
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: '|3''-Phosphoadenylyl sulfate[c]| + H2O[c] <=> |Adenosine
-    5''-phosphosulfate[c]| + Phosphate[c]'
+# - id: R00508
+#   name: 3'-phospho-5'-adenylyl sulfate 3'-phosphohydrolase
+#   equation: C00053[c] + C00001[c] <=> C00224[c] + C00009[c]
+#   ec:
+#   - 3.1.3.7
+#   EggNOG_annotation: peg.1534:domain protein
+#   KEGG_annotation: Athe_1053:K06881 bifunctional oligoribonuclease and PAP phosphatase
+#     NrnA [EC:3.1.3.7 3.1.13.3] | (GenBank) pho
+#   PATRIC_annotation: 3'-to-5' oligoribonuclease A, Bacillus type
+#   genes_Cce: None
+#   genes_Cth: None
+#   genes_Tsac: None
+#   genes_kegg: peg.1534
+#   genes_string_NCBI_id: Athe_1053
+#   genes_string_PATRIC_id: peg.1534
+#   names:
+#   - 3'-phospho-5'-adenylyl sulfate 3'-phosphohydrolase
+#   other_pathways:
+#   - Sulfur metabolism
+#   - Metabolic pathways
+#   - Microbial metabolism in diverse environments
+#   pathway: Sulfur metabolism
+#   source: KEGG
+#   tag: KEGG_Cbes
+#   translated_equation: '|3''-Phosphoadenylyl sulfate[c]| + H2O[c] <=> |Adenosine
+#     5''-phosphosulfate[c]| + Phosphate[c]'
 - id: R08553
   name: AMP,sulfite:acceptor oxidoreductase (adenosine-5'-phosphosulfate-forming)
   equation: C00020[c] + C00094[c] + C00016[c] <=> C00224[c] + C01352[c]
@@ -25630,7 +25184,7 @@
   genes: fig|31899.10.peg.1804
   genesNCBI: Athe_1316
   curated: true
-  equation: C00002[c] + C00100[c] + C00288[c] <=> C00008[c] + C00009[c] + C00683[c]
+  equation: C00002[c] + C00100[c] + C00288[c] => C00008[c] + C00009[c] + C00683[c]
   ec:
   - 6.4.1.3
   EggNOG_annotation: peg.1804:Acetyl-CoA carboxylase, carboxyltransferase component
@@ -25660,7 +25214,7 @@
   pathway: Valine, leucine and isoleucine degradation
   source: KEGG
   tag: Cce,Tsac
-  translated_equation: ATP[c] + Propanoyl-CoA[c] + Bicarbonate[c] <=> ADP[c] + Phosphate[c]
+  translated_equation: ATP[c] + Propanoyl-CoA[c] + Bicarbonate[c] => ADP[c] + Phosphate[c]
     + (S)-Methylmalonyl-CoA[c]
 - id: R02765
   name: Methylmalonyl-CoA epimerase
@@ -26118,46 +25672,14 @@
 #   source: KEGG
 #   tag: manually-add
 #   note: this function is annotated by Dima, could be found in sugar catabolic network
-
-# - id: R00930
-#   name: (S)-2-Methyl-3-oxopropanoyl-CoA:pyruvate carboxyltransferase
-#   genes: fig|31899.10.peg.1804 and fig|31899.10.peg.1805 and fig|31899.10.peg.1806 
-#     and fig|31899.10.peg.1807
-#   genesNCBI: Athe_1316 and Athe_1317 and Athe_1318 and Athe_1319
-#   curated: true
-#   names:
-#   - (S)-2-Methyl-3-oxopropanoyl-CoA:pyruvate carboxyltransferase
-#   equation: C00683[c] + C00022[c] <=> C00100[c] + C00036[c]
-#   translated_equation: (S)-Methylmalonyl-CoA[c] + |Pyruvate (Pyr)[c]| <=> Propanoyl-CoA[c] + |Oxaloacetate (Oaa)[c]|
-#   ec:
-#   - 2.1.3.1
-#   pathway: Propanoate metabolism
-#   other_pathways:
-#   - Propanoate metabolism
-#   PMID: 2920730,9428714
-#   tag: manually-add
-# - id: R00353
-#   name: malonyl-CoA:pyruvate carboxytransferase
-#   genes: fig|31899.10.peg.1804 and fig|31899.10.peg.1805 and fig|31899.10.peg.1806 
-#     and fig|31899.10.peg.1807
-#   genesNCBI: Athe_1316 and Athe_1317 and Athe_1318 and Athe_1319
-#   curated: true
-#   equation: C00083[c] + C00022[c] <=> C00024[c] + C00036[c]
-#   translated_equation: Malonyl-CoA[c] + |Pyruvate (Pyr)[c]| <=> 
-#     |Acetyl-CoA (AcCoA)[c]| + |Oxaloacetate (Oaa)[c]|
-#   enzymes:
-#   - 2.1.3.1
-#   pathways:
-#   - Propanoate metabolism
-#   pathway: Propanoate metabolism
-#   tag: manually-add
-#   PMID: 2920730,9428714
 - id: R00742
   name: acetyl-CoA:carbon-dioxide ligase (ADP-forming)
   equation: C00002[c] + C00024[c] + C00288[c] + C00080[c] => C00008[c] + C00009[c] 
     + C00083[c]
   ec:
   - 6.4.1.2
+  genes: fig|31899.10.peg.1804
+  genesNCBI: Athe_1316
   EggNOG_annotation: peg.1804:Acetyl-CoA carboxylase, carboxyltransferase component
     (subunits alpha and beta)
   KEGG_annotation: Athe_1316:no KO assigned | (GenBank) carboxyl transferase
@@ -26190,4 +25712,38 @@
   tag: Tsac
   translated_equation: ATP[c] + |Acetyl-CoA (AcCoA)[c]| + Bicarbonate[c] + H+[c] => ADP[c]
     + Phosphate[c] + Malonyl-CoA[c]
+
+# glycerolphospholipid biosynthesis
+- id: PASYN_Cbes
+  name: Phosphatidic acid synthase (C. bescii)
+  # equation: (0.121722875860233) C05761[c] + (0.4829394620169) C05764[c] + (0.187721967641594) C04088[c] + 
+  #   (0.0699511332053939) C01203[c] + (0.0541429675092597) C181o7ACP[c] + (0.280199736963979) fa3ACP[c] 
+  #   + (0.088920932040755) fa6ACP[c] + (1.4021842972471) fa11ACP[c] + (0.0339875562466886) fa12ACP[c] 
+  #   + (0.3062832103626) fa1oh3ACP[c] + (1.51402706954725) C00093[c] => C00416[c] + (3.02805413909451) C00229[c]
+  # equation: (0.121723) C05761[c] + (0.482939) C05764[c] + (0.187722) C04088[c] + (0.069951) C01203[c] + 
+  #   (0.054143) C181o7ACP[c] + (0.2802) fa3ACP[c] + (0.088921) fa6ACP[c] + (1.402184) fa11ACP[c] + 
+  #   (0.033988) fa12ACP[c] + (0.306283) fa1oh3ACP[c] + (1.514027) C00093[c] => C00416[c] + (3.028054) C00229[c]
+  equation: (0.121723) C05761[c] + (0.482939) C05764[c] + (0.187722) C04088[c] + (0.069951) C01203[c] + 
+    (0.054143) C181o7ACP[c] + (0.2802) fa3ACP[c] + (0.088921) fa6ACP[c] + (1.402184) fa11ACP[c] + 
+    (0.033988) fa12ACP[c] + (0.306283) fa1oh3ACP[c] + (1.514027) C00093[c] => C00416[c] + (3.028054) C00229[c]
+  
+  genes: fig|31899.10.peg.1636 and (fig|31899.10.peg.1208 or fig|31899.10.peg.2740) and fig|31899.10.peg.1814
+  genesNCBI: Athe_1153 and (Athe_0752 or Athe_2184) and Athe_1326
+  curated: true
+  pathway: Fatty Acid Synthesis
+  ec: 
+  - 2.3.1.274, 2.3.1.275, 2.3.1.51
+  # translated_equation: (0.121722875860233) Tetradecanoyl-[acp][c] + (0.4829394620169) Hexadecanoyl-[acp][c] + 
+  #   (0.187721967641594) |Octadecanoyl-[acyl-carrier protein][c]| + (0.0699511332053939) |Oleoyl-[acyl-carrier protein][c]| 
+  #   + (0.0541429675092597) |Fatty Acid anteiso-C18:1 omega-7 ACP[c]| + (0.280199736963979) |Fatty Acid iso-C15:0-ACP[c]| 
+  #   + (0.088920932040755) |Fatty Acid iso-C16:0 ACP[c]| + (1.4021842972471) |Fatty Acid iso-C17:0 ACP[c]| + 
+  #   (0.0339875562466886) |Fatty Acid anteiso-C17:0 ACP[c]| + (0.3062832103626) |Fatty Acid iso-C14:0 3-OH ACP[c]| 
+  #   + (1.51402706954725) |sn-Glycerol 3-phosphate[c]| => Phosphatidate[c] + (3.02805413909451) |Acyl-carrier protein[c]|
+  translated_equation: (0.121723) Tetradecanoyl-[acp][c] + (0.482939) Hexadecanoyl-[acp][c] + (0.187722) |Octadecanoyl-[acyl-carrier 
+    protein][c]| + (0.069951) |Oleoyl-[acyl-carrier protein][c]| + (0.054143) |Fatty Acid anteiso-C18:1 omega-7 ACP[c]| + 
+    (0.2802) |Fatty Acid iso-C15:0-ACP[c]| + (0.088921) |Fatty Acid iso-C16:0 ACP[c]| + (1.402184) |Fatty Acid iso-C17:0 ACP[c]| 
+    + (0.033988) |Fatty Acid anteiso-C17:0 ACP[c]| + (0.306283) |Fatty Acid iso-C14:0 3-OH ACP[c]| + (1.514027) |sn-Glycerol 
+    3-phosphate[c]| => Phosphatidate[c] + (3.028054) |Acyl-carrier protein[c]|
+
+
 

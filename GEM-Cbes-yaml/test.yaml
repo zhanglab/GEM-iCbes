@@ -1,8 +1,61 @@
 # test.yaml
-- id: sink_test
+- id: sink_fad
   equation: C00016[c] =>
+- id: sink_lipid
+  equation: C03892[c] =>
 - id: sink_L-1,2-propanediol
   equation: C02917[c] =>
+
+# - id: source_g3p
+#   equation: C00093[c] <=
+
+- id: source_fadh2
+  equation: C01352[c] <=
+- id: source_ctp
+  equation: C00063[c] <=
+- id: sink_cmp
+  equation: C00055[c] =>
+# - id: sink_pro
+#   equation: protein[c] =>
+# - id: source_ctp
+#   equation: C00063[c] <=
+
+# - id: source_mbcoa
+#   equation: C01033[c] <=
+# - id: source_nadph
+#   equation: C00005[c] <=
+# - id: source_h
+#   equation: C00080[c] <=
+# - id: source_accoa
+#   equation: C00024[c] <=
+# - id: source_malacp
+#   equation: C01209[c] <=
+# - id: source_mpcoa
+#   equation: C00630[c] <=
+
+
+# - id: sink_fa
+#   equation: fa1oh3ACP[c] =>
+# - id: sink_coa
+#   equation: C00010[c] =>
+# - id: sink_cmp
+#   equation: C00055[c] =>
+# - id: sink_nadp
+#   equation: C00006[c] =>
+# - id: sink_ACP
+#   equation: C00229[c] <=>
+# - id: sink_h2o
+#   equation: C00001[c] =>
+# - id: sink_co2
+#   equation: C00011[c] =>
+# - id: sink_lipid
+#   equation: lipid[c] =>
+# - id: sink_rna
+#   equation: rna[c] =>
+# - id: sink_dna
+#   equation: dna[c] =>
+
+
 
 # - id: source_atp
 #   equation: C00002[c] <=

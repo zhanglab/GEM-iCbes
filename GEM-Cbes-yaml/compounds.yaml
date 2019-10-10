@@ -4994,6 +4994,7 @@
   tag: AddFromRxn
   comment: Generic compound in reaction hierarchy
   PubChem: '4427'
+  tag: AddFromRxn
 - id: C00712
   name: (9Z)-Octadecenoic acid
   names:
@@ -5026,6 +5027,7 @@
   PubChem: '8059'
   ChEBI: '5697'
   LIPIDMAPS: LMFA07060040
+  tag: AddFromRxn
 - id: C00249
   name: Hexadecanoic acid
   names:
@@ -5057,6 +5059,7 @@
   tag: AddFromRxn
   comment: Generic compound in reaction hierarchy
   PubChem: '6780'
+  tag: AddFromRxn
 - id: C01530
   name: Octadecanoic acid
   names:
@@ -5133,6 +5136,7 @@
   comment: Generic compound in reaction hierarchy
   PubChem: '8056'
   ChEBI: '50651'
+  tag: AddFromRxn
 - id: C06424
   name: Tetradecanoic acid
   names:
@@ -5203,19 +5207,31 @@
 - id: fa3ACP
   name: Fatty Acid iso-C15:0-ACP
   formula: C15H29OSR
+  charge: 0
 - id: fa6ACP
   name: Fatty Acid iso-C16:0 ACP
   formula: C16H31OSR
+  charge: 0
 - id: fa11ACP
   name: Fatty Acid iso-C17:0 ACP
   formula: C17H33OSR
+  charge: 0
 - id: fa12ACP
   name: Fatty Acid anteiso-C17:0 ACP
   formula: C17H33OSR
+  charge: 0
 - id: C181o7ACP
   name: Fatty Acid anteiso-C18:1 omega-7 ACP
   formula: C18H33OSR
-
+  charge: 0
+- id: fa1oh3ACP
+  name: Fatty Acid iso-C14:0 3-OH ACP
+  names: 
+  - Fatty Acid iso-C14:0 3-OH ACP
+  - 3-Hydroxy-12-methyltridecanoic acidS
+  formula: C14H27O2SR
+  charge: 0
+  note: formula of fa1 is C14H28O3
 
 
 
