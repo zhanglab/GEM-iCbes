@@ -315,3 +315,37 @@
   - Metabolic pathways
   orthology:
   - K06131
+- id: R02164
+  name: succinate:quinone oxidoreductase
+  genes: peg.2634
+  genesNCBI: Athe_2084
+  equation: C00016[c] + C00042[c] <=> C01352[c] + C00122[c]
+  ec:
+  - 1.3.5.1
+  - 1.3.5.4
+  EggNOG_annotation: peg.2634:fumarate reductase succinate dehydrogenase flavoprotein
+    domain-containing protein
+  KEGG_annotation: Athe_2084:K00239 succinate dehydrogenase / fumarate reductase,
+    flavoprotein subunit [EC:1.3.5.1 1.3.5.4] | (Ge
+  PATRIC_annotation: L-aspartate oxidase-like protein
+  comment: electron transport complex II
+  genes_Cce: None
+  genes_Cth: None
+  genes_NCBI_id: Athe_2084
+  genes_Tsac: None
+  genes_kegg: peg.2634
+  names:
+  - succinate:quinone oxidoreductase
+  other_pathways:
+  - Citrate cycle (TCA cycle)
+  - Pyruvate metabolism
+  - Butanoate metabolism
+  - Carbon fixation pathways in prokaryotes
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Microbial metabolism in diverse environments
+  - Biosynthesis of antibiotics
+  - Carbon metabolism
+  pathway: Citrate cycle (TCA cycle)
+  source: KEGG_Cbes
+  translated_equation: Quinone[c] + Succinate[c] <=> Hydroquinone[c] + Fumarate[c]

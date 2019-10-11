@@ -1,8 +1,6 @@
 # test.yaml
-- id: sink_fad
-  equation: C00016[c] =>
-- id: sink_lipid
-  equation: C03892[c] =>
+# - id: sink_fad
+#   equation: C00016[c] =>
 - id: sink_L-1,2-propanediol
   equation: C02917[c] =>
 
