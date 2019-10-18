@@ -7,8 +7,10 @@
 # - id: source_g3p
 #   equation: C00093[c] <=
 
-- id: source_fadh2
-  equation: C01352[c] <=
+# - id: source_fadh2
+#   equation: C01352[c] <=
+- id: sink_quetrna
+  equation: quetrna[c] =>
 - id: source_ctp
   equation: C00063[c] <=
 - id: sink_cmp

@@ -19,6 +19,7 @@ compounds:
 reactions:
 # The entire rxn database, which I'm working on (do curation)
 - include: reactions_new_model_reorder.yaml   
+# - include: /Users/kzhang/Projects/Caldi/daily-work/kegg-draft-cbes-model/yaml-reaction-databases/kegg-reaction-database-filtered/reactions-kegg-nogen.yaml
 
 # # used for growth simulation, it is subset of "reactions_new_model_reorder.yaml", containing curated reactions
 # - include: curated_rxns.yaml

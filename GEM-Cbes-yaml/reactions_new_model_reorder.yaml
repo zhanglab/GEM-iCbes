@@ -4626,7 +4626,7 @@
 - id: BF-Nfn
   name: NADH-dependent reduced ferredoxin:NADP+ oxidoreductase
   genes: fig|31899.10.peg.1085 and fig|31899.10.peg.1086
-  equation: C00004[c] + (2) C00138[c] + (2) C00006[c] + C00080[c] => C00003[c] +
+  equation: C00004[c] + (2) C00138[c] + (2) C00006[c] + C00080[c] <=> C00003[c] +
     (2) C00139[c] + (2) C00005[c]
   ec:
   - 1.6.1.4
@@ -4642,10 +4642,10 @@
   tag: None
   translated_equation: '|Nicotinamide adenine dinucleotide - reduced (NADH)[c]| +
     (2) |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]| + (2) |Nicotinamide adenine dinucleotide
-    phosphate (NADP)[c]| + |Proton (H+)[c]| => |Nicotinamide adenine dinucleotide
+    phosphate (NADP)[c]| + |Proton (H+)[c]| <=> |Nicotinamide adenine dinucleotide
     (NAD+)[c]| + (2) |Oxidized ferredoxin (2[4Fe-4S]) (Fdox)[c]| + (2) |Nicotinamide
     adenine dinucleotide phosphate - reduced (NADPH)[c]|'
-  PMID: 28705933,22800682
+  PMID: 28705933,22800682,26139605
   note: Athe_0644 is 99.78% identity to peg.1085 (coverage 97%)
 - id: CODHr
   name: carbon monoxide dehydrogenase / acetyl-CoA synthase
@@ -13630,7 +13630,7 @@
 - id: R10209
   name: tRNA-guanosine34:7-aminomethyl-7-carbaguanine tRNA-D-ribosyltransferase
   genes: fig|31899.10.peg.797
-  equation: C01977[c] + C16675[c] => C20446[c] + C00242[c]
+  equation: C01977[c] + C16675[c] <=> C20446[c] + C00242[c]
   ec:
   - 2.4.2.29
   EggNOG_annotation: peg.797:Exchanges the guanine residue with 7-aminomethyl-7-
@@ -13655,8 +13655,9 @@
   pathway: Sugar utilization
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: '|tRNA guanine[c]| + 7-Aminomethyl-7-deazaguanine[c] => |tRNA
+  translated_equation: '|tRNA guanine[c]| + 7-Aminomethyl-7-deazaguanine[c] <=> |tRNA
     preQ1[c]| + Guanine[c]'
+  PMID: 11592812
 - id: CysDS
   name: L-cysteine:sulfur-acceptor sulfurtransferase
   # equation: C00097[c] + C02743[c] <=> C00041[c] + C21440[c]

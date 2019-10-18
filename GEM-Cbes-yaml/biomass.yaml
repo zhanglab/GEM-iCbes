@@ -37,13 +37,16 @@
     (0.2802) |Fatty Acid iso-C15:0-ACP[c]| + (0.088921) |Fatty Acid iso-C16:0 ACP[c]| + (1.402184) |Fatty Acid iso-C17:0 ACP[c]| 
     + (0.033988) |Fatty Acid anteiso-C17:0 ACP[c]| + (0.306283) |Fatty Acid iso-C14:0 3-OH ACP[c]| + (1.514027) |sn-Glycerol 
     3-phosphate[c]| => lipid[c] + (3.028054) |Acyl-carrier protein[c]|
-
   pathway: Biomass
+- id: carb_met
+  name: carbohydarte
+  equation: (1.5002) C00182[c] => carbohydrate[c]
 - id: trace_met
-  name: trace element
-  equation: C00016[c] => trace[c]
-- id: sink_trace
-  equation: trace[c] =>
+  name: trace element (based on Clostridium cellulolyticum iFS431 model <Salimi et al., 2010> and Tsac model)
+  equation: (0.2242) C00003[c] + (0.0125) C00006[c] + (0.0028) C00005[c] + (0.065) C00020[c] + (1.4076) C00305[c] + 
+    (9.7755) C00238[c] + (0.0443) C00076[c] + (0.0471) C14819[c] + (0.1361) C00010[c] + (0.1244) C00016[c] 
+    + (0.214) C00061[c] + (0.2195) C00101[c] => trace[c]
+
 # - id: Biomass_Cbesii
 #   name: total Biomass (based on E coli)
 #   # equation: (0.031) dna[c] + (0.205) rna[c] + (0.55) protein[c] + (0.091) lipid + (0.034) C00338[c] + (0.025) C00889[c] + 
@@ -52,19 +55,22 @@
 #   pathway: Biomass 
 
 - id: Biomass_Cbesii
-  name: totla Biomass 
+  name: biomass 1gDW
   # (data comes from Mike's group, July 22, 2019)
   # equation: (0.016) dna[c] + (0.007) rna[c] + (0.516) protein[c] + (0.336) lipid + (0.125) carbohydrates => Biomass[c]
   # equation: (0.016) dna[c] + (0.007) rna[c] + (0.516) protein[c] + C00186[c] + C00022[c] => (0.539) Biomass[c]
   # equation: (0.016) dna[c] + (0.007) rna[c] + (0.516) protein[c] => Biomass[c]
 
   # late log phase, receibved in Seq 12, 2019
-  # equation: (0.014) dna[c] + (0.127) rna[c] + (0.457) protein[c] + (0.295) lipid[c] + (0.11) carbohydrates[c] => Biomass[c]
-  equation: (0.014) dna[c] + (0.127) rna[c] + (0.457) protein[c] + (0.295) lipid[c] => Biomass[c] 
+  # equation (without normalization): (0.077) dna[c] + (0.009) rna[c] + (0.274) protein[c] + (0.178) lipid[c] + (0.066) carbohydrate[c] => (0.605) Biomass[c]
+  # equation (with normalization): (0.014) dna[c] + (0.127) rna[c] + (0.454) protein[c] + (0.295) lipid[c] + (0.11) carbohydrate[c] => Biomass[c]
+  equation: (0.014) dna[c] + (0.127) rna[c] + (0.454) protein[c] + (0.295) lipid[c] + (0.11) carbohydrate[c] => Biomass[c] 
   pathway: Biomass 
+  note: percentage of trace is based on Clostridium cellulolyticum iFS431 model.
 
   # # mid log phase, receibved in Seq 12, 2019
-  # equation: (0.013) dna[c] + (0.175) rna[c] + (0.591) protein[c] + (0.109) lipid + (0.113) carbohydrates => Biomass[c]  `
+  # equation (without normalization): (0.008) dna[c] + (0.104) rna[c] + (0.353) protein[c] + (0.065) lipid + (0.065) carbohydrates => (0.591) Biomass[c]
+  # equation (with normalization): (0.013) dna[c] + (0.175) rna[c] + (0.591) protein[c] + (0.109) lipid + (0.113) carbohydrates => Biomass[c]
   # pathway: Biomass 
 
 - id: sink_biomass
