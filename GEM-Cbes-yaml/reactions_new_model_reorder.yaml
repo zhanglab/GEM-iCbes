@@ -14548,13 +14548,13 @@
   tag: KEGG_Cbes
   translated_equation: ROOH[c] + (2) |Thiol-containing reductant[c]| <=> Alcohol[c]
     + H2O[c] + |Oxidized thiol-containing reductant[c]|
-- id: R00848
-  name: sn-Glycerol-3-phosphate:(acceptor) 2-oxidoreductase
+- id: GPDH-ETF
+  name: glycerol-3-phosphate dehydrogenase ETF
   genes: fig|31899.10.peg.1400
   genesNCBI: Athe_0930
-  equation: C00111[c] + C01352[c] <=> C00093[c] + C00016[c]
+  equation: C00111[c] + C00004[c] + C00139[c] <=> C00093[c] + C00003[c] + C00138[c]
   ec:
-  - 1.1.5.3
+  - Unknown
   EggNOG_annotation: peg.1400:fad dependent oxidoreductase
   KEGG_annotation: Athe_0930:K00111 glycerol-3-phosphate dehydrogenase [EC:1.1.5.3]
     | (GenBank) FAD dependent oxidoreductase
@@ -14574,9 +14574,10 @@
   pathway: Glycerophospholipid metabolism
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: '|Dihydroxyacetone phosphate (DHAP)[c]| + |Flavin adenine
-    dinucleotide reduced (FADH2)[c]| <=> |sn-Glycerol 3-phosphate[c]| + |Flavin adenine dinucleotide
-    oxidized (FAD)[c]|'
+  translated_equation: '||Dihydroxyacetone phosphate (DHAP)[c]| + |Nicotinamide adenine dinucleotide - 
+    reduced (NADH)[c]| + |Oxidized ferredoxin (2[4Fe-4S]) (Fdox)[c]| <=> |sn-Glycerol 3-phosphate[c]| 
+    + |Nicotinamide adenine dinucleotide (NAD+)[c]| + |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]|'
+  note: the equation comes from Mike's suggestion.
 - id: R03080
   name: (R)-Propane-1,2-diol:NAD+ oxidoreductase
   equation: C02912[c] + C00003[c] <=> C00937[c] + C00004[c] + C00080[c]
