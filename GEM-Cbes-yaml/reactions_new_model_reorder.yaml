@@ -16541,6 +16541,33 @@
   translated_equation: 2-Dehydro-3-deoxy-D-gluconate[c] + |Nicotinamide adenine dinucleotide
     (NAD)[c]| <=> (4S)-4,6-Dihydroxy-2,5-dioxohexanoate[c] + |Nicotinamide adenine
     dinucleotide - reduced (NADH)[c]| + |Proton (H+)[c]|
+- id: R00878
+  name: alpha-D-Glucose aldose-ketose-isomerase
+  genes: fig|31899.10.peg.1037
+  equation: C00267[c] <=> C00095[c]
+  ec:
+  - 5.3.1.5
+  EggNOG_annotation: peg.1037:xylose isomerase
+  KEGG_annotation: Athe_0603:K01805 xylose isomerase [EC:5.3.1.5] | (GenBank) xylose
+    isomerase
+  PATRIC_annotation: Xylose isomerase (EC 5.3.1.5)
+  curated: true
+  genesNCBI: Athe_0603
+  genes_Cce: peg.1037
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.1037
+  genes_string_NCBI_id: Athe_0603
+  genes_string_PATRIC_id: peg.1037
+  names:
+  - alpha-D-Glucose aldose-ketose-isomerase
+  other_pathways:
+  - Fructose and mannose metabolism
+  - Metabolic pathways
+  pathway: Fructose and mannose metabolism
+  source: KEGG
+  tag: KEGG_Cbes,Cce
+  translated_equation: alpha-D-Glucose[c] <=> D-Fructose[c]
 - id: R01432
   name: D-xylose aldose-ketose-isomerase
   genes: fig|31899.10.peg.1037

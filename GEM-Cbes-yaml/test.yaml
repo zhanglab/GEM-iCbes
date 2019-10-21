@@ -1,20 +1,22 @@
 # test.yaml
-# - id: sink_fad
-#   equation: C00016[c] =>
+# - id: sink_test
+#   equation: carbohydrate[c] =>
+- id: sink_fad
+  equation: C00016[c] =>
 - id: sink_L-1,2-propanediol
   equation: C02917[c] =>
 
-# - id: source_g3p
-#   equation: C00093[c] <=
+- id: source_g3p
+  equation: C00093[c] <=
 
 # - id: source_fadh2
 #   equation: C01352[c] <=
-- id: sink_quetrna
-  equation: quetrna[c] =>
-- id: source_ctp
-  equation: C00063[c] <=
-- id: sink_cmp
-  equation: C00055[c] =>
+# - id: sink_quetrna
+#   equation: quetrna[c] =>
+# - id: source_ctp
+#   equation: C00063[c] <=
+# - id: sink_cmp
+#   equation: C00055[c] =>
 # - id: sink_pro
 #   equation: protein[c] =>
 # - id: source_ctp

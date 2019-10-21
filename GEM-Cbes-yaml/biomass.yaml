@@ -40,7 +40,8 @@
   pathway: Biomass
 - id: carb_met
   name: carbohydarte
-  equation: (1.5002) C00182[c] => carbohydrate[c]
+  # equation: (1.5002) C00182[c] => carbohydrate[c] (use glycogen)
+  equation: (5.5507) C00031[c] => carbohydrate[c]
 - id: trace_met
   name: trace element (based on Clostridium cellulolyticum iFS431 model <Salimi et al., 2010> and Tsac model)
   equation: (0.2242) C00003[c] + (0.0125) C00006[c] + (0.0028) C00005[c] + (0.065) C00020[c] + (1.4076) C00305[c] + 
