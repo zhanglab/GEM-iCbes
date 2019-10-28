@@ -8,6 +8,10 @@
 
 - id: source_g3p
   equation: C00093[c] <=
+- id: sink_gln
+  equation: C00064[c] =>
+- id: sink_akg
+  equation: C00026[c] =>
 
 # - id: source_fadh2
 #   equation: C01352[c] <=
@@ -24,8 +28,8 @@
 
 # - id: source_mbcoa
 #   equation: C01033[c] <=
-# - id: source_nadph
-#   equation: C00005[c] <=
+- id: sink_nadph
+  equation: C00005[c] =>
 # - id: source_h
 #   equation: C00080[c] <=
 # - id: source_accoa
@@ -42,8 +46,8 @@
 #   equation: C00010[c] =>
 # - id: sink_cmp
 #   equation: C00055[c] =>
-# - id: sink_nadp
-#   equation: C00006[c] =>
+- id: source_nadp
+  equation: C00006[c] <=
 # - id: sink_ACP
 #   equation: C00229[c] <=>
 # - id: sink_h2o
@@ -197,8 +201,8 @@
 #   equation: C00117[c] =>
 # - id: sink_asp
 #   equation: C00049[c] =>
-# - id: sink_glu
-#   equation: C00025[c] =>
+- id: source_glu
+  equation: C00025[c] <=
 # - id: sink_ala
 #   equation: C00041[c] =>
 # - id: sink_arg

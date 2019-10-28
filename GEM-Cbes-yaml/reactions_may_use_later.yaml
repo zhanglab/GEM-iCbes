@@ -7287,3 +7287,89 @@
   source: KEGG
   tag: Cth
   translated_equation: CMP[c] + H2O[c] <=> Cytidine[c] + Phosphate[c]
+- id: R06861
+  name: D-xylulose-5-phosphate:thiamin diphosphate glycolaldehydetransferase
+  equation: C00231[c] + C00068[c] <=> C13378[c] + C00118[c]
+  ec:
+  - 2.2.1.1
+  - 2.2.1.3
+  EggNOG_annotation: peg.2606:Transketolase;   peg.2903:Transketolase;   peg.2605:Transketolase
+  KEGG_annotation: Athe_2059:K00615 transketolase [EC:2.2.1.1] | (GenBank) Transketolase
+    central region;   Athe_2060:K00615 transketolase [EC:2.2.1.1] | (GenBank) Transketolase
+    domain protein;   Athe_2328:K00615 transketolase [EC:2.2.1.1] | (GenBank) Transketolase
+    domain protein
+  PATRIC_annotation: Transketolase, N-terminal section (EC 2.2.1.1) or Transketolase
+    (EC 2.2.1.1) or Transketolase, C-terminal section (EC 2.2.1.1)
+  comment: 'TPP-dependent enzyme (see R01440), subsequently R06862
+
+    TPP-dependent enzyme (see R01641), following after R06863'
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2605,peg.2606,peg.2903
+  genes_string_NCBI_id: Athe_2060,Athe_2328,Athe_2059
+  genes_string_PATRIC_id: peg.2606,peg.2903,peg.2605
+  names:
+  - D-xylulose-5-phosphate:thiamin diphosphate glycolaldehydetransferase
+  - alpha,beta-dihydroxyethyl-TPP:D-glyceraldehyde-3-phosphate glycolaldehydetransferase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|D-Xylulose 5-phosphate[c]| + |Thiamine diphosphate[c]| <=>
+    alpha,beta-Dihydroxyethyl-TPP[c] + |Glyceraldehyde 3-phosphate (GAP)[c]|'
+- id: R06590
+  name: sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycolaldehydetransferase
+  equation: C12214[c] + C00117[c] <=> C12215[c] + C05382[c]
+  ec:
+  - 2.2.1.1
+  EggNOG_annotation: peg.2606:Transketolase;   peg.2903:Transketolase;   peg.2605:Transketolase
+  KEGG_annotation: Athe_2059:K00615 transketolase [EC:2.2.1.1] | (GenBank) Transketolase
+    central region;   Athe_2060:K00615 transketolase [EC:2.2.1.1] | (GenBank) Transketolase
+    domain protein;   Athe_2328:K00615 transketolase [EC:2.2.1.1] | (GenBank) Transketolase
+    domain protein
+  PATRIC_annotation: Transketolase, N-terminal section (EC 2.2.1.1) or Transketolase
+    (EC 2.2.1.1) or Transketolase, C-terminal section (EC 2.2.1.1)
+  comment: transketorase
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2605,peg.2606,peg.2903
+  genes_string_NCBI_id: Athe_2060,Athe_2328,Athe_2059
+  genes_string_PATRIC_id: peg.2606,peg.2903,peg.2605
+  names:
+  - sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycolaldehydetransferase
+  - sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycolaldehydetransferase
+  other_pathways:
+  - Biosynthesis of ansamycins
+  - Biosynthesis of antibiotics
+  pathway: Biosynthesis of ansamycins
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|Aminofructose 6-phosphate[c]| + |alpha-D-Ribose 5-phosphate
+    (R5P)[c]| <=> |Iminoerythrose 4-phosphate[c]| + |Sedoheptulose 7-phosphate[c]|'
+- id: R06863
+  name: D-sedoheptulose-7-phosphate:thiamin diphosphate glycolaldehydetransferase
+  equation: C05382[c] + C00068[c] <=> C13378[c] + C00117[c]
+  ec:
+  - 2.2.1.1
+  EggNOG_annotation: peg.2606:Transketolase;   peg.2903:Transketolase;   peg.2605:Transketolase
+  KEGG_annotation: Athe_2059:K00615 transketolase [EC:2.2.1.1] | (GenBank) Transketolase
+    central region;   Athe_2060:K00615 transketolase [EC:2.2.1.1] | (GenBank) Transketolase
+    domain protein;   Athe_2328:K00615 transketolase [EC:2.2.1.1] | (GenBank) Transketolase
+    domain protein
+  PATRIC_annotation: Transketolase, N-terminal section (EC 2.2.1.1) or Transketolase
+    (EC 2.2.1.1) or Transketolase, C-terminal section (EC 2.2.1.1)
+  comment: TPP-dependent enzyme (see R01641), subsequently R06861
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2605,peg.2606,peg.2903
+  genes_string_NCBI_id: Athe_2060,Athe_2328,Athe_2059
+  genes_string_PATRIC_id: peg.2606,peg.2903,peg.2605
+  names:
+  - D-sedoheptulose-7-phosphate:thiamin diphosphate glycolaldehydetransferase
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|Sedoheptulose 7-phosphate[c]| + |Thiamine diphosphate[c]|
+    <=> alpha,beta-Dihydroxyethyl-TPP[c] + |alpha-D-Ribose 5-phosphate (R5P)[c]|'

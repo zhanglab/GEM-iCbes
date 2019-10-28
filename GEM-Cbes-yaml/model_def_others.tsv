@@ -59,6 +59,7 @@ rna_met
 pro_met
 lipid_met
 carb_met
+trace_met
 Biomass_Cbesii
 sink_biomass
 hco3
@@ -80,3 +81,4 @@ R03896
 R00330
 NMPK
 sink_L-1,2-propanediol
+sink_fad

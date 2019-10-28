@@ -1,7 +1,13 @@
 # constrain rxn flux
-- reaction: sink_test
-  lower: -25
-  upper: 1000
+# - reaction: sink_test
+#   lower: -25
+#   upper: 1000
+# - reaction: BF-Nfn
+#   lower: -1000
+#   upper: 0
+- reaction: R01775
+  lower: -1000
+  upper: 0
 
 
 

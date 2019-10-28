@@ -194,9 +194,9 @@
 - id: pit
   name: inorganic phosphate uptake porter (Low affinity)
   genes: peg.1978
-  equation: C00009[e] + C00080[e] => C00009[c] + C00080[c]
-  ec: TC=2.A.20.1.7
-  note: probably low affinity; H+ or Na+ not sure
+  equation: C00009[e] + C01330[e] => C00009[c] + C01330[c]
+  ec: TC=2.A.20.1
+  note: probably low affinity; H+ or Na+ not sure, here I use Na+ based on template model Cce(Pit8)
   pathway: Transport
   tag: transportDB
 - id: hco3ABC
@@ -216,7 +216,7 @@
   pathway: Transport
   tag: transportDB
 - id: ATPSYN
-  name: Na+ dependent F0F1 ATP synthase
+  name: H+ dependent F0F1 ATP synthase
   genes: peg.1915 and peg.1916 and peg.1917 and peg.1918 and peg.1919 peg.1920 and
     peg.1921 and peg.1922
   # equation: (4) C01330[c] + C00002[c] + C00001[c] <=> (4) C01330[e] + C00008[c] +

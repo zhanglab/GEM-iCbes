@@ -2348,36 +2348,6 @@
   translated_equation: L-Histidinol[c] + (2) |Nicotinamide adenine dinucleotide (NAD)[c]|
     + H2O[c] => |L-Histidine (His-L)[c]| + (2) |Nicotinamide adenine dinucleotide
     - reduced (NADH)[c]| + (2) |Proton (H+)[c]|
-- id: R06590
-  name: sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycolaldehydetransferase
-  equation: C12214[c] + C00117[c] <=> C12215[c] + C05382[c]
-  ec:
-  - 2.2.1.1
-  EggNOG_annotation: peg.2606:Transketolase;   peg.2903:Transketolase;   peg.2605:Transketolase
-  KEGG_annotation: Athe_2059:K00615 transketolase [EC:2.2.1.1] | (GenBank) Transketolase
-    central region;   Athe_2060:K00615 transketolase [EC:2.2.1.1] | (GenBank) Transketolase
-    domain protein;   Athe_2328:K00615 transketolase [EC:2.2.1.1] | (GenBank) Transketolase
-    domain protein
-  PATRIC_annotation: Transketolase, N-terminal section (EC 2.2.1.1) or Transketolase
-    (EC 2.2.1.1) or Transketolase, C-terminal section (EC 2.2.1.1)
-  comment: transketorase
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.2605,peg.2606,peg.2903
-  genes_string_NCBI_id: Athe_2060,Athe_2328,Athe_2059
-  genes_string_PATRIC_id: peg.2606,peg.2903,peg.2605
-  names:
-  - sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycolaldehydetransferase
-  - sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycolaldehydetransferase
-  other_pathways:
-  - Biosynthesis of ansamycins
-  - Biosynthesis of antibiotics
-  pathway: Biosynthesis of ansamycins
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: '|Aminofructose 6-phosphate[c]| + |alpha-D-Ribose 5-phosphate
-    (R5P)[c]| <=> |Iminoerythrose 4-phosphate[c]| + |Sedoheptulose 7-phosphate[c]|'
 - id: R07759
   equation: C16216[c] + C00005[c] + C00080[c] <=> C16217[c] + C00006[c]
   ec:
@@ -4582,7 +4552,7 @@
     dinucleotide (NAD)[c]| + H2O[c] <=> |6-Thioxanthine 5'-monophosphate[c]| + |Nicotinamide
     adenine dinucleotide - reduced (NADH)[c]| + |Proton (H+)[c]|
 - id: BF-H2ase
-  name: Bifurcating hydrogenase
+  name: Bifurcating hydrogenase ([Fe-Fe])
   genes: fig|31899.10.peg.1783 and fig|31899.10.peg.1784 and fig|31899.10.peg.1785
     and fig|31899.10.peg.1786 and fig|31899.10.peg.1787
   equation: (3) C00080[c] + C00004[c] + (2) C00138[c] => (2) C00282[c] + C00003[c]
@@ -4602,17 +4572,21 @@
     - reduced (NADH)[c]| + (2) |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]| => (2)
     Hydrogen[c] + |Nicotinamide adenine dinucleotide (NAD)[c]| + (2) |Oxidized ferredoxin
     (2[4Fe-4S]) (Fdox)[c]|
-  PMID: 26536872,22800682
+  PMID: 23731756,26536872,22800682
 - id: MBH
-  name: H2-evolving membrane-bound hydrogenase
+  name: H2-evolving membrane-bound hydrogenase ([Ni-Fe])
   genes: fig|31899.10.peg.1563 and fig|31899.10.peg.1564 and fig|31899.10.peg.1565
     and fig|31899.10.peg.1566 and fig|31899.10.peg.1567 and fig|31899.10.peg.1568
+  # genes: fig|31899.10.peg.1569 and fig|31899.10.peg.1570 and fig|31899.10.peg.1571
+  #   and fig|31899.10.peg.1572 and fig|31899.10.peg.1573 and fig|31899.10.peg.1574
   equation: (2) C00138[c] + (3) C00080[c] => C00282[c] + (2) C00139[c] + C00080[e]
   ec:
   - 1.12.7.2
   curated: true
   genesNCBI: Athe_1082 and Athe_1083 and Athe_1084 and Athe_1085 and Athe_1086 and
     Athe_1087
+  # genesNCBI: Athe_1088 and Athe_1089 and Athe_1090 and Athe_1091 and Athe_1092 and
+  #   Athe_1093
   genes_kegg: None
   # kegg: R00019
   note: reaction and enzyme based on tsac psammotate
@@ -4622,7 +4596,7 @@
   translated_equation: '(2) |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]| + (3) |Proton
     (H+)[c]| => Hydrogen[c] + (2) |Oxidized ferredoxin (2[4Fe-4S]) (Fdox)[c]| + |Proton
     (H+)[e]|'
-  PMID: 22800682
+  PMID: 26536872,22800682
 - id: BF-Nfn
   name: NADH-dependent reduced ferredoxin:NADP+ oxidoreductase
   genes: fig|31899.10.peg.1085 and fig|31899.10.peg.1086
@@ -12292,32 +12266,6 @@
   tag: KEGG_Cbes
   translated_equation: (4S)-4-Hydroxy-2-oxoglutarate[c] <=> |Pyruvate (Pyr)[c]| +
     Glyoxylate[c]
-- id: R06863
-  name: D-sedoheptulose-7-phosphate:thiamin diphosphate glycolaldehydetransferase
-  equation: C05382[c] + C00068[c] <=> C13378[c] + C00117[c]
-  ec:
-  - 2.2.1.1
-  EggNOG_annotation: peg.2606:Transketolase;   peg.2903:Transketolase;   peg.2605:Transketolase
-  KEGG_annotation: Athe_2059:K00615 transketolase [EC:2.2.1.1] | (GenBank) Transketolase
-    central region;   Athe_2060:K00615 transketolase [EC:2.2.1.1] | (GenBank) Transketolase
-    domain protein;   Athe_2328:K00615 transketolase [EC:2.2.1.1] | (GenBank) Transketolase
-    domain protein
-  PATRIC_annotation: Transketolase, N-terminal section (EC 2.2.1.1) or Transketolase
-    (EC 2.2.1.1) or Transketolase, C-terminal section (EC 2.2.1.1)
-  comment: TPP-dependent enzyme (see R01641), subsequently R06861
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.2605,peg.2606,peg.2903
-  genes_string_NCBI_id: Athe_2060,Athe_2328,Athe_2059
-  genes_string_PATRIC_id: peg.2606,peg.2903,peg.2605
-  names:
-  - D-sedoheptulose-7-phosphate:thiamin diphosphate glycolaldehydetransferase
-  pathway: None
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: '|Sedoheptulose 7-phosphate[c]| + |Thiamine diphosphate[c]|
-    <=> alpha,beta-Dihydroxyethyl-TPP[c] + |alpha-D-Ribose 5-phosphate (R5P)[c]|'
 - id: R10806
   name: S-adenosyl-L-methionine:[protein]-L-glutamine (N5-glutamine)-methyltransferase
   equation: C02583[c] + C00019[c] <=> C20858[c] + C00021[c]
@@ -12652,36 +12600,6 @@
   tag: KEGG_Cbes
   translated_equation: 2-Oxobutanoate[c] + |2-(alpha-Hydroxyethyl)thiamine diphosphate[c]|
     <=> (S)-2-Aceto-2-hydroxybutanoate[c] + |Thiamine diphosphate[c]|
-- id: R06861
-  name: D-xylulose-5-phosphate:thiamin diphosphate glycolaldehydetransferase
-  equation: C00231[c] + C00068[c] <=> C13378[c] + C00118[c]
-  ec:
-  - 2.2.1.1
-  - 2.2.1.3
-  EggNOG_annotation: peg.2606:Transketolase;   peg.2903:Transketolase;   peg.2605:Transketolase
-  KEGG_annotation: Athe_2059:K00615 transketolase [EC:2.2.1.1] | (GenBank) Transketolase
-    central region;   Athe_2060:K00615 transketolase [EC:2.2.1.1] | (GenBank) Transketolase
-    domain protein;   Athe_2328:K00615 transketolase [EC:2.2.1.1] | (GenBank) Transketolase
-    domain protein
-  PATRIC_annotation: Transketolase, N-terminal section (EC 2.2.1.1) or Transketolase
-    (EC 2.2.1.1) or Transketolase, C-terminal section (EC 2.2.1.1)
-  comment: 'TPP-dependent enzyme (see R01440), subsequently R06862
-
-    TPP-dependent enzyme (see R01641), following after R06863'
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.2605,peg.2606,peg.2903
-  genes_string_NCBI_id: Athe_2060,Athe_2328,Athe_2059
-  genes_string_PATRIC_id: peg.2606,peg.2903,peg.2605
-  names:
-  - D-xylulose-5-phosphate:thiamin diphosphate glycolaldehydetransferase
-  - alpha,beta-dihydroxyethyl-TPP:D-glyceraldehyde-3-phosphate glycolaldehydetransferase
-  pathway: None
-  source: KEGG
-  tag: KEGG_Cbes
-  translated_equation: '|D-Xylulose 5-phosphate[c]| + |Thiamine diphosphate[c]| <=>
-    alpha,beta-Dihydroxyethyl-TPP[c] + |Glyceraldehyde 3-phosphate (GAP)[c]|'
 - id: R00382
   name: (deoxyribonucleotide)n:5'-phospho-(deoxyribonucleotide)m ligase (AMP-forming,
     NMN-forming)
