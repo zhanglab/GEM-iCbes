@@ -1,6 +1,15 @@
 # test.yaml
-# - id: sink_test
-#   equation: carbohydrate[c] =>
+
+# test vitamins and cofactors biosynthesis
+- id: sink_riboflavin
+  equation: C00255[c] =>
+- id: sink_hetp
+  # equation: C20246[c] =>
+  equation: C15809[c] =>
+- id: source_test
+  equation: C00234[c] <=
+
+
 - id: sink_fad
   equation: C00016[c] =>
 - id: sink_L-1,2-propanediol
@@ -275,8 +284,6 @@
 #   equation: C03838[c] =>
 # - id: sink_aicar
 #   equation: C04677[c] =>
-# - id: sink_test
-#   equation: C00392[c] <=>
 
 # # 2019-09-20 test blocked R01830
 # # check R01830
@@ -303,8 +310,6 @@
 # # C00064[c] + C00119[c] + C00001[c] => C03090[c] + C00013[c] + C00025[c]
 # - id: source_10fthf
 #   equation: C00234[c] <=
-# - id: sink_test
-#   equation: C00143[c] =>
 
 # # check R00943 (EC 6.3.4.3)
 # - id: source_thf

@@ -44,8 +44,10 @@
   equation: (5.5507) C00031[c] => carbohydrate[c]
 - id: trace_met
   name: trace element (based on Clostridium cellulolyticum iFS431 model <Salimi et al., 2010> and Tsac model)
-  # equation: (0.0071) C00234[c] + (0.2895) C00003[c] + (0.084) C00020[c] + (0.0536) C00002[c] + (0.0465) C00008[c] + (0.0179) C00055[c] + (0.0161) C00006[c] + (0.0089) C00063[c] + (0.0089) C00144[c] + (0.0071) C00044[c] + (0.0054) C00112[c] + (0.0036) C00005[c] + (0.0036) C00035[c] + (12.6224) C00238[c] + (1.8175) C00305[c] + (0.0608) C14818[c] + (0.0572) C00076[c] + (0.2573) C00009[c] + (0.0161) C00013[c] + (0.1607) C00016[c] => trace[c]
-  equation: (0.0071) C00234[c] + (0.2895) C00003[c] + (0.084) C00020[c] + (0.0536) C00002[c] + (0.0465) C00008[c] + (0.0161) C00006[c] + (0.0089) C00144[c] + (0.0071) C00044[c] + (0.0036) C00005[c] + (0.0036) C00035[c] + (12.6224) C00238[c] + (1.8175) C00305[c] + (0.0608) C14818[c] + (0.0572) C00076[c] + (0.2573) C00009[c] + (0.0161) C00013[c] + (0.1607) C00016[c] => trace[c]
+  # equation_withcmp: (0.0109) C00234[c] + (0.441) C00003[c] + (0.1279) C00020[c] + (0.0817) C00002[c] + (0.0708) C00008[c] + (0.0272) C00055[c] + (0.0245) C00006[c] + (0.0136) C00063[c] + (0.0136) C00144[c] + (0.0109) C00044[c] + (0.0082) C00112[c] + (0.0054) C00005[c] + (0.0054) C00035[c] + (3.9124) C00238[c] + (1.456) C00305[c] + (0.2925) C14818[c] + (0.1362) C00076[c] + (0.392) C00009[c] + (0.0245) C00013[c] + (0.2447) C00016[c] => trace[c]
+  equation: (0.0109) C00234[c] + (0.441) C00003[c] + (0.1279) C00020[c] + (0.0817) C00002[c] + (0.0708) C00008[c] + (0.0272) C00055[c] + (0.0245) C00006[c] + (0.0136) C00063[c] + (0.0136) C00144[c] + (0.0109) C00044[c] + (0.0082) C00112[c] + (0.0054) C00005[c] + (0.0054) C00035[c] + (3.9124) C00238[c] + (1.456) C00305[c] + (0.2925) C14818[c] + (0.1362) C00076[c] + (0.392) C00009[c] + (0.0245) C00013[c] + (0.2447) C00016[c] => trace[c]
+  
+
 # - id: Biomass_Cbesii
 #   name: total Biomass (based on E coli)
 #   # equation: (0.031) dna[c] + (0.205) rna[c] + (0.55) protein[c] + (0.091) lipid + (0.034) C00338[c] + (0.025) C00889[c] + 
@@ -63,9 +65,7 @@
   # late log phase, receibved in Seq 12, 2019
   # equation (without normalization): (0.077) dna[c] + (0.009) rna[c] + (0.274) protein[c] + (0.178) lipid[c] + (0.066) carbohydrate[c] => (0.605) Biomass[c]
   # equation (with normalization): (0.014) dna[c] + (0.127) rna[c] + (0.454) protein[c] + (0.295) lipid[c] + (0.11) carbohydrate[c] => Biomass[c]
-  # equation: (0.014) dna[c] + (0.127) rna[c] + (0.454) protein[c] + (0.295) lipid[c] + (0.11) carbohydrate[c] => Biomass[c] 
-  equation: (0.0141) dna[c] + (0.1203) rna[c] + (0.4282) protein[c] + (0.2782) lipid[c] + (0.1032) carbohydrate[c] + (0.056) trace[c] => Biomass[c]
-  # equation: (0.0136) dna[c] + (0.1167) rna[c] + (0.4152) protein[c] + (0.2697) lipid[c] + (0.1) carbohydrate[c] => Biomass[c]
+  equation: (0.0144) dna[c] + (0.1228) rna[c] + (0.437) protein[c] + (0.2839) lipid[c] + (0.1053) carbohydrate[c] + (0.0367) trace[c] => Biomass[c]
   pathway: Biomass 
   note: percentage of trace is based on Clostridium cellulolyticum iFS431 model.
 
