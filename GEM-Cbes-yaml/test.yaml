@@ -7,7 +7,9 @@
   # equation: C20246[c] =>
   equation: C15809[c] =>
 - id: source_test
-  equation: C00234[c] <=
+  equation: C00504[c] <=
+- id: sink_test
+  equation: C00504[c] =>
 
 
 - id: sink_fad
