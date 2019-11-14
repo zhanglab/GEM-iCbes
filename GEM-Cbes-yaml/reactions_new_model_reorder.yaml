@@ -1,141 +1,3 @@
-- id: bglu1
-  equation: cpd11746[e] + cpd00001[e] <=> cpd00027[e]
-  EggNOG_annotation: peg.2930:Glycoside hydrolase family 3 domain protein;   peg.878:hydrolase,
-    family 1
-  KEGG_annotation: Athe_2354:K05349 beta-glucosidase [EC:3.2.1.21] | (GenBank) glycoside
-    hydrolase family 3 domain protein;   Athe_0458:K05350 beta-glucosidase [EC:3.2.1.21]
-    | (GenBank) beta-galactosidase
-  PATRIC_annotation: Xylan 1,4-beta-xylosidase (EC 3.2.1.37) @ Arabinan endo-1,5-alpha-L-arabinosidase
-    (EC 3.2.1.99) or beta-glucosidase (EC 3.2.1.21)
-  genes_Cce: None
-  genes_Cth: peg.878 or peg.2930
-  genes_Tsac: None
-  genes_kegg: None
-  genes_string_NCBI_id: Athe_2354,Athe_0458
-  genes_string_PATRIC_id: peg.2930,peg.878
-  source: Cth model
-  tag: Cth
-  translated_equation: Cellulose[e] + H2O[e] <=> D-Glucose[e]
-- id: cellhp
-  equation: cpd00009[c] + cpd00067[c] + cpd03719[c] <=> cpd00089[c] + cpd03720[c]
-  EggNOG_annotation: peg.880:Glycosyltransferase 36
-  KEGG_annotation: Athe_0460:K00702 cellobiose phosphorylase [EC:2.4.1.20] | (GenBank)
-    glycosyltransferase 36
-  PATRIC_annotation: Cellobiose phosphorylase (EC 2.4.1.20)
-  genes_Cce: None
-  genes_Cth: peg.880
-  genes_Tsac: None
-  genes_kegg: None
-  genes_string_NCBI_id: Athe_0460
-  genes_string_PATRIC_id: peg.880
-  source: Cth model
-  tag: Cth
-  translated_equation: Phosphate[c] + H+[c] + Cellohexaose[c] <=> Glucose-1-phosphate[c]
-    + Cellopentaose[c]
-- id: cellpp
-  equation: cpd00009[c] + cpd00067[c] + cpd03720[c] <=> cpd00089[c] + cpd01376[c]
-  EggNOG_annotation: peg.880:Glycosyltransferase 36
-  KEGG_annotation: Athe_0460:K00702 cellobiose phosphorylase [EC:2.4.1.20] | (GenBank)
-    glycosyltransferase 36
-  PATRIC_annotation: Cellobiose phosphorylase (EC 2.4.1.20)
-  genes_Cce: None
-  genes_Cth: peg.880
-  genes_Tsac: None
-  genes_kegg: None
-  genes_string_NCBI_id: Athe_0460
-  genes_string_PATRIC_id: peg.880
-  source: Cth model
-  tag: Cth
-  translated_equation: Phosphate[c] + H+[c] + Cellopentaose[c] <=> Glucose-1-phosphate[c]
-    + Cellotetraose[c]
-- id: celltp
-  equation: cpd00009[c] + cpd00067[c] + cpd03721[c] <=> cpd00158[c] + cpd00089[c]
-  EggNOG_annotation: peg.880:Glycosyltransferase 36
-  KEGG_annotation: Athe_0460:K00702 cellobiose phosphorylase [EC:2.4.1.20] | (GenBank)
-    glycosyltransferase 36
-  PATRIC_annotation: Cellobiose phosphorylase (EC 2.4.1.20)
-  genes_Cce: None
-  genes_Cth: peg.880
-  genes_Tsac: None
-  genes_kegg: None
-  genes_string_NCBI_id: Athe_0460
-  genes_string_PATRIC_id: peg.880
-  source: Cth model
-  tag: Cth
-  translated_equation: Phosphate[c] + H+[c] + Cellotriose[c] <=> CELB[c] + Glucose-1-phosphate[c]
-- id: cellttp
-  equation: cpd00009[c] + cpd00067[c] + cpd01376[c] <=> cpd00089[c] + cpd03721[c]
-  EggNOG_annotation: peg.880:Glycosyltransferase 36
-  KEGG_annotation: Athe_0460:K00702 cellobiose phosphorylase [EC:2.4.1.20] | (GenBank)
-    glycosyltransferase 36
-  PATRIC_annotation: Cellobiose phosphorylase (EC 2.4.1.20)
-  genes_Cce: None
-  genes_Cth: peg.880
-  genes_Tsac: None
-  genes_kegg: None
-  genes_string_NCBI_id: Athe_0460
-  genes_string_PATRIC_id: peg.880
-  source: Cth model
-  tag: Cth
-  translated_equation: Phosphate[c] + H+[c] + Cellotetraose[c] <=> Glucose-1-phosphate[c]
-    + Cellotriose[c]
-- id: BTS2
-  equation: cpd01311[c] + cpd00084[c] => cpd00104[c] + (2) cpd00067[c] + cpd00035[c]
-  EggNOG_annotation: peg.203:radical SAM domain protein;   peg.76:Catalyzes the conversion
-    of dethiobiotin (DTB) to biotin by the insertion of a sulfur atom into dethiobiotin
-    via a radical- based mechanism (By similarity)
-  KEGG_annotation: Athe_2541:K01012 biotin synthase [EC:2.8.1.6] | (GenBank) biotin
-    synthase;   Athe_2647:K01012 biotin synthase [EC:2.8.1.6] | (GenBank) Radical
-    SAM domain protein
-  PATRIC_annotation: '[FeFe]-hydrogenase maturation protein HydE or Biotin synthase
-    (EC 2.8.1.6)'
-  genes_Cce: None
-  genes_Cth: peg.76 or peg.203
-  genes_Tsac: None
-  genes_kegg: None
-  genes_string_NCBI_id: Athe_2647,Athe_2541
-  genes_string_PATRIC_id: peg.203,peg.76
-  source: Cth model
-  tag: Cth
-  translated_equation: Dethiobiotin[c] + L-Cysteine[c] => BIOT[c] + (2) H+[c] + L-Alanine[c]
-- id: BTS3r
-  equation: cpd01311[c] + (2) cpd00074[c] => cpd00239[c] + cpd00104[c]
-  EggNOG_annotation: peg.203:radical SAM domain protein;   peg.76:Catalyzes the conversion
-    of dethiobiotin (DTB) to biotin by the insertion of a sulfur atom into dethiobiotin
-    via a radical- based mechanism (By similarity)
-  KEGG_annotation: Athe_2541:K01012 biotin synthase [EC:2.8.1.6] | (GenBank) biotin
-    synthase;   Athe_2647:K01012 biotin synthase [EC:2.8.1.6] | (GenBank) Radical
-    SAM domain protein
-  PATRIC_annotation: '[FeFe]-hydrogenase maturation protein HydE or Biotin synthase
-    (EC 2.8.1.6)'
-  genes_Cce: None
-  genes_Cth: peg.76 or peg.203
-  genes_Tsac: None
-  genes_kegg: None
-  genes_string_NCBI_id: Athe_2647,Athe_2541
-  genes_string_PATRIC_id: peg.203,peg.76
-  source: Cth model
-  tag: Cth
-  translated_equation: Dethiobiotin[c] + (2) S[c] => H2S[c] + BIOT[c]
-- id: BTSr
-  equation: cpd01311[c] + cpd00074[c] <=> cpd00104[c] + (2) cpd00067[c]
-  EggNOG_annotation: peg.203:radical SAM domain protein;   peg.76:Catalyzes the conversion
-    of dethiobiotin (DTB) to biotin by the insertion of a sulfur atom into dethiobiotin
-    via a radical- based mechanism (By similarity)
-  KEGG_annotation: Athe_2541:K01012 biotin synthase [EC:2.8.1.6] | (GenBank) biotin
-    synthase;   Athe_2647:K01012 biotin synthase [EC:2.8.1.6] | (GenBank) Radical
-    SAM domain protein
-  PATRIC_annotation: '[FeFe]-hydrogenase maturation protein HydE or Biotin synthase
-    (EC 2.8.1.6)'
-  genes_Cce: None
-  genes_Cth: peg.76 or peg.203
-  genes_Tsac: None
-  genes_kegg: None
-  genes_string_NCBI_id: Athe_2647,Athe_2541
-  genes_string_PATRIC_id: peg.203,peg.76
-  source: Cth model
-  tag: Cth
-  translated_equation: Dethiobiotin[c] + S[c] <=> BIOT[c] + (2) H+[c]
 - id: R03647
   name: L-Aspartate:tRNAAsp ligase (AMP-forming)
   genes: fig|31899.10.peg.1026
@@ -190,7 +52,7 @@
   ec:
   - 6.3.2.17
   curated: true
-  genesNCBI: NA
+  genesNCBI: Athe_1490
   names:
   - tetrahydropteroyl-gamma-polyglutamate:L-glutamate gamma-ligase (ADP-forming)
   pathway: Folate biosynthesis
@@ -225,7 +87,7 @@
   comment: enzyme I of the phosphotransferase system (see map02060)
   pathway: Suagr utilization
   curated: true
-  genesNCBI: NA
+  genesNCBI: Athe_0151
   note: used for transport fructose vis PTS system
   translated_equation: '|Phosphoenolpyruvate (PEP)[c]| + |Protein histidine[c]| <=>
     |Pyruvate (Pyr)[c]| + |Protein N(pi)-phospho-L-histidine[c]|'
@@ -456,99 +318,10 @@
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: GTP[c] + IMP[c] + |L-Aspartate (Asp-L)[c]| => GDP[c] + Phosphate[c]
     + N6-(1,2-Dicarboxyethyl)-AMP[c]
-- id: DHDPRy
-  name: dihydrodipicolinate reductase (NADPH)
-  equation: 23dhdp[c] + h[c] + nadph[c] => C00006[c] + thdp[c]
-  subsystem: Amino acids metabolism
-  ec: 1.3.1.26
-  EggNOG_annotation: peg.1616:Catalyzes the conversion of 4-hydroxy- tetrahydrodipicolinate
-    (HTPA) to tetrahydrodipicolinate (By similarity)
-  KEGG_annotation: Athe_1133:K00215 4-hydroxy-tetrahydrodipicolinate reductase [EC:1.17.1.8]
-    | (GenBank) dihydrodipicolinate redu
-  PATRIC_annotation: 4-hydroxy-tetrahydrodipicolinate reductase (EC 1.17.1.8)
-  genes_Cce: peg.1616 or peg.1616
-  genes_Cth: peg.1616 or peg.1616
-  genes_Tsac: None
-  genes_kegg: None
-  genes_string_NCBI_id: Athe_1133
-  genes_string_PATRIC_id: peg.1616
-  pathway: Amino acids metabolism
-  source: Cce model
-  tag: Cce,Cth
-  translated_equation: 2,3-Dihydrodipicolinate[c] + H+[c] + |Nicotinamide adenine
-    dinucleotide phosphate - reduced[c]| => |Nicotinamide adenine dinucleotide phosphate[c]|
-    + 2,3,4,5-Tetrahydrodipicolinate[c]
-- id: DHDPRx
-  name: dihydrodipicolinate reductase (NADPH)
-  equation: 23dhdp[c] + h[c] + nadh[c] => nad[c] + thdp[c]
-  subsystem: Amino acids metabolism
-  ec: 1.3.1.26
-  EggNOG_annotation: peg.1616:Catalyzes the conversion of 4-hydroxy- tetrahydrodipicolinate
-    (HTPA) to tetrahydrodipicolinate (By similarity)
-  KEGG_annotation: Athe_1133:K00215 4-hydroxy-tetrahydrodipicolinate reductase [EC:1.17.1.8]
-    | (GenBank) dihydrodipicolinate redu
-  PATRIC_annotation: 4-hydroxy-tetrahydrodipicolinate reductase (EC 1.17.1.8)
-  genes_Cce: peg.1616 or peg.1616
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: None
-  genes_string_NCBI_id: Athe_1133
-  genes_string_PATRIC_id: peg.1616
-  pathway: Amino acids metabolism
-  source: Cce model
-  tag: Cce
-  translated_equation: 2,3-Dihydrodipicolinate[c] + H+[c] + |Nicotinamide adenine
-    dinucleotide - reduced[c]| => |Nicotinamide adenine dinucleotide[c]| + 2,3,4,5-Tetrahydrodipicolinate[c]
-- id: UAAGDS
-  name: UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelate synthetase
-  equation: 26dap-M[c] + atp[c] + uamag[c] => adp[c] + h[c] + pi[c] + ugmd[c]
-  subsystem: Amino acids metabolism
-  ec: 6.3.2.13
-  EggNOG_annotation: peg.1232:acid to the nucleotide precursor UDP-N-acetylmuramoyl-L-alanyl-D-glutamate
-    (UMAG) in the biosynthesis of bacterial cell-wall peptidoglycan (By similarity)
-  KEGG_annotation: peg.1232:-
-  PATRIC_annotation: UDP-N-acetylmuramoyl-dipeptide--2,6-diaminopimelate ligase (EC
-    6.3.2.13)
-  genes_Cce: None
-  genes_Cth: peg.1232
-  genes_Tsac: None
-  genes_kegg: None
-  genes_string_NCBI_id: peg.1232
-  genes_string_PATRIC_id: peg.1232
-  pathway: Amino acids metabolism
-  source: Cce model
-  tag: Cth
-  translated_equation: Meso-2,6-Diaminoheptanedioate[c] + ATP[c] + UDP-N-acetylmuramoyl-L-alanyl-D-glutamate[c]
-    => ADP[c] + H+[c] + Phosphate[c] + UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diaminopimelate[c]
-- id: UGMDDS
-  name: UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine
-    synthetase
-  equation: alaala[c] + atp[c] + ugmd[c] => ugmda[c] + pi[c] + h[c] + adp[c]
-  subsystem: Amino acids metabolism
-  ec: 6.3.2.10
-  EggNOG_annotation: peg.1233:Involved in cell wall formation. Catalyzes the final
-    step in the synthesis of UDP-N-acetylmuramoyl-pentapeptide, the precursor of
-    murein (By similarity)
-  KEGG_annotation: Athe_0774:K01929 UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine
-    ligase [EC:6.3.2.10] | (GenBank) UDP-N-ac
-  PATRIC_annotation: UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase (EC
-    6.3.2.10)
-  genes_Cce: None
-  genes_Cth: peg.1233
-  genes_Tsac: None
-  genes_kegg: None
-  genes_string_NCBI_id: Athe_0774
-  genes_string_PATRIC_id: peg.1233
-  pathway: Amino acids metabolism
-  source: Cce model
-  tag: Cth
-  translated_equation: D-Alanyl-D-alanine[c] + ATP[c] + UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diaminopimelate[c]
-    => UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine[c]
-    + Phosphate[c] + H+[c] + ADP[c]
 - id: R08639
   name: alpha-D-glucose 1,6-phosphomutase
   genes: fig|31899.10.peg.2586
-  genesNCBI: Athe_2324
+  genesNCBI: Athe_2040
   equation: C00103[c] <=> C00092[c]
   curated: true
   ec:
@@ -577,7 +350,7 @@
   source: KEGG
   tag: Cce,Cth,Tsac
   translated_equation: '|D-Glucose 1-phosphate[c]| <=> |D-Glucose 6-phosphate[c]|'
-  note: peg.2262 is manually annotated as EC 5.2.2.8, peg.2899 is manually annotated as EC 5.2.2.10, SO here
+  note: peg.2262 is manually annotated as EC 5.2.2.8, peg.2899 is manually annotated as EC 5.2.2.10, So here
     I only keep peg.2586. This rxn is required in galactose utilization.
 - id: R02060
   name: D-Glucosamine 1-phosphate 1,6-phosphomutase
@@ -700,9 +473,12 @@
     + UDP[c]
 - id: R03191
   name: UDP-N-acetylmuramate:NADP+ oxidoreductase
-  equation: C01050[c] + C00003[c] <=> C04631[c] + C00004[c] + C00080[c]
+  equation: C04631[c] + C00004[c] + C00080[c] => C01050[c] + C00003[c]
   ec:
   - 1.3.1.98
+  genes: fig|31899.10.peg.730
+  genesNCBI: Athe_0319
+  curated: true
   EggNOG_annotation: peg.730:Cell wall formation (By similarity)
   KEGG_annotation: Athe_0319:K00075 UDP-N-acetylmuramate dehydrogenase [EC:1.3.1.98]
     | (GenBank) UDP-N-acetylenolpyruvoylglucosam
@@ -720,15 +496,17 @@
   - Amino sugar and nucleotide sugar metabolism
   - Peptidoglycan biosynthesis
   - Metabolic pathways
-  pathway: Amino sugar and nucleotide sugar metabolism
+  pathway: Peptidoglycan biosynthesis
   source: KEGG
   tag: KEGG_Cbes
-  translated_equation: UDP-N-acetylmuramate[c] + |Nicotinamide adenine dinucleotide
-    (NAD)[c]| <=> UDP-N-acetyl-3-(1-carboxyvinyl)-D-glucosamine[c] + |Nicotinamide
-    adenine dinucleotide - reduced (NADH)[c]| + |Proton (H+)[c]|
+  translated_equation: UDP-N-acetyl-3-(1-carboxyvinyl)-D-glucosamine[c] + |Nicotinamide
+    adenine dinucleotide - reduced (NADH)[c]| + |Proton (H+)[c]| => UDP-N-acetylmuramate[c] 
+    + |Nicotinamide adenine dinucleotide (NAD)[c]|
 - id: R03192
   name: UDP-N-acetylmuramate:NADP+ oxidoreductase
   genes: fig|31899.10.peg.730
+  genesNCBI: Athe_0319
+  curated: true
   equation: C04631[c] + C00005[c] + C00080[c] => C01050[c] + C00006[c]
   ec:
   - 1.3.1.98
@@ -737,8 +515,6 @@
     | (GenBank) UDP-N-acetylenolpyruvoylglucosam
   PATRIC_annotation: UDP-N-acetylenolpyruvoylglucosamine reductase (EC 1.3.1.98)
   comment: NAD+ (see R03191)
-  curated: true
-  genesNCBI: Athe_0319
   genes_Cce: peg.730
   genes_Cth: peg.730
   genes_Tsac: peg.730
@@ -751,12 +527,13 @@
   - Amino sugar and nucleotide sugar metabolism
   - Peptidoglycan biosynthesis
   - Metabolic pathways
-  pathway: Amino sugar and nucleotide sugar metabolism
+  pathway: Peptidoglycan biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce,Cth,Tsac
   translated_equation: UDP-N-acetyl-3-(1-carboxyvinyl)-D-glucosamine[c] + |Nicotinamide
     adenine dinucleotide phosphate - reduced (NADPH)[c]| + |Proton (H+)[c]| => UDP-N-acetylmuramate[c]
     + |Nicotinamide adenine dinucleotide phosphate (NADP)[c]|
+  note: NADH can to a lesser extent replace NADPH
 - id: R00418
   name: UDP-N-acetyl-D-glucosamine 4-epimerase
   genes: fig|31899.10.peg.1410 or fig|31899.10.peg.1631
@@ -817,34 +594,6 @@
   source: KEGG
   tag: KEGG_Cbes,Cce
   translated_equation: Xylan-oligosaccharides[c] + (3) H2O[c] => (4) D-Xylose[c]
-- id: R00022
-  name: chitobiose N-acetylglucosaminohydrolase
-  equation: C01674[c] + C00001[c] => (2) C00140[c]
-  ec:
-  - 3.2.1.52
-  EggNOG_annotation: peg.1837:amino acids such as valine, to avoid such errors it
-    has two additional distinct tRNA(Ile)-dependent editing activities. One activity
-    is designated as 'pretransfer' editing and involves the hydrolysis of activated
-    Val-AMP. The other activity is designated 'posttransfer' editing and involves
-    deacylation of mischarged Val-tRNA(Ile) (By similarity)
-  KEGG_annotation: Athe_1349:K01870 isoleucyl-tRNA synthetase [EC:6.1.1.5] | (GenBank)
-    isoleucyl-tRNA synthetase
-  PATRIC_annotation: Isoleucyl-tRNA synthetase (EC 6.1.1.5)
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: peg.1837
-  genes_kegg: None
-  genes_string_NCBI_id: Athe_1349
-  genes_string_PATRIC_id: peg.1837
-  names:
-  - chitobiose N-acetylglucosaminohydrolase
-  other_pathways:
-  - Amino sugar and nucleotide sugar metabolism
-  - Metabolic pathways
-  pathway: Amino sugar and nucleotide sugar metabolism
-  source: KEGG
-  tag: Tsac
-  translated_equation: Chitobiose[c] + H2O[c] => (2) |N-Acetyl-D-glucosamine (GlcNAc)[c]|
 - id: R01762_kz
   name: alpha-L-arabinan arabinofuranohydrolase
   genes: fig|31899.10.peg.1854 or fig|31899.10.peg.2951
@@ -863,7 +612,7 @@
   genes_Tsac: None
   genes_kegg: Athe_0182 or Athe_1103
   genes_string_NCBI_id: Athe_0182, Athe_1103
-  genes_string_PATRIC_id: -, peg.1584
+  genes_string_PATRIC_id: peg.579, peg.1584
   names:
   - alpha-L-arabinan arabinofuranohydrolase
   other_pathways:
@@ -872,7 +621,9 @@
   source: KEGG
   tag: KEGG_Cbes,Cce
   translated_equation: Arabinan(n=2)[e] + (5) H2O[e] => (6) L-Arabinose[e]
-  note: Athe_0182 is not identical to peg.579, but they have high similarity.
+  note: Athe_0182 is not identical to peg.579, but they have high similarity. peg.2951 is annotated as 
+    endo-α-1,5-L-arabinanase (EC 3.2.1.99) by Dima; peg.579 is annotated as Bifunctional β-1,4-xylanase / 
+    α-L-arabinosidase (XynF) (EC 3.2.1.55|3.2.1.8)(secreted) by Dima.
 - id: AbfA
   name: alpha-L-arabinan arabinofuranohydrolase
   genes: fig|31899.10.peg.1584 
@@ -1051,10 +802,13 @@
     + |N-Acetyl-D-glucosamine 1-phosphate[c]|
 - id: R00421
   name: UDP-N-acetyl-D-glucosamine:NAD+ 6-oxidoreductase
-  equation: C00043[c] + (2) C00003[c] + C00001[c] <=> C04573[c] + (2) C00004[c] +
+  equation: C00043[c] + (2) C00003[c] + C00001[c] => C04573[c] + (2) C00004[c] +
     (2) C00080[c]
   ec:
   - 1.1.1.136
+  genes: fig|31899.10.peg.1725
+  genesNCBI: Athe_1238
+  curated: true
   EggNOG_annotation: peg.1725:nucleotide sugar dehydrogenase
   KEGG_annotation: Athe_1238:K13015 UDP-N-acetyl-D-glucosamine dehydrogenase [EC:1.1.1.136]
     | (GenBank) nucleotide sugar dehydrog
@@ -1073,7 +827,7 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: UDP-N-acetyl-D-glucosamine[c] + (2) |Nicotinamide adenine
-    dinucleotide (NAD)[c]| + H2O[c] <=> UDP-N-acetyl-2-amino-2-deoxy-D-glucuronate[c]
+    dinucleotide (NAD)[c]| + H2O[c] => UDP-N-acetyl-2-amino-2-deoxy-D-glucuronate[c]
     + (2) |Nicotinamide adenine dinucleotide - reduced (NADH)[c]| + (2) |Proton (H+)[c]|
 - id: R03905
   name: Glu-tRNA(Gln):L-glutamine amido-ligase(ADP-forming)
@@ -1779,8 +1533,9 @@
   equation: C03360[c] + C00001[c] => C00870[c] + C00009[c]
   ec:
   - 3.1.3.1
-  - 3.1.3.2
-  - 3.1.3.41
+  genes: fig|31899.10.peg.359
+  genesNCBI: Athe_2754
+  curated: true
   EggNOG_annotation: peg.359:Alkaline phosphatase
   KEGG_annotation: Athe_2754:K01077 alkaline phosphatase [EC:3.1.3.1] | (GenBank)
     Alkaline phosphatase
@@ -1801,37 +1556,14 @@
   tag: KEGG_Cbes
   translated_equation: '|4-Nitrophenyl phosphate[c]| + H2O[c] => 4-Nitrophenol[c]
     + Phosphate[c]'
-- id: UAGDP
-  name: UDP-N-acetylglucosaminediphosphorylase
-  equation: acgam1p[c] + h[c] + utp[c] => uacgam[c] + ppi[c]
-  subsystem: Aminosugar Metabolism
-  ec: 2.7.7.23
-  EggNOG_annotation: peg.1076:Catalyzes the last two sequential reactions in the
-    de novo biosynthetic pathway for UDP-N-acetylglucosamine (UDP- GlcNAc). The C-terminal
-    domain catalyzes the transfer of acetyl group from acetyl coenzyme A to glucosamine-1-phosphate
-    (GlcN-1-P) to produce N-acetylglucosamine-1-phosphate (GlcNAc-1-P), which is
-    converted into UDP-GlcNAc by the transfer of uridine 5- monophosphate (from uridine
-    5-triphosphate), a reaction catalyzed by the N-terminal domain (By similarity)
-  KEGG_annotation: Athe_0635:K04042 bifunctional UDP-N-acetylglucosamine pyrophosphorylase
-    / Glucosamine-1-phosphate N-acetyltran
-  PATRIC_annotation: N-acetylglucosamine-1-phosphate uridyltransferase (EC 2.7.7.23)
-    / Glucosamine-1-phosphate N-acetyltransferase (EC 2.3.1.157)
-  genes_Cce: None
-  genes_Cth: peg.1076
-  genes_Tsac: None
-  genes_kegg: None
-  genes_string_NCBI_id: Athe_0635
-  genes_string_PATRIC_id: peg.1076
-  pathway: Aminosugar Metabolism
-  source: Tsac model
-  tag: Cth
-  translated_equation: '|N-Acetyl-D-glucosamine 1-phosphate[c]| + H+[c] + UTP[c]
-    => UDP-N-acetyl-D-glucosamine[c] + Diphosphate[c]'
 - id: R00566
   name: L-arginine carboxy-lyase (agmatine-forming)
-  equation: C00062[c] <=> C00179[c] + C00011[c]
+  equation: C00062[c] => C00179[c] + C00011[c]
   ec:
   - 4.1.1.19
+  genes: fig|31899.10.peg.2596
+  genesNCBI: Athe_2050
+  curated: true
   EggNOG_annotation: peg.2596:Orn Lys Arg decarboxylase
   KEGG_annotation: Athe_2050:no KO assigned | (GenBank) Orn/Lys/Arg decarboxylase
     major region
@@ -1850,35 +1582,7 @@
   pathway: Arginine and proline metabolism
   source: KEGG
   tag: Cth,Tsac
-  translated_equation: '|L-Arginine (Arg-L)[c]| <=> Agmatine[c] + CO2[c]'
-- id: R03180
-  name: 4-Guanidinobutanamide amidohydrolase
-  equation: C03078[c] + C00001[c] <=> C01035[c] + C00014[c]
-  ec:
-  - 3.5.1.4
-  EggNOG_annotation: peg.1219:Allows the formation of correctly charged Gln-tRNA(Gln)
-    through the transamidation of misacylated Glu-tRNA(Gln) in organisms which lack
-    glutaminyl-tRNA synthetase. The reaction takes place in the presence of glutamine
-    and ATP through an activated gamma-phospho-Glu-tRNA(Gln) (By similarity)
-  KEGG_annotation: Athe_0761:K02433 aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase
-    subunit A [EC:6.3.5.6 6.3.5.7] | (GenB
-  PATRIC_annotation: Aspartyl-tRNA(Asn) amidotransferase subunit A (EC 6.3.5.6) @
-    Glutamyl-tRNA(Gln) amidotransferase subunit A (EC 6.3.5.7)
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: peg.1219
-  genes_kegg: None
-  genes_string_NCBI_id: Athe_0761
-  genes_string_PATRIC_id: peg.1219
-  names:
-  - 4-Guanidinobutanamide amidohydrolase
-  other_pathways:
-  - Arginine and proline metabolism
-  pathway: Arginine and proline metabolism
-  source: KEGG
-  tag: Tsac
-  translated_equation: 4-Guanidinobutanamide[c] + H2O[c] <=> 4-Guanidinobutanoate[c]
-    + Ammonia[c]
+  translated_equation: '|L-Arginine (Arg-L)[c]| => Agmatine[c] + CO2[c]'
 - id: R01157
   name: Agmatine amidinohydrolase
   genes: fig|31899.10.peg.1803
@@ -7519,7 +7223,7 @@
   PATRIC_annotation: Dihydrofolate synthase (EC 6.3.2.12) @ Folylpolyglutamate synthase
     (EC 6.3.2.17)
   curated: true
-  genesNCBI: NA
+  genesNCBI: Athe_1117
   genes_Cce: peg.1983
   genes_Cth: None
   genes_Tsac: None
@@ -10965,7 +10669,7 @@
   other_pathways:
   - Lysine biosynthesis
   - Peptidoglycan biosynthesis
-  pathway: Lysine biosynthesis
+  pathway: Peptidoglycan biosynthesis
   source: KEGG
   tag: KEGG_Cbes,Cce,Tsac
   translated_equation: ATP[c] + UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimelate[c]
@@ -10976,6 +10680,8 @@
   equation: C00002[c] + C00692[c] + C00680[c] <=> C00008[c] + C00009[c] + C04877[c]
   ec:
   - 6.3.2.13
+  genes: fig|31899.10.peg.1232
+  genesNCBI: Athe_0773
   EggNOG_annotation: peg.1232:acid to the nucleotide precursor UDP-N-acetylmuramoyl-L-alanyl-D-glutamate
     (UMAG) in the biosynthesis of bacterial cell-wall peptidoglycan (By similarity)
   KEGG_annotation: peg.1232:-
@@ -10985,7 +10691,7 @@
   genes_Cth: None
   genes_Tsac: peg.1232
   genes_kegg: '-'
-  genes_string_NCBI_id: peg.1232
+  genes_string_NCBI_id: Athe_0773
   genes_string_PATRIC_id: peg.1232
   names:
   - UDP-N-acetylmuramoyl-L-alanyl-D-glutamate:(L)-meso-2,6-diaminoheptanedioate gamma-ligase
@@ -10995,7 +10701,7 @@
   other_pathways:
   - Lysine biosynthesis
   - Peptidoglycan biosynthesis
-  pathway: Lysine biosynthesis
+  pathway: Peptidoglycan biosynthesis
   source: KEGG
   tag: Cce,Tsac
   translated_equation: ATP[c] + UDP-N-acetylmuramoyl-L-alanyl-D-glutamate[c] + meso-2,6-Diaminoheptanedioate[c]
@@ -11134,6 +10840,9 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: Cellobiose[c] <=> 4-O-beta-D-Glucopyranosyl-D-mannose[c]
+  comment: The enzyme catalyses the interconversion between D-glucose and D-mannose residues at 
+    the reducing end of beta-1,4-linked disaccharides by epimerizing the hydroxyl group at the 
+    C-2 position of the glucose moiety.
 - id: R10810
   name: beta-1,4-mannobiose 2-epimerase
   genes: fig|31899.10.peg.94
@@ -13405,6 +13114,8 @@
   equation: C02583[c] + C00001[c] <=> C00614[c] + C00014[c]
   ec:
   - 3.5.1.44
+  genes: fig|31899.10.peg.2701
+  genesNCBI: Athe_2146
   EggNOG_annotation: peg.2701:Probably deamidates glutamine residues to glutamate
     on methyl-accepting chemotaxis receptors (MCPs), playing an important role in
     chemotaxis (By similarity)
@@ -13424,31 +13135,6 @@
   tag: KEGG_Cbes
   translated_equation: '|Protein glutamine[c]| + H2O[c] <=> |Protein glutamate[c]|
     + Ammonia[c]'
-- id: R00321
-  name: Acetamide amidohydrolase
-  equation: C06244[c] + C00001[c] <=> C00033[c] + C00014[c]
-  ec:
-  - 3.5.1.4
-  EggNOG_annotation: peg.1219:Allows the formation of correctly charged Gln-tRNA(Gln)
-    through the transamidation of misacylated Glu-tRNA(Gln) in organisms which lack
-    glutaminyl-tRNA synthetase. The reaction takes place in the presence of glutamine
-    and ATP through an activated gamma-phospho-Glu-tRNA(Gln) (By similarity)
-  KEGG_annotation: Athe_0761:K02433 aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase
-    subunit A [EC:6.3.5.6 6.3.5.7] | (GenB
-  PATRIC_annotation: Aspartyl-tRNA(Asn) amidotransferase subunit A (EC 6.3.5.6) @
-    Glutamyl-tRNA(Gln) amidotransferase subunit A (EC 6.3.5.7)
-  genes_Cce: None
-  genes_Cth: peg.1219
-  genes_Tsac: peg.1219
-  genes_kegg: None
-  genes_string_NCBI_id: Athe_0761
-  genes_string_PATRIC_id: peg.1219
-  names:
-  - Acetamide amidohydrolase
-  pathway: None
-  source: KEGG
-  tag: Cth,Tsac
-  translated_equation: Acetamide[c] + H2O[c] <=> Acetate[c] + Ammonia[c]
 - id: R00193
   name: S-Adenosyl-L-homocysteine aminohydrolase
   equation: C00021[c] + C00001[c] <=> C03431[c] + C00014[c]
@@ -15943,7 +15629,7 @@
   - 1.1.1.169
   PATRIC_annotation: Ketopantoate reductase PanG (EC 1.1.1.169)
   curated: true
-  genesNCBI: NA
+  genesNCBI: Athe_1982
   genes_kegg: None
   names:
   - (R)-Pantoate:NADP+ 2-oxidoreductase
@@ -17128,9 +16814,11 @@
 - id: R04573
   name: UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-L-lysine:alanyl-D-alanine ligase
     (ADP-forming)
-  equation: C00002[c] + C05892[c] + C00993[c] <=> C00008[c] + C00009[c] + C04702[c]
+  equation: C00002[c] + C05892[c] + C00993[c] => C00008[c] + C00009[c] + C04702[c]
   ec:
   - 6.3.2.10
+  genes: fig|31899.10.peg.1233
+  genesNCBI: Athe_0774
   EggNOG_annotation: peg.1233:Involved in cell wall formation. Catalyzes the final
     step in the synthesis of UDP-N-acetylmuramoyl-pentapeptide, the precursor of
     murein (By similarity)
@@ -17153,7 +16841,7 @@
   source: KEGG
   tag: KEGG_Cbes
   translated_equation: ATP[c] + UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysine[c]
-    + D-Alanyl-D-alanine[c] <=> ADP[c] + Phosphate[c] + UDPMurNAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala)[c]
+    + D-Alanyl-D-alanine[c] => ADP[c] + Phosphate[c] + UDPMurNAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala)[c]
 - id: R00228
   name: acetaldehyde:NAD+ oxidoreductase (CoA-acetylating)
   equation: C00084[c] + C00010[c] + C00003[c] <=> C00024[c] + C00004[c] + C00080[c]
@@ -17188,36 +16876,6 @@
   translated_equation: Acetaldehyde[c] + |Coenzyme A (CoA)[c]| + |Nicotinamide adenine
     dinucleotide (NAD)[c]| <=> |Acetyl-CoA (AcCoA)[c]| + |Nicotinamide adenine dinucleotide
     - reduced (NADH)[c]| + |Proton (H+)[c]|
-- id: R02540
-  name: 2-phenylacetamide amidohydrolase
-  equation: C02505[c] + C00001[c] <=> C07086[c] + C00014[c]
-  ec:
-  - 3.5.1.4
-  EggNOG_annotation: peg.1219:Allows the formation of correctly charged Gln-tRNA(Gln)
-    through the transamidation of misacylated Glu-tRNA(Gln) in organisms which lack
-    glutaminyl-tRNA synthetase. The reaction takes place in the presence of glutamine
-    and ATP through an activated gamma-phospho-Glu-tRNA(Gln) (By similarity)
-  KEGG_annotation: Athe_0761:K02433 aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase
-    subunit A [EC:6.3.5.6 6.3.5.7] | (GenB
-  PATRIC_annotation: Aspartyl-tRNA(Asn) amidotransferase subunit A (EC 6.3.5.6) @
-    Glutamyl-tRNA(Gln) amidotransferase subunit A (EC 6.3.5.7)
-  genes_Cce: None
-  genes_Cth: peg.1219
-  genes_Tsac: peg.1219
-  genes_kegg: None
-  genes_string_NCBI_id: Athe_0761
-  genes_string_PATRIC_id: peg.1219
-  names:
-  - 2-phenylacetamide amidohydrolase
-  other_pathways:
-  - Phenylalanine metabolism
-  - Styrene degradation
-  - Microbial metabolism in diverse environments
-  pathway: Phenylalanine metabolism
-  source: KEGG
-  tag: Cth,Tsac
-  translated_equation: 2-Phenylacetamide[c] + H2O[c] <=> |Phenylacetic acid[c]| +
-    Ammonia[c]
 - id: R02539
   name: Phenylacetate:CoA ligase
   genes: fig|31899.10.peg.1490 or fig|31899.10.peg.1997 or fig|31899.10.peg.2000
@@ -24251,35 +23909,6 @@
   tag: Tsac
   translated_equation: water[c] + ATP[c] + Fe3+[e] => ADP[c] + Phosphate[c] + H+[c]
     + Fe3+[c]
-- id: R03096
-  name: Indole-3-acetamide amidohydrolase
-  equation: C02693[c] + C00001[c] <=> C00954[c] + C00014[c]
-  ec:
-  - 3.5.1.4
-  - 3.5.1.-
-  EggNOG_annotation: peg.1219:Allows the formation of correctly charged Gln-tRNA(Gln)
-    through the transamidation of misacylated Glu-tRNA(Gln) in organisms which lack
-    glutaminyl-tRNA synthetase. The reaction takes place in the presence of glutamine
-    and ATP through an activated gamma-phospho-Glu-tRNA(Gln) (By similarity)
-  KEGG_annotation: Athe_0761:K02433 aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase
-    subunit A [EC:6.3.5.6 6.3.5.7] | (GenB
-  PATRIC_annotation: Aspartyl-tRNA(Asn) amidotransferase subunit A (EC 6.3.5.6) @
-    Glutamyl-tRNA(Gln) amidotransferase subunit A (EC 6.3.5.7)
-  genes_Cce: None
-  genes_Cth: peg.1219
-  genes_Tsac: peg.1219
-  genes_kegg: None
-  genes_string_NCBI_id: Athe_0761
-  genes_string_PATRIC_id: peg.1219
-  names:
-  - Indole-3-acetamide amidohydrolase
-  other_pathways:
-  - Tryptophan metabolism
-  pathway: Tryptophan metabolism
-  source: KEGG
-  tag: Cth,Tsac
-  translated_equation: (Indol-3-yl)acetamide[c] + H2O[c] <=> Indole-3-acetate[c]
-    + Ammonia[c]
 - id: R04880
   name: 3,4-dihydroxyphenylethyleneglycol:NAD+ oxidoreductase
   equation: C05576[c] + C00003[c] <=> C05577[c] + C00004[c] + C00080[c]
