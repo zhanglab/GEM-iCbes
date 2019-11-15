@@ -1192,33 +1192,6 @@
   source: KEGG_Cbes,Tsac
   translated_equation: N-Succinyl-LL-2,6-diaminoheptanedioate[c] + 2-Oxoglutarate[c]
     <=> N-Succinyl-2-L-amino-6-oxoheptanedioate[c] + L-Glutamate[c]
-- id: R02734
-  name: N-Succinyl-LL-2,6-diaminoheptanedioate amidohydrolase
-  equation: C04421[c] + C00001[c] => C00042[c] + C00666[c]
-  ec:
-  - 3.5.1.18
-  EggNOG_annotation: peg.851:Dipeptidase
-  KEGG_annotation: Athe_0431:K01439 succinyl-diaminopimelate desuccinylase [EC:3.5.1.18]
-    | (GenBank) dipeptidase
-  PATRIC_annotation: Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase
-    and related deacylases
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: peg.851
-  genes_kegg: peg.851
-  genes_string_NCBI_id: Athe_0431
-  genes_string_PATRIC_id: peg.851
-  names:
-  - N-Succinyl-LL-2,6-diaminoheptanedioate amidohydrolase
-  other_pathways:
-  - Lysine biosynthesis
-  - Metabolic pathways
-  - Microbial metabolism in diverse environments
-  - Biosynthesis of amino acids
-  pathway: Lysine biosynthesis
-  source: KEGG_Cbes,Tsac
-  translated_equation: N-Succinyl-LL-2,6-diaminoheptanedioate[c] + H2O[c] => Succinate[c]
-    + LL-2,6-Diaminoheptanedioate[c]
 - id: R04859
   name: O3-acetyl-L-serine:thiosulfate 2-amino-2-carboxyethyltransferase (reducing,
     L-cysteine-forming)
@@ -5770,6 +5743,39 @@
   tag: KEGG_Cbes
   translated_equation: '[Enzyme]-cysteine[c] + |L-Cysteine (Cys-L)[c]| <=> [Enzyme]-S-sulfanylcysteine[c]
     + |L-Alanine (Ala-L)[c]|'
+- id: R10247_kz
+  name: 1-deoxy-D-xylulose 5-phosphate:thiol sulfurtransferase
+  genes: fig|31899.10.peg.782
+  # equation: C11437[c] + C15809[c] + C15814[c] => C20246[c] + C15810[c] + (2) C00001[c]
+  equation: C11437[c] + C15809[c] + C15814[c] => C04327[c] + C15810[c] + (2) C00001[c]
+  ec:
+  - 2.8.1.10
+  EggNOG_annotation: peg.782:Catalyzes the rearrangement of 1-deoxy-D-xylulose 5-
+    phosphate (DXP) to produce the thiazole phosphate moiety of thiamine. Sulfur
+    is provided by the thiocarboxylate moiety of the carrier protein ThiS. In vitro,
+    sulfur can be provided by H(2)S (By similarity)
+  KEGG_annotation: Athe_0369:K03149 thiazole synthase [EC:2.8.1.10] | (GenBank) thiazole
+    biosynthesis family protein
+  PATRIC_annotation: Thiazole synthase (EC 2.8.1.10)
+  curated: true
+  genesNCBI: Athe_0369
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.782
+  genes_string_NCBI_id: Athe_0369
+  genes_string_PATRIC_id: peg.782
+  names:
+  - 1-deoxy-D-xylulose 5-phosphate:thiol sulfurtransferase
+  other_pathways:
+  - Thiamine metabolism
+  - Metabolic pathways
+  pathway: Thiamine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|1-deoxy-D-xylulose 5-phosphate[c]| + Iminoglycine[c] + |Thiocarboxy-[sulfur-carrier
+    protein][c]| => |4-Methyl-5-(2-phosphooxyethyl)thiazole[c]| + |Sulfur-carrier protein[c]| + (2) H2O[c]'
+  note: change C20246 to C04327 (HET-P) based on Dima's Thiamin biosynthesis pathway map.
 
 # remove when curate rxns that contains formate
 - id: R00519
@@ -7503,6 +7509,108 @@
   - Thiamine metabolism
   - Metabolic pathways
   translated_equation: ATP[c] + Thiamine[c] => ADP[c] + |Thiamin monophosphate[c]|
+- id: R07459
+  name: ATP:[sulfur-carrier protein] adenylyltransferase
+  genes: fig|31899.10.peg.781 and fig|31899.10.peg.784
+  equation: C15810[c] + C00002[c] => C15813[c] + C00013[c]
+  ec:
+  - 2.7.7.73
+  EggNOG_annotation: peg.784:Thiamine biosynthesis protein ThiF
+  KEGG_annotation: Athe_0371:K03148 sulfur carrier protein ThiS adenylyltransferase
+    [EC:2.7.7.73] | (GenBank) thiamine biosynthes
+  PATRIC_annotation: Sulfur carrier protein ThiS adenylyltransferase (EC 2.7.7.73)
+  curated: true
+  genesNCBI: Athe_0368 and Athe_0371
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.784
+  genes_string_NCBI_id: Athe_0371
+  genes_string_PATRIC_id: peg.784
+  names:
+  - ATP:[sulfur-carrier protein] adenylyltransferase
+  note: if "and" is fine here?
+  other_pathways:
+  - Thiamine metabolism
+  - Metabolic pathways
+  pathway: Thiamine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|Sulfur-carrier protein[c]| + ATP[c] => |Adenylyl-[sulfur-carrier
+    protein][c]| + Diphosphate[c]'
+  note: peg.781 encodes "Sulfur carrier protein ThiS"
+- id: R07461
+  name: '[enzyme]-S-sulfanyl-L-cysteine:adenylyl-[sulfur-carrier protein] sulfurtransferase'
+  equation: C15812[c] + C15813[c] + C00139[c] => C00020[c] + C15814[c] + C15811[c]
+    + C00138[c]
+  ec:
+  - 2.8.1.4
+  genes: fig|31899.10.peg.2041
+  genesNCBI: Athe_1546
+  curated: true
+  EggNOG_annotation: peg.2041:Catalyzes the ATP-dependent transfer of a sulfur to
+    tRNA to produce 4-thiouridine in position 8 of tRNAs, which functions as a near-UV
+    photosensor. Also catalyzes the transfer of sulfur to the sulfur carrier protein
+    ThiS, forming ThiS-thiocarboxylate. This is a step in the synthesis of thiazole,
+    in the thiamine biosynthesis pathway. The sulfur is donated as persulfide by
+    IscS (By similarity)
+  KEGG_annotation: Athe_1546:K03151 tRNA uracil 4-sulfurtransferase [EC:2.8.1.4]
+    | (GenBank) thiamine biosynthesis/tRNA modificat
+  PATRIC_annotation: tRNA 4-thiouridine synthase (EC 2.8.1.4)
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.2041
+  genes_string_NCBI_id: Athe_1546
+  genes_string_PATRIC_id: peg.2041
+  names:
+  - '[enzyme]-S-sulfanyl-L-cysteine:adenylyl-[sulfur-carrier protein] sulfurtransferase'
+  other_pathways:
+  - Thiamine metabolism
+  - Metabolic pathways
+  pathway: Thiamine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '[Enzyme]-S-sulfanylcysteine[c] + |Adenylyl-[sulfur-carrier
+    protein][c]| + |Reduced ferredoxin (2[4Fe-4S]) (Fdred)[c]| <=> AMP[c] + |Thiocarboxy-[sulfur-carrier
+    protein][c]| + [Enzyme]-cysteine[c] + |Oxidized ferredoxin (2[4Fe-4S]) (Fdox)[c]|'
+- id: R10246
+  name: L-tyrosine 4-methylphenol-lyase (2-iminoacetate-forming)
+  genes: fig|31899.10.peg.783
+  equation: C00082[c] + C00019[c] + C00005[c] + C00080[c] => C15809[c] + C01468[c]
+    + C05198[c] + C00073[c] + C00006[c]
+  ec:
+  - 4.1.99.19
+  EggNOG_annotation: peg.783:biosynthesis protein thiH;   peg.565:biosynthesis protein
+    thiH
+  KEGG_annotation: Athe_0370:K03150 2-iminoacetate synthase [EC:4.1.99.19] | (GenBank)
+    biotin and thiamin synthesis associated;   Athe_0169:K03150 2-iminoacetate synthase
+    [EC:4.1.99.19] | (GenBank) biotin and thiamin synthesis associated
+  PATRIC_annotation: 2-iminoacetate synthase (ThiH) (EC 4.1.99.19) or [FeFe]-hydrogenase
+    maturation protein HydG
+  PMID: 17969213
+  comment: radical SAM
+  curated: true
+  genesNCBI: Athe_0370
+  genes_Cce: None
+  genes_Cth: None
+  genes_Tsac: None
+  genes_kegg: peg.565,peg.783
+  genes_string_NCBI_id: Athe_0370,Athe_0169
+  genes_string_PATRIC_id: peg.783,peg.565
+  names:
+  - L-tyrosine 4-methylphenol-lyase (2-iminoacetate-forming)
+  - 2-iminoacetate synthase (ThiH)
+  other_pathways:
+  - Thiamine metabolism
+  - Metabolic pathways
+  pathway: Thiamine metabolism
+  source: KEGG
+  tag: KEGG_Cbes
+  translated_equation: '|L-Tyrosine (Tyr-L)[c]| + |S-Adenosyl-L-methionine (SAM)[c]|
+    + |Nicotinamide adenine dinucleotide phosphate - reduced (NADPH)[c]| + |Proton
+    (H+)[c]| => Iminoglycine[c] + 4-Cresol[c] + 5-Deoxyadenosine[c] + |L-Methionine
+    (Met-L)[c]| + |Nicotinamide adenine dinucleotide phosphate (NADP)[c]|'
 
 # global check 
 - id: bglu1
@@ -7900,3 +8008,68 @@
   tag: Cth,Tsac
   translated_equation: (Indol-3-yl)acetamide[c] + H2O[c] <=> Indole-3-acetate[c]
     + Ammonia[c]
+- id: R01286
+  name: L-cystathionine L-homocysteine-lyase (deaminating)
+  equation: C02291[c] + C00001[c] <=> C00155[c] + C00014[c] + C00022[c]
+  genes: fig|31899.10.peg.1606 or fig|31899.10.peg.1675
+  genesNCBI: Athe_1124 or Athe_1190
+  curated: true
+  ec:
+  - 4.4.1.13
+  EggNOG_annotation: peg.1606:O-acetylhomoserine;   peg.1675:O-acetylhomoserine
+  KEGG_annotation: Athe_1124:K01740 O-acetylhomoserine (thiol)-lyase [EC:2.5.1.49]
+    | (GenBank) O-acetylhomoserine/O-acetylserine;   Athe_1190:K01740 O-acetylhomoserine
+    (thiol)-lyase [EC:2.5.1.49] | (GenBank) O-acetylhomoserine aminocarboxypro
+  PATRIC_annotation: O-acetylhomoserine sulfhydrylase (EC 2.5.1.49) @ O-succinylhomoserine
+    sulfhydrylase (EC 2.5.1.48) or O-acetylhomoserine sulfhydrylase (EC 2.5.1.49)
+    @ O-succinylhomoserine sulfhydrylase (EC 2.5.1.48)
+  genes_Cce: None
+  genes_Cth: (peg.1606 or peg.1675)
+  genes_Tsac: None
+  genes_kegg: None
+  genes_string_NCBI_id: Athe_1124,Athe_1190
+  genes_string_PATRIC_id: peg.1606,peg.1675
+  names:
+  - L-cystathionine L-homocysteine-lyase (deaminating pyruvate-forming)
+  note: in kegg, 4.4.1.8 has beed transferred to 4.4.1.13
+  other_pathways:
+  - Cysteine and methionine metabolism
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Biosynthesis of amino acids
+  pathway: Cysteine and methionine metabolism
+  source: Cth
+  translated_equation: L-Cystathionine[c] + H2O[c] <=> L-Homocysteine[c] + Ammonia[c]
+    + Pyruvate[c]
+  note: removed because it is wrong annotation
+- id: R00651
+  name: O-acetyl-L-homoserine:methanethiol 3-amino-3-carboxypropyltransferase
+  genes: fig|31899.10.peg.1606 or fig|31899.10.peg.1675
+  equation: C01077[c] + C00409[c] <=> C00073[c] + C00033[c]
+  ec:
+  - 2.5.1.49
+  EggNOG_annotation: peg.1606:O-acetylhomoserine;   peg.1675:O-acetylhomoserine
+  KEGG_annotation: Athe_1124:K01740 O-acetylhomoserine (thiol)-lyase [EC:2.5.1.49]
+    | (GenBank) O-acetylhomoserine/O-acetylserine;   Athe_1190:K01740 O-acetylhomoserine
+    (thiol)-lyase [EC:2.5.1.49] | (GenBank) O-acetylhomoserine aminocarboxypro
+  PATRIC_annotation: O-acetylhomoserine sulfhydrylase (EC 2.5.1.49) @ O-succinylhomoserine
+    sulfhydrylase (EC 2.5.1.48) or O-acetylhomoserine sulfhydrylase (EC 2.5.1.49)
+    @ O-succinylhomoserine sulfhydrylase (EC 2.5.1.48)
+  curated: true
+  genesNCBI: Athe_1124 or Athe_1190
+  genes_Cce: None
+  genes_Cth: '#NAME?'
+  genes_Tsac: (peg.1606 or peg.1675)
+  genes_kegg: peg.1606,peg.1675
+  genes_string_NCBI_id: Athe_1124,Athe_1190
+  genes_string_PATRIC_id: peg.1606,peg.1675
+  names:
+  - O-acetyl-L-homoserine:methanethiol 3-amino-3-carboxypropyltransferase
+  - O-Acetyl-L-homoserine acetate-lyase (adding methanethiol)
+  pathway: None
+  source: KEGG
+  tag: KEGG_Cbes,Cth,Tsac
+  translated_equation: O-Acetyl-L-homoserine[c] + Methanethiol[c] <=> |L-Methionine
+    (Met-L)[c]| + Acetate[c]
+  note: remove because no way to get Methanethiol in Cbes reaction database, so I think this rxn 
+    won't be used anytime. so just remove it from Cbes model.

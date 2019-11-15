@@ -6,11 +6,26 @@
 - id: sink_hetp
   # equation: C20246[c] =>
   equation: C15809[c] =>
-- id: source_test
-  equation: C00504[c] <=
+- id: sink_suc
+  equation: C00042[c] =>
+- id: sink_4hba
+  equation: C17467[c] =>
+- id: sink_formate
+  equation: C00058[c] =>
+- id: sink_co
+  equation: C00237[c] =>
+- id: sink_da
+  equation: C05198[c] =>
+- id: sink_met
+  equation: C00073[c] =>
+- id: source_prpp
+  equation: C03373[c] <=
+- id: source_sam
+  equation: C00019[c] <=
+# - id: source_test
+#   equation: C04556[c] <=
 - id: sink_test
-  equation: C00504[c] =>
-
+  equation: C00378[c] =>
 
 - id: sink_fad
   equation: C00016[c] =>

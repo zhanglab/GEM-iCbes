@@ -65,10 +65,10 @@ compounds:
   name: Pyridoxine (B6)
   lower: -0.000486287
   upper: 1000.0
-- id: C00378
-  name: Thiamine (B1)
-  lower: -0.000148252
-  upper: 1000.0
+# - id: C00378
+#   name: Thiamine (B1)
+#   lower: -0.000148252
+#   upper: 1000.0
 - id: C00504
   name: Folic acid
   lower: -4.53104e-05

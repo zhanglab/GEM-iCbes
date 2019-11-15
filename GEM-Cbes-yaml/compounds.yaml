@@ -3375,6 +3375,7 @@
   - Apo-[acyl-carrier-protein]
   source: KEGG
   tag: kegg-generic-database
+  note: formula is based on iJO1366 model
 - id: C20446
   # name: tRNA 7-aminomethyl-7-carbaguanine
   name: tRNA preQ1
@@ -5232,6 +5233,15 @@
   formula: C14H27O2SR
   charge: 0
   note: formula of fa1 is C14H28O3
+- id: C17467
+  name: 4-Hydroxy-benzyl alcohol
+  formula: C7H8O2
+  charge: 0
+  kegg: C17467
+  mol_weight: 124.1372
+  source: KEGG
+  tag: BIGG-THZPSN
+  templateID: 4hba
 
 
 
