@@ -1,247 +1,158 @@
-R05850	fig|31899.10.peg.2791	00053_Ascorbateandaldaratemetabolism.rxns
-R08260	fig|31899.10.peg.2636 or fig|31899.10.peg.2639	00983_Drugmetabolism-otherenzymes.rxns
-R00256	fig|31899.10.peg.2425 or fig|31899.10.peg.2035 or fig|31899.10.peg.2036 or fig|31899.10.peg.2424	00471_D-GlutamineandD-glutamatemetabolism.rxns
-R07618	fig|31899.10.peg.1157	00280_Valine,leucineandisoleucinedegradation.rxns
-R00734	fig|31899.10.peg.1970	00350_Tyrosinemetabolism.rxns
-R00200	fig|31899.10.peg.1753	00620_Pyruvatemetabolism.rxns
-R00206	fig|31899.10.peg.1902	00620_Pyruvatemetabolism.rxns
-R00217	fig|31899.10.peg.2877	00620_Pyruvatemetabolism.rxns
-R00230	fig|31899.10.peg.1987	00620_Pyruvatemetabolism.rxns
-R00315	fig|31899.10.peg.1986	00620_Pyruvatemetabolism.rxns
-R02320	fig|31899.10.peg.1753	00620_Pyruvatemetabolism.rxns
-R02569	fig|31899.10.peg.1156	00620_Pyruvatemetabolism.rxns
-R07618	fig|31899.10.peg.1157	00620_Pyruvatemetabolism.rxns
-R00588	fig|31899.10.peg.2681	00260_Glycine,serineandthreoninemetabolism.rxns
-R01466	fig|31899.10.peg.1097	00260_Glycine,serineandthreoninemetabolism.rxns
-R01513	fig|31899.10.peg.2680	00260_Glycine,serineandthreoninemetabolism.rxns
-R01514	fig|31899.10.peg.2617	00260_Glycine,serineandthreoninemetabolism.rxns
-R01518	fig|31899.10.peg.1810 or fig|31899.10.peg.1898	00260_Glycine,serineandthreoninemetabolism.rxns
-R03815	fig|31899.10.peg.1157	00260_Glycine,serineandthreoninemetabolism.rxns
-R01056	fig|31899.10.peg.1073	00030_Pentosephosphatepathway.rxns
-R01070	fig|31899.10.peg.1061	00030_Pentosephosphatepathway.rxns
-R01529	fig|31899.10.peg.1528	00030_Pentosephosphatepathway.rxns
-R01541	fig|31899.10.peg.2967	00030_Pentosephosphatepathway.rxns
-R01641	fig|31899.10.peg.2605 or fig|31899.10.peg.2606 or fig|31899.10.peg.2903	00030_Pentosephosphatepathway.rxns
-R01827	fig|31899.10.peg.1982	00030_Pentosephosphatepathway.rxns
-R01830	fig|31899.10.peg.2605 or fig|31899.10.peg.2606 or fig|31899.10.peg.2903	00030_Pentosephosphatepathway.rxns
-R02073	fig|31899.10.peg.2336	00030_Pentosephosphatepathway.rxns
-R02739	fig|31899.10.peg.1059	00030_Pentosephosphatepathway.rxns
-R02740	fig|31899.10.peg.1059	00030_Pentosephosphatepathway.rxns
-R04779	fig|31899.10.peg.1752	00030_Pentosephosphatepathway.rxns
-R05605	fig|31899.10.peg.2968	00030_Pentosephosphatepathway.rxns
-R00206	fig|31899.10.peg.1902	00710_Carbonfixationinphotosyntheticorganisms.rxns
-R01015	fig|31899.10.peg.1899	00710_Carbonfixationinphotosyntheticorganisms.rxns
-R01056	fig|31899.10.peg.1073	00710_Carbonfixationinphotosyntheticorganisms.rxns
-R01061	fig|31899.10.peg.1900	00710_Carbonfixationinphotosyntheticorganisms.rxns
-R01067	fig|31899.10.peg.2605 or fig|31899.10.peg.2606 or fig|31899.10.peg.2903	00710_Carbonfixationinphotosyntheticorganisms.rxns
-R01068	fig|31899.10.peg.1061	00710_Carbonfixationinphotosyntheticorganisms.rxns
-R01512	fig|31899.10.peg.1899	00710_Carbonfixationinphotosyntheticorganisms.rxns
-R01529	fig|31899.10.peg.1528	00710_Carbonfixationinphotosyntheticorganisms.rxns
-R01641	fig|31899.10.peg.2605 or fig|31899.10.peg.2606 or fig|31899.10.peg.2903	00710_Carbonfixationinphotosyntheticorganisms.rxns
-R01829	fig|31899.10.peg.1061	00710_Carbonfixationinphotosyntheticorganisms.rxns
-R00734	fig|31899.10.peg.1970	00130_Ubiquinoneandotherterpenoid-quinonebiosynthesis.rxns
-R00694	fig|31899.10.peg.1970	00400_Phenylalanine,tyrosineandtryptophanbiosynthesis.rxns
-R00734	fig|31899.10.peg.1970	00400_Phenylalanine,tyrosineandtryptophanbiosynthesis.rxns
-R00575	fig|31899.10.peg.2035 or fig|31899.10.peg.2036	00240_Pyrimidinemetabolism.rxns
-R01933	fig|31899.10.peg.1157	00380_Tryptophanmetabolism.rxns
-R00734	fig|31899.10.peg.1970	00401_Novobiocinbiosynthesis.rxns
-R00143	fig|31899.10.peg.1658	00910_Nitrogenmetabolism.rxns
-R01395	fig|31899.10.peg.2035 or fig|31899.10.peg.2036	00910_Nitrogenmetabolism.rxns
-R00299	fig|31899.10.peg.984	00524_Neomycin,kanamycinandgentamicinbiosynthesis.rxns
-R00066	fig|31899.10.peg.995	00740_Riboflavinmetabolism.rxns
-R00425	fig|31899.10.peg.994	00740_Riboflavinmetabolism.rxns
-R03458	fig|31899.10.peg.996	00740_Riboflavinmetabolism.rxns
-R03459	fig|31899.10.peg.996	00740_Riboflavinmetabolism.rxns
-R04457	fig|31899.10.peg.993	00740_Riboflavinmetabolism.rxns
-R07281	fig|31899.10.peg.994	00740_Riboflavinmetabolism.rxns
-R07766	fig|31899.10.peg.1154	00785_Lipoicacidmetabolism.rxns
-R07769	fig|31899.10.peg.1154	00785_Lipoicacidmetabolism.rxns
-R01015	fig|31899.10.peg.1899	00562_Inositolphosphatemetabolism.rxns
-R01183	fig|31899.10.peg.2909 or fig|31899.10.peg.755	00562_Inositolphosphatemetabolism.rxns
-R02782	fig|31899.10.peg.2908	00562_Inositolphosphatemetabolism.rxns
-R09952	fig|31899.10.peg.756	00562_Inositolphosphatemetabolism.rxns
-R03223	fig|31899.10.peg.785	00730_Thiaminemetabolism.rxns
-R03472	fig|31899.10.peg.786	00730_Thiaminemetabolism.rxns
-R07459	fig|31899.10.peg.784 or fig|31899.10.peg.1282	00730_Thiaminemetabolism.rxns
-R10247	fig|31899.10.peg.782	00730_Thiaminemetabolism.rxns
-R10712	fig|31899.10.peg.785	00730_Thiaminemetabolism.rxns
-R00299	fig|31899.10.peg.984	00521_Streptomycinbiosynthesis.rxns
-R01183	fig|31899.10.peg.2909 or fig|31899.10.peg.755	00521_Streptomycinbiosynthesis.rxns
-R00230	fig|31899.10.peg.1987	00680_Methanemetabolism.rxns
-R00315	fig|31899.10.peg.1986	00680_Methanemetabolism.rxns
-R00588	fig|31899.10.peg.2681	00680_Methanemetabolism.rxns
-R00658	fig|31899.10.peg.1897	00680_Methanemetabolism.rxns
-R00756	fig|31899.10.peg.1752	00680_Methanemetabolism.rxns
-R01068	fig|31899.10.peg.1061	00680_Methanemetabolism.rxns
-R01513	fig|31899.10.peg.2680	00680_Methanemetabolism.rxns
-R01518	fig|31899.10.peg.1810 or fig|31899.10.peg.1898	00680_Methanemetabolism.rxns
-R00291	fig|31899.10.peg.1410	00520_Aminosugarandnucleotidesugarmetabolism.rxns
-R00418	fig|31899.10.peg.1410	00520_Aminosugarandnucleotidesugarmetabolism.rxns
-R00502	fig|31899.10.peg.1408	00520_Aminosugarandnucleotidesugarmetabolism.rxns
-R00883	fig|31899.10.peg.632	00520_Aminosugarandnucleotidesugarmetabolism.rxns
-R00885	fig|31899.10.peg.1964	00520_Aminosugarandnucleotidesugarmetabolism.rxns
-R00948	fig|31899.10.peg.989	00520_Aminosugarandnucleotidesugarmetabolism.rxns
-R01092	fig|31899.10.peg.1409	00520_Aminosugarandnucleotidesugarmetabolism.rxns
-R01786	fig|31899.10.peg.984	00520_Aminosugarandnucleotidesugarmetabolism.rxns
-R01818	fig|31899.10.peg.2262 or fig|31899.10.peg.632	00520_Aminosugarandnucleotidesugarmetabolism.rxns
-R01819	fig|31899.10.peg.1059	00520_Aminosugarandnucleotidesugarmetabolism.rxns
-R02059	fig|31899.10.peg.481	00520_Aminosugarandnucleotidesugarmetabolism.rxns
-R02060	fig|31899.10.peg.2899	00520_Aminosugarandnucleotidesugarmetabolism.rxns
-R02740	fig|31899.10.peg.1059	00520_Aminosugarandnucleotidesugarmetabolism.rxns
-R03920	fig|31899.10.peg.2673	00520_Aminosugarandnucleotidesugarmetabolism.rxns
-R01514	fig|31899.10.peg.2617	00561_Glycerolipidmetabolism.rxns
-R04470	fig|31899.10.peg.1585 or fig|31899.10.peg.888	00561_Glycerolipidmetabolism.rxns
-R00734	fig|31899.10.peg.1970	00950_Isoquinolinealkaloidbiosynthesis.rxns
-R00206	fig|31899.10.peg.1902	00720_Carbonfixationpathwaysinprokaryotes.rxns
-R00230	fig|31899.10.peg.1987	00720_Carbonfixationpathwaysinprokaryotes.rxns
-R00315	fig|31899.10.peg.1986	00720_Carbonfixationpathwaysinprokaryotes.rxns
-R01325	fig|31899.10.peg.955	00720_Carbonfixationpathwaysinprokaryotes.rxns
-R01900	fig|31899.10.peg.955	00720_Carbonfixationpathwaysinprokaryotes.rxns
-R00588	fig|31899.10.peg.2681	00630_Glyoxylateanddicarboxylatemetabolism.rxns
-R01221	fig|31899.10.peg.1157	00630_Glyoxylateanddicarboxylatemetabolism.rxns
-R01325	fig|31899.10.peg.955	00630_Glyoxylateanddicarboxylatemetabolism.rxns
-R01514	fig|31899.10.peg.2617	00630_Glyoxylateanddicarboxylatemetabolism.rxns
-R01900	fig|31899.10.peg.955	00630_Glyoxylateanddicarboxylatemetabolism.rxns
-R00256	fig|31899.10.peg.2425 or fig|31899.10.peg.2035 or fig|31899.10.peg.2036 or fig|31899.10.peg.2424	00250_Alanine,aspartateandglutamatemetabolism.rxns
-R00575	fig|31899.10.peg.2035 or fig|31899.10.peg.2036	00250_Alanine,aspartateandglutamatemetabolism.rxns
-R01086	fig|31899.10.peg.1735	00250_Alanine,aspartateandglutamatemetabolism.rxns
-R01954	fig|31899.10.peg.1736	00250_Alanine,aspartateandglutamatemetabolism.rxns
-R00995	fig|31899.10.peg.2877	00660_C5-Brancheddibasicacidmetabolism.rxns
-R00921	fig|31899.10.peg.1987	00640_Propanoatemetabolism.rxns
-R00923	fig|31899.10.peg.2877	00640_Propanoatemetabolism.rxns
-R01353	fig|31899.10.peg.1986	00640_Propanoatemetabolism.rxns
-R07618	fig|31899.10.peg.1157	00640_Propanoatemetabolism.rxns
-R00200	fig|31899.10.peg.1753	00010_GlycolysisGluconeogenesis.rxns
-R00658	fig|31899.10.peg.1897	00010_GlycolysisGluconeogenesis.rxns
-R01015	fig|31899.10.peg.1899	00010_GlycolysisGluconeogenesis.rxns
-R01061	fig|31899.10.peg.1900	00010_GlycolysisGluconeogenesis.rxns
-R01070	fig|31899.10.peg.1061	00010_GlycolysisGluconeogenesis.rxns
-R01512	fig|31899.10.peg.1899	00010_GlycolysisGluconeogenesis.rxns
-R01516	fig|31899.10.peg.1810	00010_GlycolysisGluconeogenesis.rxns
-R01518	fig|31899.10.peg.1810 or fig|31899.10.peg.1898	00010_GlycolysisGluconeogenesis.rxns
-R01600	fig|31899.10.peg.984	00010_GlycolysisGluconeogenesis.rxns
-R01786	fig|31899.10.peg.984	00010_GlycolysisGluconeogenesis.rxns
-R02073	fig|31899.10.peg.2336	00010_GlycolysisGluconeogenesis.rxns
-R02569	fig|31899.10.peg.1156	00010_GlycolysisGluconeogenesis.rxns
-R02739	fig|31899.10.peg.1059	00010_GlycolysisGluconeogenesis.rxns
-R02740	fig|31899.10.peg.1059	00010_GlycolysisGluconeogenesis.rxns
-R03321	fig|31899.10.peg.1059	00010_GlycolysisGluconeogenesis.rxns
-R04779	fig|31899.10.peg.1752	00010_GlycolysisGluconeogenesis.rxns
-R07618	fig|31899.10.peg.1157	00010_GlycolysisGluconeogenesis.rxns
-R00200	fig|31899.10.peg.1753	00230_Purinemetabolism.rxns
-R00430	fig|31899.10.peg.1753	00230_Purinemetabolism.rxns
-R01138	fig|31899.10.peg.1753	00230_Purinemetabolism.rxns
-R01858	fig|31899.10.peg.1753	00230_Purinemetabolism.rxns
-R01071	fig|31899.10.peg.1973 or fig|31899.10.peg.1972	00340_Histidinemetabolism.rxns
-R01163	fig|31899.10.peg.1971	00340_Histidinemetabolism.rxns
-R03012	fig|31899.10.peg.1971	00340_Histidinemetabolism.rxns
-R03243	fig|31899.10.peg.1970	00340_Histidinemetabolism.rxns
-R03457	fig|31899.10.peg.1969	00340_Histidinemetabolism.rxns
-R04035	fig|31899.10.peg.1965	00340_Histidinemetabolism.rxns
-R04037	fig|31899.10.peg.1965	00340_Histidinemetabolism.rxns
-R04640	fig|31899.10.peg.1967	00340_Histidinemetabolism.rxns
-R00299	fig|31899.10.peg.984	00500_Starchandsucrosemetabolism.rxns
-R00306	fig|31899.10.peg.878 or fig|31899.10.peg.2375	00500_Starchandsucrosemetabolism.rxns
-R00760	fig|31899.10.peg.2673	00500_Starchandsucrosemetabolism.rxns
-R00771	fig|31899.10.peg.1059	00500_Starchandsucrosemetabolism.rxns
-R00801	fig|31899.10.peg.561	00500_Starchandsucrosemetabolism.rxns
-R00948	fig|31899.10.peg.989	00500_Starchandsucrosemetabolism.rxns
-R00952	fig|31899.10.peg.880 or fig|31899.10.peg.879	00500_Starchandsucrosemetabolism.rxns
-R01718	fig|31899.10.peg.561	00500_Starchandsucrosemetabolism.rxns
-R02727	fig|31899.10.peg.818 or fig|31899.10.peg.834	00500_Starchandsucrosemetabolism.rxns
-R03527	fig|31899.10.peg.878	00500_Starchandsucrosemetabolism.rxns
-R11310	fig|31899.10.peg.812	00500_Starchandsucrosemetabolism.rxns
-R09726	fig|31899.10.peg.1291	00790_Folatebiosynthesis.rxns
-R09735	fig|31899.10.peg.1287 or fig|31899.10.peg.1288	00790_Folatebiosynthesis.rxns
-R11372	fig|31899.10.peg.1290	00790_Folatebiosynthesis.rxns
-R01432	fig|31899.10.peg.1037	00040_Pentoseandglucuronateinterconversions.rxns
-R01478	fig|31899.10.peg.2636 or fig|31899.10.peg.2639	00040_Pentoseandglucuronateinterconversions.rxns
-R01482	fig|31899.10.peg.1896	00040_Pentoseandglucuronateinterconversions.rxns
-R01526	fig|31899.10.peg.2793	00040_Pentoseandglucuronateinterconversions.rxns
-R01529	fig|31899.10.peg.1528	00040_Pentoseandglucuronateinterconversions.rxns
-R01542	fig|31899.10.peg.2965	00040_Pentoseandglucuronateinterconversions.rxns
-R01639	fig|31899.10.peg.1000	00040_Pentoseandglucuronateinterconversions.rxns
-R01761	fig|31899.10.peg.1161	00040_Pentoseandglucuronateinterconversions.rxns
-R01785	fig|31899.10.peg.1150	00040_Pentoseandglucuronateinterconversions.rxns
-R01902	fig|31899.10.peg.1301	00040_Pentoseandglucuronateinterconversions.rxns
-R01983	fig|31899.10.peg.1896	00040_Pentoseandglucuronateinterconversions.rxns
-R02439	fig|31899.10.peg.2793	00040_Pentoseandglucuronateinterconversions.rxns
-R02454	fig|31899.10.peg.1315	00040_Pentoseandglucuronateinterconversions.rxns
-R04383	fig|31899.10.peg.2966	00040_Pentoseandglucuronateinterconversions.rxns
-R05606	fig|31899.10.peg.1316	00040_Pentoseandglucuronateinterconversions.rxns
-R05850	fig|31899.10.peg.2791	00040_Pentoseandglucuronateinterconversions.rxns
-R07413	fig|31899.10.peg.2066 or fig|31899.10.peg.2574	00040_Pentoseandglucuronateinterconversions.rxns
-R00256	fig|31899.10.peg.2425 or fig|31899.10.peg.2035 or fig|31899.10.peg.2036 or fig|31899.10.peg.2424	00220_Argininebiosynthesis.rxns
-R01086	fig|31899.10.peg.1735	00220_Argininebiosynthesis.rxns
-R01398	fig|31899.10.peg.2037	00220_Argininebiosynthesis.rxns
-R01954	fig|31899.10.peg.1736	00220_Argininebiosynthesis.rxns
-R02649	fig|31899.10.peg.1559	00220_Argininebiosynthesis.rxns
-R03443	fig|31899.10.peg.1560	00220_Argininebiosynthesis.rxns
-R08127	fig|31899.10.peg.2636 or fig|31899.10.peg.2639	00944_Flavoneandflavonolbiosynthesis.rxns
-R06590	fig|31899.10.peg.2605 or fig|31899.10.peg.2606 or fig|31899.10.peg.2903	01051_Biosynthesisofansamycins.rxns
-R00230	fig|31899.10.peg.1987	00430_Taurineandhypotaurinemetabolism.rxns
-R00315	fig|31899.10.peg.1986	00430_Taurineandhypotaurinemetabolism.rxns
-R01580	fig|31899.10.peg.2426	00750_VitaminB6metabolism.rxns
-R05086	fig|31899.10.peg.1097	00750_VitaminB6metabolism.rxns
-R05839	fig|31899.10.peg.2426	00750_VitaminB6metabolism.rxns
-R07456	fig|31899.10.peg.2425 or fig|31899.10.peg.2424	00750_VitaminB6metabolism.rxns
-R04998	fig|31899.10.peg.878	00940_Phenylpropanoidbiosynthesis.rxns
-R00694	fig|31899.10.peg.1970	00960_Tropane,piperidineandpyridinealkaloidbiosynthesis.rxns
-R08034	fig|31899.10.peg.2217 or fig|31899.10.peg.2217 or fig|31899.10.peg.1337 or fig|31899.10.peg.1339 or fig|31899.10.peg.1338 or fig|31899.10.peg.2218 or fig|31899.10.peg.2218 or fig|31899.10.peg.1340	00633_Nitrotoluenedegradation.rxns
-R01074	fig|31899.10.peg.607 or fig|31899.10.peg.607 or fig|31899.10.peg.607 or fig|31899.10.peg.607	00780_Biotinmetabolism.rxns
-R03182	fig|31899.10.peg.78	00780_Biotinmetabolism.rxns
-R03231	fig|31899.10.peg.77	00780_Biotinmetabolism.rxns
-R05145	fig|31899.10.peg.607 or fig|31899.10.peg.607 or fig|31899.10.peg.607 or fig|31899.10.peg.607	00780_Biotinmetabolism.rxns
-R00291	fig|31899.10.peg.1410	00052_Galactosemetabolism.rxns
-R00502	fig|31899.10.peg.1408	00052_Galactosemetabolism.rxns
-R00801	fig|31899.10.peg.561	00052_Galactosemetabolism.rxns
-R01092	fig|31899.10.peg.1409	00052_Galactosemetabolism.rxns
-R01101	fig|31899.10.peg.1585 or fig|31899.10.peg.888	00052_Galactosemetabolism.rxns
-R01103	fig|31899.10.peg.1585 or fig|31899.10.peg.888	00052_Galactosemetabolism.rxns
-R01104	fig|31899.10.peg.1585 or fig|31899.10.peg.888	00052_Galactosemetabolism.rxns
-R01194	fig|31899.10.peg.1585 or fig|31899.10.peg.888	00052_Galactosemetabolism.rxns
-R01329	fig|31899.10.peg.1585 or fig|31899.10.peg.888	00052_Galactosemetabolism.rxns
-R01678	fig|31899.10.peg.1317 or fig|31899.10.peg.2445	00052_Galactosemetabolism.rxns
-R01786	fig|31899.10.peg.984	00052_Galactosemetabolism.rxns
-R02926	fig|31899.10.peg.1585 or fig|31899.10.peg.888	00052_Galactosemetabolism.rxns
-R03236	fig|31899.10.peg.542 or fig|31899.10.peg.1752	00052_Galactosemetabolism.rxns
-R03237	fig|31899.10.peg.1752	00052_Galactosemetabolism.rxns
-R03238	fig|31899.10.peg.1752	00052_Galactosemetabolism.rxns
-R03239	fig|31899.10.peg.1752	00052_Galactosemetabolism.rxns
-R03634	fig|31899.10.peg.1585 or fig|31899.10.peg.888	00052_Galactosemetabolism.rxns
-R05168	fig|31899.10.peg.481	00052_Galactosemetabolism.rxns
-R05549	fig|31899.10.peg.1585 or fig|31899.10.peg.888	00052_Galactosemetabolism.rxns
-R00694	fig|31899.10.peg.1970	00360_Phenylalaninemetabolism.rxns
-R03355	fig|31899.10.peg.1317 or fig|31899.10.peg.2445	00600_Sphingolipidmetabolism.rxns
-R04019	fig|31899.10.peg.1585 or fig|31899.10.peg.888	00600_Sphingolipidmetabolism.rxns
-R02558	fig|31899.10.peg.878	00460_Cyanoaminoacidmetabolism.rxns
-R02985	fig|31899.10.peg.878	00460_Cyanoaminoacidmetabolism.rxns
-R10035	fig|31899.10.peg.878	00460_Cyanoaminoacidmetabolism.rxns
-R10039	fig|31899.10.peg.878	00460_Cyanoaminoacidmetabolism.rxns
-R10040	fig|31899.10.peg.878	00460_Cyanoaminoacidmetabolism.rxns
-R01325	fig|31899.10.peg.955	00020_CitratecycleTCAcycle.rxns
-R01900	fig|31899.10.peg.955	00020_CitratecycleTCAcycle.rxns
-R02569	fig|31899.10.peg.1156	00020_CitratecycleTCAcycle.rxns
-R07618	fig|31899.10.peg.1157	00020_CitratecycleTCAcycle.rxns
-R00867	fig|31899.10.peg.2673	00051_Fructoseandmannosemetabolism.rxns
-R00868	fig|31899.10.peg.968	00051_Fructoseandmannosemetabolism.rxns
-R00878	fig|31899.10.peg.1037	00051_Fructoseandmannosemetabolism.rxns
-R00883	fig|31899.10.peg.632	00051_Fructoseandmannosemetabolism.rxns
-R00885	fig|31899.10.peg.1964	00051_Fructoseandmannosemetabolism.rxns
-R01015	fig|31899.10.peg.1899	00051_Fructoseandmannosemetabolism.rxns
-R01070	fig|31899.10.peg.1061	00051_Fructoseandmannosemetabolism.rxns
-R01818	fig|31899.10.peg.2262 or fig|31899.10.peg.632	00051_Fructoseandmannosemetabolism.rxns
-R01819	fig|31899.10.peg.1059	00051_Fructoseandmannosemetabolism.rxns
-R02071	fig|31899.10.peg.542	00051_Fructoseandmannosemetabolism.rxns
-R02073	fig|31899.10.peg.2336	00051_Fructoseandmannosemetabolism.rxns
-R02262	fig|31899.10.peg.1149	00051_Fructoseandmannosemetabolism.rxns
-R02263	fig|31899.10.peg.1150	00051_Fructoseandmannosemetabolism.rxns
-R02437	fig|31899.10.peg.1160	00051_Fructoseandmannosemetabolism.rxns
-R02568	fig|31899.10.peg.1061	00051_Fructoseandmannosemetabolism.rxns
-R03014	fig|31899.10.peg.1301	00051_Fructoseandmannosemetabolism.rxns
-R03163	fig|31899.10.peg.2619	00051_Fructoseandmannosemetabolism.rxns
-R03232	fig|31899.10.peg.543 or fig|31899.10.peg.544	00051_Fructoseandmannosemetabolism.rxns
-R03241	fig|31899.10.peg.1301	00051_Fructoseandmannosemetabolism.rxns
-R04779	fig|31899.10.peg.1752	00051_Fructoseandmannosemetabolism.rxns
-R05607	fig|31899.10.peg.1152	00051_Fructoseandmannosemetabolism.rxns
-R09030	fig|31899.10.peg.1073	00051_Fructoseandmannosemetabolism.rxns
+R03634	fig|31899.10.peg.1585 or fig|31899.10.peg.888
+R05549	fig|31899.10.peg.1585 or fig|31899.10.peg.888
+R07413	fig|31899.10.peg.2066 or fig|31899.10.peg.2574
+R08034	fig|31899.10.peg.2217 or fig|31899.10.peg.2217 or fig|31899.10.peg.1337 or fig|31899.10.peg.1339 or fig|31899.10.peg.1338 or fig|31899.10.peg.2218 or fig|31899.10.peg.2218 or fig|31899.10.peg.1340
+R00868	fig|31899.10.peg.968
+R01542	fig|31899.10.peg.2965
+R05607	fig|31899.10.peg.1152
+R01183	fig|31899.10.peg.2909 or fig|31899.10.peg.755
+R03458	fig|31899.10.peg.996
+R00217	fig|31899.10.peg.2877
+R02454	fig|31899.10.peg.1315
+R01513	fig|31899.10.peg.2680
+R03443	fig|31899.10.peg.1560
+R01398	fig|31899.10.peg.2037
+R09735	fig|31899.10.peg.1287 or fig|31899.10.peg.1288
+R01067	fig|31899.10.peg.2605 or fig|31899.10.peg.2606 or fig|31899.10.peg.2903
+R01830	fig|31899.10.peg.2605 or fig|31899.10.peg.2606 or fig|31899.10.peg.2903
+R01827	fig|31899.10.peg.1982
+R00230	fig|31899.10.peg.1987
+R00921	fig|31899.10.peg.1987
+R00952	fig|31899.10.peg.880 or fig|31899.10.peg.879
+R02727	fig|31899.10.peg.818 or fig|31899.10.peg.834
+R01071	fig|31899.10.peg.1973 or fig|31899.10.peg.1972
+R03223	fig|31899.10.peg.785
+R10712	fig|31899.10.peg.785
+R04457	fig|31899.10.peg.993
+R00066	fig|31899.10.peg.995
+R00694	fig|31899.10.peg.1970
+R00734	fig|31899.10.peg.1970
+R00588	fig|31899.10.peg.2681
+R05839	fig|31899.10.peg.2426
+R01580	fig|31899.10.peg.2426
+R03231	fig|31899.10.peg.77
+R03243	fig|31899.10.peg.1970
+R00299	fig|31899.10.peg.984
+R01600	fig|31899.10.peg.984
+R01786	fig|31899.10.peg.984
+R00760	fig|31899.10.peg.2673
+R00867	fig|31899.10.peg.2673
+R03920	fig|31899.10.peg.2673
+R00756	fig|31899.10.peg.1752
+R04779	fig|31899.10.peg.1752
+R03237	fig|31899.10.peg.1752
+R03238	fig|31899.10.peg.1752
+R03239	fig|31899.10.peg.1752
+R03236	fig|31899.10.peg.542 or fig|31899.10.peg.1752
+R02439	fig|31899.10.peg.2793
+R01526	fig|31899.10.peg.2793
+R01639	fig|31899.10.peg.1000
+R01514	fig|31899.10.peg.2617
+R00200	fig|31899.10.peg.1753
+R00430	fig|31899.10.peg.1753
+R01138	fig|31899.10.peg.1753
+R01858	fig|31899.10.peg.1753
+R01541	fig|31899.10.peg.2967
+R01902	fig|31899.10.peg.1301
+R03014	fig|31899.10.peg.1301
+R03241	fig|31899.10.peg.1301
+R02071	fig|31899.10.peg.542
+R01092	fig|31899.10.peg.1409
+R02073	fig|31899.10.peg.2336
+R00315	fig|31899.10.peg.1986
+R01353	fig|31899.10.peg.1986
+R01512	fig|31899.10.peg.1899
+R02649	fig|31899.10.peg.1559
+R00502	fig|31899.10.peg.1408
+R00885	fig|31899.10.peg.1964
+R00883	fig|31899.10.peg.632
+R00948	fig|31899.10.peg.989
+R09726	fig|31899.10.peg.1291
+R01718	fig|31899.10.peg.561
+R00801	fig|31899.10.peg.561
+R10040	fig|31899.10.peg.878
+R10035	fig|31899.10.peg.878
+R04998	fig|31899.10.peg.878
+R10039	fig|31899.10.peg.878
+R02985	fig|31899.10.peg.878
+R02558	fig|31899.10.peg.878
+R01103	fig|31899.10.peg.1585 or fig|31899.10.peg.888
+R01194	fig|31899.10.peg.1585 or fig|31899.10.peg.888
+R02926	fig|31899.10.peg.1585 or fig|31899.10.peg.888
+R01329	fig|31899.10.peg.1585 or fig|31899.10.peg.888
+R01104	fig|31899.10.peg.1585 or fig|31899.10.peg.888
+R01101	fig|31899.10.peg.1585 or fig|31899.10.peg.888
+R01678	fig|31899.10.peg.1317 or fig|31899.10.peg.2445
+R08127	fig|31899.10.peg.2636 or fig|31899.10.peg.2639
+R08260	fig|31899.10.peg.2636 or fig|31899.10.peg.2639
+R02059	fig|31899.10.peg.481
+R05168	fig|31899.10.peg.481
+R04037	fig|31899.10.peg.1965
+R03459	fig|31899.10.peg.996
+R04035	fig|31899.10.peg.1965
+R00995	fig|31899.10.peg.2877
+R00923	fig|31899.10.peg.2877
+R01068	fig|31899.10.peg.1061
+R01829	fig|31899.10.peg.1061
+R02568	fig|31899.10.peg.1061
+R01070	fig|31899.10.peg.1061
+R05605	fig|31899.10.peg.2968
+R02262	fig|31899.10.peg.1149
+R02263	fig|31899.10.peg.1150
+R01785	fig|31899.10.peg.1150
+R07281	fig|31899.10.peg.994
+R03472	fig|31899.10.peg.786
+R00658	fig|31899.10.peg.1897
+R03457	fig|31899.10.peg.1969
+R01325	fig|31899.10.peg.955
+R01900	fig|31899.10.peg.955
+R02782	fig|31899.10.peg.2908
+R05606	fig|31899.10.peg.1316
+R05086	fig|31899.10.peg.1097
+R01086	fig|31899.10.peg.1735
+R11372	fig|31899.10.peg.1290
+R01529	fig|31899.10.peg.1528
+R02739	fig|31899.10.peg.1059
+R00291	fig|31899.10.peg.1410
+R00418	fig|31899.10.peg.1410
+R05850	fig|31899.10.peg.2791
+R01015	fig|31899.10.peg.1899
+R01482	fig|31899.10.peg.1896
+R01983	fig|31899.10.peg.1896
+R02437	fig|31899.10.peg.1160
+R04640	fig|31899.10.peg.1967
+R04383	fig|31899.10.peg.2966
+R03163	fig|31899.10.peg.2619
+R01761	fig|31899.10.peg.1161
+R01432	fig|31899.10.peg.1037
+R00878	fig|31899.10.peg.1037
+R01056	fig|31899.10.peg.1073
+R01819	fig|31899.10.peg.1059
+R00771	fig|31899.10.peg.1059
+R03321	fig|31899.10.peg.1059
+R09952	fig|31899.10.peg.756
+R01518	fig|31899.10.peg.1810 or fig|31899.10.peg.1898
+R11310	fig|31899.10.peg.812
+R03182	fig|31899.10.peg.78
+R01954	fig|31899.10.peg.1736
+R01933	fig|31899.10.peg.1157
+R01061	fig|31899.10.peg.1900
+R01641	fig|31899.10.peg.2605 or fig|31899.10.peg.2606 or fig|31899.10.peg.2903
+R09030	fig|31899.10.peg.1073
+R01074	fig|31899.10.peg.607 or fig|31899.10.peg.607 or fig|31899.10.peg.607 or fig|31899.10.peg.607
+R03012	fig|31899.10.peg.1971
+R02060	fig|31899.10.peg.2899
+R01818	fig|31899.10.peg.2262 or fig|31899.10.peg.632
+R00206	fig|31899.10.peg.1902
+R00425	fig|31899.10.peg.994
+R00575	fig|31899.10.peg.2035 or fig|31899.10.peg.2036
+R01221	fig|31899.10.peg.1157
+R00143	fig|31899.10.peg.1658
+R01466	fig|31899.10.peg.1097
+R07456	fig|31899.10.peg.2425 or fig|31899.10.peg.2424
+R00306	fig|31899.10.peg.878 or fig|31899.10.peg.2375
+R02740	fig|31899.10.peg.1059
+R01163	fig|31899.10.peg.1971
+R00256	fig|31899.10.peg.2425 or fig|31899.10.peg.2035 or fig|31899.10.peg.2036 or fig|31899.10.peg.2424
+R01395	fig|31899.10.peg.2035 or fig|31899.10.peg.2036
+R06590	fig|31899.10.peg.2605 or fig|31899.10.peg.2606 or fig|31899.10.peg.2903
