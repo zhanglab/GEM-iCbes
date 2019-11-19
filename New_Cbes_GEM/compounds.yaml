@@ -1,0 +1,3756 @@
+- id: C00963
+  name: beta-D-Glucoside
+  PubChem: '4214'
+  formula: C6H11O6R
+  names:
+  - beta-D-Glucoside
+- id: C19848
+  name: Adenylated molybdopterin
+  PubChem: '135626315'
+  formula: C20H26N10O12P2S2
+  mol_weight: 724.5578
+  names:
+  - Adenylated molybdopterin
+  - Adenylyl-molybdopterin
+- id: C20246
+  name: 2-[(2R,5Z)-2-Carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate
+  PubChem: '163311989'
+  formula: C7H10NO6PS
+  mol_weight: 267.1962
+  names:
+  - 2-[(2R,5Z)-2-Carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate
+- id: C20251
+  name: 1-Keto-D-chiro-inositol
+  PubChem: '163311994'
+  formula: C6H10O6
+  mol_weight: 178.14
+  names:
+  - 1-Keto-D-chiro-inositol
+  - 2D-2,3,5/4,6-Pentahydroxycyclohexanone
+- id: C21310
+  name: (8S)-3',8-Cyclo-7,8-dihydroguanosine 5'-triphosphate
+  PubChem: '319075052'
+  formula: C10H16N5O14P3
+  mol_weight: 523.1804
+  names:
+  - (8S)-3',8-Cyclo-7,8-dihydroguanosine 5'-triphosphate
+- id: C00615
+  name: Protein histidine
+  PubChem: '3889'
+  comment: Generic compound in reaction hierarchy
+  formula: C7H8N4O2R2
+  names:
+  - Protein histidine
+  - Protein L-histidine
+  - '[Protein]-L-histidine'
+- id: C01335
+  name: ROH
+  PubChem: '4543'
+  comment: 'Generic compound in reaction hierarchy
+
+    R = alkyl group [CPD:C00069]
+
+    R = aromatic group [CPD:C15584]'
+  formula: HOR
+  names:
+  - ROH
+- id: C04261
+  name: Protein N(pi)-phospho-L-histidine
+  PubChem: '6926'
+  comment: Generic compound in reaction hierarchy
+  formula: C7H9N4O5PR2
+  names:
+  - Protein N(pi)-phospho-L-histidine
+  - Protein N-pros-phospho-L-histidine
+  - Protein N-pros-phosphohistidine
+  - Protein Npi-phospho-L-histidine
+- id: C04262
+  name: Protein N(tau)-phospho-L-histidine
+  PubChem: '6927'
+  comment: Generic compound in reaction hierarchy
+  formula: C7H9N4O5PR2
+  names:
+  - Protein N(tau)-phospho-L-histidine
+  - Protein N-tele-phospho-L-histidine
+  - Protein N-tele-phosphohistidine
+- id: C06250
+  name: Holo-[carboxylase]
+  PubChem: '8489'
+  comment: Generic compound in reaction hierarchy
+  formula: C17H27N5O4SR2
+  names:
+  - Holo-[carboxylase]
+  - Biotin-carboxyl-carrier protein
+- id: C16240
+  name: Apoprotein
+  ChEBI: '13850'
+  PubChem: '47205548'
+  comment: Generic compound in reaction hierarchy
+  formula: NH2R
+  names:
+  - Apoprotein
+  - '[Lipoyl-carrier protein]-L-lysine'
+- id: C00080
+  name: H+
+  ChEBI: 15378 24636
+  PubChem: '3380'
+  formula: H
+  mol_weight: 1.0079
+  names:
+  - H+
+  - Hydron
+- id: C02051
+  name: Lipoylprotein
+  ChEBI: '15804'
+  PubChem: '5140'
+  comment: 'Generic compound in reaction hierarchy
+
+    The lipoyl-bearing H protein'
+  formula: C8H14NOS2R
+  names:
+  - Lipoylprotein
+  - H-Protein-lipoyllysine
+- id: C02972
+  name: Dihydrolipoylprotein
+  ChEBI: '16194'
+  PubChem: '5884'
+  comment: 'Generic compound in reaction hierarchy
+
+    The lipoyl-bearing H protein'
+  formula: C8H16NOS2R
+  names:
+  - Dihydrolipoylprotein
+  - '[H Protein]-dihydrolipoyllysine'
+- id: C00454
+  name: NDP
+  ChEBI: '16862'
+  PubChem: '3740'
+  comment: 'Generic compound in reaction hierarchy
+
+    see the classified Nucleotide'
+  formula: C5H11O10P2R
+  names:
+  - NDP
+  - Nucleoside diphosphate
+  - Nucleoside 5'-diphosphate
+- id: C00201
+  name: Nucleoside triphosphate
+  ChEBI: '17326'
+  PubChem: '3501'
+  comment: Generic compound in reaction hierarchy
+  formula: C5H12O13P3R
+  names:
+  - Nucleoside triphosphate
+  - NTP
+  - Nucleoside 5'-triphosphate
+- id: C00229
+  name: Acyl-carrier protein
+  ChEBI: '18359'
+  PubChem: '3528'
+  comment: 'Generic compound in reaction hierarchy
+
+    R = 4''-phosphopantetheine or 2''-(5-phosphoribosyl)-3''-dephospho-CoA group
+    attached to protein serine
+
+    Including peptidyl-carrier proteins and ACP domains of enzymes'
+  formula: HSR
+  names:
+  - Acyl-carrier protein
+  - ACP
+  - '[Acyl-carrier protein]'
+  - Holo-[acyl-carrier protein]
+- id: C06249
+  name: Apo-[carboxylase]
+  ChEBI: '2777'
+  PubChem: '8488'
+  comment: Generic compound in reaction hierarchy
+  formula: C7H13N3O2R2
+  names:
+  - Apo-[carboxylase]
+- id: C00069
+  name: Alcohol
+  ChEBI: '30879'
+  PubChem: '3369'
+  comment: Generic compound in reaction hierarchy
+  formula: HOR
+  names:
+  - Alcohol
+- id: C06232
+  name: Molybdate
+  ChEBI: '36264'
+  PubChem: '8475'
+  formula: H2MoO4
+  mol_weight: 161.9535
+  names:
+  - Molybdate
+- id: C18796
+  name: (2R)-2-Hydroxy-2-methylbutanenitrile
+  ChEBI: '60908'
+  PubChem: '124489470'
+  formula: C5H9NO
+  mol_weight: 99.1311
+  names:
+  - (2R)-2-Hydroxy-2-methylbutanenitrile
+  - 2-Hydroxy-2-methylbutanenitrile
+- id: C15810
+  name: Sulfur-carrier protein
+  ChEBI: '80100'
+  PubChem: '47205135'
+  comment: Generic compound in reaction hierarchy
+  formula: C4H7N2O3R
+  names:
+  - Sulfur-carrier protein
+  - '[Sulfur-carrier protein]'
+  - '[Sulfur-carrier protein]-Gly-Gly'
+- id: C15813
+  name: Adenylyl-[sulfur-carrier protein]
+  ChEBI: '80101'
+  PubChem: '47205138'
+  comment: Generic compound in reaction hierarchy
+  formula: C14H19N7O9PR
+  names:
+  - Adenylyl-[sulfur-carrier protein]
+  - '[Sulfur-carrier protein]-Gly-Gly-AMP'
+- id: C15814
+  name: Thiocarboxy-[sulfur-carrier protein]
+  ChEBI: '80102'
+  PubChem: '47205139'
+  comment: Generic compound in reaction hierarchy
+  formula: C4H7N2O2SR
+  names:
+  - Thiocarboxy-[sulfur-carrier protein]
+  - '[Sulfur-carrier protein]-Gly-NH-CH2-C(O)SH'
+- id: C15972
+  name: Enzyme N6-(lipoyl)lysine
+  ChEBI: '80218'
+  PubChem: '47205285'
+  comment: 'Generic compound in reaction hierarchy
+
+    The oxidized lipoyllysine residue in EC 2.3.1.12, dihydrolipoyllysine-residue
+    acetyltransferase ( EC 2.3.1.61, dihydrolipoyllysine-residue succinyltransferase
+    or EC 2.3.1.168, dihydrolipoyllysine-residue (2-methylpropanoyl)transferase ).'
+  formula: C8H14NOS2R
+  names:
+  - Enzyme N6-(lipoyl)lysine
+  - Lipoamide-E
+- id: C15973
+  name: Enzyme N6-(dihydrolipoyl)lysine
+  ChEBI: '80219'
+  PubChem: '47205286'
+  comment: 'Generic compound in reaction hierarchy
+
+    The reduced lipoyllysine residue in EC 2.3.1.12, dihydrolipoyllysine-residue
+    acetyltransferase ( EC 2.3.1.61, dihydrolipoyllysine-residue succinyltransferase
+    or EC 2.3.1.168, dihydrolipoyllysine-residue (2-methylpropanoyl)transferase ).'
+  formula: C8H16NOS2R
+  names:
+  - Enzyme N6-(dihydrolipoyl)lysine
+  - Dihydrolipoamide-E
+- id: C16236
+  name: Protein N6-(octanoyl)lysine
+  ChEBI: '80398'
+  PubChem: '47205544'
+  comment: 'Generic compound in reaction hierarchy
+
+    R = E2 subunit of oxo-acid dehydrogenase complexes or H protein'
+  formula: C8H16NOR
+  names:
+  - Protein N6-(octanoyl)lysine
+- id: C16237
+  name: Protein N6-(lipoyl)lysine
+  ChEBI: '80399'
+  PubChem: '47205545'
+  comment: 'Generic compound in reaction hierarchy
+
+    R = E2 subunit of oxo-acid dehydrogenase complexes [CPD:C15972] or H protein
+    [CPD:C02051]'
+  formula: C8H14NOS2R
+  names:
+  - Protein N6-(lipoyl)lysine
+  - '[Lipoyl-carrier protein]-N6-(lipoyl)lysine'
+- id: C16239
+  name: Lipoyl-[acp]
+  ChEBI: '80400'
+  PubChem: '47205547'
+  comment: Generic compound in reaction hierarchy
+  formula: C8H13OS3R
+  names:
+  - Lipoyl-[acp]
+  - Lipoyl-[acyl carrier protein]
+  - Lipoyl-ACP
+- id: C16399
+  name: 2,4-Diamino-6-hydroxylaminotoluene
+  NIKKAJI: J1.347.981J
+  PubChem: '47205697'
+  formula: C7H11N3O
+  mol_weight: 153.1817
+  names:
+  - 2,4-Diamino-6-hydroxylaminotoluene
+- id: C20247
+  name: 2-(2-Carboxy-4-methylthiazol-5-yl)ethyl phosphate
+  PDB-CCD: 3NM
+  PubChem: '163311990'
+  formula: C7H10NO6PS
+  mol_weight: 267.1962
+  names:
+  - 2-(2-Carboxy-4-methylthiazol-5-yl)ethyl phosphate
+  - 4-Methyl-5-[2-(phosphonooxy)ethyl]-1,3-thiazole-2-carboxylate
+  - cThz-P
+- id: C02741
+  name: Phosphoribosyl-AMP
+  3DMET: B04863
+  ChEBI: '18374'
+  PubChem: '5701'
+  formula: C15H23N5O14P2
+  mol_weight: 559.3157
+  names:
+  - Phosphoribosyl-AMP
+  - N1-(5-Phospho-D-ribosyl)-AMP
+  - 1-(5-Phosphoribosyl)-AMP
+  - 1-(5-Phospho-beta-D-ribosyl)-AMP
+- id: C18237
+  name: Molybdoenzyme molybdenum cofactor
+  CAS: 73508-07-3
+  ChEBI: '21437'
+  PubChem: '103061419'
+  formula: C10H12MoN5O8PS2
+  mol_weight: 521.2747
+  names:
+  - Molybdoenzyme molybdenum cofactor
+  - Molybdenum cofactor
+- id: C03033
+  name: beta-D-Glucuronoside
+  ChEBI: '15341'
+  LIPIDMAPS: LMST05010004 LMST05010020 LMST05010055 LMST05010057 LMST05010058 LMST05010059
+    LMST05010060 LMST05010061 LMST05010062 LMST05010063 LMST05010064 LMST05010065
+    LMST05010066 LMST05010067 LMST05050028
+  PubChem: '5938'
+  comment: Generic compound in reaction hierarchy
+  formula: C6H9O7R
+  names:
+  - beta-D-Glucuronoside
+  - O-beta-D-Glucuronoside
+  - Glucuronide
+  - beta-D-Glucuronide
+- id: C03692
+  name: 1,2-Diacyl-3-beta-D-galactosyl-sn-glycerol
+  ChEBI: '17615'
+  LIPIDMAPS: LMGL0501AA00
+  PubChem: '6466'
+  comment: Generic compound in reaction hierarchy
+  formula: C11H16O10R2
+  names:
+  - 1,2-Diacyl-3-beta-D-galactosyl-sn-glycerol
+  - D-Galactosyldiacylglycerol
+  - 3-beta-D-Galactosyl-1,2-diacylglycerol
+  - Monogalactosyldiglyceride
+  - Monogalactosyl-diacylglycerol
+  - MGDG
+  - Galbeta1->3acyl2Gro
+  - 3-(beta-D-Galactosyl)-1,2-diacyl-sn-glycerol
+  - 1,2-Diacyl-3-O-(beta-D-galactopyranosyl)-sn-glycerol
+- id: C01190
+  name: beta-D-Glucosyl-(1<->1)-ceramide
+  ChEBI: '18368'
+  LIPIDMAPS: LMSP0501AA00
+  PubChem: '4416'
+  comment: Generic compound in reaction hierarchy
+  formula: C25H46NO8R
+  names:
+  - beta-D-Glucosyl-(1<->1)-ceramide
+  - Glucosylceramide
+  - Glucocerebroside
+  - D-Glucosyl-N-acylsphingosine
+- id: C06037
+  name: Digalactosyl-diacylglycerol
+  ChEBI: '28396'
+  LIPIDMAPS: LMGL0501AD00
+  PubChem: '8309'
+  comment: Generic compound in reaction hierarchy
+  formula: C17H26O15R2
+  names:
+  - Digalactosyl-diacylglycerol
+  - DGDG
+  - Gal-alpha1->6Gal-beta1->3acyl2Gro
+  - Galalpha1->6Galbeta1->3acyl2Gro
+  - 1,2-Diacyl-3-O-[alpha-D-galactosyl-(1->6)-beta-D-galactosyl]-sn-glycerol
+  - 3-[alpha-D-Galactosyl-(1->6)-beta-D-galactosyl]-1,2-diacyl-sn-glycerol
+  - 2,3-Di-O-acyl-1-O-(6-O-alpha-D-galactosyl-beta-D-galactosyl)-D-glycerol
+- id: C15556
+  name: L-3,4-Dihydroxybutan-2-one 4-phosphate
+  ChEBI: '50606'
+  NIKKAJI: J1.171.796I
+  PubChem: '17396548'
+  formula: C4H9O6P
+  mol_weight: 184.0844
+  names:
+  - L-3,4-Dihydroxybutan-2-one 4-phosphate
+  - 1-Deoxy-L-glycero-tetrulose 4-phosphate
+  - 2-Hydroxy-3-oxobutyl phosphate
+- id: C05752
+  name: Octanoyl-[acp]
+  ChEBI: '7725'
+  LIPIDMAPS: LMFA07060010
+  PubChem: '8047'
+  comment: Generic compound in reaction hierarchy
+  formula: C8H15OSR
+  names:
+  - Octanoyl-[acp]
+  - Octanoyl-[acyl-carrier protein]
+- id: C16255
+  name: '[Dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine'
+  ChEBI: '80404'
+  LIPIDMAPS: LMFA08020202
+  PubChem: '47205563'
+  comment: 'Generic compound in reaction hierarchy
+
+    The acetyl thioester of the reduced lipoyllysine residue in dihydrolipoyllysine-residue
+    acetyltransferase [EC:2.3.1.12].'
+  formula: C10H18NO2S2R
+  names:
+  - '[Dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine'
+  - S-Acetyldihydrolipoamide-E
+  - Enzyme N6-(S-acetyldihydrolipoyl)lysine
+- id: C18096
+  name: D-Allulose 6-phosphate
+  ChEBI: '81499'
+  NIKKAJI: J2.640.215H
+  PubChem: '96024313'
+  formula: C6H13O9P
+  mol_weight: 260.1358
+  names:
+  - D-Allulose 6-phosphate
+- id: C04425
+  name: S-Adenosyl-4-methylthio-2-oxobutanoate
+  ChEBI: '8944'
+  NIKKAJI: J2.751.123F
+  PubChem: '7057'
+  formula: C15H20N5O6S
+  mol_weight: 398.4142
+  names:
+  - S-Adenosyl-4-methylthio-2-oxobutanoate
+- id: C00561
+  name: Mandelonitrile
+  3DMET: B00132
+  NIKKAJI: J6.985J
+  PDB-CCD: MXN
+  PubChem: '3841'
+  formula: C8H7NO
+  mol_weight: 133.1473
+  names:
+  - Mandelonitrile
+  - Benzaldehyde cyanohydrin
+  - (R)-Mandelonitrile
+- id: C01250
+  name: N-Acetyl-L-glutamate 5-semialdehyde
+  3DMET: B00264
+  ChEBI: 16319 29123
+  NIKKAJI: J37.498I
+  PubChem: '4470'
+  formula: C7H11NO4
+  mol_weight: 173.1665
+  names:
+  - N-Acetyl-L-glutamate 5-semialdehyde
+  - 2-Acetamido-5-oxopentanoate
+- id: C02876
+  name: Propanoyl phosphate
+  3DMET: B00510
+  ChEBI: '8478'
+  NIKKAJI: J2.365.532B
+  PubChem: '5809'
+  formula: C3H7O5P
+  mol_weight: 154.0584
+  names:
+  - Propanoyl phosphate
+  - Propionyl phosphate
+- id: C04349
+  name: (4S)-4,6-Dihydroxy-2,5-dioxohexanoate
+  3DMET: B00703
+  ChEBI: '15623'
+  NIKKAJI: J2.369.069A
+  PubChem: '6998'
+  formula: C6H8O6
+  mol_weight: 176.1241
+  names:
+  - (4S)-4,6-Dihydroxy-2,5-dioxohexanoate
+  - 3-Deoxy-D-glycero-2,5-hexodiulosonate
+  - 2,5-Diketo-3-deoxy-D-gluconate
+- id: C05838
+  name: cis-2-Hydroxycinnamate
+  3DMET: B00864
+  ChEBI: '28873'
+  NIKKAJI: J2.367.125E
+  PubChem: '8131'
+  formula: C9H8O3
+  mol_weight: 164.158
+  names:
+  - cis-2-Hydroxycinnamate
+  - 2-Coumarinate
+- id: C06030
+  name: Methyloxaloacetate
+  3DMET: B00888
+  ChEBI: '6885'
+  NIKKAJI: J2.760.963E
+  PubChem: '8302'
+  formula: C5H6O5
+  mol_weight: 146.0981
+  names:
+  - Methyloxaloacetate
+- id: C01235
+  name: alpha-D-Galactosyl-(1->3)-1D-myo-inositol
+  3DMET: B01419
+  ChEBI: '17505'
+  NIKKAJI: J475.283J
+  PubChem: '4456'
+  formula: C12H22O11
+  mol_weight: 342.2965
+  names:
+  - alpha-D-Galactosyl-(1->3)-1D-myo-inositol
+  - O-alpha-D-Galactosyl-(1->3)-1D-myo-inositol
+  - 3-O-alpha-D-Galactosyl-1D-myo-inositol
+  - 1-alpha-D-Galactosyl-myo-inositol
+  - Galactinol
+- id: C01304
+  name: 2,5-Diamino-6-(5-phospho-D-ribosylamino)pyrimidin-4(3H)-one
+  3DMET: B01437
+  ChEBI: 29114 59546
+  NIKKAJI: J1.557.013J
+  PubChem: '4522'
+  formula: C9H16N5O8P
+  mol_weight: 353.2258
+  names:
+  - 2,5-Diamino-6-(5-phospho-D-ribosylamino)pyrimidin-4(3H)-one
+  - 2,5-Diamino-6-(1-D-ribosylamino)pyrimidin-4(3H)-one 5'-phosphate
+- id: C04900
+  name: Luteolin 7-O-[beta-D-glucuronosyl-(1->2)-beta-D-glucuronide]-4'-O-beta-D-glucuronide
+  3DMET: B01803
+  ChEBI: '37645'
+  NIKKAJI: J2.471.143I
+  PubChem: '7450'
+  formula: C33H34O24
+  mol_weight: 814.6087
+  names:
+  - Luteolin 7-O-[beta-D-glucuronosyl-(1->2)-beta-D-glucuronide]-4'-O-beta-D-glucuronide
+- id: C05399
+  name: Melibiitol
+  3DMET: B01853
+  ChEBI: '27527'
+  NIKKAJI: J15.208K
+  PubChem: '7766'
+  formula: C12H24O11
+  mol_weight: 344.3124
+  names:
+  - Melibiitol
+  - 6-O-alpha-D-Galactosyl-D-glucitol
+- id: C05839
+  name: cis-beta-D-Glucosyl-2-hydroxycinnamate
+  3DMET: B01900
+  ChEBI: 62223 62251
+  NIKKAJI: J1.836.894C
+  PubChem: '8132'
+  formula: C15H18O8
+  mol_weight: 326.2986
+  names:
+  - cis-beta-D-Glucosyl-2-hydroxycinnamate
+  - beta-D-Glucosyl-2-coumarinate
+- id: C00558
+  name: D-Tagaturonate
+  3DMET: B04700
+  ChEBI: '17886'
+  NIKKAJI: J1.367.593G
+  PubChem: '3838'
+  formula: C6H10O7
+  mol_weight: 194.1394
+  names:
+  - D-Tagaturonate
+  - D-Tagaturonic acid
+- id: C00905
+  name: D-Fructuronate
+  3DMET: B04749
+  ChEBI: '4126'
+  NIKKAJI: J2.372.985G
+  PubChem: '4160'
+  formula: C6H10O7
+  mol_weight: 194.1394
+  names:
+  - D-Fructuronate
+  - D-Fructuronic acid
+- id: C01037
+  name: 7,8-Diaminononanoate
+  3DMET: B04758
+  ChEBI: 17830 2247
+  NIKKAJI: J511.020C
+  PubChem: '4280'
+  formula: C9H20N2O2
+  mol_weight: 188.2673
+  names:
+  - 7,8-Diaminononanoate
+  - 7,8-Diaminopelargonic acid
+  - DAPA
+- id: C02739
+  name: 1-(5-Phospho-D-ribosyl)-ATP
+  3DMET: B04862
+  ChEBI: '73200'
+  NIKKAJI: J608.031F
+  PubChem: '5699'
+  formula: C15H25N5O20P4
+  mol_weight: 719.2755
+  names:
+  - 1-(5-Phospho-D-ribosyl)-ATP
+  - Phosphoribosyl-ATP
+  - N1-(5-Phospho-D-ribosyl)-ATP
+  - 1-(5-Phosphoribosyl)-ATP
+  - 1-(5-Phospho-beta-D-ribosyl)-ATP
+- id: C03785
+  name: D-Tagatose 1,6-bisphosphate
+  3DMET: B04913
+  ChEBI: '4250'
+  NIKKAJI: J2.748.254F
+  PubChem: '6535'
+  formula: C6H14O12P2
+  mol_weight: 340.1157
+  names:
+  - D-Tagatose 1,6-bisphosphate
+- id: C04454
+  name: 5-Amino-6-(5'-phospho-D-ribitylamino)uracil
+  3DMET: B04942
+  ChEBI: '18247'
+  NIKKAJI: J1.722.458A
+  PubChem: '7081'
+  formula: C9H17N4O9P
+  mol_weight: 356.2264
+  names:
+  - 5-Amino-6-(5'-phospho-D-ribitylamino)uracil
+  - 5-Amino-2,6-dioxy-4-(5'-phospho-D-ribitylamino)pyrimidine
+  - 5-Amino-6-(5-phospho-D-ribitylamino)uracil
+- id: C04732
+  name: 5-Amino-6-(1-D-ribitylamino)uracil
+  3DMET: B04958
+  ChEBI: '15934'
+  NIKKAJI: J642.641G
+  PubChem: '7303'
+  formula: C9H16N4O6
+  mol_weight: 276.2465
+  names:
+  - 5-Amino-6-(1-D-ribitylamino)uracil
+  - 5-Amino-6-(D-ribitylamino)uracil
+  - 6-(1-D-Ribitylamino)-5-amino-2,4-dihydroxypyrimidine
+  - 6-(1-D-Ribitylamino)-5-aminouracil
+  - 4-(1-D-Ribitylamino)-5-amino-2,6-dihydroxypyrimidine
+- id: C06376
+  name: N-Acetyl-D-galactosamine 6-phosphate
+  3DMET: B05186
+  ChEBI: '18207'
+  NIKKAJI: J2.761.994K
+  PubChem: '8612'
+  formula: C8H16NO9P
+  mol_weight: 301.1877
+  names:
+  - N-Acetyl-D-galactosamine 6-phosphate
+- id: C06377
+  name: D-Galactosamine 6-phosphate
+  3DMET: B05187
+  ChEBI: '18232'
+  NIKKAJI: J2.381.964C
+  PubChem: '8613'
+  formula: C6H14NO8P
+  mol_weight: 259.151
+  names:
+  - D-Galactosamine 6-phosphate
+- id: C06441
+  name: L-Xylulose 1-phosphate
+  3DMET: B05194
+  ChEBI: '28566'
+  NIKKAJI: J2.765.415K
+  PubChem: '8675'
+  formula: C5H11O8P
+  mol_weight: 230.1098
+  names:
+  - L-Xylulose 1-phosphate
+- id: C12214
+  name: Aminofructose 6-phosphate
+  3DMET: B05618
+  ChEBI: '31203'
+  NIKKAJI: J2.781.581B
+  PubChem: '14359'
+  formula: C6H14NO8P
+  mol_weight: 259.151
+  names:
+  - Aminofructose 6-phosphate
+  - Amino-D-fructose 6-phosphate
+- id: C12215
+  name: Iminoerythrose 4-phosphate
+  3DMET: B05619
+  ChEBI: '31692'
+  NIKKAJI: J1.682.370H
+  PubChem: '14360'
+  formula: C4H10NO6P
+  mol_weight: 199.0991
+  names:
+  - Iminoerythrose 4-phosphate
+  - Imino-D-erythrose 4-phosphate
+- id: C15809
+  name: Iminoglycine
+  CAS: 4472-12-2
+  ChEBI: '53647'
+  NIKKAJI: J478.944J
+  PubChem: '47205134'
+  formula: C2H3NO2
+  mol_weight: 73.0507
+  names:
+  - Iminoglycine
+  - Iminoacetic acid
+  - 2-Iminoacetate
+- id: C16396
+  name: 2,4-Diamino-6-nitrotoluene
+  CAS: 6629-29-4
+  ChEBI: '19342'
+  NIKKAJI: J499.320I
+  PubChem: '47205694'
+  formula: C7H9N3O2
+  mol_weight: 167.1653
+  names:
+  - 2,4-Diamino-6-nitrotoluene
+- id: C02962
+  name: D-Allose 6-phosphate
+  ChEBI: '17942'
+  NIKKAJI: J2.740.279H
+  PDB-CCD: A6P
+  PubChem: '5878'
+  formula: C6H13O9P
+  mol_weight: 260.1358
+  names:
+  - D-Allose 6-phosphate
+- id: C01290
+  name: beta-D-Galactosyl-(1->4)-beta-D-glucosyl-(1<->1)-ceramide
+  ChEBI: '17950'
+  LIPIDMAPS: LMSP0501AB00
+  LipidBank: GSG1147
+  PubChem: '4509'
+  comment: Generic compound in reaction hierarchy
+  formula: C31H56NO13R
+  names:
+  - beta-D-Galactosyl-(1->4)-beta-D-glucosyl-(1<->1)-ceramide
+  - beta-D-Galactosyl-1,4-beta-D-glucosylceramide
+  - Lactosylceramide
+  - Gal-beta1->4Glc-beta1->1'Cer
+  - LacCer
+  - Lactosyl-N-acylsphingosine
+  - D-Galactosyl-1,4-beta-D-glucosylceramide
+- id: C02686
+  name: Galactosylceramide
+  ChEBI: 18390 36498
+  LIPIDMAPS: LMSP0501AC00
+  NIKKAJI: J1.883.144I
+  PubChem: '5655'
+  comment: Generic compound in reaction hierarchy
+  formula: C25H46NO8R
+  names:
+  - Galactosylceramide
+  - Galactocerebroside
+  - D-Galactosyl-N-acylsphingosine
+  - Cerebroside
+  - D-Galactosylceramide
+- id: C06126
+  name: Digalactosylceramide
+  ChEBI: '28811'
+  LIPIDMAPS: LMSP0509AA00
+  LipidBank: GSG1148
+  PubChem: '8383'
+  comment: Generic compound in reaction hierarchy
+  formula: C31H56NO13R
+  names:
+  - Digalactosylceramide
+  - Gal-alpha1->4Gal-beta1->1'Cer
+- id: C18239
+  name: Precursor Z
+  ChEBI: '60210'
+  ChEMBL: CHEMBL2338675
+  KNApSAcK: C00019569
+  PubChem: '103061421'
+  formula: C10H14N5O8P
+  mol_weight: 363.2206
+  names:
+  - Precursor Z
+  - Cyclic pyranopterin monophosphate
+  - Cyclic pyranopterin phosphate
+  - cPMP
+- id: C11376
+  name: SN38 glucuronide
+  ChEBI: '8990'
+  ChEMBL: CHEMBL3526803
+  NIKKAJI: J2.774.245I
+  PubChem: '13550'
+  formula: C28H28N2O11
+  mol_weight: 568.5287
+  names:
+  - SN38 glucuronide
+  - SN-38G
+- id: C01267
+  name: 3-(Imidazol-4-yl)-2-oxopropyl phosphate
+  3DMET: B00269
+  ChEBI: '16426'
+  KNApSAcK: C00007308
+  NIKKAJI: J670.555C
+  PubChem: '4486'
+  formula: C6H9N2O5P
+  mol_weight: 220.1198
+  names:
+  - 3-(Imidazol-4-yl)-2-oxopropyl phosphate
+  - Imidazole-acetol phosphate
+- id: C04133
+  name: N-Acetyl-L-glutamate 5-phosphate
+  3DMET: B00683
+  ChEBI: '16878'
+  NIKKAJI: J37.496B
+  PDB-CCD: X2W
+  PubChem: '6819'
+  formula: C7H12NO8P
+  mol_weight: 269.1458
+  names:
+  - N-Acetyl-L-glutamate 5-phosphate
+  - N-Acetyl-L-glutamyl 5-phosphate
+- id: C00357
+  name: N-Acetyl-D-glucosamine 6-phosphate
+  3DMET: B01225
+  ChEBI: '15784'
+  NIKKAJI: J1.734.828K
+  PDB-CCD: 16G 4QY
+  PubChem: '3650'
+  formula: C8H16NO9P
+  mol_weight: 301.1877
+  names:
+  - N-Acetyl-D-glucosamine 6-phosphate
+- id: C00668
+  name: alpha-D-Glucose 6-phosphate
+  3DMET: B01304
+  ChEBI: '17665'
+  NIKKAJI: J40.066A
+  PDB-CCD: G6P
+  PubChem: '3937'
+  formula: C6H13O9P
+  mol_weight: 260.1358
+  names:
+  - alpha-D-Glucose 6-phosphate
+- id: C00861
+  name: L-Rhamnulose
+  3DMET: B01346
+  ChEBI: '17897'
+  KNApSAcK: C00019652
+  NIKKAJI: J1.739.241G
+  PubChem: '4118'
+  formula: C6H12O5
+  mol_weight: 164.1565
+  names:
+  - L-Rhamnulose
+  - 6-Deoxy-L-fructose
+- id: C01099
+  name: L-Fuculose 1-phosphate
+  3DMET: B01377
+  ChEBI: 16647 6220
+  KNApSAcK: C00019651
+  NIKKAJI: J1.419.302B
+  PubChem: '4333'
+  formula: C6H13O8P
+  mol_weight: 244.1364
+  names:
+  - L-Fuculose 1-phosphate
+- id: C01102
+  name: O-Phospho-L-homoserine
+  3DMET: B01380
+  ChEBI: '15961'
+  KNApSAcK: C00007385
+  NIKKAJI: J2.731.281K
+  PubChem: '4336'
+  formula: C4H10NO6P
+  mol_weight: 199.0991
+  names:
+  - O-Phospho-L-homoserine
+- id: C01159
+  name: 2,3-Bisphospho-D-glycerate
+  3DMET: B01397
+  ChEBI: '17720'
+  NIKKAJI: J2.731.659J
+  PDB-CCD: DG2
+  PubChem: '4387'
+  formula: C3H8O10P2
+  mol_weight: 266.0371
+  names:
+  - 2,3-Bisphospho-D-glycerate
+  - 2,3-Disphospho-D-glycerate
+  - D-Greenwald ester
+  - DPG
+- id: C03742
+  name: (S)-4-Hydroxymandelonitrile
+  3DMET: B01688
+  ChEBI: '16660'
+  NIKKAJI: J231.681A
+  PDB-CCD: DHR
+  PubChem: '6505'
+  formula: C8H7NO2
+  mol_weight: 149.1467
+  names:
+  - (S)-4-Hydroxymandelonitrile
+- id: C04287
+  name: 3D-3,5/4-Trihydroxycyclohexane-1,2-dione
+  3DMET: B01730
+  CAS: 949461-91-0
+  ChEBI: 16145 28446
+  NIKKAJI: J2.749.622I
+  PubChem: '6949'
+  formula: C6H8O5
+  mol_weight: 160.1247
+  names:
+  - 3D-3,5/4-Trihydroxycyclohexane-1,2-dione
+  - D-2,3-Diketo-4-deoxy-epi-inositol
+  - (3R,4S,5R)-3,4,5-Trihydroxy-1,2-cyclohexanedione
+  - 3,5/4-Trihydroxycyclohexa-1,2-dione
+- id: C04752
+  name: 4-Amino-5-hydroxymethyl-2-methylpyrimidine diphosphate
+  3DMET: B01785
+  ChEBI: '16629'
+  KNApSAcK: C00007609
+  NIKKAJI: J852.283I
+  PubChem: '7322'
+  formula: C6H11N3O7P2
+  mol_weight: 299.115
+  names:
+  - 4-Amino-5-hydroxymethyl-2-methylpyrimidine diphosphate
+  - 4-Amino-2-methyl-5-(diphosphooxymethyl)pyrimidine
+- id: C04896
+  name: 5-(5-Phospho-D-ribosylaminoformimino)-1-(5-phosphoribosyl)-imidazole-4-carboxamide
+  3DMET: B01802
+  ChEBI: '18302'
+  NIKKAJI: J574.865H
+  PDB-CCD: GUO
+  PubChem: '7447'
+  formula: C15H25N5O15P2
+  mol_weight: 577.331
+  names:
+  - 5-(5-Phospho-D-ribosylaminoformimino)-1-(5-phosphoribosyl)-imidazole-4-carboxamide
+  - N-(5'-Phospho-D-ribosylformimino)-5-amino-1-(5''-phospho-D-ribosyl)-4-imidazolecarboxamide
+  - N-(5'-Phosphoribosylformimino)-5-amino-1-(5''-phosphoribosyl)-4-imidazolecarboxamide
+  - Phosphoribosyl-formimino-AICAR-phosphate
+  - 1-(5-Phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide
+  - 1-(5-Phospho-beta-D-ribosyl)-5-[(5-phospho-beta-D-ribosylamino)methylideneamino]imidazole-4-carboxamide
+- id: C04916
+  name: N-(5'-Phospho-D-1'-ribulosylformimino)-5-amino-1-(5''-phospho-D-ribosyl)-4-imidazolecarboxamide
+  3DMET: B01804
+  ChEBI: '27735'
+  NIKKAJI: J2.760.456K
+  PDB-CCD: 2ER
+  PubChem: '7464'
+  formula: C15H25N5O15P2
+  mol_weight: 577.331
+  names:
+  - N-(5'-Phospho-D-1'-ribulosylformimino)-5-amino-1-(5''-phospho-D-ribosyl)-4-imidazolecarboxamide
+  - 5-[(5-Phospho-1-deoxyribulos-1-ylamino)methylideneamino]-1-(5-phosphoribosyl)imidazole-4-carboxamide
+  - Phosphoribulosyl-formimino-AICAR-phosphate
+  - 5-[(5-Phospho-1-deoxy-D-ribulos-1-ylamino)methylideneamino]-1-(5-phospho-beta-D-ribosyl)imidazole-4-carboxamide
+- id: C05400
+  name: Epimelibiose
+  3DMET: B01854
+  CAS: 17296-19-4
+  ChEBI: '4808'
+  NIKKAJI: J92.817H
+  PubChem: '7767'
+  formula: C12H22O11
+  mol_weight: 342.2965
+  names:
+  - Epimelibiose
+  - 6-O-(alpha-D-Galactopyranosyl)-D-mannopyranose
+- id: C06055
+  name: O-Phospho-4-hydroxy-L-threonine
+  3DMET: B01960
+  ChEBI: '18336'
+  NIKKAJI: J695.803F
+  PDB-CCD: 4TP
+  PubChem: '8325'
+  formula: C4H10NO7P
+  mol_weight: 215.0985
+  names:
+  - O-Phospho-4-hydroxy-L-threonine
+  - 4-(Phosphonooxy)-threonine
+  - 4-(Phosphonooxy)-L-threonine
+  - 4-Phosphooxy-L-threonine
+- id: C12632
+  name: Luteolin 7-O-[beta-D-glucuronosyl-(1->2)-beta-D-glucuronide]
+  3DMET: B04541
+  ChEBI: 16559 60077
+  KNApSAcK: C00004288
+  NIKKAJI: J702.439H
+  PubChem: '583022'
+  formula: C27H26O18
+  mol_weight: 638.4845
+  names:
+  - Luteolin 7-O-[beta-D-glucuronosyl-(1->2)-beta-D-glucuronide]
+  - Luteolin 7-O-beta-D-diglucuronide
+- id: C00204
+  name: 2-Dehydro-3-deoxy-D-gluconate
+  3DMET: B04648
+  CAS: 17510-99-5
+  ChEBI: '17032'
+  PDB-CCD: KDG
+  PubChem: '3504'
+  formula: C6H10O6
+  mol_weight: 178.14
+  names:
+  - 2-Dehydro-3-deoxy-D-gluconate
+  - 2-Keto-3-deoxy-D-gluconate
+- id: C00312
+  name: L-Xylulose
+  3DMET: B04665
+  CAS: 527-50-4
+  ChEBI: '17399'
+  NIKKAJI: J13.211J
+  PubChem: '3606'
+  formula: C5H10O5
+  mol_weight: 150.1299
+  names:
+  - L-Xylulose
+  - L-threo-Pentulose
+  - L-Lyxulose
+- id: C00447
+  name: Sedoheptulose 1,7-bisphosphate
+  3DMET: B04683
+  CAS: 815-91-8
+  ChEBI: '17969'
+  NIKKAJI: J604.571E
+  PubChem: '3735'
+  formula: C7H16O13P2
+  mol_weight: 370.1417
+  names:
+  - Sedoheptulose 1,7-bisphosphate
+  - D-Sedoheptulose 1,7-bisphosphate
+  - D-altro-Heptulose 1,7-biphosphate
+- id: C00683
+  name: (S)-Methylmalonyl-CoA
+  3DMET: B04716
+  ChEBI: '15466'
+  LIPIDMAPS: LMFA07050164
+  NIKKAJI: J921.435F
+  PubChem: '3952'
+  formula: C25H40N7O19P3S
+  mol_weight: 867.6069
+  names:
+  - (S)-Methylmalonyl-CoA
+  - (S)-Methylmalonyl-coenzyme A
+  - (2S)-Methylmalonyl-CoA
+  - D-Methylmalonyl-CoA
+- id: C01092
+  name: 8-Amino-7-oxononanoate
+  3DMET: B04764
+  ChEBI: 12266 15830
+  LIPIDMAPS: LMFA01060168
+  NIKKAJI: J511.019J
+  PubChem: '4327'
+  formula: C9H17NO3
+  mol_weight: 187.2362
+  names:
+  - 8-Amino-7-oxononanoate
+  - 8-Amino-7-oxononanoic acid
+  - 7-Keto-8-aminopelargonic acid
+  - KAPA
+- id: C01097
+  name: D-Tagatose 6-phosphate
+  3DMET: B04767
+  ChEBI: '4251'
+  NIKKAJI: J2.731.241A
+  PDB-CCD: TA6
+  PubChem: '4332'
+  formula: C6H13O9P
+  mol_weight: 260.1358
+  names:
+  - D-Tagatose 6-phosphate
+- id: C04053
+  name: 5-Dehydro-4-deoxy-D-glucuronate
+  3DMET: B04924
+  ChEBI: 17117 17782
+  NIKKAJI: J2.745.978A
+  PDB-CCD: D54
+  PubChem: '6754'
+  formula: C6H8O6
+  mol_weight: 176.1241
+  names:
+  - 5-Dehydro-4-deoxy-D-glucuronate
+  - 4-Deoxy-L-threo-5-hexosulose uronate
+- id: C05404
+  name: D-Gal alpha 1->6D-Gal alpha 1->6D-Glucose
+  3DMET: B05018
+  CAS: 13382-86-0
+  ChEBI: 27387 31005
+  NIKKAJI: J396.387J
+  PubChem: '7771'
+  formula: C18H32O16
+  mol_weight: 504.4371
+  names:
+  - D-Gal alpha 1->6D-Gal alpha 1->6D-Glucose
+  - D-Gal-alpha1->6D-Gal-alpha1->6D-Glucose
+  - Manninotriose
+- id: C05921
+  name: Biotinyl-5'-AMP
+  3DMET: B05138
+  ChEBI: '3110'
+  NIKKAJI: J734.022B
+  PDB-CCD: BT5
+  PubChem: '8209'
+  formula: C20H28N7O9PS
+  mol_weight: 573.5166
+  names:
+  - Biotinyl-5'-AMP
+- id: C08334
+  name: Lotaustralin
+  CAS: 534-67-8
+  ChEBI: '6542'
+  KNApSAcK: C00001448
+  NIKKAJI: J412.304B
+  PubChem: '10532'
+  formula: C11H19NO6
+  mol_weight: 261.2717
+  names:
+  - Lotaustralin
+- id: C11173
+  name: SN-38
+  CAS: 86639-52-3
+  ChEBI: '8988'
+  ChEMBL: CHEMBL837
+  NIKKAJI: J353.490A
+  PubChem: '13355'
+  formula: C22H20N2O5
+  mol_weight: 392.4046
+  names:
+  - SN-38
+- id: C00227
+  name: Acetyl phosphate
+  3DMET: B00063
+  ChEBI: '15350'
+  KNApSAcK: C00019559
+  NIKKAJI: J37.490C
+  PDB-CCD: UVW
+  PubChem: '3527'
+  formula: C2H5O5P
+  mol_weight: 140.0319
+  names:
+  - Acetyl phosphate
+- id: C00266
+  name: Glycolaldehyde
+  3DMET: B00079
+  CAS: 141-46-8
+  ChEBI: '17071'
+  KNApSAcK: C00007457
+  NIKKAJI: J2.537B
+  PubChem: '3564'
+  formula: C2H4O2
+  mol_weight: 60.052
+  names:
+  - Glycolaldehyde
+  - Hydroxyacetaldehyde
+- id: C00288
+  name: HCO3-
+  3DMET: B00080
+  CAS: 71-52-3
+  ChEBI: '17544'
+  PDB-CCD: BCT
+  PubChem: '3583'
+  comment: Dihydrogen carbonate (conjugate acid) [CPD:C01353]
+  formula: HCO3
+  mol_weight: 61.0168
+  names:
+  - HCO3-
+  - Bicarbonate
+  - Hydrogen carbonate
+  - Acid carbonate
+- id: C00577
+  name: D-Glyceraldehyde
+  3DMET: B00137
+  CAS: 453-17-8 367-47-5
+  ChEBI: '17378'
+  NIKKAJI: J5.790H J9.119G
+  PDB-CCD: 3GR
+  PubChem: '3856'
+  formula: C3H6O3
+  mol_weight: 90.0779
+  names:
+  - D-Glyceraldehyde
+- id: C04327
+  name: 4-Methyl-5-(2-phosphooxyethyl)thiazole
+  3DMET: B00702
+  ChEBI: '17857'
+  KNApSAcK: C00007608
+  NIKKAJI: J870.164D
+  PDB-CCD: TZP
+  PubChem: '6980'
+  formula: C6H10NO4PS
+  mol_weight: 223.1867
+  names:
+  - 4-Methyl-5-(2-phosphooxyethyl)thiazole
+  - 4-Methyl-5-(2-phosphonooxyethyl)thiazole
+  - 5-(2-Hydroxyethyl)-4-methylthiazole phosphate
+- id: C04556
+  name: 4-Amino-2-methyl-5-(phosphooxymethyl)pyrimidine
+  3DMET: B00732
+  ChEBI: '18032'
+  KNApSAcK: C00007607
+  NIKKAJI: J1.028.201B
+  PDB-CCD: MP5
+  PubChem: '7161'
+  formula: C6H10N3O4P
+  mol_weight: 219.1351
+  names:
+  - 4-Amino-2-methyl-5-(phosphooxymethyl)pyrimidine
+  - (4-Amino-2-methylpyrimidin-5-yl)methyl phosphate
+  - 4-Amino-5-hydroxymethyl-2-methylpyrimidine phosphate
+- id: C00199
+  name: D-Ribulose 5-phosphate
+  3DMET: B01187
+  CAS: 551-85-9
+  ChEBI: '17363'
+  NIKKAJI: J275.266B
+  PDB-CCD: 5RP
+  PubChem: '3499'
+  formula: C5H11O8P
+  mol_weight: 230.1098
+  names:
+  - D-Ribulose 5-phosphate
+- id: C00206
+  name: dADP
+  3DMET: B01188
+  CAS: 2793-06-8
+  ChEBI: '16174'
+  NIKKAJI: J247.700I
+  PDB-CCD: DAT
+  PubChem: '3506'
+  formula: C10H15N5O9P2
+  mol_weight: 411.2017
+  names:
+  - dADP
+  - 2'-Deoxyadenosine 5'-diphosphate
+- id: C00231
+  name: D-Xylulose 5-phosphate
+  3DMET: B01195
+  ChEBI: '16332'
+  KNApSAcK: C00019693
+  NIKKAJI: J652.282C
+  PDB-CCD: 5SP
+  PubChem: '3530'
+  formula: C5H11O8P
+  mol_weight: 230.1098
+  names:
+  - D-Xylulose 5-phosphate
+- id: C00275
+  name: D-Mannose 6-phosphate
+  3DMET: B01204
+  ChEBI: 17369 48066
+  ChEMBL: CHEMBL402001
+  NIKKAJI: J817.412A
+  PDB-CCD: M6D M6P
+  PubChem: '3572'
+  formula: C6H13O9P
+  mol_weight: 260.1358
+  names:
+  - D-Mannose 6-phosphate
+- id: C00361
+  name: dGDP
+  3DMET: B01227
+  ChEBI: '28862'
+  ChEMBL: CHEMBL1232205
+  NIKKAJI: J366.498H
+  PDB-CCD: DGI
+  PubChem: '3652'
+  formula: C10H15N5O10P2
+  mol_weight: 427.2011
+  names:
+  - dGDP
+  - 2'-Deoxyguanosine 5'-diphosphate
+- id: C00424
+  name: (S)-Lactaldehyde
+  3DMET: B01242
+  CAS: 3913-64-2
+  ChEBI: '18041'
+  KNApSAcK: C00019649
+  NIKKAJI: J2.715D
+  PubChem: '3714'
+  formula: C3H6O2
+  mol_weight: 74.0785
+  names:
+  - (S)-Lactaldehyde
+  - L-Lactaldehyde
+  - L-2-Hydroxypropionaldehyde
+- id: C00498
+  name: ADP-glucose
+  3DMET: B01269
+  ChEBI: '15751'
+  ChEMBL: CHEMBL227552
+  NIKKAJI: J14.393F
+  PDB-CCD: ADQ
+  PubChem: '3781'
+  formula: C16H25N5O15P2
+  mol_weight: 589.3417
+  names:
+  - ADP-glucose
+  - ADP-alpha-D-glucose
+  - Adenosine diphosphoglucose
+- id: C00631
+  name: 2-Phospho-D-glycerate
+  3DMET: B01295
+  ChEBI: '17835'
+  KNApSAcK: C00000123
+  NIKKAJI: J71.811D
+  PDB-CCD: 2PG
+  PubChem: '3904'
+  formula: C3H7O7P
+  mol_weight: 186.0572
+  names:
+  - 2-Phospho-D-glycerate
+  - D-Glycerate 2-phosphate
+  - 2-Phospho-(R)-glycerate
+- id: C00691
+  name: 2,4,6/3,5-Pentahydroxycyclohexanone
+  3DMET: B01313
+  CAS: 488-64-2
+  ChEBI: '17811'
+  NIKKAJI: J431.500F
+  PDB-CCD: ISE
+  PubChem: '3959'
+  formula: C6H10O6
+  mol_weight: 178.14
+  names:
+  - 2,4,6/3,5-Pentahydroxycyclohexanone
+  - scyllo-Inosose
+  - 2-Inosose
+- id: C01131
+  name: L-Rhamnulose 1-phosphate
+  3DMET: B01389
+  CAS: 444-09-7
+  ChEBI: '17892'
+  KNApSAcK: C00019653
+  NIKKAJI: J2.731.617D
+  PubChem: '4362'
+  formula: C6H13O8P
+  mol_weight: 244.1364
+  names:
+  - L-Rhamnulose 1-phosphate
+- id: C01172
+  name: beta-D-Glucose 6-phosphate
+  3DMET: B01400
+  ChEBI: '17719'
+  ChEMBL: CHEMBL257975
+  NIKKAJI: J396.144C
+  PDB-CCD: BG6
+  PubChem: '4399'
+  formula: C6H13O9P
+  mol_weight: 260.1358
+  names:
+  - beta-D-Glucose 6-phosphate
+- id: C01268
+  name: 5-Amino-6-(5'-phosphoribosylamino)uracil
+  3DMET: B01428
+  ChEBI: '18337'
+  KNApSAcK: C00019665
+  NIKKAJI: J1.722.459J
+  PDB-CCD: AOF
+  PubChem: '4487'
+  formula: C9H15N4O9P
+  mol_weight: 354.2106
+  names:
+  - 5-Amino-6-(5'-phosphoribosylamino)uracil
+  - 5-Amino-6-(ribosylamino)-2,4-(1H,3H)-pyrimidinedione 5'-phosphate
+  - 5-Amino-6-(5-phosphoribosylamino)uracil
+- id: C01721
+  name: L-Fuculose
+  3DMET: B01487
+  ChEBI: '17617'
+  KNApSAcK: C00019650
+  NIKKAJI: J37.412A
+  PDB-CCD: CVU
+  PubChem: '4858'
+  formula: C6H12O5
+  mol_weight: 164.1565
+  names:
+  - L-Fuculose
+  - 6-Deoxy-L-tagatose
+- id: C04666
+  name: D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate
+  3DMET: B01771
+  ChEBI: '17805'
+  KNApSAcK: C00007478
+  NIKKAJI: J721.046I
+  PDB-CCD: IYP
+  PubChem: '7249'
+  formula: C6H11N2O6P
+  mol_weight: 238.1351
+  names:
+  - D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate
+  - D-erythro-Imidazole-glycerol 3-phosphate
+  - D-erythro-Imidazole-glycerol phosphate
+- id: C05143
+  name: Dhurrin
+  3DMET: B01815
+  CAS: 499-20-7
+  ChEBI: '27826'
+  KNApSAcK: C00001442
+  NIKKAJI: J10.589I
+  PubChem: '7561'
+  formula: C14H17NO7
+  mol_weight: 311.2873
+  names:
+  - Dhurrin
+  - (S)-4-Hydroxymandelonitrile beta-D-glucoside
+- id: C05378
+  name: beta-D-Fructose 1,6-bisphosphate
+  3DMET: B01851
+  ChEBI: '28013'
+  ChEMBL: CHEMBL97893
+  NIKKAJI: J322.162H
+  PDB-CCD: FBP
+  PubChem: '7752'
+  formula: C6H14O12P2
+  mol_weight: 340.1157
+  names:
+  - beta-D-Fructose 1,6-bisphosphate
+- id: C06056
+  name: 4-Hydroxy-L-threonine
+  3DMET: B01961
+  CAS: 21768-45-6
+  ChEBI: '28330'
+  NIKKAJI: J694.566J
+  PDB-CCD: TH6
+  PubChem: '8326'
+  formula: C4H9NO4
+  mol_weight: 135.1186
+  names:
+  - 4-Hydroxy-L-threonine
+  - Hydroxythreonine
+- id: C11437
+  name: 1-Deoxy-D-xylulose 5-phosphate
+  3DMET: B04265
+  ChEBI: '16493'
+  KNApSAcK: C00007292
+  NIKKAJI: J866.535D
+  PDB-CCD: DXP
+  PubChem: '13609'
+  formula: C5H11O7P
+  mol_weight: 214.1104
+  names:
+  - 1-Deoxy-D-xylulose 5-phosphate
+- id: C00203
+  name: UDP-N-acetyl-D-galactosamine
+  3DMET: B04647
+  ChEBI: '67168'
+  LIPIDMAPS: LMSL01010002
+  NIKKAJI: J443.675J
+  PDB-CCD: UD2
+  PubChem: '3503'
+  formula: C17H27N3O17P2
+  mol_weight: 607.3537
+  names:
+  - UDP-N-acetyl-D-galactosamine
+  - UDP-N-acetyl-alpha-D-galactosamine
+- id: C00311
+  name: Isocitrate
+  3DMET: B04664
+  CAS: 320-77-4
+  ChEBI: 16087 30887
+  ChEMBL: CHEMBL539669
+  NIKKAJI: J95.796H
+  PubChem: '3605'
+  formula: C6H8O7
+  mol_weight: 192.1235
+  names:
+  - Isocitrate
+  - Isocitric acid
+  - 1-Hydroxytricarballylic acid
+  - 1-Hydroxypropane-1,2,3-tricarboxylic acid
+- id: C00514
+  name: D-Mannonate
+  3DMET: B04694
+  CAS: 642-99-9
+  ChEBI: 17767 33076
+  NIKKAJI: J13.218G
+  PDB-CCD: CS2
+  PubChem: '3797'
+  formula: C6H12O7
+  mol_weight: 196.1553
+  names:
+  - D-Mannonate
+- id: C01096
+  name: Sorbitol 6-phosphate
+  3DMET: B04766
+  CAS: 20479-58-7
+  ChEBI: '17044'
+  NIKKAJI: J728.846H
+  PDB-CCD: S6P
+  PubChem: '4331'
+  formula: C6H15O9P
+  mol_weight: 262.1517
+  names:
+  - Sorbitol 6-phosphate
+  - D-Sorbitol 6-phosphate
+  - D-Glucitol 6-phosphate
+- id: C01909
+  name: Dethiobiotin
+  3DMET: B04822
+  CAS: 533-48-2
+  ChEBI: '16691'
+  KNApSAcK: C00000757
+  NIKKAJI: J9.406D
+  PubChem: '5017'
+  formula: C10H18N2O3
+  mol_weight: 214.2615
+  names:
+  - Dethiobiotin
+  - Desthiobiotin
+- id: C02273
+  name: Digalacturonate
+  3DMET: B04846
+  CAS: 5894-59-7
+  ChEBI: 28737 33809
+  NIKKAJI: J506.523B
+  PDB-CCD: AD0
+  PubChem: '5333'
+  formula: C12H18O13
+  mol_weight: 370.2635
+  names:
+  - Digalacturonate
+  - Digalacturonic acid
+- id: C03406
+  name: N-(L-Arginino)succinate
+  3DMET: B04894
+  CAS: 2387-71-5
+  ChEBI: '15682'
+  KNApSAcK: C00019688
+  NIKKAJI: J37.380J
+  PubChem: '6235'
+  formula: C10H18N4O6
+  mol_weight: 290.2731
+  names:
+  - N-(L-Arginino)succinate
+  - 2-(Nomega-L-Arginino)succinate
+  - L-Argininosuccinate
+  - L-Argininosuccinic acid
+  - L-Arginosuccinic acid
+- id: C04442
+  name: 2-Dehydro-3-deoxy-6-phospho-D-gluconate
+  3DMET: B04941
+  ChEBI: '15925'
+  ChEMBL: CHEMBL1162150
+  KNApSAcK: C00019434
+  NIKKAJI: J40.082C
+  PubChem: '7071'
+  formula: C6H11O9P
+  mol_weight: 258.1199
+  names:
+  - 2-Dehydro-3-deoxy-6-phospho-D-gluconate
+  - 6-Phospho-2-dehydro-3-deoxy-D-gluconate
+  - 2-Keto-3-deoxy-6-phosphogluconate
+  - 2-Dehydro-3-deoxy-D-gluconate 6-phosphate
+- id: C05382
+  name: Sedoheptulose 7-phosphate
+  3DMET: B05013
+  ChEBI: '15721'
+  KNApSAcK: C00019575
+  NIKKAJI: J604.570G
+  PDB-CCD: I22
+  PubChem: '7756'
+  formula: C7H15O10P
+  mol_weight: 290.1618
+  names:
+  - Sedoheptulose 7-phosphate
+  - D-Sedoheptulose 7-phosphate
+  - D-altro-Heptulose 7-phosphate
+  - altro-Heptulose 7-phosphate
+- id: C05401
+  name: 3-beta-D-Galactosyl-sn-glycerol
+  3DMET: B05016
+  ChEBI: '15754'
+  ChEMBL: CHEMBL446492
+  NIKKAJI: J362.297E
+  PDB-CCD: RGG
+  PubChem: '7768'
+  formula: C9H18O8
+  mol_weight: 254.2344
+  names:
+  - 3-beta-D-Galactosyl-sn-glycerol
+  - Galactosylglycerol
+- id: C05924
+  name: Molybdopterin
+  3DMET: B05139
+  ChEBI: '44074'
+  KNApSAcK: C00000774
+  NIKKAJI: J1.100.870D
+  PDB-CCD: MTE
+  PubChem: '8212'
+  formula: C10H14N5O6PS2
+  mol_weight: 395.3518
+  names:
+  - Molybdopterin
+  - Pyranopterin
+  - H2Dtpp-mP
+- id: C08325
+  name: Amygdalin
+  CAS: 29883-15-6
+  ChEBI: '17019'
+  ChEMBL: CHEMBL2007233 CHEMBL461727
+  KNApSAcK: C00001437
+  NIKKAJI: J21.549J
+  PubChem: '10523'
+  formula: C20H27NO11
+  mol_weight: 457.4285
+  names:
+  - Amygdalin
+  - (R)-Amygdalin
+  - (R)-Amygdaloside
+  - (R)-Laenitrile
+- id: C05198
+  name: 5'-Deoxyadenosine
+  CAS: 4754-39-6
+  ChEBI: '17319'
+  ChEMBL: CHEMBL443485
+  NIKKAJI: J103.510J
+  PDB-CCD: 5AD
+  PubChem: '7603'
+  formula: C10H13N5O3
+  mol_weight: 251.2419
+  names:
+  - 5'-Deoxyadenosine
+- id: C01594
+  name: Linamarin
+  CAS: 554-35-8
+  ChEBI: '16441'
+  ChEMBL: CHEMBL3039425
+  KNApSAcK: C00001446
+  NIKKAJI: J6.462I
+  PubChem: '4749'
+  formula: C10H17NO6
+  mol_weight: 247.2451
+  names:
+  - Linamarin
+  - Phaseolunatin
+- id: C00237
+  name: CO
+  CAS: 630-08-0
+  ChEBI: '17245'
+  ChEMBL: CHEMBL1231840
+  NIKKAJI: J369.708H
+  PDB-CCD: CMO
+  PubChem: '3536'
+  formula: CO
+  mol_weight: 28.0101
+  names:
+  - CO
+  - Carbon monoxide
+- id: C00844
+  name: Prunasin
+  CAS: 99-18-3
+  ChEBI: 17396 27761
+  ChEMBL: CHEMBL1778417
+  KNApSAcK: C00001454 C00034206
+  NIKKAJI: J113.483C
+  PubChem: '4101'
+  formula: C14H17NO6
+  mol_weight: 295.2879
+  names:
+  - Prunasin
+  - (R)-Prunasin
+- id: C00168
+  name: Hydroxypyruvate
+  3DMET: B00049
+  CAS: 1113-60-6
+  ChEBI: 17180 30841
+  KNApSAcK: C00007563
+  NIKKAJI: J515.825G
+  PDB-CCD: 3PY
+  PubChem: '3468'
+  formula: C3H4O4
+  mol_weight: 104.0615
+  names:
+  - Hydroxypyruvate
+  - Hydroxypyruvic acid
+  - 3-Hydroxypyruvate
+  - 3-Hydroxypyruvic acid
+- id: C00258
+  name: D-Glycerate
+  3DMET: B00076
+  CAS: 473-81-4
+  ChEBI: 16659 32398
+  KNApSAcK: C00001185
+  NIKKAJI: J5.966H
+  PDB-CCD: DGY
+  PubChem: '3557'
+  formula: C3H6O4
+  mol_weight: 106.0773
+  names:
+  - D-Glycerate
+  - Glycerate
+  - (R)-Glycerate
+  - Glyceric acid
+- id: C00322
+  name: 2-Oxoadipate
+  3DMET: B00088
+  CAS: 3184-35-8
+  ChEBI: '15753'
+  KNApSAcK: C00000770
+  NIKKAJI: J39.063A
+  PDB-CCD: OOG
+  PubChem: '3616'
+  formula: C6H8O5
+  mol_weight: 160.1247
+  names:
+  - 2-Oxoadipate
+  - 2-Oxoadipic acid
+- id: C00417
+  name: cis-Aconitate
+  3DMET: B00107
+  CAS: 585-84-2
+  ChEBI: 16383 32805
+  ChEMBL: CHEMBL347285
+  KNApSAcK: C00001177
+  NIKKAJI: J37.488A
+  PubChem: '3707'
+  formula: C6H6O6
+  mol_weight: 174.1082
+  names:
+  - cis-Aconitate
+  - cis-Aconitic acid
+- id: C00624
+  name: N-Acetyl-L-glutamate
+  3DMET: B00147
+  CAS: 1188-37-0
+  ChEBI: 17533 44337
+  ChEMBL: CHEMBL1234751
+  NIKKAJI: J37.497K
+  PDB-CCD: NLG
+  PubChem: '3897'
+  formula: C7H11NO5
+  mol_weight: 189.1659
+  names:
+  - N-Acetyl-L-glutamate
+  - N-Acetyl-L-glutamic acid
+- id: C01081
+  name: Thiamin monophosphate
+  3DMET: B00237
+  ChEBI: '9533'
+  ChEMBL: CHEMBL1236378
+  KNApSAcK: C00019628
+  NIKKAJI: J221.489J
+  PDB-CCD: TPS
+  PubChem: '4319'
+  formula: C12H18N4O4PS
+  mol_weight: 345.3345
+  names:
+  - Thiamin monophosphate
+  - Thiamine monophosphate
+  - Thiamin phosphate
+  - Thiamine phosphate
+  - TMP
+- id: C01563
+  name: Carbamate
+  3DMET: B00320
+  CAS: 463-77-4 302-11-4
+  ChEBI: '28616'
+  ChEMBL: CHEMBL125278
+  NIKKAJI: J39.572B
+  PDB-CCD: OUT
+  PubChem: '4721'
+  formula: CH3NO2
+  mol_weight: 61.04
+  names:
+  - Carbamate
+  - Carbamic acid
+  - Aminoformic acid
+- id: C02659
+  name: Acetone cyanohydrin
+  3DMET: B00479
+  CAS: 75-86-5
+  ChEBI: '15348'
+  ChEMBL: CHEMBL1231861
+  NIKKAJI: J1.468K
+  PDB-CCD: CNH
+  PubChem: '5632'
+  formula: C4H7NO
+  mol_weight: 85.1045
+  names:
+  - Acetone cyanohydrin
+  - alpha-Hydroxyisobutyronitrile
+  - 2-Hydroxy-2-methylpropanenitrile
+  - 2-Methyllactonitrile
+  - Acetone cyanhydrin
+  - 2-Hydroxyisobutyronitrile
+- id: C03232
+  name: 3-Phosphonooxypyruvate
+  3DMET: B00565
+  CAS: 3913-50-6
+  ChEBI: 18110 30933
+  KNApSAcK: C00019657
+  NIKKAJI: J2.180.747H
+  PDB-CCD: HPV
+  PubChem: '6103'
+  formula: C3H5O7P
+  mol_weight: 184.0414
+  names:
+  - 3-Phosphonooxypyruvate
+  - 3-Phosphonooxypyruvic acid
+  - 3-Phosphohydroxypyruvate
+  - 3-Phosphohydroxypyruvic acid
+  - 3-Phosphooxypyruvate
+- id: C00001
+  name: H2O
+  3DMET: B01124
+  CAS: 7732-18-5
+  ChEBI: '15377'
+  ChEMBL: CHEMBL1098659
+  NIKKAJI: J43.587B
+  PDB-CCD: HOH O
+  PubChem: '3303'
+  formula: H2O
+  mol_weight: 18.0153
+  names:
+  - H2O
+  - Water
+- id: C00004
+  name: NADH
+  3DMET: B01127
+  CAS: 58-68-4
+  ChEBI: '16908'
+  KNApSAcK: C00019343
+  NIKKAJI: J213.546I
+  PDB-CCD: NAI
+  PubChem: '3306'
+  formula: C21H29N7O14P2
+  mol_weight: 665.441
+  names:
+  - NADH
+  - DPNH
+  - Reduced nicotinamide adenine dinucleotide
+- id: C00005
+  name: NADPH
+  3DMET: B01128
+  CAS: 2646-71-1
+  ChEBI: '16474'
+  ChEMBL: CHEMBL1594246 CHEMBL407009
+  NIKKAJI: J208.978E
+  PDB-CCD: NDP
+  PubChem: '3307'
+  formula: C21H30N7O17P3
+  mol_weight: 745.4209
+  names:
+  - NADPH
+  - TPNH
+  - Reduced nicotinamide adenine dinucleotide phosphate
+- id: C00006
+  name: NADP+
+  3DMET: B01129
+  CAS: 53-59-8
+  ChEBI: '18009'
+  ChEMBL: CHEMBL1623886 CHEMBL295069
+  NIKKAJI: J247.824B
+  PDB-CCD: NAP
+  PubChem: '3308'
+  formula: C21H29N7O17P3
+  mol_weight: 744.4129
+  names:
+  - NADP+
+  - NADP
+  - Nicotinamide adenine dinucleotide phosphate
+  - beta-Nicotinamide adenine dinucleotide phosphate
+  - TPN
+  - Triphosphopyridine nucleotide
+  - beta-NADP+
+- id: C00011
+  name: CO2
+  3DMET: B01131
+  CAS: 124-38-9
+  ChEBI: '16526'
+  ChEMBL: CHEMBL1231871
+  NIKKAJI: J43.600C
+  PDB-CCD: CO2
+  PubChem: '3313'
+  formula: CO2
+  mol_weight: 44.0095
+  names:
+  - CO2
+  - Carbon dioxide
+- id: C00035
+  name: GDP
+  3DMET: B01135
+  CAS: 146-91-8
+  ChEBI: '17552'
+  ChEMBL: CHEMBL384759
+  NIKKAJI: J40.056D
+  PDB-CCD: GDP
+  PubChem: '3337'
+  formula: C10H15N5O11P2
+  mol_weight: 443.2005
+  names:
+  - GDP
+  - Guanosine 5'-diphosphate
+  - Guanosine diphosphate
+- id: C00075
+  name: UTP
+  3DMET: B01149
+  CAS: 63-39-8
+  ChEBI: '15713'
+  ChEMBL: CHEMBL336296
+  NIKKAJI: J4.827E
+  PDB-CCD: UTP
+  PubChem: '3375'
+  formula: C9H15N2O15P3
+  mol_weight: 484.1411
+  names:
+  - UTP
+  - Uridine 5'-triphosphate
+  - Uridine triphosphate
+- id: C00081
+  name: ITP
+  3DMET: B01153
+  CAS: 132-06-9
+  ChEBI: '16039'
+  ChEMBL: CHEMBL1233686
+  NIKKAJI: J38.562J
+  PDB-CCD: ITT
+  PubChem: '3381'
+  formula: C10H15N4O14P3
+  mol_weight: 508.1658
+  names:
+  - ITP
+  - Inosine 5'-triphosphate
+  - Inosine triphosphate
+  - Inosine tripolyphosphate
+- id: C00096
+  name: GDP-mannose
+  3DMET: B01158
+  CAS: 3123-67-9
+  ChEBI: '15820'
+  KNApSAcK: C00007246
+  NIKKAJI: J247.698C
+  PDB-CCD: GDD
+  PubChem: '3396'
+  formula: C16H25N5O16P2
+  mol_weight: 605.3411
+  names:
+  - GDP-mannose
+  - GDP-D-mannose
+  - GDP-alpha-D-mannose
+- id: C00104
+  name: IDP
+  3DMET: B01160
+  CAS: 86-04-4
+  ChEBI: '17808'
+  ChEMBL: CHEMBL1233551
+  NIKKAJI: J38.561A
+  PDB-CCD: IDP
+  PubChem: '3404'
+  formula: C10H14N4O11P2
+  mol_weight: 428.1859
+  names:
+  - IDP
+  - Inosine 5'-diphosphate
+  - Inosine diphosphate
+- id: C00112
+  name: CDP
+  3DMET: B01162
+  CAS: 63-38-7
+  ChEBI: '17239'
+  ChEMBL: CHEMBL425252
+  NIKKAJI: J150.290E
+  PDB-CCD: CDP
+  PubChem: '3412'
+  formula: C9H15N3O11P2
+  mol_weight: 403.1764
+  names:
+  - CDP
+  - Cytidine 5'-diphosphate
+  - Cytidine diphosphate
+- id: C00119
+  name: 5-Phospho-alpha-D-ribose 1-diphosphate
+  3DMET: B01164
+  ChEBI: '17111'
+  ChEMBL: CHEMBL606077
+  KNApSAcK: C00007296
+  NIKKAJI: J40.073D
+  PDB-CCD: PRP
+  PubChem: '3419'
+  formula: C5H13O14P3
+  mol_weight: 390.0696
+  names:
+  - 5-Phospho-alpha-D-ribose 1-diphosphate
+  - 5-Phosphoribosyl diphosphate
+  - 5-Phosphoribosyl 1-pyrophosphate
+  - PRPP
+- id: C00131
+  name: dATP
+  3DMET: B01169
+  CAS: 1927-31-7
+  ChEBI: '16284'
+  ChEMBL: CHEMBL335538
+  NIKKAJI: J90.479A
+  PDB-CCD: DTP
+  PubChem: '3431'
+  formula: C10H16N5O12P3
+  mol_weight: 491.1816
+  names:
+  - dATP
+  - 2'-Deoxyadenosine 5'-triphosphate
+  - Deoxyadenosine 5'-triphosphate
+  - Deoxyadenosine triphosphate
+- id: C00192
+  name: Hydroxylamine
+  3DMET: B01184
+  CAS: 7803-49-8
+  ChEBI: '15429'
+  ChEMBL: CHEMBL1191361
+  NIKKAJI: J941E
+  PDB-CCD: HOA
+  PubChem: '3492'
+  formula: NH3O
+  mol_weight: 33.0299
+  names:
+  - Hydroxylamine
+  - NH2OH
+- id: C00197
+  name: 3-Phospho-D-glycerate
+  3DMET: B01185
+  ChEBI: '17794'
+  ChEMBL: CHEMBL1160563
+  KNApSAcK: C00019551
+  NIKKAJI: J40.061K
+  PDB-CCD: 3PG
+  PubChem: '3497'
+  formula: C3H7O7P
+  mol_weight: 186.0572
+  names:
+  - 3-Phospho-D-glycerate
+  - D-Glycerate 3-phosphate
+  - 3-Phospho-(R)-glycerate
+  - 3-Phosphoglycerate
+- id: C00236
+  name: 3-Phospho-D-glyceroyl phosphate
+  3DMET: B01197
+  CAS: 38168-82-0
+  ChEBI: '16001'
+  KNApSAcK: C00019552
+  NIKKAJI: J40.060B
+  PDB-CCD: X15
+  PubChem: '3535'
+  formula: C3H8O10P2
+  mol_weight: 266.0371
+  names:
+  - 3-Phospho-D-glyceroyl phosphate
+  - 1,3-Bisphospho-D-glycerate
+  - (R)-2-Hydroxy-3-(phosphonooxy)-1-monoanhydride with phosphoric propanoic acid
+  - D-Glycerate 1,3-diphosphate
+- id: C00636
+  name: D-Mannose 1-phosphate
+  3DMET: B01296
+  ChEBI: 18205 35374
+  ChEMBL: CHEMBL291890
+  KNApSAcK: C00007389
+  NIKKAJI: J313.724D
+  PDB-CCD: M1P
+  PubChem: '3909'
+  formula: C6H13O9P
+  mol_weight: 260.1358
+  names:
+  - D-Mannose 1-phosphate
+  - alpha-D-Mannose 1-phosphate
+- id: C00663
+  name: beta-D-Glucose 1-phosphate
+  3DMET: B01301
+  ChEBI: '16218'
+  ChEMBL: CHEMBL67622
+  KNApSAcK: C00019553
+  NIKKAJI: J351.176F
+  PDB-CCD: XGP
+  PubChem: '3932'
+  formula: C6H13O9P
+  mol_weight: 260.1358
+  names:
+  - beta-D-Glucose 1-phosphate
+- id: C01100
+  name: L-Histidinol phosphate
+  3DMET: B01378
+  CAS: 25679-93-0
+  ChEBI: '16996'
+  KNApSAcK: C00007480
+  NIKKAJI: J540.521A
+  PDB-CCD: HSA
+  PubChem: '4334'
+  formula: C6H12N3O4P
+  mol_weight: 221.1509
+  names:
+  - L-Histidinol phosphate
+- id: C01613
+  name: Stachyose
+  3DMET: B01470
+  CAS: 10094-58-3 470-55-3
+  ChEBI: '17164'
+  ChEMBL: CHEMBL1625803
+  KNApSAcK: C00001150
+  NIKKAJI: J5.938B
+  PubChem: '4765'
+  formula: C24H42O21
+  mol_weight: 666.5777
+  names:
+  - Stachyose
+- id: C01929
+  name: L-Histidinal
+  3DMET: B01518
+  ChEBI: '27676'
+  ChEMBL: CHEMBL307302
+  KNApSAcK: C00007495
+  NIKKAJI: J36.234D
+  PDB-CCD: HSV
+  PubChem: '5035'
+  formula: C6H9N3O
+  mol_weight: 139.1552
+  names:
+  - L-Histidinal
+- id: C02336
+  name: beta-D-Fructose
+  3DMET: B01561
+  CAS: 53188-23-1
+  ChEBI: '28645'
+  ChEMBL: CHEMBL604608
+  NIKKAJI: J4.580B
+  PDB-CCD: FRU
+  PubChem: '5386'
+  formula: C6H12O6
+  mol_weight: 180.1559
+  names:
+  - beta-D-Fructose
+  - beta-Fruit sugar
+  - beta-D-arabino-Hexulose
+  - beta-Levulose
+  - Fructose
+- id: C05345
+  name: beta-D-Fructose 6-phosphate
+  3DMET: B01846
+  ChEBI: '16084'
+  ChEMBL: CHEMBL604196
+  KNApSAcK: C00019548
+  NIKKAJI: J879.002G
+  PDB-CCD: F6P
+  PubChem: '7723'
+  formula: C6H13O9P
+  mol_weight: 260.1358
+  names:
+  - beta-D-Fructose 6-phosphate
+- id: C06156
+  name: alpha-D-Glucosamine 1-phosphate
+  3DMET: B01976
+  CAS: 2152-75-2
+  ChEBI: '27625'
+  KNApSAcK: C00019579
+  NIKKAJI: J1.531.908I
+  PDB-CCD: GP1 L1L
+  PubChem: '8412'
+  formula: C6H14NO8P
+  mol_weight: 259.151
+  names:
+  - alpha-D-Glucosamine 1-phosphate
+  - D-Glucosamine 1-phosphate
+- id: C00043
+  name: UDP-N-acetyl-alpha-D-glucosamine
+  3DMET: B04624
+  CAS: 528-04-1
+  ChEBI: '16264'
+  KNApSAcK: C00019358
+  NIKKAJI: J506.541K
+  PDB-CCD: UD1
+  PubChem: '3345'
+  formula: C17H27N3O17P2
+  mol_weight: 607.3537
+  names:
+  - UDP-N-acetyl-alpha-D-glucosamine
+  - UDP-N-acetyl-D-glucosamine
+  - UDP-N-acetylglucosamine
+- id: C00100
+  name: Propanoyl-CoA
+  3DMET: B04632
+  CAS: 317-66-8
+  ChEBI: '15539'
+  LIPIDMAPS: LMFA07050364
+  NIKKAJI: J1.695.704F
+  PDB-CCD: 1VU
+  PubChem: '3400'
+  formula: C24H40N7O17P3S
+  mol_weight: 823.5974
+  names:
+  - Propanoyl-CoA
+  - Propionyl-CoA
+  - Propionyl coenzyme A
+- id: C00103
+  name: D-Glucose 1-phosphate
+  3DMET: B04634
+  CAS: 59-56-3
+  ChEBI: '29042'
+  KNApSAcK: C00007482
+  NIKKAJI: J40.065C
+  PDB-CCD: G1P
+  PubChem: '3403'
+  formula: C6H13O9P
+  mol_weight: 260.1358
+  names:
+  - D-Glucose 1-phosphate
+  - alpha-D-Glucose 1-phosphate
+  - Cori ester
+  - D-Glucose alpha-1-phosphate
+- id: C00185
+  name: Cellobiose
+  3DMET: B04644
+  CAS: 16462-44-5
+  ChEBI: '17057'
+  ChEMBL: CHEMBL1231670 CHEMBL1614877
+  NIKKAJI: J6.676A
+  PDB-CCD: CBI CBK
+  PubChem: '3485'
+  formula: C12H22O11
+  mol_weight: 342.2965
+  names:
+  - Cellobiose
+  - 1-beta-D-Glucopyranosyl-4-D-glucopyranose
+- id: C00252
+  name: Isomaltose
+  3DMET: B04654
+  CAS: 499-40-1
+  ChEBI: '28189'
+  ChEMBL: CHEMBL134478 CHEMBL66675
+  KNApSAcK: C00018660
+  NIKKAJI: J150.529G
+  PubChem: '3551'
+  formula: C12H22O11
+  mol_weight: 342.2965
+  names:
+  - Isomaltose
+  - Brachiose
+- id: C00310
+  name: D-Xylulose
+  3DMET: B04663
+  CAS: 551-84-8
+  ChEBI: '17140'
+  KNApSAcK: C00019684
+  NIKKAJI: J14.195J
+  PDB-CCD: XLF
+  PubChem: '3604'
+  formula: C5H10O5
+  mol_weight: 150.1299
+  names:
+  - D-Xylulose
+  - D-threo-Pentulose
+  - D-Lyxulose
+- id: C00333
+  name: D-Galacturonate
+  3DMET: B04672
+  CAS: 685-73-4
+  ChEBI: 12952 4153
+  KNApSAcK: C00001120
+  NIKKAJI: J82.118G
+  PDB-CCD: ADA GTR
+  PubChem: '3627'
+  formula: C6H10O7
+  mol_weight: 194.1394
+  names:
+  - D-Galacturonate
+  - D-Galacturonic acid
+- id: C00507
+  name: L-Rhamnose
+  3DMET: B04689
+  CAS: 3615-41-6 73-34-7
+  ChEBI: 62345 62346
+  NIKKAJI: J8.185J
+  PDB-CCD: RAM RM4
+  PubChem: '3790'
+  comment: 'alpha-L-Rhamnose [CPD:C02476]
+
+    beta-L-Rhamnose [CPD:C02338]'
+  formula: C6H12O5
+  mol_weight: 164.1565
+  names:
+  - L-Rhamnose
+  - 6-Deoxy-L-mannose
+  - L-Mannomethylose
+  - L-Rhamnopyranose
+- id: C00508
+  name: L-Ribulose
+  3DMET: B04690
+  CAS: 2042-27-5
+  ChEBI: '16880'
+  KNApSAcK: C00019634
+  NIKKAJI: J14.173I
+  PDB-CCD: 34V RUU
+  PubChem: '3791'
+  formula: C5H10O5
+  mol_weight: 150.1299
+  names:
+  - L-Ribulose
+  - L-erythro-Pentulose
+  - L-Arabinoketose
+  - L-Arabinulose
+  - L-Riboketose
+- id: C00527
+  name: Glutaryl-CoA
+  3DMET: B04695
+  CAS: 3131-84-8
+  ChEBI: '15524'
+  LIPIDMAPS: LMFA07050324
+  NIKKAJI: J1.748.735C
+  PDB-CCD: GRA
+  PubChem: '3810'
+  formula: C26H42N7O19P3S
+  mol_weight: 881.6335
+  names:
+  - Glutaryl-CoA
+- id: C04332
+  name: 6,7-Dimethyl-8-(D-ribityl)lumazine
+  3DMET: B04936
+  CAS: 5118-16-1
+  ChEBI: '17601'
+  KNApSAcK: C00019640
+  NIKKAJI: J643.571H
+  PDB-CCD: DLZ
+  PubChem: '6983'
+  formula: C13H18N4O6
+  mol_weight: 326.3052
+  names:
+  - 6,7-Dimethyl-8-(D-ribityl)lumazine
+- id: C00009
+  name: Orthophosphate
+  3DMET: B00002
+  CAS: 7664-38-2
+  ChEBI: 18367 26078
+  ChEMBL: CHEMBL1187
+  KNApSAcK: C00007408
+  NIKKAJI: J3.746J
+  PDB-CCD: 2HP PI PO4
+  PubChem: '3311'
+  formula: H3PO4
+  mol_weight: 97.9952
+  names:
+  - Orthophosphate
+  - Phosphate
+  - Phosphoric acid
+  - Orthophosphoric acid
+- id: C00013
+  name: Diphosphate
+  3DMET: B00003
+  CAS: 2466-09-3
+  ChEBI: 18361 29888
+  ChEMBL: CHEMBL1160571
+  KNApSAcK: C00019561
+  NIKKAJI: J43.595C
+  PDB-CCD: DPO POP PPV
+  PubChem: '3315'
+  formula: H4P2O7
+  mol_weight: 177.9751
+  names:
+  - Diphosphate
+  - Diphosphoric acid
+  - Pyrophosphate
+  - Pyrophosphoric acid
+  - PPi
+- id: C00014
+  name: Ammonia
+  3DMET: B00004
+  CAS: 7664-41-7
+  ChEBI: '16134'
+  ChEMBL: CHEMBL1160819
+  KNApSAcK: C00007267
+  NIKKAJI: J3.748F
+  PDB-CCD: NH3
+  PubChem: '3316'
+  formula: NH3
+  mol_weight: 17.0305
+  names:
+  - Ammonia
+  - NH3
+- id: C00018
+  name: Pyridoxal phosphate
+  3DMET: B00005
+  CAS: 54-47-7
+  ChEBI: '18405'
+  ChEMBL: CHEMBL82202
+  KNApSAcK: C00007503
+  NIKKAJI: J10.690I
+  PDB-CCD: PLP
+  PubChem: '3320'
+  formula: C8H10NO6P
+  mol_weight: 247.1419
+  names:
+  - Pyridoxal phosphate
+  - Pyridoxal 5-phosphate
+  - Pyridoxal 5'-phosphate
+  - PLP
+- id: C00025
+  name: L-Glutamate
+  3DMET: B00007
+  CAS: 56-86-0
+  ChEBI: '16015'
+  ChEMBL: CHEMBL575060
+  KNApSAcK: C00001358
+  NIKKAJI: J9.171E
+  PDB-CCD: GGL GLU
+  PubChem: '3327'
+  formula: C5H9NO4
+  mol_weight: 147.1293
+  names:
+  - L-Glutamate
+  - L-Glutamic acid
+  - L-Glutaminic acid
+  - Glutamate
+- id: C00026
+  name: 2-Oxoglutarate
+  3DMET: B00008
+  CAS: 328-50-7
+  ChEBI: 16810 30915
+  ChEMBL: CHEMBL1686
+  KNApSAcK: C00000769
+  NIKKAJI: J11.847H
+  PDB-CCD: AKG
+  PubChem: '3328'
+  formula: C5H6O5
+  mol_weight: 146.0981
+  names:
+  - 2-Oxoglutarate
+  - Oxoglutaric acid
+  - 2-Ketoglutaric acid
+  - alpha-Ketoglutaric acid
+- id: C00036
+  name: Oxaloacetate
+  3DMET: B00010
+  CAS: 328-42-7
+  ChEBI: 16452 30744
+  ChEMBL: CHEMBL1794791
+  KNApSAcK: C00001197
+  NIKKAJI: J5.675H
+  PDB-CCD: OAA
+  PubChem: '3338'
+  formula: C4H4O5
+  mol_weight: 132.0716
+  names:
+  - Oxaloacetate
+  - Oxalacetic acid
+  - Oxaloacetic acid
+  - 2-Oxobutanedioic acid
+  - 2-Oxosuccinic acid
+  - keto-Oxaloacetate
+- id: C00048
+  name: Glyoxylate
+  3DMET: B00014
+  CAS: 298-12-4
+  ChEBI: '16891'
+  ChEMBL: CHEMBL1162545
+  KNApSAcK: C00001186
+  NIKKAJI: J38.150K
+  PDB-CCD: GLV
+  PubChem: '3350'
+  formula: C2H2O3
+  mol_weight: 74.0355
+  names:
+  - Glyoxylate
+  - Glyoxalate
+  - Glyoxylic acid
+- id: C00049
+  name: L-Aspartate
+  3DMET: B00015
+  CAS: 56-84-8
+  ChEBI: '17053'
+  ChEMBL: CHEMBL274323
+  KNApSAcK: C00001342
+  NIKKAJI: J9.169C
+  PDB-CCD: ASP IAS
+  PubChem: '3351'
+  formula: C4H7NO4
+  mol_weight: 133.1027
+  names:
+  - L-Aspartate
+  - L-Aspartic acid
+  - 2-Aminosuccinic acid
+  - L-Asp
+- id: C00064
+  name: L-Glutamine
+  3DMET: B00017
+  CAS: 56-85-9
+  ChEBI: '18050'
+  ChEMBL: CHEMBL930
+  KNApSAcK: C00001359
+  NIKKAJI: J9.170G
+  PDB-CCD: GLN
+  PubChem: '3364'
+  formula: C5H10N2O3
+  mol_weight: 146.1445
+  names:
+  - L-Glutamine
+  - L-2-Aminoglutaramic acid
+- id: C00074
+  name: Phosphoenolpyruvate
+  3DMET: B00019
+  CAS: 138-08-9
+  ChEBI: 18021 44897
+  ChEMBL: CHEMBL1235228
+  KNApSAcK: C00000798
+  NIKKAJI: J9.706C
+  PDB-CCD: PEP
+  PubChem: '3374'
+  formula: C3H5O6P
+  mol_weight: 168.042
+  names:
+  - Phosphoenolpyruvate
+  - Phosphoenolpyruvic acid
+  - PEP
+- id: C00077
+  name: L-Ornithine
+  3DMET: B00020
+  CAS: 70-26-8
+  ChEBI: '15729'
+  ChEMBL: CHEMBL446143
+  KNApSAcK: C00001384
+  NIKKAJI: J9.177D
+  PDB-CCD: ORN
+  PubChem: '3377'
+  formula: C5H12N2O2
+  mol_weight: 132.161
+  names:
+  - L-Ornithine
+  - (S)-2,5-Diaminovaleric acid
+  - (S)-2,5-Diaminopentanoic acid
+  - (S)-2,5-Diaminopentanoate
+- id: C00111
+  name: Glycerone phosphate
+  3DMET: B00029
+  CAS: 57-04-5
+  ChEBI: '16108'
+  ChEMBL: CHEMBL1161998
+  KNApSAcK: C00007560
+  NIKKAJI: J213.543D
+  PDB-CCD: 13P
+  PubChem: '3411'
+  formula: C3H7O6P
+  mol_weight: 170.0578
+  names:
+  - Glycerone phosphate
+  - Dihydroxyacetone phosphate
+  - 3-Hydroxy-2-oxopropyl phosphate
+- id: C00116
+  name: Glycerol
+  3DMET: B00032
+  CAS: 56-81-5
+  ChEBI: '17754'
+  ChEMBL: CHEMBL692
+  KNApSAcK: C00001163
+  NIKKAJI: J1.916J
+  PDB-CCD: GOL
+  PubChem: '3416'
+  formula: C3H8O3
+  mol_weight: 92.0938
+  names:
+  - Glycerol
+  - Glycerin
+  - 1,2,3-Trihydroxypropane
+  - 1,2,3-Propanetriol
+- id: C00122
+  name: Fumarate
+  3DMET: B00033
+  CAS: 110-17-8
+  ChEBI: 18012 29806
+  ChEMBL: CHEMBL503160
+  KNApSAcK: C00001183 C00033849
+  NIKKAJI: J2.880K
+  PDB-CCD: FUM
+  PubChem: '3422'
+  formula: C4H4O4
+  mol_weight: 116.0722
+  names:
+  - Fumarate
+  - Fumaric acid
+  - trans-Butenedioic acid
+- id: C00137
+  name: myo-Inositol
+  3DMET: B00038
+  CAS: 87-89-8
+  ChEBI: '17268'
+  ChEMBL: CHEMBL1222251
+  KNApSAcK: C00001164
+  NIKKAJI: J4.282J
+  PDB-CCD: INS
+  PubChem: '3437'
+  formula: C6H12O6
+  mol_weight: 180.1559
+  names:
+  - myo-Inositol
+  - D-myo-Inositol
+  - 1D-myo-Inositol
+  - L-myo-Inositol
+  - 1L-myo-Inositol
+  - meso-Inositol
+  - Inositol
+  - Dambose
+  - Cyclohexitol
+  - Meat sugar
+  - Bios I
+- id: C00158
+  name: Citrate
+  3DMET: B00046
+  CAS: 77-92-9
+  ChEBI: 16947 30769
+  ChEMBL: CHEMBL1261
+  KNApSAcK: C00007619
+  NIKKAJI: J2.824J
+  PDB-CCD: CIT FLC
+  PubChem: '3458'
+  formula: C6H8O7
+  mol_weight: 192.1235
+  names:
+  - Citrate
+  - Citric acid
+  - 2-Hydroxy-1,2,3-propanetricarboxylic acid
+  - 2-Hydroxytricarballylic acid
+- id: C00166
+  name: Phenylpyruvate
+  3DMET: B00048
+  CAS: 156-06-9
+  ChEBI: 18005 30851
+  ChEMBL: CHEMBL1162488
+  KNApSAcK: C00000751
+  NIKKAJI: J11.025F
+  PDB-CCD: PPY
+  PubChem: '3466'
+  formula: C9H8O3
+  mol_weight: 164.158
+  names:
+  - Phenylpyruvate
+  - Phenylpyruvic acid
+  - alpha-Ketohydrocinnamic acid
+  - keto-Phenylpyruvate
+  - 3-Phenyl-2-oxopropanoate
+  - 2-Oxo-3-phenylpropanoate
+- id: C00169
+  name: Carbamoyl phosphate
+  3DMET: B00050
+  CAS: 590-55-6
+  ChEBI: '17672'
+  ChEMBL: CHEMBL369105
+  KNApSAcK: C00007513
+  NIKKAJI: J39.574I
+  PDB-CCD: CP
+  PubChem: '3469'
+  formula: CH4NO5P
+  mol_weight: 141.0199
+  names:
+  - Carbamoyl phosphate
+- id: C00250
+  name: Pyridoxal
+  3DMET: B00072
+  CAS: 66-72-8
+  ChEBI: '17310'
+  ChEMBL: CHEMBL102970
+  KNApSAcK: C00007509
+  NIKKAJI: J2.361B
+  PDB-CCD: PXL
+  PubChem: '3549'
+  formula: C8H9NO3
+  mol_weight: 167.162
+  names:
+  - Pyridoxal
+- id: C00534
+  name: Pyridoxamine
+  3DMET: B00123
+  CAS: 85-87-0
+  ChEBI: '16410'
+  ChEMBL: CHEMBL593019
+  KNApSAcK: C00007504
+  NIKKAJI: J3.891A
+  PDB-CCD: PXM
+  PubChem: '3816'
+  formula: C8H12N2O2
+  mol_weight: 168.1931
+  names:
+  - Pyridoxamine
+  - PM
+- id: C00647
+  name: Pyridoxamine phosphate
+  3DMET: B00154
+  CAS: 529-96-4
+  ChEBI: '18335'
+  ChEMBL: CHEMBL1235353
+  KNApSAcK: C00007506
+  NIKKAJI: J11.364F
+  PDB-CCD: PMP
+  PubChem: '3919'
+  formula: C8H13N2O5P
+  mol_weight: 248.173
+  names:
+  - Pyridoxamine phosphate
+  - Pyridoxamine 5-phosphate
+  - Pyridoxamine 5'-phosphate
+- id: C01179
+  name: 3-(4-Hydroxyphenyl)pyruvate
+  3DMET: B00254
+  CAS: 156-39-8
+  ChEBI: 15999 36242
+  ChEMBL: CHEMBL607712
+  KNApSAcK: C00007512
+  NIKKAJI: J101.877I
+  PDB-CCD: ENO
+  PubChem: '4406'
+  formula: C9H8O4
+  mol_weight: 180.1574
+  names:
+  - 3-(4-Hydroxyphenyl)pyruvate
+  - 4-Hydroxyphenylpyruvate
+  - p-Hydroxyphenylpyruvic acid
+- id: C00002
+  name: ATP
+  3DMET: B01125
+  CAS: 56-65-5
+  ChEBI: '15422'
+  ChEMBL: CHEMBL14249
+  KNApSAcK: C00001491
+  NIKKAJI: J10.680A
+  PDB-CCD: ATP
+  PubChem: '3304'
+  formula: C10H16N5O13P3
+  mol_weight: 507.181
+  names:
+  - ATP
+  - Adenosine 5'-triphosphate
+- id: C00003
+  name: NAD+
+  3DMET: B01126
+  CAS: 53-84-9
+  ChEBI: '15846'
+  ChEMBL: CHEMBL1234613 CHEMBL1454168
+  KNApSAcK: C00007256
+  NIKKAJI: J136.554A
+  PDB-CCD: NAD NAJ
+  PubChem: '3305'
+  formula: C21H28N7O14P2
+  mol_weight: 664.433
+  names:
+  - NAD+
+  - NAD
+  - Nicotinamide adenine dinucleotide
+  - DPN
+  - Diphosphopyridine nucleotide
+  - Nadide
+  - beta-NAD+
+- id: C00008
+  name: ADP
+  3DMET: B01130
+  CAS: 58-64-0
+  ChEBI: '16761'
+  ChEMBL: CHEMBL14830
+  KNApSAcK: C00019353
+  NIKKAJI: J10.683F
+  PDB-CCD: ADP
+  PubChem: '3310'
+  formula: C10H15N5O10P2
+  mol_weight: 427.2011
+  names:
+  - ADP
+  - Adenosine 5'-diphosphate
+- id: C00015
+  name: UDP
+  3DMET: B01132
+  CAS: 58-98-0
+  ChEBI: '17659'
+  ChEMBL: CHEMBL130266
+  KNApSAcK: C00007313
+  NIKKAJI: J4.595K
+  PDB-CCD: UDP
+  PubChem: '3317'
+  formula: C9H14N2O12P2
+  mol_weight: 404.1612
+  names:
+  - UDP
+  - Uridine 5'-diphosphate
+- id: C00020
+  name: AMP
+  3DMET: B01133
+  CAS: 61-19-8
+  ChEBI: '16027'
+  ChEMBL: CHEMBL752
+  KNApSAcK: C00019347
+  NIKKAJI: J4.814C
+  PDB-CCD: A AMP AP7
+  PubChem: '3322'
+  formula: C10H14N5O7P
+  mol_weight: 347.2212
+  names:
+  - AMP
+  - Adenosine 5'-monophosphate
+  - Adenylic acid
+  - Adenylate
+  - 5'-AMP
+  - 5'-Adenylic acid
+  - 5'-Adenosine monophosphate
+  - Adenosine 5'-phosphate
+- id: C00037
+  name: Glycine
+  3DMET: B01136
+  CAS: 56-40-6
+  ChEBI: '15428'
+  ChEMBL: CHEMBL773
+  KNApSAcK: C00001361
+  NIKKAJI: J1.163K
+  PDB-CCD: GLY
+  PubChem: '3339'
+  formula: C2H5NO2
+  mol_weight: 75.0666
+  names:
+  - Glycine
+  - Aminoacetic acid
+  - Gly
+- id: C00044
+  name: GTP
+  3DMET: B01137
+  CAS: 86-01-1
+  ChEBI: '15996'
+  ChEMBL: CHEMBL1233147
+  KNApSAcK: C00007223
+  NIKKAJI: J40.055F
+  PDB-CCD: GTP
+  PubChem: '3346'
+  formula: C10H16N5O14P3
+  mol_weight: 523.1804
+  names:
+  - GTP
+  - Guanosine 5'-triphosphate
+- id: C00062
+  name: L-Arginine
+  3DMET: B01143
+  CAS: 74-79-3
+  ChEBI: '16467'
+  ChEMBL: CHEMBL1485
+  KNApSAcK: C00001340
+  NIKKAJI: J9.182K
+  PDB-CCD: ARG GND
+  PubChem: '3362'
+  formula: C6H14N4O2
+  mol_weight: 174.201
+  names:
+  - L-Arginine
+  - (S)-2-Amino-5-guanidinovaleric acid
+  - L-Arg
+- id: C00063
+  name: CTP
+  3DMET: B01144
+  CAS: 65-47-4
+  ChEBI: '17677'
+  ChEMBL: CHEMBL223533
+  KNApSAcK: C00019639
+  NIKKAJI: J213.552C
+  PDB-CCD: CTP
+  PubChem: '3363'
+  formula: C9H16N3O14P3
+  mol_weight: 483.1563
+  names:
+  - CTP
+  - Cytidine 5'-triphosphate
+  - Cytidine triphosphate
+- id: C00065
+  name: L-Serine
+  3DMET: B01145
+  CAS: 56-45-1
+  ChEBI: '17115'
+  ChEMBL: CHEMBL11298
+  KNApSAcK: C00001393
+  NIKKAJI: J1.195I
+  PDB-CCD: SER
+  PubChem: '3365'
+  formula: C3H7NO3
+  mol_weight: 105.0926
+  names:
+  - L-Serine
+  - L-2-Amino-3-hydroxypropionic acid
+  - L-3-Hydroxy-alanine
+  - Serine
+- id: C00073
+  name: L-Methionine
+  3DMET: B01148
+  CAS: 63-68-3
+  ChEBI: '16643'
+  ChEMBL: CHEMBL42336
+  KNApSAcK: C00001379
+  NIKKAJI: J9.174J
+  PDB-CCD: MET
+  PubChem: '3373'
+  formula: C5H11NO2S
+  mol_weight: 149.2113
+  names:
+  - L-Methionine
+  - Methionine
+  - L-2-Amino-4methylthiobutyric acid
+- id: C00079
+  name: L-Phenylalanine
+  3DMET: B01151
+  CAS: 63-91-2
+  ChEBI: '17295'
+  ChEMBL: CHEMBL301523
+  KNApSAcK: C00001386
+  NIKKAJI: J9.175H
+  PDB-CCD: PHE
+  PubChem: '3379'
+  formula: C9H11NO2
+  mol_weight: 165.1891
+  names:
+  - L-Phenylalanine
+  - (S)-alpha-Amino-beta-phenylpropionic acid
+- id: C00082
+  name: L-Tyrosine
+  3DMET: B01154
+  CAS: 60-18-4
+  ChEBI: '17895'
+  ChEMBL: CHEMBL925
+  KNApSAcK: C00001397
+  NIKKAJI: J9.173A
+  PDB-CCD: TYR
+  PubChem: '3382'
+  formula: C9H11NO3
+  mol_weight: 181.1885
+  names:
+  - L-Tyrosine
+  - (S)-3-(p-Hydroxyphenyl)alanine
+  - (S)-2-Amino-3-(p-hydroxyphenyl)propionic acid
+  - Tyrosine
+- id: C00089
+  name: Sucrose
+  3DMET: B01156
+  CAS: 57-50-1
+  ChEBI: '17992'
+  ChEMBL: CHEMBL253582
+  KNApSAcK: C00001151
+  NIKKAJI: J4.581K
+  PDB-CCD: SUC
+  PubChem: '3389'
+  formula: C12H22O11
+  mol_weight: 342.2965
+  names:
+  - Sucrose
+  - Cane sugar
+  - Saccharose
+  - 1-alpha-D-Glucopyranosyl-2-beta-D-fructofuranoside
+- id: C00118
+  name: D-Glyceraldehyde 3-phosphate
+  3DMET: B01163
+  CAS: 591-57-1
+  ChEBI: '29052'
+  ChEMBL: CHEMBL1232918
+  KNApSAcK: C00007564
+  NIKKAJI: J228.059K
+  PDB-CCD: G3H
+  PubChem: '3418'
+  formula: C3H7O6P
+  mol_weight: 170.0578
+  names:
+  - D-Glyceraldehyde 3-phosphate
+  - (2R)-2-Hydroxy-3-(phosphonooxy)-propanal
+  - Glyceraldehyde 3-phosphate
+- id: C00120
+  name: Biotin
+  3DMET: B01165
+  CAS: 58-85-5
+  ChEBI: '15956'
+  ChEMBL: CHEMBL857
+  KNApSAcK: C00000756
+  NIKKAJI: J94.599D
+  PDB-CCD: BTN
+  PubChem: '3420'
+  formula: C10H16N2O3S
+  mol_weight: 244.3106
+  names:
+  - Biotin
+  - D-Biotin
+  - Vitamin H
+  - Coenzyme R
+- id: C00135
+  name: L-Histidine
+  3DMET: B01171
+  CAS: 71-00-1
+  ChEBI: '15971'
+  ChEMBL: CHEMBL17962
+  KNApSAcK: C00001363
+  NIKKAJI: J4.881J
+  PDB-CCD: HIS
+  PubChem: '3435'
+  formula: C6H9N3O2
+  mol_weight: 155.1546
+  names:
+  - L-Histidine
+  - (S)-alpha-Amino-1H-imidazole-4-propionic acid
+- id: C00188
+  name: L-Threonine
+  3DMET: B01182
+  CAS: 72-19-5
+  ChEBI: '16857'
+  ChEMBL: CHEMBL291747
+  KNApSAcK: C00001394
+  NIKKAJI: J21.883I
+  PDB-CCD: THR
+  PubChem: '3488'
+  formula: C4H9NO3
+  mol_weight: 119.1192
+  names:
+  - L-Threonine
+  - 2-Amino-3-hydroxybutyric acid
+- id: C00217
+  name: D-Glutamate
+  3DMET: B01192
+  CAS: 6893-26-1
+  ChEBI: '15966'
+  ChEMBL: CHEMBL76232
+  KNApSAcK: C00019577
+  NIKKAJI: J9.214B
+  PDB-CCD: DGL FGA
+  PubChem: '3517'
+  formula: C5H9NO4
+  mol_weight: 147.1293
+  names:
+  - D-Glutamate
+  - D-Glutamic acid
+  - D-Glutaminic acid
+  - D-2-Aminoglutaric acid
+- id: C00221
+  name: beta-D-Glucose
+  3DMET: B01193
+  CAS: 492-61-5
+  ChEBI: '15903'
+  ChEMBL: CHEMBL1222250 CHEMBL1614854
+  NIKKAJI: J44.213E
+  PDB-CCD: BGC
+  PubChem: '3521'
+  comment: D-Glucose [CPD:C00031]
+  formula: C6H12O6
+  mol_weight: 180.1559
+  names:
+  - beta-D-Glucose
+- id: C00243
+  name: Lactose
+  3DMET: B01199
+  CAS: 63-42-3
+  ChEBI: '17716'
+  ChEMBL: CHEMBL417016
+  KNApSAcK: C00001136
+  NIKKAJI: J353.435I
+  PDB-CCD: LAT LBT
+  PubChem: '3542'
+  formula: C12H22O11
+  mol_weight: 342.2965
+  names:
+  - Lactose
+  - 1-beta-D-Galactopyranosyl-4-D-glucopyranose
+  - beta-D-Gal-(1->4)-D-Glc
+  - Milk sugar
+- id: C00255
+  name: Riboflavin
+  3DMET: B01201
+  CAS: 83-88-5
+  ChEBI: '17015'
+  ChEMBL: CHEMBL1534
+  KNApSAcK: C00001552
+  NIKKAJI: J3.876H
+  PDB-CCD: RBF
+  PubChem: '3554'
+  formula: C17H20N4O6
+  mol_weight: 376.3639
+  names:
+  - Riboflavin
+  - Lactoflavin
+  - 7,8-Dimethyl-10-ribitylisoalloxazine
+  - Vitamin B2
+- id: C00286
+  name: dGTP
+  3DMET: B01207
+  CAS: 2564-35-4
+  ChEBI: '16497'
+  ChEMBL: CHEMBL477486
+  KNApSAcK: C00019346
+  NIKKAJI: J192.065K
+  PDB-CCD: DGT
+  PubChem: '3581'
+  formula: C10H16N5O13P3
+  mol_weight: 507.181
+  names:
+  - dGTP
+  - 2'-Deoxyguanosine 5'-triphosphate
+  - Deoxyguanosine 5'-triphosphate
+  - Deoxyguanosine triphosphate
+- id: C00327
+  name: L-Citrulline
+  3DMET: B01217
+  CAS: 372-75-8
+  ChEBI: '16349'
+  ChEMBL: CHEMBL444814
+  KNApSAcK: C00001348
+  NIKKAJI: J5.711H
+  PDB-CCD: CIR
+  PubChem: '3621'
+  formula: C6H13N3O3
+  mol_weight: 175.1857
+  names:
+  - L-Citrulline
+  - 2-Amino-5-ureidovaleric acid
+  - Citrulline
+- id: C00352
+  name: D-Glucosamine 6-phosphate
+  3DMET: B01222
+  CAS: 3616-42-0
+  ChEBI: 15873 47987
+  ChEMBL: CHEMBL2448885 CHEMBL3426569
+  KNApSAcK: C00019580
+  NIKKAJI: J79.822C
+  PDB-CCD: 4R1 GLP
+  PubChem: '3645'
+  formula: C6H14NO8P
+  mol_weight: 259.151
+  names:
+  - D-Glucosamine 6-phosphate
+  - D-Glucosamine phosphate
+- id: C00446
+  name: alpha-D-Galactose 1-phosphate
+  3DMET: B01244
+  CAS: 2255-14-3
+  ChEBI: '17973'
+  ChEMBL: CHEMBL1159526
+  KNApSAcK: C00007391
+  NIKKAJI: J92.787B
+  PDB-CCD: GL1
+  PubChem: '3734'
+  formula: C6H13O9P
+  mol_weight: 260.1358
+  names:
+  - alpha-D-Galactose 1-phosphate
+  - alpha-D-Galactopyranose 1-phosphate
+- id: C00492
+  name: Raffinose
+  3DMET: B01266
+  CAS: 512-69-6
+  ChEBI: '16634'
+  ChEMBL: CHEMBL175500 CHEMBL603717
+  KNApSAcK: C00001145
+  NIKKAJI: J9.760H
+  PDB-CCD: RAF
+  PubChem: '3775'
+  formula: C18H32O16
+  mol_weight: 504.4371
+  names:
+  - Raffinose
+  - Melitose
+  - Melitriose
+  - Gossypose
+  - 6G-alpha-D-galactosylsucrose
+- id: C00860
+  name: L-Histidinol
+  3DMET: B01345
+  CAS: 4836-52-6
+  ChEBI: '16255'
+  ChEMBL: CHEMBL278081
+  KNApSAcK: C00007479
+  NIKKAJI: J80.912H
+  PDB-CCD: HSO
+  PubChem: '4117'
+  formula: C6H11N3O
+  mol_weight: 141.171
+  names:
+  - L-Histidinol
+- id: C01083
+  name: alpha,alpha-Trehalose
+  3DMET: B01375
+  CAS: 99-20-7
+  ChEBI: '16551'
+  ChEMBL: CHEMBL1236395
+  KNApSAcK: C00001152
+  NIKKAJI: J4.965D
+  PDB-CCD: TRE
+  PubChem: '4320'
+  formula: C12H22O11
+  mol_weight: 342.2965
+  names:
+  - alpha,alpha-Trehalose
+  - alpha,alpha'-Trehalose
+  - Trehalose
+- id: C01101
+  name: L-Ribulose 5-phosphate
+  3DMET: B01379
+  CAS: 2922-69-2
+  ChEBI: '17666'
+  ChEMBL: CHEMBL1233359
+  KNApSAcK: C00019543
+  NIKKAJI: J974.176C
+  PDB-CCD: HMS
+  PubChem: '4335'
+  formula: C5H11O8P
+  mol_weight: 230.1098
+  names:
+  - L-Ribulose 5-phosphate
+- id: C03373
+  name: Aminoimidazole ribotide
+  3DMET: B01653
+  CAS: 25635-88-5
+  ChEBI: '28843'
+  ChEMBL: CHEMBL1230914
+  KNApSAcK: C00019655
+  NIKKAJI: J17.002J
+  PDB-CCD: AIR
+  PubChem: '6208'
+  formula: C8H14N3O7P
+  mol_weight: 295.1864
+  names:
+  - Aminoimidazole ribotide
+  - AIR
+  - 1-(5'-Phosphoribosyl)-5-aminoimidazole
+  - 5'-Phosphoribosyl-5-aminoimidazole
+  - 1-(5-Phospho-D-ribosyl)-5-aminoimidazole
+  - 5-Amino-1-(5-phospho-D-ribosyl)imidazole
+- id: C00010
+  name: CoA
+  3DMET: B04618
+  CAS: 85-61-0
+  ChEBI: '15346'
+  ChEMBL: CHEMBL1213327 CHEMBL1623949
+  KNApSAcK: C00007258
+  NIKKAJI: J192.630F
+  PDB-CCD: COA
+  PubChem: '3312'
+  formula: C21H36N7O16P3S
+  mol_weight: 767.5341
+  names:
+  - CoA
+  - Coenzyme A
+  - CoA-SH
+- id: C00019
+  name: S-Adenosyl-L-methionine
+  3DMET: B04620
+  CAS: 29908-03-0
+  ChEBI: 15414 67040
+  ChEMBL: CHEMBL1088977 CHEMBL224120
+  KNApSAcK: C00007347
+  NIKKAJI: J23.293I
+  PDB-CCD: SAM
+  PubChem: '3321'
+  formula: C15H22N6O5S
+  mol_weight: 398.4374
+  names:
+  - S-Adenosyl-L-methionine
+  - S-Adenosylmethionine
+  - AdoMet
+  - SAM
+- id: C00024
+  name: Acetyl-CoA
+  3DMET: B04621
+  CAS: 72-89-9
+  ChEBI: '15351'
+  KNApSAcK: C00007259
+  LIPIDMAPS: LMFA07050029 LMFA07050281
+  NIKKAJI: J192.549K
+  PDB-CCD: ACO
+  PubChem: '3326'
+  formula: C23H38N7O17P3S
+  mol_weight: 809.5708
+  names:
+  - Acetyl-CoA
+  - Acetyl coenzyme A
+- id: C00029
+  name: UDP-glucose
+  3DMET: B04622
+  CAS: 133-89-1
+  ChEBI: 18066 46229
+  ChEMBL: CHEMBL375951
+  KNApSAcK: C00001514
+  NIKKAJI: J9.610E
+  PDB-CCD: UPG
+  PubChem: '3331'
+  formula: C15H24N2O17P2
+  mol_weight: 566.3018
+  names:
+  - UDP-glucose
+  - UDPglucose
+  - UDP-D-glucose
+  - Uridine diphosphate glucose
+  - UDP-alpha-D-glucose
+- id: C00052
+  name: UDP-alpha-D-galactose
+  3DMET: B04625
+  CAS: 2956-16-3
+  ChEBI: 18307 67119
+  ChEMBL: CHEMBL439009
+  KNApSAcK: C00007390
+  NIKKAJI: J247.696G
+  PDB-CCD: GDU
+  PubChem: '3354'
+  formula: C15H24N2O17P2
+  mol_weight: 566.3018
+  names:
+  - UDP-alpha-D-galactose
+  - UDP-D-galactose
+  - UDP-galactose
+  - UDP-D-galactopyranose
+  - UDP-alpha-D-galactopyranose
+- id: C00085
+  name: D-Fructose 6-phosphate
+  3DMET: B04628
+  CAS: 643-13-0
+  ChEBI: 15946 61553
+  ChEMBL: CHEMBL604196
+  KNApSAcK: C00007305
+  NIKKAJI: J92.807K
+  PDB-CCD: F6P P6P
+  PubChem: '3385'
+  formula: C6H13O9P
+  mol_weight: 260.1358
+  names:
+  - D-Fructose 6-phosphate
+  - D-Fructose 6-phosphoric acid
+  - Neuberg ester
+- id: C00092
+  name: D-Glucose 6-phosphate
+  3DMET: B04630
+  CAS: 56-73-5
+  ChEBI: '4170'
+  ChEMBL: CHEMBL257975
+  KNApSAcK: C00007306
+  NIKKAJI: J166.116G J40.066A
+  PDB-CCD: BG6 G6P
+  PubChem: '3392'
+  formula: C6H13O9P
+  mol_weight: 260.1358
+  names:
+  - D-Glucose 6-phosphate
+  - Glucose 6-phosphate
+  - Robison ester
+- id: C00101
+  name: Tetrahydrofolate
+  3DMET: B04633
+  CAS: 135-16-0
+  ChEBI: 15635 20506
+  ChEMBL: CHEMBL2021342
+  KNApSAcK: C00007249
+  NIKKAJI: J184.393A
+  PDB-CCD: THG
+  PubChem: '3401'
+  formula: C19H23N7O6
+  mol_weight: 445.4292
+  names:
+  - Tetrahydrofolate
+  - 5,6,7,8-Tetrahydrofolate
+  - Tetrahydrofolic acid
+  - THF
+  - (6S)-Tetrahydrofolate
+  - (6S)-Tetrahydrofolic acid
+  - (6S)-THFA
+- id: C00117
+  name: D-Ribose 5-phosphate
+  3DMET: B04635
+  CAS: 4300-28-1
+  ChEBI: 17797 52742
+  ChEMBL: CHEMBL1235722 CHEMBL605020
+  KNApSAcK: C00007473
+  NIKKAJI: J205.693C
+  PDB-CCD: HSX RP5
+  PubChem: '3417'
+  formula: C5H11O8P
+  mol_weight: 230.1098
+  names:
+  - D-Ribose 5-phosphate
+  - Ribose 5-phosphate
+- id: C00143
+  name: 5,10-Methylenetetrahydrofolate
+  3DMET: B04640
+  CAS: 3432-99-3
+  ChEBI: '1989'
+  ChEMBL: CHEMBL3274193
+  KNApSAcK: C00007250
+  NIKKAJI: J356.347B
+  PDB-CCD: MEF MHF
+  PubChem: '3443'
+  formula: C20H23N7O6
+  mol_weight: 457.4399
+  names:
+  - 5,10-Methylenetetrahydrofolate
+  - (6R)-5,10-Methylenetetrahydrofolate
+  - 5,10-Methylene-THF
+- id: C00159
+  name: D-Mannose
+  3DMET: B04642
+  CAS: 3458-28-4 31103-86-3
+  ChEBI: '4208'
+  ChEMBL: CHEMBL365590 CHEMBL469448 CHEMBL98182
+  NIKKAJI: J82.111J
+  PDB-CCD: BMA MAN
+  PubChem: '3459'
+  comment: 'alpha-D-Mannose [CPD:C00936]
+
+    beta-D-Mannose [CPD:C02209]'
+  formula: C6H12O6
+  mol_weight: 180.1559
+  names:
+  - D-Mannose
+  - Mannose
+  - Seminose
+  - Carubinose
+- id: C00181
+  name: D-Xylose
+  3DMET: B04643
+  CAS: 58-86-6
+  ChEBI: 15936 53455
+  ChEMBL: CHEMBL502135
+  KNApSAcK: C00007290 C00034344
+  NIKKAJI: J2.806A
+  PDB-CCD: XYP XYS
+  PubChem: '3481'
+  formula: C5H10O5
+  mol_weight: 150.1299
+  names:
+  - D-Xylose
+  - Wood sugar
+- id: C00191
+  name: D-Glucuronate
+  3DMET: B04646
+  CAS: 6556-12-3
+  ChEBI: 15748 4178 47952
+  ChEMBL: CHEMBL1159524 CHEMBL496672
+  KNApSAcK: C00001123
+  NIKKAJI: J82.112H
+  PDB-CCD: BDP GCU
+  PubChem: '3491'
+  formula: C6H10O7
+  mol_weight: 194.1394
+  names:
+  - D-Glucuronate
+  - Glucuronic acid
+  - Glucuronate
+- id: C00279
+  name: D-Erythrose 4-phosphate
+  3DMET: B04660
+  CAS: 585-18-2
+  ChEBI: '48153'
+  ChEMBL: CHEMBL1232448
+  KNApSAcK: C00007472
+  NIKKAJI: J39.057G
+  PDB-CCD: E4P
+  PubChem: '3574'
+  formula: C4H9O7P
+  mol_weight: 200.0838
+  names:
+  - D-Erythrose 4-phosphate
+- id: C00309
+  name: D-Ribulose
+  3DMET: B04662
+  CAS: 488-84-6
+  ChEBI: '17173'
+  ChEMBL: CHEMBL1341376
+  KNApSAcK: C00001131
+  NIKKAJI: J6.034H
+  PubChem: '3603'
+  comment: alpha-D-Ribulose [CPD:C08354]
+  formula: C5H10O5
+  mol_weight: 150.1299
+  names:
+  - D-Ribulose
+  - D-erythro-2-Pentulose
+  - D-Arabinoketose
+  - D-Arabinulose
+  - D-Riboketose
+- id: C00354
+  name: D-Fructose 1,6-bisphosphate
+  3DMET: B04673
+  CAS: 488-69-7
+  ChEBI: 16905 37736
+  ChEMBL: CHEMBL1089962 CHEMBL97893
+  KNApSAcK: C00007386
+  NIKKAJI: J15.941G
+  PDB-CCD: AFP FBP
+  PubChem: '3647'
+  formula: C6H14O12P2
+  mol_weight: 340.1157
+  names:
+  - D-Fructose 1,6-bisphosphate
+- id: C00392
+  name: Mannitol
+  3DMET: B04676
+  CAS: 69-65-8
+  ChEBI: '16899'
+  ChEMBL: CHEMBL689
+  KNApSAcK: C00001165
+  NIKKAJI: J2.369H
+  PDB-CCD: MTL
+  PubChem: '3682'
+  formula: C6H14O6
+  mol_weight: 182.1718
+  names:
+  - Mannitol
+  - D-Mannitol
+- id: C00794
+  name: D-Sorbitol
+  3DMET: B04724
+  CAS: 50-70-4
+  ChEBI: '17924'
+  ChEMBL: CHEMBL1682
+  KNApSAcK: C00001173
+  NIKKAJI: J2.299C
+  PDB-CCD: SOR
+  PubChem: '4052'
+  formula: C6H14O6
+  mol_weight: 182.1718
+  names:
+  - D-Sorbitol
+  - D-Glucitol
+  - L-Gulitol
+  - Sorbitol
+- id: C01094
+  name: D-Fructose 1-phosphate
+  3DMET: B04765
+  CAS: 15978-08-2
+  ChEBI: 18105 37515
+  ChEMBL: CHEMBL605021
+  KNApSAcK: C00019676
+  NIKKAJI: J219.923H
+  PDB-CCD: F1X
+  PubChem: '4329'
+  formula: C6H13O9P
+  mol_weight: 260.1358
+  names:
+  - D-Fructose 1-phosphate
+- id: C05402
+  name: Melibiose
+  3DMET: B05017
+  CAS: 585-99-9
+  ChEBI: '28053'
+  ChEMBL: CHEMBL1159652
+  KNApSAcK: C00001142
+  NIKKAJI: J6.735K
+  PDB-CCD: MLB
+  PubChem: '7769'
+  formula: C12H22O11
+  mol_weight: 342.2965
+  names:
+  - Melibiose
+  - 6-O-(alpha-D-Galactopyranosyl)-D-glucopyranose
+  - D-Gal-alpha1->6D-Glucose
+- id: C00984
+  name: alpha-D-Galactose
+  CAS: 3646-73-9
+  ChEBI: '28061'
+  ChEMBL: CHEMBL1233058 CHEMBL195923
+  KNApSAcK: C00001119
+  NIKKAJI: J292.885J
+  PDB-CCD: GLA
+  PubChem: '4231'
+  comment: D-Galactose [CPD:C00124]
+  formula: C6H12O6
+  mol_weight: 180.1559
+  names:
+  - alpha-D-Galactose
+- id: C00058
+  name: Formate
+  3DMET: B01142
+  CAS: 64-18-6
+  ChEBI: 15740 30751
+  ChEMBL: CHEMBL116736
+  KNApSAcK: C00001182
+  LipidBank: DFA0001
+  NIKKAJI: J1.402H
+  PDB-CCD: FMT
+  PubChem: '3358'
+  formula: CH2O2
+  mol_weight: 46.0254
+  names:
+  - Formate
+  - Methanoic acid
+  - Formic acid
+- id: C00267
+  name: alpha-D-Glucose
+  3DMET: B01203
+  CAS: 492-62-6
+  ChEBI: '17925'
+  ChEMBL: CHEMBL1222250 CHEMBL423707 CHEMBL98182
+  KNApSAcK: C00001122
+  NIKKAJI: J44.217H
+  PDB-CCD: GLC
+  PubChem: '3565'
+  comment: D-Glucose [CPD:C00031]
+  formula: C6H12O6
+  mol_weight: 180.1559
+  names:
+  - alpha-D-Glucose
+- id: C00031
+  name: D-Glucose
+  3DMET: B04623
+  CAS: 50-99-7 2280-44-6
+  ChEBI: '4167'
+  ChEMBL: CHEMBL1222250 CHEMBL1614854 CHEMBL423707 CHEMBL98182
+  KNApSAcK: C00042470
+  NIKKAJI: J4.109B
+  PDB-CCD: BGC GLC
+  PubChem: '3333'
+  comment: 'alpha-D-Glucose [CPD:C00267]
+
+    beta-D-Glucose [CPD:C00221]'
+  formula: C6H12O6
+  mol_weight: 180.1559
+  names:
+  - D-Glucose
+  - Grape sugar
+  - Dextrose
+  - Glucose
+  - D-Glucopyranose
+- id: C00095
+  name: D-Fructose
+  3DMET: B04631
+  CAS: 57-48-7
+  ChEBI: 15824 37721
+  ChEMBL: CHEMBL604608
+  KNApSAcK: C00033848
+  NIKKAJI: J4.580B
+  PDB-CCD: FRU
+  PubChem: '3395'
+  comment: 'D-Fructose (pyranose) [CPD:C05003]
+
+    D-Fructose (open-chain) [CPD:C10906]
+
+    L-Fructose [CPD:C01719]'
+  formula: C6H12O6
+  mol_weight: 180.1559
+  names:
+  - D-Fructose
+  - Levulose
+  - Fruit sugar
+  - D-arabino-Hexulose
+- id: C00124
+  name: D-Galactose
+  3DMET: B04637
+  CAS: 59-23-4 10257-28-0
+  ChEBI: '4139'
+  ChEMBL: CHEMBL1233058 CHEMBL195923 CHEMBL300520
+  KNApSAcK: C00019681
+  NIKKAJI: J4.597G
+  PDB-CCD: GAL GLA
+  PubChem: '3424'
+  comment: 'Galactose [CPD:C01582]
+
+    L-Galactose [CPD:C01825]
+
+    alpha-D-Galactose [CPD:C00984]
+
+    beta-D-Galactose [CPD:C00962]'
+  formula: C6H12O6
+  mol_weight: 180.1559
+  names:
+  - D-Galactose
+  - D-Galactopyranose
+- id: C00259
+  name: L-Arabinose
+  3DMET: B04656
+  CAS: 147-81-9
+  ChEBI: '17535'
+  ChEMBL: CHEMBL1357418 CHEMBL505348
+  KNApSAcK: C00041349
+  NIKKAJI: J231.471A
+  PDB-CCD: ARA ARB
+  PubChem: '3558'
+  comment: 'L-Arabinofuranose [CPD:C06115]
+
+    L-Arabinose (open-chain) [CPD:C11476]
+
+    alpha-L-Arabinopyranose [CPD:C02604]
+
+    beta-L-Arabinopyranose [CPD:C02479]'
+  formula: C5H10O5
+  mol_weight: 150.1299
+  names:
+  - L-Arabinose
+  - L-Arabinopyranose
+- id: C01019
+  name: 6-Deoxy-L-galactose
+  3DMET: B04756
+  CAS: 2438-80-4
+  ChEBI: '2181'
+  ChEMBL: CHEMBL469449
+  KNApSAcK: C00035100
+  NIKKAJI: J92.797J
+  PDB-CCD: FUC FUL
+  PubChem: '4264'
+  comment: D-Fucose [CPD:C01018]
+  formula: C6H12O5
+  mol_weight: 164.1565
+  names:
+  - 6-Deoxy-L-galactose
+  - L-Fucose
+- id: C00022
+  name: Pyruvate
+  3DMET: B00006
+  CAS: 127-17-3
+  ChEBI: 15361 32816
+  ChEMBL: CHEMBL1162144
+  KNApSAcK: C00001200
+  LIPIDMAPS: LMFA01060077
+  LipidBank: DFA0385
+  NIKKAJI: J2.015J
+  PDB-CCD: PYR
+  PubChem: '3324'
+  formula: C3H4O3
+  mol_weight: 88.0621
+  names:
+  - Pyruvate
+  - Pyruvic acid
+  - 2-Oxopropanoate
+  - 2-Oxopropanoic acid
+  - Pyroracemic acid
+- id: C00033
+  name: Acetate
+  3DMET: B00009
+  CAS: 64-19-7
+  ChEBI: 15366 30089
+  ChEMBL: CHEMBL539
+  KNApSAcK: C00001176
+  LIPIDMAPS: LMFA01010002
+  LipidBank: DFA0002
+  NIKKAJI: J2.355H
+  PDB-CCD: ACT ACY
+  PubChem: '3335'
+  formula: C2H4O2
+  mol_weight: 60.052
+  names:
+  - Acetate
+  - Acetic acid
+  - Ethanoic acid
+- id: C00109
+  name: 2-Oxobutanoate
+  3DMET: B00028
+  CAS: 600-18-0
+  ChEBI: 16763 30831
+  ChEMBL: CHEMBL171246
+  KNApSAcK: C00019675
+  LIPIDMAPS: LMFA01060002
+  LipidBank: DFA0386
+  NIKKAJI: J2.726J
+  PDB-CCD: 2KT
+  PubChem: '3409'
+  formula: C4H6O3
+  mol_weight: 102.0886
+  names:
+  - 2-Oxobutanoate
+  - 2-Ketobutyric acid
+  - 2-Oxobutyric acid
+  - 2-Oxobutyrate
+  - 2-Oxobutanoic acid
+  - alpha-Ketobutyric acid
+  - alpha-Ketobutyrate
+- id: C00163
+  name: Propanoate
+  3DMET: B01176
+  CAS: 79-09-4
+  ChEBI: 17272 30768
+  ChEMBL: CHEMBL14021
+  KNApSAcK: C00044287
+  LIPIDMAPS: LMFA01010003
+  LipidBank: DFA0003
+  NIKKAJI: J1.963A
+  PDB-CCD: PPI
+  PubChem: '3463'
+  formula: C3H6O2
+  mol_weight: 74.0785
+  names:
+  - Propanoate
+  - Propionate
+  - Propanoic acid
+  - Propionic acid

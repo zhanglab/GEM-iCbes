@@ -1,0 +1,7 @@
+default_flux_limit: 1000
+default_compartment: c
+extracellular: null
+compounds:
+- include: ./compounds.yaml
+reactions:
+- include: ./reactions.yaml
