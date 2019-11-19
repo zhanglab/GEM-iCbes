@@ -5242,6 +5242,71 @@
   source: KEGG
   tag: BIGG-THZPSN
   templateID: 4hba
+- id: C20378
+  name: Enoylpimeloyl-[acp] methyl ester
+  names:
+  - Enoylpimeloyl-[acp] methyl ester
+  - Enoylpimeloyl-[acyl-carrier protein] methyl ester
+  formula: C8H11O3SR
+  PubChem: '163312116'
+- id: C19846
+  name: Pimeloyl-[acyl-carrier protein] methyl ester
+  names:
+  - Pimeloyl-[acyl-carrier protein] methyl ester
+  - Pimeloyl-[acp] methyl ester
+  - Pimelyl-[acyl-carrier protein] methyl ester
+  - Pimelyl-[acp] methyl ester
+  formula: C8H13O3SR
+  PubChem: '135626313'
+- id: C20376
+  name: 3-Ketopimeloyl-[acp] methyl ester
+  names:
+  - 3-Ketopimeloyl-[acp] methyl ester
+  - 3-Ketopimeloyl-[acyl-carrier protein] methyl ester
+  formula: C8H11O4SR
+  PubChem: '163312114'
+- id: C20377
+  name: 3-Hydroxypimeloyl-[acp] methyl ester
+  names:
+  - 3-Hydroxypimeloyl-[acp] methyl ester
+  - 3-Hydroxypimeloyl-[acyl-carrier protein] methyl ester
+  formula: C8H13O4SR
+  PubChem: '163312115'
+- id: C20373
+  name: 3-Hydroxyglutaryl-[acp] methyl ester
+  names:
+  - 3-Hydroxyglutaryl-[acp] methyl ester
+  - 3-Hydroxyglutaryl-[acyl-carrier protein] methyl ester
+  formula: C6H9O4SR
+  PubChem: '163312111'
+- id: C20374
+  name: Enoylglutaryl-[acp] methyl ester
+  names:
+  - Enoylglutaryl-[acp] methyl ester
+  - Enoylglutaryl-[acyl-carrier protein] methyl ester
+  formula: C6H7O3SR
+  PubChem: '163312112'
+- id: C20372
+  name: 3-Ketoglutaryl-[acp] methyl ester
+  names:
+  - 3-Ketoglutaryl-[acp] methyl ester
+  - 3-Ketoglutaryl-[acyl-carrier protein] methyl ester
+  formula: C6H7O4SR
+  PubChem: '163312110'
+- id: C19673
+  name: Malonyl-[acp] methyl ester
+  names:
+  - Malonyl-[acp] methyl ester
+  - Malonyl-[acyl-carrier protein] methyl ester
+  formula: C4H5O3SR
+  PubChem: '135626141'
+- id: C20375
+  name: Glutaryl-[acp] methyl ester
+  names:
+  - Glutaryl-[acp] methyl ester
+  - Glutaryl-[acyl-carrier protein] methyl ester
+  formula: C6H9O3SR
+  PubChem: '163312113'
 
 
 
