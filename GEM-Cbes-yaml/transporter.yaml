@@ -217,7 +217,7 @@
   tag: transportDB
 - id: ATPSYN
   name: H+ dependent F0F1 ATP synthase
-  genes: peg.1915 and peg.1916 and peg.1917 and peg.1918 and peg.1919 peg.1920 and
+  genes: peg.1915 and peg.1916 and peg.1917 and peg.1918 and peg.1919 and peg.1920 and
     peg.1921 and peg.1922
   # equation: (4) C01330[c] + C00002[c] + C00001[c] <=> (4) C01330[e] + C00008[c] +
   #   C00009[c]
