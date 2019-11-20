@@ -6,6 +6,20 @@
   names:
   - Adenylated molybdopterin
   - Adenylyl-molybdopterin
+- id: C20236
+  name: 4-O-beta-D-Mannopyranosyl-D-glucopyranose
+  PubChem: '163311979'
+  formula: C12H22O11
+  mol_weight: 342.2965
+  names:
+  - 4-O-beta-D-Mannopyranosyl-D-glucopyranose
+- id: C20246
+  name: 2-[(2R,5Z)-2-Carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate
+  PubChem: '163311989'
+  formula: C7H10NO6PS
+  mol_weight: 267.1962
+  names:
+  - 2-[(2R,5Z)-2-Carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate
 - id: C20251
   name: 1-Keto-D-chiro-inositol
   PubChem: '163311994'
@@ -21,6 +35,14 @@
   mol_weight: 523.1804
   names:
   - (8S)-3',8-Cyclo-7,8-dihydroguanosine 5'-triphosphate
+- id: C21336
+  name: beta-1,2-Mannobiose
+  PubChem: '319075060'
+  formula: C12H22O11
+  mol_weight: 342.2965
+  names:
+  - beta-1,2-Mannobiose
+  - beta-D-Mannopyranosyl-(1->2)-D-mannopyranose
 - id: C00080
   name: H+
   ChEBI: 15378 24636
@@ -47,6 +69,22 @@
   names:
   - (2R)-2-Hydroxy-2-methylbutanenitrile
   - 2-Hydroxy-2-methylbutanenitrile
+- id: C20969
+  name: Carboxyphosphate
+  ChEBI: '90099'
+  PubChem: '254741428'
+  formula: CH3O6P
+  mol_weight: 142.0047
+  names:
+  - Carboxyphosphate
+- id: C15548
+  name: 2-alpha-D-Glucosyl-D-glucose
+  NIKKAJI: J1.112.881E
+  PubChem: '17396540'
+  formula: C12H22O11
+  mol_weight: 342.2965
+  names:
+  - 2-alpha-D-Glucosyl-D-glucose
 - id: C16399
   name: 2,4-Diamino-6-hydroxylaminotoluene
   NIKKAJI: J1.347.981J
@@ -65,6 +103,15 @@
   - 2-(2-Carboxy-4-methylthiazol-5-yl)ethyl phosphate
   - 4-Methyl-5-[2-(phosphonooxy)ethyl]-1,3-thiazole-2-carboxylate
   - cThz-P
+- id: C06216
+  name: Celloheptaose
+  3DMET: B01995
+  ChEBI: '3524'
+  PubChem: '8462'
+  formula: C42H72O36
+  mol_weight: 1152.9995
+  names:
+  - Celloheptaose
 - id: C02741
   name: Phosphoribosyl-AMP
   3DMET: B04863
@@ -77,6 +124,16 @@
   - N1-(5-Phospho-D-ribosyl)-AMP
   - 1-(5-Phosphoribosyl)-AMP
   - 1-(5-Phospho-beta-D-ribosyl)-AMP
+- id: C20861
+  name: Mannobiose
+  CAS: 14417-51-7
+  PDB-CCD: MAB
+  PubChem: '254741327'
+  formula: C12H22O11
+  mol_weight: 342.2965
+  names:
+  - Mannobiose
+  - beta-1,4-Mannobiose
 - id: C18237
   name: Molybdoenzyme molybdenum cofactor
   CAS: 73508-07-3
@@ -87,6 +144,63 @@
   names:
   - Molybdoenzyme molybdenum cofactor
   - Molybdenum cofactor
+- id: C03356
+  name: 3-Phospho-D-erythronate
+  ChEBI: '1656'
+  NIKKAJI: J2.741.589J
+  PubChem: '6195'
+  formula: C4H9O8P
+  mol_weight: 216.0832
+  names:
+  - 3-Phospho-D-erythronate
+- id: C04865
+  name: 4-Deoxy-beta-D-gluc-4-enuronosyl-(1,3)-N-acetyl-D-galactosamine 6-sulfate
+  ChEBI: '16735'
+  NIKKAJI: J2.756.383J
+  PubChem: '7420'
+  formula: C14H21NO14S
+  mol_weight: 459.3798
+  names:
+  - 4-Deoxy-beta-D-gluc-4-enuronosyl-(1,3)-N-acetyl-D-galactosamine 6-sulfate
+  - beta-D-4-deoxy-Delta4-GlcAp-(1->3)-D-GalNAc6S
+- id: C05394
+  name: 3-Keto-beta-D-galactose
+  ChEBI: '27453'
+  NIKKAJI: J2.369.908G
+  PubChem: '7764'
+  formula: C6H10O6
+  mol_weight: 178.14
+  names:
+  - 3-Keto-beta-D-galactose
+- id: C05403
+  name: 3-Ketolactose
+  ChEBI: '27571'
+  NIKKAJI: J680.764J
+  PubChem: '7770'
+  formula: C12H20O11
+  mol_weight: 340.2806
+  names:
+  - 3-Ketolactose
+- id: C13378
+  name: alpha,beta-Dihydroxyethyl-TPP
+  ChEBI: '32317'
+  NIKKAJI: J2.783.892H
+  PubChem: '586122'
+  formula: C14H23N4O9P2S
+  mol_weight: 485.3663
+  names:
+  - alpha,beta-Dihydroxyethyl-TPP
+  - alpha,beta-Dihydroxyethyl-ThDP
+  - 2-(1,2-Dihydroxyethyl)-TPP
+- id: C02964
+  name: 4-O-beta-D-Glucopyranosyl-D-mannose
+  ChEBI: '4174'
+  NIKKAJI: J2.218.846A
+  PubChem: '5879'
+  formula: C12H22O11
+  mol_weight: 342.2965
+  names:
+  - 4-O-beta-D-Glucopyranosyl-D-mannose
 - id: C15556
   name: L-3,4-Dihydroxybutan-2-one 4-phosphate
   ChEBI: '50606'
@@ -98,6 +212,15 @@
   - L-3,4-Dihydroxybutan-2-one 4-phosphate
   - 1-Deoxy-L-glycero-tetrulose 4-phosphate
   - 2-Hydroxy-3-oxobutyl phosphate
+- id: C04309
+  name: Phosphoenol-4-deoxy-3-tetrulosonate
+  ChEBI: '8146'
+  NIKKAJI: J2.749.659H
+  PubChem: '6967'
+  formula: C4H7O7P
+  mol_weight: 198.0679
+  names:
+  - Phosphoenol-4-deoxy-3-tetrulosonate
 - id: C18096
   name: D-Allulose 6-phosphate
   ChEBI: '81499'
@@ -208,6 +331,17 @@
   names:
   - 2,5-Diamino-6-(5-phospho-D-ribosylamino)pyrimidin-4(3H)-one
   - 2,5-Diamino-6-(1-D-ribosylamino)pyrimidin-4(3H)-one 5'-phosphate
+- id: C02097
+  name: dTDP-galactose
+  3DMET: B01531
+  ChEBI: 14086 15848
+  NIKKAJI: J2.577.782D
+  PubChem: '5181'
+  formula: C16H26N2O16P2
+  mol_weight: 564.329
+  names:
+  - dTDP-galactose
+  - dTDP-D-galactose
 - id: C04900
   name: Luteolin 7-O-[beta-D-glucuronosyl-(1->2)-beta-D-glucuronide]-4'-O-beta-D-glucuronide
   3DMET: B01803
@@ -240,6 +374,16 @@
   names:
   - cis-beta-D-Glucosyl-2-hydroxycinnamate
   - beta-D-Glucosyl-2-coumarinate
+- id: C06217
+  name: Cellohexaose
+  3DMET: B01996
+  ChEBI: '49533'
+  PDB-CCD: CE6
+  PubChem: '8463'
+  formula: C36H62O31
+  mol_weight: 990.8589
+  names:
+  - Cellohexaose
 - id: C00558
   name: D-Tagaturonate
   3DMET: B04700
@@ -386,6 +530,16 @@
   mol_weight: 167.1653
   names:
   - 2,4-Diamino-6-nitrotoluene
+- id: C02015
+  name: CoA-disulfide
+  ChEBI: '16161'
+  NIKKAJI: J482.279J
+  PDB-CCD: 5NG
+  PubChem: '5111'
+  formula: C42H70N14O32P6S2
+  mol_weight: 1533.0524
+  names:
+  - CoA-disulfide
 - id: C02962
   name: D-Allose 6-phosphate
   ChEBI: '17942'
@@ -593,6 +747,28 @@
   - 4-(Phosphonooxy)-threonine
   - 4-(Phosphonooxy)-L-threonine
   - 4-Phosphooxy-L-threonine
+- id: C06218
+  name: Cellopentaose
+  3DMET: B01997
+  ChEBI: '49536'
+  NIKKAJI: J825.307B
+  PDB-CCD: CE5
+  PubChem: '8464'
+  formula: C30H52O26
+  mol_weight: 828.7183
+  names:
+  - Cellopentaose
+- id: C06219
+  name: Cellotriose
+  3DMET: B01998
+  ChEBI: '3528'
+  NIKKAJI: J18.009B
+  PDB-CCD: CT3 CTR
+  PubChem: '8465'
+  formula: C18H32O16
+  mol_weight: 504.4371
+  names:
+  - Cellotriose
 - id: C12632
   name: Luteolin 7-O-[beta-D-glucuronosyl-(1->2)-beta-D-glucuronide]
   3DMET: B04541
@@ -718,6 +894,29 @@
   mol_weight: 573.5166
   names:
   - Biotinyl-5'-AMP
+- id: C04255
+  name: N-Acetyl-D-galactosamine 6-sulfate
+  CAS: 157296-99-6
+  ChEBI: 28447 44395
+  NIKKAJI: J2.747.879D
+  PDB-CCD: NG6
+  PubChem: '6920'
+  formula: C8H15NO9S
+  mol_weight: 301.271
+  names:
+  - N-Acetyl-D-galactosamine 6-sulfate
+- id: C00579
+  name: Dihydrolipoamide
+  CAS: 3884-47-7
+  ChEBI: '17694'
+  LIPIDMAPS: LMFA08010019
+  NIKKAJI: J704.623E
+  PubChem: '3858'
+  formula: C8H17NOS2
+  mol_weight: 207.3567
+  names:
+  - Dihydrolipoamide
+  - Dihydrothioctamide
 - id: C08334
   name: Lotaustralin
   CAS: 534-67-8
@@ -792,6 +991,19 @@
   mol_weight: 90.0779
   names:
   - D-Glyceraldehyde
+- id: C02630
+  name: 2-Hydroxyglutarate
+  3DMET: B00467
+  CAS: 2889-31-8
+  ChEBI: '17084'
+  LIPIDMAPS: LMFA01050483
+  NIKKAJI: J527.822H
+  PubChem: '5610'
+  formula: C5H8O5
+  mol_weight: 148.114
+  names:
+  - 2-Hydroxyglutarate
+  - alpha-Hydroxyglutarate
 - id: C04327
   name: 4-Methyl-5-(2-phosphooxyethyl)thiazole
   3DMET: B00702
@@ -1108,6 +1320,18 @@
   names:
   - Dethiobiotin
   - Desthiobiotin
+- id: C02013
+  name: Cellotetraose
+  3DMET: B04830
+  CAS: 38819-01-1
+  ChEBI: '62974'
+  NIKKAJI: J710.140F
+  PDB-CCD: 4GC CTT
+  PubChem: '5109'
+  formula: C24H42O21
+  mol_weight: 666.5777
+  names:
+  - Cellotetraose
 - id: C02273
   name: Digalacturonate
   3DMET: B04846
@@ -1221,6 +1445,24 @@
   mol_weight: 251.2419
   names:
   - 5'-Deoxyadenosine
+- id: C00466
+  name: Acetoin
+  CAS: 513-86-0
+  ChEBI: '15688'
+  ChEMBL: CHEMBL3561873
+  NIKKAJI: J2.623I
+  PubChem: '3750'
+  comment: '(R)-Acetoin [CPD:C00810]
+
+    (S)-Acetoin [CPD:C01769]'
+  formula: C4H8O2
+  mol_weight: 88.1051
+  names:
+  - Acetoin
+  - 2-Acetoin
+  - 3-Hydroxybutan-2-one
+  - 3-Hydroxy-2-butanone
+  - Dimethylketol
 - id: C01594
   name: Linamarin
   CAS: 554-35-8
@@ -1247,6 +1489,19 @@
   names:
   - CO
   - Carbon monoxide
+- id: C00248
+  name: Lipoamide
+  CAS: 940-69-2
+  ChEBI: '17460'
+  ChEMBL: CHEMBL1403899
+  LIPIDMAPS: LMFA08010006
+  NIKKAJI: J25.390A
+  PubChem: '3547'
+  formula: C8H15NOS2
+  mol_weight: 205.3408
+  names:
+  - Lipoamide
+  - Thioctic acid amide
 - id: C00844
   name: Prunasin
   CAS: 99-18-3
@@ -1493,6 +1748,23 @@
   - GDP
   - Guanosine 5'-diphosphate
   - Guanosine diphosphate
+- id: C00068
+  name: Thiamin diphosphate
+  3DMET: B01146
+  ChEBI: '9532'
+  ChEMBL: CHEMBL1236235 CHEMBL1236376
+  KNApSAcK: C00019627
+  NIKKAJI: J184.400H J232.214E
+  PDB-CCD: TDP TPP
+  PubChem: '3368'
+  formula: C12H19N4O7P2S
+  mol_weight: 425.3144
+  names:
+  - Thiamin diphosphate
+  - Thiamine diphosphate
+  - Thiamin pyrophosphate
+  - TPP
+  - ThPP
 - id: C00075
   name: UTP
   3DMET: B01149
@@ -2520,6 +2792,21 @@
   - (S)-3-(p-Hydroxyphenyl)alanine
   - (S)-2-Amino-3-(p-hydroxyphenyl)propionic acid
   - Tyrosine
+- id: C00084
+  name: Acetaldehyde
+  3DMET: B01155
+  CAS: 75-07-0
+  ChEBI: '15343'
+  ChEMBL: CHEMBL170365
+  KNApSAcK: C00007392
+  NIKKAJI: J2.388D
+  PDB-CCD: ACE
+  PubChem: '3384'
+  formula: C2H4O
+  mol_weight: 44.0526
+  names:
+  - Acetaldehyde
+  - Ethanal
 - id: C00089
   name: Sucrose
   3DMET: B01156
@@ -2909,6 +3196,21 @@
   - D-Fructose 6-phosphate
   - D-Fructose 6-phosphoric acid
   - Neuberg ester
+- id: C00091
+  name: Succinyl-CoA
+  3DMET: B04629
+  CAS: 604-98-8
+  ChEBI: '15380'
+  KNApSAcK: C00019546
+  LIPIDMAPS: LMFA07050370
+  NIKKAJI: J252.493G
+  PDB-CCD: SCA
+  PubChem: '3391'
+  formula: C25H40N7O19P3S
+  mol_weight: 867.6069
+  names:
+  - Succinyl-CoA
+  - Succinyl coenzyme A
 - id: C00092
   name: D-Glucose 6-phosphate
   3DMET: B04630
@@ -3104,6 +3406,22 @@
   - D-Glucitol
   - L-Gulitol
   - Sorbitol
+- id: C00842
+  name: dTDP-glucose
+  3DMET: B04735
+  CAS: 2196-62-5
+  ChEBI: '15700'
+  ChEMBL: CHEMBL412989
+  KNApSAcK: C00007456
+  NIKKAJI: J631.152K
+  PDB-CCD: DAU
+  PubChem: '4099'
+  formula: C16H26N2O16P2
+  mol_weight: 564.329
+  names:
+  - dTDP-glucose
+  - dTDP-D-glucose
+  - dTDP-alpha-D-glucose
 - id: C01094
   name: D-Fructose 1-phosphate
   3DMET: B04765

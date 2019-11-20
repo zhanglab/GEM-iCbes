@@ -1,3 +1,39 @@
+- id: R08198
+  equation: C02630[c] + C00003[c] <=> C00026[c] + C00004[c] + C00080[c]
+  enzymes:
+  - 1.1.1.95
+  names: []
+  rpairs:
+  - RC00001:
+    - C00003
+    - C00004
+    RC00031:
+    - C00026
+    - C02630
+  - RC00001:
+    - C00003
+    - C00004
+    RC00031:
+    - C00026
+    - C02630
+- id: R11312
+  equation: C04752[c] + C20246[c] <=> C00013[c] + C01081[c] + C00011[c]
+  enzymes:
+  - 2.5.1.3
+  names: []
+  rpairs:
+  - RC03397:
+    - C01081
+    - C04752
+    RC03412:
+    - C01081
+    - C20246
+  - RC03397:
+    - C01081
+    - C04752
+    RC03412:
+    - C01081
+    - C20246
 - id: R03634
   equation: C01613[c] + C00001[c] <=> C00492[c] + C00124[c]
   enzymes:
@@ -60,6 +96,19 @@
   - RC00049:
     - C00333
     - C02273
+- id: R10949
+  equation: C00014[c] + C20969[c] <=> C01563[c] + C00009[c]
+  comment: a part of multi-step reaction (see R00575, R00256+R10948+R10949+R01395)
+  enzymes:
+  - 6.3.5.5
+  names: []
+  orthology:
+  - K01954
+  - K01955
+  - K01956
+  - K11540
+  - K11541
+  rpairs: []
 - id: R08034
   equation: C16396[c] <=> C16399[c]
   comment: hydrogenase, carbon-monoxide dehydrogenase, pyruvate:ferredoxin oxidoreductase
@@ -87,6 +136,26 @@
   - RC00250:
     - C16396
     - C16399
+- id: R07641
+  equation: (2) C00002[c] + C00288[c] + C00014[c] <=> (2) C00008[c] + C00009[c] +
+    C00169[c]
+  comment: multi-step reaction
+  enzymes:
+  - 6.3.5.5
+  names: []
+  rpairs:
+  - RC00002:
+    - C00002
+    - C00008
+    RC02804:
+    - C00014
+    - C00169
+  - RC00002:
+    - C00002
+    - C00008
+    RC02804:
+    - C00014
+    - C00169
 - id: R00868
   name: D-Mannitol:NAD+ 2-oxidoreductase
   equation: C00392[c] + C00003[c] <=> C00095[c] + C00004[c] + C00080[c]
@@ -138,6 +207,26 @@
     RC00089:
     - C00204
     - C04349
+- id: R07133
+  name: D-sorbitol-6-phosphate:NAD+ 2-oxidoreductase
+  equation: C01096[c] + C00003[c] <=> C00085[c] + C00004[c] + C00080[c]
+  enzymes:
+  - 1.1.1.140
+  names:
+  - D-sorbitol-6-phosphate:NAD+ 2-oxidoreductase
+  rpairs:
+  - RC00001:
+    - C00003
+    - C00004
+    RC00085:
+    - C00085
+    - C01096
+  - RC00001:
+    - C00003
+    - C00004
+    RC00085:
+    - C00085
+    - C01096
 - id: R05607
   name: D-sorbitol-6-phosphate:NAD 2-oxidoreductase
   equation: C01096[c] + C00003[c] <=> C05345[c] + C00004[c] + C00080[c]
@@ -324,6 +413,48 @@
     RC00684:
     - C01250
     - C04133
+- id: R07175
+  name: CoA:NADP+ oxidoreductase
+  equation: (2) C00010[c] + C00006[c] <=> C02015[c] + C00005[c] + C00080[c]
+  enzymes:
+  - 1.8.1.14
+  names:
+  - CoA:NADP+ oxidoreductase
+  rpairs:
+  - RC00001:
+    - C00005
+    - C00006
+    RC00011:
+    - C00010
+    - C02015
+  - RC00001:
+    - C00005
+    - C00006
+    RC00011:
+    - C00010
+    - C02015
+- id: R01698
+  name: Dihydrolipoamide:NAD+ oxidoreductase
+  equation: C00579[c] + C00003[c] <=> C00248[c] + C00004[c] + C00080[c]
+  enzymes:
+  - 1.8.1.4
+  names:
+  - Dihydrolipoamide:NAD+ oxidoreductase
+  orthology:
+  - K00382
+  rpairs:
+  - RC00001:
+    - C00003
+    - C00004
+    RC00583:
+    - C00248
+    - C00579
+  - RC00001:
+    - C00003
+    - C00004
+    RC00583:
+    - C00248
+    - C00579
 - id: R01398
   name: Carbamoyl-phosphate:L-ornithine carbamoyltransferase
   equation: C00169[c] + C00077[c] <=> C00009[c] + C00327[c]
@@ -417,6 +548,26 @@
     RC00226:
     - C00279
     - C05345
+- id: R08575
+  name: sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase
+  equation: C05382[c] + C00118[c] <=> C00279[c] + C00085[c]
+  enzymes:
+  - 2.2.1.2
+  names:
+  - sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase
+  rpairs:
+  - RC00439:
+    - C00085
+    - C00118
+    RC00604:
+    - C00279
+    - C05382
+  - RC00439:
+    - C00085
+    - C00118
+    RC00604:
+    - C00279
+    - C05382
 - id: R01827
   name: sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase
   equation: C05382[c] + C00118[c] <=> C00279[c] + C05345[c]
@@ -448,6 +599,42 @@
     RC00604:
     - C00279
     - C05382
+- id: R09524
+  name: acetyl-CoA:acetoin O-acetyltransferase
+  equation: C00466[c] + C00010[c] + C00003[c] <=> C00084[c] + C00024[c] + C00004[c]
+    + C00080[c]
+  enzymes:
+  - 2.3.1.190
+  names:
+  - acetyl-CoA:acetoin O-acetyltransferase
+  rpairs:
+  - RC00001:
+    - C00003
+    - C00004
+    RC00004:
+    - C00010
+    - C00024
+    RC02641:
+    - C00084
+    - C00466
+  - RC00001:
+    - C00003
+    - C00004
+    RC00004:
+    - C00010
+    - C00024
+    RC02641:
+    - C00084
+    - C00466
+  - RC00001:
+    - C00003
+    - C00004
+    RC00004:
+    - C00010
+    - C00024
+    RC02641:
+    - C00084
+    - C00466
 - id: R00230
   name: acetyl-CoA:phosphate acetyltransferase
   equation: C00024[c] + C00009[c] <=> C00010[c] + C00227[c]
@@ -526,6 +713,39 @@
   - RC00049:
     - C00031
     - C00185
+- id: R07264
+  name: 2-alpha-D-glucosyl-D-glucose:phosphate beta-D-glucosyltransferase
+  equation: C15548[c] + C00009[c] <=> C00031[c] + C00663[c]
+  enzymes:
+  - 2.4.1.230
+  names:
+  - 2-alpha-D-glucosyl-D-glucose:phosphate beta-D-glucosyltransferase
+  rpairs:
+  - RC00049:
+    - C00031
+    - C15548
+- id: R11398
+  name: beta-D-mannopyranosyl-(1->2)-D-mannopyranose:phosphate alpha-D-mannosyltransferase
+  equation: C21336[c] + C00009[c] <=> C00159[c] + C00636[c]
+  enzymes:
+  - 2.4.1.339
+  names:
+  - beta-D-mannopyranosyl-(1->2)-D-mannopyranose:phosphate alpha-D-mannosyltransferase
+  orthology:
+  - K20885
+  rpairs:
+  - RC00049:
+    - C00159
+    - C21336
+    RC02748:
+    - C00636
+    - C21336
+  - RC00049:
+    - C00159
+    - C21336
+    RC02748:
+    - C00636
+    - C21336
 - id: R02727
   name: alpha,alpha-Trehalose:orthophosphate beta-D-glucosyltransferase
   equation: C01083[c] + C00009[c] <=> C00031[c] + C00663[c]
@@ -1120,6 +1340,46 @@
     RC00017:
     - C05345
     - C05378
+- id: R01843
+  name: ATP:Sedoheptulose 7-phosphate 1-phosphotransferase
+  equation: C00002[c] + C05382[c] <=> C00008[c] + C00447[c]
+  enzymes:
+  - 2.7.1.11
+  names:
+  - ATP:Sedoheptulose 7-phosphate 1-phosphotransferase
+  rpairs:
+  - RC00002:
+    - C00002
+    - C00008
+    RC00017:
+    - C00447
+    - C05382
+  - RC00002:
+    - C00002
+    - C00008
+    RC00017:
+    - C00447
+    - C05382
+- id: R00767
+  name: CTP:D-fructose-6-phosphate 1-phosphotransferase
+  equation: C00063[c] + C00085[c] <=> C00112[c] + C00354[c]
+  enzymes:
+  - 2.7.1.11
+  names:
+  - CTP:D-fructose-6-phosphate 1-phosphotransferase
+  rpairs:
+  - RC00002:
+    - C00063
+    - C00112
+    RC00017:
+    - C00085
+    - C00354
+  - RC00002:
+    - C00063
+    - C00112
+    RC00017:
+    - C00085
+    - C00354
 - id: R03237
   name: CTP:D-tagatose 6-phosphate 1-phosphotransferase
   equation: C00063[c] + C01097[c] <=> C00112[c] + C03785[c]
@@ -1146,6 +1406,26 @@
     RC00017:
     - C01097
     - C03785
+- id: R00769
+  name: UTP:D-fructose-6-phosphate 1-phosphotransferase
+  equation: C00075[c] + C00085[c] <=> C00015[c] + C00354[c]
+  enzymes:
+  - 2.7.1.11
+  names:
+  - UTP:D-fructose-6-phosphate 1-phosphotransferase
+  rpairs:
+  - RC00002:
+    - C00015
+    - C00075
+    RC00017:
+    - C00085
+    - C00354
+  - RC00002:
+    - C00015
+    - C00075
+    RC00017:
+    - C00085
+    - C00354
 - id: R03238
   name: UTP:D-tagatose 6-phosphate 1-phosphotransferase
   equation: C00075[c] + C01097[c] <=> C00015[c] + C03785[c]
@@ -1172,6 +1452,26 @@
     RC00017:
     - C01097
     - C03785
+- id: R00770
+  name: ITP:D-fructose-6-phosphate 1-phosphotransferase
+  equation: C00081[c] + C00085[c] <=> C00104[c] + C00354[c]
+  enzymes:
+  - 2.7.1.11
+  names:
+  - ITP:D-fructose-6-phosphate 1-phosphotransferase
+  rpairs:
+  - RC00002:
+    - C00081
+    - C00104
+    RC00017:
+    - C00085
+    - C00354
+  - RC00002:
+    - C00081
+    - C00104
+    RC00017:
+    - C00085
+    - C00354
 - id: R03239
   name: ITP:D-tagatose 6-phosphate 1-phosphotransferase
   equation: C00081[c] + C01097[c] <=> C00104[c] + C03785[c]
@@ -1394,6 +1694,66 @@
     RC00015:
     - C00022
     - C00074
+- id: R00572
+  name: CTP:pyruvate 2-O-phosphotransferase
+  equation: C00063[c] + C00022[c] <=> C00112[c] + C00074[c]
+  enzymes:
+  - 2.7.1.40
+  names:
+  - CTP:pyruvate 2-O-phosphotransferase
+  rpairs:
+  - RC00002:
+    - C00063
+    - C00112
+    RC00015:
+    - C00022
+    - C00074
+  - RC00002:
+    - C00063
+    - C00112
+    RC00015:
+    - C00022
+    - C00074
+- id: R00659
+  name: UTP:pyruvate 2-O-phosphotransferase
+  equation: C00075[c] + C00022[c] <=> C00015[c] + C00074[c]
+  enzymes:
+  - 2.7.1.40
+  names:
+  - UTP:pyruvate 2-O-phosphotransferase
+  rpairs:
+  - RC00002:
+    - C00015
+    - C00075
+    RC00015:
+    - C00022
+    - C00074
+  - RC00002:
+    - C00015
+    - C00075
+    RC00015:
+    - C00022
+    - C00074
+- id: R00724
+  name: ITP:pyruvate 2-O-phosphotransferase
+  equation: C00081[c] + C00022[c] <=> C00104[c] + C00074[c]
+  enzymes:
+  - 2.7.1.40
+  names:
+  - ITP:pyruvate 2-O-phosphotransferase
+  rpairs:
+  - RC00002:
+    - C00081
+    - C00104
+    RC00015:
+    - C00022
+    - C00074
+  - RC00002:
+    - C00081
+    - C00104
+    RC00015:
+    - C00022
+    - C00074
 - id: R01138
   name: dATP:pyruvate 2-O-phosphotransferase
   equation: C00131[c] + C00022[c] <=> C00206[c] + C00074[c]
@@ -1599,6 +1959,20 @@
     RC00078:
     - C00446
     - C00984
+- id: R00764
+  name: diphosphate:D-fructose-6-phosphate 1-phosphotransferase
+  equation: C00013[c] + C00085[c] <=> C00009[c] + C00354[c]
+  enzymes:
+  - 2.7.1.90
+  names:
+  - diphosphate:D-fructose-6-phosphate 1-phosphotransferase
+  orthology:
+  - K00895
+  - K21071
+  rpairs:
+  - RC00017:
+    - C00085
+    - C00354
 - id: R02073
   name: diphosphate:beta-D-fructose-6-phosphate 1-phosphotransferase
   equation: C00013[c] + C05345[c] <=> C00009[c] + C05378[c]
@@ -1891,6 +2265,43 @@
     RC00077:
     - C00031
     - C00089
+- id: R10867
+  name: beta-D-4-deoxy-Delta4-GlcAp-(1->3)-D-GalNAc6S hydrolase
+  equation: C04865[c] + C00001[c] <=> C04053[c] + C04255[c]
+  enzymes:
+  - 3.2.1.180
+  names:
+  - beta-D-4-deoxy-Delta4-GlcAp-(1->3)-D-GalNAc6S hydrolase
+  orthology:
+  - K18581
+  rpairs:
+  - RC00049:
+    - C04255
+    - C04865
+    RC02427:
+    - C04053
+    - C04865
+  - RC00049:
+    - C04255
+    - C04865
+    RC02427:
+    - C04053
+    - C04865
+- id: R00026
+  name: cellobiose glucohydrolase
+  equation: C00185[c] + C00001[c] <=> (2) C00221[c]
+  enzymes:
+  - 3.2.1.21
+  names:
+  - cellobiose glucohydrolase
+  orthology:
+  - K01188
+  - K05349
+  - K05350
+  rpairs:
+  - RC00049:
+    - C00185
+    - C00221
 - id: R10040
   name: beta-D-glucoside glucohydrolase
   equation: C01594[c] + C00001[c] <=> C02659[c] + C00221[c]
@@ -2205,6 +2616,37 @@
     RC00451:
     - C00124
     - C05402
+- id: R04783
+  name: 3-Ketolactose galactohydrolase
+  equation: C05403[c] + C00001[c] <=> C05394[c] + C00221[c]
+  enzymes:
+  - 3.2.1.23
+  names:
+  - 3-Ketolactose galactohydrolase
+  orthology:
+  - K01190
+  rpairs:
+  - RC00049:
+    - C05394
+    - C05403
+  - RC00049:
+    - C05394
+    - C05403
+- id: R01100
+  name: Lactose galactohydrolase
+  equation: C00243[c] + C00001[c] <=> C00031[c] + C00124[c]
+  enzymes:
+  - 3.2.1.23
+  - 3.2.1.108
+  names:
+  - Lactose galactohydrolase
+  rpairs:
+  - RC00049:
+    - C00124
+    - C00243
+  - RC00049:
+    - C00124
+    - C00243
 - id: R01678
   name: Lactose galactohydrolase
   equation: C00243[c] + C00001[c] <=> C00267[c] + C00124[c]
@@ -2277,6 +2719,76 @@
     RC00714:
     - C00191
     - C11376
+- id: R03801
+  name: 1,4-beta-D-Glucan glucohydrolase
+  equation: C02013[c] + C00001[c] <=> C06219[c] + C00031[c]
+  enzymes:
+  - 3.2.1.74
+  names:
+  - 1,4-beta-D-Glucan glucohydrolase
+  rpairs:
+  - RC00049:
+    - C02013
+    - C06219
+  - RC00049:
+    - C02013
+    - C06219
+- id: R05141
+  name: 1,4-beta-D-Glucan glucohydrolase
+  equation: C06216[c] + C00001[c] <=> C06217[c] + C00031[c]
+  enzymes:
+  - 3.2.1.74
+  names:
+  - 1,4-beta-D-Glucan glucohydrolase
+  rpairs:
+  - RC00049:
+    - C06216
+    - C06217
+  - RC00049:
+    - C06216
+    - C06217
+- id: R05142
+  name: 1,4-beta-D-Glucan glucohydrolase
+  equation: C06217[c] + C00001[c] <=> C06218[c] + C00031[c]
+  enzymes:
+  - 3.2.1.74
+  names:
+  - 1,4-beta-D-Glucan glucohydrolase
+  rpairs:
+  - RC00049:
+    - C06217
+    - C06218
+  - RC00049:
+    - C06217
+    - C06218
+- id: R03802
+  name: 1,4-beta-D-Glucan glucohydrolase
+  equation: C06218[c] + C00001[c] <=> C02013[c] + C00031[c]
+  enzymes:
+  - 3.2.1.74
+  names:
+  - 1,4-beta-D-Glucan glucohydrolase
+  rpairs:
+  - RC00049:
+    - C02013
+    - C06218
+  - RC00049:
+    - C02013
+    - C06218
+- id: R01444
+  name: cellotriose glucohydrolase
+  equation: C06219[c] + C00001[c] <=> C00185[c] + C00031[c]
+  enzymes:
+  - 3.2.1.74
+  names:
+  - cellotriose glucohydrolase
+  rpairs:
+  - RC00049:
+    - C00185
+    - C06219
+  - RC00049:
+    - C00185
+    - C06219
 - id: R02059
   name: N-Acetyl-D-glucosamine-6-phosphate amidohydrolase
   equation: C00357[c] + C00001[c] <=> C00352[c] + C00033[c]
@@ -2739,6 +3251,17 @@
   - RC00349:
     - C00074
     - C00631
+- id: R04206
+  name: 3-Phospho-D-erythronate hydro-lyase
+  equation: C03356[c] <=> C04309[c] + C00001[c]
+  enzymes:
+  - 4.2.1.11
+  names:
+  - 3-Phospho-D-erythronate hydro-lyase
+  rpairs:
+  - RC01099:
+    - C03356
+    - C04309
 - id: R03457
   name: D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate hydro-lyase
   equation: C04666[c] <=> C01267[c] + C00001[c]
@@ -2925,6 +3448,32 @@
   - RC00540:
     - C00199
     - C00231
+- id: R01445
+  name: cellobiose 2-epimerase
+  equation: C00185[c] <=> C02964[c]
+  enzymes:
+  - 5.1.3.11
+  names:
+  - cellobiose 2-epimerase
+  orthology:
+  - K16213
+  rpairs:
+  - RC00289:
+    - C00185
+    - C02964
+- id: R10810
+  name: beta-1,4-mannobiose 2-epimerase
+  equation: C20861[c] <=> C20236[c]
+  enzymes:
+  - 5.1.3.11
+  names:
+  - beta-1,4-mannobiose 2-epimerase
+  orthology:
+  - K16213
+  rpairs:
+  - RC00289:
+    - C20236
+    - C20861
 - id: R02739
   name: alpha-D-Glucose 6-phosphate ketol-isomerase
   equation: C00668[c] <=> C01172[c]
@@ -2969,6 +3518,19 @@
   - RC00289:
     - C00029
     - C00052
+- id: R02984
+  name: dTDPglucose 4-epimerase
+  equation: C00842[c] <=> C02097[c]
+  enzymes:
+  - 5.1.3.2
+  names:
+  - dTDPglucose 4-epimerase
+  orthology:
+  - K01784
+  rpairs:
+  - RC00289:
+    - C00842
+    - C02097
 - id: R00418
   name: UDP-N-acetyl-D-glucosamine 4-epimerase
   equation: C00043[c] <=> C00203[c]
@@ -3149,6 +3711,17 @@
   - RC00516:
     - C00259
     - C00508
+- id: R00307
+  name: D-glucose aldose-ketose-isomerase
+  equation: C00031[c] <=> C00095[c]
+  enzymes:
+  - 5.3.1.5
+  names:
+  - D-glucose aldose-ketose-isomerase
+  rpairs:
+  - RC00376:
+    - C00031
+    - C00095
 - id: R01432
   name: D-xylose aldose-ketose-isomerase
   equation: C00181[c] <=> C00310[c]
@@ -3204,6 +3777,17 @@
   - RC00434:
     - C00117
     - C00199
+- id: R00772
+  name: D-mannose-6-phosphate aldose-ketose-isomerase
+  equation: C00275[c] <=> C00085[c]
+  enzymes:
+  - 5.3.1.8
+  names:
+  - D-mannose-6-phosphate aldose-ketose-isomerase
+  rpairs:
+  - RC00376:
+    - C00085
+    - C00275
 - id: R01819
   name: D-mannose-6-phosphate aldose-ketose-isomerase
   equation: C00275[c] <=> C05345[c]
@@ -3319,6 +3903,19 @@
   - RC00408:
     - C00092
     - C00663
+- id: R02728
+  name: beta-D-Glucose 1-phosphate 1,6-phosphomutase
+  equation: C00663[c] <=> C01172[c]
+  enzymes:
+  - 5.4.2.6
+  names:
+  - beta-D-Glucose 1-phosphate 1,6-phosphomutase
+  orthology:
+  - K01838
+  rpairs:
+  - RC00408:
+    - C00663
+    - C01172
 - id: R03182
   name: 7,8-Diaminononanoate:carbon-dioxide cyclo-ligase
   equation: C00002[c] + C01037[c] + C00011[c] <=> C00008[c] + C00009[c] + C01909[c]
@@ -3454,6 +4051,52 @@
     RC00149:
     - C00118
     - C00236
+- id: R06861
+  name: D-xylulose-5-phosphate:thiamin diphosphate glycolaldehydetransferase
+  equation: C00231[c] + C00068[c] <=> C13378[c] + C00118[c]
+  comment: 'TPP-dependent enzyme (see R01440), subsequently R06862
+
+    TPP-dependent enzyme (see R01641), following after R06863'
+  enzymes:
+  - 2.2.1.1
+  - 2.2.1.3
+  names:
+  - D-xylulose-5-phosphate:thiamin diphosphate glycolaldehydetransferase
+  - alpha,beta-dihydroxyethyl-TPP:D-glyceraldehyde-3-phosphate glycolaldehydetransferase
+  rpairs:
+  - RC00027:
+    - C00068
+    - C13378
+    RC00032:
+    - C00118
+    - C00231
+  - RC00027:
+    - C00068
+    - C13378
+    RC00032:
+    - C00118
+    - C00231
+- id: R06863
+  name: D-sedoheptulose-7-phosphate:thiamin diphosphate glycolaldehydetransferase
+  equation: C05382[c] + C00068[c] <=> C13378[c] + C00117[c]
+  comment: TPP-dependent enzyme (see R01641), subsequently R06861
+  enzymes:
+  - 2.2.1.1
+  names:
+  - D-sedoheptulose-7-phosphate:thiamin diphosphate glycolaldehydetransferase
+  rpairs:
+  - RC00027:
+    - C00068
+    - C13378
+    RC00571:
+    - C00117
+    - C05382
+  - RC00027:
+    - C00068
+    - C13378
+    RC00571:
+    - C00117
+    - C05382
 - id: R01641
   name: sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase
   equation: C05382[c] + C00118[c] <=> C00117[c] + C00231[c]
@@ -3486,6 +4129,33 @@
     RC00571:
     - C00117
     - C05382
+- id: R10948
+  name: ATP:HCO3- phosphotransferase
+  equation: C00002[c] + C00288[c] <=> C00008[c] + C20969[c]
+  comment: a part of multi-step reaction (see R00575, R00256+R10948+R10949+R01395)
+  enzymes:
+  - 6.3.5.5
+  names:
+  - ATP:HCO3- phosphotransferase
+  orthology:
+  - K01954
+  - K01955
+  - K01956
+  - K11540
+  - K11541
+  rpairs:
+  - RC00002:
+    - C00002
+    - C00008
+    RC03314:
+    - C00288
+    - C20969
+  - RC00002:
+    - C00002
+    - C00008
+    RC03314:
+    - C00288
+    - C20969
 - id: R09030
   name: D-allose-6-phosphate aldose-ketose-isomerase
   equation: C02962[c] <=> C18096[c]
@@ -3707,6 +4377,97 @@
     RC02750:
     - C00064
     - C00169
+- id: R00209
+  name: pyruvate:NAD+ 2-oxidoreductase (CoA-acetylating)
+  equation: C00022[c] + C00010[c] + C00003[c] <=> C00024[c] + C00011[c] + C00004[c]
+    + C00080[c]
+  comment: multi-step reaction (see R01699+R02569+R07618)
+  enzymes:
+  - 1.2.4.1
+  - 1.8.1.4
+  - 2.3.1.12
+  names:
+  - pyruvate:NAD+ 2-oxidoreductase (CoA-acetylating)
+  - pyruvate dehydrogenase complex
+  pathways:
+  - Metabolic pathways
+  - Carbon metabolism
+  rpairs:
+  - RC00001:
+    - C00003
+    - C00004
+    RC00004:
+    - C00010
+    - C00024
+    RC02742:
+    - C00022
+    - C00024
+  - RC00001:
+    - C00003
+    - C00004
+    RC00004:
+    - C00010
+    - C00024
+    RC02742:
+    - C00022
+    - C00024
+  - RC00001:
+    - C00003
+    - C00004
+    RC00004:
+    - C00010
+    - C00024
+    RC02742:
+    - C00022
+    - C00024
+- id: R08549
+  name: 2-Oxoglutarate dehydrogenase complex
+  equation: C00026[c] + C00010[c] + C00003[c] <=> C00091[c] + C00011[c] + C00004[c]
+    + C00080[c]
+  comment: multi-step reaction (see R01700+R02570+R07618)
+  enzymes:
+  - 1.2.4.2
+  - 1.8.1.4
+  - 2.3.1.61
+  names:
+  - 2-Oxoglutarate dehydrogenase complex
+  orthology:
+  - K00164
+  - K00382
+  - K00658
+  pathways:
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Biosynthesis of antibiotics
+  - Carbon metabolism
+  rpairs:
+  - RC00001:
+    - C00003
+    - C00004
+    RC00004:
+    - C00010
+    - C00091
+    RC02833:
+    - C00026
+    - C00091
+  - RC00001:
+    - C00003
+    - C00004
+    RC00004:
+    - C00010
+    - C00091
+    RC02833:
+    - C00026
+    - C00091
+  - RC00001:
+    - C00003
+    - C00004
+    RC00004:
+    - C00010
+    - C00091
+    RC02833:
+    - C00026
+    - C00091
 - id: R01221
   name: glycine synthase
   equation: C00037[c] + C00101[c] + C00003[c] <=> C00143[c] + C00014[c] + C00011[c]
@@ -3925,6 +4686,27 @@
     RC00242:
     - C00135
     - C01929
+- id: R10088
+  name: D-ribose 5-phosphate,D-glyceraldehyde 3-phosphate pyridoxal 5'-phosphate-lyase
+  equation: C00117[c] + C00118[c] + C00014[c] <=> C00018[c] + (4) C00001[c] + C00009[c]
+  comment: second step of two-step reaction (see R10089, R00256+R10088)
+  enzymes:
+  - 4.3.3.6
+  names:
+  - D-ribose 5-phosphate,D-glyceraldehyde 3-phosphate pyridoxal 5'-phosphate-lyase
+  rpairs:
+  - RC01783:
+    - C00018
+    - C00118
+    RC03049:
+    - C00018
+    - C00117
+  - RC01783:
+    - C00018
+    - C00118
+    RC03049:
+    - C00018
+    - C00117
 - id: R00256
   name: L-glutamine amidohydrolase
   equation: C00064[c] + C00001[c] <=> C00025[c] + C00014[c]
@@ -4031,3 +4813,89 @@
     RC01560:
     - C12214
     - C12215
+- id: R10089
+  name: D-ribose 5-phosphate,D-glyceraldehyde 3-phosphate pyridoxal 5'-phosphate-lyase
+    (glutamine-hydrolyzing)
+  equation: C00117[c] + C00118[c] + C00064[c] <=> C00018[c] + C00025[c] + (3) C00001[c]
+    + C00009[c]
+  comment: two-step reaction (see R00256+R10088)
+  enzymes:
+  - 4.3.3.6
+  names:
+  - D-ribose 5-phosphate,D-glyceraldehyde 3-phosphate pyridoxal 5'-phosphate-lyase
+    (glutamine-hydrolyzing)
+  rpairs:
+  - RC00010:
+    - C00025
+    - C00064
+    RC01783:
+    - C00018
+    - C00118
+    RC03049:
+    - C00018
+    - C00117
+  - RC00010:
+    - C00025
+    - C00064
+    RC01783:
+    - C00018
+    - C00118
+    RC03049:
+    - C00018
+    - C00117
+  - RC00010:
+    - C00025
+    - C00064
+    RC01783:
+    - C00018
+    - C00118
+    RC03049:
+    - C00018
+    - C00117
+- id: R01324
+  name: citrate hydroxymutase
+  equation: C00158[c] <=> C00311[c]
+  comment: two-step reaction (see R01325+R01900)
+  enzymes:
+  - 4.2.1.3
+  names:
+  - citrate hydroxymutase
+  orthology:
+  - K01681
+  - K01682
+  pathways:
+  - Metabolic pathways
+  - Carbon metabolism
+  - 2-Oxocarboxylic acid metabolism
+  - Biosynthesis of amino acids
+  rpairs:
+  - RC00497:
+    - C00158
+    - C00311
+- id: R01158
+  name: L-histidinol:NAD+ oxidoreductase
+  equation: C00860[c] + (2) C00003[c] + C00001[c] <=> C00135[c] + (2) C00004[c] +
+    (2) C00080[c]
+  comment: two-step reaction (see R03012+R01163)
+  enzymes:
+  - 1.1.1.23
+  names:
+  - L-histidinol:NAD+ oxidoreductase
+  orthology:
+  - K00013
+  - K14152
+  pathways:
+  - Biosynthesis of amino acids
+  rpairs:
+  - RC00001:
+    - C00003
+    - C00004
+    RC00463:
+    - C00135
+    - C00860
+  - RC00001:
+    - C00003
+    - C00004
+    RC00463:
+    - C00135
+    - C00860
