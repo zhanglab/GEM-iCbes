@@ -3680,3 +3680,25 @@
   - Propionate
   - Propanoic acid
   - Propionic acid
+- id: C00139
+  name: Oxidized ferredoxin (2[4Fe-4S]) (Fdox)
+  formula: Fe8S8X
+  charge: 3
+  source: KEGG
+- id: C00138
+  name: Reduced ferredoxin (2[4Fe-4S]) (Fdred)
+  formula: Fe8S8X
+  charge: 2
+  source: KEGG
+- id: C01005
+  name: O-Phospho-L-serine (Pser)
+  formula: C3H8NO6P
+  charge: 0
+  mol_weight: 185.0725
+  source: KEGG
+- id: C06054
+  name: 2-Oxo-3-hydroxy-4-phosphobutanoate
+  formula: C4H7O8P
+  charge: 0
+  mol_weight: 214.0673
+  source: KEGG
