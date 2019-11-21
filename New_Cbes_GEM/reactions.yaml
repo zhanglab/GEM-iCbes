@@ -4087,26 +4087,6 @@
     RC03049:
     - C00018
     - C00117
-- id: R01324
-  name: citrate hydroxymutase
-  equation: C00158[c] <=> C00311[c]
-  comment: two-step reaction (see R01325+R01900)
-  enzymes:
-  - 4.2.1.3
-  names:
-  - citrate hydroxymutase
-  orthology:
-  - K01681
-  - K01682
-  pathways:
-  - Metabolic pathways
-  - Carbon metabolism
-  - 2-Oxocarboxylic acid metabolism
-  - Biosynthesis of amino acids
-  rpairs:
-  - RC00497:
-    - C00158
-    - C00311
 - id: R01158
   name: L-histidinol:NAD+ oxidoreductase
   equation: C00860[c] + (2) C00003[c] + C00001[c] <=> C00135[c] + (2) C00004[c] +
@@ -4296,4 +4276,145 @@
   - RC00376:
     - C00085
     - C00092
+- id: R00709
+  name: isocitrate:NAD+ oxidoreductase (decarboxylating)
+  equation: C00311[c] + C00003[c] <=> C00026[c] + C00011[c] + C00004[c] + C00080[c]
+  enzymes:
+  - 1.1.1.41
+  - 1.1.1.286
+  names:
+  - isocitrate:NAD+ oxidoreductase (decarboxylating)
+  orthology:
+  - K00030
+  - K17753
+  pathways:
+  - Citrate cycle (TCA cycle)
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Microbial metabolism in diverse environments
+  - Biosynthesis of antibiotics
+  - Carbon metabolism
+  - 2-Oxocarboxylic acid metabolism
+  - Biosynthesis of amino acids
+  rpairs:
+  - RC00001:
+    - C00003
+    - C00004
+    RC00114:
+    - C00026
+    - C00311
+    RC02801:
+    - C00011
+    - C00311
+  - RC00001:
+    - C00003
+    - C00004
+    RC00114:
+    - C00026
+    - C00311
+    RC02801:
+    - C00011
+    - C00311
+  - RC00001:
+    - C00003
+    - C00004
+    RC00114:
+    - C00026
+    - C00311
+    RC02801:
+    - C00011
+    - C00311
+- id: R01082
+  name: (S)-malate hydro-lyase (fumarate-forming)
+  equation: C00149[c] <=> C00122[c] + C00001[c]
+  enzymes:
+  - 4.2.1.2
+  names:
+  - (S)-malate hydro-lyase (fumarate-forming)
+  orthology:
+  - K01676
+  - K01677
+  - K01678
+  - K01679
+  pathways:
+  - Citrate cycle (TCA cycle)
+  - Pyruvate metabolism
+  - Carbon fixation pathways in prokaryotes
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Microbial metabolism in diverse environments
+  - Biosynthesis of antibiotics
+  - Carbon metabolism
+  rpairs:
+  - RC00443:
+    - C00122
+    - C00149
+- id: R00351
+  name: acetyl-CoA:oxaloacetate C-acetyltransferase (thioester-hydrolysing)
+  equation: C00158[c] + C00010[c] <=> C00024[c] + C00001[c] + C00036[c]
+  comment: '(pro-S)-carboxymethyl-forming (ec 2.3.3.1)
+
+    (pro-R)-carboxymethyl-forming (ec 2.3.3.3)
+
+    unknown stereospecificity (ec 2.3.3.16)'
+  enzymes:
+  - 2.3.3.1
+  - 2.3.3.3
+  - 2.3.3.16
+  names:
+  - acetyl-CoA:oxaloacetate C-acetyltransferase (thioester-hydrolysing)
+  orthology:
+  - K01647
+  pathways:
+  - Citrate cycle (TCA cycle)
+  - Glyoxylate and dicarboxylate metabolism
+  - Metabolic pathways
+  - Biosynthesis of secondary metabolites
+  - Microbial metabolism in diverse environments
+  - Biosynthesis of antibiotics
+  - Carbon metabolism
+  - 2-Oxocarboxylic acid metabolism
+  - Biosynthesis of amino acids
+  rpairs:
+  - RC00004:
+    - C00010
+    - C00024
+    RC00067:
+    - C00036
+    - C00158
+  - RC00004:
+    - C00010
+    - C00024
+    RC00067:
+    - C00036
+    - C00158
+- id: R01197
+  name: 2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)
+  names:
+  - 2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)
+  equation: 2 C00138[c] + C00091[c] + C00011[c] + 2 C00080[c] <=> 2 C00139[c] + C00026[c] + C00010[c]
+  enzymes:
+  - 1.2.7.3
+  - 1.2.7.11
+  pathways:
+  - Citrate cycle (TCA cycle)
+  - Carbon fixation pathways in prokaryotes
+  - Metabolic pathways
+  - Microbial metabolism in diverse environments
+  - Biosynthesis of antibiotics
+  - Carbon metabolism
+  orthology:
+  - K00174
+  - K00175
+  - K00176
+  - K00177
+  rpairs:
+  - &id1788
+    RC00004:
+    - C00010
+    - C00091
+    RC02833:
+    - C00026
+    - C00091
+  - *id1788
 
