@@ -227,30 +227,6 @@
     RC00085:
     - C00085
     - C01096
-- id: R05607
-  name: D-sorbitol-6-phosphate:NAD 2-oxidoreductase
-  equation: C01096[c] + C00003[c] <=> C05345[c] + C00004[c] + C00080[c]
-  enzymes:
-  - 1.1.1.140
-  names:
-  - D-sorbitol-6-phosphate:NAD 2-oxidoreductase
-  orthology:
-  - K00068
-  pathways:
-  - Fructose and mannose metabolism
-  rpairs:
-  - RC00001:
-    - C00003
-    - C00004
-    RC00085:
-    - C01096
-    - C05345
-  - RC00001:
-    - C00003
-    - C00004
-    RC00085:
-    - C01096
-    - C05345
 - id: R01183
   name: myo-Inositol:NAD+ 2-oxidoreductase
   equation: C00137[c] + C00003[c] <=> C00691[c] + C00004[c] + C00080[c]
@@ -475,36 +451,6 @@
     RC00226:
     - C00085
     - C00279
-- id: R01830
-  name: beta-D-Fructose 6-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase
-  equation: C05345[c] + C00118[c] <=> C00279[c] + C00231[c]
-  enzymes:
-  - 2.2.1.1
-  names:
-  - beta-D-Fructose 6-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase
-  orthology:
-  - K00615
-  pathways:
-  - Pentose phosphate pathway
-  - Metabolic pathways
-  - Biosynthesis of secondary metabolites
-  - Microbial metabolism in diverse environments
-  - Biosynthesis of antibiotics
-  - Carbon metabolism
-  - Biosynthesis of amino acids
-  rpairs:
-  - RC00032:
-    - C00118
-    - C00231
-    RC00226:
-    - C00279
-    - C05345
-  - RC00032:
-    - C00118
-    - C00231
-    RC00226:
-    - C00279
-    - C05345
 - id: R08575
   name: sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase
   equation: C05382[c] + C00118[c] <=> C00279[c] + C00085[c]
@@ -522,37 +468,6 @@
   - RC00439:
     - C00085
     - C00118
-    RC00604:
-    - C00279
-    - C05382
-- id: R01827
-  name: sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase
-  equation: C05382[c] + C00118[c] <=> C00279[c] + C05345[c]
-  enzymes:
-  - 2.2.1.2
-  names:
-  - sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase
-  orthology:
-  - K00616
-  - K13810
-  pathways:
-  - Pentose phosphate pathway
-  - Metabolic pathways
-  - Biosynthesis of secondary metabolites
-  - Microbial metabolism in diverse environments
-  - Biosynthesis of antibiotics
-  - Carbon metabolism
-  - Biosynthesis of amino acids
-  rpairs:
-  - RC00439:
-    - C00118
-    - C05345
-    RC00604:
-    - C00279
-    - C05382
-  - RC00439:
-    - C00118
-    - C05345
     RC00604:
     - C00279
     - C05382
@@ -670,9 +585,9 @@
   - RC00049:
     - C00031
     - C00185
-- id: R07264
+- id: R07264_kz
   name: 2-alpha-D-glucosyl-D-glucose:phosphate beta-D-glucosyltransferase
-  equation: C15548[c] + C00009[c] <=> C00031[c] + C00663[c]
+  equation: C15548[c] + C00009[c] <=> C00031[c] + C00103[c]
   enzymes:
   - 2.4.1.230
   names:
@@ -703,9 +618,9 @@
     RC02748:
     - C00636
     - C21336
-- id: R02727
+- id: R02727_kz
   name: alpha,alpha-Trehalose:orthophosphate beta-D-glucosyltransferase
-  equation: C01083[c] + C00009[c] <=> C00031[c] + C00663[c]
+  equation: C01083[c] + C00009[c] <=> C00031[c] + C00103[c]
   enzymes:
   - 2.4.1.64
   names:
@@ -1061,70 +976,6 @@
     RC00017:
     - C00031
     - C00092
-- id: R01600
-  name: ATP:beta-D-glucose 6-phosphotransferase
-  equation: C00002[c] + C00221[c] <=> C00008[c] + C01172[c]
-  enzymes:
-  - 2.7.1.1
-  - 2.7.1.2
-  names:
-  - ATP:beta-D-glucose 6-phosphotransferase
-  orthology:
-  - K00844
-  - K00845
-  - K12407
-  pathways:
-  - Glycolysis / Gluconeogenesis
-  - Biosynthesis of secondary metabolites
-  - Microbial metabolism in diverse environments
-  - Biosynthesis of antibiotics
-  rpairs:
-  - RC00002:
-    - C00002
-    - C00008
-    RC00017:
-    - C00221
-    - C01172
-  - RC00002:
-    - C00002
-    - C00008
-    RC00017:
-    - C00221
-    - C01172
-- id: R01786
-  name: ATP:alpha-D-glucose 6-phosphotransferase
-  equation: C00002[c] + C00267[c] <=> C00008[c] + C00668[c]
-  enzymes:
-  - 2.7.1.1
-  - 2.7.1.2
-  names:
-  - ATP:alpha-D-glucose 6-phosphotransferase
-  orthology:
-  - K00844
-  - K00845
-  - K12407
-  pathways:
-  - Glycolysis / Gluconeogenesis
-  - Galactose metabolism
-  - Amino sugar and nucleotide sugar metabolism
-  - Metabolic pathways
-  - Biosynthesis of secondary metabolites
-  - Microbial metabolism in diverse environments
-  - Biosynthesis of antibiotics
-  - Carbon metabolism
-  rpairs:
-  - RC00002:
-    - C00002
-    - C00008
-    RC00017:
-    - C00267
-    - C00668
-  - RC00002:
-    - C00002
-    - C00008
-    RC00017:
-    - C00267
-    - C00668
 - id: R00760
   name: ATP:D-fructose 6-phosphotransferase
   equation: C00002[c] + C00095[c] <=> C00008[c] + C00085[c]
@@ -1151,59 +1002,6 @@
     RC00017:
     - C00085
     - C00095
-- id: R00867
-  name: ATP:D-fructose 6-phosphotransferase
-  equation: C00002[c] + C00095[c] <=> C00008[c] + C05345[c]
-  enzymes:
-  - 2.7.1.1
-  - 2.7.1.4
-  names:
-  - ATP:D-fructose 6-phosphotransferase
-  orthology:
-  - K00844
-  - K00847
-  pathways:
-  - Fructose and mannose metabolism
-  - Metabolic pathways
-  rpairs:
-  - RC00002:
-    - C00002
-    - C00008
-    RC00017:
-    - C00095
-    - C05345
-  - RC00002:
-    - C00002
-    - C00008
-    RC00017:
-    - C00095
-    - C05345
-- id: R03920
-  name: ATP:D-fructose 6-phosphotransferase
-  equation: C00002[c] + C02336[c] <=> C00008[c] + C05345[c]
-  enzymes:
-  - 2.7.1.1
-  - 2.7.1.4
-  names:
-  - ATP:D-fructose 6-phosphotransferase
-  orthology:
-  - K00844
-  - K00847
-  pathways:
-  - Amino sugar and nucleotide sugar metabolism
-  rpairs:
-  - RC00002:
-    - C00002
-    - C00008
-    RC00017:
-    - C02336
-    - C05345
-  - RC00002:
-    - C00002
-    - C00008
-    RC00017:
-    - C02336
-    - C05345
 - id: R00756
   name: ATP:D-fructose-6-phosphate 1-phosphotransferase
   equation: C00002[c] + C00085[c] <=> C00008[c] + C00354[c]
@@ -1232,40 +1030,6 @@
     RC00017:
     - C00085
     - C00354
-- id: R04779
-  name: ATP:D-fructose-6-phosphate 1-phosphotransferase
-  equation: C00002[c] + C05345[c] <=> C00008[c] + C05378[c]
-  enzymes:
-  - 2.7.1.11
-  names:
-  - ATP:D-fructose-6-phosphate 1-phosphotransferase
-  orthology:
-  - K00850
-  - K16370
-  - K21071
-  pathways:
-  - Glycolysis / Gluconeogenesis
-  - Pentose phosphate pathway
-  - Fructose and mannose metabolism
-  - Metabolic pathways
-  - Biosynthesis of secondary metabolites
-  - Microbial metabolism in diverse environments
-  - Biosynthesis of antibiotics
-  - Carbon metabolism
-  - Biosynthesis of amino acids
-  rpairs:
-  - RC00002:
-    - C00002
-    - C00008
-    RC00017:
-    - C05345
-    - C05378
-  - RC00002:
-    - C00002
-    - C00008
-    RC00017:
-    - C05345
-    - C05378
 - id: R01843
   name: ATP:Sedoheptulose 7-phosphate 1-phosphotransferase
   equation: C00002[c] + C05382[c] <=> C00008[c] + C00447[c]
@@ -1835,9 +1599,9 @@
     RC00017:
     - C01099
     - C01721
-- id: R02071
+- id: R02071_kz
   name: ATP:D-fructose-1-phosphate 6-phosphotransferase
-  equation: C00002[c] + C01094[c] <=> C00008[c] + C05378[c]
+  equation: C00002[c] + C01094[c] <=> C00008[c] + C01094[c]
   enzymes:
   - 2.7.1.56
   names:
@@ -1899,28 +1663,7 @@
   - RC00017:
     - C00085
     - C00354
-- id: R02073
-  name: diphosphate:beta-D-fructose-6-phosphate 1-phosphotransferase
-  equation: C00013[c] + C05345[c] <=> C00009[c] + C05378[c]
-  enzymes:
-  - 2.7.1.90
-  names:
-  - diphosphate:beta-D-fructose-6-phosphate 1-phosphotransferase
-  orthology:
-  - K00895
-  - K21071
-  pathways:
-  - Glycolysis / Gluconeogenesis
-  - Pentose phosphate pathway
-  - Fructose and mannose metabolism
-  - Metabolic pathways
-  - Biosynthesis of secondary metabolites
-  - Microbial metabolism in diverse environments
-  - Biosynthesis of antibiotics
-  rpairs:
-  - RC00017:
-    - C05345
-    - C05378
+
 - id: R00315
   name: ATP:acetate phosphotransferase
   equation: C00002[c] + C00033[c] <=> C00008[c] + C00227[c]
@@ -2131,9 +1874,9 @@
   - RC00002:
     - C05924
     - C19848
-- id: R01718
+- id: R01718_kz
   name: Isomaltose 6-alpha-D-glucanohydrolase
-  equation: C00252[c] + C00001[c] <=> C00267[c] + C00031[c]
+  equation: C00252[c] + C00001[c] <=> 2 C00031[c]
   enzymes:
   - 3.2.1.10
   names:
@@ -2213,24 +1956,9 @@
     RC02427:
     - C04053
     - C04865
-- id: R00026
-  name: cellobiose glucohydrolase
-  equation: C00185[c] + C00001[c] <=> (2) C00221[c]
-  enzymes:
-  - 3.2.1.21
-  names:
-  - cellobiose glucohydrolase
-  orthology:
-  - K01188
-  - K05349
-  - K05350
-  rpairs:
-  - RC00049:
-    - C00185
-    - C00221
-- id: R10040
+- id: R10040_kz
   name: beta-D-glucoside glucohydrolase
-  equation: C01594[c] + C00001[c] <=> C02659[c] + C00221[c]
+  equation: C01594[c] + C00001[c] <=> C02659[c] + C00031[c]
   enzymes:
   - 3.2.1.21
   names:
@@ -2254,9 +1982,9 @@
     RC01248:
     - C00221
     - C01594
-- id: R10035
+- id: R10035_kz
   name: beta-D-glucoside glucohydrolase
-  equation: C05143[c] + C00001[c] <=> C03742[c] + C00221[c]
+  equation: C05143[c] + C00001[c] <=> C03742[c] + C00031[c]
   enzymes:
   - 3.2.1.21
   names:
@@ -2307,9 +2035,9 @@
     RC00714:
     - C00031
     - C05839
-- id: R10039
+- id: R10039_kz
   name: beta-D-glucoside glucohydrolase
-  equation: C08334[c] + C00001[c] <=> C18796[c] + C00221[c]
+  equation: C08334[c] + C00001[c] <=> C18796[c] + C00031[c]
   enzymes:
   - 3.2.1.21
   names:
@@ -2542,9 +2270,9 @@
     RC00451:
     - C00124
     - C05402
-- id: R04783
+- id: R04783_kz
   name: 3-Ketolactose galactohydrolase
-  equation: C05403[c] + C00001[c] <=> C05394[c] + C00221[c]
+  equation: C05403[c] + C00001[c] <=> C05394[c] + C00031[c]
   enzymes:
   - 3.2.1.23
   names:
@@ -2573,30 +2301,6 @@
   - RC00049:
     - C00124
     - C00243
-- id: R01678
-  name: Lactose galactohydrolase
-  equation: C00243[c] + C00001[c] <=> C00267[c] + C00124[c]
-  enzymes:
-  - 3.2.1.23
-  - 3.2.1.108
-  names:
-  - Lactose galactohydrolase
-  orthology:
-  - K01190
-  - K01229
-  - K12111
-  - K12112
-  - K12309
-  pathways:
-  - Galactose metabolism
-  - Metabolic pathways
-  rpairs:
-  - RC00049:
-    - C00243
-    - C00267
-  - RC00049:
-    - C00243
-    - C00267
 - id: R08127
   name: beta-D-glucuronoside glucuronosohydrolase
   equation: C04900[c] + C00001[c] <=> C12632[c] + C00191[c]
@@ -2915,43 +2619,6 @@
     RC00439:
     - C00577
     - C01094
-- id: R01070
-  name: beta-D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)
-  equation: C05378[c] <=> C00111[c] + C00118[c]
-  enzymes:
-  - 4.1.2.13
-  names:
-  - beta-D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)
-  orthology:
-  - K01622
-  - K01623
-  - K01624
-  - K11645
-  - K16305
-  - K16306
-  pathways:
-  - Glycolysis / Gluconeogenesis
-  - Pentose phosphate pathway
-  - Fructose and mannose metabolism
-  - Metabolic pathways
-  - Biosynthesis of secondary metabolites
-  - Microbial metabolism in diverse environments
-  - Biosynthesis of antibiotics
-  - Carbon metabolism
-  - Biosynthesis of amino acids
-  rpairs:
-  - RC00438:
-    - C00111
-    - C05378
-    RC00439:
-    - C00118
-    - C05378
-  - RC00438:
-    - C00111
-    - C05378
-    RC00439:
-    - C00118
-    - C05378
 - id: R05605
   name: 2-dehydro-3-deoxy-6-phospho-D-gluconate D-glyceraldehyde-3-phosphate-lyase
     (pyruvate-forming)
@@ -3371,31 +3038,6 @@
   - RC00289:
     - C20236
     - C20861
-- id: R02739
-  name: alpha-D-Glucose 6-phosphate ketol-isomerase
-  equation: C00668[c] <=> C01172[c]
-  enzymes:
-  - 5.1.3.15
-  - 5.3.1.9
-  names:
-  - alpha-D-Glucose 6-phosphate ketol-isomerase
-  orthology:
-  - K01792
-  - K01810
-  - K06859
-  - K13810
-  - K15916
-  pathways:
-  - Glycolysis / Gluconeogenesis
-  - Pentose phosphate pathway
-  - Metabolic pathways
-  - Biosynthesis of secondary metabolites
-  - Microbial metabolism in diverse environments
-  - Biosynthesis of antibiotics
-  rpairs:
-  - RC00563:
-    - C00668
-    - C01172
 - id: R00291
   name: UDP-glucose 4-epimerase
   equation: C00029[c] <=> C00052[c]
@@ -3635,22 +3277,6 @@
   - RC00516:
     - C00181
     - C00310
-- id: R00878
-  name: alpha-D-Glucose aldose-ketose-isomerase
-  equation: C00267[c] <=> C00095[c]
-  enzymes:
-  - 5.3.1.5
-  names:
-  - alpha-D-Glucose aldose-ketose-isomerase
-  orthology:
-  - K01805
-  pathways:
-  - Fructose and mannose metabolism
-  - Metabolic pathways
-  rpairs:
-  - RC00376:
-    - C00095
-    - C00267
 - id: R01056
   name: D-ribose-5-phosphate aldose-ketose-isomerase
   equation: C00117[c] <=> C00199[c]
@@ -3685,62 +3311,6 @@
   - RC00376:
     - C00085
     - C00275
-- id: R01819
-  name: D-mannose-6-phosphate aldose-ketose-isomerase
-  equation: C00275[c] <=> C05345[c]
-  enzymes:
-  - 5.3.1.8
-  names:
-  - D-mannose-6-phosphate aldose-ketose-isomerase
-  orthology:
-  - K01809
-  - K15916
-  - K16011
-  pathways:
-  - Fructose and mannose metabolism
-  - Amino sugar and nucleotide sugar metabolism
-  - Metabolic pathways
-  - Biosynthesis of secondary metabolites
-  - Biosynthesis of antibiotics
-  rpairs:
-  - RC00376:
-    - C00275
-    - C05345
-- id: R00771
-  name: D-glucose-6-phosphate aldose-ketose-isomerase
-  equation: C00092[c] <=> C00085[c]
-  enzymes:
-  - 5.3.1.9
-  names:
-  - D-glucose-6-phosphate aldose-ketose-isomerase
-  pathways:
-  - Starch and sucrose metabolism
-  rpairs:
-  - RC00376:
-    - C00085
-    - C00092
-- id: R03321
-  name: beta-D-Glucose 6-phosphate ketol-isomerase
-  equation: C01172[c] <=> C05345[c]
-  enzymes:
-  - 5.3.1.9
-  names:
-  - beta-D-Glucose 6-phosphate ketol-isomerase
-  orthology:
-  - K01810
-  - K06859
-  - K13810
-  - K15916
-  pathways:
-  - Glycolysis / Gluconeogenesis
-  - Metabolic pathways
-  - Biosynthesis of secondary metabolites
-  - Microbial metabolism in diverse environments
-  - Biosynthesis of antibiotics
-  rpairs:
-  - RC00376:
-    - C01172
-    - C05345
 - id: R09952
   name: 2,4,6/3,5-pentahydroxycyclohexanone 2-isomerase
   equation: C20251[c] <=> C00691[c]
@@ -3785,24 +3355,9 @@
   - RC00536:
     - C00197
     - C00631
-- id: R11310
-  name: beta-D-glucose 1,6-phosphomutase
-  equation: C00663[c] <=> C00092[c]
-  enzymes:
-  - 5.4.2.6
-  names:
-  - beta-D-glucose 1,6-phosphomutase
-  orthology:
-  - K01838
-  pathways:
-  - Starch and sucrose metabolism
-  rpairs:
-  - RC00408:
-    - C00092
-    - C00663
-- id: R02728
+- id: R02728_kz
   name: beta-D-Glucose 1-phosphate 1,6-phosphomutase
-  equation: C00663[c] <=> C01172[c]
+  equation: C00103[c] <=> C00092[c]
   enzymes:
   - 5.4.2.6
   names:
@@ -4336,32 +3891,6 @@
   - RC00049:
     - C00031
     - C00185
-- id: R02740
-  name: alpha-D-Glucose 6-phosphate ketol-isomerase
-  equation: C00668[c] <=> C05345[c]
-  comment: reversible
-  enzymes:
-  - 5.3.1.9
-  names:
-  - alpha-D-Glucose 6-phosphate ketol-isomerase
-  orthology:
-  - K01810
-  - K06859
-  - K13810
-  - K15916
-  pathways:
-  - Glycolysis / Gluconeogenesis
-  - Pentose phosphate pathway
-  - Amino sugar and nucleotide sugar metabolism
-  - Metabolic pathways
-  - Biosynthesis of secondary metabolites
-  - Microbial metabolism in diverse environments
-  - Biosynthesis of antibiotics
-  - Carbon metabolism
-  rpairs:
-  - RC00376:
-    - C00668
-    - C05345
 - id: R01163
   name: L-histidinal:NAD+ oxidoreductase
   equation: C01929[c] + C00001[c] + C00003[c] <=> C00135[c] + C00004[c] + C00080[c]
@@ -4609,7 +4138,7 @@
   name: 3-Phosphoserine:2-oxoglutarate aminotransferase
   names:
   - 3-Phosphoserine:2-oxoglutarate aminotransferase
-  equation: C01005 + C00026 <=> C03232 + C00025
+  equation: C01005[c] + C00026[c] <=> C03232[c] + C00025[c]
   enzymes:
   - 2.6.1.52
   pathways:
@@ -4632,7 +4161,7 @@
   name: O-Phospho-4-hydroxy-L-threonine:2-oxoglutarate aminotransferase
   names:
   - O-Phospho-4-hydroxy-L-threonine:2-oxoglutarate aminotransferase
-  equation: C06055 + C00026 <=> C06054 + C00025
+  equation: C06055[c] + C00026[c] <=> C06054[c] + C00025[c]
   enzymes:
   - 2.6.1.52
   pathways:
@@ -4653,7 +4182,7 @@
   name: pyruvate:ferredoxin 2-oxidoreductase (CoA-acetylating)
   names:
   - pyruvate:ferredoxin 2-oxidoreductase (CoA-acetylating)
-  equation: 2 C00138 + C00024 + C00011 + 2 C00080 <=> 2 C00139 + C00022 + C00010
+  equation: 2 C00138[c] + C00024[c] + C00011[c] + 2 C00080[c] <=> 2 C00139[c] + C00022[c] + C00010[c]
   enzymes:
   - 1.2.7.1
   pathways:
@@ -4688,7 +4217,7 @@
   name: 2-oxobutanoate:ferredoxin 2-oxidoreductase (CoA-propanoylating)
   names:
   - 2-oxobutanoate:ferredoxin 2-oxidoreductase (CoA-propanoylating)
-  equation: 2 C00139 + C00109 + C00010 <=> 2 C00138 + C00100 + C00011 + 2 C00080
+  equation: 2 C00139[c] + C00109[c] + C00010[c] <=> 2 C00138[c] + C00100[c] + C00011[c] + 2 C00080[c]
   enzymes:
   - 1.2.7.1
   pathways:
@@ -4708,26 +4237,13 @@
     - C00109
   - *id1786
 - id: PGK2
-  name: phosphoglycerate kinase (GTP)
-  genes: fig|31899.10.peg.1899
+  name: GTP:3-phospho-D-glycerate 1-phosphotransferase
+  names:
+  - GTP:3-phospho-D-glycerate 1-phosphotransferase
   equation: C00044[c] + C00197[c] <=> C00035[c] + C00236[c]
-  ec:
+  enzymes:
   - 2.7.2.3
-  EggNOG_annotation: peg.1899:Phosphoglycerate kinase
-  KEGG_annotation: Athe_1405:K00927 phosphoglycerate kinase [EC:2.7.2.3] K01803 triosephosphate
-    isomerase (TIM) [EC:5.3.1.1] | (G
-  PATRIC_annotation: Phosphoglycerate kinase (EC 2.7.2.3) / Triosephosphate isomerase
-    (EC 5.3.1.1)
-  curated: true
-  genesNCBI: Athe_1405
-  genes_Cce: peg.1899
-  genes_Cth: '-'
-  genes_Tsac: '-'
-  genes_kegg: peg.1899
-  genes_string_NCBI_id: Athe_1405
-  note: Based on experiment data from Dr. Adams' group, Cbes PGK is more active with
-    GDP than ADP.
-  other_pathways:
+  pathways:
   - Glycolysis / Gluconeogenesis
   - Carbon fixation in photosynthetic organisms
   - Metabolic pathways
@@ -4736,8 +4252,48 @@
   - Biosynthesis of antibiotics
   - Carbon metabolism
   - Biosynthesis of amino acids
-  pathway: Glycolysis / Gluconeogenesis
-  source: KEGG
-  tag: KEGG_Cbes,Cce
-  translated_equation: GTP[c] + |3-Phospho-D-glycerate (3PG)[c]| <=> GDP[c] + |3-Phospho-D-glyceroyl
-    phosphate (13DPG)[c]|
+  orthology:
+  - K00927
+  rpairs:
+  - &id3591
+    RC00002:
+    - C00002
+    - C00008
+    RC00043:
+    - C00197
+    - C00236
+  - *id3591
+- id: R07159
+  name: D-glyceraldehyde-3-phosphate:ferredoxin oxidoreductase
+  names:
+  - D-glyceraldehyde-3-phosphate:ferredoxin oxidoreductase
+  equation: C00118[c] + C00001[c] + 2 C00139[c] <=> C00197[c] + 2 C00080[c] + 2 C00138[c]
+  enzymes:
+  - 1.2.7.6
+  pathways:
+  - Glycolysis / Gluconeogenesis
+  - Metabolic pathways
+  - Microbial metabolism in diverse environments
+  - Carbon metabolism
+  - Biosynthesis of amino acids
+  orthology:
+  - K11389
+  rpairs:
+  - RC00242:
+    - C00118
+    - C00197
+- id: R00771
+  name: D-glucose-6-phosphate aldose-ketose-isomerase
+  names:
+  - D-glucose-6-phosphate aldose-ketose-isomerase
+  equation: C00092[c] <=> C00085[c]
+  enzymes:
+  - 5.3.1.9
+  pathways:
+  - Starch and sucrose metabolism
+  orthology: null
+  rpairs:
+  - RC00376:
+    - C00085
+    - C00092
+
