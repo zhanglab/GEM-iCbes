@@ -3458,52 +3458,6 @@
     RC00149:
     - C00118
     - C00236
-- id: R06861
-  name: D-xylulose-5-phosphate:thiamin diphosphate glycolaldehydetransferase
-  equation: C00231[c] + C00068[c] <=> C13378[c] + C00118[c]
-  comment: 'TPP-dependent enzyme (see R01440), subsequently R06862
-
-    TPP-dependent enzyme (see R01641), following after R06863'
-  enzymes:
-  - 2.2.1.1
-  - 2.2.1.3
-  names:
-  - D-xylulose-5-phosphate:thiamin diphosphate glycolaldehydetransferase
-  - alpha,beta-dihydroxyethyl-TPP:D-glyceraldehyde-3-phosphate glycolaldehydetransferase
-  rpairs:
-  - RC00027:
-    - C00068
-    - C13378
-    RC00032:
-    - C00118
-    - C00231
-  - RC00027:
-    - C00068
-    - C13378
-    RC00032:
-    - C00118
-    - C00231
-- id: R06863
-  name: D-sedoheptulose-7-phosphate:thiamin diphosphate glycolaldehydetransferase
-  equation: C05382[c] + C00068[c] <=> C13378[c] + C00117[c]
-  comment: TPP-dependent enzyme (see R01641), subsequently R06861
-  enzymes:
-  - 2.2.1.1
-  names:
-  - D-sedoheptulose-7-phosphate:thiamin diphosphate glycolaldehydetransferase
-  rpairs:
-  - RC00027:
-    - C00068
-    - C13378
-    RC00571:
-    - C00117
-    - C05382
-  - RC00027:
-    - C00068
-    - C13378
-    RC00571:
-    - C00117
-    - C05382
 - id: R01641
   name: sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase
   equation: C05382[c] + C00118[c] <=> C00117[c] + C00231[c]
@@ -4417,4 +4371,5 @@
     - C00026
     - C00091
   - *id1788
+  
 
