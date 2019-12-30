@@ -2848,3 +2848,104 @@
   equation: C04411[c] + C00003[c] <=> C00233[c] + C00011[c] + C00004[c] + C00080[c]
   enzymes:
   - 1.1.1.85
+- id: KAS2
+  name: b ketoacyl synthetase n C14:0 ACP
+  equation: (12) C00080[c] + (12) C00005[c] + C00024[c] + (6) C01209[c] => C05761[c]
+    + (12) C00006[c] + C00010[c] + (5) C00229[c] + (6) C00001[c] + (6) C00011[c]
+  ec:
+  - 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+- id: KAS3
+  name: b ketoacyl synthetase Iso C15:0 ACP
+  equation: (10) C00080[c] + (10) C00005[c] + C02939[c] + (5) C01209[c] => fa3ACP[c]
+    + (10) C00006[c] + C00010[c] + (4) C00229[c] + (5) C00001[c] + (5) C00011[c]
+  ec:
+  - 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+- id: KAS6
+  name: b ketoacyl synthetase Iso C16:0 ACP
+  equation: (12) C00080[c] + (12) C00005[c] + C00630[c] + (6) C01209[c] => fa6ACP[c]
+    + (12) C00006[c] + C00010[c] + (5) C00229[c] + (6) C00001[c] + (6) C00011[c]
+  ec:
+  - 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+- id: KAS8
+  name: b ketoacyl synthetase palmitate n C16:0 ACP
+  equation: (14) C00080[c] + (14) C00005[c] + C00024[c] + (7) C01209[c] => C05764[c]
+    + (14) C00006[c] + C00010[c] + (6) C00229[c] + (7) C00001[c] + (7) C00011[c]
+  ec:
+  - 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+- id: KAS11
+  name: 'b ketoacyl synthetase Iso C17:0 ACP '
+  equation: (12) C00080[c] + (12) C00005[c] + C02939[c] + (6) C01209[c] => fa11ACP[c]
+    + (12) C00006[c] + C00010[c] + (5) C00229[c] + (6) C00001[c] + (6) C00011[c]
+  ec:
+  - 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+- id: KAS12
+  name: b ketoacyl synthetase Anteiso C17:0 ACP
+  equation: (12) C00080[c] + (12) C00005[c] + C15980[c] + (6) C01209[c] => fa12ACP[c]
+    + (12) C00006[c] + C00010[c] + (5) C00229[c] + (6) C00001[c] + (6) C00011[c]
+  ec:
+  - 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+- id: KAS13
+  name: 'b ketoacyl synthetase n C18:0 ACP '
+  equation: (16) C00080[c] + (16) C00005[c] + C00024[c] + (8) C01209[c] => C04088[c]
+    + (16) C00006[c] + C00010[c] + (7) C00229[c] + (8) C00001[c] + (8) C00011[c]
+  ec:
+  - 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+- id: KAS17_1
+  name: b ketoacyl synthetase n C181 (C18:1omega9c)
+  equation: (15) C00080[c] + (15) C00005[c] + C00024[c] + (8) C01209[c] => C01203[c]
+    + (15) C00006[c] + C00010[c] + (7) C00229[c] + (8) C00001[c] + (8) C00011[c]
+  ec:
+  - 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+- id: KAS17_2
+  name: 'b ketoacyl synthetase n C181 (C18:1omega7c) '
+  equation: (15) C00080[c] + (15) C00005[c] + C00024[c] + (8) C01209[c] => C181o7ACP[c]
+    + (15) C00006[c] + C00010[c] + (7) C00229[c] + (8) C00001[c] + (8) C00011[c]
+  ec:
+  - 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+- id: KAS1OH3
+  name: b ketoacyl synthetase Iso C140 3-OH ACP
+  equation: (8) C00080[c] + (10) C00005[c] + C00630[c] + (5) C01209[c] => fa1oh3ACP[c]
+    + (10) C00006[c] + C00010[c] + (4) C00229[c] + (4) C00001[c] + (5) C00011[c]
+  ec:
+  - 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
+- id: THZPSN
+  name: Thiazole phosphate synthesis
+  equation:
+    reversible: true
+    left:
+    - id: C00002
+      compartment: c
+      value: 1
+    - id: C00097
+      compartment: c
+      value: 1
+    - id: C11437
+      compartment: c
+      value: 1
+    - id: C00082
+      compartment: c
+      value: 1
+    right:
+    - id: C04327
+      compartment: c
+      value: 1
+    - id: C00041
+      compartment: c
+      value: 1
+    - id: C00020
+      compartment: c
+      value: 1
+    - id: C00011
+      compartment: c
+      value: 1
+    - id: C00001
+      compartment: c
+      value: 1
+    - id: C00013
+      compartment: c
+      value: 1
+    - id: C17467
+      compartment: c
+      value: 1
+  ec:
+  - 2.8.1.7, 2.7.7.73, 2.8.1.4, 2.2.1.7, 4.1.99.19, 2.8.1.10

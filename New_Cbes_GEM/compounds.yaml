@@ -2204,3 +2204,47 @@
   name: 3-Methyl-2-oxobutanoic acid
   formula: C5H8O3
   mol_weight: 116.1152
+- id: C00229
+  name: Acyl-carrier protein
+  formula: HSR
+- id: C11437
+  name: 1-deoxy-D-xylulose 5-phosphate
+  formula: C5H11O7P
+  mol_weight: 214.1104
+- id: C01209
+  name: Malonyl-[acyl-carrier protein]
+  formula: C3H3O3SR
+- id: C01203
+  name: Oleoyl-[acyl-carrier protein]
+  formula: C18H33OSR
+- id: C05764
+  name: Hexadecanoyl-[acp]
+  formula: C16H31OSR
+- id: C04088
+  name: Octadecanoyl-[acyl-carrier protein]
+  formula: C18H35OSR
+- id: C05761
+  name: Tetradecanoyl-[acp]
+  formula: C14H27OSR
+- id: fa3ACP
+  name: Fatty Acid iso-C15:0-ACP
+  formula: C15H29OSR
+- id: fa6ACP
+  name: Fatty Acid iso-C16:0 ACP
+  formula: C16H31OSR
+- id: fa11ACP
+  name: Fatty Acid iso-C17:0 ACP
+  formula: C17H33OSR
+- id: fa12ACP
+  name: Fatty Acid anteiso-C17:0 ACP
+  formula: C17H33OSR
+- id: C181o7ACP
+  name: Fatty Acid anteiso-C18:1 omega-7 ACP
+  formula: C18H33OSR
+- id: fa1oh3ACP
+  name: Fatty Acid iso-C14:0 3-OH ACP
+  formula: C14H27O2SR
+- id: C17467
+  name: 4-Hydroxy-benzyl alcohol
+  formula: C7H8O2
+  mol_weight: 124.1372
