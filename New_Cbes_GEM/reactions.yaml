@@ -286,36 +286,6 @@
   equation: C00002[c] + C00022[c] <=> C00008[c] + C00074[c]
   enzymes:
   - 2.7.1.40
-- id: R00430
-  name: GTP:pyruvate 2-O-phosphotransferase
-  equation: C00044[c] + C00022[c] <=> C00035[c] + C00074[c]
-  enzymes:
-  - 2.7.1.40
-- id: R00572
-  name: CTP:pyruvate 2-O-phosphotransferase
-  equation: C00063[c] + C00022[c] <=> C00112[c] + C00074[c]
-  enzymes:
-  - 2.7.1.40
-- id: R00659
-  name: UTP:pyruvate 2-O-phosphotransferase
-  equation: C00075[c] + C00022[c] <=> C00015[c] + C00074[c]
-  enzymes:
-  - 2.7.1.40
-- id: R00724
-  name: ITP:pyruvate 2-O-phosphotransferase
-  equation: C00081[c] + C00022[c] <=> C00104[c] + C00074[c]
-  enzymes:
-  - 2.7.1.40
-- id: R01138
-  name: dATP:pyruvate 2-O-phosphotransferase
-  equation: C00131[c] + C00022[c] <=> C00206[c] + C00074[c]
-  enzymes:
-  - 2.7.1.40
-- id: R01858
-  name: dGTP:pyruvate 2-O-phosphotransferase
-  equation: C00286[c] + C00022[c] <=> C00361[c] + C00074[c]
-  enzymes:
-  - 2.7.1.40
 - id: R01541
   name: ATP:2-dehydro-3-deoxy-D-gluconate 6-phosphotransferase
   equation: C00002[c] + C00204[c] <=> C00008[c] + C04442[c]
@@ -342,9 +312,9 @@
   equation: C00002[c] + C01094[c] <=> C00008[c] + C01094[c]
   enzymes:
   - 2.7.1.56
-- id: R01092
-  name: ATP:alpha-D-galactose 1-phosphotransferase
-  equation: C00002[c] + C00984[c] <=> C00008[c] + C00446[c]
+- id: R01092_kz
+  name: ATP:D-galactose 1-phosphotransferase
+  equation: C00002[c] + C00124[c] <=> C00008[c] + C03384[c]
   enzymes:
   - 2.7.1.6
 - id: R00764
@@ -374,9 +344,9 @@
   equation: C00002[c] + C00624[c] <=> C00008[c] + C04133[c]
   enzymes:
   - 2.7.2.8
-- id: R00502
-  name: UTP:alpha-D-galactose-1-phosphate uridylyltransferase
-  equation: C00075[c] + C00446[c] <=> C00013[c] + C00052[c]
+- id: R00502_kz
+  name: UTP:D-galactose-1-phosphate uridylyltransferase
+  equation: C00075[c] + C03384[c] <=> C00013[c] + C00052[c]
   enzymes:
   - 2.7.7.10
   - 2.7.7.64
@@ -1599,30 +1569,6 @@
   equation: C00666[c] + C00026[c] <=> C03972[c] + C00025[c] + C00001[c]
   enzymes:
   - 2.6.1.83
-- id: R01600
-  name: ATP:beta-D-glucose 6-phosphotransferase
-  equation: C00002[c] + C00221[c] <=> C00008[c] + C01172[c]
-  enzymes:
-  - 2.7.1.1
-  - 2.7.1.2
-- id: R01786
-  name: ATP:alpha-D-glucose 6-phosphotransferase
-  equation: C00002[c] + C00267[c] <=> C00008[c] + C00668[c]
-  enzymes:
-  - 2.7.1.1
-  - 2.7.1.2
-- id: R00867
-  name: ATP:D-fructose 6-phosphotransferase
-  equation: C00002[c] + C00095[c] <=> C00008[c] + C05345[c]
-  enzymes:
-  - 2.7.1.1
-  - 2.7.1.4
-- id: R03920
-  name: ATP:D-fructose 6-phosphotransferase
-  equation: C00002[c] + C02336[c] <=> C00008[c] + C05345[c]
-  enzymes:
-  - 2.7.1.1
-  - 2.7.1.4
 - id: R00104
   name: ATP:NAD+ 2'-phosphotransferase
   equation: C00002[c] + C00003[c] <=> C00008[c] + C00006[c]
@@ -1766,11 +1712,6 @@
   equation: C00002[c] + C01279[c] <=> C00008[c] + C04556[c]
   enzymes:
   - 2.7.1.49
-- id: R02071
-  name: ATP:D-fructose-1-phosphate 6-phosphotransferase
-  equation: C00002[c] + C01094[c] <=> C00008[c] + C05378[c]
-  enzymes:
-  - 2.7.1.56
 - id: R02412
   name: ATP:shikimate 3-phosphotransferase
   equation: C00002[c] + C00493[c] <=> C00008[c] + C03175[c]
@@ -2281,12 +2222,6 @@
   equation: C00666[c] <=> C00680[c]
   enzymes:
   - 5.1.1.7
-- id: R02739
-  name: alpha-D-Glucose 6-phosphate ketol-isomerase
-  equation: C00668[c] <=> C01172[c]
-  enzymes:
-  - 5.1.3.15
-  - 5.3.1.9
 - id: R04420
   name: 5-Methylthio-5-deoxy-D-ribose-1-phosphate ketol-isomerase
   equation: C04188[c] <=> C04582[c]
@@ -2297,31 +2232,6 @@
   equation: C04302[c] <=> C01302[c]
   enzymes:
   - 5.3.1.24
-- id: R00878
-  name: alpha-D-Glucose aldose-ketose-isomerase
-  equation: C00267[c] <=> C00095[c]
-  enzymes:
-  - 5.3.1.5
-- id: R01819
-  name: D-mannose-6-phosphate aldose-ketose-isomerase
-  equation: C00275[c] <=> C05345[c]
-  enzymes:
-  - 5.3.1.8
-- id: R03321
-  name: beta-D-Glucose 6-phosphate ketol-isomerase
-  equation: C01172[c] <=> C05345[c]
-  enzymes:
-  - 5.3.1.9
-- id: R11310
-  name: beta-D-glucose 1,6-phosphomutase
-  equation: C00663[c] <=> C00092[c]
-  enzymes:
-  - 5.4.2.6
-- id: R02728
-  name: beta-D-Glucose 1-phosphate 1,6-phosphomutase
-  equation: C00663[c] <=> C01172[c]
-  enzymes:
-  - 5.4.2.6
 - id: R07405
   name: 5-carboxyamino-1-(5-phospho-D-ribosyl)imidazole carboxymutase
   equation: C15667[c] <=> C04751[c]
@@ -2754,11 +2664,6 @@
   equation: C20239[c] <=> C20248[c] + C00014[c]
   enzymes:
   - 4.3.99.3
-- id: R02740
-  name: alpha-D-Glucose 6-phosphate ketol-isomerase
-  equation: C00668[c] <=> C05345[c]
-  enzymes:
-  - 5.3.1.9
 - id: R00483
   name: L-aspartate:ammonia ligase (AMP-forming)
   equation: C00002[c] + C00049[c] + C00014[c] <=> C00020[c] + C00013[c] + C00152[c]
@@ -2949,3 +2854,13 @@
       value: 1
   ec:
   - 2.8.1.7, 2.7.7.73, 2.8.1.4, 2.2.1.7, 4.1.99.19, 2.8.1.10
+- id: R00431
+  name: GTP:oxaloacetate carboxy-lyase (adding GTP
+  equation: C00044[c] + C00036[c] <=> C00035[c] + C00074[c] + C00011[c]
+  enzymes:
+  - 4.1.1.32
+- id: R00726
+  name: ITP:oxaloacetate carboxy-lyase (adding ITP
+  equation: C00081[c] + C00036[c] <=> C00104[c] + C00074[c] + C00011[c]
+  enzymes:
+  - 4.1.1.32
