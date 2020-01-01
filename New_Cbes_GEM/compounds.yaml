@@ -1,2214 +1,2771 @@
 - id: C19848
   name: Adenylated molybdopterin
+  charge: 0
   formula: C20H26N10O12P2S2
   mol_weight: 724.5578
 - id: C20236
   name: 4-O-beta-D-Mannopyranosyl-D-glucopyranose
+  charge: 0
   formula: C12H22O11
   mol_weight: 342.2965
 - id: C20246
   name: 2-[(2R,5Z)-2-Carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate
+  charge: 0
   formula: C7H10NO6PS
   mol_weight: 267.1962
 - id: C20251
   name: 1-Keto-D-chiro-inositol
+  charge: 0
   formula: C6H10O6
   mol_weight: 178.14
 - id: C21310
   name: (8S)-3',8-Cyclo-7,8-dihydroguanosine 5'-triphosphate
+  charge: 0
   formula: C10H16N5O14P3
   mol_weight: 523.1804
 - id: C21336
   name: beta-1,2-Mannobiose
+  charge: 0
   formula: C12H22O11
   mol_weight: 342.2965
 - id: C00080
   name: H+
+  charge: 0
   formula: H
   mol_weight: 1.0079
 - id: C06232
   name: Molybdate
+  charge: 0
   formula: H2MoO4
   mol_weight: 161.9535
 - id: C18796
   name: (2R)-2-Hydroxy-2-methylbutanenitrile
+  charge: 0
   formula: C5H9NO
   mol_weight: 99.1311
 - id: C20969
   name: Carboxyphosphate
+  charge: 0
   formula: CH3O6P
   mol_weight: 142.0047
 - id: C15548
   name: 2-alpha-D-Glucosyl-D-glucose
+  charge: 0
   formula: C12H22O11
   mol_weight: 342.2965
 - id: C16399
   name: 2,4-Diamino-6-hydroxylaminotoluene
+  charge: 0
   formula: C7H11N3O
   mol_weight: 153.1817
 - id: C20247
   name: 2-(2-Carboxy-4-methylthiazol-5-yl)ethyl phosphate
+  charge: 0
   formula: C7H10NO6PS
   mol_weight: 267.1962
 - id: C06216
   name: Celloheptaose
+  charge: 0
   formula: C42H72O36
   mol_weight: 1152.9995
 - id: C02741
   name: Phosphoribosyl-AMP
+  charge: 0
   formula: C15H23N5O14P2
   mol_weight: 559.3157
 - id: C20861
   name: Mannobiose
+  charge: 0
   formula: C12H22O11
   mol_weight: 342.2965
 - id: C18237
   name: Molybdoenzyme molybdenum cofactor
+  charge: 0
   formula: C10H12MoN5O8PS2
   mol_weight: 521.2747
 - id: C03356
   name: 3-Phospho-D-erythronate
+  charge: 0
   formula: C4H9O8P
   mol_weight: 216.0832
 - id: C04865
   name: 4-Deoxy-beta-D-gluc-4-enuronosyl-(1,3)-N-acetyl-D-galactosamine 6-sulfate
+  charge: 0
   formula: C14H21NO14S
   mol_weight: 459.3798
 - id: C05394
   name: 3-Keto-beta-D-galactose
+  charge: 0
   formula: C6H10O6
   mol_weight: 178.14
 - id: C05403
   name: 3-Ketolactose
+  charge: 0
   formula: C12H20O11
   mol_weight: 340.2806
 - id: C13378
   name: alpha,beta-Dihydroxyethyl-TPP
+  charge: 0
   formula: C14H23N4O9P2S
   mol_weight: 485.3663
 - id: C02964
   name: 4-O-beta-D-Glucopyranosyl-D-mannose
+  charge: 0
   formula: C12H22O11
   mol_weight: 342.2965
 - id: C15556
   name: L-3,4-Dihydroxybutan-2-one 4-phosphate
+  charge: 0
   formula: C4H9O6P
   mol_weight: 184.0844
 - id: C04309
   name: Phosphoenol-4-deoxy-3-tetrulosonate
+  charge: 0
   formula: C4H7O7P
   mol_weight: 198.0679
 - id: C18096
   name: D-Allulose 6-phosphate
+  charge: 0
   formula: C6H13O9P
   mol_weight: 260.1358
 - id: C04425
   name: S-Adenosyl-4-methylthio-2-oxobutanoate
+  charge: 0
   formula: C15H20N5O6S
   mol_weight: 398.4142
 - id: C00561
   name: Mandelonitrile
+  charge: 0
   formula: C8H7NO
   mol_weight: 133.1473
 - id: C01250
   name: N-Acetyl-L-glutamate 5-semialdehyde
+  charge: 0
   formula: C7H11NO4
   mol_weight: 173.1665
 - id: C02876
   name: Propanoyl phosphate
+  charge: 0
   formula: C3H7O5P
   mol_weight: 154.0584
 - id: C04349
   name: (4S)-4,6-Dihydroxy-2,5-dioxohexanoate
+  charge: 0
   formula: C6H8O6
   mol_weight: 176.1241
 - id: C05838
   name: cis-2-Hydroxycinnamate
+  charge: 0
   formula: C9H8O3
   mol_weight: 164.158
 - id: C06030
   name: Methyloxaloacetate
+  charge: 0
   formula: C5H6O5
   mol_weight: 146.0981
 - id: C01235
   name: alpha-D-Galactosyl-(1->3)-1D-myo-inositol
+  charge: 0
   formula: C12H22O11
   mol_weight: 342.2965
 - id: C01304
   name: 2,5-Diamino-6-(5-phospho-D-ribosylamino)pyrimidin-4(3H)-one
+  charge: 0
   formula: C9H16N5O8P
   mol_weight: 353.2258
 - id: C02097
   name: dTDP-galactose
+  charge: 0
   formula: C16H26N2O16P2
   mol_weight: 564.329
 - id: C04900
   name: Luteolin 7-O-[beta-D-glucuronosyl-(1->2)-beta-D-glucuronide]-4'-O-beta-D-glucuronide
+  charge: 0
   formula: C33H34O24
   mol_weight: 814.6087
 - id: C05399
   name: Melibiitol
+  charge: 0
   formula: C12H24O11
   mol_weight: 344.3124
 - id: C05839
   name: cis-beta-D-Glucosyl-2-hydroxycinnamate
+  charge: 0
   formula: C15H18O8
   mol_weight: 326.2986
 - id: C06217
   name: Cellohexaose
+  charge: 0
   formula: C36H62O31
   mol_weight: 990.8589
 - id: C00558
   name: D-Tagaturonate
+  charge: 0
   formula: C6H10O7
   mol_weight: 194.1394
 - id: C00905
   name: D-Fructuronate
+  charge: 0
   formula: C6H10O7
   mol_weight: 194.1394
 - id: C01037
   name: 7,8-Diaminononanoate
+  charge: 0
   formula: C9H20N2O2
   mol_weight: 188.2673
 - id: C02739
   name: 1-(5-Phospho-D-ribosyl)-ATP
+  charge: 0
   formula: C15H25N5O20P4
   mol_weight: 719.2755
 - id: C03785
   name: D-Tagatose 1,6-bisphosphate
+  charge: 0
   formula: C6H14O12P2
   mol_weight: 340.1157
 - id: C04454
   name: 5-Amino-6-(5'-phospho-D-ribitylamino)uracil
+  charge: 0
   formula: C9H17N4O9P
   mol_weight: 356.2264
 - id: C04732
   name: 5-Amino-6-(1-D-ribitylamino)uracil
+  charge: 0
   formula: C9H16N4O6
   mol_weight: 276.2465
 - id: C06376
   name: N-Acetyl-D-galactosamine 6-phosphate
+  charge: 0
   formula: C8H16NO9P
   mol_weight: 301.1877
 - id: C06377
   name: D-Galactosamine 6-phosphate
+  charge: 0
   formula: C6H14NO8P
   mol_weight: 259.151
 - id: C06441
   name: L-Xylulose 1-phosphate
+  charge: 0
   formula: C5H11O8P
   mol_weight: 230.1098
 - id: C12214
   name: Aminofructose 6-phosphate
+  charge: 0
   formula: C6H14NO8P
   mol_weight: 259.151
 - id: C12215
   name: Iminoerythrose 4-phosphate
+  charge: 0
   formula: C4H10NO6P
   mol_weight: 199.0991
 - id: C16396
   name: 2,4-Diamino-6-nitrotoluene
+  charge: 0
   formula: C7H9N3O2
   mol_weight: 167.1653
 - id: C02015
   name: CoA-disulfide
+  charge: 0
   formula: C42H70N14O32P6S2
   mol_weight: 1533.0524
 - id: C02962
   name: D-Allose 6-phosphate
+  charge: 0
   formula: C6H13O9P
   mol_weight: 260.1358
 - id: C18239
   name: Precursor Z
+  charge: 0
   formula: C10H14N5O8P
   mol_weight: 363.2206
 - id: C11376
   name: SN38 glucuronide
+  charge: 0
   formula: C28H28N2O11
   mol_weight: 568.5287
 - id: C01267
   name: 3-(Imidazol-4-yl)-2-oxopropyl phosphate
+  charge: 0
   formula: C6H9N2O5P
   mol_weight: 220.1198
 - id: C04133
   name: N-Acetyl-L-glutamate 5-phosphate
+  charge: 0
   formula: C7H12NO8P
   mol_weight: 269.1458
 - id: C00357
   name: N-Acetyl-D-glucosamine 6-phosphate
+  charge: 0
   formula: C8H16NO9P
   mol_weight: 301.1877
 - id: C00861
   name: L-Rhamnulose
+  charge: 0
   formula: C6H12O5
   mol_weight: 164.1565
 - id: C01099
   name: L-Fuculose 1-phosphate
+  charge: 0
   formula: C6H13O8P
   mol_weight: 244.1364
 - id: C01102
   name: O-Phospho-L-homoserine
+  charge: 0
   formula: C4H10NO6P
   mol_weight: 199.0991
 - id: C03742
   name: (S)-4-Hydroxymandelonitrile
+  charge: 0
   formula: C8H7NO2
   mol_weight: 149.1467
 - id: C04287
   name: 3D-3,5/4-Trihydroxycyclohexane-1,2-dione
+  charge: 0
   formula: C6H8O5
   mol_weight: 160.1247
 - id: C04752
   name: 4-Amino-5-hydroxymethyl-2-methylpyrimidine diphosphate
+  charge: 0
   formula: C6H11N3O7P2
   mol_weight: 299.115
 - id: C04896
   name: 5-(5-Phospho-D-ribosylaminoformimino)-1-(5-phosphoribosyl)-imidazole-4-carboxamide
+  charge: 0
   formula: C15H25N5O15P2
   mol_weight: 577.331
 - id: C04916
   name: N-(5'-Phospho-D-1'-ribulosylformimino)-5-amino-1-(5''-phospho-D-ribosyl)-4-imidazolecarboxamide
+  charge: 0
   formula: C15H25N5O15P2
   mol_weight: 577.331
 - id: C05400
   name: Epimelibiose
+  charge: 0
   formula: C12H22O11
   mol_weight: 342.2965
 - id: C06055
   name: O-Phospho-4-hydroxy-L-threonine
+  charge: 0
   formula: C4H10NO7P
   mol_weight: 215.0985
 - id: C06218
   name: Cellopentaose
+  charge: 0
   formula: C30H52O26
   mol_weight: 828.7183
 - id: C06219
   name: Cellotriose
+  charge: 0
   formula: C18H32O16
   mol_weight: 504.4371
 - id: C12632
   name: Luteolin 7-O-[beta-D-glucuronosyl-(1->2)-beta-D-glucuronide]
+  charge: 0
   formula: C27H26O18
   mol_weight: 638.4845
 - id: C00204
   name: 2-Dehydro-3-deoxy-D-gluconate
+  charge: 0
   formula: C6H10O6
   mol_weight: 178.14
 - id: C00312
   name: L-Xylulose
+  charge: 0
   formula: C5H10O5
   mol_weight: 150.1299
 - id: C00447
   name: Sedoheptulose 1,7-bisphosphate
+  charge: 0
   formula: C7H16O13P2
   mol_weight: 370.1417
 - id: C00683
   name: (S)-Methylmalonyl-CoA
+  charge: 0
   formula: C25H40N7O19P3S
   mol_weight: 867.6069
 - id: C01092
   name: 8-Amino-7-oxononanoate
+  charge: 0
   formula: C9H17NO3
   mol_weight: 187.2362
 - id: C01097
   name: D-Tagatose 6-phosphate
+  charge: 0
   formula: C6H13O9P
   mol_weight: 260.1358
 - id: C04053
   name: 5-Dehydro-4-deoxy-D-glucuronate
+  charge: 0
   formula: C6H8O6
   mol_weight: 176.1241
 - id: C05404
   name: D-Gal alpha 1->6D-Gal alpha 1->6D-Glucose
+  charge: 0
   formula: C18H32O16
   mol_weight: 504.4371
 - id: C05921
   name: Biotinyl-5'-AMP
+  charge: 0
   formula: C20H28N7O9PS
   mol_weight: 573.5166
 - id: C04255
   name: N-Acetyl-D-galactosamine 6-sulfate
+  charge: 0
   formula: C8H15NO9S
   mol_weight: 301.271
 - id: C00579
   name: Dihydrolipoamide
+  charge: 0
   formula: C8H17NOS2
   mol_weight: 207.3567
 - id: C08334
   name: Lotaustralin
+  charge: 0
   formula: C11H19NO6
   mol_weight: 261.2717
 - id: C11173
   name: SN-38
+  charge: 0
   formula: C22H20N2O5
   mol_weight: 392.4046
 - id: C00227
   name: Acetyl phosphate
+  charge: 0
   formula: C2H5O5P
   mol_weight: 140.0319
 - id: C00266
   name: Glycolaldehyde
+  charge: 0
   formula: C2H4O2
   mol_weight: 60.052
 - id: C00288
   name: HCO3-
+  charge: 0
   formula: HCO3
   mol_weight: 61.0168
 - id: C00577
   name: D-Glyceraldehyde
+  charge: 0
   formula: C3H6O3
   mol_weight: 90.0779
 - id: C02630
   name: 2-Hydroxyglutarate
+  charge: 0
   formula: C5H8O5
   mol_weight: 148.114
 - id: C04327
   name: 4-Methyl-5-(2-phosphooxyethyl)thiazole
+  charge: 0
   formula: C6H10NO4PS
   mol_weight: 223.1867
 - id: C04556
   name: 4-Amino-2-methyl-5-(phosphooxymethyl)pyrimidine
+  charge: 0
   formula: C6H10N3O4P
   mol_weight: 219.1351
 - id: C00199
   name: D-Ribulose 5-phosphate
+  charge: 0
   formula: C5H11O8P
   mol_weight: 230.1098
 - id: C00206
   name: dADP
+  charge: 0
   formula: C10H15N5O9P2
   mol_weight: 411.2017
 - id: C00231
   name: D-Xylulose 5-phosphate
+  charge: 0
   formula: C5H11O8P
   mol_weight: 230.1098
 - id: C00275
   name: D-Mannose 6-phosphate
+  charge: 0
   formula: C6H13O9P
   mol_weight: 260.1358
 - id: C00361
   name: dGDP
+  charge: 0
   formula: C10H15N5O10P2
   mol_weight: 427.2011
 - id: C00424
   name: (S)-Lactaldehyde
+  charge: 0
   formula: C3H6O2
   mol_weight: 74.0785
 - id: C00498
   name: ADP-glucose
+  charge: 0
   formula: C16H25N5O15P2
   mol_weight: 589.3417
 - id: C00631
   name: 2-Phospho-D-glycerate
+  charge: 0
   formula: C3H7O7P
   mol_weight: 186.0572
 - id: C00691
   name: 2,4,6/3,5-Pentahydroxycyclohexanone
+  charge: 0
   formula: C6H10O6
   mol_weight: 178.14
 - id: C01131
   name: L-Rhamnulose 1-phosphate
+  charge: 0
   formula: C6H13O8P
   mol_weight: 244.1364
 - id: C01268
   name: 5-Amino-6-(5'-phosphoribosylamino)uracil
+  charge: 0
   formula: C9H15N4O9P
   mol_weight: 354.2106
 - id: C01721
   name: L-Fuculose
+  charge: 0
   formula: C6H12O5
   mol_weight: 164.1565
 - id: C04666
   name: D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate
+  charge: 0
   formula: C6H11N2O6P
   mol_weight: 238.1351
 - id: C05143
   name: Dhurrin
+  charge: 0
   formula: C14H17NO7
   mol_weight: 311.2873
 - id: C06056
   name: 4-Hydroxy-L-threonine
+  charge: 0
   formula: C4H9NO4
   mol_weight: 135.1186
 - id: C00203
   name: UDP-N-acetyl-D-galactosamine
+  charge: 0
   formula: C17H27N3O17P2
   mol_weight: 607.3537
 - id: C00311
   name: Isocitrate
+  charge: 0
   formula: C6H8O7
   mol_weight: 192.1235
 - id: C00514
   name: D-Mannonate
+  charge: 0
   formula: C6H12O7
   mol_weight: 196.1553
 - id: C01096
   name: Sorbitol 6-phosphate
+  charge: 0
   formula: C6H15O9P
   mol_weight: 262.1517
 - id: C01909
   name: Dethiobiotin
+  charge: 0
   formula: C10H18N2O3
   mol_weight: 214.2615
 - id: C02013
   name: Cellotetraose
+  charge: 0
   formula: C24H42O21
   mol_weight: 666.5777
 - id: C02273
   name: Digalacturonate
+  charge: 0
   formula: C12H18O13
   mol_weight: 370.2635
 - id: C03406
   name: N-(L-Arginino)succinate
+  charge: 0
   formula: C10H18N4O6
   mol_weight: 290.2731
 - id: C04442
   name: 2-Dehydro-3-deoxy-6-phospho-D-gluconate
+  charge: 0
   formula: C6H11O9P
   mol_weight: 258.1199
 - id: C05382
   name: Sedoheptulose 7-phosphate
+  charge: 0
   formula: C7H15O10P
   mol_weight: 290.1618
 - id: C05401
   name: 3-beta-D-Galactosyl-sn-glycerol
+  charge: 0
   formula: C9H18O8
   mol_weight: 254.2344
 - id: C05924
   name: Molybdopterin
+  charge: 0
   formula: C10H14N5O6PS2
   mol_weight: 395.3518
 - id: C08325
   name: Amygdalin
+  charge: 0
   formula: C20H27NO11
   mol_weight: 457.4285
 - id: C05198
   name: 5'-Deoxyadenosine
+  charge: 0
   formula: C10H13N5O3
   mol_weight: 251.2419
 - id: C00466
   name: Acetoin
+  charge: 0
   formula: C4H8O2
   mol_weight: 88.1051
 - id: C01594
   name: Linamarin
+  charge: 0
   formula: C10H17NO6
   mol_weight: 247.2451
 - id: C00237
   name: CO
+  charge: 0
   formula: CO
   mol_weight: 28.0101
 - id: C00248
   name: Lipoamide
+  charge: 0
   formula: C8H15NOS2
   mol_weight: 205.3408
 - id: C00844
   name: Prunasin
+  charge: 0
   formula: C14H17NO6
   mol_weight: 295.2879
 - id: C00168
   name: Hydroxypyruvate
+  charge: 0
   formula: C3H4O4
   mol_weight: 104.0615
 - id: C00258
   name: D-Glycerate
+  charge: 0
   formula: C3H6O4
   mol_weight: 106.0773
 - id: C00322
   name: 2-Oxoadipate
+  charge: 0
   formula: C6H8O5
   mol_weight: 160.1247
 - id: C00417
   name: cis-Aconitate
+  charge: 0
   formula: C6H6O6
   mol_weight: 174.1082
 - id: C00624
   name: N-Acetyl-L-glutamate
+  charge: 0
   formula: C7H11NO5
   mol_weight: 189.1659
 - id: C01081
   name: Thiamin monophosphate
+  charge: 0
   formula: C12H18N4O4PS
   mol_weight: 345.3345
 - id: C01563
   name: Carbamate
+  charge: 0
   formula: CH3NO2
   mol_weight: 61.04
 - id: C02659
   name: Acetone cyanohydrin
+  charge: 0
   formula: C4H7NO
   mol_weight: 85.1045
 - id: C03232
   name: 3-Phosphonooxypyruvate
+  charge: 0
   formula: C3H5O7P
   mol_weight: 184.0414
 - id: C00001
   name: H2O
+  charge: 0
   formula: H2O
   mol_weight: 18.0153
 - id: C00004
   name: NADH
+  charge: 0
   formula: C21H29N7O14P2
   mol_weight: 665.441
 - id: C00005
   name: NADPH
+  charge: 0
   formula: C21H30N7O17P3
   mol_weight: 745.4209
 - id: C00006
   name: NADP+
+  charge: 0
   formula: C21H29N7O17P3
   mol_weight: 744.4129
 - id: C00011
   name: CO2
+  charge: 0
   formula: CO2
   mol_weight: 44.0095
 - id: C00035
   name: GDP
+  charge: 0
   formula: C10H15N5O11P2
   mol_weight: 443.2005
 - id: C00068
   name: Thiamin diphosphate
+  charge: 0
   formula: C12H19N4O7P2S
   mol_weight: 425.3144
 - id: C00075
   name: UTP
+  charge: 0
   formula: C9H15N2O15P3
   mol_weight: 484.1411
 - id: C00081
   name: ITP
+  charge: 0
   formula: C10H15N4O14P3
   mol_weight: 508.1658
 - id: C00096
   name: GDP-mannose
+  charge: 0
   formula: C16H25N5O16P2
   mol_weight: 605.3411
 - id: C00104
   name: IDP
+  charge: 0
   formula: C10H14N4O11P2
   mol_weight: 428.1859
 - id: C00112
   name: CDP
+  charge: 0
   formula: C9H15N3O11P2
   mol_weight: 403.1764
 - id: C00119
   name: 5-Phospho-alpha-D-ribose 1-diphosphate
+  charge: 0
   formula: C5H13O14P3
   mol_weight: 390.0696
 - id: C00131
   name: dATP
+  charge: 0
   formula: C10H16N5O12P3
   mol_weight: 491.1816
 - id: C00192
   name: Hydroxylamine
+  charge: 0
   formula: NH3O
   mol_weight: 33.0299
 - id: C00197
   name: 3-Phospho-D-glycerate
+  charge: 0
   formula: C3H7O7P
   mol_weight: 186.0572
 - id: C00236
   name: 3-Phospho-D-glyceroyl phosphate
+  charge: 0
   formula: C3H8O10P2
   mol_weight: 266.0371
 - id: C00636
   name: D-Mannose 1-phosphate
+  charge: 0
   formula: C6H13O9P
   mol_weight: 260.1358
 - id: C01100
   name: L-Histidinol phosphate
+  charge: 0
   formula: C6H12N3O4P
   mol_weight: 221.1509
 - id: C01613
   name: Stachyose
+  charge: 0
   formula: C24H42O21
   mol_weight: 666.5777
 - id: C01929
   name: L-Histidinal
+  charge: 0
   formula: C6H9N3O
   mol_weight: 139.1552
 - id: C06156
   name: alpha-D-Glucosamine 1-phosphate
+  charge: 0
   formula: C6H14NO8P
   mol_weight: 259.151
 - id: C00043
   name: UDP-N-acetyl-alpha-D-glucosamine
+  charge: 0
   formula: C17H27N3O17P2
   mol_weight: 607.3537
 - id: C00100
   name: Propanoyl-CoA
+  charge: 0
   formula: C24H40N7O17P3S
   mol_weight: 823.5974
 - id: C00103
   name: D-Glucose 1-phosphate
+  charge: 0
   formula: C6H13O9P
   mol_weight: 260.1358
 - id: C00185
   name: Cellobiose
+  charge: 0
   formula: C12H22O11
   mol_weight: 342.2965
 - id: C00252
   name: Isomaltose
+  charge: 0
   formula: C12H22O11
   mol_weight: 342.2965
 - id: C00310
   name: D-Xylulose
+  charge: 0
   formula: C5H10O5
   mol_weight: 150.1299
 - id: C00333
   name: D-Galacturonate
+  charge: 0
   formula: C6H10O7
   mol_weight: 194.1394
 - id: C00507
   name: L-Rhamnose
+  charge: 0
   formula: C6H12O5
   mol_weight: 164.1565
 - id: C00508
   name: L-Ribulose
+  charge: 0
   formula: C5H10O5
   mol_weight: 150.1299
 - id: C00527
   name: Glutaryl-CoA
+  charge: 0
   formula: C26H42N7O19P3S
   mol_weight: 881.6335
 - id: C04332
   name: 6,7-Dimethyl-8-(D-ribityl)lumazine
+  charge: 0
   formula: C13H18N4O6
   mol_weight: 326.3052
 - id: C00009
   name: Orthophosphate
+  charge: 0
   formula: H3PO4
   mol_weight: 97.9952
 - id: C00013
   name: Diphosphate
+  charge: 0
   formula: H4P2O7
   mol_weight: 177.9751
 - id: C00014
   name: Ammonia
+  charge: 0
   formula: NH3
   mol_weight: 17.0305
 - id: C00018
   name: Pyridoxal phosphate
+  charge: 0
   formula: C8H10NO6P
   mol_weight: 247.1419
 - id: C00025
   name: L-Glutamate
+  charge: 0
   formula: C5H9NO4
   mol_weight: 147.1293
 - id: C00026
   name: 2-Oxoglutarate
+  charge: 0
   formula: C5H6O5
   mol_weight: 146.0981
 - id: C00036
   name: Oxaloacetate
+  charge: 0
   formula: C4H4O5
   mol_weight: 132.0716
 - id: C00048
   name: Glyoxylate
+  charge: 0
   formula: C2H2O3
   mol_weight: 74.0355
 - id: C00049
   name: L-Aspartate
+  charge: 0
   formula: C4H7NO4
   mol_weight: 133.1027
 - id: C00064
   name: L-Glutamine
+  charge: 0
   formula: C5H10N2O3
   mol_weight: 146.1445
 - id: C00074
   name: Phosphoenolpyruvate
+  charge: 0
   formula: C3H5O6P
   mol_weight: 168.042
 - id: C00077
   name: L-Ornithine
+  charge: 0
   formula: C5H12N2O2
   mol_weight: 132.161
 - id: C00111
   name: Glycerone phosphate
+  charge: 0
   formula: C3H7O6P
   mol_weight: 170.0578
 - id: C00116
   name: Glycerol
+  charge: 0
   formula: C3H8O3
   mol_weight: 92.0938
 - id: C00122
   name: Fumarate
+  charge: 0
   formula: C4H4O4
   mol_weight: 116.0722
 - id: C00137
   name: myo-Inositol
+  charge: 0
   formula: C6H12O6
   mol_weight: 180.1559
 - id: C00158
   name: Citrate
+  charge: 0
   formula: C6H8O7
   mol_weight: 192.1235
 - id: C00166
   name: Phenylpyruvate
+  charge: 0
   formula: C9H8O3
   mol_weight: 164.158
 - id: C00169
   name: Carbamoyl phosphate
+  charge: 0
   formula: CH4NO5P
   mol_weight: 141.0199
 - id: C00250
   name: Pyridoxal
+  charge: 0
   formula: C8H9NO3
   mol_weight: 167.162
 - id: C00534
   name: Pyridoxamine
+  charge: 0
   formula: C8H12N2O2
   mol_weight: 168.1931
 - id: C00647
   name: Pyridoxamine phosphate
+  charge: 0
   formula: C8H13N2O5P
   mol_weight: 248.173
 - id: C01179
   name: 3-(4-Hydroxyphenyl)pyruvate
+  charge: 0
   formula: C9H8O4
   mol_weight: 180.1574
 - id: C00002
   name: ATP
+  charge: 0
   formula: C10H16N5O13P3
   mol_weight: 507.181
 - id: C00003
   name: NAD+
+  charge: 0
   formula: C21H28N7O14P2
   mol_weight: 664.433
 - id: C00008
   name: ADP
+  charge: 0
   formula: C10H15N5O10P2
   mol_weight: 427.2011
 - id: C00015
   name: UDP
+  charge: 0
   formula: C9H14N2O12P2
   mol_weight: 404.1612
 - id: C00020
   name: AMP
+  charge: 0
   formula: C10H14N5O7P
   mol_weight: 347.2212
 - id: C00037
   name: Glycine
+  charge: 0
   formula: C2H5NO2
   mol_weight: 75.0666
 - id: C00044
   name: GTP
+  charge: 0
   formula: C10H16N5O14P3
   mol_weight: 523.1804
 - id: C00062
   name: L-Arginine
+  charge: 0
   formula: C6H14N4O2
   mol_weight: 174.201
 - id: C00063
   name: CTP
+  charge: 0
   formula: C9H16N3O14P3
   mol_weight: 483.1563
 - id: C00065
   name: L-Serine
+  charge: 0
   formula: C3H7NO3
   mol_weight: 105.0926
 - id: C00073
   name: L-Methionine
+  charge: 0
   formula: C5H11NO2S
   mol_weight: 149.2113
 - id: C00079
   name: L-Phenylalanine
+  charge: 0
   formula: C9H11NO2
   mol_weight: 165.1891
 - id: C00082
   name: L-Tyrosine
+  charge: 0
   formula: C9H11NO3
   mol_weight: 181.1885
 - id: C00084
   name: Acetaldehyde
+  charge: 0
   formula: C2H4O
   mol_weight: 44.0526
 - id: C00089
   name: Sucrose
+  charge: 0
   formula: C12H22O11
   mol_weight: 342.2965
 - id: C00118
   name: D-Glyceraldehyde 3-phosphate
+  charge: 0
   formula: C3H7O6P
   mol_weight: 170.0578
 - id: C00120
   name: Biotin
+  charge: 0
   formula: C10H16N2O3S
   mol_weight: 244.3106
 - id: C00135
   name: L-Histidine
+  charge: 0
   formula: C6H9N3O2
   mol_weight: 155.1546
 - id: C00188
   name: L-Threonine
+  charge: 0
   formula: C4H9NO3
   mol_weight: 119.1192
 - id: C00217
   name: D-Glutamate
+  charge: 0
   formula: C5H9NO4
   mol_weight: 147.1293
 - id: C00243
   name: Lactose
+  charge: 0
   formula: C12H22O11
   mol_weight: 342.2965
 - id: C00255
   name: Riboflavin
+  charge: 0
   formula: C17H20N4O6
   mol_weight: 376.3639
 - id: C00286
   name: dGTP
+  charge: 0
   formula: C10H16N5O13P3
   mol_weight: 507.181
 - id: C00327
   name: L-Citrulline
+  charge: 0
   formula: C6H13N3O3
   mol_weight: 175.1857
 - id: C00352
   name: D-Glucosamine 6-phosphate
+  charge: 0
   formula: C6H14NO8P
   mol_weight: 259.151
 - id: C00492
   name: Raffinose
+  charge: 0
   formula: C18H32O16
   mol_weight: 504.4371
 - id: C00860
   name: L-Histidinol
+  charge: 0
   formula: C6H11N3O
   mol_weight: 141.171
 - id: C01083
   name: alpha,alpha-Trehalose
+  charge: 0
   formula: C12H22O11
   mol_weight: 342.2965
 - id: C01101
   name: L-Ribulose 5-phosphate
+  charge: 0
   formula: C5H11O8P
   mol_weight: 230.1098
 - id: C03373
   name: Aminoimidazole ribotide
+  charge: 0
   formula: C8H14N3O7P
   mol_weight: 295.1864
 - id: C00010
   name: CoA
+  charge: 0
   formula: C21H36N7O16P3S
   mol_weight: 767.5341
 - id: C00019
   name: S-Adenosyl-L-methionine
+  charge: 0
   formula: C15H22N6O5S
   mol_weight: 398.4374
 - id: C00024
   name: Acetyl-CoA
+  charge: 0
   formula: C23H38N7O17P3S
   mol_weight: 809.5708
 - id: C00029
   name: UDP-glucose
+  charge: 0
   formula: C15H24N2O17P2
   mol_weight: 566.3018
 - id: C00052
   name: UDP-alpha-D-galactose
+  charge: 0
   formula: C15H24N2O17P2
   mol_weight: 566.3018
 - id: C00085
   name: D-Fructose 6-phosphate
+  charge: 0
   formula: C6H13O9P
   mol_weight: 260.1358
 - id: C00091
   name: Succinyl-CoA
+  charge: 0
   formula: C25H40N7O19P3S
   mol_weight: 867.6069
 - id: C00092
   name: D-Glucose 6-phosphate
+  charge: 0
   formula: C6H13O9P
   mol_weight: 260.1358
 - id: C00101
   name: Tetrahydrofolate
+  charge: 0
   formula: C19H23N7O6
   mol_weight: 445.4292
 - id: C00117
   name: D-Ribose 5-phosphate
+  charge: 0
   formula: C5H11O8P
   mol_weight: 230.1098
 - id: C00143
   name: 5,10-Methylenetetrahydrofolate
+  charge: 0
   formula: C20H23N7O6
   mol_weight: 457.4399
 - id: C00159
   name: D-Mannose
+  charge: 0
   formula: C6H12O6
   mol_weight: 180.1559
 - id: C00181
   name: D-Xylose
+  charge: 0
   formula: C5H10O5
   mol_weight: 150.1299
 - id: C00191
   name: D-Glucuronate
+  charge: 0
   formula: C6H10O7
   mol_weight: 194.1394
 - id: C00279
   name: D-Erythrose 4-phosphate
+  charge: 0
   formula: C4H9O7P
   mol_weight: 200.0838
 - id: C00309
   name: D-Ribulose
+  charge: 0
   formula: C5H10O5
   mol_weight: 150.1299
 - id: C00354
   name: D-Fructose 1,6-bisphosphate
+  charge: 0
   formula: C6H14O12P2
   mol_weight: 340.1157
 - id: C00392
   name: Mannitol
+  charge: 0
   formula: C6H14O6
   mol_weight: 182.1718
 - id: C00794
   name: D-Sorbitol
+  charge: 0
   formula: C6H14O6
   mol_weight: 182.1718
 - id: C00842
   name: dTDP-glucose
+  charge: 0
   formula: C16H26N2O16P2
   mol_weight: 564.329
 - id: C01094
   name: D-Fructose 1-phosphate
+  charge: 0
   formula: C6H13O9P
   mol_weight: 260.1358
 - id: C05402
   name: Melibiose
+  charge: 0
   formula: C12H22O11
   mol_weight: 342.2965
 - id: C00058
   name: Formate
+  charge: 0
   formula: CH2O2
   mol_weight: 46.0254
 - id: C00031
   name: D-Glucose
+  charge: 0
   formula: C6H12O6
   mol_weight: 180.1559
 - id: C00095
   name: D-Fructose
+  charge: 0
   formula: C6H12O6
   mol_weight: 180.1559
 - id: C00124
   name: D-Galactose
+  charge: 0
   formula: C6H12O6
   mol_weight: 180.1559
 - id: C00259
   name: L-Arabinose
+  charge: 0
   formula: C5H10O5
   mol_weight: 150.1299
 - id: C01019
   name: 6-Deoxy-L-galactose
+  charge: 0
   formula: C6H12O5
   mol_weight: 164.1565
 - id: C00022
   name: Pyruvate
+  charge: 0
   formula: C3H4O3
   mol_weight: 88.0621
 - id: C00033
   name: Acetate
+  charge: 0
   formula: C2H4O2
   mol_weight: 60.052
 - id: C00109
   name: 2-Oxobutanoate
+  charge: 0
   formula: C4H6O3
   mol_weight: 102.0886
 - id: C00163
   name: Propanoate
+  charge: 0
   formula: C3H6O2
   mol_weight: 74.0785
 - id: C00139
   name: Oxidized ferredoxin (2[4Fe-4S]) (Fdox)
+  charge: 0
   formula: Fe8S8X
 - id: C00138
   name: Reduced ferredoxin (2[4Fe-4S]) (Fdred)
+  charge: 0
   formula: Fe8S8X
 - id: C01005
   name: O-Phospho-L-serine (Pser)
+  charge: 0
   formula: C3H8NO6P
   mol_weight: 185.0725
 - id: C06054
   name: 2-Oxo-3-hydroxy-4-phosphobutanoate
+  charge: 0
   formula: C4H7O8P
   mol_weight: 214.0673
 - id: C20239
   name: 6-Carboxy-5,6,7,8-tetrahydropterin
+  charge: 0
   formula: C7H9N5O3
   mol_weight: 211.1781
 - id: C20559
   name: 4-(beta-D-Ribofuranosyl)aniline 5'-phosphate
+  charge: 0
   formula: C11H16NO7P
   mol_weight: 305.221
 - id: C20562
   name: N-[(7,8-Dihydropterin-6-yl)methyl]-4-(beta-D-ribofuranosyl)aniline 5'-phosphate
+  charge: 0
   formula: C18H23N6O8P
   mol_weight: 482.3844
 - id: C20646
   name: (3S)-2-Oxo-3-phenylbutanoate
+  charge: 0
   formula: C10H10O3
   mol_weight: 178.1846
 - id: C19871
   name: Guanylyl molybdenum cofactor
+  charge: 0
   formula: C20H24MoN10O15P2S2
   mol_weight: 866.4801
 - id: C19787
   name: 5'-S-Methyl-5'-thioinosine
+  charge: 0
   formula: C11H14N4O4S
   mol_weight: 298.3183
 - id: C20258
   name: (2S,4S)-4-Hydroxy-2,3,4,5-tetrahydrodipicolinate
+  charge: 0
   formula: C7H9NO5
   mol_weight: 187.1501
 - id: C20248
   name: 7-Carboxy-7-carbaguanine
+  charge: 0
   formula: C7H6N4O3
   mol_weight: 194.1475
 - id: C20895
   name: (2S,3S)-3-Methylphenylalanine
+  charge: 0
   formula: C10H13NO2
   mol_weight: 179.2157
 - id: C20463
   name: Purine deoxyribonucleoside
+  charge: 0
   formula: C10H12N4O3
   mol_weight: 236.2273
 - id: C05686
   name: Adenylylselenate
+  charge: 0
   formula: C10H14N5O10PSe
   mol_weight: 474.1794
 - id: C04489
   name: 5-Methyltetrahydropteroyltri-L-glutamate
+  charge: 0
   formula: C30H39N9O12
   mol_weight: 717.6838
 - id: C05702
   name: O-Phosphorylhomoserine
+  charge: 0
   formula: C4H10NO6P
   mol_weight: 199.0991
 - id: C05928
   name: (6R)-10-Formyltetrahydropteroyldiglutamate
+  charge: 0
   formula: C25H30N8O10
   mol_weight: 602.5533
 - id: C14463
   name: (R)-3-Hydroxy-3-methyl-2-oxopentanoate
+  charge: 0
   formula: C6H10O4
   mol_weight: 146.1412
 - id: C15667
   name: 5-Carboxyamino-1-(5-phospho-D-ribosyl)imidazole
+  charge: 0
   formula: C9H14N3O9P
   mol_weight: 339.1959
 - id: C17556
   name: di-trans,poly-cis-Undecaprenyl phosphate
+  charge: 0
   formula: C55H91O4P
   mol_weight: 847.2824
 - id: C18026
   name: (2S)-Ethylmalonyl-CoA
+  charge: 0
   formula: C26H42N7O19P3S
   mol_weight: 881.6335
 - id: C15980
   name: (S)-2-Methylbutanoyl-CoA
+  charge: 0
   formula: C26H44N7O17P3S
   mol_weight: 851.6505
 - id: C02612
   name: (R)-2-Methylmalate
+  charge: 0
   formula: C5H8O5
   mol_weight: 148.114
 - id: C02631
   name: 2-Isopropylmaleate
+  charge: 0
   formula: C7H10O4
   mol_weight: 158.1519
 - id: C05527
   name: 3-Sulfinylpyruvate
+  charge: 0
   formula: C3H4O5S
   mol_weight: 152.1259
 - id: C00320
   name: Thiosulfate
+  charge: 0
   formula: HS2O3
   mol_weight: 113.1361
 - id: C00857
   name: Deamino-NAD+
+  charge: 0
   formula: C21H27N6O15P2
   mol_weight: 665.4178
 - id: C01344
   name: dIDP
+  charge: 0
   formula: C10H14N4O10P2
   mol_weight: 412.1865
 - id: C01345
   name: dITP
+  charge: 0
   formula: C10H15N4O13P3
   mol_weight: 492.1664
 - id: C03287
   name: L-Glutamyl 5-phosphate
+  charge: 0
   formula: C5H10NO7P
   mol_weight: 227.1092
 - id: C04079
   name: N-((R)-Pantothenoyl)-L-cysteine
+  charge: 0
   formula: C12H22N2O6S
   mol_weight: 322.3779
 - id: C04188
   name: S-Methyl-5-thio-D-ribose 1-phosphate
+  charge: 0
   formula: C6H13O7PS
   mol_weight: 260.202
 - id: C04236
   name: (2S)-2-Isopropyl-3-oxosuccinate
+  charge: 0
   formula: C7H10O5
   mol_weight: 174.1513
 - id: C04377
   name: 5,10-Methylenetetrahydromethanopterin
+  charge: 0
   formula: C31H45N6O16P
   mol_weight: 788.6934
 - id: C04390
   name: N6-Acetyl-LL-2,6-diaminoheptanedioate
+  charge: 0
   formula: C9H16N2O5
   mol_weight: 232.2337
 - id: C04640
   name: 2-(Formamido)-N1-(5'-phosphoribosyl)acetamidine
+  charge: 0
   formula: C8H16N3O8P
   mol_weight: 313.2017
 - id: C05922
   name: Formamidopyrimidine nucleoside triphosphate
+  charge: 0
   formula: C10H18N5O15P3
   mol_weight: 541.1957
 - id: C05923
   name: 2,5-Diaminopyrimidine nucleoside triphosphate
+  charge: 0
   formula: C9H18N5O14P3
   mol_weight: 513.1856
 - id: C05946
   name: (4R)-4-Hydroxy-2-oxoglutarate
+  charge: 0
   formula: C5H6O6
   mol_weight: 162.0975
 - id: C06006
   name: (S)-2-Aceto-2-hydroxybutanoate
+  charge: 0
   formula: C6H10O4
   mol_weight: 146.1412
 - id: C11038
   name: 2'-Deoxy-5-hydroxymethylcytidine-5'-diphosphate
+  charge: 0
   formula: C10H17N3O11P2
   mol_weight: 417.203
 - id: C11039
   name: 2'-Deoxy-5-hydroxymethylcytidine-5'-triphosphate
+  charge: 0
   formula: C10H18N3O14P3
   mol_weight: 497.1829
 - id: C00445
   name: 5,10-Methenyltetrahydrofolate
+  charge: 0
   formula: C20H22N7O6
   mol_weight: 456.432
 - id: C01137
   name: S-Adenosylmethioninamine
+  charge: 0
   formula: C14H23N6O3S
   mol_weight: 355.4358
 - id: C01170
   name: UDP-N-acetyl-D-mannosamine
+  charge: 0
   formula: C17H27N3O17P2
   mol_weight: 607.3537
 - id: C04281
   name: L-1-Pyrroline-3-hydroxy-5-carboxylate
+  charge: 0
   formula: C5H7NO3
   mol_weight: 129.114
 - id: C04702
   name: UDPMurNAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala)
+  charge: 0
   formula: C40H65N9O26P2
   mol_weight: 1149.9363
 - id: C04851
   name: MurAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala)-diphospho-undecaprenol
+  charge: 0
   formula: C86H143N7O21P2
   mol_weight: 1673.0374
 - id: C04882
   name: UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-6-carboxy-L-lysyl-D-alanyl-D-alanine
+  charge: 0
   formula: C41H65N9O28P2
   mol_weight: 1193.9458
 - id: C05125
   name: 2-(alpha-Hydroxyethyl)thiamine diphosphate
+  charge: 0
   formula: C14H23N4O8P2S
   mol_weight: 469.3669
 - id: C05698
   name: Selenohomocysteine
+  charge: 0
   formula: C4H9NO2Se
   mol_weight: 182.0798
 - id: C05823
   name: 3-Mercaptolactate
+  charge: 0
   formula: C3H6O3S
   mol_weight: 122.1429
 - id: C05893
   name: Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine
+  charge: 0
   formula: C94H156N8O26P2
   mol_weight: 1876.23
 - id: C05897
   name: Undecaprenyl-diphospho-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine
+  charge: 0
   formula: C87H143N7O23P2
   mol_weight: 1717.0469
 - id: C05898
   name: Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine
+  charge: 0
   formula: C95H156N8O28P2
   mol_weight: 1920.2395
 - id: C05925
   name: Dihydroneopterin phosphate
+  charge: 0
   formula: C9H14N5O7P
   mol_weight: 335.2105
 - id: C06148
   name: 2,5-Diamino-6-(5'-triphosphoryl-3',4'-trihydroxy-2'-oxopentyl)-amino-4-oxopyrimidine
+  charge: 0
   formula: C9H18N5O14P3
   mol_weight: 513.1856
 - id: C09332
   name: THF-L-glutamate
+  charge: 0
   formula: C24H30N8O9
   mol_weight: 574.5432
 - id: C16618
   name: 6-Thioxanthine 5'-monophosphate
+  charge: 0
   formula: C10H13N4O8PS
   mol_weight: 380.271
 - id: C16615
   name: 6-Methylthiopurine 5'-monophosphate ribonucleotide
+  charge: 0
   formula: C11H15N4O7PS
   mol_weight: 378.2982
 - id: C03169
   name: Pyrimidine nucleoside
+  charge: 0
   formula: C9H13N2O4
   mol_weight: 213.2105
 - id: C04144
   name: Tetrahydropteroyltri-L-glutamate
+  charge: 0
   formula: C29H37N9O12
   mol_weight: 703.6572
 - id: C06196
   name: 2'-Deoxyinosine 5'-phosphate
+  charge: 0
   formula: C10H13N4O7P
   mol_weight: 332.2066
 - id: C16675
   name: 7-Aminomethyl-7-carbaguanine
+  charge: 0
   formula: C7H9N5O
   mol_weight: 179.1793
 - id: C11537
   name: (2R)-3-Sulfolactate
+  charge: 0
   formula: C3H6O6S
   mol_weight: 170.1411
 - id: C16635
   name: 5'-Deoxy-5-fluorocytidine
+  charge: 0
   formula: C9H12FN3O4
   mol_weight: 245.2077
 - id: C05691
   name: Se-Adenosylselenomethionine
+  charge: 0
   formula: C15H23N6O5Se
   mol_weight: 446.3403
 - id: C01165
   name: L-Glutamate 5-semialdehyde
+  charge: 0
   formula: C5H9NO3
   mol_weight: 131.1299
 - id: C04039
   name: 2,3-Dihydroxy-3-methylbutanoate
+  charge: 0
   formula: C5H10O4
   mol_weight: 134.1305
 - id: C04181
   name: 3-Hydroxy-3-methyl-2-oxobutanoic acid
+  charge: 0
   formula: C5H8O4
   mol_weight: 132.1146
 - id: C05840
   name: Iminoaspartate
+  charge: 0
   formula: C4H5NO4
   mol_weight: 131.0868
 - id: C00666
   name: LL-2,6-Diaminoheptanedioate
+  charge: 0
   formula: C7H14N2O4
   mol_weight: 190.1971
 - id: C00700
   name: XTP
+  charge: 0
   formula: C10H15N4O15P3
   mol_weight: 524.1652
 - id: C01217
   name: 5,6,7,8-Tetrahydromethanopterin
+  charge: 0
   formula: C30H45N6O16P
   mol_weight: 776.6827
 - id: C03912
   name: (S)-1-Pyrroline-5-carboxylate
+  charge: 0
   formula: C5H7NO2
   mol_weight: 113.1146
 - id: C03972
   name: 2,3,4,5-Tetrahydrodipicolinate
+  charge: 0
   formula: C7H9NO4
   mol_weight: 171.1507
 - id: C04272
   name: (R)-2,3-Dihydroxy-3-methylbutanoate
+  charge: 0
   formula: C5H10O4
   mol_weight: 134.1305
 - id: C04302
   name: N-(5-Phospho-D-ribosyl)anthranilate
+  charge: 0
   formula: C12H16NO9P
   mol_weight: 349.2305
 - id: C04352
   name: (R)-4'-Phosphopantothenoyl-L-cysteine
+  charge: 0
   formula: C12H23N2O9PS
   mol_weight: 402.3578
 - id: C04421
   name: N-Succinyl-LL-2,6-diaminoheptanedioate
+  charge: 0
   formula: C11H18N2O7
   mol_weight: 290.2698
 - id: C04501
   name: N-Acetyl-alpha-D-glucosamine 1-phosphate
+  charge: 0
   formula: C8H16NO9P
   mol_weight: 301.1877
 - id: C04573
   name: UDP-N-acetyl-2-amino-2-deoxy-D-glucuronate
+  charge: 0
   formula: C17H25N3O18P2
   mol_weight: 621.3372
 - id: C04751
   name: 1-(5-Phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate
+  charge: 0
   formula: C9H14N3O9P
   mol_weight: 339.1959
 - id: C04895
   name: 7,8-Dihydroneopterin 3'-triphosphate
+  charge: 0
   formula: C9H16N5O13P3
   mol_weight: 495.1703
 - id: C05841
   name: Nicotinate D-ribonucleoside
+  charge: 0
   formula: C11H14NO6
   mol_weight: 256.232
 - id: C05947
   name: L-erythro-4-Hydroxyglutamate
+  charge: 0
   formula: C5H9NO5
   mol_weight: 163.1287
 - id: C06032
   name: D-erythro-3-Methylmalate
+  charge: 0
   formula: C5H8O5
   mol_weight: 148.114
 - id: C11355
   name: 4-Amino-4-deoxychorismate
+  charge: 0
   formula: C10H11NO5
   mol_weight: 225.198
 - id: C00234
   name: 10-Formyltetrahydrofolate
+  charge: 0
   formula: C20H23N7O7
   mol_weight: 473.4393
 - id: C00672
   name: 2-Deoxy-D-ribose 1-phosphate
+  charge: 0
   formula: C5H11O7P
   mol_weight: 214.1104
 - id: C00673
   name: 2-Deoxy-D-ribose 5-phosphate
+  charge: 0
   formula: C5H11O7P
   mol_weight: 214.1104
 - id: C00692
   name: UDP-N-acetylmuramoyl-L-alanyl-D-glutamate
+  charge: 0
   formula: C28H43N5O23P2
   mol_weight: 879.6082
 - id: C01050
   name: UDP-N-acetylmuramate
+  charge: 0
   formula: C20H31N3O19P2
   mol_weight: 679.4164
 - id: C01134
   name: Pantetheine 4'-phosphate
+  charge: 0
   formula: C11H23N2O7PS
   mol_weight: 358.3483
 - id: C01212
   name: UDP-N-acetylmuramoyl-L-alanine
+  charge: 0
   formula: C23H36N4O20P2
   mol_weight: 750.4943
 - id: C01302
   name: 1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate
+  charge: 0
   formula: C12H16NO9P
   mol_weight: 349.2305
 - id: C03506
   name: Indoleglycerol phosphate
+  charge: 0
   formula: C11H14NO6P
   mol_weight: 287.2057
 - id: C04582
   name: S-Methyl-5-thio-D-ribulose 1-phosphate
+  charge: 0
   formula: C6H13O7PS
   mol_weight: 260.202
 - id: C04823
   name: 1-(5'-Phosphoribosyl)-5-amino-4-(N-succinocarboxamide)-imidazole
+  charge: 0
   formula: C13H19N4O12P
   mol_weight: 454.2833
 - id: C04874
   name: 2-Amino-4-hydroxy-6-(D-erythro-1,2,3-trihydroxypropyl)-7,8-dihydropteridine
+  charge: 0
   formula: C9H13N5O4
   mol_weight: 255.2306
 - id: C04877
   name: UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimelate
+  charge: 0
   formula: C35H55N7O26P2
   mol_weight: 1051.79
 - id: C05692
   name: Se-Adenosyl-L-selenohomocysteine
+  charge: 0
   formula: C14H20N6O5Se
   mol_weight: 431.3058
 - id: C05699
   name: L-Selenocystathionine
+  charge: 0
   formula: C7H14N2O4Se
   mol_weight: 269.1571
 - id: C12739
   name: 5'-Deoxy-5-fluorouridine
+  charge: 0
   formula: C9H11FN2O5
   mol_weight: 246.1924
 - id: C04646
   name: 6-Thioinosine-5'-monophosphate
+  charge: 0
   formula: C10H13N4O7PS
   mol_weight: 364.2716
 - id: C16565
   name: Aminopropylcadaverine
+  charge: 0
   formula: C8H21N3
   mol_weight: 159.2724
 - id: C00623
   name: sn-Glycerol 1-phosphate
+  charge: 0
   formula: C3H9O6P
   mol_weight: 172.0737
 - id: C03431
   name: S-Inosyl-L-homocysteine
+  charge: 0
   formula: C14H19N5O6S
   mol_weight: 385.3956
 - id: C15587
   name: Purine
+  charge: 0
   formula: C5H4N4
   mol_weight: 120.1121
 - id: C02532
   name: O-Phospho-D-serine
+  charge: 0
   formula: C3H8NO6P
   mol_weight: 185.0725
 - id: C15996
   name: 7-Cyano-7-carbaguanine
+  charge: 0
   formula: C7H5N5O
   mol_weight: 175.1475
 - id: C00302
   name: Glutamate
+  charge: 0
   formula: C5H9NO4
   mol_weight: 147.1293
 - id: C00396
   name: Pyrimidine
+  charge: 0
   formula: C4H4N2
   mol_weight: 80.088
 - id: C00437
   name: N-Acetylornithine
+  charge: 0
   formula: C7H14N2O3
   mol_weight: 174.1977
 - id: C00438
   name: N-Carbamoyl-L-aspartate
+  charge: 0
   formula: C5H8N2O5
   mol_weight: 176.1274
 - id: C00441
   name: L-Aspartate 4-semialdehyde
+  charge: 0
   formula: C4H7NO3
   mol_weight: 117.1033
 - id: C00536
   name: Triphosphate
+  charge: 0
   formula: H5P3O10
   mol_weight: 257.955
 - id: C00957
   name: Mercaptopyruvate
+  charge: 0
   formula: C3H4O3S
   mol_weight: 120.1271
 - id: C02226
   name: 2-Methylmaleate
+  charge: 0
   formula: C5H6O4
   mol_weight: 130.0987
 - id: C03492
   name: D-4'-Phosphopantothenate
+  charge: 0
   formula: C9H18NO8P
   mol_weight: 299.2149
 - id: C03508
   name: L-2-Amino-3-oxobutanoic acid
+  charge: 0
   formula: C4H7NO3
   mol_weight: 117.1033
 - id: C04051
   name: 5-Amino-4-imidazolecarboxyamide
+  charge: 0
   formula: C4H6N4O
   mol_weight: 126.1166
 - id: C05528
   name: 3-Sulfopyruvate
+  charge: 0
   formula: C3H4O6S
   mol_weight: 168.1253
 - id: C00301
   name: ADP-ribose
+  charge: 0
   formula: C15H23N5O14P2
   mol_weight: 559.3157
 - id: C00459
   name: dTTP
+  charge: 0
   formula: C10H17N2O14P3
   mol_weight: 482.1683
 - id: C00506
   name: L-Cysteate
+  charge: 0
   formula: C3H7NO5S
   mol_weight: 169.1564
 - id: C00542
   name: Cystathionine
+  charge: 0
   formula: C7H14N2O4S
   mol_weight: 222.2621
 - id: C00671
   name: (S)-3-Methyl-2-oxopentanoic acid
+  charge: 0
   formula: C6H10O3
   mol_weight: 130.1418
 - id: C00705
   name: dCDP
+  charge: 0
   formula: C9H15N3O10P2
   mol_weight: 387.177
 - id: C00966
   name: 2-Dehydropantoate
+  charge: 0
   formula: C6H10O4
   mol_weight: 146.1412
 - id: C01077
   name: O-Acetyl-L-homoserine
+  charge: 0
   formula: C6H11NO4
   mol_weight: 161.1558
 - id: C01118
   name: O-Succinyl-L-homoserine
+  charge: 0
   formula: C8H13NO6
   mol_weight: 219.1919
 - id: C01185
   name: Nicotinate D-ribonucleotide
+  charge: 0
   formula: C11H15NO9P
   mol_weight: 336.2119
 - id: C01528
   name: Hydrogen selenide
+  charge: 0
   formula: H2Se
   mol_weight: 80.9759
 - id: C02291
   name: L-Cystathionine
+  charge: 0
   formula: C7H14N2O4S
   mol_weight: 222.2621
 - id: C02504
   name: alpha-Isopropylmalate
+  charge: 0
   formula: C7H12O5
   mol_weight: 176.1672
 - id: C03090
   name: 5-Phosphoribosylamine
+  charge: 0
   formula: C5H12NO7P
   mol_weight: 229.125
 - id: C04494
   name: Guanosine 3'-diphosphate 5'-triphosphate
+  charge: 0
   formula: C10H18N5O20P5
   mol_weight: 683.1402
 - id: C04574
   name: di-trans,poly-cis-Undecaprenyl diphosphate
+  charge: 0
   formula: C55H92O7P2
   mol_weight: 927.2623
 - id: C04691
   name: 2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate
+  charge: 0
   formula: C7H13O10P
   mol_weight: 288.1459
 - id: C04734
   name: 1-(5'-Phosphoribosyl)-5-formamido-4-imidazolecarboxamide
+  charge: 0
   formula: C10H15N4O9P
   mol_weight: 366.2213
 - id: C04807
   name: 2-Amino-7,8-dihydro-4-hydroxy-6-(diphosphooxymethyl)pteridine
+  charge: 0
   formula: C7H11N5O8P2
   mol_weight: 355.1385
 - id: C05984
   name: 2-Hydroxybutanoic acid
+  charge: 0
   formula: C4H8O3
   mol_weight: 104.1045
 - id: C06010
   name: (S)-2-Acetolactate
+  charge: 0
   formula: C5H8O4
   mol_weight: 132.1146
 - id: C00620
   name: alpha-D-Ribose 1-phosphate
+  charge: 0
   formula: C5H11O8P
   mol_weight: 230.1098
 - id: C00630
   name: 2-Methylpropanoyl-CoA
+  charge: 0
   formula: C25H42N7O17P3S
   mol_weight: 837.624
 - id: C00826
   name: L-Arogenate
+  charge: 0
   formula: C10H13NO5
   mol_weight: 227.2139
 - id: C00900
   name: 2-Acetolactate
+  charge: 0
   formula: C5H8O4
   mol_weight: 132.1146
 - id: C02939
   name: 3-Methylbutanoyl-CoA
+  charge: 0
   formula: C26H44N7O17P3S
   mol_weight: 851.6505
 - id: C05892
   name: UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysine
+  charge: 0
   formula: C34H55N7O24P2
   mol_weight: 1007.7805
 - id: C06007
   name: (R)-2,3-Dihydroxy-3-methylpentanoate
+  charge: 0
   formula: C6H12O4
   mol_weight: 148.1571
 - id: C00870
   name: 4-Nitrophenol
+  charge: 0
   formula: C6H5NO3
   mol_weight: 139.1088
 - id: C16619
   name: 6-Thioguanosine monophosphate
+  charge: 0
   formula: C10H14N5O7PS
   mol_weight: 379.2862
 - id: C16633
   name: 5-Fluorouridine
+  charge: 0
   formula: C9H11FN2O6
   mol_weight: 262.1918
 - id: C03360
   name: 4-Nitrophenyl phosphate
+  charge: 0
   formula: C6H6NO6P
   mol_weight: 219.0887
 - id: C02380
   name: 6-Mercaptopurine
+  charge: 0
   formula: C5H4N4S
   mol_weight: 152.1771
 - id: C16614
   name: 6-Methylmercaptopurine
+  charge: 0
   formula: C6H6N4S
   mol_weight: 166.2036
 - id: C07649
   name: 5-FU
+  charge: 0
   formula: C4H3FN2O2
   mol_weight: 130.0772
 - id: C00027
   name: Hydrogen peroxide
+  charge: 0
   formula: H2O2
   mol_weight: 34.0147
 - id: C16634
   name: 5-Fluorouridine monophosphate
+  charge: 0
   formula: C9H12FN2O9P
   mol_weight: 342.1717
 - id: C15586
   name: N-D-Ribosylpurine
+  charge: 0
   formula: C10H12N4O4
   mol_weight: 252.2267
 - id: C00007
   name: Oxygen
+  charge: 0
   formula: O2
   mol_weight: 31.9988
 - id: C00067
   name: Formaldehyde
+  charge: 0
   formula: CH2O
   mol_weight: 30.026
 - id: C00149
   name: (S)-Malate
+  charge: 0
   formula: C4H6O5
   mol_weight: 134.0874
 - id: C00184
   name: Glycerone
+  charge: 0
   formula: C3H6O3
   mol_weight: 90.0779
 - id: C00254
   name: Prephenate
+  charge: 0
   formula: C10H10O6
   mol_weight: 226.1828
 - id: C00378
   name: Thiamine
+  charge: 0
   formula: C12H17N4OS
   mol_weight: 265.3546
 - id: C00409
   name: Methanethiol
+  charge: 0
   formula: CH4S
   mol_weight: 48.1075
 - id: C00740
   name: D-Serine
+  charge: 0
   formula: C3H7NO3
   mol_weight: 105.0926
 - id: C00831
   name: Pantetheine
+  charge: 0
   formula: C11H22N2O4S
   mol_weight: 278.3684
 - id: C00979
   name: O-Acetyl-L-serine
+  charge: 0
   formula: C5H9NO4
   mol_weight: 147.1293
 - id: C01279
   name: 4-Amino-5-hydroxymethyl-2-methylpyrimidine
+  charge: 0
   formula: C6H9N3O
   mol_weight: 139.1552
 - id: C01300
   name: 2-Amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine
+  charge: 0
   formula: C7H9N5O2
   mol_weight: 195.1787
 - id: C00055
   name: CMP
+  charge: 0
   formula: C9H14N3O8P
   mol_weight: 323.1965
 - id: C00170
   name: 5'-Methylthioadenosine
+  charge: 0
   formula: C11H15N5O3S
   mol_weight: 297.3335
 - id: C00239
   name: dCMP
+  charge: 0
   formula: C9H14N3O7P
   mol_weight: 307.1971
 - id: C00251
   name: Chorismate
+  charge: 0
   formula: C10H10O6
   mol_weight: 226.1828
 - id: C00330
   name: Deoxyguanosine
+  charge: 0
   formula: C10H13N5O4
   mol_weight: 267.2413
 - id: C00337
   name: (S)-Dihydroorotate
+  charge: 0
   formula: C5H6N2O4
   mol_weight: 158.1121
 - id: C00360
   name: dAMP
+  charge: 0
   formula: C10H14N5O6P
   mol_weight: 331.2218
 - id: C00458
   name: dCTP
+  charge: 0
   formula: C9H16N3O13P3
   mol_weight: 467.1569
 - id: C00460
   name: dUTP
+  charge: 0
   formula: C9H15N2O14P3
   mol_weight: 468.1417
 - id: C00606
   name: 3-Sulfino-L-alanine
+  charge: 0
   formula: C3H7NO4S
   mol_weight: 153.157
 - id: C00680
   name: meso-2,6-Diaminoheptanedioate
+  charge: 0
   formula: C7H14N2O4
   mol_weight: 190.1971
 - id: C00819
   name: D-Glutamine
+  charge: 0
   formula: C5H10N2O3
   mol_weight: 146.1445
 - id: C00881
   name: Deoxycytidine
+  charge: 0
   formula: C9H13N3O4
   mol_weight: 227.2172
 - id: C00921
   name: Dihydropteroate
+  charge: 0
   formula: C14H14N6O3
   mol_weight: 314.2994
 - id: C00944
   name: 3-Dehydroquinate
+  charge: 0
   formula: C7H10O6
   mol_weight: 190.1507
 - id: C00993
   name: D-Alanyl-D-alanine
+  charge: 0
   formula: C6H12N2O3
   mol_weight: 160.1711
 - id: C01103
   name: Orotidine 5'-phosphate
+  charge: 0
   formula: C10H13N2O11P
   mol_weight: 368.1908
 - id: C01269
   name: 5-O-(1-Carboxyvinyl)-3-phosphoshikimate
+  charge: 0
   formula: C10H13O10P
   mol_weight: 324.178
 - id: C01346
   name: dUDP
+  charge: 0
   formula: C9H14N2O11P2
   mol_weight: 388.1618
 - id: C02356
   name: (S)-2-Aminobutanoate
+  charge: 0
   formula: C4H9NO2
   mol_weight: 103.1198
 - id: C02637
   name: 3-Dehydroshikimate
+  charge: 0
   formula: C7H8O5
   mol_weight: 172.1354
 - id: C03028
   name: Thiamin triphosphate
+  charge: 0
   formula: C12H20N4O10P3S
   mol_weight: 505.2943
 - id: C03082
   name: 4-Phospho-L-aspartate
+  charge: 0
   formula: C4H8NO7P
   mol_weight: 213.0826
 - id: C03150
   name: Nicotinamide-beta-riboside
+  charge: 0
   formula: C11H15N2O5
   mol_weight: 255.2472
 - id: C03175
   name: Shikimate 3-phosphate
+  charge: 0
   formula: C7H11O8P
   mol_weight: 254.1312
 - id: C04411
   name: (2R,3S)-3-Isopropylmalate
+  charge: 0
   formula: C7H12O5
   mol_weight: 176.1672
 - id: C04631
   name: UDP-N-acetyl-3-(1-carboxyvinyl)-D-glucosamine
+  charge: 0
   formula: C20H29N3O19P2
   mol_weight: 677.4005
 - id: C05512
   name: Deoxyinosine
+  charge: 0
   formula: C10H12N4O4
   mol_weight: 252.2267
 - id: C05697
   name: Selenate
+  charge: 0
   formula: H2SeO4
   mol_weight: 144.9735
 - id: C05824
   name: S-Sulfo-L-cysteine
+  charge: 0
   formula: C3H7NO5S2
   mol_weight: 201.2214
 - id: C00136
   name: Butanoyl-CoA
+  charge: 0
   formula: C25H42N7O17P3S
   mol_weight: 837.624
 - id: C00140
   name: N-Acetyl-D-glucosamine
+  charge: 0
   formula: C8H15NO6
   mol_weight: 221.2078
 - id: C00882
   name: Dephospho-CoA
+  charge: 0
   formula: C21H35N7O13P2S
   mol_weight: 687.5542
 - id: C01674
   name: Chitobiose
+  charge: 0
   formula: C16H28N2O11
   mol_weight: 424.4003
 - id: C03479
   name: Folinic acid
+  charge: 0
   formula: C20H23N7O7
   mol_weight: 473.4393
 - id: C03794
   name: N6-(1,2-Dicarboxyethyl)-AMP
+  charge: 0
   formula: C14H18N5O11P
   mol_weight: 463.2934
 - id: C03838
   name: 5'-Phosphoribosylglycinamide
+  charge: 0
   formula: C7H15N2O8P
   mol_weight: 286.1764
 - id: C04376
   name: 5'-Phosphoribosyl-N-formylglycinamide
+  charge: 0
   formula: C8H15N2O9P
   mol_weight: 314.1865
 - id: C05335
   name: L-Selenomethionine
+  charge: 0
   formula: C5H11NO2Se
   mol_weight: 196.1063
 - id: C05688
   name: L-Selenocysteine
+  charge: 0
   formula: C3H7NO2Se
   mol_weight: 168.0532
 - id: C07648
   name: Thioguanine
+  charge: 0
   formula: C5H5N5S
   mol_weight: 167.1917
 - id: C00041
   name: L-Alanine
+  charge: 0
   formula: C3H7NO2
   mol_weight: 89.0932
 - id: C00047
   name: L-Lysine
+  charge: 0
   formula: C6H14N2O2
   mol_weight: 146.1876
 - id: C00059
   name: Sulfate
+  charge: 0
   formula: H2SO4
   mol_weight: 98.0785
 - id: C00086
   name: Urea
+  charge: 0
   formula: CH4N2O
   mol_weight: 60.0553
 - id: C00099
   name: beta-Alanine
+  charge: 0
   formula: C3H7NO2
   mol_weight: 89.0932
 - id: C00106
   name: Uracil
+  charge: 0
   formula: C4H4N2O2
   mol_weight: 112.0868
 - id: C00108
   name: Anthranilate
+  charge: 0
   formula: C7H7NO2
   mol_weight: 137.136
 - id: C00123
   name: L-Leucine
+  charge: 0
   formula: C6H13NO2
   mol_weight: 131.1729
 - id: C00133
   name: D-Alanine
+  charge: 0
   formula: C3H7NO2
   mol_weight: 89.0932
 - id: C00134
   name: Putrescine
+  charge: 0
   formula: C4H12N2
   mol_weight: 88.1515
 - id: C00147
   name: Adenine
+  charge: 0
   formula: C5H5N5
   mol_weight: 135.1267
 - id: C00152
   name: L-Asparagine
+  charge: 0
   formula: C4H8N2O3
   mol_weight: 132.1179
 - id: C00153
   name: Nicotinamide
+  charge: 0
   formula: C6H6N2O
   mol_weight: 122.1246
 - id: C00178
   name: Thymine
+  charge: 0
   formula: C5H6N2O2
   mol_weight: 126.1133
 - id: C00179
   name: Agmatine
+  charge: 0
   formula: C5H14N4
   mol_weight: 130.1915
 - id: C00183
   name: L-Valine
+  charge: 0
   formula: C5H11NO2
   mol_weight: 117.1463
 - id: C00233
   name: 4-Methyl-2-oxopentanoate
+  charge: 0
   formula: C6H10O3
   mol_weight: 130.1418
 - id: C00242
   name: Guanine
+  charge: 0
   formula: C5H5N5O
   mol_weight: 151.1261
 - id: C00253
   name: Nicotinate
+  charge: 0
   formula: C6H5NO2
   mol_weight: 123.1094
 - id: C00262
   name: Hypoxanthine
+  charge: 0
   formula: C5H4N4O
   mol_weight: 136.1115
 - id: C00295
   name: Orotate
+  charge: 0
   formula: C5H4N2O4
   mol_weight: 156.0963
 - id: C00380
   name: Cytosine
+  charge: 0
   formula: C4H5N3O
   mol_weight: 111.102
 - id: C00385
   name: Xanthine
+  charge: 0
   formula: C5H4N4O2
   mol_weight: 152.1109
 - id: C00522
   name: (R)-Pantoate
+  charge: 0
   formula: C6H12O4
   mol_weight: 148.1571
 - id: C00568
   name: 4-Aminobenzoate
+  charge: 0
   formula: C7H7NO2
   mol_weight: 137.136
 - id: C00864
   name: Pantothenate
+  charge: 0
   formula: C9H17NO5
   mol_weight: 219.235
 - id: C01672
   name: Cadaverine
+  charge: 0
   formula: C5H14N2
   mol_weight: 102.1781
 - id: C03722
   name: Quinolinate
+  charge: 0
   formula: C7H5NO4
   mol_weight: 167.1189
 - id: C00021
   name: S-Adenosyl-L-homocysteine
+  charge: 0
   formula: C14H20N6O5S
   mol_weight: 384.4108
 - id: C00078
   name: L-Tryptophan
+  charge: 0
   formula: C11H12N2O2
   mol_weight: 204.2252
 - id: C00093
   name: sn-Glycerol 3-phosphate
+  charge: 0
   formula: C3H9O6P
   mol_weight: 172.0737
 - id: C00097
   name: L-Cysteine
+  charge: 0
   formula: C3H7NO2S
   mol_weight: 121.1582
 - id: C00105
   name: UMP
+  charge: 0
   formula: C9H13N2O9P
   mol_weight: 324.1813
 - id: C00130
   name: IMP
+  charge: 0
   formula: C10H13N4O8P
   mol_weight: 348.206
 - id: C00144
   name: GMP
+  charge: 0
   formula: C10H14N5O8P
   mol_weight: 363.2206
 - id: C00148
   name: L-Proline
+  charge: 0
   formula: C5H9NO2
   mol_weight: 115.1305
 - id: C00212
   name: Adenosine
+  charge: 0
   formula: C10H13N5O4
   mol_weight: 267.2413
 - id: C00214
   name: Thymidine
+  charge: 0
   formula: C10H14N2O5
   mol_weight: 242.2286
 - id: C00224
   name: Adenylyl sulfate
+  charge: 0
   formula: C10H14N5O10PS
   mol_weight: 427.2844
 - id: C00263
   name: L-Homoserine
+  charge: 0
   formula: C4H9NO3
   mol_weight: 119.1192
 - id: C00294
   name: Inosine
+  charge: 0
   formula: C10H12N4O5
   mol_weight: 268.2261
 - id: C00299
   name: Uridine
+  charge: 0
   formula: C9H12N2O6
   mol_weight: 244.2014
 - id: C00315
   name: Spermidine
+  charge: 0
   formula: C7H19N3
   mol_weight: 145.2459
 - id: C00362
   name: dGMP
+  charge: 0
   formula: C10H14N5O7P
   mol_weight: 347.2212
 - id: C00363
   name: dTDP
+  charge: 0
   formula: C10H16N2O11P2
   mol_weight: 402.1884
 - id: C00364
   name: dTMP
+  charge: 0
   formula: C10H15N2O8P
   mol_weight: 322.2085
 - id: C00365
   name: dUMP
+  charge: 0
   formula: C9H13N2O8P
   mol_weight: 308.1819
 - id: C00387
   name: Guanosine
+  charge: 0
   formula: C10H13N5O5
   mol_weight: 283.2407
 - id: C00407
   name: L-Isoleucine
+  charge: 0
   formula: C6H13NO2
   mol_weight: 131.1729
 - id: C00415
   name: Dihydrofolate
+  charge: 0
   formula: C19H21N7O6
   mol_weight: 443.4133
 - id: C00455
   name: Nicotinamide D-ribonucleotide
+  charge: 0
   formula: C11H15N2O8P
   mol_weight: 334.2192
 - id: C00463
   name: Indole
+  charge: 0
   formula: C8H7N
   mol_weight: 117.1479
 - id: C00475
   name: Cytidine
+  charge: 0
   formula: C9H13N3O5
   mol_weight: 243.2166
 - id: C00493
   name: Shikimate
+  charge: 0
   formula: C7H10O5
   mol_weight: 174.1513
 - id: C00504
   name: Folate
+  charge: 0
   formula: C19H19N7O6
   mol_weight: 441.3975
 - id: C00526
   name: Deoxyuridine
+  charge: 0
   formula: C9H12N2O5
   mol_weight: 228.202
 - id: C00559
   name: Deoxyadenosine
+  charge: 0
   formula: C10H13N5O3
   mol_weight: 251.2419
 - id: C00655
   name: Xanthosine 5'-phosphate
+  charge: 0
   formula: C10H13N4O9P
   mol_weight: 364.2054
 - id: C00750
   name: Spermine
+  charge: 0
   formula: C10H26N4
   mol_weight: 202.3402
 - id: C01762
   name: Xanthosine
+  charge: 0
   formula: C10H12N4O6
   mol_weight: 284.2255
 - id: C04677
   name: 1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide
+  charge: 0
   formula: C9H15N4O8P
   mol_weight: 338.2112
 - id: C00016
   name: FAD
+  charge: 0
   formula: C27H33N9O15P2
   mol_weight: 785.5497
 - id: C00061
   name: FMN
+  charge: 0
   formula: C17H21N4O9P
   mol_weight: 456.3438
 - id: C00083
   name: Malonyl-CoA
+  charge: 0
   formula: C24H38N7O19P3S
   mol_weight: 853.5803
 - id: C00440
   name: 5-Methyltetrahydrofolate
+  charge: 0
   formula: C20H25N7O6
   mol_weight: 459.4558
 - id: C00645
   name: N-Acetyl-D-mannosamine
+  charge: 0
   formula: C8H15NO6
   mol_weight: 221.2078
 - id: C00042
   name: Succinate
+  charge: 0
   formula: C4H6O4
   mol_weight: 118.088
 - id: C01180
   name: 4-Methylthio-2-oxobutanoic acid
+  charge: 0
   formula: C5H8O3S
   mol_weight: 148.1802
 - id: C00155
   name: L-Homocysteine
+  charge: 0
   formula: C4H9NO2S
   mol_weight: 135.1848
 - id: C00186
   name: (S)-Lactate
+  charge: 0
   formula: C3H6O3
   mol_weight: 90.0779
 - id: C00283
   name: Hydrogen sulfide
+  charge: 0
   formula: H2S
   mol_weight: 34.0809
 - id: C01157
   name: Hydroxyproline
+  charge: 0
   formula: C5H9NO3
   mol_weight: 131.1299
 - id: C00141
   name: 3-Methyl-2-oxobutanoic acid
+  charge: 0
   formula: C5H8O3
   mol_weight: 116.1152
 - id: C00229
   name: Acyl-carrier protein
+  charge: 0
   formula: HSR
 - id: C11437
   name: 1-deoxy-D-xylulose 5-phosphate
+  charge: 0
   formula: C5H11O7P
   mol_weight: 214.1104
 - id: C01209
   name: Malonyl-[acyl-carrier protein]
+  charge: 0
   formula: C3H3O3SR
 - id: C01203
   name: Oleoyl-[acyl-carrier protein]
+  charge: 0
   formula: C18H33OSR
 - id: C05764
   name: Hexadecanoyl-[acp]
+  charge: 0
   formula: C16H31OSR
 - id: C04088
   name: Octadecanoyl-[acyl-carrier protein]
+  charge: 0
   formula: C18H35OSR
 - id: C05761
   name: Tetradecanoyl-[acp]
+  charge: 0
   formula: C14H27OSR
 - id: fa3ACP
   name: Fatty Acid iso-C15:0-ACP
+  charge: 0
   formula: C15H29OSR
 - id: fa6ACP
   name: Fatty Acid iso-C16:0 ACP
+  charge: 0
   formula: C16H31OSR
 - id: fa11ACP
   name: Fatty Acid iso-C17:0 ACP
+  charge: 0
   formula: C17H33OSR
 - id: fa12ACP
   name: Fatty Acid anteiso-C17:0 ACP
+  charge: 0
   formula: C17H33OSR
 - id: C181o7ACP
   name: Fatty Acid anteiso-C18:1 omega-7 ACP
+  charge: 0
   formula: C18H33OSR
 - id: fa1oh3ACP
   name: Fatty Acid iso-C14:0 3-OH ACP
+  charge: 0
   formula: C14H27O2SR
 - id: C17467
   name: 4-Hydroxy-benzyl alcohol
+  charge: 0
   formula: C7H8O2
   mol_weight: 124.1372
 - id: C03384
   name: D-Galactose 1-phosphate
+  charge: 0
   formula: C6H13O9P
   mol_weight: 260.1358

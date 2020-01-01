@@ -1,7 +1,20 @@
 default_flux_limit: 1000
 default_compartment: c
 extracellular: null
+compartments:
+- id: c
+  adjacent_to: e
+  name: Cytoplasm
+- id: e
+  adjacent_to: c
+  name: Extracellular
 compounds:
 - include: ./compounds.yaml
 reactions:
 - include: ./reactions.yaml
+#- include: transporter.yaml
+#- include: biomass.yaml
+#- include: spontaneous.yaml
+exchange:
+- include: exchange.yaml
+

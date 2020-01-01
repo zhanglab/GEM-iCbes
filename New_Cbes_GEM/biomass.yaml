@@ -46,28 +46,18 @@
   name: trace element
   equation: (0.0111) C00234[c] + (0.2496) C00016[c] + (0.4293) C00061[c] + (0.273) C00010[c] + (0.0191) C00003[c] + (0.0201) C00004[c] + (0.025) C00006[c] + (0.0056) C00005[c] + (3.9905) C00238[c] + (1.4851) C00305[c] + (0.2983) C14818[c] + (0.139) C00076[c] + (3.6232) C01330[c] + (0.0849) C00038[c] + (0.3998) C00009[c] + (0.0062) C00068[c] => trace[c]
 
-# - id: Biomass_Cbesii
-#   name: total Biomass (based on E coli)
-#   # equation: (0.031) dna[c] + (0.205) rna[c] + (0.55) protein[c] + (0.091) lipid + (0.034) C00338[c] + (0.025) C00889[c] + 
-#   #   (0.025) C00182[c] + (0.004) C06702 + (0.025) trace[c] => Biomass[c]
-#   equation: (0.031) dna[c] + (0.205) rna[c] + (0.55) protein[c] => Biomass[c]
-#   pathway: Biomass 
-
 - id: Biomass_Cbesii
   name: biomass 1gDW
-  # (data comes from Mike's group, July 22, 2019)
+  ### (data comes from Mike's group, July 22, 2019)
   # equation: (0.016) dna[c] + (0.007) rna[c] + (0.516) protein[c] + (0.336) lipid + (0.125) carbohydrates => Biomass[c]
   # equation: (0.016) dna[c] + (0.007) rna[c] + (0.516) protein[c] + C00186[c] + C00022[c] => (0.539) Biomass[c]
   # equation: (0.016) dna[c] + (0.007) rna[c] + (0.516) protein[c] => Biomass[c]
 
-  # late log phase, receibved in Seq 12, 2019
-  # equation (without normalization): (0.077) dna[c] + (0.009) rna[c] + (0.274) protein[c] + (0.178) lipid[c] + (0.066) carbohydrate[c] => (0.605) Biomass[c]
-  # equation (with normalization): (0.014) dna[c] + (0.127) rna[c] + (0.454) protein[c] + (0.295) lipid[c] + (0.11) carbohydrate[c] => Biomass[c]
+  ### late log phase, receibved in Seq 12, 2019
   equation: (0.0144) dna[c] + (0.1229) rna[c] + (0.4373) protein[c] + (0.2841) lipid[c] + (0.1053) carbohydrate[c] + (0.036) trace[c] => Biomass[c]
   pathway: Biomass 
-  note: percentage of trace is based on Clostridium cellulolyticum iFS431 model.
 
-  # # mid log phase, receibved in Seq 12, 2019
+  ### mid log phase, receibved in Seq 12, 2019
   # equation (without normalization): (0.008) dna[c] + (0.104) rna[c] + (0.353) protein[c] + (0.065) lipid + (0.065) carbohydrates => (0.591) Biomass[c]
   # equation (with normalization): (0.013) dna[c] + (0.175) rna[c] + (0.591) protein[c] + (0.109) lipid + (0.113) carbohydrates => Biomass[c]
   # pathway: Biomass 
