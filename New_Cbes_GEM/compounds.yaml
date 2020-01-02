@@ -1,3 +1,6 @@
+- id: iso-C14
+  formula: C14H27OSR
+  charge: 0
 - id: C19848
   name: Adenylated molybdopterin
   charge: 0
@@ -30,7 +33,7 @@
   mol_weight: 342.2965
 - id: C00080
   name: H+
-  charge: 0
+  charge: 1
   formula: H
   mol_weight: 1.0079
 - id: C06232
@@ -130,7 +133,7 @@
   mol_weight: 260.1358
 - id: C04425
   name: S-Adenosyl-4-methylthio-2-oxobutanoate
-  charge: 0
+  charge: 1
   formula: C15H20N5O6S
   mol_weight: 398.4142
 - id: C00561
@@ -440,7 +443,7 @@
   mol_weight: 60.052
 - id: C00288
   name: HCO3-
-  charge: 0
+  charge: -1
   formula: HCO3
   mol_weight: 61.0168
 - id: C00577
@@ -660,7 +663,7 @@
   mol_weight: 189.1659
 - id: C01081
   name: Thiamin monophosphate
-  charge: 0
+  charge: 1
   formula: C12H18N4O4PS
   mol_weight: 345.3345
 - id: C01563
@@ -695,7 +698,7 @@
   mol_weight: 745.4209
 - id: C00006
   name: NADP+
-  charge: 0
+  charge: 1
   formula: C21H29N7O17P3
   mol_weight: 744.4129
 - id: C00011
@@ -710,7 +713,7 @@
   mol_weight: 443.2005
 - id: C00068
   name: Thiamin diphosphate
-  charge: 0
+  charge: 1
   formula: C12H19N4O7P2S
   mol_weight: 425.3144
 - id: C00075
@@ -965,7 +968,7 @@
   mol_weight: 507.181
 - id: C00003
   name: NAD+
-  charge: 0
+  charge: 1
   formula: C21H28N7O14P2
   mol_weight: 664.433
 - id: C00008
@@ -1270,11 +1273,11 @@
   mol_weight: 74.0785
 - id: C00139
   name: Oxidized ferredoxin (2[4Fe-4S]) (Fdox)
-  charge: 0
+  charge: 3
   formula: Fe8S8X
 - id: C00138
   name: Reduced ferredoxin (2[4Fe-4S]) (Fdred)
-  charge: 0
+  charge: 2
   formula: Fe8S8X
 - id: C01005
   name: O-Phospho-L-serine (Pser)
@@ -1398,12 +1401,12 @@
   mol_weight: 152.1259
 - id: C00320
   name: Thiosulfate
-  charge: 0
+  charge: -1
   formula: HS2O3
   mol_weight: 113.1361
 - id: C00857
   name: Deamino-NAD+
-  charge: 0
+  charge: 1
   formula: C21H27N6O15P2
   mol_weight: 665.4178
 - id: C01344
@@ -1483,12 +1486,12 @@
   mol_weight: 497.1829
 - id: C00445
   name: 5,10-Methenyltetrahydrofolate
-  charge: 0
+  charge: 1
   formula: C20H22N7O6
   mol_weight: 456.432
 - id: C01137
   name: S-Adenosylmethioninamine
-  charge: 0
+  charge: 1
   formula: C14H23N6O3S
   mol_weight: 355.4358
 - id: C01170
@@ -1518,7 +1521,7 @@
   mol_weight: 1193.9458
 - id: C05125
   name: 2-(alpha-Hydroxyethyl)thiamine diphosphate
-  charge: 0
+  charge: 1
   formula: C14H23N4O8P2S
   mol_weight: 469.3669
 - id: C05698
@@ -1573,7 +1576,7 @@
   mol_weight: 378.2982
 - id: C03169
   name: Pyrimidine nucleoside
-  charge: 0
+  charge: 1
   formula: C9H13N2O4
   mol_weight: 213.2105
 - id: C04144
@@ -1603,7 +1606,7 @@
   mol_weight: 245.2077
 - id: C05691
   name: Se-Adenosylselenomethionine
-  charge: 0
+  charge: 1
   formula: C15H23N6O5Se
   mol_weight: 446.3403
 - id: C01165
@@ -1693,7 +1696,7 @@
   mol_weight: 495.1703
 - id: C05841
   name: Nicotinate D-ribonucleoside
-  charge: 0
+  charge: 1
   formula: C11H14NO6
   mol_weight: 256.232
 - id: C05947
@@ -1933,7 +1936,7 @@
   mol_weight: 219.1919
 - id: C01185
   name: Nicotinate D-ribonucleotide
-  charge: 0
+  charge: 1
   formula: C11H15NO9P
   mol_weight: 336.2119
 - id: C01528
@@ -2103,7 +2106,7 @@
   mol_weight: 226.1828
 - id: C00378
   name: Thiamine
-  charge: 0
+  charge: 1
   formula: C12H17N4OS
   mol_weight: 265.3546
 - id: C00409
@@ -2243,7 +2246,7 @@
   mol_weight: 172.1354
 - id: C03028
   name: Thiamin triphosphate
-  charge: 0
+  charge: 1
   formula: C12H20N4O10P3S
   mol_weight: 505.2943
 - id: C03082
@@ -2253,7 +2256,7 @@
   mol_weight: 213.0826
 - id: C03150
   name: Nicotinamide-beta-riboside
-  charge: 0
+  charge: 1
   formula: C11H15N2O5
   mol_weight: 255.2472
 - id: C03175

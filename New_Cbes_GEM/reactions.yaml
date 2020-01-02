@@ -2,8 +2,8 @@
   equation: C02630[c] + C00003[c] <=> C00026[c] + C00004[c] + C00080[c]
   ec:
   - 1.1.1.95
-- id: R11312
-  equation: C04752[c] + C20246[c] <=> C00013[c] + C01081[c] + C00011[c]
+- id: R11312_kz
+  equation: C04752[c] + C20246[c] + C00080[c] <=> C00013[c] + C01081[c] + C00011[c]
   ec:
   - 2.5.1.3
 - id: R03634
@@ -28,8 +28,8 @@
   - 1.2.7.1
   - 1.2.7.4
   - 1.12.99.6
-- id: R07641
-  equation: (2) C00002[c] + C00288[c] + C00014[c] <=> (2) C00008[c] + C00009[c] +
+- id: R07641_kz
+  equation: (2) C00002[c] + C00288[c] + C00014[c] + C00080[c] <=> (2) C00008[c] + C00009[c] +
     C00169[c]
   ec:
   - 6.3.5.5
@@ -142,16 +142,16 @@
   equation: C02739[c] + C00013[c] <=> C00002[c] + C00119[c]
   ec:
   - 2.4.2.17
-- id: R03223
+- id: R03223_kz
   name: 2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:4-methyl-5-(2-phosphoethyl)-thiazole
     2-methyl-4-aminopyridine-5-methenyltransferase
-  equation: C04752[c] + C04327[c] <=> C00013[c] + C01081[c]
+  equation: C04752[c] + C04327[c] + C00080[c] <=> C00013[c] + C01081[c]
   ec:
   - 2.5.1.3
-- id: R10712
+- id: R10712_kz
   name: 2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:2-(2-carboxy-4-methylthiazol-5-yl)ethyl
     phosphate 2-methyl-4-aminopyrimidine-5-methenyltransferase
-  equation: C04752[c] + C20247[c] <=> C01081[c] + C00013[c] + C00011[c]
+  equation: C04752[c] + C20247[c] + C00080[c] <=> C01081[c] + C00013[c] + C00011[c]
   ec:
   - 2.5.1.3
 - id: R04457
@@ -191,9 +191,9 @@
   equation: C00647[c] + C00026[c] <=> C00018[c] + C00217[c]
   ec:
   - 2.6.1.54
-- id: R03231
+- id: R03231_kz
   name: S-Adenosyl-L-methionine:8-amino-7-oxononanoate aminotransferase
-  equation: C00019[c] + C01092[c] <=> C04425[c] + C01037[c]
+  equation: C00019[c] + C01092[c] + C00080[c] <=> C04425[c] + C01037[c]
   ec:
   - 2.6.1.62
 - id: R03243
@@ -309,7 +309,7 @@
   - 2.7.1.51
 - id: R02071_kz
   name: ATP:D-fructose-1-phosphate 6-phosphotransferase
-  equation: C00002[c] + C01094[c] <=> C00008[c] + C01094[c]
+  equation: C00002[c] + C01094[c] <=> C00008[c] + C00354[c]
   ec:
   - 2.7.1.56
 - id: R01092_kz
@@ -756,9 +756,9 @@
   equation: C05382[c] + C00118[c] <=> C00117[c] + C00231[c]
   ec:
   - 2.2.1.1
-- id: R10948
+- id: R10948_kz
   name: ATP:HCO3- phosphotransferase
-  equation: C00002[c] + C00288[c] <=> C00008[c] + C20969[c]
+  equation: C00002[c] + C00288[c] + C00080[c] <=> C00008[c] + C20969[c]
   ec:
   - 6.3.5.5
 - id: R09030
@@ -800,9 +800,9 @@
   equation: C00044[c] + (3) C00001[c] <=> C00058[c] + C01304[c] + C00013[c]
   ec:
   - 3.5.4.25
-- id: R00575
+- id: R00575_kz
   name: HCO3-:L-glutamine amido-ligase (ADP-forming, carbamate-phosphorylating)
-  equation: (2) C00002[c] + C00064[c] + C00288[c] + C00001[c] <=> (2) C00008[c] +
+  equation: (2) C00002[c] + C00064[c] + C00288[c] + C00001[c] + C00080[c] <=> (2) C00008[c] +
     C00009[c] + C00025[c] + C00169[c]
   ec:
   - 6.3.5.5
@@ -939,8 +939,8 @@
   ec:
   - 1.2.7.3
   - 1.2.7.11
-- id: R04326
-  equation: C03838[c] + C00445[c] + C00001[c] <=> C04376[c] + C00101[c]
+- id: R04326_kz
+  equation: C03838[c] + C00445[c] + C00001[c] <=> C04376[c] + C00101[c] + C00080[c]
   ec:
   - 2.1.2.2
 - id: R07399
@@ -1233,9 +1233,9 @@
   equation: C00559[c] + C00009[c] <=> C00147[c] + C00672[c]
   ec:
   - 2.4.2.1
-- id: R02294
+- id: R02294_kz
   name: N-Ribosylnicotinamide:orthophosphate ribosyltransferase
-  equation: C03150[c] + C00009[c] <=> C00153[c] + C00620[c]
+  equation: C03150[c] + C00009[c] <=> C00153[c] + C00620[c] + C00080[c]
   ec:
   - 2.4.2.1
 - id: R02295
@@ -1301,9 +1301,9 @@
   equation: C04302[c] + C00013[c] <=> C00108[c] + C00119[c]
   ec:
   - 2.4.2.18
-- id: R03348
+- id: R03348_kz
   name: Nicotinate-nucleotide:pyrophosphate phosphoribosyltransferase (carboxylating)
-  equation: C01185[c] + C00013[c] + C00011[c] <=> C03722[c] + C00119[c]
+  equation: C01185[c] + C00013[c] + C00011[c] <=> C03722[c] + C00119[c] + C00080[c]
   ec:
   - 2.4.2.19
 - id: R02296
@@ -1399,19 +1399,19 @@
   equation: C04807[c] + C00568[c] <=> C00013[c] + C00921[c]
   ec:
   - 2.5.1.15
-- id: R01920
+- id: R01920_kz
   name: S-adenosylmethioninamine:putrescine 3-aminopropyltransferase
-  equation: C01137[c] + C00134[c] <=> C00170[c] + C00315[c]
+  equation: C01137[c] + C00134[c] <=> C00170[c] + C00315[c] + C00080[c]
   ec:
   - 2.5.1.16
-- id: R08359
+- id: R08359_kz
   name: S-adenosylmethioninamine:cadaverine 3-aminopropyltransferase
-  equation: C01137[c] + C01672[c] <=> C00170[c] + C16565[c]
+  equation: C01137[c] + C01672[c] <=> C00170[c] + C16565[c] + C00080[c]
   ec:
   - 2.5.1.16
-- id: R02869
+- id: R02869_kz
   name: S-adenosylmethioninamine:spermidine 3-aminopropyltransferase
-  equation: C01137[c] + C00315[c] <=> C00170[c] + C00750[c]
+  equation: C01137[c] + C00315[c] <=> C00170[c] + C00750[c] + C00080[c]
   ec:
   - 2.5.1.16
   - 2.5.1.22
@@ -1420,9 +1420,9 @@
   equation: C00074[c] + C03175[c] <=> C00009[c] + C01269[c]
   ec:
   - 2.5.1.19
-- id: R03132
+- id: R03132_kz
   name: O3-acetyl-L-serine acetate-lyase (adding hydrogen sulfide)
-  equation: C00979[c] + C00320[c] <=> C05824[c] + C00033[c]
+  equation: C00080[c] + C00979[c] + C00320[c] <=> C05824[c] + C00033[c]
   ec:
   - 2.5.1.47
 - id: R03601
@@ -1870,9 +1870,9 @@
   equation: C00002[c] + C00044[c] <=> C00020[c] + C04494[c]
   ec:
   - 2.7.6.5
-- id: R00137
+- id: R00137_kz
   name: ATP:nicotinamide-nucleotide adenylyltransferase
-  equation: C00002[c] + C00455[c] <=> C00013[c] + C00003[c]
+  equation: C00080[c] + C00002[c] + C00455[c] <=> C00013[c] + C00003[c]
   ec:
   - 2.7.7.1
   - 2.7.7.18
@@ -1993,9 +1993,9 @@
   - 3.5.1.2
   - 3.5.1.35
   - 3.5.1.38
-- id: R02322
+- id: R02322_kz
   name: nicotinamide-D-ribonucleotide amidohydrolase
-  equation: C00455[c] + C00001[c] <=> C01185[c] + C00014[c]
+  equation: C00080[c] + C00455[c] + C00001[c] <=> C01185[c] + C00014[c]
   ec:
   - 3.5.1.42
 - id: R02733
@@ -2338,9 +2338,9 @@
   equation: C00002[c] + C03090[c] + C00037[c] <=> C00008[c] + C00009[c] + C03838[c]
   ec:
   - 6.3.4.13
-- id: R07404
+- id: R07404_kz
   name: 5-amino-1-(5-phospho-D-ribosyl)imidazole:carbon-dioxide ligase (ADP-forming)
-  equation: C00002[c] + C03373[c] + C00288[c] <=> C00008[c] + C00009[c] + C15667[c]
+  equation: C00080[c] + C00002[c] + C03373[c] + C00288[c] <=> C00008[c] + C00009[c] + C15667[c]
   ec:
   - 6.3.4.18
 - id: R00571
@@ -2633,9 +2633,9 @@
   ec:
   - 3.2.1.-
   - 5.1.3.14
-- id: R04771
+- id: R04771_kz
   name: ATP:L-selenomethione S-adenosyltransferase
-  equation: C00002[c] + C05335[c] + C00001[c] <=> C00009[c] + C00013[c] + C05691[c]
+  equation: C00080[c] + C00002[c] + C05335[c] + C00001[c] <=> C00009[c] + C00013[c] + C05691[c]
   ec:
   - 2.5.1.6
 - id: R00177
@@ -2643,9 +2643,9 @@
   equation: C00009[c] + C00013[c] + C00019[c] <=> C00002[c] + C00073[c] + C00001[c]
   ec:
   - 2.5.1.6
-- id: R01859
+- id: R01859_kz
   name: propanoyl-CoA:carbon-dioxide ligase (ADP-forming)
-  equation: C00002[c] + C00100[c] + C00288[c] <=> C00008[c] + C00009[c] + C00683[c]
+  equation: C00080[c] + C00002[c] + C00100[c] + C00288[c] <=> C00008[c] + C00009[c] + C00683[c]
   ec:
   - 6.4.1.3
 - id: R08924
@@ -2743,9 +2743,9 @@
   equation: C00101[c] + (2) C00006[c] <=> C00504[c] + (2) C00005[c] + (2) C00080[c]
   ec:
   - 1.5.1.3
-- id: R00742
+- id: R00742_kz
   name: acetyl-CoA:carbon-dioxide ligase (ADP-forming)
-  equation: C00002[c] + C00024[c] + C00288[c] <=> C00008[c] + C00009[c] + C00083[c]
+  equation: C00080[c] + C00002[c] + C00024[c] + C00288[c] <=> C00008[c] + C00009[c] + C00083[c]
   ec:
   - 6.4.1.2
 - id: R10052
