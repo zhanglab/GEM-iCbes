@@ -1,6 +1,8 @@
-- id: iso-C14
-  formula: C14H27OSR
+- id: C00282
+  name: Hydrogen
+  formula: H2
   charge: 0
+  mol_weight: 2.0159
 - id: C19848
   name: Adenylated molybdopterin
   charge: 0

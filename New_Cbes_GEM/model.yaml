@@ -1,3 +1,5 @@
+name: Caldicellulosiruptor bescii model
+biomass: Biomass_Cbesii
 default_flux_limit: 1000
 default_compartment: c
 extracellular: null
@@ -10,11 +12,15 @@ compartments:
   name: Extracellular
 compounds:
 - include: ./compounds.yaml
+- include: compounds_generic.yaml 
 reactions:
 - include: ./reactions.yaml
-#- include: transporter.yaml
-#- include: biomass.yaml
-#- include: spontaneous.yaml
+- include: transporter.yaml
+- include: biomass.yaml
+- include: spontaneous.yaml
+- include: gapfill.yaml
+- include: reactions_generic.yaml
+#- include: test_2.yaml
 exchange:
 - include: exchange.yaml
 
