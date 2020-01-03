@@ -3014,3 +3014,20 @@
     + C00002[c] + C00001[c]
   ec:
   - 6.3.5.7
+- id: BF-H2ase
+  name: Bifurcating hydrogenase ([Fe-Fe])
+  equation: (3) C00080[c] + C00004[c] + (2) C00138[c] => (2) C00282[c] + C00003[c]
+    + (2) C00139[c]
+  ec:
+  - 1.12.1.4
+- id: MBH
+  name: H2-evolving membrane-bound hydrogenase ([Ni-Fe])
+  equation: (2) C00138[c] + (3) C00080[c] => C00282[c] + (2) C00139[c] + C00080[e]
+  ec:
+  - 1.12.7.2
+- id: BF-Nfn
+  name: NADH-dependent reduced ferredoxin:NADP+ oxidoreductase
+  equation: C00004[c] + (2) C00138[c] + (2) C00006[c] + C00080[c] <=> C00003[c] +
+    (2) C00139[c] + (2) C00005[c]
+  ec:
+  - 1.6.1.4
