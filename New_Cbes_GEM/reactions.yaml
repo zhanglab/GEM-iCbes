@@ -22,12 +22,13 @@
   equation: C00014[c] + C20969[c] <=> C01563[c] + C00009[c]
   ec:
   - 6.3.5.5
-- id: R08034
-  equation: C16396[c] + C00237[c] + (2) C00080[c] + (2) C00138[c] <=> C16399[c] + (2) C00139[c] + C00011[c]
-  ec:
-  - 1.2.7.1
-  - 1.2.7.4
-  - 1.12.99.6
+#- id: R08034
+#  equation: C16396[c] + (4) C00080[c] + (4) C00138[c] <=> C16399[c] + (4) C00139[c] + C00001[c]
+#  ec:
+#  - 1.2.7.1
+#  - 1.2.7.4
+#  - 1.12.99.6
+#  comment: this equation is formulated based on literature: https://books.google.com/books?id=3xvTBwAAQBAJ&pg=PA78&lpg=PA78&dq=2,4-Diamino-6-nitrotoluene+hydrogenase&source=bl&ots=OpGje6T6Od&sig=ACfU3U178ovu24NZl9Do5ODDVXm-0eWHCg&hl=en&sa=X&ved=2ahUKEwiU4ZCdmuXmAhVqplkKHTwODCUQ6AEwAnoECAoQAQ#v=snippet&q=negative%20redox&f=false
 - id: R07641_kz
   equation: (2) C00002[c] + C00288[c] + C00014[c] + C00080[c] <=> (2) C00008[c] + C00009[c] +
     C00169[c]
