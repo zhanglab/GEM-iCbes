@@ -2875,3 +2875,142 @@
   equation: C00064[c] + C00001[c] <=> C00025[c] + C00014[c]
   ec:
   - 4.3.2.10
+- id: R03940
+  name: 10-Formyltetrahydrofolate:L-methionyl-tRNA N-formyltransferase
+  equation: C02430[c] + C00234[c] <=> C00101[c] + C03294[c]
+  ec:
+  - 2.1.2.9
+- id: R03789
+  name: tRNA-guanosine34:queuine tRNA-D-ribosyltransferase
+  equation: C01977[c] + C01449[c] <=> C01978[c] + C00242[c]
+  ec:
+  - 2.4.2.29
+- id: R10209
+  name: tRNA-guanosine34:7-aminomethyl-7-carbaguanine tRNA-D-ribosyltransferase
+  equation: C01977[c] + C16675[c] <=> C20446[c] + C00242[c]
+  ec:
+  - 2.4.2.29
+- id: R02918
+  name: L-Tyrosine:tRNA(Tyr) ligase (AMP-forming)
+  equation: C00002[c] + C00082[c] + C00787[c] <=> C00020[c] + C00013[c] + C02839[c]
+  ec:
+  - 6.1.1.1
+- id: R03659
+  name: L-Methionine:tRNAMet ligase (AMP-forming)
+  equation: C00002[c] + C00073[c] + C01647[c] <=> C00020[c] + C00013[c] + C02430[c]
+  ec:
+  - 6.1.1.10
+- id: R04773
+  name: Selenomethionine:tRNAMet ligase (AMP-forming)
+  equation: C00002[c] + C05335[c] + C01647[c] <=> C00020[c] + C00013[c] + C05336[c]
+  ec:
+  - 6.1.1.10
+- id: R03662
+  name: L-Serine:tRNA(Ser) ligase (AMP-forming)
+  equation: C00002[c] + C00065[c] + C01650[c] <=> C00020[c] + C00013[c] + C02553[c]
+  ec:
+  - 6.1.1.11
+- id: R08218
+  name: L-serine:tRNASec ligase (AMP-forming)
+  equation: C00002[c] + C00065[c] + C16636[c] <=> C00020[c] + C00013[c] + C06481[c]
+  ec:
+  - 6.1.1.11
+- id: R05577
+  name: L-Aspartate:tRNA(Asp) ligase (AMP-forming)
+  equation: C01638[c] + C00049[c] + C00002[c] <=> C02984[c] + C00013[c] + C00020[c]
+  ec:
+  - 6.1.1.12
+  - 6.1.1.23
+- id: R03654
+  name: glycine:tRNA(Gly) ligase (AMP-forming)
+  equation: C00002[c] + C00037[c] + C01642[c] <=> C00020[c] + C00013[c] + C02412[c]
+  ec:
+  - 6.1.1.14
+- id: R03661
+  name: L-proline:tRNA(Pro) ligase (AMP-forming)
+  equation: C00002[c] + C00148[c] + C01649[c] <=> C00020[c] + C00013[c] + C02702[c]
+  ec:
+  - 6.1.1.15
+- id: R03650
+  name: L-Cysteine:tRNA(Cys) ligase (AMP-forming)
+  equation: C00002[c] + C00097[c] + C01639[c] <=> C00020[c] + C00013[c] + C03125[c]
+  ec:
+  - 6.1.1.16
+- id: R05578
+  name: L-glutamate:tRNA(Glu) ligase (AMP-forming)
+  equation: C01641[c] + C00025[c] + C00002[c] <=> C02987[c] + C00013[c] + C00020[c]
+  ec:
+  - 6.1.1.17
+  - 6.1.1.24
+- id: R03646
+  name: L-Arginine:tRNA(Arg) ligase (AMP-forming)
+  equation: C00002[c] + C00062[c] + C01636[c] <=> C00020[c] + C00013[c] + C02163[c]
+  ec:
+  - 6.1.1.19
+- id: R03664
+  name: L-Tryptophan -tRNA(Trp) ligase (AMP-forming)
+  equation: C00002[c] + C00078[c] + C01652[c] <=> C00020[c] + C00013[c] + C03512[c]
+  ec:
+  - 6.1.1.2
+- id: R03660
+  name: L-Phenylalanine:tRNA(Ala) ligase (AMP-forming)
+  equation: C00002[c] + C00079[c] + C01648[c] <=> C00020[c] + C00013[c] + C03511[c]
+  ec:
+  - 6.1.1.20
+- id: R03655
+  name: L-Histidine:tRNA(His) ligase (AMP-forming)
+  equation: C00002[c] + C00135[c] + C01643[c] <=> C00020[c] + C00013[c] + C02988[c]
+  ec:
+  - 6.1.1.21
+- id: R03647
+  name: L-Aspartate:tRNAAsp ligase (AMP-forming)
+  equation: C00002[c] + C00049[c] + C01637[c] <=> C00020[c] + C00013[c] + C06113[c]
+  ec:
+  - 6.1.1.23
+- id: R03651
+  name: L-Glutamate:tRNA(Gln) ligase (AMP-forming)
+  equation: C00002[c] + C00025[c] + C01640[c] <=> C00020[c] + C00013[c] + C06112[c]
+  ec:
+  - 6.1.1.24
+- id: R03663
+  name: L-Threonine:tRNA(Thr) ligase (AMP-forming)
+  equation: C00002[c] + C00188[c] + C01651[c] <=> C00020[c] + C00013[c] + C02992[c]
+  ec:
+  - 6.1.1.3
+- id: R03657
+  name: L-Leucine:tRNA(Leu) ligase (AMP-forming)
+  equation: C00002[c] + C00123[c] + C01645[c] <=> C00020[c] + C00013[c] + C02047[c]
+  ec:
+  - 6.1.1.4
+- id: R03656
+  name: L-Isoleucine:tRNA(Ile) ligase (AMP-forming)
+  equation: C00002[c] + C00407[c] + C01644[c] <=> C00020[c] + C00013[c] + C03127[c]
+  ec:
+  - 6.1.1.5
+- id: R03658
+  name: L-lysine:tRNALys ligase (AMP-forming)
+  equation: C00002[c] + C00047[c] + C01646[c] <=> C00020[c] + C00013[c] + C01931[c]
+  ec:
+  - 6.1.1.6
+- id: R03038
+  name: L-Alanine:tRNA(Ala) ligase (AMP-forming)
+  equation: C00002[c] + C00041[c] + C01635[c] <=> C00020[c] + C00013[c] + C00886[c]
+  ec:
+  - 6.1.1.7
+- id: R03665
+  name: L-Valine:tRNAVal ligase (AMP-forming)
+  equation: C00002[c] + C00183[c] + C01653[c] <=> C00020[c] + C00013[c] + C02554[c]
+  ec:
+  - 6.1.1.9
+- id: R04212
+  name: Asp-tRNA(Asn):L-glutamine amido-ligase (ADP-forming)
+  equation: C03402[c] + C00025[c] + C00009[c] + C00008[c] <=> C06113[c] + C00064[c]
+    + C00002[c] + C00001[c]
+  ec:
+  - 6.3.5.6
+- id: R03905
+  name: Glu-tRNA(Gln):L-glutamine amido-ligase(ADP-forming)
+  equation: C02282[c] + C00025[c] + C00009[c] + C00008[c] <=> C06112[c] + C00064[c]
+    + C00002[c] + C00001[c]
+  ec:
+  - 6.3.5.7

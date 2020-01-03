@@ -12,14 +12,12 @@ compartments:
   name: Extracellular
 compounds:
 - include: ./compounds.yaml
-- include: compounds_generic.yaml 
 reactions:
 - include: ./reactions.yaml
 - include: transporter.yaml
 - include: biomass.yaml
 - include: spontaneous.yaml
 - include: gapfill.yaml
-- include: reactions_generic.yaml
 exchange:
 - include: exchange.yaml
 
