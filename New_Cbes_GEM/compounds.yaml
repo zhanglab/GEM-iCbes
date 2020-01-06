@@ -1,3 +1,23 @@
+- id: Biomass
+  name: Biomass
+  formula: R
+  charge: 0
+- id: dna
+  name: DNA
+  formula: C20.178546H25.313611O12.324156N7.550805P2.054026
+  charge: 0
+- id: rna
+  name: RNA
+  formula: C19.115495H49.377076O7.865604N7.676866P1.99828
+  charge: 0
+- id: protein
+  name: Protein
+  formula: C39.284335H62.129701O11.224605N10.086247S0.254458
+  charge: 0
+- id: trace
+  name: Trace elements
+  formula: R
+  charge: 0
 - id: C00282
   name: Hydrogen
   formula: H2
@@ -2777,199 +2797,199 @@
 - id: C16636
   name: tRNA(Sec)
   charge: 0
-  formula: R
+  formula: HOX
 - id: C02047
   name: L-Leucyl-tRNA
   charge: 0
-  formula: C21H32N6O11PR(C5H8O6PR)n
+  formula: C6H12NO2X
 - id: C02430
   name: L-Methionyl-tRNA
   charge: 0
-  formula: C20H30N6O11PSR(C5H8O6PR)n
+  formula: C5H10NO2SX
 - id: C06113
   name: L-Aspartyl-tRNA(Asn)
   charge: 0
-  formula: C14H22NO13PR2(C5H8O6PR)n
+  formula: C4H6NO4X
 - id: C02702
   name: L-Prolyl-tRNA(Pro)
   charge: 0
-  formula: C15H24NO11PR2(C5H8O6PR)n
+  formula: C5H8NO2X
 - id: C02987
   name: L-Glutamyl-tRNA(Glu)
   charge: 0
-  formula: C20H28N6O13PR(C5H8O6PR)n
+  formula: C5H8NO4X
 - id: C03127
   name: L-Isoleucyl-tRNA(Ile)
   charge: 0
-  formula: C21H32N6O11PR(C5H8O6PR)n
+  formula: C6H12NO2X
 - id: C02992
   name: L-Threonyl-tRNA(Thr)
   charge: 0
-  formula: C14H24NO12PR2(C5H8O6PR)n
+  formula: C4H8NO3X
 - id: C06112
   name: L-Glutamyl-tRNA(Gln)
   charge: 0
-  formula: C20H28N6O13PR(C5H8O6PR)n
+  formula: C5H8NO4X
 - id: C02282
   name: Glutaminyl-tRNA
   charge: 0
-  formula: C20H29N7O12PR(C5H8O6PR)n
+  formula: C5H9N2O3X
 - id: C01639
   name: tRNA(Cys)
   charge: 0
-  formula: R
+  formula: HOX
 - id: C01640
   name: tRNA(Gln)
   charge: 0
-  formula: R
+  formula: HOX
 - id: C01645
   name: tRNA(Leu)
   charge: 0
-  formula: R
+  formula: HOX
 - id: C01635
   name: tRNA(Ala)
   charge: 0
-  formula: R
+  formula: HOX
 - id: C01636
   name: tRNA(Arg)
   charge: 0
-  formula: R
+  formula: HOX
 - id: C01637
   name: tRNA(Asn)
   charge: 0
-  formula: R
+  formula: HOX
 - id: C01647
   name: tRNA(Met)
   charge: 0
-  formula: R
+  formula: HOX
 - id: C01644
   name: tRNA(Ile)
   charge: 0
-  formula: R
+  formula: HOX
 - id: C01641
   name: tRNA(Glu)
   charge: 0
-  formula: R
+  formula: HOX
 - id: C01642
   name: tRNA(Gly)
   charge: 0
-  formula: R
+  formula: HOX
 - id: C01649
   name: tRNA(Pro)
   charge: 0
-  formula: R
+  formula: HOX
 - id: C01643
   name: tRNA(His)
   charge: 0
-  formula: R
+  formula: HOX
 - id: C01650
   name: tRNA(Ser)
   charge: 0
-  formula: R
+  formula: HOX
 - id: C01651
   name: tRNA(Thr)
   charge: 0
-  formula: R
+  formula: HOX
 - id: C01652
   name: tRNA(Trp)
   charge: 0
-  formula: R
+  formula: HOX
 - id: C00787
   name: tRNA(Tyr)
   charge: 0
-  formula: R
+  formula: HOX
 - id: C01653
   name: tRNA(Val)
   charge: 0
-  formula: R
+  formula: HOX
 - id: C01648
   name: tRNA(Phe)
   charge: 0
-  formula: R
+  formula: HOX
 - id: C01646
   name: tRNA(Lys)
   charge: 0
-  formula: R
+  formula: HOX
 - id: C01638
   name: tRNA(Asp)
   charge: 0
-  formula: R
+  formula: HOX
 - id: C03402
   name: L-Asparaginyl-tRNA(Asn)
   charge: 0
-  formula: C14H23N2O12PR2(C5H8O6PR)n
+  formula: C4H7N2O3X
 - id: C05336
   name: Selenomethionyl-tRNA(Met)
   charge: 0
-  formula: C20H30N6O11PSeR(C5H8O6PR)n
+  formula: C5H10NO2SeX
 - id: C20446
   name: tRNA 7-aminomethyl-7-carbaguanine
   charge: 0
-  formula: C12H18N5O8P(C5H8O6PR)n(C5H8O6PR)n
+  formula: C7H10N5O2X
 - id: C06481
   name: L-Seryl-tRNA(Sec)
   charge: 0
-  formula: C13H22NO12PR2(C5H8O6PR)n
+  formula: C3H6NO3X
 - id: C01931
   name: L-Lysyl-tRNA
   charge: 0
-  formula: C16H29N2O11PR2(C5H8O6PR)n
+  formula: C6H13N2O2X
 - id: C01978
   name: tRNA queuine
   charge: 0
-  formula: C17H24N5O10P(C5H8O6PR)n(C5H8O6PR)n
+  formula: C12H16N5O4X
 - id: C01977
   name: tRNA guanine
   charge: 0
-  formula: C10H14N5O8P(C5H8O6PR)n(C5H8O6PR)n
+  formula: C5H6N5O2X
 - id: C03294
   name: N-Formylmethionyl-tRNA
   charge: 0
-  formula: C21H30N6O12PSR(C5H8O6PR)n
+  formula: C6H10NO3SX
 - id: C00886
   name: L-Alanyl-tRNA
   charge: 0
-  formula: C13H22NO11PR2(C5H8O6PR)n
+  formula: C3H6NO2X
 - id: C02163
   name: L-Arginyl-tRNA(Arg)
   charge: 0
-  formula: C21H33N9O11PR(C5H8O6PR)n
+  formula: C6H13N4O2X
 - id: C03125
   name: L-Cysteinyl-tRNA(Cys)
   charge: 0
-  formula: C18H26N6O11PSR(C5H8O6PR)n
+  formula: C3H6NO2SX
 - id: C03511
   name: L-Phenylalanyl-tRNA(Phe)
   charge: 0
-  formula: C19H26NO11PR2(C5H8O6PR)n
+  formula: C9H10NO2X
 - id: C02988
   name: L-Histidyl-tRNA(His)
   charge: 0
-  formula: C16H24N3O11PR2(C5H8O6PR)n
+  formula: C6H8N3O2X
 - id: C02412
   name: Glycyl-tRNA(Gly)
   charge: 0
-  formula: C12H20NO11PR2(C5H8O6PR)n
+  formula: C2H4NO2X
 - id: C02984
   name: L-Aspartyl-tRNA(Asp)
   charge: 0
-  formula: C14H22NO13PR2(C5H8O6PR)n
+  formula: C4H6NO4X
 - id: C03512
   name: L-Tryptophanyl-tRNA(Trp)
   charge: 0
-  formula: C26H31N7O11PR(C5H8O6PR)n
+  formula: C11H11N2O2X
 - id: C02839
   name: L-Tyrosyl-tRNA(Tyr)
   charge: 0
-  formula: C24H30N6O12PR(C5H8O6PR)n
+  formula: C9H10NO3X
 - id: C02553
   name: L-Seryl-tRNA(Ser)
   charge: 0
-  formula: C13H22NO12PR2(C5H8O6PR)n
+  formula: C3H6NO3X
 - id: C02554
   name: L-Valyl-tRNA(Val)
   charge: 0
-  formula: C20H30N6O11PR(C5H8O6PR)n
+  formula: C5H10NO2X
 - id: C01449
   name: Queuine
   charge: 0
