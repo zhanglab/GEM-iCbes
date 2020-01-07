@@ -18,6 +18,8 @@ reactions:
 - include: biomass.yaml
 - include: spontaneous.yaml
 - include: gapfill.yaml
+- include: Cbes_associations.tsv
+  format: tsv
 exchange:
 - include: exchange.yaml
 
