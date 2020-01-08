@@ -622,8 +622,8 @@
   tag: KEGG_Cbes,Cce
   translated_equation: Arabinan(n=2)[e] + (5) H2O[e] => (6) L-Arabinose[e]
   note: Athe_0182 is not identical to peg.579, but they have high similarity. peg.2951 is annotated as 
-    endo-α-1,5-L-arabinanase (EC 3.2.1.99) by Dima; peg.579 is annotated as Bifunctional β-1,4-xylanase / 
-    α-L-arabinosidase (XynF) (EC 3.2.1.55|3.2.1.8)(secreted) by Dima.
+    endo-alpha-1,5-L-arabinanase (EC 3.2.1.99) by Dima; peg.579 is annotated as Bifunctional β-1,4-xylanase / 
+    alpha-L-arabinosidase (XynF) (EC 3.2.1.55|3.2.1.8)(secreted) by Dima.
 - id: AbfA
   name: alpha-L-arabinan arabinofuranohydrolase
   genes: fig|31899.10.peg.1584 
