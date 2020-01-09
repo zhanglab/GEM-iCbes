@@ -2810,8 +2810,8 @@
   - 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
 - id: KAS1OH3
   name: b ketoacyl synthetase Iso C140 3-OH ACP
-  equation: (8) C00080[c] + (10) C00005[c] + C00630[c] + (5) C01209[c] => fa1oh3ACP[c]
-    + (10) C00006[c] + C00010[c] + (4) C00229[c] + (4) C00001[c] + (5) C00011[c]
+  equation: (9) C00080[c] + (9) C00005[c] + C00630[c] + (5) C01209[c] => fa1oh3ACP[c]
+    + (9) C00006[c] + C00010[c] + (4) C00229[c] + (4) C00001[c] + (5) C00011[c]
   ec:
   - 2.3.1.180, 1.1.1.100, 4.2.1.59, 1.3.1.10, 2.3.1.179
 - id: THZPSN
@@ -3031,3 +3031,12 @@
     (2) C00139[c] + (2) C00005[c]
   ec:
   - 1.6.1.4
+- id: R01626
+  name: Malonyl-CoA:[acyl-carrier-protein] S-malonyltransferase
+  equation: C00083[c] + C00229[c] <=> C00010[c] + C01209[c]
+  enzymes:
+  - 2.3.1.39
+  - 2.3.1.85
+  - 2.3.1.86
+  - 2.3.1.-
+  genes: Athe_1155
