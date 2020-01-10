@@ -1,4 +1,4 @@
-id	gene_athe	gene_peg	gene_wp
+id	genes	gene_peg	gene_wp
 R08198	Athe_2125	peg.2680	WP_015908470.1	-
 R11312_kz	Athe_0372	peg.785	WP_015906973.1	-
 R03634	Athe_1104 or Athe_0468	peg.1585 or peg.888	WP_015907610.1 or WP_015907063.1	Galactose metabolism
@@ -391,7 +391,6 @@ R02100	Athe_1418	peg.1910	WP_015907881.1	Pyrimidine metabolism
 R05627	Athe_1834	peg.2346	WP_015908222.1	Peptidoglycan biosynthesis
 R02720	Athe_0838	peg.1298	WP_015907381.1	Purine metabolism
 R03531	Athe_0838	peg.1298	WP_015907381.1	Purine metabolism
-R04638	gap	gap	NA	Folate biosynthesis
 R00489	Athe_1979	peg.2501	WP_015908351.1	beta-Alanine metabolism
 R00566	Athe_2050	peg.2596	WP_015908407.1	Arginine and proline metabolism
 R00451	Athe_0790	peg.1249	WP_015907340.1	Lysine biosynthesis

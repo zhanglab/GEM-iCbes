@@ -2080,11 +2080,11 @@
   ec:
   - 3.6.1.66
   - 3.6.1.-
-- id: R04638
-  name: 7,8-dihydroneopterin 3'-triphosphate diphosphohydrolase
-  equation: C04895[c] + C00001[c] <=> C05925[c] + C00013[c]
-  ec:
-  - 3.6.1.67
+#- id: R04638
+#  name: 7,8-dihydroneopterin 3'-triphosphate diphosphohydrolase
+#  equation: C04895[c] + C00001[c] <=> C05925[c] + C00013[c]
+#  ec:
+#  - 3.6.1.67
 - id: R00489
   name: L-aspartate 1-carboxy-lyase (beta-alanine-forming)
   equation: C00049[c] <=> C00099[c] + C00011[c]
