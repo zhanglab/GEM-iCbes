@@ -1,0 +1,57 @@
+cysT	Unknown	Unknown	Unknown	Transport
+lipoateT	Unknown	Unknown	Unknown	Transport
+borateT	Unknown	Unknown	Unknown	Transport
+clT	Unknown	Unknown	Unknown	Transport
+MgtE	Athe_0656	peg.1099	WP_013430891.1	Transport
+TrkH	Athe_0240 and (Athe_0242 or Athe_0243)	peg.639 and (peg.641 or peg.642)	WP_015906860.1 and (WP_013431228.1 or WP_013431227.1)	Transport
+nh4t	Athe_2068	peg.2614	WP_015908423.1	Transport
+CaNaEx	Athe_2364	peg.2942	WP_015908687.1	Transport
+MgCaAT	Athe_2363	peg.2941	WP_015908686.1	Transport
+caEfflux	Athe_1524	peg.2019	WP_015907974.1	Transport
+wo4ABC	Athe_0824 and Athe_0825 and Athe_0826	peg.1284 and peg.1285 and peg.1286	WP_015907367.1 and WP_015907368.1 and WP_015907369.1	Transport
+znABC	Athe_2190 and Athe_2191 and Athe_2192	peg.2746 and peg.2747 and peg.2748	WP_015908527.1 and WP_015908528.1 and WP_015908529.1	Transport
+MntH	Athe_0657 or Athe_1755	peg.1100 or peg.2265	WP_015907228.1 or WP_015908153.1	Transport
+coUpt	Athe_1074	peg.1555	WP_015907584.1	Transport
+znUpt	Athe_1074	peg.1555	WP_015907584.1	Transport
+fe2Upt	Athe_2602 or Athe_1074	peg.150 or peg.1555	WP_015908914.1 or WP_015907584.1	Transport
+mnUpt	Athe_1074	peg.1555	WP_015907584.1	Transport
+znEfflux	Athe_0314	peg.725	WP_015906919.1	Transport
+coEfflux	Athe_0314 or Athe_2280	peg.725 or peg.2848	WP_015906919.1 or WP_041727209.1	Transport
+cuEfflux	Athe_2280	peg.2848	WP_041727209.1	Transport
+niUpt	- and - and Athe_0859 and Athe_0860	peg.1318 and peg.1319 and peg.1320 and peg.1321	WP_041727097.1 and WP_041727099.1 and WP_015907400.1 and WP_015907401.1	Transport
+moABC	Athe_0273 and Athe_0274 and Athe_0275	peg.674 and peg.675 and peg.676	WP_015906887.1 and WP_015906888.1 and WP_015906889.1	Transport
+fe2t	Athe_1562 and Athe_1563 and Athe_1564	peg.2057 and peg.2058 and peg.2059	WP_013430127.1 and WP_015908006.1 and WP_013403073.1	Transport
+piABC	(Athe_2753 or Athe_1161) and Athe_1162 and Athe_1163 and Athe_1483	(peg.358 or peg.1644) and peg.1645 and peg.1646 and peg.1976	(WP_015909044.1 or WP_015907659.1) and WP_015907660.1 and WP_015907661.1 and WP_013430199.1	Transport
+pit	Athe_1485	peg.1978	WP_015907942.1	Transport
+hco3ABC	Athe_1183 and Athe_1184	peg.1668 and peg.1669	WP_015907678.1 and WP_041727131.1	Transport
+uraUpt	Athe_1374	peg.1864	WP_015907843.1	Transport
+ATPSYN	Athe_1423 and Athe_1424 and Athe_1425 and Athe_1426 and Athe_1427 and Athe_1428 and Athe_1429 and Athe_1430	peg.1915 and peg.1916 and peg.1917 and peg.1918 and peg.1919 and peg.1920 and peg.1921 and peg.1922	WP_015907886.1 and WP_015907887.1 and WP_015907888.1 and WP_015907889.1 and WP_015907890.1 and WP_015907891.1 and WP_013290424.1 and WP_015907892.1	Transport
+RibU	Athe_1221 and Athe_1686 and Athe_1687 and Athe_1688	peg.1708 and peg.2195 and peg.2196 and peg.2197	WP_015907713.1 and WP_015908111.1 and WP_015908112.1 and WP_015908113.1	Transport
+BioY	Athe_2544	peg.79	WP_015908862.1	Transport
+FolT	Athe_1686 and Athe_1687 and Athe_1688	peg.2195 and peg.2196 and peg.2197	WP_015908111.1 and WP_015908112.1 and WP_015908113.1	Transport
+PdxU2	Athe_1767 and Athe_1686 and Athe_1687 and Athe_1688	peg.2278 and peg.2195 and peg.2196 and peg.2197	WP_015908162.1 and WP_015908111.1 and WP_015908112.1 and WP_015908113.1	Transport
+R03232	Athe_0148 and Athe_0149	peg.543 and peg.544	WP_015906778.1 and WP_015906779.1	Transport
+ThiT	Athe_0037	peg.417	WP_012660709.1	Transport
+4ABZt2r	Unknown	Unknown	Unknown	Transport
+NACUP	Unknown	Unknown	Unknown	Transport
+PNTOt2	Unknown	Unknown	Unknown	Transport
+ETOHt1	Unknown	Unknown	Unknown	Transport
+ACt6	Unknown	Unknown	Unknown	Transport
+L-LACt2	Unknown	Unknown	Unknown	Transport
+vb12ABC	Athe_1895 and Athe_1894 and Athe_1896	peg.2411 and peg.2410 and peg.2412	WP_015908277.1 and WP_015908276.1 and WP_015908278.1	Transport
+XyloseABC	(Athe_0101 and Athe_0105 and Athe_0106 and Athe_0107) or Athe_2264 and Athe_2265 and Athe_2266 or Athe_2268)	(peg.486 and peg.490 and peg.491 and peg.492) or peg.2831 and peg.2832 and peg.2833 or peg.2836)	(WP_015906738.1 and WP_015906742.1 and WP_015906743.1 and WP_015906744.1) or WP_015908596.1 and WP_015908597.1 and WP_015908598.1 or WP_015908599.1)	Transport
+GluABC	Athe_0101 and Athe_0105 and Athe_0106 and Athe_0107	peg.486 and peg.490 and peg.491 and peg.492	WP_015906738.1 and WP_015906742.1 and WP_015906743.1 and WP_015906744.1	Transport
+GaltABC	(Athe_0101 and Athe_0105 and Athe_0106 and Athe_0107) or (Athe_2264 and Athe_2265 and Athe_2266 and Athe_2268)	(peg.486 and peg.490 and peg.491 and peg.492) or (peg.2831 and peg.2832 and peg.2833 and peg.2836)	(WP_015906738.1 and WP_015906742.1 and WP_015906743.1 and WP_015906744.1) or (WP_015908596.1 and WP_015908597.1 and WP_015908598.1 and WP_015908599.1)	Transport
+FruABC	Athe_0101 and Athe_0105 and Athe_0106 and Athe_0107	peg.486 and peg.490 and peg.491 and peg.492	WP_015906738.1 and WP_015906742.1 and WP_015906743.1 and WP_015906744.1	Transport
+ArabABC	Athe_2264 and Athe_2265 and Athe_2266 or Athe_2268	peg.2831 and peg.2832 and peg.2833 or peg.2836	WP_015908596.1 and WP_015908597.1 and WP_015908598.1 or WP_015908599.1	Transport
+b-XysABC	(Athe_0614 and Athe_0615 and Athe_0616) or (Athe_0847 and Athe_0849 and Athe_0850 and .peg.1311)	(peg.1053 and peg.1054 and peg.1055) or (peg.1307 and peg.1309 and peg.1310 and .peg.1311)	(WP_015907191.1 and WP_015907192.1 and WP_015907193.1) or (WP_015907390.1 and WP_015907392.1 and WP_015907393.1 and Unknown)	
+celbABC	Athe_0595 and Athe_0596 and Athe_0597 and Athe_0598	peg.1029 and peg.1030 and peg.1031 and peg.1032	WP_015907174.1 and WP_015907175.1 and WP_015907176.1 and WP_015907177.1	Transport
+cosABC	Athe_0595 and Athe_0596 and Athe_0597 and Athe_0598	peg.1029 and peg.1030 and peg.1031 and peg.1032	WP_015907174.1 and WP_015907175.1 and WP_015907176.1 and WP_015907177.1	Transport
+mosABC	Athe_2552 and Athe_2553 and Athe_2554	peg.89 and peg.90 and peg.91	WP_015908869.1 and WP_015908870.1 and WP_015908871.1	Transport
+xosABC	Athe_0174 and Athe_0175 and Athe_0176	peg.571 and peg.572 and peg.573	WP_015906801.1 and WP_013431286.1 and WP_013431285.1	Transport
+xgosABC-1	Athe_2052 and Athe_2053 and Athe_2054	peg.2598 and peg.2599 and peg.2600	WP_015908408.1 and WP_015908409.1 and WP_015908410.1	Transport
+xgosABC-2	Athe_2052 and Athe_2053 and Athe_2054	peg.2598 and peg.2599 and peg.2600	WP_015908408.1 and WP_015908409.1 and WP_015908410.1	Transport
+axosABC	(Athe_0179 and Athe_0180 and Athe_0181) or (Athe_2374 and Athe_2375 and Athe_2376)	(peg.576 and peg.577 and peg.578) or (peg.2954 and peg.2955 and peg.2956)	(WP_015906804.1 and WP_015906805.1 and WP_013431280.1) or (WP_015908697.1 and WP_015908698.1 and WP_015908699.1)	Transport
+malABC	(Athe_2574 and Athe_2577 and Athe_2578) or (Athe_2308 and Athe_2309 and Athe_2310)	(peg.121 and peg.124 and peg.125) or (peg.2881 and peg.2882 and peg.2883)	(WP_015908887.1 and WP_015908890.1 and WP_015908891.1) or (WP_015908635.1 and WP_015908636.1 and WP_015908637.1)	Transport
+mdosABC	(Athe_2574 and Athe_2577 and Athe_2578) or (Athe_2308 and Athe_2309 and Athe_2310)	(peg.121 and peg.124 and peg.125) or (peg.2881 and peg.2882 and peg.2883)	(WP_015908887.1 and WP_015908890.1 and WP_015908891.1) or (WP_015908635.1 and WP_015908636.1 and WP_015908637.1)	Transport
+rhaosABC	Athe_2079 and Athe_2080 and Athe_2081	peg.2628 and peg.2629 and peg.2630	WP_041727423.1 and WP_013429600.1 and WP_015908434.1	Transport

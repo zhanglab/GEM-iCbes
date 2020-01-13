@@ -22,6 +22,8 @@ reactions:
 - include: reactions_eggnog.yaml
 - include: Cbes_associations.tsv
   format: tsv
+- include: manual_gene_assos/gene_asso_transp_complete.tsv
+  format: tsv
 exchange:
 - include: exchange.yaml
 
