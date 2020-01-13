@@ -1,491 +1,226 @@
 - id: cysT
   name: Cysteine transport via proton symport
   equation: C00097[e] + C00080[e] => C00097[c] + C00080[c]
-  pathway: Transport
-  tag: Cth-CYSt2r
 - id: lipoateT
   equation: C00725[e] <=> C00725[c]
-  pathway: Transport
 - id: borateT
   name: H3BO3 transport
   equation: C12486[e] <=> C12486[c]
-  pathway: Transport
 - id: clT
+  name: Chloride (Cl-) transport
   equation: C00698[e] <=> C00698[c]
-  pathway: Transport
 - id: MgtE
   name: Mg2+ Transporter
-  genes: peg.1099
   equation: C00305[e] => C00305[c]
-  ec: TC=1.A.26.1
-  note: only uptake or both direction?
-  pathway: Transport
-  tag: transportDB
+  tc: 1.A.26.1
 - id: TrkH
   name: potassium uptake
-  genes: peg.639
   equation: C00238[e] + C00080[e] => C00238[c] + C00080[c]
-  ec: TC=2.A.38.1.4
-  note: http://www.tcdb.org/search/result.php?tc=2.A.38#ref6435
-  pathway: Transport
-  tag: transportDB
+  tc: 2.A.38.1.4
 - id: nh4t
   name: Ammonium transporter (Ion Channel)
-  genes: peg.2614
   equation: C01342[e] <=> C01342[c]
-  ec: TC=1.A.11.1
-  pathway: Transport
-  tag: transportDB
+  tc: 1.A.11.1
 - id: CaNaEx
   name: Sodium/calcium exchanger
-  genes: peg.2942
   equation: C00076[e] + (3) C01330[c] <=> C00076[c] + (3) C01330[e]
-  ec: TC=2.A.19.5
-  note: this gene not in filtered(25% identiyty) TCDB blast result; bidirectional
-    or uptake Ca2+?
-  pathway: Transport
-  tag: transportDB
+  tc: 2.A.19.5
 - id: MgCaAT
   name: Mg2+/Ca2+ ATPase antiporter (Mg2+ uptake and Ca2+ efflux)
-  genes: peg.2941
   equation: C00076[c] + C00305[e] + C00002[c] + C00001[c] => C00076[e] + C00305[c]
     + C00008[c] + C00009[c]
-  ec: TC=3.A.3.2.28
-  pathway: Transport
-  tag: TCDB
+  tc: 3.A.3.2.28
 - id: caEfflux
   name: Calcium-translocating P-type ATPase, PMCA-type
-  genes: peg.2019
   equation: C00076[c] + (2) C00080[e] + C00002[c] + C00001[c] => C00076[e] + (2)
     C00080[c] + C00008[c] + C00009[c]
-  ec: TC=3.A.3.2.21
   PMID: 21421919
-  note: the matter of Ca2+/H+ stoichiometry is still controversial
-  pathway: Transport
-  source: manual curation
-  tag: TCDB
+  tc: 3.A.3.2.21
 - id: wo4ABC
   name: Tungstate uptake vis ABC system
-  genes: peg.1284 and peg.1285 and peg.1286
   equation: C20679[e] + C00002[c] + C00001[c] => C20679[c] + C00008[c] + C00009[c]
-  ec: TC=3.A.1.6.2
-  note: formula of C20679 is WH2O4, so the charge is 0
-  pathway: Transport
-  tag: transportDB & TCDB
+  tc: 3.A.1.6.2
 - id: znABC
   name: Zinc uptake via ABC system
-  genes: peg.2746 and peg.2747 and peg.2748
   equation: C00038[e] + C00002[c] + C00001[c] => C00038[c] + C00008[c] + C00009[c]
-  ec: TC=3.A.1.15
   PMID: 28596134(3.A.1.15.3, AdcABC); 12426338(3.A.1.15.11, Zinc uptake)
-  note: note sure it should be 3.A.1.15.11 or 3.A.1.15.3
-  pathway: Transport
+  tc: 3.A.1.15
 - id: MntH
   name: Manganese transport
-  genes: peg.1100 or peg.2265
   equation: C19610[e] + C00080[e] => C19610[c] + C00080[c]
-  ec: TC=2.A.55.2.6
-  note: eggnog annotate peg.2265 as uptake porter, patric annotate peg.2265 as transporter,
-    so bidirectional or uptake? peg.1100 TCDB blast best hit is TC2.A.55.3.6, but
-    PATRIC annotation is MntH (which matches 2.A.55.2.6) can MntH uptake Fe2+.
-  pathway: Transport
-  tag: transportDB & TCDB
+  tc: 2.A.55.2.6
 - id: coUpt
   name: cobalt cation (Co2+) uptake
-  genes: peg.1555
   equation: C00175[e] => C00175[c]
-  ec: TC=2.A.5.5.1
   PMID: 15716430
-  pathway: Transport
-  tag: TCDB
+  tc: 2.A.5.5.1
 - id: znUpt
   name: Zinc(II) ion permease (uptake)
-  genes: peg.1555
   equation: C00038[e] => C00038[c]
-  ec: TC=2.A.5.5.1
   PMID: 15716430
-  note: 2.A.5.5.1 is Broad specificity heavy metal divalent cation uptake transporter,
-    but peg.1555 is only annotated as zinc transporter
-  pathway: Transport
-  tag: transportDB & TCDB
+  tc: 2.A.5.5.1
 - id: fe2Upt
   name: Ferrous ion (Fe2+) permease (uptake)
-  genes: peg.1555
   equation: C14818[e] => C14818[c]
-  ec: TC=2.A.5.5.1
   PMID: 15716430
-  pathway: Transport
-  tag: TCDB
+  tc: 2.A.5.5.1
 - id: mnUpt
   name: Manganese cation (Mn2+) permease (uptake)
-  genes: peg.1555
   equation: C19610[e] => C19610[c]
-  ec: TC=2.A.5.5.1
   PMID: 15716430
-  pathway: Transport
-  tag: TCDB
+  tc: 2.A.5.5.1
 - id: znEfflux
   name: Zn2+ exporting P-type ATPase
-  genes: peg.725
   equation: C00038[c] + C00001[c] + C00002[c] => C00038[e] + C00008[c] + C00009[c]
-  ec: TC=3.A.3.6.10
   PMID: 12779235
-  pathway: Transport
-  tag: transportDB
+  tc: 3.A.3.6.10
 - id: coEfflux
   name: Co2+ exporting P-type ATPase
-  genes: peg.725 or peg.2848
-  note: peg.2848 = Athe_2280
   equation: C00175[c] + C00001[c] + C00002[c] => C00175[e] + C00008[c] + C00009[c]
-  ec: TC=3.A.3.6.10
   PMID: 12779235
-  pathway: Transport
-  tag: transportDB
+  tc: 3.A.3.6.10
 - id: cuEfflux
   name: copper(II)(Cu2+) export ATPase
-  genes: peg.2848
   equation: C00070[e] + C00002[c] + C00001[c] => C00070[c] + C00008[c] + C00009[c]
-  ec: TC=3.A.3.5.15
   PMID: 16151212
-  note: export or uptake? TCDB blast result 3.A.3.5.15 shows uptake, but psammotate
-    shows export(Tsac-Cut1)
-  pathway: Transport
-  tag: TCDB
+  tc: 3.A.3.5.15
 - id: niUpt
   name: nickel (II) uptake
-  genes: peg.1318 and peg.1319 and peg.1320 and peg.1321
   equation: C19609[e] + C00002[c] + C00001[c] => C19609[c] + C00008[c] + C00009[c]
-  ec: TC=3.A.1.23.5
   PMID: 24366337
-  pathway: Transport
-  tag: TCDB & PATRIC annotation
+  tc: 3.A.1.23.5
 - id: moABC
   name: molybdate transport via ABC system
-  genes: peg.674 and peg.675 and peg.676
   equation: C06232[e] + C00002[c] + C00001[c] => C06232[c] + C00008[c] + C00009[c]
-  ec: TC=3.A.1.14.11
-  note: not sure and most likely to be wrong. although 3.A.1.14.11 shows it can transfer
-    Molybdate, peg.674 Pfam check shows may involved in iron transport, and PATRIC
-    annotation shows B12/iron complex. blastp of peg.674 shows iron ABC transporter
-    substrate-binding protein.
-  pathway: Transport
-  tag: TCDB
+  tc: 3.A.1.14.11
 - id: fe2t
   name: Ferrous iron (Fe2+) uptake system, FeoB
-  genes: peg.2057 and peg.2058 and peg.2059
   equation: C14818[e] + C00044[c] + C00001[c] => C14818[c] + C00035[c] + C00009[c]
-  ec: TC=9.A.8.1.14
   PMID: 26684538
-  note: peg.2059 is annotated as FeoA in patric, peg.2057 is annotated as "Ferric
-    uptake regulation protein FUR"
-  pathway: Transport
-  source: manual curation
-  tag: transportDB
+  tc: 9.A.8.1.14
 - id: piABC
   name: Phosphate transport via ABC system
-  genes: peg.1644 and peg.1645 and peg.1646
   equation: C00009[e] + C00002[c] + C00001[c] => (2) C00009[c] + C00008[c]
-  ec: TC=3.A.1.7.5
   PMID: 24318969
-  note: PATRIC annotation is 3.A.1.7.1, but nest hit of TCDB blastp is 3.A.1.7.5;
-    lack PtsB (ATP-binding protein)
-  pathway: Transport
-  tag: transportDB
+  tc: 3.A.1.7.5
 - id: pit
   name: inorganic phosphate uptake porter (Low affinity)
-  genes: peg.1978
   equation: C00009[e] + C01330[e] => C00009[c] + C01330[c]
-  ec: TC=2.A.20.1
-  note: probably low affinity; H+ or Na+ not sure, here I use Na+ based on template model Cce(Pit8)
-  pathway: Transport
-  tag: transportDB
+  tc: 2.A.20.1
 - id: hco3ABC
   name: bicarbonate uptake via ABC system
-  genes: peg.1668 and peg.1669
   equation: C00288[e] + C00002[c] + C00001[c] => C00288[c] + C00008[c] + C00009[c]
-  ec: TC=3.A.1.16.3
-  note: not sure, Pfam check doesn't support hco3 transport function
-  pathway: Transport
-  tag: TCDB
+  tc: 3.A.1.16.3
 - id: uraUpt
   name: Uracil uptake
-  genes: peg.1864
   equation: C00106[e] + C00080[e] => C00106[c] + C00080[c]
-  ec: TC=2.A.40.1.1
   PMID: 21423164
-  pathway: Transport
-  tag: transportDB
+  tc: 2.A.40.1.1
 - id: ATPSYN
   name: H+ dependent F0F1 ATP synthase
-  genes: peg.1915 and peg.1916 and peg.1917 and peg.1918 and peg.1919 and peg.1920 and
-    peg.1921 and peg.1922
-  # equation: (4) C01330[c] + C00002[c] + C00001[c] <=> (4) C01330[e] + C00008[c] +
-  #   C00009[c]
   equation: (4) C00080[c] + C00002[c] + C00001[c] <=> (4) C00080[e] + C00008[c] +
     C00009[c]
-  ec: TC=3.A.2.1.5
   PMID: 8905099, 16816177
-  note: trasnpoprtDB get candidate gene(proton as substarte)
-  pathway: Transport
-  tag: transportDB & TCDB
+  tc: 3.A.2.1.5
 - id: RibU
   name: riboflavin uptake (ECF)
-  genes: peg.1708 and peg.2195 and peg.2196 and peg.2197
   equation: C00255[e] + C00002[c] + C00001[c] => C00255[c] + C00008[c] + C00009[c]
-  ec: TC=2.A.87.1.3
   PMID: 16585736, 23359690
-  note: A, A' and T components (now use 2195-2197, but these may be the ECF cpomplex
-    for specific substrate folate). "mediates riboflavin translocation via a facilitated
-    diffusion mechanism."
-  pathway: Transport
-  tag: transportDB
+  tc: 2.A.87.1.3
 - id: BioY
   name: biotin uptake (ECF)
-  genes: peg.79
   equation: C00120[e] + C00080[c] => C00120[c] + C00080[e]
-  ec: TC=3.A.1.25.5
   PMID: 23836870, 17301237, 23359690
-  note: based on 23836870 and 17301237, BioY can transport biotin by itself, does
-    not need A and T components
-  pathway: Transport
-  tag: transportDB
+  tc: 3.A.1.25.5
 - id: FolT
   name: folate uptake (ECF)
-  genes: peg.2195 and peg.2196 and peg.2197
   equation: C00504[e] + C00002[c] + C00001[c] => C00504[c] + C00008[c] + C00009[c]
-  ec: TC=3.A.1.26.10
-  note: lack S component
-  pathway: Transport
-  tag: TCDB
+  tc: 3.A.1.26.10
 - id: PdxU2
   name: pyridoxin(VB6) uptake (ECF)
-  genes: peg.2278 and peg.2195 and peg.2196 and peg.2197
   equation: C00314[e] + C00002[c] + C00001[c] => C00314[c] + C00008[c] + C00009[c]
-  ec: TC=unknown
-  note: peg.2278 is annotated as folate transport based on TCDB blastp. In Dima's
-    annotation, it is pyridoxin-specific binding protein. Also, lack ECF complex
-  pathway: Transport
-  source: manual curation
-  tag: Dima's annotation
-# - id: frut
-#   name: fructose-specific PTS Enzyme IIABC
-#   genes: peg.543 and peg.544
-#   equation: C04261[c] + C00095[e] => C00615[c] + C01094[c]
-#   ec: TC=4.A.2.1.1
-#   pathway: Transport
-#   tag: transportDB
+  tc: unknown
 - id: R03232
   name: fructose uptake (PTS system)
-  genes: peg.543 and peg.544
   equation: C04261[c] + C00095[e] => C00615[c] + C01094[c]
   ec: 2.7.1.202
-  EggNOG_annotation: peg.544:pts system
-  KEGG_annotation: Athe_0149:K02769 PTS system, fructose-specific IIB component [EC:2.7.1.202]
-    K02770 PTS system, fructose-specif
-  PATRIC_annotation: PTS system, fructose-specific IIB component (EC 2.7.1.202) /
-    PTS system, fructose-specific IIC component
-  genes_Cce: None
-  genes_Cth: None
-  genes_Tsac: None
-  genes_kegg: peg.544
-  genes_string_NCBI_id: Athe_0149
-  genes_string_PATRIC_id: peg.544
-  names:
-  - protein-N(pi)-phosphohistidine:D-fructose 1-phosphotransferase
-  other_pathways:
-  - Fructose and mannose metabolism
-  - Metabolic pathways
-  - Microbial metabolism in diverse environments
-  pathway: Transport
-  source: KEGG
-  tag: KEGG_Cbes
-  note: genes come from manual annotation
-  translated_equation: '|Protein N(pi)-phospho-L-histidine[c]| + D-Fructose[e] =>
-    |Protein histidine[c]| + |D-Fructose 1-phosphate[c]|'
 - id: ThiT
   name: Thiamine uptake (ECF)
-  genes: peg.417
   equation: C00378[e] + C00080[c] => C00378[c] + C00080[e]
-  ec: TC=2.A.88.3.2
   PMID: 18776013
-  note: Thiamin = Thiamine = Vitamin B1; equation cites psammotate
-  pathway: Transport
-  tag: Dima's annotation
+  tc: 2.A.88.3.2
 - id: 4ABZt2r
   name: 4-Aminobenzoate transport via symport
-  genes: no gene associated
   equation: C00568[e] + C00080[e] <=> C00568[c] + C00080[c]
-  pathway: Transport
-  tag: Cce-4ABZt2r
 - id: NACUP
   name: Nicotinic acid uptake
-  genes: no gene associated
   equation: C00253[e] => C00253[c]
-  pathway: Transport
-  tag: Cce-NACUP
 - id: PNTOt2
   name: Pantothenate reversible transport via proton symport
-  genes: no gene associated
   equation: C00080[e] + C00864[e] <=> C00080[c] + C00864[c]
-  pathway: Transport
-  tag: Cce-PNTOt2
 - id: ETOHt1
   name: ethanol transport in/out via diffusion
-  genes: no gene associated
   equation: C00469[e] <=> C00469[c]
-  pathway: Transport
-  tag: Cce-ETOHt1
 - id: ACt6
   name: acetate transport in/out via proton symport
-  genes: no gene associated
   equation: C00033[e] + C00080[e] <=> C00033[c] + C00080[c]
-  pathway: Transport
-  tag: Cce-ACt6
 - id: L-LACt2
   name: L-lactate reversible transport via proton symport
   equation: C00080[e] + C00186[e] <=> C00080[c] + C00186[c]
-  pathway: Transport
-  tag: (Cce & Tsac)-L-LACt2
-# - id: GLCabc
-#   name: D-glucose transport via ABC system
-#   genes: peg.2831 and peg.2832 and peg.2833
-#   equation: (2) C00001[c] + (2) C00002[c] + C00031[e] => (2) C00008[c] + (2) C00009[c]
-#     + C00031[c]
-#   ec: TC=3.A.1.2.20
-#   pathway: Transport
-#   tag: psammotate-Cce-Glcabc
 - id: vb12ABC
   name: Vitamin B12 uptake via ABC system
-  genes: peg.2411 and peg.2410 and peg.2412
   equation: C05776[e] + C00002[c] + C00001[c] => C05776[c] + C00008[c] + C00009[c]
-  ec: TC=3.A.1.13.1
-  pathway: Transport
-  tag: Dima's annotation
-
-# gene association comes from Dima's annotation
+  tc: 3.A.1.13.1
 - id: XyloseABC
   name: D-xylose transport via ABC system
-  genes: ((peg.486 or peg.490) and peg.491 and peg.492) or (peg.2831 and peg.2832 and (peg.2833 or peg.2836))
   equation: C00001[c] + C00002[c] + C00181[e] => C00008[c] + C00009[c] + C00181[c]
-  ec: TC=3.A.1.2
-  pathway: Transport
-  tag: manual curation
+  tc: 3.A.1.2
 - id: GluABC
-  name:  D-glucose transport via ABC system
-  genes: (peg.486 or peg.490) and peg.491 and peg.492
+  name: D-glucose transport via ABC system
   equation: C00001[c] + C00002[c] + C00031[e] => C00008[c] + C00009[c] + C00031[c]
-  ec: TC=3.A.1.2
-  pathway: Transport
-  tag: manual curation
+  tc: 3.A.1.2
 - id: GaltABC
   name: Galactose transport via ABC system
-  genes: ((peg.486 or peg.490) and peg.491 and peg.492) or (peg.2831 and peg.2832 and (peg.2833 or peg.2836))
   equation: C00001[c] + C00002[c] + C00124[e] => C00008[c] + C00009[c] + C00124[c]
-  ec: TC=3.A.1.2
-  pathway: Transport
-  tag: manual curation
+  tc: 3.A.1.2
 - id: FruABC
-  name:  D-Fructose transport via ABC system
-  genes: (peg.486 or peg.490) and peg.491 and peg.492
+  name: D-Fructose transport via ABC system
   equation: C00001[c] + C00002[c] + C00095[e] => C00008[c] + C00009[c] + C00095[c]
-  ec: TC=3.A.1.2
-  pathway: Transport
-  tag: manual curation
+  tc: 3.A.1.2
 - id: ArabABC
   name: Arabinose transport via ABC system
-  genes: peg.2831 and peg.2832 and (peg.2833 or peg.2836)
-  # equation: C00001[c] + C00002[c] + C00216[e] => C00008[c] + C00009[c] + C00216[c]
   equation: C00001[c] + C00002[c] + C00259[e] => C00008[c] + C00009[c] + C00259[c]
-  ec: TC=3.A.1.2
-  pathway: Transport
-  tag: manual curation
-# - id: a-XylosABC
-#   name: alpha-xyloside transport via ABC system
-#   genes: peg.2599 and peg.2600 and peg.2601
-#   equation: C00001[c] + C00002[c] + axyls[e] => C00008[c] + C00009[c] + axyls[c]
-#   pathway: Transport
-#   tag: manual curation
+  tc: 3.A.1.2
 - id: b-XysABC
   name: beta-xyloside transport via ABC system
-  genes: (peg.1053 and peg.1054 and peg.1055) or ((fig|31899.10.peg.1307 or fig|31899.10.peg.1309) 
-    and fig|31899.10.peg.1310 and fig|31899.10.peg.1311)
   equation: C00001[c] + C00002[c] + C02337_kz[e] => C00008[c] + C00009[c] + C02337_kz[c]
-  pathway: Transport
-  tag: manual curation
 - id: celbABC
   name: cellobiose transport via ABC system
-  genes: fig|31899.10.peg.1029 and fig|31899.10.peg.1030 and fig|31899.10.peg.1031 and fig|31899.10.peg.1032
-  genesNCBI: Athe_0595 and Athe_0596 and Athe_0597 and Athe_0598
   equation: C00185[e] + C00002[c] + C00001[c] => C00185[c] + C00008[c] + C00009[c]
-  pathway: Transport
-  tag: manual curation
 - id: cosABC
   name: cellulose oligosaccharides transport via ABC system
-  genes: fig|31899.10.peg.1029 and fig|31899.10.peg.1030 and fig|31899.10.peg.1031 and fig|31899.10.peg.1032
-  genesNCBI: Athe_0595 and Athe_0596 and Athe_0597 and Athe_0598
   equation: C02013[e] + C00002[c] + C00001[c] => C02013[c] + C00008[c] + C00009[c]
-  pathway: Transport
-  tag: manual curation
 - id: mosABC
   name: mannose oligosaccharides transport via ABC system
-  genes: fig|31899.10.peg.89 and fig|31899.10.peg.90 and fig|31899.10.peg.91
-  genesNCBI: Athe_2552 and Athe_2553 and Athe_2554
   equation: C17207_kz[e] + C00002[c] + C00001[c] => C17207_kz[c] + C00008[c] + C00009[c]
-  pathway: Transport
-  tag: manual curation
 - id: xosABC
   name: Xylan oligosaccharides transport via ABC system
-  genes: fig|31899.10.peg.571 and fig|31899.10.peg.572 and fig|31899.10.peg.573
-  genesNCBI: Athe_0174 and Athe_0175 and Athe_0176
   equation: XOS[e] + C00002[c] + C00001[c] => XOS[c] + C00008[c] + C00009[c]
-  pathway: Transport
-  tag: manual curation
-  tag: manual curation
 - id: xgosABC-1
   name: XXXG Xyloglucan oligosaccharides transport via ABC system
-  genes: fig|31899.10.peg.2598 and fig|31899.10.peg.2599 and fig|31899.10.peg.2600
-  genesNCBI: Athe_2052 and Athe_2053 and Athe_2054
   equation: XGOS-xxxg[e] + C00002[c] + C00001[c] => XGOS-xxxg[c] + C00008[c] + C00009[c]
-  pathway: Transport
-  tag: manual curation
 - id: xgosABC-2
   name: XLLG Xyloglucan oligosaccharides transport via ABC system
-  genes: fig|31899.10.peg.2598 and fig|31899.10.peg.2599 and fig|31899.10.peg.2600
-  genesNCBI: Athe_2052 and Athe_2053 and Athe_2054
   equation: XGOS-xllg[e] + C00002[c] + C00001[c] => XGOS-xllg[c] + C00008[c] + C00009[c]
-  pathway: Transport
-  tag: manual curation
 - id: axosABC
   name: Arabinoxylan oligosaccharides transport via ABC system
-  genes: (fig|31899.10.peg.576 and fig|31899.10.peg.577 and fig|31899.10.peg.578) or 
-    (fig|31899.10.peg.2954 and fig|31899.10.peg.2955 and fig|31899.10.peg.2956)
-  genesNCBI: (Athe_0179 and Athe_0180 and Athe_0181) or (Athe_2374 and Athe_2375 and Athe_2376)
   equation: AXOS[e] + C00002[c] + C00001[c] => AXOS[c] + C00008[c] + C00009[c]
-  pathway: Transport
-  tag: manual curation
 - id: malABC
   name: Maltose transport via ABC system
-  genes: (fig|31899.10.peg.121 and fig|31899.10.peg.124 and fig|31899.10.peg.125) or 
-    (fig|31899.10.peg.2881 and fig|31899.10.peg.2882 and fig|31899.10.peg.2883)
-  genesNCBI: (Athe_2574 and Athe_2577 and Athe_2578) and (Athe_2308 and Athe_2309 and Athe_2310)
   equation: C00208[e] + C00002[c] + C00001[c] => C00208[c] + C00008[c] + C00009[c]
-  pathway: Transport
-  tag: manual curation
 - id: mdosABC
   name: Maltodextrin transport via ABC system
-  genes: (fig|31899.10.peg.121 and fig|31899.10.peg.124 and fig|31899.10.peg.125) or 
-    (fig|31899.10.peg.2881 and fig|31899.10.peg.2882 and fig|31899.10.peg.2883)
-  genesNCBI: (Athe_2574 and Athe_2577 and Athe_2578) and (Athe_2308 and Athe_2309 and Athe_2310)
   equation: C01935_kz[e] + C00002[c] + C00001[c] => C01935_kz[c] + C00008[c] + C00009[c]
-  pathway: Transport
-  tag: manual curation
 - id: rhaosABC
   name: Rhamnose oligosaccharide transport via ABC system
-  genes: fig|31899.10.peg.2628 and fig|31899.10.peg.2629 and fig|31899.10.peg.2630
-  genesNCBI: Athe_2079 and Athe_2080 and Athe_2081
   equation: C00507[e] + C00002[c] + C00001[c] => C00507[c] + C00008[c] + C00009[c]
-  # equation: Rhaos[e] + C00002[c] + C00001[c] => Rhaos[c] + C00008[c] + C00009[c]
-  pathway: Transport
-  tag: manual curation
-
-

@@ -1,4 +1,4 @@
-id	genes	gene_peg	gene_wp
+id	genes	gene_peg	gene_wp	subsystem
 R08198	Athe_2125	peg.2680	WP_015908470.1	-
 R11312_kz	Athe_0372	peg.785	WP_015906973.1	-
 R03634	Athe_1104 or Athe_0468	peg.1585 or peg.888	WP_015907610.1 or WP_015907063.1	Galactose metabolism
