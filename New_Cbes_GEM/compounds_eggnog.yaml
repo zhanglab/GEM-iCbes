@@ -1,3 +1,13 @@
+- id: C15527
+  name: Precorrin 1
+  formula: C41H46N4O16
+  mol_weight: 850.8211
+  charge: 0
+- id: C02469
+  name: Uroporphyrin III
+  formula: C40H38N4O16
+  mol_weight: 830.7469
+  charge: 0
 - id: C00748
   name: Siroheme
   charge: 0

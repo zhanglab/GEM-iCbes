@@ -225,6 +225,11 @@
   equation: C00842[c] <=> C11907[c] + C00001[c]
   enzymes:
   - 4.2.1.46
+- id: R03165
+  name: Hydroxymethylbilane hydro-lyase(cyclizing)
+  equation: C01024[c] <=> C01051[c] + C00001[c]
+  enzymes:
+  - 4.2.1.75
 - id: R05637
   name: 2-Phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol CMP-lyase (cyclizing)
   equation: C11436[c] <=> C11453[c] + C00055[c]
@@ -267,6 +272,16 @@
   equation: C00448[c] + (8) C00129[c] <=> C04574[c] + (8) C00013[c]
   enzymes:
   - 2.5.1.31
+- id: R07237
+  name: S-adenosyl-L-methionine:uroporphyrinogen-III C-methyltransferase
+  equation: C00019[c] + C01051[c] <=> C00021[c] + C15527[c]
+  enzymes:
+  - 2.1.1.107
+- id: R03950
+  name: S-Adenosyl-L-methionine:uroporphyrin-III C-methyltransferase
+  equation: (2) C00019[c] + C02469[c] <=> (2) C00021[c] + C05778[c]
+  enzymes:
+  - 2.1.1.107
 - id: R00084
   name: porphobilinogen:(4-[2-carboxyethyl]-3-[carboxymethyl]pyrrol-2-yl)methyltransferase
     (hydrolysing)
@@ -288,6 +303,16 @@
   equation: C00748[c] + (2) C00080[c] <=> C14818[c] + C05778[c]
   enzymes:
   - 4.99.1.4
+- id: R03194
+  name: S-adenosyl-L-methionine:uroporphyrin-III C-methyltransferase
+  equation: (2) C00019[c] + C01051[c] <=> (2) C00021[c] + C02463[c]
+  enzymes:
+  - 2.1.1.107
+- id: R07238
+  name: S-adenosyl-L-methionine:precorrin-1 C-methyltransferase
+  equation: C00019[c] + C15527[c] <=> C00021[c] + C02463[c]
+  enzymes:
+  - 2.1.1.107
 - id: EpxqR
   equation: epxqtrna[c] + C00005[c] + C00080[c] => quetrna[c] + C00006[c] + C00001[c]
   genes: peg.1598
@@ -350,8 +375,8 @@
   genes: Athe_2030 and Athe_2031 and (Athe_2029 or Athe_2032)
   ec: TC=3.A.1.1.9
 - id: valABC
-  equation: C00002[c] + C00001[c] + C00123[e] => C00008[c] + C00009[c] + C00080[c]
-    + C00123[c]
+  equation: C00002[c] + C00001[c] + C00183[e] => C00008[c] + C00009[c] + C00080[c]
+    + C00183[c]
   genes: Athe_1384 and Athe_1385 and Athe_1386 and Athe_1387 and (Athe_1388 or Athe_0523)
   ec: TC=3.A.1.4.1
 - id: leuABC
