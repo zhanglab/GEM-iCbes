@@ -1,17 +1,17 @@
 - id: R02777
   name: dTDP-beta-L-rhamnose:NADP+ 4-oxidoreductase
   equation: C03319[c] + C00006[c] <=> C00688[c] + C00005[c] + C00080[c]
-  enzymes:
+  ec:
   - 1.1.1.133
 - id: R05688
   name: 1-Deoxy-D-xylulose-5-phosphate isomeroreductase
   equation: C11434[c] + C00006[c] <=> C11437[c] + C00005[c] + C00080[c]
-  enzymes:
+  ec:
   - 1.1.1.267
 - id: R04751
   name: hexanoyl-CoA:electron-transfer flavoprotein 2,3-oxidoreductase
   equation: C05270[c] + C00016[c] <=> C05271[c] + C01352[c]
-  enzymes:
+  ec:
   - 1.3.3.6
   - 1.3.8.1
   - 1.3.8.7
@@ -20,7 +20,7 @@
 - id: R01175
   name: butanoyl-CoA:electron-transfer flavoprotein 2,3-oxidoreductase
   equation: C00136[c] + C00016[c] <=> C01352[c] + C00877[c]
-  enzymes:
+  ec:
   - 1.3.3.6
   - 1.3.8.1
   - 1.3.8.7
@@ -29,75 +29,75 @@
   name: coproporphyrinogen-III:S-adenosyl-L-methionine oxidoreductase(decarboxylating)
   equation: C03263[c] + (2) C00019[c] <=> C01079[c] + (2) C00011[c] + (2) C00073[c]
     + (2) C05198[c]
-  enzymes:
+  ec:
   - 1.3.98.3
 - id: R05711
   name: N,N-dimethyl-1,4-phenylenediamine, aniline:NADP+ oxidoreductase
   equation: C04203[c] + C00292[c] + (2) C00006[c] <=> C03764[c] + (2) C00005[c] +
     (2) C00080[c]
-  enzymes:
+  ec:
   - 1.7.1.6
 - id: R08553
   name: AMP,sulfite:acceptor oxidoreductase (adenosine-5'-phosphosulfate-forming)
   equation: C00020[c] + C00094[c] + C00016[c] <=> C00224[c] + C01352[c]
-  enzymes:
+  ec:
   - 1.8.99.2
 - id: R01658
   name: Dimethylallyl-diphosphate:isopentenyl-diphosphate dimethylallyltranstransferase
   equation: C00235[c] + C00129[c] <=> C00013[c] + C00341[c]
-  enzymes:
+  ec:
   - 2.5.1.1
 - id: R02003
   name: Geranyl-diphosphate:isopentenyl-diphosphate geranyltrans-transferase
   equation: C00341[c] + C00129[c] <=> C00013[c] + C00448[c]
-  enzymes:
+  ec:
   - 2.5.1.10
 - id: R02061
   name: trans,trans-Farnesyl-diphosphate:isopentenyl-diphosphate farnesyltranstransferase
   equation: C00448[c] + C00129[c] <=> C00013[c] + C00353[c]
-  enzymes:
+  ec:
   - 2.5.1.29
 - id: R05634
   name: ATP:4-(Cytidine 5'-diphospho)-2-C-methyl-D-erythritol 2-phosphotransferase
   equation: C11435[c] + C00002[c] <=> C11436[c] + C00008[c]
-  enzymes:
+  ec:
   - 2.7.1.148
 - id: R02328
   name: dTTP:alpha-D-glucose-1-phosphate thymidylyltransferase
   equation: C00459[c] + C00103[c] <=> C00013[c] + C00842[c]
-  enzymes:
+  ec:
   - 2.7.7.24
 - id: R05633
   name: 'CTP: 2-C-Methyl-D-erythritol 4-phosphate cytidylyltransferase'
   equation: C11434[c] + C00063[c] <=> C11435[c] + C00013[c]
-  enzymes:
+  ec:
   - 2.7.7.60
 - id: R05789
   name: (R)-2-phospho-3-sulfolactate phosphohydrolase
   equation: C11536[c] + C00001[c] <=> C11537[c] + C00009[c]
-  enzymes:
+  ec:
   - 3.1.3.71
 - id: R01030
   name: sn-Glycero-3-phosphocholine glycerophosphohydrolase
   equation: C00670[c] + C00001[c] <=> C00114[c] + C00093[c]
-  enzymes:
+  ec:
   - 3.1.4.2
   - 3.1.4.46
 - id: R01470
   name: sn-Glycero-3-phosphoethanolamine glycerophosphohydrolase
   equation: C01233[c] + C00001[c] <=> C00189[c] + C00093[c]
-  enzymes:
+  ec:
   - 3.1.4.2
   - 3.1.4.46
 - id: R04112
   name: N-Acetylmuramoyl-Ala amidohydrolase
   equation: C02999[c] + C00001[c] <=> C02713[c] + C00041[c]
-  enzymes:
+  ec:
   - 3.5.1.28
 - id: R00086
   name: ATP phosphohydrolase
   equation: C00002[c] + C00001[c] <=> C00008[c] + C00009[c]
-  enzymes:
+  ec:
   - 3.6.1.3
   - 3.6.1.5
   - 3.6.1.8
@@ -170,148 +170,148 @@
 - id: R00426
   name: GTP diphosphohydrolase (diphosphate-forming)
   equation: C00044[c] + C00001[c] <=> C00144[c] + C00013[c]
-  enzymes:
+  ec:
   - 3.6.1.8
   - 3.6.1.-
 - id: R00720
   name: Inosine 5'-triphosphate pyrophosphohydrolase
   equation: C00081[c] + C00001[c] <=> C00130[c] + C00013[c]
-  enzymes:
+  ec:
   - 3.6.1.8
   - 3.6.1.-
 - id: R00087
   name: ATP diphosphohydrolase (diphosphate-forming)
   equation: C00002[c] + C00001[c] <=> C00020[c] + C00013[c]
-  enzymes:
+  ec:
   - 3.6.1.8
   - 3.6.1.9
 - id: R00662
   name: Uridine triphosphate pyrophosphohydrolase
   equation: C00075[c] + C00001[c] <=> C00105[c] + C00013[c]
-  enzymes:
+  ec:
   - 3.6.1.8
   - 3.6.1.9
 - id: R00287
   name: UDP-glucose glucophosphohydrolase
   equation: C00029[c] + C00001[c] <=> C00105[c] + C00103[c]
-  enzymes:
+  ec:
   - 3.6.1.8
   - 3.6.1.9
   - 3.6.1.45
 - id: R00515
   name: CTP diphosphohydrolase (diphosphate-forming)
   equation: C00063[c] + C00001[c] <=> C00055[c] + C00013[c]
-  enzymes:
+  ec:
   - 3.6.1.8
   - 3.6.1.9
   - 3.6.1.65
 - id: R03197
   name: Uroporphyrinogen-III carboxy-lyase
   equation: C01051[c] <=> C03263[c] + (4) C00011[c]
-  enzymes:
+  ec:
   - 4.1.1.37
 - id: R04972
   name: Uroporphyrinogen I carboxy-lyase
   equation: C05766[c] <=> C05768[c] + (4) C00011[c]
-  enzymes:
+  ec:
   - 4.1.1.37
 - id: R00036
   name: 5-aminolevulinate hydro-lyase (adding 5-aminolevulinate and cyclizing
   equation: (2) C00430[c] <=> C00931[c] + (2) C00001[c]
-  enzymes:
+  ec:
   - 4.2.1.24
 - id: R06513
   name: dTDPglucose 4,6-hydro-lyase
   equation: C00842[c] <=> C11907[c] + C00001[c]
-  enzymes:
+  ec:
   - 4.2.1.46
 - id: R03165
   name: Hydroxymethylbilane hydro-lyase(cyclizing)
   equation: C01024[c] <=> C01051[c] + C00001[c]
-  enzymes:
+  ec:
   - 4.2.1.75
 - id: R05637
   name: 2-Phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol CMP-lyase (cyclizing)
   equation: C11436[c] <=> C11453[c] + C00055[c]
-  enzymes:
+  ec:
   - 4.6.1.12
 - id: R00401
   name: alanine racemase
   equation: C00041[c] <=> C00133[c]
-  enzymes:
+  ec:
   - 5.1.1.1
 - id: R00260
   name: glutamate racemase
   equation: C00025[c] <=> C00217[c]
-  enzymes:
+  ec:
   - 5.1.1.3
 - id: R06514
   name: dTDP-4-dehydro-6-deoxy-alpha-D-glucose 3,5-epimerase
   equation: C11907[c] <=> C00688[c]
-  enzymes:
+  ec:
   - 5.1.3.13
 - id: R01280
   name: Palmitate:CoA ligase (AMP-forming)
   equation: C00002[c] + C00249[c] + C00010[c] <=> C00020[c] + C00154[c] + C00013[c]
-  enzymes:
+  ec:
   - 6.2.1.3
 - id: R02539
   name: Phenylacetate:CoA ligase
   equation: C00002[c] + C07086[c] + C00010[c] <=> C00020[c] + C00013[c] + C00582[c]
-  enzymes:
+  ec:
   - 6.2.1.30
 - id: R01724
   name: 5-phospho-alpha-D-ribose 1-diphosphate:nicotinate ligase (ADP, diphosphate-forming)
   equation: C01185[c] + C00013[c] + C00008[c] + C00009[c] <=> C00253[c] + C00119[c]
     + C00002[c] + C00001[c] + C00080[c]
-  enzymes:
+  ec:
   - 6.3.4.21
 - id: R06447
   name: (2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate cistransferase (adding
     8 isopentenyl units)
   equation: C00448[c] + (8) C00129[c] <=> C04574[c] + (8) C00013[c]
-  enzymes:
+  ec:
   - 2.5.1.31
 - id: R07237
   name: S-adenosyl-L-methionine:uroporphyrinogen-III C-methyltransferase
   equation: C00019[c] + C01051[c] <=> C00021[c] + C15527[c]
-  enzymes:
+  ec:
   - 2.1.1.107
 - id: R03950
   name: S-Adenosyl-L-methionine:uroporphyrin-III C-methyltransferase
   equation: (2) C00019[c] + C02469[c] <=> (2) C00021[c] + C05778[c]
-  enzymes:
+  ec:
   - 2.1.1.107
 - id: R00084
   name: porphobilinogen:(4-[2-carboxyethyl]-3-[carboxymethyl]pyrrol-2-yl)methyltransferase
     (hydrolysing)
   equation: (4) C00931[c] + C00001[c] <=> C01024[c] + (4) C00014[c]
-  enzymes:
+  ec:
   - 2.5.1.61
 - id: R02272
   name: (S)-4-Amino-5-oxopentanoate 4,5-aminomutase
   equation: C00430[c] <=> C03741[c]
-  enzymes:
+  ec:
   - 5.4.3.8
 - id: R03947
   name: S-Adenosyl-L-methionine:uroporphyrin-III C-methyltransferase
   equation: C02463[c] + C00003[c] <=> C05778[c] + C00004[c] + C00080[c]
-  enzymes:
+  ec:
   - 1.3.1.76
 - id: R02864
   name: S-Adenosyl-L-methionine:uroporphyrin-III C-methyltransferase
   equation: C00748[c] + (2) C00080[c] <=> C14818[c] + C05778[c]
-  enzymes:
+  ec:
   - 4.99.1.4
 - id: R03194
   name: S-adenosyl-L-methionine:uroporphyrin-III C-methyltransferase
   equation: (2) C00019[c] + C01051[c] <=> (2) C00021[c] + C02463[c]
-  enzymes:
+  ec:
   - 2.1.1.107
 - id: R07238
   name: S-adenosyl-L-methionine:precorrin-1 C-methyltransferase
   equation: C00019[c] + C15527[c] <=> C00021[c] + C02463[c]
-  enzymes:
+  ec:
   - 2.1.1.107
 - id: EpxqR
   equation: epxqtrna[c] + C00005[c] + C00080[c] => quetrna[c] + C00006[c] + C00001[c]

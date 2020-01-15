@@ -3034,7 +3034,7 @@
 - id: R01626
   name: Malonyl-CoA:[acyl-carrier-protein] S-malonyltransferase
   equation: C00083[c] + C00229[c] <=> C00010[c] + C01209[c]
-  enzymes:
+  ec:
   - 2.3.1.39
   - 2.3.1.85
   - 2.3.1.86
