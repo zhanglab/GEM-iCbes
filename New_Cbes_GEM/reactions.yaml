@@ -2530,6 +2530,7 @@
   ec:
   - 4.1.2.8
   - 4.2.1.20
+  PMID: 19387555, 11756459
 - id: R00424
   name: GTP 7,8-8,9-dihydrolase
   equation: C00044[c] + C00001[c] <=> C04895[c] + C00058[c]
@@ -2584,10 +2585,11 @@
   - 4.2.3.4
 - id: R00674
   name: L-serine hydro-lyase (adding indole
-  equation: C00065[c] + C00463[c] <=> C00078[c] + C00001[c]
+  equation: C00065[c] + C00463[c] => C00078[c] + C00001[c]
   ec:
   - 4.2.1.20
   - 4.2.1.122
+  PMID: 19387555, 11756459
 - id: R01210
   name: 3-methyl-2-oxobutanoate:NAD+ oxidoreductase (CoA-mehtylpropanoylating)
   equation: C00141[c] + C00010[c] + C00003[c] <=> C00630[c] + C00011[c] + C00004[c]
@@ -2614,9 +2616,10 @@
   - 4.1.2.50
 - id: R02722
   name: L-serine hydro-lyase [adding 1-C-(indol-3-yl)glycerol 3-phosphate
-  equation: C00065[c] + C03506[c] <=> C00078[c] + C00118[c] + C00001[c]
+  equation: C00065[c] + C03506[c] => C00078[c] + C00118[c] + C00001[c]
   ec:
   - 4.2.1.20
+  PMID: 19387555, 11756459
 - id: R00414
   name: UDP-N-acetyl-D-glucosamine 2-epimerase
   equation: C00043[c] + C00001[c] <=> C00645[c] + C00015[c]
