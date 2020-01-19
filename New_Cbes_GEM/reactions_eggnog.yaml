@@ -326,10 +326,6 @@
     + C00041[c]
   genes: Athe_2541
   ec: 2.8.1.6
-- id: fe2Upt
-  equation: C14818[e] => C14818[c]
-  genes: Athe_2602 or Athe_1074
-  ec: TC=2.A.108
 - id: Lac-symp
   equation: C00186[c] + C00080[c] => C00186[e] + C00196[e]
   genes: Athe_2355
