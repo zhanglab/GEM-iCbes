@@ -20,6 +20,7 @@ reactions:
 - include: spontaneous.yaml
 - include: gapfill.yaml
 - include: reactions_eggnog.yaml
+- include: reactions_eggnog_false_false.yaml
 - include: Cbes_associations.tsv
   format: tsv
 - include: manual_gene_assos/gene_asso_transp_complete.tsv
