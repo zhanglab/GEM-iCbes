@@ -4,15 +4,18 @@
   charge: 0
 - id: dna
   name: DNA
-  formula: C20.178546H25.313611O12.324156N7.550805P2.054026
+#  formula: C20.178546H25.313611O12.324156N7.550805P2.054026
+  formual: R 
   charge: 0
 - id: rna
   name: RNA
-  formula: C19.115495H49.377076O7.865604N7.676866P1.99828
+# formula: C19.115495H49.377076O7.865604N7.676866P1.99828
+  formula: R
   charge: 0
 - id: protein
   name: Protein
-  formula: C39.284335H62.129701O11.224605N10.086247S0.254458
+#  formula: C39.284335H62.129701O11.224605N10.086247S0.254458
+  formula: R
   charge: 0
 - id: trace
   name: Trace elements

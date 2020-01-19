@@ -35,7 +35,7 @@
   mol_weight: 787.5656
 - id: C14818
   name: Fe2+
-  charge: 0
+  charge: 2
   formula: Fe
   mol_weight: 55.845
 - id: C03741
