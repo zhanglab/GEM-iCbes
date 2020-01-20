@@ -97,7 +97,7 @@
   formula: C5H6O5R2
 - id: C00698
   name: Cl-
-  charge: 0
+  charge: -1
   formula: Cl
   mol_weight: 35.453
 - id: C00704
@@ -195,12 +195,12 @@
   formula: C13H18O17P2R4
 - id: C06697
   name: Arsenite
-  charge: 0
+  charge: -3
   formula: AsO3
   mol_weight: 122.9198
 - id: C11215
   name: Arsenate ion
-  charge: 0
+  charge: -3
   formula: AsO4
   mol_weight: 138.9192
 - id: C11811
@@ -257,12 +257,12 @@
   mol_weight: 504.438
 - id: C19609
   name: Nickel(2+)
-  charge: 0
+  charge: 2
   formula: Ni
   mol_weight: 58.6934
 - id: C19610
   name: Manganese(2+)
-  charge: 0
+  charge: 2
   formula: Mn
   mol_weight: 54.938
 - id: C19632

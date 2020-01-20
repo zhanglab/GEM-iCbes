@@ -230,5 +230,7 @@
   mol_weight: 382.3261
 - id: C21615
   name: Glycolaldehyde triphosphate
+  charge: 0
   formula: C2H7O11P3
   mol_weight: 299.9201
+

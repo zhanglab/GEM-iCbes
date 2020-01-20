@@ -21,7 +21,7 @@
   comment: Equation of protein composition based on count of each amino acids of C.bescii CDS protein sequences.
 - id: lipid_met
   name: Phosphatidic acid synthase (C. bescii)
-  equation: (0.039594) C03892_kz[c] => lipid[c]
+  equation: (0.039594) C03892_kz[c] => lipids[c]
 #  equation: (0.121723) C05761[c] + (0.482939) C05764[c] + (0.187722) C04088[c] + (0.069951) C01203[c] + 
 #    (0.054143) C181o7ACP[c] + (0.2802) fa3ACP[c] + (0.088921) fa6ACP[c] + (1.402184) fa11ACP[c] + 
 #    (0.033988) fa12ACP[c] + (0.306283) fa1oh3ACP[c] + (1.514027) C00093[c] => lipid[c] + (3.028054) C00229[c]
@@ -52,7 +52,7 @@
   # equation: (0.016) dna[c] + (0.007) rna[c] + (0.516) protein[c] => Biomass[c]
 
   ### late log phase, receibved in Seq 12, 2019
-  equation: (0.009) dna[c] + (0.077) rna[c] + (0.274) protein[c] + (0.036) trace[c] + (0.178) lipid[c] + (0.066) carbohydrate[c] => Biomass[c]
+  equation: (0.009) dna[c] + (0.077) rna[c] + (0.274) protein[c] + (0.036) trace[c] + (0.178) lipids[c] + (0.066) carbohydrate[c] => Biomass[c]
   pathway: Biomass 
 
   ### mid log phase, receibved in Seq 12, 2019

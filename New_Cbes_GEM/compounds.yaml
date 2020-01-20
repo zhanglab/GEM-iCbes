@@ -5,7 +5,7 @@
 - id: dna
   name: DNA
 #  formula: C20.178546H25.313611O12.324156N7.550805P2.054026
-  formual: R 
+  formula: R 
   charge: 0
 - id: rna
   name: RNA
@@ -17,8 +17,8 @@
 #  formula: C39.284335H62.129701O11.224605N10.086247S0.254458
   formula: R
   charge: 0
-- id: lipid
-  name: Lipid
+- id: lipids
+  name: Lipids
   formula: R
   charge: 0
 - id: trace

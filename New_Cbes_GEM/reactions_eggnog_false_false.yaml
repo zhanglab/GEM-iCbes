@@ -15,22 +15,22 @@
   equation: C00331[c] + C00010[c] + (2) C00139[c] <=> C15489[c] + C00011[c] + (2)
     C00138[c] + (2) C00080[c]
   ec: 1.2.7.8
-- id: R07766
-  name: octanoyl-[acp]:protein N6-octanoyltransferase
-  equation: C05752[c] + C16240[c] <=> C16236[c] + C00229[c]
-  ec: 2.3.1.181
-- id: R12428
-  name: octanoyl-[acp]:Glycine-cleavage-system-H N-octanoyltransferase
-  equation: C05752[c] + C22157[c] <=> C22159[c] + C00229[c]
-  ec: 2.3.1.181
-- id: R12427
-  name: octanoyl-[acp]:lipoyl-carrier-protein-E2 N-octanoyltransferase
-  equation: C05752[c] + C22158[c] <=> C22160[c] + C00229[c]
-  ec: 2.3.1.181
-- id: R07769
-  name: lipoyl-[acp]:protein N6-lipoyltransferase
-  equation: C16239[c] + C16240[c] <=> C16237[c] + C00229[c]
-  ec: 2.3.1.181
+#- id: R07766
+#  name: octanoyl-[acp]:protein N6-octanoyltransferase
+#  equation: C05752[c] + C16240[c] <=> C16236[c] + C00229[c]
+#  ec: 2.3.1.181
+#- id: R12428
+#  name: octanoyl-[acp]:Glycine-cleavage-system-H N-octanoyltransferase
+#  equation: C05752[c] + C22157[c] <=> C22159[c] + C00229[c]
+#  ec: 2.3.1.181
+#- id: R12427
+#  name: octanoyl-[acp]:lipoyl-carrier-protein-E2 N-octanoyltransferase
+#  equation: C05752[c] + C22158[c] <=> C22160[c] + C00229[c]
+#  ec: 2.3.1.181
+#- id: R07769
+#  name: lipoyl-[acp]:protein N6-lipoyltransferase
+#  equation: C16239[c] + C16240[c] <=> C16237[c] + C00229[c]
+#  ec: 2.3.1.181
 - id: R06178
   name: peptidoglycan glycosyltransferase
   equation: C05893[c] + C11826_kz1[c] <=> C04574[c] + C11826_kz2[c]
@@ -83,27 +83,27 @@
   name: CoA:apo-ACP pantetheinephosphotransferase
   equation: C00010[c] + C03688[c] => C00054[c] + C00229[c]
   ec: 2.7.8.7
-- id: R07767
-  name: '[protein]-N6-(octanoyl)-L-lysine:an [Fe-S] cluster scaffold protein carrying
-    a [4Fe-4S]2+ cluster sulfurtransferase'
-  equation: C16236[c] + C22154[c] + (2) C00019[c] + (2) C22150[c] + (8) C00080[c]
-    <=> C16832[c] + C22155[c] + (2) C00283[c] + (4) C14818[c] + (2) C00073[c] + (2)
-    C05198[c] + (2) C22151[c]
-  ec: 2.8.1.8
-- id: R12424
-  name: '[glycine cleavage system H]-N6-octanoyl-L-lysine:[Fe-S] cluster scaffold
-    protein carrying a [4Fe-4S]2+ cluster sulfurtransferase'
-  equation: C22159[c] + C22154[c] + (2) C00019[c] + (2) C22150[c] + (8) C00080[c]
-    <=> C02972[c] + C22155[c] + (2) C00283[c] + (4) C14818[c] + (2) C00073[c] + (2)
-    C05198[c] + (2) C22151[c]
-  ec: 2.8.1.8
-- id: R12423
-  name: '[lipoyl-carrier protein E2]-N6-(octanoyl)-L-lysine:[Fe-S] cluster scaffold
-    protein carrying a [4Fe-4S]2+ cluster sulfurtransferase'
-  equation: C22160[c] + C22154[c] + (2) C00019[c] + (2) C22150[c] + (8) C00080[c]
-    <=> C15973[c] + C22155[c] + (2) C00283[c] + (4) C14818[c] + (2) C00073[c] + (2)
-    C05198[c] + (2) C22151[c]
-  ec: 2.8.1.8
+#- id: R07767
+#  name: '[protein]-N6-(octanoyl)-L-lysine:an [Fe-S] cluster scaffold protein carrying
+#    a [4Fe-4S]2+ cluster sulfurtransferase'
+#  equation: C16236[c] + C22154[c] + (2) C00019[c] + (2) C22150[c] + (8) C00080[c]
+#    <=> C16832[c] + C22155[c] + (2) C00283[c] + (4) C14818[c] + (2) C00073[c] + (2)
+#    C05198[c] + (2) C22151[c]
+#  ec: 2.8.1.8
+#- id: R12424
+#  name: '[glycine cleavage system H]-N6-octanoyl-L-lysine:[Fe-S] cluster scaffold
+#    protein carrying a [4Fe-4S]2+ cluster sulfurtransferase'
+#  equation: C22159[c] + C22154[c] + (2) C00019[c] + (2) C22150[c] + (8) C00080[c]
+#    <=> C02972[c] + C22155[c] + (2) C00283[c] + (4) C14818[c] + (2) C00073[c] + (2)
+#    C05198[c] + (2) C22151[c]
+#  ec: 2.8.1.8
+#- id: R12423
+#  name: '[lipoyl-carrier protein E2]-N6-(octanoyl)-L-lysine:[Fe-S] cluster scaffold
+#    protein carrying a [4Fe-4S]2+ cluster sulfurtransferase'
+#  equation: C22160[c] + C22154[c] + (2) C00019[c] + (2) C22150[c] + (8) C00080[c]
+#    <=> C15973[c] + C22155[c] + (2) C00283[c] + (4) C14818[c] + (2) C00073[c] + (2)
+#    C05198[c] + (2) C22151[c]
+#  ec: 2.8.1.8
 - id: AXE
   name: acetylxylan esterase
   equation: AX[c] + (3) C00001[c] <=> (3) C00033[c] + XOS
