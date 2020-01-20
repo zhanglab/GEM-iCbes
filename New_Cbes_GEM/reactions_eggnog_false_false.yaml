@@ -65,7 +65,7 @@
   ec: 2.7.14.1
 - id: R01799_kz
   name: CTP:phosphatidate cytidyltransferase
-  equation: C00063[c] + C00416[c] => C00013[c] + C00269[c]
+  equation: C00063[c] + C00416_kz[c] => C00013[c] + C00269_kz[c]
   ec: 2.7.7.41
 - id: MPTSS
   name: molybdopterin synthase sulfurylase

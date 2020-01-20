@@ -17,6 +17,10 @@
 #  formula: C39.284335H62.129701O11.224605N10.086247S0.254458
   formula: R
   charge: 0
+- id: lipid
+  name: Lipid
+  formula: R
+  charge: 0
 - id: trace
   name: Trace elements
   formula: R
@@ -2736,8 +2740,9 @@
   mol_weight: 116.1152
 - id: C00229
   name: Acyl-carrier protein
-  charge: 0
+#  formula: C11H21N2O7PRS
   formula: HSR
+  charge: 0
 - id: C11437
   name: 1-deoxy-D-xylulose 5-phosphate
   charge: 0

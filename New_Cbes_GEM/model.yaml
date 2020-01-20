@@ -13,6 +13,8 @@ compartments:
 compounds:
 - include: ./compounds.yaml
 - include: compounds_eggnog.yaml
+- include: compounds_revise_p1.yaml
+- include: compounds_revise_p2.yaml
 reactions:
 - include: ./reactions.yaml
 - include: transporter.yaml
@@ -25,6 +27,7 @@ reactions:
   format: tsv
 - include: manual_gene_assos/gene_asso_transp_complete.tsv
   format: tsv
+#- include: test.yaml
 exchange:
 - include: exchange.yaml
 

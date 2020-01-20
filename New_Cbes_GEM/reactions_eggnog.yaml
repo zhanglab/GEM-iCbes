@@ -327,7 +327,7 @@
   genes: Athe_2541
   ec: 2.8.1.6
 - id: Lac-symp
-  equation: C00186[c] + C00080[c] => C00186[e] + C00196[e]
+  equation: C00186[c] + C00080[c] => C00186[e] + C00080[e]
   genes: Athe_2355
   ec: TC=2.A.14
 - id: malateT
