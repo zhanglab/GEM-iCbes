@@ -8,11 +8,6 @@
   equation: C00022[c] + C00118[c] <=> C11437[c] + C00011[c]
   ec:
   - 2.2.1.7
-- id: R10859
-  name: (E)-4-hydroxy-3-methylbut-2-en-1-yl-diphosphate:oxidized flavodoxin oxidoreductase
-  equation: C11811[c] + C00001[c] + C02869[c] <=> C11453[c] + C02745[c]
-  ec:
-  - 1.17.7.3
 - id: R08689
   name: (E)-4-hydroxy-3-methylbut-2-en-1-yl-diphosphate:oxidized ferredoxin oxidoreductase(hydrating)
   equation: C11453[c] + (2) C00138[c] <=> C11811[c] + C00001[c] + (2) C00139[c]

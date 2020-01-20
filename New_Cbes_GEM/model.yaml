@@ -26,7 +26,7 @@ reactions:
 - include: addRxns_whenDotest.yaml
 - include: Cbes_associations.tsv
   format: tsv
-- include: manual_gene_assos/gene_asso_transp_complete.tsv
+- include: gene_asso_transp_complete.tsv
   format: tsv
 - include: gene_asso_addRxns_whenDotest.tsv 
   format: tsv
