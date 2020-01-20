@@ -530,6 +530,6 @@ KAS1OH3	Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158 and At
 THZPSN	(Athe_1547 or Athe_1714) and Athe_0371 and Athe_1546 and Athe_1288 and Athe_0370 and Athe_0369	(peg.2042 or peg.2223) and peg.784 and peg.2041 and peg.1776 and peg.783 and peg.782	(WP_015907992.1 or WP_015908136.1) and WP_015906972.1 and WP_015907991.1 and WP_015907770.1 and WP_015906971.1 and WP_015906970.1	Thiamine biosynthesis
 R00431	Athe_0393	peg.808	WP_015906992.1	Glycolysis / Gluconeogenesis
 R00726	Athe_0393	peg.808	WP_015906992.1	Glycolysis / Gluconeogenesis
-R00258  gap	gap	gap	Alanine, aspartate and glutamate metabolism	
+R00258	gap	gap	gap	Alanine, aspartate and glutamate metabolism	
 R02282	gap	gap     gap	Arginine biosynthesis
 NMPK	gap	gap     gap	Others
