@@ -1,0 +1,34 @@
+- id: R02110_kz
+  name: 1,4-alpha-D-Glucan:1,4-alpha-D-glucan 6-alpha-D-(1,4-alpha-D-glucano)-transferase
+  equation: (2) C00718_kz[c] => C00369_kz[c] + (2) C00001[c]
+  ec:
+  - 2.4.1.18
+- id: R05636
+  name: 1-Deoxy-D-xylulose-5-phosphate pyruvate-lyase (carboxylating)
+  equation: C00022[c] + C00118[c] <=> C11437[c] + C00011[c]
+  ec:
+  - 2.2.1.7
+- id: R10859
+  name: (E)-4-hydroxy-3-methylbut-2-en-1-yl-diphosphate:oxidized flavodoxin oxidoreductase
+  equation: C11811[c] + C00001[c] + C02869[c] <=> C11453[c] + C02745[c]
+  ec:
+  - 1.17.7.3
+- id: R08689
+  name: (E)-4-hydroxy-3-methylbut-2-en-1-yl-diphosphate:oxidized ferredoxin oxidoreductase(hydrating)
+  equation: C11453[c] + (2) C00138[c] <=> C11811[c] + C00001[c] + (2) C00139[c]
+  ec:
+  - 1.17.7.1
+- id: R08210
+  name: dimethylallyl diphosphate:ferredoxin oxidoreductase
+  equation: C00235[c] + (2) C00139[c] + C00001[c] <=> C11811[c] + (2) C00138[c] + (2) C00080[c]
+  ec:
+  - 1.17.7.4
+- id: R05884
+  name: isopentenyl-diphosphate:ferredoxin oxidoreductase
+  equation: C11811[c] + (2) C00138[c] + (2) C00080[c] <=> C00129[c] + (2) C00139[c] + C00001[c]
+  ec:
+  - 1.17.7.4
+- id: PPTGS_Cbes
+  name: Peptidoglycan subunit synthesis
+  equation: C05898[c] => peptido_Cbes[c] + C04574[c]
+  ec: 2.4.1.219

@@ -109,3 +109,8 @@
   name: Carbohydrate
   formula: R
   charge: 0
+- id: peptido_Cbes
+  name: Peptidoglycan subunit of Caldicellulosiruptor bescii
+  formula: C40H64O21N8
+  charge: 0
+  mol_weight: 992.97
