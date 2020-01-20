@@ -3047,3 +3047,8 @@
   name: 1,2-diacylglycerol-3-phosphate biosynthesis
   equation: (3) C05761[c] + (12) C05764[c] + (5) C04088[c] + (2) C01203[c] + (1) C181o7ACP[c] + (7) fa3ACP[c] + (2) fa6ACP[c] + (35) fa11ACP[c] + (1) fa12ACP[c] + (8) fa1oh3ACP[c] + (38) C00093[c] => C00416_kz[c] + (76) C00229[c]
   ec: 2.3.1.274, 2.3.1.275, 2.3.1.51
+- id: R02110_kz
+  name: 1,4-alpha-D-Glucan:1,4-alpha-D-glucan 6-alpha-D-(1,4-alpha-D-glucano)-transferase
+  equation: (2) C00718_kz[c] => C00369_kz[c] + (2) C00001[c]
+  ec:
+  - 2.4.1.18

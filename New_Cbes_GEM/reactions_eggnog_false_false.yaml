@@ -41,7 +41,7 @@
   ec: 2.4.1.129
 - id: R02421_kz
   name: ADP-glucose starch synthase
-  equation: C00498[c] + C00718_kz1[c] => C00008[c] + C00718_kz2[c]
+  equation: (4) C00498[c]  => (4) C00008[c] + C00718_kz[c]
   ec: 2.4.1.21
 - id: R02689_kz
   name: UDP-alpha-D-glucose:1,2-diacyl-sn-glycerol 3-beta-D-glucosyltransferase
