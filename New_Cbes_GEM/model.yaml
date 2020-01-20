@@ -28,7 +28,9 @@ reactions:
   format: tsv
 - include: gene_asso_transp_complete.tsv
   format: tsv
-- include: gene_asso_addRxns_whenDotest.tsv 
+- include: gene_assoc_eggnog_complete.tsv
+  format: tsv
+- include: gene_asso_addRxns_whenDotest_complete.tsv 
   format: tsv
 #- include: test.yaml
 exchange:

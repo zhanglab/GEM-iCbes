@@ -1,4 +1,4 @@
-id	genes	genes_peg	genes_ncbi	subsystem
+id	genes	genes_peg	genes_wp	subsystem
 cysT	Unknown	Unknown	Unknown	Transport
 lipoateT	Unknown	Unknown	Unknown	Transport
 borateT	Unknown	Unknown	Unknown	Transport
@@ -19,7 +19,7 @@ mnUpt	Athe_1074	peg.1555	WP_015907584.1	Transport
 znEfflux	Athe_0314	peg.725	WP_015906919.1	Transport
 coEfflux	Athe_0314 or Athe_2280	peg.725 or peg.2848	WP_015906919.1 or WP_041727209.1	Transport
 cuEfflux	Athe_2280	peg.2848	WP_041727209.1	Transport
-niUpt	- and - and Athe_0859 and Athe_0860	peg.1318 and peg.1319 and peg.1320 and peg.1321	WP_041727097.1 and WP_041727099.1 and WP_015907400.1 and WP_015907401.1	Transport
+niUpt	peg.1318 and peg.1319 and Athe_0859 and Athe_0860	peg.1318 and peg.1319 and peg.1320 and peg.1321	WP_041727097.1 and WP_041727099.1 and WP_015907400.1 and WP_015907401.1	Transport
 moABC	Athe_0273 and Athe_0274 and Athe_0275	peg.674 and peg.675 and peg.676	WP_015906887.1 and WP_015906888.1 and WP_015906889.1	Transport
 fe2t	Athe_1562 and Athe_1563 and Athe_1564	peg.2057 and peg.2058 and peg.2059	WP_013430127.1 and WP_015908006.1 and WP_013403073.1	Transport
 piABC	(Athe_2753 or Athe_1161) and Athe_1162 and Athe_1163 and Athe_1483	(peg.358 or peg.1644) and peg.1645 and peg.1646 and peg.1976	(WP_015909044.1 or WP_015907659.1) and WP_015907660.1 and WP_015907661.1 and WP_013430199.1	Transport
