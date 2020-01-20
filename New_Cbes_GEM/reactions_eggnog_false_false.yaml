@@ -10,7 +10,7 @@
   name: 'L-glutamate-semialdehyde: NADP+ oxidoreductase(L-glutamyl-tRNA(Glu)-forming)'
   equation: C02987[c] + C00005[c] + C00080[c] => C03741[c] + C01641[c] + C00006[c]
   ec: 1.2.1.70
-- id: R07161_h
+- id: R07161
   name: 3-(indol-3-yl)pyruvate:ferredoxin oxidoreductase (decarboxylating,CoA-indole-acetylating)
   equation: C00331[c] + C00010[c] + (2) C00139[c] <=> C15489[c] + C00011[c] + (2)
     C00138[c] + (2) C00080[c]
@@ -33,27 +33,27 @@
 #  ec: 2.3.1.181
 - id: R06178
   name: peptidoglycan glycosyltransferase
-  equation: C05893[c] + C11826_kz1[c] <=> C04574[c] + C11826_kz2[c]
+  equation: C05893[c] + C11826[c] <=> C04574[c] + C11826[c]
   ec: 2.4.1.129
 - id: R04519
   name: peptidoglycan glycosyltransferase
-  equation: C05898[c] + C11827_kz1[c] <=> C04574[c] + C11827_kz2[c]
+  equation: C05898[c] + C11827[c] <=> C04574[c] + C11827[c]
   ec: 2.4.1.129
-- id: R02421_kz
+- id: R02421
   name: ADP-glucose starch synthase
-  equation: (4) C00498[c]  => (4) C00008[c] + C00718_kz[c]
+  equation: (4) C00498[c]  => (4) C00008[c] + C00718[c]
   ec: 2.4.1.21
-- id: R02689_kz
+- id: R02689
   name: UDP-alpha-D-glucose:1,2-diacyl-sn-glycerol 3-beta-D-glucosyltransferase
-  equation: C00029[c] + C00641_kz[c] <=> C00015[c] + C04046_kz[c]
+  equation: C00029[c] + C00641[c] <=> C00015[c] + C04046[c]
   ec: 2.4.1.315
-- id: R04377_kz
+- id: R04377
   name: UDP-alpha-D-glucose:1,2-diacyl-3-O-(beta-D-glucopyranosyl)-sn-glycerol 6-glucosyltransferase
-  equation: C04046_kz[c] + C00029[c] <=> C06040_kz[c] + C00015[c]
+  equation: C04046[c] + C00029[c] <=> C06040[c] + C00015[c]
   ec: 2.4.1.315
-- id: R10807_kz
+- id: R10807
   name: UDP-alpha-D-glucose:diglucosyldiacylglycerol 6-glucosyltransferase
-  equation: C06040_kz[c] + C00029[c] <=> C20860_kz[c] + C00015[c]
+  equation: C06040[c] + C00029[c] <=> C20860[c] + C00015[c]
   ec: 2.4.1.315
 - id: QueA
   name: S-adenosylmethionine:tRNA ribosyltransferase-isomerase
@@ -63,23 +63,23 @@
   name: ATP:[protein]-L-arginine N(omega)-phosphotransferase
   equation: C00002[c] + C00613[c] <=> C00008[c] + C21101[c]
   ec: 2.7.14.1
-- id: R01799_kz
+- id: R01799
   name: CTP:phosphatidate cytidyltransferase
-  equation: C00063[c] + C00416_kz[c] => C00013[c] + C00269_kz[c]
+  equation: C00063[c] + C00416[c] => C00013[c] + C00269[c]
   ec: 2.7.7.41
 - id: MPTSS
   name: molybdopterin synthase sulfurylase
   equation: C15810[c] + C00002[c] <=> C15813[c] + C00013[c]
   ec: 2.7.7.80
-- id: R02030_kz
+- id: R02030
   name: CDP-diacylglycerol:phosphatidylglycerol 3-phosphatidyltransferase
-  equation: C00344_kz[c] + C00269_kz[c] => C05980_kz[c] + C00055[c]
+  equation: C00344[c] + C00269[c] => C05980[c] + C00055[c]
   ec: 2.7.8.41
-- id: R01801_kz
+- id: R01801
   name: CDPdiacylglycerol:glycerol-3-phosphate phosphatidyltransferase
-  equation: C00269_kz[c] + C00093[c] => C00055[c] + C03892_kz[c]
+  equation: C00269[c] + C00093[c] => C00055[c] + C03892[c]
   ec: 2.7.8.5
-- id: R01625_kz
+- id: R01625
   name: CoA:apo-ACP pantetheinephosphotransferase
   equation: C00010[c] + C03688[c] => C00054[c] + C00229[c]
   ec: 2.7.8.7
@@ -108,7 +108,7 @@
   name: acetylxylan esterase
   equation: AX[c] + (3) C00001[c] <=> (3) C00033[c] + XOS
   ec: 3.1.1.72
-- id: R01433_kz
+- id: R01433
   name: D-xylose xylohydrolase
   equation: XOS[c] + (3) C00001[c] => (4) C00181[c]
   ec: 3.2.1.37
@@ -118,17 +118,17 @@
   ec: 3.2.1.55
 - id: Xylase
   name: Endo-1,4-beta-xylanase (secreted)
-  equation: C00707_kz[e] + (2) C00001[e] => (2) XOS[e] + AXOS[e]
+  equation: C00707[e] + (2) C00001[e] => (2) XOS[e] + AXOS[e]
   ec: 3.2.1.55 (secreted)
-- id: R01762_kz
+- id: R01762
   name: alpha-arabinosidase
-  equation: C02474_kz[e] + (5) C00001[e] => (6) C00259[e]
+  equation: C02474[e] + (5) C00001[e] => (6) C00259[e]
   ec: 3.2.1.55 (secreted)
 - id: R11719
   name: dihydroneopterin triphosphate aldolase (PTS III)
   equation: C04895[c] <=> C01300[c] + C21615[c]
   ec: 4.1.2.60
-- id: R09394_kz
+- id: R09394
   name: GTP 3',8-cyclase
   equation: C00044[c] + C00019[c] + C00004[c] + C00080[c]  => C21310[c] + C05198[c] + C00073[c]
     + C00003[c]

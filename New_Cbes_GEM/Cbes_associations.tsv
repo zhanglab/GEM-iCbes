@@ -1,13 +1,13 @@
 id	genes	genes_peg	genes_wp	subsystem
 R08198	Athe_2125 or Athe_1994	peg.2680 or peg.2522	WP_015908470.1 or WP_015908365.1	-
-R11312_kz	Athe_0372	peg.785	WP_015906973.1	-
+R11312	Athe_0372	peg.785	WP_015906973.1	-
 R03634	Athe_1104 or Athe_0468	peg.1585 or peg.888	WP_015907610.1 or WP_015907063.1	Galactose metabolism
 R05549	Athe_1104 or Athe_0468	peg.1585 or peg.888	WP_015907610.1 or WP_015907063.1	Galactose metabolism
 R07413	Athe_1569 or Athe_2028	peg.2066 or peg.2574	WP_015908011.1 or WP_015908389.1	Pentose and glucuronate interconversions
 R10949	Athe_1540 or Athe_1541	peg.2035 or peg.2036	WP_015907985.1 or WP_015907986.1	-
 R01196	Athe_1708 or Athe_1708 or Athe_0874 or Athe_0876 or Athe_0875 or Athe_1709 or Athe_1709 or Athe_0877	peg.2217 or peg.2217 or peg.1337 or peg.1339 or peg.1338 or peg.2218 or peg.2218 or peg.1340	WP_015908131.1 or WP_015908131.1 or WP_015907411.1 or WP_015907412.1 or WP_013290123.1 or WP_015908132.1 or WP_015908132.1 or WP_015907413.1	-
 R01199	Athe_1708 or Athe_1708 or Athe_0874 or Athe_0876 or Athe_0875 or Athe_1709 or Athe_1709 or Athe_0877	peg.2217 or peg.2217 or peg.1337 or peg.1339 or peg.1338 or peg.2218 or peg.2218 or peg.1340	WP_015908131.1 or WP_015908131.1 or WP_015907411.1 or WP_015907412.1 or WP_013290123.1 or WP_015908132.1 or WP_015908132.1 or WP_015907413.1	-
-R07641_kz	Athe_1540 or Athe_1541	peg.2035 or peg.2036	WP_015907985.1 or WP_015907986.1	-
+R07641	Athe_1540 or Athe_1541	peg.2035 or peg.2036	WP_015907985.1 or WP_015907986.1	-
 R00868	Athe_0537	peg.968	WP_015907121.1	Fructose and mannose metabolism
 R01542	Athe_2383	peg.2965	WP_015908705.1	Pentose and glucuronate interconversions
 R07133	Athe_0698	peg.1152	WP_015907255.1	-
@@ -25,12 +25,12 @@ R09524	Athe_0702 and Athe_0703 and Athe_0704	peg.1156 and peg.1157 and peg.1158	
 R00230	Athe_1494	peg.1987	WP_015907948.1	Taurine and hypotaurine metabolism
 R00921	Athe_1494	peg.1987	WP_015907948.1	Propanoate metabolism
 R00952	Athe_0460 or Athe_0459	peg.880 or peg.879	WP_015907055.1 or WP_015907054.1	Starch and sucrose metabolism
-R07264_kz	Athe_0398	peg.813	WP_015906997.1	-
+R07264	Athe_0398	peg.813	WP_015906997.1	-
 R11398	Athe_0536	peg.967	WP_015907120.1	-
-R02727_kz	Athe_0403 or Athe_0415	peg.818 or peg.834	WP_015907002.1 or -	-
+R02727	Athe_0403 or Athe_0415	peg.818 or peg.834	WP_015907002.1 or -	-
 R01071	Athe_1480 or Athe_1479	peg.1973 or peg.1972	WP_015907938.1 or WP_013430203.1	Histidine metabolism
-R03223_kz	Athe_0372	peg.785	WP_015906973.1	Thiamine metabolism
-R10712_kz	Athe_0372	peg.785	WP_015906973.1	Thiamine metabolism
+R03223	Athe_0372	peg.785	WP_015906973.1	Thiamine metabolism
+R10712	Athe_0372	peg.785	WP_015906973.1	Thiamine metabolism
 R04457	Athe_0561	peg.993	WP_015907141.1	Riboflavin metabolism
 R00066	Athe_0563	peg.995	WP_015907143.1	Riboflavin metabolism
 R00694	Athe_1477	peg.1970	WP_015907936.1	Phenylalanine metabolism
@@ -39,7 +39,7 @@ R05085	Athe_2126	peg.2681	WP_015908471.1	Vitamin B6 metabolism
 R04173	Athe_2126	peg.2681	WP_015908471.1	Glycine, serine and threonine metabolism
 R05839	Athe_1910	peg.2426	WP_015908291.1	Vitamin B6 metabolism
 R01580	Athe_1910	peg.2426	WP_015908291.1	Vitamin B6 metabolism
-R03231_kz	Athe_2542	peg.77	WP_015908860.1	Biotin metabolism
+R03231	Athe_2542	peg.77	WP_015908860.1	Biotin metabolism
 R03243	Athe_1477	peg.1970	WP_015907936.1	Histidine metabolism
 R00299	Athe_0552	peg.984	WP_015907133.1	Glycolysis / Gluconeogenesis
 R00760	Athe_2118	peg.2673	WP_015908465.1	Starch and sucrose metabolism
@@ -61,26 +61,26 @@ R01541	Athe_2385	peg.2967	WP_015908707.1	Pentose phosphate pathway
 R01902	Athe_0841	peg.1301	WP_015907384.1	Pentose and glucuronate interconversions
 R03014	Athe_0841	peg.1301	WP_015907384.1	Fructose and mannose metabolism
 R03241	Athe_0841	peg.1301	WP_015907384.1	Fructose and mannose metabolism
-R02071_kz	Athe_0147	peg.542	WP_015906777.1	-
-R01092_kz	Athe_0939	peg.1409	WP_015907466.1	Galactose metabolism
+R02071	Athe_0147	peg.542	WP_015906777.1	-
+R01092	Athe_0939	peg.1409	WP_015907466.1	Galactose metabolism
 R00764	Athe_1824	peg.2336	WP_015908214.1	Glycolysis / Gluconeogenesis
 R00315	Athe_1493	peg.1986	WP_013430189.1	Taurine and hypotaurine metabolism
 R01353	Athe_1493	peg.1986	WP_013430189.1	Propanoate metabolism
 R01512	Athe_1405	peg.1899	WP_015907871.1	Glycolysis / Gluconeogenesis
 PGK2	Athe_1405	peg.1899	WP_015907871.1	-
 R02649	Athe_1078	peg.1559	WP_015907588.1	Arginine biosynthesis
-R00502_kz	Athe_0938	peg.1408	WP_015907465.1	Galactose metabolism
+R00502	Athe_0938	peg.1408	WP_015907465.1	Galactose metabolism
 R00885	Athe_1471	peg.1964	WP_015907930.1	Fructose and mannose metabolism
 R00883	Athe_0233	peg.632	WP_015906853.1	Fructose and mannose metabolism
 R00948	Athe_0557 and Athe_0556	peg.989 and peg.988	WP_015907138.1 and WP_015907137.1	Starch and sucrose metabolism
 R09726	Athe_0831	peg.1291	WP_015907374.1	Folate biosynthesis
-R01718_kz	Athe_0165	peg.561	WP_015906793.1	-
+R01718	Athe_0165	peg.561	WP_015906793.1	-
 R00801	Athe_0165	peg.561	WP_015906793.1	Galactose metabolism
 R10867	-	peg.484	WP_079503994.1	-
-R10040_kz	Athe_0458	peg.878	WP_015907053.1	-
-R10035_kz	Athe_0458	peg.878	WP_015907053.1	-
+R10040	Athe_0458	peg.878	WP_015907053.1	-
+R10035	Athe_0458	peg.878	WP_015907053.1	-
 R04998	Athe_0458	peg.878	WP_015907053.1	Phenylpropanoid biosynthesis
-R10039_kz	Athe_0458	peg.878	WP_015907053.1	-
+R10039	Athe_0458	peg.878	WP_015907053.1	-
 R02985	Athe_0458	peg.878	WP_015907053.1	Cyanoamino acid metabolism
 R02558	Athe_0458	peg.878	WP_015907053.1	Cyanoamino acid metabolism
 R01103	Athe_1104 or Athe_0468	peg.1585 or peg.888	WP_015907610.1 or WP_015907063.1	Galactose metabolism
@@ -89,7 +89,7 @@ R02926	Athe_1104 or Athe_0468	peg.1585 or peg.888	WP_015907610.1 or WP_015907063
 R01329	Athe_1104 or Athe_0468	peg.1585 or peg.888	WP_015907610.1 or WP_015907063.1	Galactose metabolism
 R01104	Athe_1104 or Athe_0468	peg.1585 or peg.888	WP_015907610.1 or WP_015907063.1	Galactose metabolism
 R01101	Athe_1104 or Athe_0468	peg.1585 or peg.888	WP_015907610.1 or WP_015907063.1	Galactose metabolism
-R04783_kz	Athe_0857 or Athe_1927	peg.1317 or peg.2445	WP_041727352.1 or WP_015908307.1	-
+R04783	Athe_0857 or Athe_1927	peg.1317 or peg.2445	WP_041727352.1 or WP_015908307.1	-
 R01100	Athe_0857 or Athe_1927	peg.1317 or peg.2445	WP_041727352.1 or WP_015908307.1	-
 R08127	Athe_2086 or Athe_2089	peg.2636 or peg.2639	WP_079504033.1 or -	Flavone and flavonol biosynthesis
 R08260	Athe_2086 or Athe_2089	peg.2636 or peg.2639	WP_079504033.1 or -	Drug metabolism - other enzymes
@@ -144,12 +144,12 @@ R00772	Athe_0619	peg.1059	WP_015907196.1	-
 R00771	Athe_0619	peg.1059	WP_015907196.1	Glycolysis / Gluconeogenesis
 R09952	Athe_0345	peg.756	WP_015906946.1	Inositol phosphate metabolism
 R01518	Athe_1322 or Athe_1404	peg.1810 or peg.1898	WP_015907794.1 or WP_015907870.1	Glycolysis / Gluconeogenesis
-R02728_kz	Athe_0397	peg.812	WP_015906996.1	Glycolysis / Gluconeogenesis
+R02728	Athe_0397	peg.812	WP_015906996.1	Glycolysis / Gluconeogenesis
 R03182	Athe_2543	peg.78	WP_015908861.1	Biotin metabolism
 R01954	Athe_1249	peg.1736	WP_015907739.1	Arginine biosynthesis
 R01061	Athe_1406	peg.1900	WP_015907872.1	Glycolysis / Gluconeogenesis
 R01641	Athe_2059 or Athe_2060 or Athe_2328	peg.2605 or peg.2606 or peg.2903	WP_015908415.1 or WP_015908416.1 or WP_015908653.1	Pentose phosphate pathway
-R10948_kz	Athe_1540 or Athe_1541	peg.2035 or peg.2036	WP_015907985.1 or WP_015907986.1	-
+R10948	Athe_1540 or Athe_1541	peg.2035 or peg.2036	WP_015907985.1 or WP_015907986.1	-
 R09030	Athe_0632	peg.1073	WP_015907207.1	Fructose and mannose metabolism
 R01074	Athe_0209 or Athe_0209 or Athe_0209 or Athe_0209	peg.607 or peg.607 or peg.607 or peg.607	WP_015906830.1 or WP_015906830.1 or WP_015906830.1 or WP_015906830.1	Biotin metabolism
 R03012	Athe_1478	peg.1971	WP_015907937.1	Histidine metabolism
@@ -157,7 +157,7 @@ R02060	Athe_2324	peg.2899	WP_015908649.1	Amino sugar and nucleotide sugar metabo
 R01818	Athe_1752 or Athe_0233	peg.2262 or peg.632	WP_015908150.1 or WP_015906853.1	Fructose and mannose metabolism
 R00206	Athe_1409	peg.1902	WP_015907875.1	Pyruvate metabolism
 R00425	Athe_0562	peg.994	WP_015907142.1	Riboflavin metabolism
-R00575_kz	Athe_1540 or Athe_1541	peg.2035 or peg.2036	WP_015907985.1 or WP_015907986.1	Pyrimidine metabolism
+R00575	Athe_1540 or Athe_1541	peg.2035 or peg.2036	WP_015907985.1 or WP_015907986.1	Pyrimidine metabolism
 R00143	Athe_1172 and Athe_1173	peg.1657 and peg.1658	WP_015907667.1 and WP_015907668.1	Nitrogen metabolism
 R01466	Athe_0655	peg.1097	WP_015907227.1	Glycine, serine and threonine metabolism
 R07456	Athe_1909 or Athe_1908	peg.2425 or peg.2424	WP_013429831.1 or WP_015908290.1	Vitamin B6 metabolism
@@ -176,7 +176,7 @@ R00709	Athe_0525	peg.956	WP_015907110.1	Citrate cycle (TCA cycle)
 R01082	Athe_2746 or Athe_0510	peg.351 and peg.941	WP_015909037.1 and WP_015907096.1	Citrate cycle (TCA cycle)
 R00351	Athe_0518 or Athe_2226	peg.949 or peg.2790	WP_015907103.1 or WP_015908559.1	Citrate cycle (TCA cycle)
 R01197	Athe_1096 or Athe_1097 or Athe_1098	peg.1577 or peg.1578 or peg.1579	WP_041727367.1 or WP_015907604.1 or WP_015907605.1	-
-R04326_kz	Athe_1446	peg.1938	WP_015907906.1	One carbon pool by folate
+R04326	Athe_1446	peg.1938	WP_015907906.1	One carbon pool by folate
 R07399	Athe_0507	peg.938	WP_015907094.1	Valine, leucine and isoleucine biosynthesis
 R02508	Athe_1124 or Athe_1190	peg.1606 or peg.1675	WP_015907625.1 or WP_015907685.1	-
 R07396	Athe_0846	peg.1306	WP_015907389.1	Cysteine and methionine metabolism
@@ -233,7 +233,7 @@ R05032	Athe_0778	peg.1237	WP_015907331.1	Peptidoglycan biosynthesis
 R09942	Athe_0459	peg.879	WP_015907054.1	Amino sugar and nucleotide sugar metabolism
 R01561	Athe_1772	peg.2283	WP_015908167.1	Purine metabolism
 R02557	Athe_1772	peg.2283	WP_015908167.1	Purine metabolism
-R02294_kz	Athe_1772	peg.2283	WP_015908167.1	Nicotinate and nicotinamide metabolism
+R02294	Athe_1772	peg.2283	WP_015908167.1	Nicotinate and nicotinamide metabolism
 R02295	Athe_1772	peg.2283	WP_015908167.1	Nicotinate and nicotinamide metabolism
 R02297	Athe_1772	peg.2283	WP_015908167.1	Purine metabolism
 R01863	Athe_1772	peg.2283	WP_015908167.1	Purine metabolism
@@ -245,7 +245,7 @@ R01870	Athe_1382	peg.1873	WP_015907851.1	Pyrimidine metabolism
 R08231	Athe_1382	peg.1873	WP_015907851.1	Drug metabolism - other enzymes
 R01072	Athe_1448	peg.1940	WP_015907908.1	Purine metabolism
 R01073	Athe_1694	peg.2203	WP_015908118.1	Phenylalanine, tyrosine and tryptophan biosynthesis
-R03348_kz	Athe_1214	peg.1701	WP_015907706.1	Nicotinate and nicotinamide metabolism
+R03348	Athe_1214	peg.1701	WP_015907706.1	Nicotinate and nicotinamide metabolism
 R02296	Athe_1775	peg.2286	WP_015908170.1	Pyrimidine metabolism
 R02298	Athe_1775	peg.2286	WP_015908170.1	-
 R01876	Athe_1775	peg.2286	WP_015908170.1	Pyrimidine metabolism
@@ -263,11 +263,11 @@ R00966	Athe_0633	peg.1074	WP_013403882.1	Pyrimidine metabolism
 R10339	Athe_0500	peg.931	WP_015907088.1	-
 R03066	Athe_0210	peg.608	WP_015906831.1	Folate biosynthesis
 R03067	Athe_0210	peg.608	WP_015906831.1	Folate biosynthesis
-R01920_kz	Athe_1314	peg.1802	WP_015907789.1	Cysteine and methionine metabolism
-R08359_kz	Athe_1314	peg.1802	WP_015907789.1	Glutathione metabolism
-R02869_kz	Athe_1314	peg.1802	WP_015907789.1	Cysteine and methionine metabolism
+R01920	Athe_1314	peg.1802	WP_015907789.1	Cysteine and methionine metabolism
+R08359	Athe_1314	peg.1802	WP_015907789.1	Glutathione metabolism
+R02869	Athe_1314	peg.1802	WP_015907789.1	Cysteine and methionine metabolism
 R03460	Athe_0843	peg.1303	WP_015907386.1	Phenylalanine, tyrosine and tryptophan biosynthesis
-R03132_kz	Athe_1615	peg.2123	WP_015908048.1	Cysteine and methionine metabolism
+R03132	Athe_1615	peg.2123	WP_015908048.1	Cysteine and methionine metabolism
 R03601	Athe_1615	peg.2123	WP_015908048.1	-
 R00897	Athe_1615	peg.2123	WP_015908048.1	Cysteine and methionine metabolism
 R03217	Athe_1124 or Athe_1190	peg.1606 or peg.1675	WP_015907625.1 or WP_015907685.1	Cysteine and methionine metabolism
@@ -353,7 +353,7 @@ R01049	Athe_0636	peg.1077	WP_013403879.1	Pentose phosphate pathway
 R00619	Athe_1805	peg.2317	WP_015908196.1	Thiamine metabolism
 R03503	Athe_0212	peg.610	WP_015906833.1	Folate biosynthesis
 R00429	Athe_1951	peg.2470	WP_041727173.1	Purine metabolism
-R00137_kz	Athe_1250	peg.1737	WP_015907740.1	Nicotinate and nicotinamide metabolism
+R00137	Athe_1250	peg.1737	WP_015907740.1	Nicotinate and nicotinamide metabolism
 R03005	Athe_1250	peg.1737	WP_015907740.1	Nicotinate and nicotinamide metabolism
 R00161	Athe_1055	peg.1536	WP_015907568.1	Riboflavin metabolism
 R00416	Athe_0635	peg.1076	WP_015907209.1	Amino sugar and nucleotide sugar metabolism
@@ -375,7 +375,7 @@ R01856	Athe_0711	peg.1165	WP_015907267.1	Purine metabolism
 R04936	Athe_0883	peg.1346	WP_079504052.1	-
 R02734	Athe_0431	peg.851	WP_015907027.1	Lysine biosynthesis
 R01579	Athe_1450	peg.1942	WP_015907910.1	D-Glutamine and D-glutamate metabolism
-R02322_kz	Athe_0985	peg.1464	WP_015907503.1	Nicotinate and nicotinamide metabolism
+R02322	Athe_0985	peg.1464	WP_015907503.1	Nicotinate and nicotinamide metabolism
 R02733	Athe_1911	peg.2427	WP_015908292.1	Lysine biosynthesis
 R01993	Athe_1376	peg.1866	WP_015907845.1	Pyrimidine metabolism
 R01157	Athe_1315	peg.1803	WP_013430350.1	Arginine and proline metabolism
@@ -440,7 +440,7 @@ R02783	Athe_0776	peg.1235	WP_015907329.1	D-Glutamine and D-glutamate metabolism
 R04208	Athe_1447	peg.1939	WP_015907907.1	Purine metabolism
 R02301	Athe_1260	peg.1747	WP_041727136.1	One carbon pool by folate
 R04144	Athe_1444	peg.1936	WP_015907904.1	Purine metabolism
-R07404_kz	Athe_1177	peg.1662	WP_015907672.1	Purine metabolism
+R07404	Athe_1177	peg.1662	WP_015907672.1	Purine metabolism
 R00571	Athe_0078	peg.462	WP_015906719.1	Pyrimidine metabolism
 R00573	Athe_0078	peg.462	WP_015906719.1	Pyrimidine metabolism
 R09978	Athe_0191	peg.588	WP_015906813.1	Folate biosynthesis
@@ -494,9 +494,9 @@ R02722	Athe_1690 and (Athe_1691 or Athe_0311)	peg.2199 and (peg.2200 or peg.411)
 R00414	Athe_1946	peg.2465	WP_015908323.1	Amino sugar and nucleotide sugar metabolism
 R00420	Athe_1946	peg.2465	WP_015908323.1	Amino sugar and nucleotide sugar metabolism
 R02707	Athe_1946	peg.2465	WP_015908323.1	-
-R04771_kz	Athe_0686	peg.1139	WP_013430869.1	-
+R04771	Athe_0686	peg.1139	WP_013430869.1	-
 R00177	Athe_0686	peg.1139	WP_013430869.1	Cysteine and methionine metabolism
-R01859_kz	Athe_1316	peg.1804	WP_013430349.1	Valine, leucine and isoleucine degradation
+R01859	Athe_1316	peg.1804	WP_013430349.1	Valine, leucine and isoleucine degradation
 R08924	Athe_1316	peg.1804	WP_013430349.1	-
 R04292	Athe_1212	peg.1699	WP_015907704.1	Nicotinate and nicotinamide metabolism
 R10002	Athe_0196	peg.593	WP_015906818.1	Folate biosynthesis
@@ -515,7 +515,7 @@ R00114	(Athe_2034 or Athe_2360) and Athe_2357     (peg.2580 or peg.2936) and peg
 R00578	Athe_1539	peg.2034	WP_015907984.1	Alanine, aspartate and glutamate metabolism
 R00937	? or Athe_1156	? or peg.1639	? or WP_015907655.1	One carbon pool by folate
 R00940	? or Athe_1156	? or peg.1639	? or WP_015907655.1	One carbon pool by folate
-R00742_kz	Athe_1316	peg.1804	WP_013430349.1	Fatty acid biosynthesis
+R00742	Athe_1316	peg.1804	WP_013430349.1	Fatty acid biosynthesis
 R10052	Athe_2099	peg.2650	WP_015908448.1	2-Oxocarboxylic acid metabolism
 KAS2	Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158 and Athe_1157 and Athe_1152	peg.1637 and peg.1639 and peg.2593 and peg.611 and peg.1641 and peg.1640 and peg.1635	WP_015907653.1 and WP_015907655.1 and WP_013429653.1 and WP_015906834.1 and WP_015907656.1 and WP_013290663.1 and WP_015907651.1	Fatty acid biosynthesis
 KAS3	Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158 and Athe_1157 and Athe_1152	peg.1637 and peg.1639 and peg.2593 and peg.611 and peg.1641 and peg.1640 and peg.1635	WP_015907653.1 and WP_015907655.1 and WP_013429653.1 and WP_015906834.1 and WP_015907656.1 and WP_013290663.1 and WP_015907651.1	Fatty acid biosynthesis

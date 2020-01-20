@@ -43,10 +43,6 @@
   charge: 1
   formula: K
   mol_weight: 39.0983
-- id: C00269
-  name: CDP-diacylglycerol
-  charge: 0
-  formula: C14H19N3O15P2R2
 - id: C00305
   name: Magnesium cation
   charge: 2
@@ -66,14 +62,6 @@
   name: Reduced rubredoxin
   formula: Fe1S0
   charge: 2
-- id: C00344
-  name: Phosphatidylglycerol
-  charge: 0
-  formula: C8H13O10PR2
-- id: C00416
-  name: Phosphatidate
-  charge: 0
-  formula: C5H7O8PR2
 - id: C00435
   name: Oxidized rubredoxin
   formula: Fe1S0
@@ -91,10 +79,6 @@
   name: Protein histidine
   charge: 0
   formula: C7H8N4O2R2
-- id: C00641
-  name: 1,2-Diacyl-sn-glycerol
-  charge: 0
-  formula: C5H6O5R2
 - id: C00698
   name: Cl-
   charge: -1
@@ -105,7 +89,7 @@
   charge: -1
   formula: O2
   mol_weight: 31.9988
-- id: C00707_kz
+- id: C00707
   name: Xylan
   charge: 0
   formula: H2O(C5H8O4)8(C10H16O8)4
@@ -114,14 +98,14 @@
   name: Pectin
   charge: 0
   formula: (C26H36O24)n
-- id: C00718_kz
+- id: C00718
   name: Amylose(n=4)
   charge: 0
   formula: H2O(C6H10O5)4
-- id: C00718_kz2
-  name: Amylose(n=5)
-  charge: 0
-  formula: H2O(C6H10O5)5
+#- id: C00718
+#  name: Amylose(n=5)
+#  charge: 0
+#  formula: H2O(C6H10O5)5
 - id: C00725
   name: Lipoate
   charge: 0
@@ -142,11 +126,11 @@
   charge: 2
   formula: Cd
   mol_weight: 112.411
-- id: C01935_kz
+- id: C01935
   name: Maltodextrin(n=4)
   charge: 0
   formula: H2O(C6H10O5)4
-- id: C02474_kz
+- id: C02474
   name: Arabinan(n=2)
   charge: 0
   formula: H2O(C15H24O12)2
@@ -189,10 +173,6 @@
   charge: 0
   formula: C94H157N9O25P2
   mol_weight: 1875.2452
-- id: C05980
-  name: Cardiolipin
-  charge: 0
-  formula: C13H18O17P2R4
 - id: C06697
   name: Arsenite
   charge: -3
@@ -250,7 +230,7 @@
   name: Protein N6-(dihydrolipoyl)lysine
   charge: 0
   formula: C8H16NOS2R
-- id: C17207_kz
+- id: C17207
   name: 1,4-beta-D-Mannooligosaccharide(n=4)
   charge: 0
   formula: C24H42O21

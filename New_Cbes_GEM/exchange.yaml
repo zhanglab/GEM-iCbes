@@ -164,11 +164,11 @@ compounds:
 #   name: Cellobiose
 #   lower: -25.0
 #   upper: 1000.0
-# - id: C02492_kz
+# - id: C02492
 #   name: 1,4-beta-D-Mannan(n=8)
 #   lower: -25.0
 #   upper: 1000.0
-# - id: C00707_kz
+# - id: C00707
 #   name: Xylan
 #   lower: -25.0
 #   upper: 1000.0
@@ -188,11 +188,11 @@ compounds:
 #   name: Maltose
 #   lower: -25.0
 #   upper: 1000.0
-# - id: C01935_kz
+# - id: C01935
 #   name: Maltodextrin(n=4)
 #   lower: -25.0
 #   upper: 1000.0
-# - id: C00369_kz
+# - id: C00369
 #   name: Starch(n=4)
 #   lower: -25.0
 #   upper: 1000.0

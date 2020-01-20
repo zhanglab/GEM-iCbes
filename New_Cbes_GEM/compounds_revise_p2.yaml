@@ -1,4 +1,4 @@
-- id: C00369_kz
+- id: C00369
   name: glycogen (n=4)
   formula: (C12H20O10)4
   charge: 0
@@ -8,63 +8,63 @@
   formula: C26H40O20
   charge: 0
   mol_weight: 672.58
-- id: C00416_kz
+- id: C00416
   name: Phosphatidate / 1,2-Diacyl-sn-glycerol 3-phosphate
   formula: C1353H2662O312P38
   charge: 0
-- id: C00269_kz
+- id: C00269
   name: CDP-diacylglycerol
   formula: C1362H2674O319N3P39
   charge: 0
-- id: C00344_kz
+- id: C00344
   name: Phosphatidylglycerol
   formula: C1356H2668O314P38
   charge: 0
-- id: C00641_kz
+- id: C00641
   name: 1,2-Diacyl-sn-glycerol
   formula: C1353H2661O309P37
   charge: 0
-- id: C00165_kz
+- id: C00165
   name: Diacylglycerol
   formula: C1353H2661O309P37
   charge: 0
-- id: C02337_kz
+- id: C02337
   name: beta-D-Xyloside
   formula: C5H9O5R
   charge: 0
-- id: C03892_kz
+- id: C03892
   name: Phosphatidylglycerophosphate
   formula: C1356H2669O317P39
   charge: 0
-- id: C04046_kz
+- id: C04046
   name: 3-D-Glucosyl-1,2-diacylglycerol
   formula: C1359H2671O314P37
   charge: 0
-- id: C05980_kz
+- id: C05980
   name: Cardiolipin
   formula: C2709H5328O625P76
   charge: 0
-- id: C06040_kz
+- id: C06040
   name: Diglucosyldiacylglycerol
   formula: C1365H2681O319P37
   charge: 0
-- id: C11826_kz1
-  name: '[GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-g-D-Glu-L-Lys-D-Ala-D-Ala)]n-diphosphoundecaprenol'
-  formula: C94H156N8O26P2(C39H64N8O19)2
-  charge: 0
-- id: C11826_kz2
+#- id: C11826
+#  name: '[GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-g-D-Glu-L-Lys-D-Ala-D-Ala)]n-diphosphoundecaprenol'
+#  formula: C94H156N8O26P2(C39H64N8O19)2
+#  charge: 0
+- id: C11826
   name: '[GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-g-D-Glu-L-Lys-D-Ala-D-Ala)]n-diphosphoundecaprenol'
   formula: C94H156N8O26P2(C39H64N8O19)3
   charge: 0
-- id: C11827_kz1
-  name: '[GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-g-D-Glu-A2pm-D-Ala-D-Ala)]n-diphosphoundecaprenol'
-  formula: C95H156N8O28P2(C40H64N8O21)2
-  charge: 0
-- id: C11827_kz2
+#- id: C11827
+#  name: '[GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-g-D-Glu-A2pm-D-Ala-D-Ala)]n-diphosphoundecaprenol'
+#  formula: C95H156N8O28P2(C40H64N8O21)2
+#  charge: 0
+- id: C11827
   name: '[GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-g-D-Glu-A2pm-D-Ala-D-Ala)]n-diphosphoundecaprenol'
   formula: C95H156N8O28P2(C40H64N8O21)3
   charge: 0
-- id: C20860_kz
+- id: C20860
   name: Triglucosyldiacylglycerol
   formula: C23H36O20R2
   charge: 0
