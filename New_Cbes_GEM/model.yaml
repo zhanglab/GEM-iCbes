@@ -12,6 +12,7 @@ compartments:
   name: Extracellular
 compounds:
 - include: ./compounds.yaml
+- include: compounds_curated.yaml
 reactions:
 - include: ./reactions.yaml
 - include: transporter.yaml
