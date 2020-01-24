@@ -67,10 +67,6 @@
   name: CTP:phosphatidate cytidyltransferase
   equation: C00063[c] + C00416[c] => C00013[c] + C00269[c]
   ec: 2.7.7.41
-- id: MPTSS
-  name: molybdopterin synthase sulfurylase
-  equation: C15810[c] + C00002[c] <=> C15813[c] + C00013[c]
-  ec: 2.7.7.80
 - id: R02030
   name: CDP-diacylglycerol:phosphatidylglycerol 3-phosphatidyltransferase
   equation: C00344[c] + C00269[c] => C05980[c] + C00055[c]
