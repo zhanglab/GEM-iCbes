@@ -1153,7 +1153,7 @@
 - id: C05922
   name: Formamidopyrimidine nucleoside triphosphate
   charge: -4
-  formula: C10H14N5O15P3)
+  formula: C10H14N5O15P3
 - id: C05923
   name: 2,5-Diaminopyrimidine nucleoside triphosphate
   charge: -4
@@ -2454,14 +2454,10 @@
   name: Ethanol
   charge: 0
   formula: C2H6O
-- id: C00613
-  name: Protein-L-arginine
-  charge: 1
-  formula: None
 - id: C00615
   name: Protein histidine
   charge: 0
-  formula: None
+  formula: C7H8N4O2R2
 - id: C00698
   name: Cl-
   charge: -1
@@ -2501,7 +2497,7 @@
 - id: C03033
   name: beta-D-Glucuronoside
   charge: -1
-  formula: None
+  formula: C6H8O7R
 - id: C03688
   name: Apo-[acyl-carrier-protein]
   charge: 0

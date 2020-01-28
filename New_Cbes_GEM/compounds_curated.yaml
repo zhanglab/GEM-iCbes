@@ -32,8 +32,8 @@
   formula: C4H8NO2R
 - id: C06112
   name: L-Glutamyl-tRNA(Gln)
-  charge: 1
-  formula: C5H9N2O2R
+  charge: 0
+  formula: C5H7NO3R
 - id: C02282
   name: Glutaminyl-tRNA
   charge: 1
@@ -121,15 +121,12 @@
 - id: C03402
   name: L-Asparaginyl-tRNA(Asn)
   charge: 1
-  formula: C14H24N2O12PR2
+  # formula: C14H24N2O12PR2
+  formula: C4H8N2O2R
 - id: C05336
   name: Selenomethionyl-tRNA(Met)
   charge: 1
   formula: C5H11NOSeR
-- id: C20446
-  name: tRNA 7-aminomethyl-7-carbaguanine
-  charge: -2
-  formula: C22H31N5O20P3R2
 - id: C06481
   name: L-Seryl-tRNA(Sec)
   charge: 1
@@ -197,7 +194,7 @@
 - id: C00707
   name: Xylan
   charge: 0
-  formula: H2O(C5H8O4)8(C10H16O8)4
+  formula: H2O(C5H8O4)7(C10H16O8)4
 - id: C00718
   name: Amylose(n=4)
   charge: 0
@@ -215,13 +212,28 @@
   charge: 0
   formula: C24H42O21
 - id: epxqtrna
-  name: Epoxyquenosine34 tRNA
-  charge: 1
-  formula: C12H16N5O4
+  name: Epoxyqueuosine34 in tRNA
+  charge: -1
+  formula: C27H37N5O23P3R2
+  # formula: C17H21N5O14P2R2
+  # source: http://modelseed.org/biochem/compounds/cpd28599
+  # charge: 1
+  # formula: C12H16N5O4
+- id: C20446
+  name: tRNA 7-aminomethyl-7-carbaguanine
+  # formula: C12H13N5O11P2R2
+  charge: -3
+  formula: C22H31N5O20P3R2
+  source: http://modelseed.org/biochem/compounds/cpd31110
+  # charge: 1
+  # formula: C7H10N5O
 - id: quetrna
-  name: Quenosine34 tRNA
+  name: Queuosine34 tRNA
+  # charge: 1
+  # formula: C12H16N5O3
+  formula: C27H37N5O22P3R2
   charge: 1
-  formula: C12H16N5O3
+  source: http://modelseed.org/biochem/compounds/cpd28602
 - id: C00369
   name: glycogen (n=4)
   charge: 0
@@ -262,14 +274,28 @@
   name: Diglucosyldiacylglycerol
   charge: 0
   formula: C1365H2681O319P37
-- id: C11826
-  name: '[GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-g-D-Glu-L-Lys-D-Ala-D-Ala)]n-diphosphoundecaprenol'
+- id: C11826_kz1
+  name: '[GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-g-D-Glu-L-Lys-D-Ala-D-Ala)]n-diphosphoundecaprenol (Peptidoglycan n)'
   charge: -4
   formula: C133H216N16O45P2
-- id: C11827
-  name: '[GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-g-D-Glu-A2pm-D-Ala-D-Ala)]n-diphosphoundecaprenol'
+  # name: Peptidoglycan
+  # charge: 0
+  # formula: C39H64N8O19
+  # source: http://bigg.ucsd.edu/models/universal/metabolites/PG
+- id: C11826_kz2
+  name: '[GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-g-D-Glu-L-Lys-D-Ala-D-Ala)]n-diphosphoundecaprenol (Peptidoglycan n+1)'
+  charge: -4
+  formula: C172H280N24O64P2
+- id: C11827_kz1
+  name: '[GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-g-D-Glu-A2pm-D-Ala-D-Ala)]n-diphosphoundecaprenol (Peptidoglycan n)'
   charge: -6
   formula: C135H214N16O49P2
+- id: C11827_kz2
+  name: '[GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-g-D-Glu-A2pm-D-Ala-D-Ala)]n-diphosphoundecaprenol (Peptidoglycan n+1)'
+  charge: -6
+  formula: C175H280N24O70P2
+  # charge: 0
+  # formula: C40H64N8O21
 - id: C20860
   name: Triglucosyldiacylglycerol
   charge: 0

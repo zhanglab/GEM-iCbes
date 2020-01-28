@@ -10,7 +10,7 @@
   - 1.1.1.267
 - id: R04751
   name: hexanoyl-CoA:electron-transfer flavoprotein 2,3-oxidoreductase
-  equation: C05270[c] + C00016[c] <=> C05271[c] + C01352[c]
+  equation: C05270[c] + C00016[c] + C00080[c] <=> C05271[c] + C01352[c]
   ec:
   - 1.3.3.6
   - 1.3.8.1
@@ -19,7 +19,7 @@
   - 1.3.99.-
 - id: R01175
   name: butanoyl-CoA:electron-transfer flavoprotein 2,3-oxidoreductase
-  equation: C00136[c] + C00016[c] <=> C01352[c] + C00877[c]
+  equation: C00136[c] + C00016[c] + C00080[c] <=> C01352[c] + C00877[c]
   ec:
   - 1.3.3.6
   - 1.3.8.1
@@ -39,7 +39,7 @@
   - 1.7.1.6
 - id: R08553
   name: AMP,sulfite:acceptor oxidoreductase (adenosine-5'-phosphosulfate-forming)
-  equation: C00020[c] + C00094[c] + C00016[c] <=> C00224[c] + C01352[c]
+  equation: C00020[c] + C00094[c] + C00016[c] + (2) C00080[c] <=> C00224[c] + C01352[c]
   ec:
   - 1.8.99.2
 - id: R01658
@@ -59,17 +59,17 @@
   - 2.5.1.29
 - id: R05634
   name: ATP:4-(Cytidine 5'-diphospho)-2-C-methyl-D-erythritol 2-phosphotransferase
-  equation: C11435[c] + C00002[c] <=> C11436[c] + C00008[c]
+  equation: C11435[c] + C00002[c] <=> C11436[c] + C00008[c] + C00080[c]
   ec:
   - 2.7.1.148
 - id: R02328
   name: dTTP:alpha-D-glucose-1-phosphate thymidylyltransferase
-  equation: C00459[c] + C00103[c] <=> C00013[c] + C00842[c]
+  equation: C00459[c] + C00103[c] + C00080[c] <=> C00013[c] + C00842[c]
   ec:
   - 2.7.7.24
 - id: R05633
   name: 'CTP: 2-C-Methyl-D-erythritol 4-phosphate cytidylyltransferase'
-  equation: C11434[c] + C00063[c] <=> C11435[c] + C00013[c]
+  equation: C11434[c] + C00063[c] + C00080[c] <=> C11435[c] + C00013[c]
   ec:
   - 2.7.7.60
 - id: R05789
@@ -79,13 +79,13 @@
   - 3.1.3.71
 - id: R01030
   name: sn-Glycero-3-phosphocholine glycerophosphohydrolase
-  equation: C00670[c] + C00001[c] <=> C00114[c] + C00093[c]
+  equation: C00670[c] + C00001[c] <=> C00114[c] + C00093[c] + C00080[c]
   ec:
   - 3.1.4.2
   - 3.1.4.46
 - id: R01470
   name: sn-Glycero-3-phosphoethanolamine glycerophosphohydrolase
-  equation: C01233[c] + C00001[c] <=> C00189[c] + C00093[c]
+  equation: C01233[c] + C00001[c] <=> C00189[c] + C00093[c] + C00080[c]
   ec:
   - 3.1.4.2
   - 3.1.4.46
@@ -96,7 +96,7 @@
   - 3.5.1.28
 - id: R00086
   name: ATP phosphohydrolase
-  equation: C00002[c] + C00001[c] <=> C00008[c] + C00009[c]
+  equation: C00002[c] + C00001[c] <=> C00008[c] + C00009[c] + C00080[c]
   ec:
   - 3.6.1.3
   - 3.6.1.5
@@ -169,55 +169,55 @@
   - 3.6.4.13
 - id: R00426
   name: GTP diphosphohydrolase (diphosphate-forming)
-  equation: C00044[c] + C00001[c] <=> C00144[c] + C00013[c]
+  equation: C00044[c] + C00001[c] <=> C00144[c] + C00013[c] + C00080[c]
   ec:
   - 3.6.1.8
   - 3.6.1.-
 - id: R00720
   name: Inosine 5'-triphosphate pyrophosphohydrolase
-  equation: C00081[c] + C00001[c] <=> C00130[c] + C00013[c]
+  equation: C00081[c] + C00001[c] <=> C00130[c] + C00013[c] + C00080[c]
   ec:
   - 3.6.1.8
   - 3.6.1.-
 - id: R00087
   name: ATP diphosphohydrolase (diphosphate-forming)
-  equation: C00002[c] + C00001[c] <=> C00020[c] + C00013[c]
+  equation: C00002[c] + C00001[c] <=> C00020[c] + C00013[c] + C00080[c]
   ec:
   - 3.6.1.8
   - 3.6.1.9
 - id: R00662
   name: Uridine triphosphate pyrophosphohydrolase
-  equation: C00075[c] + C00001[c] <=> C00105[c] + C00013[c]
+  equation: C00075[c] + C00001[c] <=> C00105[c] + C00013[c] + C00080[c]
   ec:
   - 3.6.1.8
   - 3.6.1.9
 - id: R00287
   name: UDP-glucose glucophosphohydrolase
-  equation: C00029[c] + C00001[c] <=> C00105[c] + C00103[c]
+  equation: C00029[c] + C00001[c] <=> C00105[c] + C00103[c] + (2) C00080[c]
   ec:
   - 3.6.1.8
   - 3.6.1.9
   - 3.6.1.45
 - id: R00515
   name: CTP diphosphohydrolase (diphosphate-forming)
-  equation: C00063[c] + C00001[c] <=> C00055[c] + C00013[c]
+  equation: C00063[c] + C00001[c] <=> C00055[c] + C00013[c] + C00080[c]
   ec:
   - 3.6.1.8
   - 3.6.1.9
   - 3.6.1.65
 - id: R03197
   name: Uroporphyrinogen-III carboxy-lyase
-  equation: C01051[c] <=> C03263[c] + (4) C00011[c]
+  equation: C01051[c] + (4) C00080[c] <=> C03263[c] + (4) C00011[c]
   ec:
   - 4.1.1.37
 - id: R04972
   name: Uroporphyrinogen I carboxy-lyase
-  equation: C05766[c] <=> C05768[c] + (4) C00011[c]
+  equation: C05766[c] + (4) C00080[c] <=> C05768[c] + (4) C00011[c]
   ec:
   - 4.1.1.37
 - id: R00036
   name: 5-aminolevulinate hydro-lyase (adding 5-aminolevulinate and cyclizing
-  equation: (2) C00430[c] <=> C00931[c] + (2) C00001[c]
+  equation: (2) C00430[c] <=> C00931[c] + (2) C00001[c] + C00080[c]
   ec:
   - 4.2.1.24
 - id: R06513
@@ -263,7 +263,7 @@
 - id: R01724
   name: 5-phospho-alpha-D-ribose 1-diphosphate:nicotinate ligase (ADP, diphosphate-forming)
   equation: C01185[c] + C00013[c] + C00008[c] + C00009[c] <=> C00253[c] + C00119[c]
-    + C00002[c] + C00001[c] + C00080[c]
+    + C00002[c] + C00001[c]
   ec:
   - 6.3.4.21
 - id: R06447
@@ -274,7 +274,7 @@
   - 2.5.1.31
 - id: R07237
   name: S-adenosyl-L-methionine:uroporphyrinogen-III C-methyltransferase
-  equation: C00019[c] + C01051[c] <=> C00021[c] + C15527[c]
+  equation: C00019[c] + C01051[c] <=> C00021[c] + C15527[c] + C00080[c]
   ec:
   - 2.1.1.107
 #- id: R03950
@@ -285,7 +285,7 @@
 - id: R00084
   name: porphobilinogen:(4-[2-carboxyethyl]-3-[carboxymethyl]pyrrol-2-yl)methyltransferase
     (hydrolysing)
-  equation: (4) C00931[c] + C00001[c] <=> C01024[c] + (4) C00014[c]
+  equation: (4) C00931[c] + C00001[c] <=> C01024[c] + (4) C00014[c] + (4) C00080[c]
   ec:
   - 2.5.1.61
 - id: R02272
@@ -295,7 +295,7 @@
   - 5.4.3.8
 - id: R03947
   name: S-Adenosyl-L-methionine:uroporphyrin-III C-methyltransferase
-  equation: C02463[c] + C00003[c] <=> C05778[c] + C00004[c] + C00080[c]
+  equation: C02463[c] + C00003[c] <=> C05778[c] + C00004[c] + (2) C00080[c]
   ec:
   - 1.3.1.76
 - id: R02864
@@ -305,7 +305,7 @@
   - 4.99.1.4
 - id: R03194
   name: S-adenosyl-L-methionine:uroporphyrin-III C-methyltransferase
-  equation: (2) C00019[c] + C01051[c] <=> (2) C00021[c] + C02463[c]
+  equation: (2) C00019[c] + C01051[c] <=> (2) C00021[c] + C02463[c] + C00080[c]
   ec:
   - 2.1.1.107
 - id: R07238
@@ -317,11 +317,11 @@
   equation: epxqtrna[c] + C00005[c] + C00080[c] => quetrna[c] + C00006[c] + C00001[c]
   ec: 1.17.99.6
 - id: R02240
-  equation: C00002[c] + C00641[c] => C00008[c] + C00416[c]
+  equation: C00002[c] + C00641[c] => C00008[c] + C00416[c] + C00080[c]
   ec: 2.7.1.107
 - id: R01078
   equation: C01909[c] + C00097[c] + C00019[c] <=> C00120[c] + C00073[c] + C05198[c]
-    + C00041[c]
+    + C00041[c] + C00080[c]
   ec: 2.8.1.6
 - id: Lac-symp
   equation: C00186[c] + C00080[c] => C00186[e] + C00080[e]
@@ -348,29 +348,29 @@
   equation: antim[c] => antim[e]
   ec: TC=2.A.59.1.2
 - id: trehABC
-  equation: C01083[e] + C00002[c] + C00001[c] => C01083[c] + C00008[c] + C00009[c]
+  equation: C01083[e] + C00002[c] + C00001[c] => C01083[c] + C00008[c] + C00009[c] + C00080[c]
   ec: TC=3.A.1.1
 - id: kojABC
-  equation: C19632[e] + C00002[c] + C00001[c] => C19632[c] + C00008[c] + C00009[c]
+  equation: C19632[e] + C00002[c] + C00001[c] => C19632[c] + C00008[c] + C00009[c] + C00080[c]
   ec: TC=3.A.1.1
 - id: pecABC
-  equation: C00714[e] + C00002[c] + C00001[c] => C00714[c] + C00008[c] + C00009[c]
+  equation: C00714[e] + C00002[c] + C00001[c] => C00714[c] + C00008[c] + C00009[c] + C00080[c]
   ec: TC=3.A.1.1.9
 - id: valABC
-  equation: C00002[c] + C00001[c] + C00183[e] => C00008[c] + C00009[c] + C00183[c]
+  equation: C00002[c] + C00001[c] + C00183[e] => C00008[c] + C00009[c] + C00183[c] + C00080[c]
   ec: TC=3.A.1.4.1
 - id: leuABC
-  equation: C00002[c] + C00001[c] + C00123[e] => C00008[c] + C00009[c] + C00123[c]
+  equation: C00002[c] + C00001[c] + C00123[e] => C00008[c] + C00009[c] + C00123[c] + C00080[c]
   ec: TC=3.A.1.4.1
 - id: ileABC
-  equation: C00002[c] + C00001[c] + C00407[e] => C00008[c] + C00009[c] + C00407[c]
+  equation: C00002[c] + C00001[c] + C00407[e] => C00008[c] + C00009[c] + C00407[c] + C00080[c]
   ec: TC=3.A.1.4.1
 - id: piH
-  equation: C00013[c] + C00001[c] + C00080[c] => (2) C00009[c] + C00080[e]
+  equation: C00013[c] + C00001[c] => (2) C00009[c] + C00080[e]
   ec: TC=3.A.10.2.3
 - id: inosABC
-  equation: C00137[e] + C00002[c] + C00001[c] => C00137[c] + C00008[c] + C00009[c]
+  equation: C00137[e] + C00002[c] + C00001[c] => C00137[c] + C00008[c] + C00009[c] + C00080[c]
   ec: TC=unknown
 - id: GlcnABC
-  equation: C03033[e] + C00002[c] + C00001[c] => C03033[c] + C00008[c] + C00009[c]
+  equation: C03033[e] + C00002[c] + C00001[c] => C03033[c] + C00008[c] + C00009[c] + C00080[c]
   tc: 3.A.1

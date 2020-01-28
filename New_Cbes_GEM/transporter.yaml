@@ -28,21 +28,21 @@
 - id: MgCaAT
   name: Mg2+/Ca2+ ATPase antiporter (Mg2+ uptake and Ca2+ efflux)
   equation: C00076[c] + C00305[e] + C00002[c] + C00001[c] => C00076[e] + C00305[c]
-    + C00008[c] + C00009[c]
+    + C00008[c] + C00009[c] + C00080[c]
   tc: 3.A.3.2.28
 - id: caEfflux
   name: Calcium-translocating P-type ATPase, PMCA-type
   equation: C00076[c] + (2) C00080[e] + C00002[c] + C00001[c] => C00076[e] + (2)
-    C00080[c] + C00008[c] + C00009[c]
+    C00080[c] + C00008[c] + C00009[c] + C00080[c]
   PMID: 21421919
   tc: 3.A.3.2.21
 - id: wo4ABC
   name: Tungstate uptake vis ABC system
-  equation: C20679[e] + C00002[c] + C00001[c] => C20679[c] + C00008[c] + C00009[c]
+  equation: C20679[e] + C00002[c] + C00001[c] => C20679[c] + C00008[c] + C00009[c] + C00080[c]
   tc: 3.A.1.6.2
 - id: znABC
   name: Zinc uptake via ABC system
-  equation: C00038[e] + C00002[c] + C00001[c] => C00038[c] + C00008[c] + C00009[c]
+  equation: C00038[e] + C00002[c] + C00001[c] => C00038[c] + C00008[c] + C00009[c] + C00080[c]
   PMID: 28596134(3.A.1.15.3, AdcABC); 12426338(3.A.1.15.11, Zinc uptake)
   tc: 3.A.1.15
 - id: MntH
@@ -71,36 +71,36 @@
   tc: 2.A.5.5.1
 - id: znEfflux
   name: Zn2+ exporting P-type ATPase
-  equation: C00038[c] + C00001[c] + C00002[c] => C00038[e] + C00008[c] + C00009[c]
+  equation: C00038[c] + C00001[c] + C00002[c] => C00038[e] + C00008[c] + C00009[c] + C00080[c]
   PMID: 12779235
   tc: 3.A.3.6.10
 - id: coEfflux
   name: Co2+ exporting P-type ATPase
-  equation: C00175[c] + C00001[c] + C00002[c] => C00175[e] + C00008[c] + C00009[c]
+  equation: C00175[c] + C00001[c] + C00002[c] => C00175[e] + C00008[c] + C00009[c] + C00080[c]
   PMID: 12779235
   tc: 3.A.3.6.10
 - id: cuEfflux
   name: copper(II)(Cu2+) export ATPase
-  equation: C00070[e] + C00002[c] + C00001[c] => C00070[c] + C00008[c] + C00009[c]
+  equation: C00070[e] + C00002[c] + C00001[c] => C00070[c] + C00008[c] + C00009[c] + C00080[c]
   PMID: 16151212
   tc: 3.A.3.5.15
 - id: niUpt
   name: nickel (II) uptake
-  equation: C19609[e] + C00002[c] + C00001[c] => C19609[c] + C00008[c] + C00009[c]
+  equation: C19609[e] + C00002[c] + C00001[c] => C19609[c] + C00008[c] + C00009[c] + C00080[c]
   PMID: 24366337
   tc: 3.A.1.23.5
 - id: moABC
   name: molybdate transport via ABC system
-  equation: C06232[e] + C00002[c] + C00001[c] => C06232[c] + C00008[c] + C00009[c]
+  equation: C06232[e] + C00002[c] + C00001[c] => C06232[c] + C00008[c] + C00009[c] + C00080[c]
   tc: 3.A.1.14.11
 - id: fe2t
   name: Ferrous iron (Fe2+) uptake system, FeoB
-  equation: C14818[e] + C00044[c] + C00001[c] => C14818[c] + C00035[c] + C00009[c]
+  equation: C14818[e] + C00044[c] + C00001[c] => C14818[c] + C00035[c] + C00009[c] + C00080[c]
   PMID: 26684538
   tc: 9.A.8.1.14
 - id: piABC
   name: Phosphate transport via ABC system
-  equation: C00009[e] + C00002[c] + C00001[c] => (2) C00009[c] + C00008[c]
+  equation: C00009[e] + C00002[c] + C00001[c] => (2) C00009[c] + C00008[c] + C00080[c]
   PMID: 24318969
   tc: 3.A.1.7.5
 - id: pit
@@ -109,7 +109,7 @@
   tc: 2.A.20.1
 - id: hco3ABC
   name: bicarbonate uptake via ABC system
-  equation: C00288[e] + C00002[c] + C00001[c] => C00288[c] + C00008[c] + C00009[c]
+  equation: C00288[e] + C00002[c] + C00001[c] => C00288[c] + C00008[c] + C00009[c] + C00080[c]
   tc: 3.A.1.16.3
 - id: uraUpt
   name: Uracil uptake
@@ -118,13 +118,13 @@
   tc: 2.A.40.1.1
 - id: ATPSYN
   name: H+ dependent F0F1 ATP synthase
-  equation: (4) C00080[c] + C00002[c] + C00001[c] <=> (4) C00080[e] + C00008[c] +
+  equation: (4) C00080[c] + C00002[c] + C00001[c] <=> (5) C00080[e] + C00008[c] +
     C00009[c]
   PMID: 8905099, 16816177
   tc: 3.A.2.1.5
 - id: RibU
   name: riboflavin uptake (ECF)
-  equation: C00255[e] + C00002[c] + C00001[c] => C00255[c] + C00008[c] + C00009[c]
+  equation: C00255[e] + C00002[c] + C00001[c] => C00255[c] + C00008[c] + C00009[c] + C00080[c]
   PMID: 16585736, 23359690
   tc: 2.A.87.1.3
 - id: BioY
@@ -134,11 +134,11 @@
   tc: 3.A.1.25.5
 - id: FolT
   name: folate uptake (ECF)
-  equation: C00504[e] + C00002[c] + C00001[c] => C00504[c] + C00008[c] + C00009[c]
+  equation: C00504[e] + C00002[c] + C00001[c] => C00504[c] + C00008[c] + C00009[c] + C00080[c]
   tc: 3.A.1.26.10
 - id: PdxU2
   name: pyridoxin(VB6) uptake (ECF)
-  equation: C00314[e] + C00002[c] + C00001[c] => C00314[c] + C00008[c] + C00009[c]
+  equation: C00314[e] + C00002[c] + C00001[c] => C00314[c] + C00008[c] + C00009[c] + C00080[c]
   tc: unknown
 - id: R03232
   name: fructose uptake (PTS system)
@@ -169,58 +169,58 @@
   equation: C00080[e] + C00186[e] <=> C00080[c] + C00186[c]
 - id: vb12ABC
   name: Vitamin B12 uptake via ABC system
-  equation: C05776[e] + C00002[c] + C00001[c] => C05776[c] + C00008[c] + C00009[c]
+  equation: C05776[e] + C00002[c] + C00001[c] => C05776[c] + C00008[c] + C00009[c] + C00080[c]
   tc: 3.A.1.13.1
 - id: XyloseABC
   name: D-xylose transport via ABC system
-  equation: C00001[c] + C00002[c] + C00181[e] => C00008[c] + C00009[c] + C00181[c]
+  equation: C00001[c] + C00002[c] + C00181[e] => C00008[c] + C00009[c] + C00181[c] + C00080[c]
   tc: 3.A.1.2
 - id: GluABC
   name: D-glucose transport via ABC system
-  equation: C00001[c] + C00002[c] + C00031[e] => C00008[c] + C00009[c] + C00031[c]
+  equation: C00001[c] + C00002[c] + C00031[e] => C00008[c] + C00009[c] + C00031[c] + C00080[c]
   tc: 3.A.1.2
 - id: GaltABC
   name: Galactose transport via ABC system
-  equation: C00001[c] + C00002[c] + C00124[e] => C00008[c] + C00009[c] + C00124[c]
+  equation: C00001[c] + C00002[c] + C00124[e] => C00008[c] + C00009[c] + C00124[c] + C00080[c]
   tc: 3.A.1.2
 - id: FruABC
   name: D-Fructose transport via ABC system
-  equation: C00001[c] + C00002[c] + C00095[e] => C00008[c] + C00009[c] + C00095[c]
+  equation: C00001[c] + C00002[c] + C00095[e] => C00008[c] + C00009[c] + C00095[c] + C00080[c]
   tc: 3.A.1.2
 - id: ArabABC
   name: Arabinose transport via ABC system
-  equation: C00001[c] + C00002[c] + C00259[e] => C00008[c] + C00009[c] + C00259[c]
+  equation: C00001[c] + C00002[c] + C00259[e] => C00008[c] + C00009[c] + C00259[c] + C00080[c]
   tc: 3.A.1.2
 - id: b-XysABC
   name: beta-xyloside transport via ABC system
-  equation: C00001[c] + C00002[c] + C02337[e] => C00008[c] + C00009[c] + C02337[c]
+  equation: C00001[c] + C00002[c] + C02337[e] => C00008[c] + C00009[c] + C02337[c] + C00080[c]
 - id: celbABC
   name: cellobiose transport via ABC system
-  equation: C00185[e] + C00002[c] + C00001[c] => C00185[c] + C00008[c] + C00009[c]
+  equation: C00185[e] + C00002[c] + C00001[c] => C00185[c] + C00008[c] + C00009[c] + C00080[c]
 - id: cosABC
   name: cellulose oligosaccharides transport via ABC system
-  equation: C02013[e] + C00002[c] + C00001[c] => C02013[c] + C00008[c] + C00009[c]
+  equation: C02013[e] + C00002[c] + C00001[c] => C02013[c] + C00008[c] + C00009[c] + C00080[c]
 - id: mosABC
   name: mannose oligosaccharides transport via ABC system
-  equation: C17207[e] + C00002[c] + C00001[c] => C17207[c] + C00008[c] + C00009[c]
+  equation: C17207[e] + C00002[c] + C00001[c] => C17207[c] + C00008[c] + C00009[c] + C00080[c]
 - id: xosABC
   name: Xylan oligosaccharides transport via ABC system
-  equation: XOS[e] + C00002[c] + C00001[c] => XOS[c] + C00008[c] + C00009[c]
+  equation: XOS[e] + C00002[c] + C00001[c] => XOS[c] + C00008[c] + C00009[c] + C00080[c]
 - id: xgosABC-1
   name: XXXG Xyloglucan oligosaccharides transport via ABC system
-  equation: XGOS-xxxg[e] + C00002[c] + C00001[c] => XGOS-xxxg[c] + C00008[c] + C00009[c]
+  equation: XGOS-xxxg[e] + C00002[c] + C00001[c] => XGOS-xxxg[c] + C00008[c] + C00009[c] + C00080[c]
 - id: xgosABC-2
   name: XLLG Xyloglucan oligosaccharides transport via ABC system
-  equation: XGOS-xllg[e] + C00002[c] + C00001[c] => XGOS-xllg[c] + C00008[c] + C00009[c]
+  equation: XGOS-xllg[e] + C00002[c] + C00001[c] => XGOS-xllg[c] + C00008[c] + C00009[c] + C00080[c]
 - id: axosABC
   name: Arabinoxylan oligosaccharides transport via ABC system
-  equation: AXOS[e] + C00002[c] + C00001[c] => AXOS[c] + C00008[c] + C00009[c]
+  equation: AXOS[e] + C00002[c] + C00001[c] => AXOS[c] + C00008[c] + C00009[c] + C00080[c]
 - id: malABC
   name: Maltose transport via ABC system
-  equation: C00208[e] + C00002[c] + C00001[c] => C00208[c] + C00008[c] + C00009[c]
+  equation: C00208[e] + C00002[c] + C00001[c] => C00208[c] + C00008[c] + C00009[c] + C00080[c]
 - id: mdosABC
   name: Maltodextrin transport via ABC system
-  equation: C01935[e] + C00002[c] + C00001[c] => C01935[c] + C00008[c] + C00009[c]
+  equation: C01935[e] + C00002[c] + C00001[c] => C01935[c] + C00008[c] + C00009[c] + C00080[c]
 - id: rhaosABC
   name: Rhamnose oligosaccharide transport via ABC system
-  equation: C00507[e] + C00002[c] + C00001[c] => C00507[c] + C00008[c] + C00009[c]
+  equation: C00507[e] + C00002[c] + C00001[c] => C00507[c] + C00008[c] + C00009[c] + C00080[c]

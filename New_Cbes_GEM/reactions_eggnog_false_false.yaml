@@ -4,7 +4,7 @@
   ec: 1.15.1.2
 - id: R10859
   name: (E)-4-hydroxy-3-methylbut-2-en-1-yl-diphosphate:oxidized flavodoxin oxidoreductase
-  equation: C11453[c] + C02745[c] => C11811[c] + C00001[c] + C02869[c]
+  equation: C11453[c] + C02745[c] => C11811[c] + C00001[c] + C02869[c] + C00080[c]
   ec: 1.17.7.3
 - id: R04109
   name: 'L-glutamate-semialdehyde: NADP+ oxidoreductase(L-glutamyl-tRNA(Glu)-forming)'
@@ -13,7 +13,7 @@
 - id: R07161
   name: 3-(indol-3-yl)pyruvate:ferredoxin oxidoreductase (decarboxylating,CoA-indole-acetylating)
   equation: C00331[c] + C00010[c] + (2) C00139[c] <=> C15489[c] + C00011[c] + (2)
-    C00138[c] + (2) C00080[c]
+    C00138[c] + C00080[c]
   ec: 1.2.7.8
 #- id: R07766
 #  name: octanoyl-[acp]:protein N6-octanoyltransferase
@@ -33,51 +33,51 @@
 #  ec: 2.3.1.181
 - id: R06178
   name: peptidoglycan glycosyltransferase
-  equation: C05893[c] + C11826[c] <=> C04574[c] + C11826[c]
+  equation: C05893[c] + C11826_kz1[c] <=> C04574[c] + C11826_kz2[c]
   ec: 2.4.1.129
 - id: R04519
   name: peptidoglycan glycosyltransferase
-  equation: C05898[c] + C11827[c] <=> C04574[c] + C11827[c]
+  equation: C05898[c] + C11827_kz1[c] + (3) C00080[c] <=> C04574[c] + C11827_kz2[c]
   ec: 2.4.1.129
 - id: R02421
   name: ADP-glucose starch synthase
-  equation: (4) C00498[c]  => (4) C00008[c] + C00718[c]
+  equation: (4) C00498[c] + H20  => (4) C00008[c] + C00718[c] + (4) C00080[c]
   ec: 2.4.1.21
 - id: R02689
   name: UDP-alpha-D-glucose:1,2-diacyl-sn-glycerol 3-beta-D-glucosyltransferase
-  equation: C00029[c] + C00641[c] <=> C00015[c] + C04046[c]
+  equation: C00029[c] + C00641[c] <=> C00015[c] + C04046[c] + C00080[c]
   ec: 2.4.1.315
 - id: R04377
   name: UDP-alpha-D-glucose:1,2-diacyl-3-O-(beta-D-glucopyranosyl)-sn-glycerol 6-glucosyltransferase
-  equation: C04046[c] + C00029[c] <=> C06040[c] + C00015[c]
+  equation: C04046[c] + C00029[c] <=> C06040[c] + C00015[c] + C00080[c]
   ec: 2.4.1.315
 - id: R10807
   name: UDP-alpha-D-glucose:diglucosyldiacylglycerol 6-glucosyltransferase
-  equation: C06040[c] + C00029[c] <=> C20860[c] + C00015[c]
+  equation: C06040[c] + C00029[c] <=> C20860[c] + C00015[c] + C00080[c]
   ec: 2.4.1.315
 - id: QueA
   name: S-adenosylmethionine:tRNA ribosyltransferase-isomerase
-  equation: C00019[c] + C20446[c] => C00073[c] + C00147[c] + epxqtrna[c]
+  equation: C00019[c] + C20446[c] => C00073[c] + C00147[c] + epxqtrna[c] + C00080[c]
   ec: 2.4.99.17
 - id: R11090
   name: ATP:[protein]-L-arginine N(omega)-phosphotransferase
-  equation: C00002[c] + C00613[c] <=> C00008[c] + C21101[c]
+  equation: C00002[c] + C00613[c] + C00080[c] <=> C00008[c] + C21101[c]
   ec: 2.7.14.1
 - id: R01799
   name: CTP:phosphatidate cytidyltransferase
-  equation: C00063[c] + C00416[c] => C00013[c] + C00269[c]
+  equation: C00063[c] + C00416[c] + C00080[c] => C00013[c] + C00269[c]
   ec: 2.7.7.41
 - id: R02030
   name: CDP-diacylglycerol:phosphatidylglycerol 3-phosphatidyltransferase
-  equation: C00344[c] + C00269[c] => C05980[c] + C00055[c]
+  equation: C00344[c] + C00269[c] => C05980[c] + C00055[c] + C00080[c]
   ec: 2.7.8.41
 - id: R01801
   name: CDPdiacylglycerol:glycerol-3-phosphate phosphatidyltransferase
-  equation: C00269[c] + C00093[c] => C00055[c] + C03892[c]
+  equation: C00269[c] + C00093[c] => C00055[c] + C03892[c] + C00080[c]
   ec: 2.7.8.5
 - id: R01625
   name: CoA:apo-ACP pantetheinephosphotransferase
-  equation: C00010[c] + C03688[c] => C00054[c] + C00229[c]
+  equation: C00010[c] + C03688[c] => C00054[c] + C00229[c] + C00080[c]
   ec: 2.7.8.7
 #- id: R07767
 #  name: '[protein]-N6-(octanoyl)-L-lysine:an [Fe-S] cluster scaffold protein carrying
@@ -102,7 +102,7 @@
 #  ec: 2.8.1.8
 - id: AXE
   name: acetylxylan esterase
-  equation: AX[c] + (3) C00001[c] <=> (3) C00033[c] + XOS
+  equation: AX[c] + (3) C00001[c] <=> (3) C00033[c] + XOS[c] + (3) C00080[c]
   ec: 3.1.1.72
 - id: R01433
   name: D-xylose xylohydrolase
@@ -126,16 +126,16 @@
   ec: 4.1.2.60
 - id: R09394
   name: GTP 3',8-cyclase
-  equation: C00044[c] + C00019[c] + C00004[c] + C00080[c]  => C21310[c] + C05198[c] + C00073[c]
+  equation: C00044[c] + C00019[c] + C00004[c] => C21310[c] + C05198[c] + C00073[c]
     + C00003[c]
   ec: 4.1.99.22
 - id: R09592
   name: cyanophycin:L-aspartate ligase (ADP-forming)
-  equation: C00002[c] + C19709[c] + C00049[c] <=> C00008[c] + C00009[c] + C19710[c]
+  equation: C00002[c] + C19709[c] + C00049[c] <=> C00008[c] + C00009[c] + C19710[c] + C00080[c]
   ec: 6.3.2.29
 - id: R09593
   name: cyanophycin:L-arginine ligase (ADP-forming)
-  equation: C00002[c] + C19710[c] + C00062[c] <=> C00008[c] + C00009[c] + C19713[c]
+  equation: C00002[c] + C19710[c] + C00062[c] <=> C00008[c] + C00009[c] + C19713[c] + C00080[c]
   ec: 6.3.2.30
 - id: R05030
   name: lipid II isoglutaminyl synthase (glutamine-hydrolysing)
