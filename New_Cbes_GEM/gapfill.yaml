@@ -3,7 +3,6 @@
   equation: C00041[c] + C00026[c] <=> C00022[c] + C00025[c]
   ec: 
   - 2.6.1.2
-  translated_equation: L-Alanine + 2-Oxoglutarate <=> Pyruvate + L-Glutamate
 - id: R02282
   name: ornithine transacetylase
   equation: C00437[c] + C00025[c] <=> C00077[c] + C00624[c]

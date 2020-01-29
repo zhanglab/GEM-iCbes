@@ -30,6 +30,8 @@ reactions:
   format: tsv
 - include: gene_asso_addRxns_whenDotest_complete.tsv 
   format: tsv
+- include: gene_asso_tRNAcharging_complete.tsv
+  format: tsv
 #- include: test.yaml
 exchange:
 - include: exchange.yaml

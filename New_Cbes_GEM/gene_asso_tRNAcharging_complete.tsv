@@ -1,0 +1,35 @@
+id	genes	geens_peg	genes_wp	subsystem
+R03659	Athe_0307	peg.718	WP_015906913.1	Aminoacyl-tRNA biosynthesis
+R04773	Athe_0307	peg.718	WP_015906913.1	Aminoacyl-tRNA biosynthesis
+R03789	Athe_0382	peg.797	WP_015906981.1	Queuosine biosynthesis
+R10209	Athe_0382	peg.797	WP_015906981.1	Queuosine biosynthesis
+R03661	Athe_0572	peg.1005	WP_015907151.1	Aminoacyl-tRNA biosynthesis
+R03655	Athe_0592	peg.1025	WP_015907171.1	Aminoacyl-tRNA biosynthesis
+R05577	Athe_0593	peg.1026	WP_015907172.1	Aminoacyl-tRNA biosynthesis
+R03647	Athe_0593	peg.1026	WP_015907172.1	Aminoacyl-tRNA biosynthesis
+BF-Nfn	Athe_0644 and Athe_0645	peg.1085 and peg.1086	WP_015907217.1 and WP_015907218.1	Aminoacyl-tRNA biosynthesis
+R03658	Athe_0659	peg.1102	WP_015907229.1	Aminoacyl-tRNA biosynthesis
+R04212	Athe_0760 and Athe_0761 and Athe_0762	peg.1218 and peg.1219 and peg.1220	WP_015907313.1 and WP_015907314.1 and WP_015907315.1	Aminoacyl-tRNA biosynthesis
+R03905	Athe_0760 and Athe_0761 and Athe_0762	peg.1218 and peg.1219 and peg.1220	WP_015907313.1 and WP_015907314.1 and WP_015907315.1	Aminoacyl-tRNA biosynthesis
+R03664	Athe_0792	peg.1251	WP_015907342.1	Aminoacyl-tRNA biosynthesis
+R03663	Athe_0801	peg.1260	WP_015907351.1	Aminoacyl-tRNA biosynthesis
+R03662	Athe_0872	peg.1335	WP_015907409.1	Aminoacyl-tRNA biosynthesis
+R08218	Athe_0872	peg.1335	WP_015907409.1	Aminoacyl-tRNA biosynthesis
+R02918	Athe_0886	peg.1349	WP_015907422.1	Aminoacyl-tRNA biosynthesis
+R05578	Athe_0941 or Athe_2255	peg.1411 or peg.2820	WP_015907468.1 or WP_015908587.1	Aminoacyl-tRNA biosynthesis
+R03651	Athe_0941 or Athe_2255	peg.1411 or peg.2820	WP_015907468.1 or WP_015908587.1	Aminoacyl-tRNA biosynthesis
+R03940	Athe_1040	peg.1521	WP_015907553.1	One carbon pool by folate; Aminoacyl-tRNA biosynthesis
+MBH	Athe_1082 and Athe_1083 and Athe_1084 and Athe_1085 and Athe_1086 and Athe_1087	peg.1563 and peg.1564 and peg.1565 and peg.1566 and peg.1567 and peg.1568	WP_041727122.1 and WP_015907593.1 and WP_013411860.1 and WP_015907594.1 and WP_013430555.1 and WP_013403526.1	Energy Metabolism
+R01626	Athe_1155	peg.1638	WP_015907654.1	Fatty acid biosynthesis
+R03657	Athe_1254	peg.1741	WP_015907743.1	Aminoacyl-tRNA biosynthesis
+R03660	Athe_1283 and Athe_1284	peg.1770 and peg.1771	WP_013430381.1 and WP_015907766.1	Aminoacyl-tRNA biosynthesis
+BF-H2ase	Athe_1295 and Athe_1296 and Athe_1297 and Athe_1298 and Athe_1299	peg.1783 and peg.1784 and peg.1785 and peg.1786 and peg.1787	WP_013430369.1 and WP_015907775.1 and WP_013430367.1 and WP_013430366.1 and WP_015907776.1	Energy Metabolism
+R03038	Athe_1331	peg.1819	WP_015907803.1	Aminoacyl-tRNA biosynthesis
+R03656	Athe_1349	peg.1837	WP_015907819.1	Aminoacyl-tRNA biosynthesis
+R03654	Athe_1410	peg.1903	WP_015907876.1	Aminoacyl-tRNA biosynthesis
+R04558	Athe_1473 and Athe_1475	peg.1966 and peg.1968	WP_015907932.1 and WP_015907934.1	Histidine metabolism
+R12152	Athe_1473 and Athe_1475	peg.1966 and peg.1968	WP_015907932.1 and WP_015907934.1	Histidine metabolism
+R03665	Athe_1491	peg.1984	WP_015907947.1	Aminoacyl-tRNA biosynthesis
+R03646	Athe_2036	peg.2582	WP_015908397.1	Aminoacyl-tRNA biosynthesis
+R03650	Athe_2253	peg.2818	WP_015908585.1	Aminoacyl-tRNA biosynthesis
+R01078	Athe_2541	peg.76	WP_015908859.1	Biotin metabolism
