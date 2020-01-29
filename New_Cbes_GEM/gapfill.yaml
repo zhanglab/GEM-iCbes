@@ -12,3 +12,5 @@
 - id: NMPK
   name: ATP:GMP diphosphotransferase
   equation: C00002[c] + C00144[c] <=> C00020[c] + C00044[c]
+- id: sink_glycine
+  equation: C00037[c] =>
