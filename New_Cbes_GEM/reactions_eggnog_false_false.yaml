@@ -37,11 +37,11 @@
   ec: 2.4.1.129
 - id: R04519
   name: peptidoglycan glycosyltransferase
-  equation: C05898[c] + C11827_kz1[c] + (3) C00080[c] <=> C04574[c] + C11827_kz2[c]
+  equation: C05898[c] + C11827_kz1[c] + C00080[c] <=> C04574[c] + C11827_kz2[c]
   ec: 2.4.1.129
 - id: R02421
   name: ADP-glucose starch synthase
-  equation: (4) C00498[c] + H20  => (4) C00008[c] + C00718[c] + (4) C00080[c]
+  equation: (4) C00498[c] + C00001[c] => (4) C00008[c] + C00718[c] + (4) C00080[c]
   ec: 2.4.1.21
 - id: R02689
   name: UDP-alpha-D-glucose:1,2-diacyl-sn-glycerol 3-beta-D-glucosyltransferase
@@ -57,12 +57,8 @@
   ec: 2.4.1.315
 - id: QueA
   name: S-adenosylmethionine:tRNA ribosyltransferase-isomerase
-  equation: C00019[c] + C20446[c] => C00073[c] + C00147[c] + epxqtrna[c] + C00080[c]
+  equation: C00019[c] + C20446[c] => C00073[c] + C00147[c] + C19647[c] + C00080[c]
   ec: 2.4.99.17
-- id: R11090
-  name: ATP:[protein]-L-arginine N(omega)-phosphotransferase
-  equation: C00002[c] + C00613[c] + C00080[c] <=> C00008[c] + C21101[c]
-  ec: 2.7.14.1
 - id: R01799
   name: CTP:phosphatidate cytidyltransferase
   equation: C00063[c] + C00416[c] + C00080[c] => C00013[c] + C00269[c]

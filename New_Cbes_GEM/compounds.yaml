@@ -652,7 +652,7 @@
   formula: C5H10O5
 - id: C00333
   name: D-Galacturonate
-  charge: 0
+  charge: -1
   formula: C6H9O7
 - id: C00507
   name: L-Rhamnose
@@ -1172,7 +1172,7 @@
   formula: C10H15N3O11P2
 - id: C11039
   name: 2'-Deoxy-5-hydroxymethylcytidine-5'-triphosphate
-  charge: -2
+  charge: -3
   formula: C10H15N3O14P3
 - id: C00445
   name: 5,10-Methenyltetrahydrofolate

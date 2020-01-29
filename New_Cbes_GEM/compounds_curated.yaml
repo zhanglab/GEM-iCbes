@@ -122,11 +122,11 @@
   name: L-Asparaginyl-tRNA(Asn)
   charge: 1
   # formula: C14H24N2O12PR2
-  formula: C4H8N2O2R
+  formula: C4H7N2O2R
 - id: C05336
   name: Selenomethionyl-tRNA(Met)
   charge: 1
-  formula: C5H11NOSeR
+  formula: C5H10NOSeR
 - id: C06481
   name: L-Seryl-tRNA(Sec)
   charge: 1
@@ -161,7 +161,7 @@
   formula: C3H6NOSR
 - id: C03511
   name: L-Phenylalanyl-tRNA(Phe)
-  charge: 2
+  charge: 1
   formula: C9H10NOR
 - id: C02988
   name: L-Histidyl-tRNA(His)
@@ -211,29 +211,20 @@
   name: 1,4-beta-D-Mannooligosaccharide(n=4)
   charge: 0
   formula: C24H42O21
-- id: epxqtrna
+- id: C19647
   name: Epoxyqueuosine34 in tRNA
-  charge: -1
+  charge: -3
   formula: C27H37N5O23P3R2
-  # formula: C17H21N5O14P2R2
-  # source: http://modelseed.org/biochem/compounds/cpd28599
-  # charge: 1
-  # formula: C12H16N5O4
+  source: http://modelseed.org/biochem/compounds/cpd28599
 - id: C20446
   name: tRNA 7-aminomethyl-7-carbaguanine
-  # formula: C12H13N5O11P2R2
   charge: -3
   formula: C22H31N5O20P3R2
   source: http://modelseed.org/biochem/compounds/cpd31110
-  # charge: 1
-  # formula: C7H10N5O
 - id: quetrna
   name: Queuosine34 tRNA
-  # charge: 1
-  # formula: C12H16N5O3
+  charge: -3
   formula: C27H37N5O22P3R2
-  charge: 1
-  source: http://modelseed.org/biochem/compounds/cpd28602
 - id: C00369
   name: glycogen (n=4)
   charge: 0
@@ -293,7 +284,7 @@
 - id: C11827_kz2
   name: '[GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-g-D-Glu-A2pm-D-Ala-D-Ala)]n-diphosphoundecaprenol (Peptidoglycan n+1)'
   charge: -6
-  formula: C175H280N24O70P2
+  formula: C175H278N24O70P2
   # charge: 0
   # formula: C40H64N8O21
 - id: C20860

@@ -314,7 +314,7 @@
   ec:
   - 2.1.1.107
 - id: EpxqR
-  equation: epxqtrna[c] + C00005[c] + C00080[c] => quetrna[c] + C00006[c] + C00001[c]
+  equation: C19647[c] + C00005[c] + C00080[c] => quetrna[c] + C00006[c] + C00001[c]
   ec: 1.17.99.6
 - id: R02240
   equation: C00002[c] + C00641[c] => C00008[c] + C00416[c] + C00080[c]

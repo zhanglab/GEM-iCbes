@@ -2906,7 +2906,7 @@
   - 6.1.1.10
 - id: R04773
   name: Selenomethionine:tRNAMet ligase (AMP-forming)
-  equation: C00002[c] + C05335[c] + C01647[c] + C00080[c] <=> C00020[c] + C00013[c] + C05336[c]
+  equation: C00002[c] + C05335[c] + C01647[c] <=> C00020[c] + C00013[c] + C05336[c]
   ec:
   - 6.1.1.10
 - id: R03662
@@ -3008,7 +3008,7 @@
   - 6.1.1.9
 - id: R04212
   name: Asp-tRNA(Asn):L-glutamine amido-ligase (ADP-forming)
-  equation: C03402[c] + C00025[c] + C00009[c] + C00008[c] <=> C06113[c] + C00064[c]
+  equation: C03402[c] + C00025[c] + C00009[c] + C00008[c] + C00080[c] <=> C06113[c] + C00064[c]
     + C00002[c] + C00001[c]
   ec:
   - 6.3.5.6
