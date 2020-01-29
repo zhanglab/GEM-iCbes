@@ -3043,7 +3043,6 @@
   - 2.3.1.85
   - 2.3.1.86
   - 2.3.1.-
-  genes: Athe_1155
 - id: 12DAG3PS
   name: 1,2-diacylglycerol-3-phosphate biosynthesis
   equation: (3) C05761[c] + (12) C05764[c] + (5) C04088[c] + (2) C01203[c] + (1) C181o7ACP[c] 
