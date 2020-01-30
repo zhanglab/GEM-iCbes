@@ -6,3 +6,4 @@ R08210	Athe_1327	peg.1815	WP_015907799.1	Terpenoid backbone biosynthesis
 R05884	Athe_1327	peg.1815	WP_015907799.1	Terpenoid backbone biosynthesis
 PPTGS_Cbes	Athe_2648	peg.204	WP_015908958.1	Peptidoglycan biosynthesis
 12DAG3PS	Athe_1153 and (Athe_0752 or Athe_2184) and Athe_1326	peg.1636 and (peg.1208 or peg.2740) and peg.1814	WP_015907652.1 and (WP_015907305.1 or WP_015908521.1) and WP_015907798.1	Glycerolipid metabolism 	
+R01555	Athe_2576 or Athe_0554	peg.123 or peg.986	WP_015908889.1 and WP_015907135.1	Starch and sucrose metabolism
