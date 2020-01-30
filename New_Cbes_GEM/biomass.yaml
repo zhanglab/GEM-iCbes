@@ -2,11 +2,11 @@
 - id: dna_met
   name: DNA
   equation: (0.665299) C00131[c] + (0.665299) C00459[c] + (0.361714) C00286[c] + (0.361714) C00458[c] + (4.108052) C00002[c] + (4.108052) C00001[c] => dna[c] + (4.108052) C00008[c] + (4.108052) C00009[c] + (2.054026) C00013[c]
-  pathway: Biomass
+  subsystem: Biomass
 - id: rna_met
   name: RNA
   equation: (4.704) C00002[c] + (0.579924) C00075[c] + (0.423535) C00044[c] + (0.287381) C00063[c] + (3.99656) C00001[c] => rna[c] + (3.99656) C00008[c] + (3.99656) C00009[c] + (1.99828) C00013[c]
-  pathway: Biomass
+  subsystem: Biomass
 - id: pro_met
   name: Protein
   equation: (0.431137) C00886[c] + (0.310706) C02163[c] + (0.381591) C03402[c] + (0.387095) C02984[c] + (0.08587) C03125[c] 
@@ -17,7 +17,7 @@
     + (0.219853) C01640[c] + (0.448335) C01642[c] + (0.104865) C01643[c] + (0.706951) C01644[c] + (0.713167) C01645[c] + (0.696724) C01646[c] 
     + (0.168588) C01647[c] + (0.385845) C01648[c] + (0.244153) C01649[c] + (0.449438) C01650[c] + (0.340128) C01651[c] + (0.068072) C01652[c] 
     + (0.324006) C00787[c] + (0.533015) C01653[c] + (15.156318) C00035[c] + (15.156318) C00009[c]
-  pathway: Biomass
+  subsystem: Biomass
   comment: Equation of protein composition based on count of each amino acids of C.bescii CDS protein sequences.
 - id: lipid_met
   name: Phosphatidic acid synthase (C. bescii)
@@ -28,7 +28,7 @@
 #  genes: fig|31899.10.peg.1636 and (fig|31899.10.peg.1208 or fig|31899.10.peg.2740) and fig|31899.10.peg.1814
 #  genesNCBI: Athe_1153 and (Athe_0752 or Athe_2184) and Athe_1326
 #  curated: true
-#  pathway: Fatty Acid Synthesis
+#  subsystem: Fatty Acid Synthesis
 #  ec: 
 #  - 2.3.1.274, 2.3.1.275, 2.3.1.51
 #  translated_equation: (0.121723) Tetradecanoyl-[acp][c] + (0.482939) Hexadecanoyl-[acp][c] + (0.187722) |Octadecanoyl-[acyl-carrier 
@@ -36,7 +36,7 @@
 #    (0.2802) |Fatty Acid iso-C15:0-ACP[c]| + (0.088921) |Fatty Acid iso-C16:0 ACP[c]| + (1.402184) |Fatty Acid iso-C17:0 ACP[c]| 
 #    + (0.033988) |Fatty Acid anteiso-C17:0 ACP[c]| + (0.306283) |Fatty Acid iso-C14:0 3-OH ACP[c]| + (1.514027) |sn-Glycerol 
 #    3-phosphate[c]| => lipid[c] + (3.028054) |Acyl-carrier protein[c]|
-  pathway: Biomass
+  subsystem: Biomass
 - id: carb_met
   name: carbohydarte
   equation: (0.770939) C00369[c] => carbohydrate[c]
@@ -53,14 +53,14 @@
 
   ### late log phase, receibved in Seq 12, 2019
   equation: (0.009) dna[c] + (0.077) rna[c] + (0.274) protein[c] + (0.036) trace[c] + (0.178) lipids[c] + (0.066) carbohydrate[c] => Biomass[c]
-  pathway: Biomass 
+  subsystem: Biomass 
 
   ### mid log phase, receibved in Seq 12, 2019
   # equation (without normalization): (0.008) dna[c] + (0.104) rna[c] + (0.353) protein[c] + (0.065) lipid + (0.065) carbohydrates => (0.591) Biomass[c]
   # equation (with normalization): (0.013) dna[c] + (0.175) rna[c] + (0.591) protein[c] + (0.109) lipid + (0.113) carbohydrates => Biomass[c]
-  # pathway: Biomass 
+  # subsystem: Biomass 
 
 - id: sink_biomass
   equation: Biomass[c] =>
-  pathway: Biomass
+  subsystem: Biomass
 
