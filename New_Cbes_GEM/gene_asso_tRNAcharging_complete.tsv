@@ -1,4 +1,4 @@
-id	genes	geens_peg	genes_wp	subsystem
+id	genes	genes_peg	genes_wp	subsystem
 R03659	Athe_0307	peg.718	WP_015906913.1	Aminoacyl-tRNA biosynthesis
 R04773	Athe_0307	peg.718	WP_015906913.1	Aminoacyl-tRNA biosynthesis
 R03789	Athe_0382	peg.797	WP_015906981.1	Queuosine biosynthesis
@@ -17,7 +17,7 @@ R03662	Athe_0872	peg.1335	WP_015907409.1	Aminoacyl-tRNA biosynthesis
 R08218	Athe_0872	peg.1335	WP_015907409.1	Aminoacyl-tRNA biosynthesis
 R02918	Athe_0886	peg.1349	WP_015907422.1	Aminoacyl-tRNA biosynthesis
 R05578	Athe_0941 or Athe_2255	peg.1411 or peg.2820	WP_015907468.1 or WP_015908587.1	Aminoacyl-tRNA biosynthesis
-R03651	Athe_0941 or Athe_2255	peg.1411 or peg.2820	WP_015907468.1 or WP_015908587.1	Aminoacyl-tRNA biosynthesis
+R03651	Athe_2255	peg.2820	WP_015908587.1	Aminoacyl-tRNA biosynthesis
 R03940	Athe_1040	peg.1521	WP_015907553.1	One carbon pool by folate; Aminoacyl-tRNA biosynthesis
 MBH	Athe_1082 and Athe_1083 and Athe_1084 and Athe_1085 and Athe_1086 and Athe_1087	peg.1563 and peg.1564 and peg.1565 and peg.1566 and peg.1567 and peg.1568	WP_041727122.1 and WP_015907593.1 and WP_013411860.1 and WP_015907594.1 and WP_013430555.1 and WP_013403526.1	Energy Metabolism
 R01626	Athe_1155	peg.1638	WP_015907654.1	Fatty acid biosynthesis

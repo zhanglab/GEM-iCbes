@@ -52,9 +52,9 @@ piH	Athe_0756	peg.1212	WP_015907309.1	-
 GlcnABC	(Athe_0847 or Athe_0849) and Athe_0850 and Athe_0851	(peg.1307 or peg.1309) and peg.1310 and peg.1311	(WP_015907390.1 or WP_015907392.1) and WP_015907393.1 and WP_013430735.1	-
 EpxqR	Athe_1117	peg.1598	WP_041727125.1	Queuosine biosynthesis
 R02240	Athe_1275	peg.1762	WP_015907759.1	Glycerolipid metabolism
-leuABC	Athe_1384 and Athe_1385 and Athe_1386 and Athe_1387 and (Athe_1388 or Athe_0523)	peg.1875 and peg.1876 and peg.1877 and Athe_1387 and (peg.1880 or peg.954)	WP_015907853.1 and WP_015907854.1 and WP_015907855.1 and NA and (WP_015907857.1 or WP_015907108.1)	-
-ileABC	Athe_1384 and Athe_1385 and Athe_1386 and Athe_1387 and (Athe_1388 or Athe_0523)	peg.1875 and peg.1876 and peg.1877 and Athe_1387 and (peg.1880 or peg.954)	WP_015907853.1 and WP_015907854.1 and WP_015907855.1 and NA and (WP_015907857.1 or WP_015907108.1)	-
-valABC	Athe_1384 and Athe_1385 and Athe_1386 and Athe_1387 and (Athe_1388 or Athe_0523)	peg.1875 and peg.1876 and peg.1877 and Athe_1387 and (peg.1880 or peg.954)	WP_015907853.1 and WP_015907854.1 and WP_015907855.1 and NA and (WP_015907857.1 or WP_015907108.1)	-
+leuABC	Athe_1384 and Athe_1385 and Athe_1386 and Athe_1387 and (Athe_1388 or Athe_0523)	peg.1875 and peg.1876 and peg.1877 and peg.1878 and peg.1879 and (peg.1880 or peg.954)	WP_015907853.1 and WP_015907854.1 and WP_015907855.1 and WP_015907856.1 and (WP_015907857.1 or WP_015907108.1)	Transport
+ileABC	Athe_1384 and Athe_1385 and Athe_1386 and Athe_1387 and (Athe_1388 or Athe_0523)	peg.1875 and peg.1876 and peg.1877 and peg.1878 and peg.1879 and (peg.1880 or peg.954)	WP_015907853.1 and WP_015907854.1 and WP_015907855.1 and WP_015907856.1 and (WP_015907857.1 or WP_015907108.1)	Transport
+valABC	Athe_1384 and Athe_1385 and Athe_1386 and Athe_1387 and (Athe_1388 or Athe_0523)	peg.1875 and peg.1876 and peg.1877 and peg.1878 and peg.1879 and (peg.1880 or peg.954)	WP_015907853.1 and WP_015907854.1 and WP_015907855.1 and WP_015907856.1 and (WP_015907857.1 or WP_015907108.1)	Transport
 ARSt1	Athe_1933	peg.2452	WP_015908311.1	-
 ANTIMt1	Athe_1933	peg.2452	WP_015908311.1	-
 ARSNAt1	Athe_1933	peg.2452	WP_015908311.1	-

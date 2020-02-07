@@ -18,7 +18,7 @@
     + (0.168588) C01647[c] + (0.385845) C01648[c] + (0.244153) C01649[c] + (0.449438) C01650[c] + (0.340128) C01651[c] + (0.068072) C01652[c] 
     + (0.324006) C00787[c] + (0.533015) C01653[c] + (15.156318) C00035[c] + (15.156318) C00009[c]
   subsystem: Biomass
-  comment: Equation of protein composition based on count of each amino acids of C.bescii CDS protein sequences.
+  # comment: Equation of protein composition based on count of each amino acids of C.bescii CDS protein sequences.
 - id: lipid_met
   name: Phosphatidic acid synthase (C. bescii)
   equation: (0.039594) C03892[c] => lipids[c]
