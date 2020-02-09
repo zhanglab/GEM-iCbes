@@ -98,7 +98,7 @@
 #  ec: 2.8.1.8
 - id: AXE
   name: acetylxylan esterase
-  equation: AX[c] + (3) C00001[c] <=> (3) C00033[c] + XOS[c] + (3) C00080[c]
+  equation: AX[c] + (3) C00001[c] => (3) C00033[c] + XOS[c] + (3) C00080[c]
   ec: 3.1.1.72
 - id: R01433
   name: D-xylose xylohydrolase

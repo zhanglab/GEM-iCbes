@@ -474,27 +474,27 @@
   - 3.2.1.31
 - id: R03801
   name: 1,4-beta-D-Glucan glucohydrolase
-  equation: C02013[c] + C00001[c] <=> C06219[c] + C00031[c]
+  equation: C02013[c] + C00001[c] => C06219[c] + C00031[c]
   ec:
   - 3.2.1.74
 - id: R05141
   name: 1,4-beta-D-Glucan glucohydrolase
-  equation: C06216[c] + C00001[c] <=> C06217[c] + C00031[c]
+  equation: C06216[c] + C00001[c] => C06217[c] + C00031[c]
   ec:
   - 3.2.1.74
 - id: R05142
   name: 1,4-beta-D-Glucan glucohydrolase
-  equation: C06217[c] + C00001[c] <=> C06218[c] + C00031[c]
+  equation: C06217[c] + C00001[c] => C06218[c] + C00031[c]
   ec:
   - 3.2.1.74
 - id: R03802
   name: 1,4-beta-D-Glucan glucohydrolase
-  equation: C06218[c] + C00001[c] <=> C02013[c] + C00031[c]
+  equation: C06218[c] + C00001[c] => C02013[c] + C00031[c]
   ec:
   - 3.2.1.74
 - id: R01444
   name: cellotriose glucohydrolase
-  equation: C06219[c] + C00001[c] <=> C00185[c] + C00031[c]
+  equation: C06219[c] + C00001[c] => C00185[c] + C00031[c]
   ec:
   - 3.2.1.74
 - id: R02059
@@ -798,7 +798,7 @@
   - 2.7.9.1
 - id: R00425
   name: GTP 7,8-8,9-dihydrolase (diphosphate-forming)
-  equation: C00044[c] + (3) C00001[c] <=> C00058[c] + C01304[c] + C00013[c] + (2) C00080[c]
+  equation: C00044[c] + (3) C00001[c] => C00058[c] + C01304[c] + C00013[c] + (2) C00080[c]
   ec:
   - 3.5.4.25
 - id: R00575
@@ -826,7 +826,7 @@
   - 4.3.3.6
 - id: R00306
   name: cellobiose glucohydrolase
-  equation: C00185[c] + C00001[c] <=> (2) C00031[c]
+  equation: C00185[c] + C00001[c] => (2) C00031[c]
   ec:
   - 3.2.1.21
   - 3.2.1.74
@@ -2534,7 +2534,7 @@
   PMID: 19387555, 11756459
 - id: R00424
   name: GTP 7,8-8,9-dihydrolase
-  equation: C00044[c] + C00001[c] <=> C04895[c] + C00058[c] + C00080[c]
+  equation: C00044[c] + C00001[c] => C04895[c] + C00058[c] + C00080[c]
   ec:
   - 3.5.4.16
 - id: R08368
@@ -2700,23 +2700,23 @@
   - 1.1.1.85
 - id: R00428
   name: GTP 8,9-hydrolase
-  equation: C00044[c] + C00001[c] <=> C05922[c]
+  equation: C00044[c] + C00001[c] => C05922[c]
   ec:
   - 3.5.4.16
 - id: R04639
   name: 2-amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl) dihydropteridine triphosphate
     hydrolase
-  equation: C04895[c] + C00001[c] <=> C06148[c]
+  equation: C04895[c] + C00001[c] <= C06148[c]
   ec:
   - 3.5.4.16
 - id: R05046
   name: formamidopyrimidine nucleoside triphosphate amidohydrolase
-  equation: C05922[c] + C00001[c] <=> C05923[c] + C00058[c] + C00080[c]
+  equation: C05922[c] + C00001[c] => C05923[c] + C00058[c] + C00080[c]
   ec:
   - 3.5.4.16
 - id: R05048
   name: 2,5-diaminopyrimidine nucleoside triphosphate mutase
-  equation: C05923[c] <=> C06148[c]
+  equation: C05923[c] => C06148[c]
   ec:
   - 3.5.4.16
 - id: R01716

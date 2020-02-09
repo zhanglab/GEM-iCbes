@@ -262,7 +262,7 @@
   - 6.2.1.30
 - id: R01724
   name: 5-phospho-alpha-D-ribose 1-diphosphate:nicotinate ligase (ADP, diphosphate-forming)
-  equation: C01185[c] + C00013[c] + C00008[c] + C00009[c] <=> C00253[c] + C00119[c]
+  equation: C01185[c] + C00013[c] + C00008[c] + C00009[c] <= C00253[c] + C00119[c]
     + C00002[c] + C00001[c]
   ec:
   - 6.3.4.21
