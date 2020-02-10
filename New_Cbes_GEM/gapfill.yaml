@@ -17,3 +17,5 @@
   equation: C21615[c] =>
 - id: sink_preQ1
   equation: C16675[c] =>
+- id: sink_pyr
+  equation: C00022[c] =>
