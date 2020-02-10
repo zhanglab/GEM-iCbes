@@ -183,10 +183,10 @@
   name: Galactose transport via ABC system
   equation: C00001[c] + C00002[c] + C00124[e] => C00008[c] + C00009[c] + C00124[c] + C00080[c]
   tc: 3.A.1.2
-- id: FruABC
-  name: D-Fructose transport via ABC system
-  equation: C00001[c] + C00002[c] + C00095[e] => C00008[c] + C00009[c] + C00095[c] + C00080[c]
-  tc: 3.A.1.2
+# - id: FruABC
+#   name: D-Fructose transport via ABC system
+#   equation: C00001[c] + C00002[c] + C00095[e] => C00008[c] + C00009[c] + C00095[c] + C00080[c]
+#   tc: 3.A.1.2
 - id: ArabABC
   name: Arabinose transport via ABC system
   equation: C00001[c] + C00002[c] + C00259[e] => C00008[c] + C00009[c] + C00259[c] + C00080[c]
