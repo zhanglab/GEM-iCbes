@@ -14,7 +14,7 @@ compounds:
   upper: 1000.0
 - id: C00038
   name: Zinc ion
-  lower: -0.000514
+  # lower: -0.000514
   upper: 1000.0
 - id: C00070
   name: copper ion
@@ -43,7 +43,7 @@ compounds:
   upper: 1000.0
 - id: C00238
   name: Potassium ion
-  lower: -0.95
+  lower: -6.03
   upper: 1000.0
 - id: C00253
   name: Nicotinic acid (Niacin, B3)
@@ -79,7 +79,7 @@ compounds:
   upper: 1000.0
 - id: C00698
   name: Chloride ion
-  lower: -61.508952
+  lower: -37.48
   upper: 1000.0
 - id: C00725
   name: Lipoic acid
