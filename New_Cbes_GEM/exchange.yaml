@@ -146,6 +146,10 @@ compounds:
   name: H2
   lower: 0
   upper: 1000.0
+- id: C00022
+  name: Pyruvate
+  lower: 0
+  upper: 1000.0
 
 # test different carbon source
 - id: C00031

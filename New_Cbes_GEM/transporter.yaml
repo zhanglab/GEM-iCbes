@@ -224,3 +224,6 @@
 - id: rhaosABC
   name: Rhamnose oligosaccharide transport via ABC system
   equation: C00507[e] + C00002[c] + C00001[c] => C00507[c] + C00008[c] + C00009[c] + C00080[c]
+- id: PYRt2
+  name: pyruvate reversible transport via proton symport
+  equation: C00080[e] + C00022[e] <=> C00080[c] + C000022[c]

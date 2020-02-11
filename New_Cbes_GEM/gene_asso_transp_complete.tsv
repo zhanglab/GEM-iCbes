@@ -55,3 +55,5 @@ axosABC	(Athe_0179 and Athe_0180 and Athe_0181) or (Athe_2374 and Athe_2375 and 
 malABC	(Athe_2574 and Athe_2577 and Athe_2578) or (Athe_2308 and Athe_2309 and Athe_2310)	(peg.121 and peg.124 and peg.125) or (peg.2881 and peg.2882 and peg.2883)	(WP_015908887.1 and WP_015908890.1 and WP_015908891.1) or (WP_015908635.1 and WP_015908636.1 and WP_015908637.1)	Transport
 mdosABC	(Athe_2574 and Athe_2577 and Athe_2578) or (Athe_2308 and Athe_2309 and Athe_2310)	(peg.121 and peg.124 and peg.125) or (peg.2881 and peg.2882 and peg.2883)	(WP_015908887.1 and WP_015908890.1 and WP_015908891.1) or (WP_015908635.1 and WP_015908636.1 and WP_015908637.1)	Transport
 rhaosABC	Athe_2079 and Athe_2080 and Athe_2081	peg.2628 and peg.2629 and peg.2630	WP_041727423.1 and WP_013429600.1 and WP_015908434.1	Transport
+PYRt2	Unknown	Unknown	Unknown	Transport
+
