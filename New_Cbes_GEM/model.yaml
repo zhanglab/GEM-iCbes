@@ -11,28 +11,26 @@ compartments:
   adjacent_to: c
   name: Extracellular
 compounds:
-- include: ./compounds.yaml
-- include: compounds_curated.yaml
+- include: compounds.yaml
 reactions:
-- include: ./reactions.yaml
+- include: reactions.yaml
+- include: Cbes_associations.tsv # gene-reaction associations related to reactions.yaml
+  format: tsv
+- include: gene_asso_tRNAcharging_complete.tsv # gene-reaction associations related to tRNA charing reactions, these reactions are included in reactions.yaml
+  format: tsv
 - include: transporter.yaml
+- include: gene_asso_transp_complete.tsv # gene-reaction associations related to transporter.yaml
+  format: tsv
+- include: reactions_eggnog.yaml  # missing gene/reaction check, these reactions are based on EC based that provided by eggnog annotation.
+- include: reactions_eggnog_false_false.yaml  # missing gene/reaction check, these reactions are manually added based on the eggnog annotation.
+- include: gene_assoc_eggnog_complete.tsv # gene-reaction associations related to eggnog check
+  format: tsv
+- include: addRxns_whenDotest.yaml # missing gene after eggnog check, these gene-reaction associations were added during the simulation tests
+- include: gene_asso_addRxns_whenDotest_complete.tsv # gene-reaction associations related to addRxns_whenDotest.yaml.
+  format: tsv
 - include: biomass.yaml
 - include: spontaneous.yaml
 - include: gapfill.yaml
-- include: reactions_eggnog.yaml
-- include: reactions_eggnog_false_false.yaml
-- include: addRxns_whenDotest.yaml
-- include: Cbes_associations.tsv
-  format: tsv
-- include: gene_asso_transp_complete.tsv
-  format: tsv
-- include: gene_assoc_eggnog_complete.tsv
-  format: tsv
-- include: gene_asso_addRxns_whenDotest_complete.tsv 
-  format: tsv
-- include: gene_asso_tRNAcharging_complete.tsv
-  format: tsv
 #- include: test.yaml
 exchange:
 - include: exchange.yaml
-

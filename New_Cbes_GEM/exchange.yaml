@@ -1,3 +1,4 @@
+# based on medium DF25
 compartment: e
 compounds:
 - id: C00001
@@ -212,10 +213,3 @@ compounds:
 #   name: L-Rhamnose
 #   lower: -25.0
 #   upper: 1000.0
-
-
-
-
-
-
-
