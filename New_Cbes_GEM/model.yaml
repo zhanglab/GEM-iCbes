@@ -31,6 +31,7 @@ reactions:
 - include: biomass.yaml
 - include: spontaneous.yaml
 - include: gapfill.yaml
+- include: genetic-engineering.yaml
 #- include: test.yaml
 exchange:
 - include: exchange.yaml

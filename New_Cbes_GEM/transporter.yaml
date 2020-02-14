@@ -160,7 +160,7 @@
   equation: C00080[e] + C00864[e] <=> C00080[c] + C00864[c]
 - id: ETOHt1
   name: ethanol transport in/out via diffusion
-  equation: C00469[e] <=> C00469[c]
+  equation: C00469[c] <=> C00469[e]
 - id: ACt6
   name: acetate transport in/out via proton symport
   equation: C00033[e] + C00080[e] <=> C00033[c] + C00080[c]

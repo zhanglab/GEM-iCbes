@@ -1,0 +1,11 @@
+# add reactions associated with AdhE gene (from Clostridium thermocellum)
+- id: R00228  # Acetyl-CoA to Acetaldehyde
+  name: acetaldehyde:NAD+ oxidoreductase (CoA-acetylating)
+  equation: C00084[c] + C00010[c] + C00003[c] <=> C00024[c] + C00004[c] + C00080[c]
+  enzymes:
+  - 1.2.1.10
+- id: R00754  # Acetaldehyde to ethanol
+  name: ethanol:NAD+ oxidoreductase
+  equation: C00469[c] + C00003[c] <=> C00084[c] + C00004[c] + C00080[c]
+  enzymes:
+  - 1.1.1.1
