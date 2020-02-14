@@ -135,10 +135,24 @@ compounds:
   name: Acetate
   lower: 0
   upper: 1000.0
+  # lower: 7.29    # WT-Glc
+  # upper: 7.29    # WT-Glc
+  # lower: 6.01    # WT-Fru
+  # upper: 6.01    # WT-Fru
+  # lower: 19.72   # dLDH-Glc
+  # upper: 19.72   # dLDH-Glc
+  # lower: 11.94   # dLDH-Fru 
+  # upper: 11.94   # dLDH-Fru
 - id: C00186
   name: L-Lactate
   lower: 0
   upper: 1000.0
+  # lower: 22.00    # WT-Glc
+  # upper: 22.00    # WT-Glc
+  # lower: 10.03    # WT-Fru
+  # upper: 10.03    # WT-Fru
+  # lower: 0        # dLDH-Glc or dLDH-Fru 
+  # upper: 0        # dLDH-Glc or dLDH-Fru
 - id: C00011
   name: CO2
   lower: 0
@@ -151,16 +165,30 @@ compounds:
   name: Pyruvate
   lower: 0
   upper: 1000.0
+  # lower: 0.13   # WT-Glc or WT-Fru
+  # upper: 0.13   # WT-Glc or WT-Fru
+  # lower: 1.43   # dLDH-Glc
+  # upper: 1.43   # dLDH-Glc
+  # lower: 0.49   # dLDH-Fru 
+  # upper: 0.49   # dLDH-Fru
 
 # test different carbon source
 - id: C00031
   name: D-glucose
   lower: -25.0
   upper: 1000.0
+  # lower: -16.83   # WT-Glc
+  # upper: -16.83   # WT-Glc
+  # lower: -12.75   # dLDH-Glc
+  # upper: -12.75   # dLDH-Glc
 # - id: C00095
 #   name: fructose
 #   lower: -25.0
 #   upper: 1000.0
+#   lower: -11.11  # WT-Fru
+#   upper: -11.11  # WT-Fru
+#   lower: -10.0   # dLDH-Fru 
+#   upper: -10.0   # dLDH-Fru
 # - id: C00181
 #   name: D-xylose
 #   lower: -25.0

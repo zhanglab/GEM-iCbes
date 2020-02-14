@@ -1,0 +1,11 @@
+- reaction: sink_biomass
+  lower: 0
+  upper: 1000
+  # lower: 0.525   # WT-Glc
+  # upper: 0.525   # WT-Glc
+  # lower: 0.548   # WT-Fru
+  # upper: 0.548   # WT-Fru
+  # lower: 0.374   # dLDH-Glc
+  # upper: 0.374   # dLDH-Glc
+  # lower: 0.471   # dLDH-Fru 
+  # upper: 0.471   # dLDH-Fru
