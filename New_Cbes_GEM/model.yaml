@@ -14,8 +14,8 @@ compounds:
 - include: compounds.yaml
 reactions:
 - include: reactions.yaml
-# - include: Cbes_associations.tsv # gene-reaction associations related to reactions.yaml
-#   format: tsv
+- include: Cbes_associations.tsv # gene-reaction associations related to reactions.yaml
+  format: tsv
 - include: gene_asso_tRNAcharging_complete.tsv # gene-reaction associations related to tRNA charing reactions, these reactions are included in reactions.yaml
   format: tsv
 - include: transporter.yaml
