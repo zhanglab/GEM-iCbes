@@ -22,7 +22,7 @@ R09735	Athe_0827 or Athe_0828	peg.1287 or peg.1288	WP_015907370.1 or WP_01590737
 R01067	(Athe_2059 and Athe_2060) or Athe_2328	(peg.2605 and peg.2606) or peg.2903	(WP_015908415.1 and WP_015908416.1) or WP_015908653.1	Carbon fixation in photosynthetic organisms
 R08575	Athe_1489	peg.1982	WP_013430193.1	-
 R09524	Athe_0702 and Athe_0703 and Athe_0704	peg.1156 and peg.1157 and peg.1158	WP_015907259.1 and WP_015907260.1 and WP_015907261.1	-
-R00230	Athe_1494	peg.1987	WP_015907948.1	Taurine and hypotaurine metabolism
+R00230	Athe_1494	peg.1987	WP_015907948.1	Pyruvate metabolism
 R00921	Athe_1494	peg.1987	WP_015907948.1	Propanoate metabolism
 R00952	Athe_0460 or Athe_0459	peg.880 or peg.879	WP_015907055.1 or WP_015907054.1	Starch and sucrose metabolism
 R07264	Athe_0398	peg.813	WP_015906997.1	-
@@ -64,7 +64,7 @@ R03241	Athe_0841	peg.1301	WP_015907384.1	Fructose and mannose metabolism
 R02071	Athe_0147	peg.542	WP_015906777.1	-
 R01092	Athe_0939	peg.1409	WP_015907466.1	Galactose metabolism
 R00764	Athe_1824	peg.2336	WP_015908214.1	Glycolysis / Gluconeogenesis
-R00315	Athe_1493	peg.1986	WP_013430189.1	Taurine and hypotaurine metabolism
+R00315	Athe_1493	peg.1986	WP_013430189.1	Pyruvate metabolism
 R01353	Athe_1493	peg.1986	WP_013430189.1	Propanoate metabolism
 R01512	Athe_1405	peg.1899	WP_015907871.1	Glycolysis / Gluconeogenesis
 PGK2	Athe_1405	peg.1899	WP_015907871.1	-
