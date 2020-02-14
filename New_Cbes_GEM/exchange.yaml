@@ -121,7 +121,7 @@ compounds:
   upper: 1000.0
 - id: C14818
   name: Ferrous ion
-  lower: -0.007545
+  # lower: -0.007545
   upper: 1000.0
 - id: C19609
   name: nickel ion
