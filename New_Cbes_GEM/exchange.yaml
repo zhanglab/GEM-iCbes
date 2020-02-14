@@ -141,7 +141,7 @@ compounds:
   # upper: 6.01    # WT-Fru
   # lower: 19.72   # dLDH-Glc
   # upper: 19.72   # dLDH-Glc
-  # lower: 11.94   # dLDH-Fru 
+  # lower: 11.94   # dLDH-Fru
   # upper: 11.94   # dLDH-Fru
 - id: C00186
   name: L-Lactate
@@ -151,7 +151,7 @@ compounds:
   # upper: 22.00    # WT-Glc
   # lower: 10.03    # WT-Fru
   # upper: 10.03    # WT-Fru
-  # lower: 0        # dLDH-Glc or dLDH-Fru 
+  # lower: 0        # dLDH-Glc or dLDH-Fru
   # upper: 0        # dLDH-Glc or dLDH-Fru
 - id: C00011
   name: CO2
@@ -169,7 +169,7 @@ compounds:
   # upper: 0.13   # WT-Glc or WT-Fru
   # lower: 1.43   # dLDH-Glc
   # upper: 1.43   # dLDH-Glc
-  # lower: 0.49   # dLDH-Fru 
+  # lower: 0.49   # dLDH-Fru
   # upper: 0.49   # dLDH-Fru
 
 # test different carbon source
@@ -187,7 +187,7 @@ compounds:
 #   upper: 1000.0
 #   lower: -11.11  # WT-Fru
 #   upper: -11.11  # WT-Fru
-#   lower: -10.0   # dLDH-Fru 
+#   lower: -10.0   # dLDH-Fru
 #   upper: -10.0   # dLDH-Fru
 # - id: C00181
 #   name: D-xylose

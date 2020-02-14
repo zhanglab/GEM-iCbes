@@ -1,12 +1,12 @@
 - id: R00258
   name: L-alanine transaminase
   equation: C00041[c] + C00026[c] <=> C00022[c] + C00025[c]
-  ec: 
+  ec:
   - 2.6.1.2
 - id: R02282
   name: ornithine transacetylase
   equation: C00437[c] + C00025[c] <=> C00077[c] + C00624[c]
-  ec: 
+  ec:
   - 2.3.1.35
 - id: NMPK
   name: ATP:GMP diphosphotransferase
@@ -17,7 +17,8 @@
   equation: C21615[c] =>
 - id: sink_preQ1
   equation: C16675[c] =>
-
+- id: sink_suc
+  equation: C00042[c] =>
 # three sinks to unblock thiamine de novo biosynthesis
 - id: sink_dads
   equation: C05198[c] =>
