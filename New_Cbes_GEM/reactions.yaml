@@ -910,6 +910,7 @@
     (2) C00138[c]
   ec:
   - 1.2.7.6
+  PMID: 31097544
 - id: R00771
   name: D-glucose-6-phosphate aldose-ketose-isomerase
   equation: C00092[c] <=> C00085[c]
@@ -3024,11 +3025,13 @@
     + (2) C00139[c]
   ec:
   - 1.12.1.4
+  PMID: 30009131
 - id: MBH
   name: H2-evolving membrane-bound hydrogenase ([Ni-Fe])
   equation: (2) C00138[c] + (3) C00080[c] => C00282[c] + (2) C00139[c] + C00080[e]
   ec:
   - 1.12.7.2
+  PMID: 31097544
 - id: BF-Nfn
   name: NADH-dependent reduced ferredoxin:NADP+ oxidoreductase
   equation: C00004[c] + (2) C00138[c] + (2) C00006[c] + C00080[c] <=> C00003[c] +
