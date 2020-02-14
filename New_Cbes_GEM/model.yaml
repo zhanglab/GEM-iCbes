@@ -37,3 +37,5 @@ exchange:
 - include: exchange.yaml
 limits:
 - include: limits.yaml
+model:
+- include: model_def.tsv

@@ -7,5 +7,13 @@
   # upper: 0.548   # WT-Fru
   # lower: 0.374   # dLDH-Glc
   # upper: 0.374   # dLDH-Glc
-  # lower: 0.471   # dLDH-Fru 
+  # lower: 0.471   # dLDH-Fru
   # upper: 0.471   # dLDH-Fru
+- reaction: R00431
+  lower: 0
+  upper: 1000
+  comment: physiological condition prefer the direction OAA => PEP
+- reaction: R00726
+  lower: 0
+  upper: 1000
+  comment: physiological condition prefer the direction OAA => PEP
