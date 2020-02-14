@@ -11,7 +11,7 @@
   # tag: Spontaneous
 - id: TP_H2
   name: non-enzymatic H2 transporter
-  equation: C00282[c] <=> C00282[e]
+  equation: C00282[c] => C00282[e]
   # source: Diffusion
   # tag: Spontaneous
 - id: TP_CO2
