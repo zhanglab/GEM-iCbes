@@ -1,5 +1,6 @@
 - reaction: sink_biomass
-  lower: 0
+  # lower: 0
+  lower: 0.25
   upper: 1000
   # lower: 0.525   # WT-Glc
   # upper: 0.525   # WT-Glc
@@ -17,3 +18,9 @@
   lower: 0
   upper: 1000
   comment: physiological condition prefer the direction OAA => PEP
+- reaction: R00200
+  lower: -1000
+  upper: 0
+  comment: pysiological condition prefer the direaction PEP => Pyr
+# - reaction: TP_CO2
+#   fixed: 5.5
