@@ -101,7 +101,8 @@ compounds:
   upper: 1000.0
 - id: C01330
   name: Sodium ion
-  lower: -41.904656
+  # lower: -41.904656
+  lower: -1000.0
   upper: 1000.0
 - id: C01342
   name: ammonium
