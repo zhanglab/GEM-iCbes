@@ -2555,7 +2555,7 @@
   - 1.4.3.16
 - id: R00481_zws
   name: Anaerobic L-aspartate oxidase (Asp oxidase)
-  equation: C00049[c] + C00122[c] <=> C05840[c] + C00042[c]
+  equation: C00049[c] + C00122[c] <=> C05840[c] + C00042[c] + C00080[c]
   subsystem: Nicotinate and nicotinamide metabolism
   ec: 1.4.3.16
   change: Change_cpd

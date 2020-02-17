@@ -28,7 +28,7 @@
 #   comment: this reaction is already in Cbes model based on EggNOG and PATRIC annotation and Tsac-psammotate, as well as Csac_1811 (PMID:26196387, table S1, Csac_1881, coverage 100%, e-value	0.0, identity	92.61%)
 - id: R00740
   name: 3-oxopropanoate:NADP+ oxidoreductase (CoA-malonylating)
-  equation: C00222[c] + C00010[c] + C00006[c] <=> C00083[c] + C00005[c] + C00080[c]
+  equation: C00083[c] + C00005[c] + C00080[c] <=> C00222[c] + C00010[c] + C00006[c]
   ec:
   - 1.2.1.75
 - id: R01608_kz
@@ -53,7 +53,7 @@
   - 2.8.3.8
 - id: R01366
   name: Acetoacetate carboxy-lyase (acetone-forming)
-  equation: C00164[c] <=> C00207[c] + C00011[c]
+  equation: C00164[c] + C00080[c] <=> C00207[c] + C00011[c]
   ec:
   - 4.1.1.4
 - id: AcetoneTP

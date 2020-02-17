@@ -2879,7 +2879,29 @@
   formula: C175H278N24O70P2
   # charge: 0
   # formula: C40H64N8O21
+
+# below are the mediate compounds for engineered production of 3HP or Acetone
 - id: C20860
   name: Triglucosyldiacylglycerol
   charge: 0
   formula: C1371H2691O324P37
+- id: C00164
+  name: Acetoacetate
+  formula: C4H5O3
+  charge: -1
+- id: C00207
+  name: Acetone
+  formula: C3H6O
+  charge: 0
+- id: C00222
+  name: Malonate semialdehyde
+  formula: C3H3O3
+  charge: -1
+- id: C00332
+  name: Acetoacetyl-CoA
+  formula: C25H36N7O18P3S
+  charge: -4
+- id: C01013
+  name: 3-Hydroxypropanoate
+  formula: C3H5O3
+  charge: -1
