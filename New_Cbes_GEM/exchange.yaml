@@ -171,6 +171,14 @@ compounds:
   # upper: 1.43   # dLDH-Glc
   # lower: 0.49   # dLDH-Fru
   # upper: 0.49   # dLDH-Fru
+- id: C01013
+  name: 3-Hydroxypropanoate
+  lower: 0
+  upper: 1000
+- id: C00207
+  name: Acetone
+  lower: 0
+  upper: 1000
 
 # test different carbon source
 - id: C00031
