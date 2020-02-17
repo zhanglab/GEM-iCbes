@@ -188,7 +188,7 @@ R01000
 R00342
 R07136
 R00994
-R03051
+#R03051
 R04440
 R05068
 R05069
@@ -454,7 +454,7 @@ R05553
 R01775
 R03192
 R04199
-R04439
+#R04439
 R00248
 R00939
 R01251
@@ -509,7 +509,7 @@ R04639
 R05046
 R05048
 R01716
-R00114
+#R00114
 R00578
 #R00937
 #R00940
@@ -739,13 +739,16 @@ sink_preQ1
 sink_dads
 sink_hybenalcohol
 sink_co
+sink_suc
+
+
+# for EtOH production
 #R00228
 #R00754
 #Rnf
-sink_suc
 
 # for 3-HP production
-#R00742
+##R00742 # we don't need this, there was already a gene-associated R00742 in Cbe model
 R00740
 R01608_kz
 3HPt
