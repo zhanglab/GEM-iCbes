@@ -84,5 +84,53 @@
   lower: 0
   upper: 1000
   comment: mono-directional, from Pyr to the other compounds, because these reactions should be in the biosynthesis of branch-chain amino acids, only mono-directional.
+- reaction: R01248
+  lower: -1000
+  upper: 0
+- reaction: R01251
+  lower: -1000
+  upper: 0
+- reaction: R03291
+  lower: -1000
+  upper: 0
+- reaction: R03293
+  lower: -1000
+  upper: 0
+- reaction: R04198
+  lower: -1000
+  upper: 0
+- reaction: R04199
+  lower: -1000
+  upper: 0
+- reaction: R01728
+  lower: 0
+  upper: 1000
+- reaction: R00732
+  lower: 0
+  upper: 1000
+- reaction: R07168
+  lower: -1000
+  upper: 0
+- reaction: R01224
+  lower: -1000
+  upper: 0
+- reaction: R05679
+  lower: -1000
+  upper: 0
+- reaction: R05680
+  lower: -1000
+  upper: 0
+- reaction: R03191
+  lower: -1000
+  upper: 0
+- reaction: R03192
+  lower: -1000
+  upper: 0
+- reaction: R00936
+  lower: -1000
+  upper: 0
+- reaction: R00939
+  lower: -1000
+  upper: 0
 # - reaction: TP_CO2
 #   fixed: 5.5
