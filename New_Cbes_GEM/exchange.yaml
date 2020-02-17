@@ -32,7 +32,8 @@ compounds:
   upper: 1000.0
 - id: C00106
   name: uracil
-  lower: -0.02
+  # lower: -0.02
+  lower: -1000.0
   upper: 1000.0
 - id: C00120
   name: Biotin
