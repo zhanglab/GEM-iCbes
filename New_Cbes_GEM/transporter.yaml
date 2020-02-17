@@ -164,10 +164,10 @@
   equation: C00469[c] <=> C00469[e]
 - id: ACt6
   name: acetate transport in/out via proton symport
-  equation: C00033[e] + C00080[e] <=> C00033[c] + C00080[c]
+  equation: C00033[c] + C00080[c] <=> C00033[e] + C00080[e]
 - id: L-LACt2
   name: L-lactate reversible transport via proton symport
-  equation: C00080[e] + C00186[e] <=> C00080[c] + C00186[c]
+  equation: C00080[c] + C00186[c] <=> C00080[e] + C00186[e]
 - id: vb12ABC
   name: Vitamin B12 uptake via ABC system
   equation: C05776[e] + C00002[c] + C00001[c] => C05776[c] + C00008[c] + C00009[c] + C00080[c]
@@ -227,4 +227,4 @@
   equation: C00507[e] + C00002[c] + C00001[c] => C00507[c] + C00008[c] + C00009[c] + C00080[c]
 - id: PYRt2
   name: pyruvate reversible transport via proton symport
-  equation: C00080[e] + C00022[e] <=> C00080[c] + C00022[c]
+  equation: C00080[c] + C00022[c] <=> C00080[e] + C00022[e]

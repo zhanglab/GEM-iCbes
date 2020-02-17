@@ -1,5 +1,5 @@
 - reaction: sink_biomass
-  # lower: 0
+  #lower: 0
   lower: 0.25
   upper: 1000
   # lower: 0.525   # WT-Glc
@@ -7,7 +7,8 @@
   # lower: 0.548   # WT-Fru
   # upper: 0.548   # WT-Fru
   # lower: 0.374   # dLDH-Glc
-  # upper: 0.374   # dLDH-Glc
+  # upper: 0.374   # dLDH-Glc..
+
   # lower: 0.471   # dLDH-Fru
   # upper: 0.471   # dLDH-Fru
 - reaction: R00431
@@ -22,5 +23,66 @@
   lower: -1000
   upper: 0
   comment: pysiological condition prefer the direaction PEP => Pyr
+- reaction: R00985
+  lower: 0
+  upper: 1000
+  comment: this reaction is only used in Trp biosynthesis, should synthesize Anthranilate from Chorismate.
+- reaction: R00986
+  lower: 0
+  upper: 1000
+  comment: this reaction is only used in Trp biosynthesis, should synthesize Anthranilate from Chorismate.
+- reaction: R00200
+  lower: -1000
+  upper: 0
+  comment: Fig. 4 in literature PMID 31097544; directionality irreversible based on PMID-12654928, from PEP + ADP to Pry +ATP.
+  pmid: 31097544, 12654928
+- reaction: R00206
+  lower: 0
+  upper: 1000
+  comment: keep the R00206 monodirectional and in opposite direction to R00200.
+- reaction: R07159
+  lower: 0
+  upper: 1000
+- reaction: R01068
+  lower: 0
+  upper: 1000
+  comment: this is the FBA enzyme, from F16BP => DHAP, Figure 4 in literature PMID 31097544
+- reaction: R01061
+  lower: 0
+  upper: 1000
+  comment: this is the GAPDH, from NAD => NADH, Figure 4 in literature PMID 31097544
+- reaction: PGK2
+  lower: -1000
+  upper: 0
+  comment: this is the PGK (GTP version), from GDP => GTP, Figure 4 in literature PMID 31097544
+- reaction: R01512
+  lower: -1000
+  upper: 0
+  comment: this is the PGK (ATP version), from ADP => ATP, Figure 4 in literature PMID 31097544
+- reaction: R00952
+  lower: 0
+  upper: 1000
+  comment: digesting cellobiose
+- reaction: R00306
+  lower: 0
+  upper: 1000
+  comment: digesting cellobiose
+- reaction: R01555
+  lower: 0
+  upper: 1000
+  comment: digesting mannose
+- reaction: R00756
+  lower: 0
+  upper: 1000
+  comment: PYK, Based on literature pmid 20557574, ATP-PFK is monodirectional, from F6P to F16BP
+  pmid: 20557574
+- reaction: R00014
+  lower: 0
+  upper: 1000
+  comment: mono-directional, from Pyr to the other compounds, because these reactions should be in the biosynthesis of branch-chain amino acids, only mono-directional.
+- reaction: R08648
+  lower: 0
+  upper: 1000
+  comment: mono-directional, from Pyr to the other compounds, because these reactions should be in the biosynthesis of branch-chain amino acids, only mono-directional.
 # - reaction: TP_CO2
 #   fixed: 5.5
