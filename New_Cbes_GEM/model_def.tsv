@@ -741,8 +741,8 @@ sink_suc
 
 # for engineered processes:
 ## deletion: (R01870 is PyrE and R00703 is LDH)
-R01870
-R00703
+#R01870
+#R00703
 
 ## adding:
 #Rnf
@@ -762,3 +762,6 @@ R00703
 #R01359
 #R01366
 #AcetoneTP
+
+# to test the combined_product:
+#combined_product
