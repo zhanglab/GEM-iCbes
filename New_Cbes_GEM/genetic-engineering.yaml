@@ -58,3 +58,7 @@
   - 4.1.1.4
 - id: AcetoneTP
   equation: C00207[c] => C00207[e]
+
+- id: combined_product
+  equation: C00186[c] + (0.33) C00033[c] + (0.06) C00022[c] =>
+  # equation: (0.33) C00033[c] + (0.06) C00022[c] =>
