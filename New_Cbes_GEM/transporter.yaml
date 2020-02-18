@@ -228,3 +228,6 @@
 - id: PYRt2
   name: pyruvate reversible transport via proton symport
   equation: C00080[c] + C00022[c] <=> C00080[e] + C00022[e]
+- id: Acetoin-t
+  name: acetoin transport
+  equation: C00466[c] => C00466[e]

@@ -167,6 +167,10 @@ compounds:
   name: Pyruvate
   lower: 0
   upper: 1000.0
+- id: C00466
+  name: Acetoin
+  lower: 0
+  upper: 1000.0
   # lower: 0.13   # WT-Glc or WT-Fru
   # upper: 0.13   # WT-Glc or WT-Fru
   # lower: 1.43   # dLDH-Glc
