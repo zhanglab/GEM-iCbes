@@ -182,7 +182,6 @@ R00421
 R02472
 R01130
 R08240
-#R00703
 R03104
 R01000
 R00342
@@ -238,7 +237,6 @@ R02147
 R02484
 R01969
 R02748
-#R01870
 R08231
 R01072
 R01073
@@ -741,17 +739,23 @@ sink_hybenalcohol
 sink_co
 sink_suc
 
+# for engineered processes:
+## deletion: (R01870 is PyrE and R00703 is LDH)
+R01870
+R00703
+
+## adding:
+#Rnf
 
 # for EtOH production
 #R00228
 #R00754
-#Rnf
 
 # for 3-HP production
 ##R00742 # we don't need this, there was already a gene-associated R00742 in Cbe model
-R00740
-R01608_kz
-3HPt
+#R00740
+#R01608_kz
+#3HPt
 
 # for acetone production
 #R00238
