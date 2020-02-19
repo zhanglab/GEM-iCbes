@@ -889,8 +889,7 @@
   - 2.6.1.52
 - id: R01196
   name: pyruvate:ferredoxin 2-oxidoreductase (CoA-acetylating)
-  equation: (2) C00138[c] + C00024[c] + C00011[c] + C00080[c] <=> (2) C00139[c]
-    + C00022[c] + C00010[c]
+  equation: (2) C00139[c] + C00022[c] + C00010[c] <=> (2) C00138[c] + C00024[c] + C00011[c] + C00080[c]
   ec:
   - 1.2.7.1
 - id: R01199
