@@ -135,8 +135,8 @@
   lower: -1000
   upper: 0
 - reaction: R09524
-  lower: 0
-  upper: -1000
+  lower: -1000
+  upper: 0
   comment: not sure about this reaction
 
 # Below is for the test of carbon balance:
