@@ -211,6 +211,10 @@ compounds:
 #   name: Cellobiose
 #   lower: -25.0
 #   upper: 1000.0
+# - id: C00760_kz
+#   name: Cellulose(n=8)
+#   lower: -25.0
+#   upper: 1000.0
 # - id: C02492
 #   name: 1,4-beta-D-Mannan(n=8)
 #   lower: -25.0

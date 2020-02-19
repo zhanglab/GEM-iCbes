@@ -199,7 +199,7 @@
   name: cellobiose transport via ABC system
   equation: C00185[e] + C00002[c] + C00001[c] => C00185[c] + C00008[c] + C00009[c] + C00080[c]
 - id: cosABC
-  name: cellulose oligosaccharides transport via ABC system
+  name: cellulose oligosaccharides (Cellotetraose) transport via ABC system
   equation: C02013[e] + C00002[c] + C00001[c] => C02013[c] + C00008[c] + C00009[c] + C00080[c]
 - id: mosABC
   name: mannose oligosaccharides transport via ABC system
