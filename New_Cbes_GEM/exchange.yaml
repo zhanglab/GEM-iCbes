@@ -189,6 +189,9 @@ compounds:
 # test different carbon source
 - id: C00031
   name: D-glucose
+  # lower: -10.0    # MACB1034 (dLDH) uptake
+  # lower: -25.0  # MACB1058 (dLDH+AdhE)
+  # lower: -24.5  #MACB1062 (dLDH+AdhE+Rnf)
   lower: -25.0
   upper: 1000.0
 #   lower: -16.83   # WT-Glc
