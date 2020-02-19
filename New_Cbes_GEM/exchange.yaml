@@ -191,10 +191,10 @@ compounds:
   name: D-glucose
   lower: -25.0
   upper: 1000.0
-  # lower: -16.83   # WT-Glc
-  # upper: -16.83   # WT-Glc
-  # lower: -12.75   # dLDH-Glc
-  # upper: -12.75   # dLDH-Glc
+#   lower: -16.83   # WT-Glc
+#   upper: -16.83   # WT-Glc
+#   lower: -12.75   # dLDH-Glc
+#   upper: -12.75   # dLDH-Glc
 # - id: C00095
 #   name: fructose
 #   lower: -25.0
@@ -210,6 +210,12 @@ compounds:
 # - id: C00185
 #   name: Cellobiose
 #   lower: -25.0
+#   upper: 1000.0
+# - id: C00760_kz
+#   name: Cellulose(n=8)
+#   # lower: -15.20750643  # Based on 20g/L cellulose input from literature 30009131
+#   lower: -11.3         # based on 11.3-11.8g/L cellulose consumed by Cbes in literature: PMID 30009131
+#   # lower: -26.7         # carbon input used by Clostridium thermocellum to produce 26.7 ± 0.9 g/L ethanol (~580mM) from 95 g/L Avicel: PMID 27257435
 #   upper: 1000.0
 # - id: C02492
 #   name: 1,4-beta-D-Mannan(n=8)

@@ -2905,3 +2905,7 @@
   name: 3-Hydroxypropanoate
   formula: C3H5O3
   charge: -1
+- id: C00760_kz
+  name: Cellulose(n=8)
+  formula: H2O(C6H10O5)8
+  charge: 0
