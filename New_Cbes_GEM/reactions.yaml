@@ -3073,8 +3073,3 @@
   equation: C02013[e] + C00001[e] => (2) C00185[e]
   ec:
   - 3.2.1.4
-- id: R00952
-  name: cellobiose:phosphate alpha-D-glucosyltransferase
-  equation: C00185[c] + C00009[c] => C00103[c] + C00031[c]
-  ec:
-  - 2.4.1.20
