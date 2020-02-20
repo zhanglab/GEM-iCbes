@@ -488,7 +488,7 @@ R01210	Athe_0702 and Athe_0703 and Athe_0704	peg.1156 and peg.1157 and peg.1158	
 R01651	Athe_0702 and Athe_0703 and Athe_0704	peg.1156 and peg.1157 and peg.1158	WP_015907259.1 and WP_015907260.1 and WP_015907261.1	Valine, leucine and isoleucine degradation
 R03171	Athe_0702 and Athe_0703 and Athe_0704	peg.1156 and peg.1157 and peg.1158	WP_015907259.1 and WP_015907260.1 and WP_015907261.1	Valine, leucine and isoleucine degradation
 R09959	Athe_0440	peg.860	WP_015907035.1	Folate biosynthesis
-R02722	Athe_1690 and (Athe_1691 or Athe_0311)	peg.2199 and (peg.2200 or peg.411)	WP_015908114.1 and (WP_015908115.1 or WP_012660703.1)	Glycine, serine and threonine metabolism
+R02722	Athe_1690 and (Athe_1691 or Athe_0031)	peg.2199 and (peg.2200 or peg.411)	WP_015908114.1 and (WP_015908115.1 or WP_012660703.1)	Glycine, serine and threonine metabolism
 R00414	Athe_1946	peg.2465	WP_015908323.1	Amino sugar and nucleotide sugar metabolism
 R00420	Athe_1946	peg.2465	WP_015908323.1	Amino sugar and nucleotide sugar metabolism
 R02707	Athe_1946	peg.2465	WP_015908323.1	-
