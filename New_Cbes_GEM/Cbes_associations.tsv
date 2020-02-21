@@ -201,7 +201,7 @@ R11635	Athe_0548	peg.979	WP_015907130.1	Pyrimidine metabolism
 R02291	Athe_1135	peg.1618	WP_041727369.1	Glycine, serine and threonine metabolism
 R03313	Athe_1644	peg.2153	WP_015908071.1	Arginine and proline metabolism
 R01728	Athe_0844	peg.1304	WP_015907387.1	Phenylalanine, tyrosine and tryptophan biosynthesis
-R01869	Athe_1379 and Athe_1380	(peg.1869 or peg.1870) and peg.1871	WP_015907848.1 and WP_015907849.1	Pyrimidine metabolism
+R01869	Athe_1379 and Athe_1380	peg.1870 and peg.1871	WP_015907848.1 and WP_015907849.1	Pyrimidine metabolism
 R03291	Athe_1339	peg.1827	WP_015907810.1	Arginine and proline metabolism
 R03293	Athe_1339	peg.1827	WP_015907810.1	Arginine and proline metabolism
 R07168	Athe_0325	peg.736	WP_015906930.1	One carbon pool by folate
