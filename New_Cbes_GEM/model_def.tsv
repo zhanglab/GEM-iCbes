@@ -18,7 +18,7 @@ R01398
 R09735
 R01067
 R08575
-R09524
+#R09524
 R00230
 R00921
 R00952
@@ -745,8 +745,8 @@ R11308_kz
 
 # for engineered processes:
 ## deletion: (R01870 is PyrE and R00703 is LDH)
-#R01870
-#R00703
+R01870
+R00703
 
 ## adding:
 #Rnf
