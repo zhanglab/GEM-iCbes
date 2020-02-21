@@ -476,7 +476,7 @@ R02340	Athe_1690	peg.2199	WP_015908114.1	Phenylalanine, tyrosine and tryptophan 
 R00424	Athe_0441	peg.861	WP_015907036.1	-
 R08368	Athe_1772	peg.2283	WP_015908167.1	-
 R10244	Athe_1772	peg.2283	WP_015908167.1	-
-R00481	Athe_1213	peg.1700	WP_015907705.1	Nicotinate and nicotinamide metabolism
+R00481_zws	Athe_1213	peg.1700	WP_015907705.1	Nicotinate and nicotinamide metabolism
 R01057	Athe_1773	peg.2284	WP_015908168.1	Pentose phosphate pathway
 R02749	Athe_1773	peg.2284	WP_015908168.1	Pentose phosphate pathway
 R01226	Athe_1981	peg.2503	WP_015908353.1	Pantothenate and CoA biosynthesis
