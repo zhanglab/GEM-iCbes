@@ -2909,3 +2909,11 @@
   name: Cellulose(n=8)
   formula: H2O(C6H10O5)8
   charge: 0
+- id: C03044
+  name: (R,R)-Butane-2,3-diol
+  formula: C4H10O2
+  charge: 0
+- id: C20657
+  name: meso-2,3-Butanediol
+  formula: C4H10O2
+  charge: 0

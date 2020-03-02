@@ -59,6 +59,31 @@
 - id: AcetoneTP
   equation: C00207[c] => C00207[e]
 
+# add reactions for 2,3-butanediol production, strategy is based on Mike's group, Tania is working on this strain.
+## option 1: enzyme from Thermococcus guaymasensis, acts on R/S acetoin, Topt = 85 C, NADPH-dependent, produce R,R-2,3-Butanediol or meso-2,3-butanediol ((R,S)-2,3-butanediol).
+- id: sADH1
+  name: (R,R)-Butane-2,3-diol:NADP+ oxidoreductase
+  equation: C00466[c] + C00005[c] + C00080[c] <=> C03044[c] + C00006[c]
+  ec:
+  - 1.1.1.1
+  PMID: 21515780
+  comment: C00466 is Acetoin, C01769 is (S)-Acetoin, C00810 is (R)-Acetoin.
+- id: sADH2
+  name: (R,R)-Butane-2,3-diol:NADP+ oxidoreductase
+  equation: C00466[c] + C00005[c] + C00080[c] <=> C20657[c] + C00006[c]
+  ec:
+  - 1.1.1.1
+  PMID: 21515780
+  comment: C00466 is Acetoin, C01769 is (S)-Acetoin, C00810 is (R)-Acetoin.
+## option 2: enzyme from Thermoanaerobacter brockii, acts on R acetoin, Topt = 65 C, NADPH-dependent, produce R,R-2,3-Butanediol.
+- id: sADH3
+  name: (R,R)-Butane-2,3-diol:NADP+ oxidoreductase
+  equation: C00810[c] + C00005[c] + C00080[c] <=> C03044[c] + C00006[c]
+  ec:
+  - 1.1.1.1
+  PMID: 19763290
+  comment: C00466 is Acetoin, C01769 is (S)-Acetoin, C00810 is (R)-Acetoin.
+
 - id: combined_product
   equation: C00186[c] + (0.33) C00033[c] + (0.06) C00022[c] =>
   # equation: (0.33) C00033[c] + (0.06) C00022[c] =>

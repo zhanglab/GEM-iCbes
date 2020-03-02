@@ -2505,6 +2505,7 @@
   equation: C06010[c] + C00011[c] <=> (2) C00022[c] + C00080[c]
   ec:
   - 2.2.1.6
+  PMID: 28659601
 - id: R08648
   name: pyruvate:2-oxobutanoate acetaldehydetransferase (decarboxylating)
   equation: C00022[c] + C00109[c] + C00080[c] <=> C06006[c] + C00011[c]
