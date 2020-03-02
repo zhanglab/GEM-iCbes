@@ -1,4 +1,4 @@
-id	genes	genes_peg	genes_wp	subsystem
+id	genes	genes_peg	genes_wp	subsystem	comment
 R08198	Athe_2125 or Athe_1994	peg.2680 or peg.2522	WP_015908470.1 or WP_015908365.1	-
 R11312	Athe_0372	peg.785	WP_015906973.1	-
 R03634	Athe_1104 or Athe_0468	peg.1585 or peg.888	WP_015907610.1 or WP_015907063.1	Galactose metabolism
@@ -467,7 +467,7 @@ R04198	Athe_1133	peg.1616	WP_015907633.1	Monobactam biosynthesis
 R00936	Athe_0219	peg.617	WP_015906840.1	One carbon pool by folate
 R01248	Athe_1339	peg.1827	WP_015907810.1	Arginine and proline metabolism
 R00006	(Athe_0502 or Athe_0666) and Athe_0503	(peg.933 or peg.1111) and peg.934	(WP_015907090.1 or WP_015907236.1) and WP_015907091.1	Pantothenate and CoA biosynthesis
-R00226	(Athe_0502 or Athe_0666) and Athe_0503	(peg.933 or peg.1111) and peg.934	(WP_015907090.1 or WP_015907236.1) and WP_015907091.1	Valine, leucine and isoleucine biosynthesis
+R00226	Athe_0502 or Athe_0666	peg.933 or peg.1111	WP_015907090.1 or WP_015907236.1	Valine, leucine and isoleucine biosynthesis	The small subunit (Athe_0503) hasn't been found to play any role in acetoin production so far (by Tania)
 R08648	(Athe_0502 or Athe_0666) and Athe_0503	(peg.933 or peg.1111) and peg.934	(WP_015907090.1 or WP_015907236.1) and WP_015907091.1	Valine, leucine and isoleucine biosynthesis
 R03050	(Athe_0502 or Athe_0666) and Athe_0503	(peg.933 or peg.1111) and peg.934	(WP_015907090.1 or WP_015907236.1) and WP_015907091.1	-
 R04672	(Athe_0502 or Athe_0666) and Athe_0503	(peg.933 or peg.1111) and peg.934	(WP_015907090.1 or WP_015907236.1) and WP_015907091.1	-
