@@ -204,7 +204,7 @@ R03291
 R03293
 R07168
 R01224
-R02235
+#R02235 # only keep R02236 (NADPH version) based on the cystal paper of this enzyme (Dihydrofolate reductase) in Ecoli (pmid:31924918), which is specific to use NADPH as cofactor. The ijo1366 model only keep the NADPH version of this reaction.
 R02236
 R01220
 R07605
@@ -749,11 +749,11 @@ R01870
 R00703
 
 ## adding:
-#Rnf
+Rnf
 
 # for EtOH production
-#R00228
-#R00754
+R00228
+R00754
 
 # for 3-HP production
 ##R00742 # we don't need this, there was already a gene-associated R00742 in Cbe model
