@@ -458,7 +458,7 @@ R00939
 R01251
 R00842
 R00732
-R01773
+#R01773 # remove the NAD version based on discussion with Ying's suggestion: For anabolic pathways, we could probably just use NADP and remove the NAD version.
 R03191
 R04198
 R00936
