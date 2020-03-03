@@ -749,11 +749,11 @@ R01870
 R00703
 
 ## adding:
-Rnf
+#Rnf
 
 # for EtOH production
-R00228
-R00754
+#R00228
+#R00754
 
 # for 3-HP production
 ##R00742 # we don't need this, there was already a gene-associated R00742 in Cbe model
