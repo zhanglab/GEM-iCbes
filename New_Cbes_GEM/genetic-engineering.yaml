@@ -87,3 +87,6 @@
 - id: combined_product
   equation: C00186[c] + (0.33) C00033[c] + (0.06) C00022[c] =>
   # equation: (0.33) C00033[c] + (0.06) C00022[c] =>
+
+- id: dLDH_product
+  equation: C00033[c] + (0.07) C00022[c] =>
