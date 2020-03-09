@@ -635,7 +635,6 @@
   ec:
   - 5.1.3.11
   PMID: 23093406
-  comment: Athe_2557 has 99% coverage and 45.50% identity to Rumal_0019 (Figure 5 of literature 23093406)
 - id: R00291
   name: UDP-glucose 4-epimerase
   equation: C00029[c] <=> C00052[c]
@@ -2555,8 +2554,8 @@
 - id: R00481_zws
   name: Anaerobic L-aspartate oxidase (Asp oxidase)
   equation: C00049[c] + C00122[c] <=> C05840[c] + C00042[c] + C00080[c]
-  subsystem: Nicotinate and nicotinamide metabolism
-  ec: 1.4.3.16
+  ec:
+  - 1.4.3.16
   change: Change_cpd
   kegg: R00481
   source: Literature

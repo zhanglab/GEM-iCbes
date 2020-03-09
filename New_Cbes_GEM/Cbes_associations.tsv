@@ -24,7 +24,7 @@ R08575	Athe_1489	peg.1982	WP_013430193.1	-
 R09524	Athe_0702 and Athe_0703 and Athe_0704	peg.1156 and peg.1157 and peg.1158	WP_015907259.1 and WP_015907260.1 and WP_015907261.1	-
 R00230	Athe_1494	peg.1987	WP_015907948.1	Pyruvate metabolism
 R00921	Athe_1494	peg.1987	WP_015907948.1	Propanoate metabolism
-R00952	Athe_0460 or Athe_0459	peg.880 or peg.879	WP_015907055.1 or WP_015907054.1	Starch and sucrose metabolism
+R00952	Athe_0459 or Athe_0460	peg.879 or peg.880	WP_015907054.1 or WP_015907055.1	Sugar metabolism
 R07264_kz	Athe_0398	peg.813	WP_015906997.1	Sugar metabolism
 R11398_kz	Athe_0536	peg.967	WP_015907120.1	Sugar metabolism
 R02727	Athe_0403 or Athe_0415	peg.818 or peg.834	WP_015907002.1 or -	-
@@ -124,7 +124,7 @@ R01086	Athe_1248	peg.1735	WP_015907738.1	Arginine biosynthesis
 R11372	Athe_0830	peg.1290	WP_015907373.1	Folate biosynthesis
 R01529	Athe_1047	peg.1528	WP_015907560.1	Pentose phosphate pathway
 R01445	Athe_2557	peg.94	WP_015908874.1	-
-R10810	Athe_2557	peg.94	WP_015908874.1	-
+R10810	Athe_2557	peg.94	WP_015908874.1	-	Athe_2557 has 0.99 coverage and 0.455 identity to Rumal_0019 (Figure 5 of literature 23093406)
 R00291	Athe_0940 or Athe_1148	peg.1410 or peg.1631	WP_015907467.1 or WP_015907648.1	Galactose metabolism
 R02984	Athe_0940 or Athe_1148	peg.1410 or peg.1631	WP_015907467.1 or WP_015907648.1	-
 R00418	Athe_0940 or Athe_1148	peg.1410 or peg.1631	WP_015907467.1 or WP_015907648.1	Amino sugar and nucleotide sugar metabolism
@@ -538,6 +538,4 @@ TP_CO2	Spontaneous	Spontaneous	Spontaneous	Transport
 TP_NH3	Spontaneous	Spontaneous	Spontaneous	Transport
 h2ot	Spontaneous	Spontaneous	Spontaneous	Transport
 G5SADs	Spontaneous	Spontaneous	Spontaneous	Arginine and proline metabolism
-Acetoin-Syn	Spontaneous	Spontaneous	Spontaneous	Pyruvate metabolism
-R11307_kz	Athe_1860 or Athe_1865 or Athe_1866 or Athe_1857 or Athe_1859 or Athe_1867 or Athe_0594	peg.2370 or peg.2375 or peg.2376 or peg.2377 or peg.2379 or peg.2380 or peg.1027	WP_015908243.1 or WP_015908248.1 or WP_015908249.1 or WP_015908240.1 or WP_015908242.1 or WP_015908250.1 or WP_015907173.1	Starch and sucrose metabolism
-R11308_kz	Athe_1860 or Athe_1865 or Athe_1866 or Athe_1857 or Athe_1859 or Athe_1867 or Athe_0594	peg.2370 or peg.2375 or peg.2376 or peg.2377 or peg.2379 or peg.2380 or peg.1027	WP_015908243.1 or WP_015908248.1 or WP_015908249.1 or WP_015908240.1 or WP_015908242.1 or WP_015908250.1 or WP_015907173.1	Starch and sucrose metabolism
+Acetoin-Syn	Spontaneous	Spontaneous	Spontaneous	Pyruvate metabolism		Acetoin is generated from pyruvate by the action of acetolactate synthase and the abiotic decarboxylation of acetolactate to acetoin at high temperatures (above 60 C).
