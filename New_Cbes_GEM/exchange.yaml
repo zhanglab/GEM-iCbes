@@ -264,3 +264,22 @@ compounds:
 #   name: L-Rhamnose
 #   lower: -25.0
 #   upper: 1000.0
+# - id: C02013
+#   name: Cellotetraose
+#   lower: -25
+#   upper: 1000
+# - id: C00470_kz
+#   name: Pectate
+#   lower: -25
+#   upper: 1000
+#   comment: pectin derived compound
+# - id: C00718_kz
+#   name: Amylose(n=8)
+#   lower: -25
+#   upper: 1000
+#   comment: alpha-1,4-glucans
+# - id: C00372_kz
+#   name: 1,6-alpha-D-Glucan(n=4)
+#   lower: -25
+#   upper: 1000
+#   comment: alpha-1,6-glucans

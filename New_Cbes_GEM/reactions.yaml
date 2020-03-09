@@ -3146,7 +3146,7 @@
   - 3.2.1.172
 - id: R02360_kz
   name: Poly(1,4-alpha-D-galacturonate) glycanohydrolase
-  equation: POS[c] + C00001[c] => (2) C02273[c] + (4)C00080[c]
+  equation: POS[c] + C00001[c] => (2) C02273[c] + (4) C00080[c]
   ec:
   - 3.2.1.15
 - id: 14GLACANASE

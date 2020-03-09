@@ -1,6 +1,6 @@
 - id: R02110
   name: 1,4-alpha-D-Glucan:1,4-alpha-D-glucan 6-alpha-D-(1,4-alpha-D-glucano)-transferase
-  equation: (2) C00718[c] => C00369[c] + (2) C00001[c]
+  equation: C00718_kz[c] => C00369[c] + C00001[c]
   ec:
   - 2.4.1.18
 - id: R05636

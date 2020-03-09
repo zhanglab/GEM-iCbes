@@ -2879,6 +2879,10 @@
   formula: C175H278N24O70P2
   # charge: 0
   # formula: C40H64N8O21
+- id: C00810
+  name: (R)-acetoin
+  formula: C4H8O2
+  charge: 0
 
 # below are the mediate compounds for engineered production of 3HP or Acetone
 - id: C20860
@@ -2959,11 +2963,11 @@
   # formula: C12H18O13(C6H8O6)2
   formula: H2O(C6H8O6)4
   charge: 0
-- id: POS-2
+- id: POS2
   name: pectin oligosaccharides 2(rhamnose-glucuronate)
   # formula: C12H18O13(C6H8O6)2
-  formula: C12H18O10
-  charge: 0
+  formula: C12H17O10
+  charge: -1
   comment: formula is based on brenda - https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=7904
 - id: C00372_kz
   name: 1,6-alpha-D-Glucan(n=4)
