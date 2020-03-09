@@ -28,6 +28,8 @@ reactions:
 - include: addRxns_whenDotest.yaml # missing gene after eggnog check, these gene-reaction associations were added during the simulation tests
 - include: gene_asso_addRxns_whenDotest_complete.tsv # gene-reaction associations related to addRxns_whenDotest.yaml.
   format: tsv
+- include: gene_asso_complexSugar_complete.tsv	# manually add reactions for complex sugar utilization.
+  format: tsv
 - include: biomass.yaml
 - include: spontaneous.yaml
 - include: gapfill.yaml
