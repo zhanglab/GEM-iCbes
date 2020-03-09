@@ -2927,8 +2927,8 @@
   charge: 0
 - id: C02888
   name: Sorbose 1-phosphate
-  formula: C6H13O9P
-  charge: 0
+  formula: C6H11O9P
+  charge: -2
 - id: s2l2fn2m2masn
   name: PA6 (fucoside)
   formula: C90H145N6O65X
@@ -2959,6 +2959,12 @@
   # formula: C12H18O13(C6H8O6)2
   formula: H2O(C6H8O6)4
   charge: 0
+- id: POS-2
+  name: pectin oligosaccharides 2(rhamnose-glucuronate)
+  # formula: C12H18O13(C6H8O6)2
+  formula: C12H18O10
+  charge: 0
+  comment: formula is based on brenda - https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=7904
 - id: C00372_kz
   name: 1,6-alpha-D-Glucan(n=4)
   formula: H2O(C12H20O10)4
@@ -2973,6 +2979,6 @@
   charge: 0
 - id: XOS2
   name: (4O-Me)GlcAalpha(1-2)[(Xylbeta(1-3))n](Xylbeta(1-3)m)
-  formula: C27H44O23
-  charge: 0
-  comment: compound formula is derived from brenda https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=131578
+  formula: C26H41O23
+  charge: -1
+  comment: compound formula is derived from brenda https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=131578, with the removal of methyl(-CH3) group

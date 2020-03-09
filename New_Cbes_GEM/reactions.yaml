@@ -3102,7 +3102,7 @@
   - 3.2.1.25
 - id: R11398_kz
   name: beta-D-mannopyranosyl-(1->2)-D-mannopyranose:phosphate alpha-D-mannosyltransferase
-  equation: C21336[c] + (2) C00009[c] <=> (2) C00636[c]
+  equation: C21336[c] +  C00009[c] <=> C00159[c] + C00636[c]
   ec:
   - 2.4.1.339
   PMID: 25500577
@@ -3142,12 +3142,12 @@
   - 4.2.2.23
 - id: RhiN
   name: rhamnogalacturonyl hydrolase
-  equation: POS[c] + C00001[c] =>  C04053[c] + C00507[c]
+  equation: POS2[c] + C00001[c] =>  C04053[c] + C00507[c]
   ec:
   - 3.2.1.172
 - id: R02360_kz
   name: Poly(1,4-alpha-D-galacturonate) glycanohydrolase
-  equation: POS[c] + C00001[c] => (2) C02273[c]
+  equation: POS[c] + C00001[c] => (2) C02273[c] + (4)C00080[c]
   ec:
   - 3.2.1.15
 - id: 14GLACANASE
@@ -3185,7 +3185,7 @@
   equation: XGOS-xllg[c] + (2) C00001[c] => XGOS-xxxg[c] + (2) C00124[c]
 - id: XylS
   name: alpha-xylosidase (XGOS-xxxg)
-  equation: XGOS-xxxg[c] + C00001[c] => (3) C00181[c] +  C02013[c]
+  equation: XGOS-xxxg[c] + (3) C00001[c] => (3) C00181[c] +  C02013[c]
   ec:
   - 3.2.1.177
 - id: AguX

@@ -359,6 +359,10 @@
   name: pectin oligosacchrides transport via ABC system
   equation: POS[e] + C00002[c] + C00001[c] => POS[c] + C00008[c] + C00009[c] + C00080[c]
   ec: TC=3.A.1.1.9
+- id: posABC-2
+  name: pectin oligosacchrides 2 transport via ABC system
+  equation: POS2[e] + C00002[c] + C00001[c] => POS2[c] + C00008[c] + C00009[c] + C00080[c]
+  ec: TC=3.A.1.1.9
 - id: valABC
   name: valine oligosacchrides transport via ABC system
   equation: C00002[c] + C00001[c] + C00183[e] => C00008[c] + C00009[c] + C00183[c] + C00080[c]
