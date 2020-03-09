@@ -203,7 +203,7 @@
   equation: C02013[e] + C00002[c] + C00001[c] => C02013[c] + C00008[c] + C00009[c] + C00080[c]
 - id: mosABC
   name: mannose oligosaccharides transport via ABC system
-  equation: C17207[e] + C00002[c] + C00001[c] => C17207[c] + C00008[c] + C00009[c] + C00080[c]
+  equation: C17207_kz[e] + C00002[c] + C00001[c] => C17207_kz[c] + C00008[c] + C00009[c] + C00080[c]
 - id: xosABC
   name: Xylan oligosaccharides transport via ABC system
   equation: XOS[e] + C00002[c] + C00001[c] => XOS[c] + C00008[c] + C00009[c] + C00080[c]
@@ -221,10 +221,16 @@
   equation: C00208[e] + C00002[c] + C00001[c] => C00208[c] + C00008[c] + C00009[c] + C00080[c]
 - id: mdosABC
   name: Maltodextrin transport via ABC system
-  equation: C01935[e] + C00002[c] + C00001[c] => C01935[c] + C00008[c] + C00009[c] + C00080[c]
+  equation: C01935_kz[e] + C00002[c] + C00001[c] => C01935_kz[c] + C00008[c] + C00009[c] + C00080[c]
 - id: rhaosABC
   name: Rhamnose oligosaccharide transport via ABC system
-  equation: C00507[e] + C00002[c] + C00001[c] => C00507[c] + C00008[c] + C00009[c] + C00080[c]
+  equation: rhaos[e] + C00002[c] + C00001[c] => rhaos[c] + C00008[c] + C00009[c] + C00080[c]
+- id: gosABC
+  name: Galactose oligosaccharides transport via ABC system
+  equation: GOS[e] + C00002[c] + C00001[c] => GOS[c] + C00008[c] + C00009[c] + C00080[c]
+- id: xosABC-2
+  name: Xylan oligosaccharides (with (1->2)-alpha-D-(4-O-methyl)glucuronosyl) transport via ABC system
+  equation: XOS2[e] + C00002[c] + C00001[c] => XOS2[c] + C00008[c] + C00009[c] + C00080[c]
 - id: PYRt2
   name: pyruvate reversible transport via proton symport
   equation: C00080[c] + C00022[c] <=> C00080[e] + C00022[e]

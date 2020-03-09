@@ -25,8 +25,8 @@ R09524	Athe_0702 and Athe_0703 and Athe_0704	peg.1156 and peg.1157 and peg.1158	
 R00230	Athe_1494	peg.1987	WP_015907948.1	Pyruvate metabolism
 R00921	Athe_1494	peg.1987	WP_015907948.1	Propanoate metabolism
 R00952	Athe_0460 or Athe_0459	peg.880 or peg.879	WP_015907055.1 or WP_015907054.1	Starch and sucrose metabolism
-R07264	Athe_0398	peg.813	WP_015906997.1	-
-R11398	Athe_0536	peg.967	WP_015907120.1	-
+R07264_kz	Athe_0398	peg.813	WP_015906997.1	Sugar metabolism
+R11398_kz	Athe_0536	peg.967	WP_015907120.1	Sugar metabolism
 R02727	Athe_0403 or Athe_0415	peg.818 or peg.834	WP_015907002.1 or -	-
 R01071	Athe_1479	peg.1972	WP_013430203.1	Histidine metabolism
 R03223	Athe_0372	peg.785	WP_015906973.1	Thiamine metabolism

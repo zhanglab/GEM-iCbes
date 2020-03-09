@@ -348,29 +348,38 @@
   equation: antim[c] => antim[e]
   ec: TC=2.A.59.1.2
 - id: trehABC
+  name: Trehalose oligosacchrides transport via ABC system
   equation: C01083[e] + C00002[c] + C00001[c] => C01083[c] + C00008[c] + C00009[c] + C00080[c]
   ec: TC=3.A.1.1
 - id: kojABC
+  name: Kojibiose oligosacchrides transport via ABC system
   equation: C19632[e] + C00002[c] + C00001[c] => C19632[c] + C00008[c] + C00009[c] + C00080[c]
   ec: TC=3.A.1.1
-- id: pecABC
-  equation: C00714[e] + C00002[c] + C00001[c] => C00714[c] + C00008[c] + C00009[c] + C00080[c]
+- id: posABC
+  name: pectin oligosacchrides transport via ABC system
+  equation: POS[e] + C00002[c] + C00001[c] => POS[c] + C00008[c] + C00009[c] + C00080[c]
   ec: TC=3.A.1.1.9
 - id: valABC
+  name: valine oligosacchrides transport via ABC system
   equation: C00002[c] + C00001[c] + C00183[e] => C00008[c] + C00009[c] + C00183[c] + C00080[c]
   ec: TC=3.A.1.4.1
 - id: leuABC
+  name: leucine oligosacchrides transport via ABC system
   equation: C00002[c] + C00001[c] + C00123[e] => C00008[c] + C00009[c] + C00123[c] + C00080[c]
   ec: TC=3.A.1.4.1
 - id: ileABC
+  name: isoleucine oligosacchrides transport via ABC system
   equation: C00002[c] + C00001[c] + C00407[e] => C00008[c] + C00009[c] + C00407[c] + C00080[c]
   ec: TC=3.A.1.4.1
 - id: piH
+  name: phopsphate-H+ symport
   equation: C00013[c] + C00001[c] => (2) C00009[c] + C00080[e]
   ec: TC=3.A.10.2.3
 - id: inosABC
+  name:  myo-Inositol transport via ABC system
   equation: C00137[e] + C00002[c] + C00001[c] => C00137[c] + C00008[c] + C00009[c] + C00080[c]
   ec: TC=unknown
 - id: GlcnABC
+  name: beta-D-Glucuronoside transport via ABC system
   equation: C03033[e] + C00002[c] + C00001[c] => C03033[c] + C00008[c] + C00009[c] + C00080[c]
   tc: 3.A.1

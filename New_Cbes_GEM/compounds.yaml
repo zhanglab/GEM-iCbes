@@ -983,7 +983,7 @@
   charge: 0
   formula: C5H10O5
 - id: C01019
-  name: 6-Deoxy-L-galactose
+  name: Fucose (6-Deoxy-L-galactose)
   charge: 0
   formula: C6H12O5
 - id: C00022
@@ -2466,10 +2466,10 @@
   name: O2.-
   charge: -1
   formula: O2
-- id: C00714
+- id: C00714_kz
   name: Pectin
   charge: 0
-  formula: (C26H36O24)n
+  formula: H2O(C26H36O24)2
 - id: C00725
   name: Lipoate
   charge: -1
@@ -2787,11 +2787,11 @@
   name: Xylan
   charge: 0
   formula: H2O(C5H8O4)7(C10H16O8)4
-- id: C00718
-  name: Amylose(n=4)
+- id: C00718_kz
+  name: Amylose(n=8)
   charge: 0
-  formula: H2O(C6H10O5)4
-- id: C01935
+  formula: H2O(C6H10O5)8
+- id: C01935_kz
   name: Maltodextrin(n=4)
   charge: 0
   formula: H2O(C6H10O5)4
@@ -2917,3 +2917,62 @@
   name: meso-2,3-Butanediol
   formula: C4H10O2
   charge: 0
+- id: C02492_kz
+  name: 1,4-beta-D-Mannan(n=8)
+  formula: H2O(C6H10O5)8
+  charge: 0
+- id: C17207_kz
+  name: 1,4-beta-D-Mannooligosaccharide(n=4)
+  formula: C24H42O21
+  charge: 0
+- id: C02888
+  name: Sorbose 1-phosphate
+  formula: C6H13O9P
+  charge: 0
+- id: s2l2fn2m2masn
+  name: PA6 (fucoside)
+  formula: C90H145N6O65X
+  charge: 0
+- id: s2l2n2m2masn
+  name: de-Fuc form of PA6
+  formula: C84H135N6O61X
+  charge: 0
+- id: ksi
+  name: keratan sulfate I
+  formula: C247H393N17O213S12X
+  charge: 0
+- id: ksi_deg1
+  name: keratan sulfate I, degradation product 1
+  formula: C241H383N17O209S12X
+  charge: 0
+- id: rhaos
+  name: Rhamnose oligosaccharides(n=2)
+  formula: C12H22O9
+  charge: 0
+- id: C00470_kz
+  name: Pectate
+  # formula: C12H18O13(C6H8O6)6
+  formula: H2O(C6H8O6)8
+  charge: 0
+- id: POS
+  name: pectin oligosaccharides
+  # formula: C12H18O13(C6H8O6)2
+  formula: H2O(C6H8O6)4
+  charge: 0
+- id: C00372_kz
+  name: 1,6-alpha-D-Glucan(n=4)
+  formula: H2O(C12H20O10)4
+  charge: 0
+- id: AraGal
+  name: Arabinogalactan
+  formula: C20H36O14
+  charge: 0
+- id: GOS
+  name: Galactose oligosaccharides
+  formula: H2O(C6H10O5)4
+  charge: 0
+- id: XOS2
+  name: (4O-Me)GlcAalpha(1-2)[(Xylbeta(1-3))n](Xylbeta(1-3)m)
+  formula: C27H44O23
+  charge: 0
+  comment: compound formula is derived from brenda https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=131578

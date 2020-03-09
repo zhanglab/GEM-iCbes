@@ -107,15 +107,21 @@
 - id: AbfA
   name: alpha-L-arabinan arabinofuranohydrolase
   equation: AXOS[c] + (3) C00001[c] => XOS[c] + (3) C00259[c]
-  ec: 3.2.1.55
+  ec:
+  - 3.2.1.55
+  - 3.2.1.99
+  comment: Alpha-L-arabinofuranosidase (AbfA, EC 3.2.1.55); endo-alpha-1,5-L-arabinanase (AbnA, EC 3.2.1.99). AbnA Acts best on linear 1,5-alpha-L-arabinan, also acts on branched arabinan, but more slowly.
 - id: Xylase
   name: Endo-1,4-beta-xylanase (secreted)
   equation: C00707[e] + (2) C00001[e] => (2) XOS[e] + AXOS[e]
-  ec: 3.2.1.55 (secreted)
+  ec:
+  - 3.2.1.55
+  - 3.2.1.8
+  comment: Athe_0182
 - id: R01762
-  name: alpha-arabinosidase
+  name: alpha-arabinosidase (secreted)
   equation: C02474[e] + (5) C00001[e] => (6) C00259[e]
-  ec: 3.2.1.55 (secreted)
+  ec: 3.2.1.55
 - id: R11719
   name: dihydroneopterin triphosphate aldolase (PTS III)
   equation: C04895[c] <=> C01300[c] + C21615[c]

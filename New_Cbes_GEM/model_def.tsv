@@ -22,8 +22,8 @@ R08575
 R00230
 R00921
 R00952
-R07264
-R11398
+R07264_kz
+R11398_kz
 R02727
 R01071
 R03223
@@ -615,7 +615,7 @@ XyloseABC
 GluABC
 GaltABC
 ArabABC
-b-XysABC
+#b-XysABC
 celbABC
 cosABC
 mosABC
@@ -683,7 +683,7 @@ ARSNAt1
 ANTIMt1
 trehABC
 kojABC
-pecABC
+posABC
 valABC
 leuABC
 ileABC
@@ -741,6 +741,35 @@ Acetoin-t
 Acetoin-Syn
 R11307_kz
 R11308_kz
+
+# sugar metabolism
+R11307_kz
+R11308_kz
+R00952
+CelF
+R02887_kz
+R08612_kz
+R10811_kz
+R08614_kz
+R11398_kz
+R01326
+SorE1
+SorE2
+FUCASE
+FUCASE2
+PECASE
+RhiN
+R02360_kz
+14GLACANASE
+16GLACANASE
+R02112_kz
+R01790_kz
+gosABC
+GOSASE
+Bgal
+XylS
+xosABC-2
+AguX
 
 # for engineered processes:
 ## deletion: (R01870 is PyrE and R00703 is LDH)

@@ -123,16 +123,12 @@
   equation: C00185[c] + C00009[c] <=> C00103[c] + C00031[c]
   ec:
   - 2.4.1.20
-- id: R07264
+  PMID: 22484959
+- id: R07264_kz
   name: 2-alpha-D-glucosyl-D-glucose:phosphate beta-D-glucosyltransferase
-  equation: C15548[c] + C00009[c] <=> C00031[c] + C00103[c]
+  equation: C19632[c] + C00009[c] <=> C00031[c] + C00103[c]
   ec:
   - 2.4.1.230
-- id: R11398
-  name: beta-D-mannopyranosyl-(1->2)-D-mannopyranose:phosphate alpha-D-mannosyltransferase
-  equation: C21336[c] + C00009[c] <=> C00159[c] + C00636[c]
-  ec:
-  - 2.4.1.339
 - id: R02727
   name: alpha,alpha-Trehalose:orthophosphate beta-D-glucosyltransferase
   equation: C01083[c] + C00009[c] <=> C00031[c] + C00103[c]
@@ -632,11 +628,14 @@
   equation: C00185[c] <=> C02964[c]
   ec:
   - 5.1.3.11
+  PMID: 23093406
 - id: R10810
   name: beta-1,4-mannobiose 2-epimerase
   equation: C20861[c] <=> C20236[c]
   ec:
   - 5.1.3.11
+  PMID: 23093406
+  comment: Athe_2557 has 99% coverage and 45.50% identity to Rumal_0019 (Figure 5 of literature 23093406)
 - id: R00291
   name: UDP-glucose 4-epimerase
   equation: C00029[c] <=> C00052[c]
@@ -3063,13 +3062,134 @@
     + (38) C00093[c] + (74) C00080[c] => C00416[c] + (76) C00229[c]
   ec:
   - 2.3.1.274, 2.3.1.275, 2.3.1.51
+
+# Sugar metabolism
 - id: R11307_kz
-  name: celluase
+  name: celluase / Beta-1,4-glucanase (secreted)
   equation: C00760_kz[e] + C00001[e] => (2) C02013[e]
   ec:
   - 3.2.1.4
 - id: R11308_kz
-  name: celluase
+  name: celluase / Beta-1,4-glucanase (secreted)
   equation: C02013[e] + C00001[e] => (2) C00185[e]
   ec:
   - 3.2.1.4
+- id: CelF
+  name: cellulose 1,4-beta-cellobiosidase (reducing end)(secreted)
+  equation: C00760_kz[e] + (3) C00001[e] => (4) C00185[e]
+  ec:
+  - 3.2.1.176
+- id: R02887_kz
+  name: 1,4-beta-D-Glucan glucohydrolase
+  equation: C02013[c] + (2) C00001[c] => (2) C00031[c] + C00185[c]
+  ec:
+  - 3.2.1.21
+- id: R08612_kz
+  name: Mannan endo-1,4-beta-mannosidase (secreted)
+  equation: C02492_kz[e] + C00001[e] => (2) C17207_kz[e]
+  ec:
+  - 3.2.1.78
+- id: R10811_kz
+  name: 1,4-beta-D-mannooligosaccharide:phosphate alpha-D-mannosyltransferase
+  equation: C17207_kz[c] + (2) C00009[c] <=> C20861[c] + (2) C00636[c]
+  ec:
+  - 2.4.1.319
+- id: R08614_kz
+  name: 1,4-beta-D-Mannooligosaccharide mannohydrolase
+  equation: C17207_kz[c] + (3) C00001[c] => (4) C00159[c]
+  ec:
+  - 3.2.1.78
+  - 3.2.1.25
+- id: R11398_kz
+  name: beta-D-mannopyranosyl-(1->2)-D-mannopyranose:phosphate alpha-D-mannosyltransferase
+  equation: C21336[c] + (2) C00009[c] <=> (2) C00636[c]
+  ec:
+  - 2.4.1.339
+  PMID: 25500577
+- id: R01326
+  name: ATP:D-mannose 6-phosphotransferase
+  equation: C00002[c] + C00159[c] <=> C00008[c] + C00275[c] + C00080[c]
+  ec:
+  - 2.7.1.2
+- id: SorE1
+  name: L-sorbose-1-phosphate reductase (NADH)
+  equation: C02888[c] + C00004[c] + C00080[c] => C01096[c] + C00003[c]
+  ec:
+  - 1.1.1.-
+  comment: equation comes from https://biocyc.org/gene?orgid=META&id=MONOMER-42, not 100% sure
+- id: SorE2
+  name: L-sorbose-1-phosphate reductase (NADPH)
+  equation: C02888[c] + C00005[c] + C00080[c] => C01096[c] + C00006[c]
+  ec:
+  - 1.1.1.-
+  comment: equation comes from https://biocyc.org/gene?orgid=META&id=MONOMER-42, not 100% sure
+- id: FUCASE
+  name: alpha-fucosidase, cytosol
+  equation: s2l2fn2m2masn[c] + C00001[c] => C01019[c] + s2l2n2m2masn[c]
+  ec:
+  - 3.2.1.51
+  comment: iTZ479-FUCASE
+- id: FUCASE2
+  name: alpha-fucosidase, cytosol
+  equation: ksi[c] + C00001[c] => C01019[c] + ksi_deg1[c]
+  ec:
+  - 3.2.1.51
+- id: PECASE
+  name: Pectate lyase / Rhamnogalacturonan endolyase(secreted)
+  equation: C00470_kz[e] + C00001[e] => (2) POS[e]
+  ec:
+  - 4.2.2.2
+  - 4.2.2.23
+- id: RhiN
+  name: rhamnogalacturonyl hydrolase
+  equation: POS[c] + C00001[c] =>  C04053[c] + C00507[c]
+  ec:
+  - 3.2.1.172
+- id: R02360_kz
+  name: Poly(1,4-alpha-D-galacturonate) glycanohydrolase
+  equation: POS[c] + C00001[c] => (2) C02273[c]
+  ec:
+  - 3.2.1.15
+- id: 14GLACANASE
+  name: alpha-amylase (secreted)
+  equation: C00718_kz[e] + C00001[e] => (2) C01935_kz[e]
+  ec:
+  - 3.2.1.1
+- id: 16GLACANASE
+  name: Pullulanase (secreted)
+  equation: C00372_kz[e] + C00001[e] => (2) C01935_kz[e]
+  ec:
+  - 3.2.1.41
+- id: R02112_kz
+  name: Alpha-amylase / Neopullulanase
+  equation: C01935_kz[c] + C00001[c] => (2) C00208[c]
+  ec:
+  - 3.2.1.1
+  - 3.2.1.135
+- id: R01790_kz
+  name: 1,4-alpha-D-Glucan glucohydrolase
+  equation: C01935_kz[c] + (2) C00001[c] => (2) C00031 + C00208[c]
+  ec:
+  - 3.2.1.3
+- id: GOSASE
+  name: galactosidase
+  equation: GOS[c] + (3) C00001[c] => (4) C00124[c]
+  ec:
+  - 3.2.1.22
+  - 3.2.1.23
+  comment: EC 3.2.1.22 represents alpha-galactosidase; EC 3.2.1.23 represents beta-galactosidase.
+- id: Bgal
+  name: Beta-galactosidase
+  ec:
+  - 3.2.1.23
+  equation: XGOS-xllg[c] + (2) C00001[c] => XGOS-xxxg[c] + (2) C00124[c]
+- id: XylS
+  name: alpha-xylosidase (XGOS-xxxg)
+  equation: XGOS-xxxg[c] + C00001[c] => (3) C00181[c] +  C02013[c]
+  ec:
+  - 3.2.1.177
+- id: AguX
+  name: Xylan alpha-1,2-glucuronosidase
+  equation: XOS2[c] + C00001[c] => XOS[c] +  C00191[c]
+  ec:
+  - 3.2.1.131
