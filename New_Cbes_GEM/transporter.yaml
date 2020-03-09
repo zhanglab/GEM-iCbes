@@ -225,9 +225,6 @@
 - id: rhaosABC
   name: Rhamnose oligosaccharide transport via ABC system
   equation: rhaos[e] + C00002[c] + C00001[c] => rhaos[c] + C00008[c] + C00009[c] + C00080[c]
-- id: gosABC
-  name: Galactose oligosaccharides transport via ABC system
-  equation: GOS[e] + C00002[c] + C00001[c] => GOS[c] + C00008[c] + C00009[c] + C00080[c]
 - id: xosABC-2
   name: Xylan oligosaccharides (with (1->2)-alpha-D-(4-O-methyl)glucuronosyl) transport via ABC system
   equation: XOS2[e] + C00002[c] + C00001[c] => XOS2[c] + C00008[c] + C00009[c] + C00080[c]
