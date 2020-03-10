@@ -2986,3 +2986,11 @@
   formula: C26H41O23
   charge: -1
   comment: compound formula is derived from brenda https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=131578, with the removal of methyl(-CH3) group
+- id: C01630
+  name: Xylobiose
+  formula: C10H18O9
+  charge: 0
+- id: C02269
+  name: Deoxynucleoside
+  formula: C5H9O3R
+  charge: 0

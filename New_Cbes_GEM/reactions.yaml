@@ -3192,3 +3192,18 @@
   equation: XOS2[c] + C00001[c] => XOS[c] +  C00191[c]
   ec:
   - 3.2.1.131
+- id: XOSASE
+  name: Endo-1,4-beta-xylanase
+  equation: XOS[c] + C00001[c] => (2) C01630[c]
+  ec:
+  - 3.2.1.8
+- id: XLBASE
+  name: D-xylose xylohydrolase
+  equation: C01630[c] + C00001[c] => (2) C00181[c]
+  ec:
+  - 3.2.1.37
+- id: MdOSASE
+  name: Pullulanase
+  equation: C01935_kz[c] + C00001[c] => (2) C00208[c]
+  ec:
+  - 3.2.1.41

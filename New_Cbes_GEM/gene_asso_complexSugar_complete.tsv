@@ -12,8 +12,8 @@ SorE1	Athe_0699	peg.1153	WP_015907256.1	Sugar metabolism
 SorE2	Athe_0699	peg.1153	WP_015907256.1	Sugar metabolism
 FUCASE	Athe_2072	peg.2618	WP_015908426.1	Sugar metabolism
 FUCASE2	Athe_2072	peg.2618	WP_015908426.1	Sugar metabolism
-PECASE	Athe_1853 or Athe_1854 or Athe_185	peg.2366 or peg.2367 or Athe_185	WP_015908236.1 or WP_041727168.1 or NA	Sugar metabolism
-posABC-2	Athe_2030 and Athe_2031 and (Athe_2029 or Athe_2032)	peg.2576 and peg.2577 and (peg.2575 or peg.2578)	WP_015908391.1 and WP_015908392.1 and (WP_015908390.1 or WP_015908393.1)	Sugar metabolism
+PECASE	Athe_1853 or Athe_1854 or Athe_1855	peg.2366 or peg.2367 or peg.2368	WP_015908236.1 or WP_041727168.1 or WP_015908238.1	Sugar metabolism
+posABC-2	Athe_1803 and Athe_2030 and Athe_2031 and (Athe_2029 or Athe_2032)	peg.2315 and peg.2576 and peg.2577 and (peg.2575 or peg.2578)	WP_015908194.1 and WP_015908391.1 and WP_015908392.1 and (WP_015908390.1 or WP_015908393.1)	Sugar metabolism
 RhiN	Athe_2381	peg.2963	WP_015908703.1	Sugar metabolism
 R02360_kz	Athe_2380	peg.2962	WP_015908702.1	Sugar metabolism
 14GLACANASE	Athe_0610 or Athe_2593	peg.1046 or peg.141	WP_015907188.1 or -	Sugar metabolism
@@ -23,5 +23,9 @@ R01790_kz	Athe_0228	peg.627	WP_015906848.1	Sugar metabolism
 GOSASE	Athe_1104 or Athe_0468 or Athe_1927 or Athe_0857	peg.1585 or peg.888 or peg.2445 or peg.1317	WP_015907610.1 or WP_015907063.1 or WP_015908307.1 or WP_041727352.1	Sugar metabolism
 Bgal	Athe_1927 or Athe_0857	peg.2445 or peg.1317	WP_015908307.1 or WP_041727352.1	Sugar metabolism
 XylS	Athe_2057	peg.2603	WP_015908413.1	Sugar metabolism
-xosABC-2	(Athe_0174 and Athe_0175 and Athe_0176) or (Athe_0614 and Athe_0615 and Athe_0616) or ((Athe_0847 or Athe_0849) and Athe_0850 and Athe_0851)	(peg.571 and peg.572 and peg.573) or (peg.1053 and peg.1054 and peg.1055) or ((peg.1307 or peg.1309) and peg.1310 and peg.1311)	(WP_015906801.1 and WP_013431286.1 and WP_013431285.1) or (WP_015907191.1 and WP_015907192.1 and WP_015907193.1) or ((WP_015907390.1 or WP_015907392.1) and WP_015907393.1 and WP_013430735.1)	Sugar metabolism # already exists in gene_asso_transp_complete.tsv
+xosABC-2	(Athe_1803 and Athe_0174 and Athe_0175 and Athe_0176) or (Athe_1803 and Athe_0614 and Athe_0615 and Athe_0616) or (Athe_1803 and (Athe_0847 or Athe_0849) and Athe_0850 and Athe_0851)	(peg.2315 and peg.571 and peg.572 and peg.573) or (peg.2315 and peg.1053 and peg.1054 and peg.1055) or (peg.2315 and (peg.1307 or peg.1309) and peg.1310 and peg.1311)	(WP_015908194.1 and WP_015906801.1 and WP_013431286.1 and WP_013431285.1) or (WP_015908194.1 and WP_015907191.1 and WP_015907192.1 and WP_015907193.1) or (WP_015908194.1 and (WP_015907390.1 or WP_015907392.1) and WP_015907393.1 and WP_013430735.1)	Sugar metabolism # already exists in gene_asso_transp_complete.tsv
 AguX	Athe_0854	peg.1314	WP_015907396.1	Sugar metabolism
+XOSASE	(Athe_0185 or Athe_0186 or Athe_2724) and (Athe_2722 or Athe_2723)	(peg.582 or peg.583 or peg.330) and (peg.328 or peg.329)	(WP_015906809.1 or WP_015906810.1 or WP_015909020.1) and (WP_015909018.1 or WP_015909019.1	Sugar metabolism
+XLBASE	Athe_0184 or Athe_0187 or Athe_2354	peg.581 or peg.584 or peg.2930	WP_015906808.1 or - or WP_015908678.1	Sugar metabolism
+MdOSASE	Athe_0448	peg.868	WP_015907043.1	Sugar metabolism
+DeoABC	Athe_1779 and Athe_1780 and Athe_1781 and Athe_1783	peg.2290 and peg.2291 and peg.2292 and peg.2294	WP_015908174.1 and WP_015908175.1 and WP_015908176.1 and WP_015908178.1	Transport

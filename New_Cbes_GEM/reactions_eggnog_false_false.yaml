@@ -100,10 +100,11 @@
   name: acetylxylan esterase
   equation: AX[c] + (3) C00001[c] => (3) C00033[c] + XOS[c] + (3) C00080[c]
   ec: 3.1.1.72
-- id: R01433
+- id: R01433_kz
   name: D-xylose xylohydrolase
   equation: XOS[c] + (3) C00001[c] => (4) C00181[c]
-  ec: 3.2.1.37
+  ec:
+  - 3.2.1.37
 - id: AbfA
   name: alpha-L-arabinan arabinofuranohydrolase
   equation: AXOS[c] + (3) C00001[c] => XOS[c] + (3) C00259[c]

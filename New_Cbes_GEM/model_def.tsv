@@ -706,7 +706,7 @@ R02030
 R01801
 R01625
 AXE
-R01433
+R01433_kz
 AbfA
 Xylase
 R01762
@@ -753,8 +753,8 @@ R10811_kz
 R08614_kz
 R11398_kz
 R01326
-SorE1
-SorE2
+#SorE1
+#SorE2
 FUCASE
 FUCASE2
 PECASE
@@ -770,6 +770,10 @@ XylS
 xosABC-2
 AguX
 posABC-2
+XOSASE
+XLBASE
+MdOSASE
+DeoABC
 
 # for engineered processes:
 ## deletion: (R01870 is PyrE and R00703 is LDH)
