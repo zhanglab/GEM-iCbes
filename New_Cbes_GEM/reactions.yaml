@@ -626,7 +626,7 @@
 - id: R01445_kz
   name: cellobiose 2-epimerase
   # equation: C00185[c] <=> C02964[c]
-  equation: (2) C00185[c] <=> C01935_kz[c] + C00001[c]
+  equation: (2) C00185[c] <=> C17207_kz[c] + C00001[c]
   ec:
   - 5.1.3.11
   PMID: 23093406
