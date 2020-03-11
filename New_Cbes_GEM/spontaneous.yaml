@@ -45,5 +45,5 @@
 
 - id: R00217
   name: oxaloacetate decarboxylation (sponteneous)
-  equation: C00036[c] <=> C00022[c] + C00011[c]
+  equation: C00036[c] + C00080[c] <=> C00022[c] + C00011[c]
   comment: oxaloacetate will decarboxylyze sponteneously under high tempreture.
