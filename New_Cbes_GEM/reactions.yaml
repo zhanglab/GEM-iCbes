@@ -623,12 +623,14 @@
   equation: C00199[c] <=> C00231[c]
   ec:
   - 5.1.3.1
-- id: R01445
+- id: R01445_kz
   name: cellobiose 2-epimerase
-  equation: C00185[c] <=> C02964[c]
+  # equation: C00185[c] <=> C02964[c]
+  equation: (2) C00185[c] <=> C01935_kz[c] + C00001[c]
   ec:
   - 5.1.3.11
   PMID: 23093406
+  comment: the reaction equation is formulated based on Dima's annotation.
 - id: R10810
   name: beta-1,4-mannobiose 2-epimerase
   equation: C20861[c] <=> C20236[c]
@@ -2201,6 +2203,8 @@
   equation: C00049[c] <=> C00122[c] + C00014[c] + C00080[c]
   ec:
   - 4.3.1.1
+  PMID: 21661762
+  comment: Athe_0474 has 98% coverage and 50.11% identity to aspartate ammonia lyases from Bacillus sp. YM55-1, which is confirmed catalyzing the reversible deamination of L-aspartate into fumarate and ammonia.
 - id: R01083
   name: N6-(1,2-dicarboxyethyl)AMP AMP-lyase (fumarate-forming)
   equation: C03794[c] <=> C00122[c] + C00020[c]

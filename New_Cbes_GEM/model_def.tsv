@@ -117,7 +117,7 @@ R05086
 R01086
 R11372
 R01529
-R01445
+R01445_kz
 R10810
 R00291
 R02984
@@ -777,16 +777,16 @@ DeoABC
 
 # for engineered processes:
 ## deletion: (R01870 is PyrE and R00703 is LDH)
-R01870
-R00703
-R00342
+#R01870
+#R00703
+#R00342
 
 ## adding:
-#Rnf
+Rnf
 
 # for EtOH production
-#R00228
-#R00754
+R00228
+R00754
 
 # for 3-HP production
 ##R00742 # we don't need this, there was already a gene-associated R00742 in Cbe model
@@ -802,3 +802,7 @@ R00342
 
 # to test the combined_product:
 #combined_product
+
+# to test the NADPH source
+R00216
+R00217

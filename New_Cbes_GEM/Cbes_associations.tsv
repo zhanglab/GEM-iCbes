@@ -122,7 +122,7 @@ R05086	Athe_0655	peg.1097	WP_015907227.1	Vitamin B6 metabolism
 R01086	Athe_1248	peg.1735	WP_015907738.1	Arginine biosynthesis
 R11372	Athe_0830	peg.1290	WP_015907373.1	Folate biosynthesis
 R01529	Athe_1047	peg.1528	WP_015907560.1	Pentose phosphate pathway
-R01445	Athe_2557	peg.94	WP_015908874.1	-
+R01445_kz	Athe_2557	peg.94	WP_015908874.1	-
 R10810	Athe_2557	peg.94	WP_015908874.1	-	Athe_2557 has 0.99 coverage and 0.455 identity to Rumal_0019 (Figure 5 of literature 23093406)
 R00291	Athe_0940 or Athe_1148	peg.1410 or peg.1631	WP_015907467.1 or WP_015907648.1	Galactose metabolism
 R02984	Athe_0940 or Athe_1148	peg.1410 or peg.1631	WP_015907467.1 or WP_015907648.1	-
