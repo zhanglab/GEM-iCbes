@@ -739,8 +739,7 @@ sink_co
 sink_suc
 Acetoin-t
 Acetoin-Syn
-R11307_kz
-R11308_kz
+R00217
 
 # sugar metabolism
 R11307_kz
@@ -774,7 +773,6 @@ XOSASE
 XLBASE
 MdOSASE
 DeoABC
-R00217
 
 # for engineered processes:
 ## deletion: (R01870 is PyrE and R00703 is LDH)

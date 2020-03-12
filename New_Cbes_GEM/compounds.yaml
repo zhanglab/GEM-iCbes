@@ -303,7 +303,7 @@
   charge: -2
   formula: C27H24O18
 - id: C00204
-  name: 2-Dehydro-3-deoxy-D-gluconate
+  name: 2-Keto-3-deoxy-D-gluconate
   charge: -1
   formula: C6H9O6
 - id: C00312
@@ -411,7 +411,7 @@
   charge: -3
   formula: C3H4O7P
 - id: C00691
-  name: 2,4,6/3,5-Pentahydroxycyclohexanone
+  name: 2-Inosose
   charge: 0
   formula: C6H10O6
 - id: C01131
@@ -471,7 +471,7 @@
   charge: -1
   formula: C10H17N4O6
 - id: C04442
-  name: 2-Dehydro-3-deoxy-6-phospho-D-gluconate
+  name: 2-Keto-3-deoxy-6-phosphogluconate
   charge: -3
   formula: C6H8O9P
 - id: C05382
@@ -2934,7 +2934,7 @@
   formula: C6H11O9P
   charge: -2
 - id: s2l2fn2m2masn
-  name: PA6 (fucoside)
+  name: PA6 (fucosides)
   formula: C90H145N6O65X
   charge: 0
 - id: s2l2n2m2masn
@@ -2942,7 +2942,7 @@
   formula: C84H135N6O61X
   charge: 0
 - id: ksi
-  name: keratan sulfate I
+  name: keratan sulfate I (fucosides)
   formula: C247H393N17O213S12X
   charge: 0
 - id: ksi_deg1

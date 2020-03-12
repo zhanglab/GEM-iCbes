@@ -26,7 +26,7 @@ R00230	Athe_1494	peg.1987	WP_015907948.1	Pyruvate metabolism
 R00921	Athe_1494	peg.1987	WP_015907948.1	Propanoate metabolism
 R00952	Athe_0459 or Athe_0460	peg.879 or peg.880	WP_015907054.1 or WP_015907055.1	Sugar metabolism
 R07264_kz	Athe_0398	peg.813	WP_015906997.1	Sugar metabolism
-R02727	Athe_0403 or Athe_0415	peg.818 or peg.834	WP_015907002.1 or -	-
+R02727	Athe_0403 or Athe_0415	peg.818 or peg.834	WP_015907002.1 or -	Sugar metabolism
 R01071	Athe_1479	peg.1972	WP_013430203.1	Histidine metabolism
 R03223	Athe_0372	peg.785	WP_015906973.1	Thiamine metabolism
 R10712	Athe_0372	peg.785	WP_015906973.1	Thiamine metabolism
@@ -60,7 +60,7 @@ R01541	Athe_2385	peg.2967	WP_015908707.1	Pentose phosphate pathway
 R01902	Athe_0841	peg.1301	WP_015907384.1	Pentose and glucuronate interconversions
 R03014	Athe_0841	peg.1301	WP_015907384.1	Fructose and mannose metabolism
 R03241	Athe_0841	peg.1301	WP_015907384.1	Fructose and mannose metabolism
-R02071	Athe_0147	peg.542	WP_015906777.1	-
+R02071	Athe_0147	peg.542	WP_015906777.1	Sugar metabolism
 R01092	Athe_0939	peg.1409	WP_015907466.1	Galactose metabolism
 R00764	Athe_1824	peg.2336	WP_015908214.1	Glycolysis / Gluconeogenesis
 R00315	Athe_1493	peg.1986	WP_013430189.1	Pyruvate metabolism
@@ -139,7 +139,7 @@ R01761	Athe_0707	peg.1161	WP_041727337.1	Pentose and glucuronate interconversion
 R00307	Athe_0603	peg.1037	WP_015907182.1	-
 R01432	Athe_0603	peg.1037	WP_015907182.1	Pentose and glucuronate interconversions
 R01056	Athe_0632	peg.1073	WP_015907207.1	Pentose phosphate pathway
-R00772	Athe_0619	peg.1059	WP_015907196.1	-
+R00772	Athe_0619	peg.1059	WP_015907196.1	Sugar metabolism
 R00771	Athe_0619	peg.1059	WP_015907196.1	Glycolysis / Gluconeogenesis
 R09952	Athe_0345	peg.756	WP_015906946.1	Inositol phosphate metabolism
 R01518	Athe_1404	peg.1898	WP_015907870.1	Glycolysis / Gluconeogenesis

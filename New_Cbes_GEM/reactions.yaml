@@ -42,7 +42,7 @@
   - 1.1.1.67
 - id: R01542
   name: 2-Dehydro-3-deoxy-D-gluconate:NAD+ 5-oxidoreductase
-  equation: C00204[c] + C00003[c] <=> C04349[c] + C00004[c] + C00080[c]
+  equation: C04349[c] + C00004[c] + C00080[c] <=> C00204[c] + C00003[c]
   ec:
   - 1.1.1.125
   - 1.1.1.127
@@ -63,7 +63,7 @@
   - 1.1.1.193
 - id: R02454
   name: D-Mannonate:NAD+ 5-oxidoreductase
-  equation: C00514[c] + C00003[c] <=> C00905[c] + C00004[c] + C00080[c]
+  equation: C00905[c] + C00004[c] + C00080[c] <=> C00514[c] + C00003[c]
   ec:
   - 1.1.1.57
 - id: R01513
@@ -626,7 +626,7 @@
 - id: R01445_kz
   name: cellobiose 2-epimerase
   # equation: C00185[c] <=> C02964[c]
-  equation: (2) C00185[c] <=> C17207_kz[c] + C00001[c]
+  equation: (2) C00185[c] => C17207_kz[c] + C00001[c]
   ec:
   - 5.1.3.11
   PMID: 23093406
@@ -639,7 +639,7 @@
   PMID: 23093406
 - id: R00291
   name: UDP-glucose 4-epimerase
-  equation: C00029[c] <=> C00052[c]
+  equation: C00052[c] <=> C00029[c]
   ec:
   - 5.1.3.2
 - id: R02984

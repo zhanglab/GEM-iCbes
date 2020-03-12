@@ -43,8 +43,8 @@ R03947	Athe_1196	peg.1681	WP_015907690.1	Porphyrin and chlorophyll metabolism
 R02864	Athe_1196	peg.1681	WP_015907690.1	Porphyrin and chlorophyll metabolism
 R03194	Athe_1199	peg.1685	WP_015907693.1	Porphyrin and chlorophyll metabolism
 R07238	Athe_1199	peg.1685	WP_015907693.1	-
-trehABC	Athe_1803 and Athe_0399 and Athe_0400 and Athe_0401	peg.2315 and peg.814 and peg.815 and peg.816	WP_015908194.1 and WP_015906998.1 and WP_015906999.1 and WP_015907000.1	-
-kojABC	Athe_1803 and Athe_0399 and Athe_0400 and Athe_0401	peg.2315 and peg.814 and peg.815 and peg.816	WP_015908194.1 and WP_015906998.1 and WP_015906999.1 and WP_015907000.1	-
+trehABC	Athe_1803 and Athe_0399 and Athe_0400 and Athe_0401	peg.2315 and peg.814 and peg.815 and peg.816	WP_015908194.1 and WP_015906998.1 and WP_015906999.1 and WP_015907000.1	Transport
+kojABC	Athe_1803 and Athe_0399 and Athe_0400 and Athe_0401	peg.2315 and peg.814 and peg.815 and peg.816	WP_015908194.1 and WP_015906998.1 and WP_015906999.1 and WP_015907000.1	Transport
 Zn2efflux	Athe_0589	peg.1022	WP_015907168.1	-
 Co2efflux	Athe_0589	peg.1022	WP_015907168.1	-
 Cd2efflux	Athe_0589	peg.1022	WP_015907168.1	-

@@ -1,6 +1,6 @@
 id	genes	genes_peg	genes_wp	subsystem
-R11307_kz	Athe_1860 or Athe_1865 or Athe_1866 or Athe_1857 or Athe_1859 or Athe_1867 or Athe_0594	peg.2370 or peg.2375 or peg.2376 or peg.2377 or peg.2379 or peg.2380 or peg.1027	WP_015908243.1 or WP_015908248.1 or WP_015908249.1 or WP_015908240.1 or WP_015908242.1 or WP_015908250.1 or WP_015907173.1	Sugar metabolism
-R11308_kz	Athe_1860 or Athe_1865 or Athe_1866 or Athe_1857 or Athe_1859 or Athe_1867 or Athe_0594	peg.2370 or peg.2375 or peg.2376 or peg.2377 or peg.2379 or peg.2380 or peg.1027	WP_015908243.1 or WP_015908248.1 or WP_015908249.1 or WP_015908240.1 or WP_015908242.1 or WP_015908250.1 or WP_015907173.1	Sugar metabolism
+R11307_kz	Athe_1866 or Athe_1857 or Athe_1859 or Athe_1867 or Athe_0594	peg.2376 or peg.2377 or peg.2379 or peg.2380 or peg.1027	WP_015908249.1 or WP_015908240.1 or WP_015908242.1 or WP_015908250.1 or WP_015907173.1	Sugar metabolism
+R11308_kz	Athe_1866 or Athe_1857 or Athe_1859 or Athe_1867 or Athe_0594	peg.2376 or peg.2377 or peg.2379 or peg.2380 or peg.1027	WP_015908249.1 or WP_015908240.1 or WP_015908242.1 or WP_015908250.1 or WP_015907173.1	Sugar metabolism
 CelF	Athe_1860	peg.2370	WP_015908243.1	Sugar metabolism
 R02887_kz	Athe_0458	peg.878	WP_015907053.1	Sugar metabolism
 R08612_kz	Athe_1865 or Athe_1866 or Athe_1859	peg.2375 or peg.2376 or peg.2379	WP_015908248.1 or WP_015908249.1 or WP_015908242.1	Sugar metabolism
@@ -20,10 +20,10 @@ R02360_kz	Athe_2380	peg.2962	WP_015908702.1	Sugar metabolism
 16GLACANASE	Athe_0609	peg.1045	WP_015907187.1	Sugar metabolism
 R02112_kz	Athe_0143 or Athe_2579	peg.538 or peg.126	WP_015906775.1 or WP_015908892.1	Sugar metabolism
 R01790_kz	Athe_0228	peg.627	WP_015906848.1	Sugar metabolism
-GOSASE	Athe_1104 or Athe_0468 or Athe_1927 or Athe_0857	peg.1585 or peg.888 or peg.2445 or peg.1317	WP_015907610.1 or WP_015907063.1 or WP_015908307.1 or WP_041727352.1	Sugar metabolism
+GOSASE	Athe_1104 or Athe_0468 or Athe_1927 or Athe_0857 or Athe_2370	peg.1585 or peg.888 or peg.2445 or peg.1317 or peg.2950	WP_015907610.1 or WP_015907063.1 or WP_015908307.1 or WP_041727352.1 or WP_015908693.1	Sugar metabolism
 Bgal	Athe_1927 or Athe_0857	peg.2445 or peg.1317	WP_015908307.1 or WP_041727352.1	Sugar metabolism
 XylS	Athe_2057	peg.2603	WP_015908413.1	Sugar metabolism
-xosABC-2	(Athe_1803 and Athe_0174 and Athe_0175 and Athe_0176) or (Athe_1803 and Athe_0614 and Athe_0615 and Athe_0616) or (Athe_1803 and (Athe_0847 or Athe_0849) and Athe_0850 and Athe_0851)	(peg.2315 and peg.571 and peg.572 and peg.573) or (peg.2315 and peg.1053 and peg.1054 and peg.1055) or (peg.2315 and (peg.1307 or peg.1309) and peg.1310 and peg.1311)	(WP_015908194.1 and WP_015906801.1 and WP_013431286.1 and WP_013431285.1) or (WP_015908194.1 and WP_015907191.1 and WP_015907192.1 and WP_015907193.1) or (WP_015908194.1 and (WP_015907390.1 or WP_015907392.1) and WP_015907393.1 and WP_013430735.1)	Sugar metabolism # already exists in gene_asso_transp_complete.tsv
+xosABC-2	(Athe_1803 and Athe_0174 and Athe_0175 and Athe_0176) or (Athe_1803 and Athe_0614 and Athe_0615 and Athe_0616) or (Athe_1803 and (Athe_0847 or Athe_0849) and Athe_0850 and Athe_0851)	(peg.2315 and peg.571 and peg.572 and peg.573) or (peg.2315 and peg.1053 and peg.1054 and peg.1055) or (peg.2315 and (peg.1307 or peg.1309) and peg.1310 and peg.1311)	(WP_015908194.1 and WP_015906801.1 and WP_013431286.1 and WP_013431285.1) or (WP_015908194.1 and WP_015907191.1 and WP_015907192.1 and WP_015907193.1) or (WP_015908194.1 and (WP_015907390.1 or WP_015907392.1) and WP_015907393.1 and WP_013430735.1)	Transport
 AguX	Athe_0854	peg.1314	WP_015907396.1	Sugar metabolism
 XOSASE	(Athe_0185 or Athe_0186 or Athe_2724) and (Athe_2722 or Athe_2723)	(peg.582 or peg.583 or peg.330) and (peg.328 or peg.329)	(WP_015906809.1 or WP_015906810.1 or WP_015909020.1) and (WP_015909018.1 or WP_015909019.1	Sugar metabolism
 XLBASE	Athe_0184 or Athe_0187 or Athe_2354	peg.581 or peg.584 or peg.2930	WP_015906808.1 or - or WP_015908678.1	Sugar metabolism
