@@ -774,6 +774,7 @@ XOSASE
 XLBASE
 MdOSASE
 DeoABC
+R00217
 
 # for engineered processes:
 ## deletion: (R01870 is PyrE and R00703 is LDH)
@@ -802,7 +803,3 @@ R00754
 
 # to test the combined_product:
 #combined_product
-
-# to test the NADPH source
-R00216
-R00217
