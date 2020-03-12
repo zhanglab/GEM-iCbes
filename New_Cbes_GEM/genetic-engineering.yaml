@@ -85,7 +85,7 @@
   comment: C00466 is Acetoin, C01769 is (S)-Acetoin, C00810 is (R)-Acetoin.
 
 - id: combined_product
-  equation: C00186[c] + (0.33) C00033[c] + (0.06) C00022[c] =>
+  equation: C00186[c] + (0.33) C00033[c] + (0.006) C00022[c] =>
   # equation: (0.33) C00033[c] + (0.06) C00022[c] =>
 
 - id: dLDH_product
