@@ -324,6 +324,7 @@
     + C00041[c] + C00080[c]
   ec: 2.8.1.6
 - id: Lac-symp
+  name: L-lactate reversible transport via proton symport
   equation: C00186[c] + C00080[c] => C00186[e] + C00080[e]
   ec: TC=2.A.14
 - id: malateT

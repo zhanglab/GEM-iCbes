@@ -387,33 +387,33 @@
   - 3.2.1.180
 - id: R10040
   name: beta-D-glucoside glucohydrolase
-  equation: C01594[c] + C00001[c] <=> C02659[c] + C00031[c]
+  equation: C01594[c] + C00001[c] => C02659[c] + C00031[c]
   ec:
   - 3.2.1.21
 - id: R10035
   name: beta-D-glucoside glucohydrolase
-  equation: C05143[c] + C00001[c] <=> C03742[c] + C00031[c]
+  equation: C05143[c] + C00001[c] => C03742[c] + C00031[c]
   ec:
   - 3.2.1.21
 - id: R04998
   name: beta-D-Glucosyl-2-coumarinate glucohydrolase
-  equation: C05839[c] + C00001[c] <=> C05838[c] + C00031[c]
+  equation: C05839[c] + C00001[c] => C05838[c] + C00031[c]
   ec:
   - 3.2.1.21
 - id: R10039
   name: beta-D-glucoside glucohydrolase
-  equation: C08334[c] + C00001[c] <=> C18796[c] + C00031[c]
+  equation: C08334[c] + C00001[c] => C18796[c] + C00031[c]
   ec:
   - 3.2.1.21
 - id: R02985
   name: amygdalin beta-glucosidase
-  equation: C00844[c] + C00031[c] <=> C08325[c] + C00001[c]
+  equation: C08325[c] + C00001[c] => C00844[c] + C00031[c]
   ec:
   - 3.2.1.21
   - 3.2.1.117
 - id: R02558
   name: (R)-Prunasin beta-D-glucohydrolase
-  equation: C00844[c] + C00001[c] <=> C00561[c] + C00031[c]
+  equation: C00844[c] + C00001[c] => C00561[c] + C00031[c]
   ec:
   - 3.2.1.21
   - 3.2.1.118
