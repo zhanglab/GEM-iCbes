@@ -13,14 +13,14 @@
   # upper: 0.471   # dLDH-Fru
 
 # below is for the mono-directional reactions
-- reaction: R00431
-  lower: 0
-  upper: 1000
-  comment: physiological condition prefer the direction OAA => PEP
-- reaction: R00726
-  lower: 0
-  upper: 1000
-  comment: physiological condition prefer the direction OAA => PEP
+# - reaction: R00431
+#   lower: 0
+#   upper: 1000
+#   comment: physiological condition prefer the direction OAA => PEP
+# - reaction: R00726
+#   lower: 0
+#   upper: 1000
+#   comment: physiological condition prefer the direction OAA => PEP
 - reaction: R00200
   lower: -1000
   upper: 0
@@ -138,6 +138,12 @@
 #   lower: -1000
 #   upper: 0
 #   comment: not sure about this reaction
+# - reaction: R00480
+#   lower: 0
+#   upper: 1000
+# - reaction: R00490
+#   lower: 0
+#   upper: 1000
 
 # Below is for the test of carbon balance:
 # - reaction: PYRt2
