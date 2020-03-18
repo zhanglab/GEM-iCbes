@@ -31,9 +31,9 @@ R01071	Athe_1479	peg.1972	WP_013430203.1	Histidine metabolism
 R03223	Athe_0372	peg.785	WP_015906973.1	Thiamine metabolism
 R10712	Athe_0372	peg.785	WP_015906973.1	Thiamine metabolism
 R04457	Athe_0561	peg.993	WP_015907141.1	Riboflavin metabolism
-R00066	Athe_0563	peg.995	WP_015907143.1	Riboflavin metabolism
-R00694	Athe_1477	peg.1970	WP_015907936.1	Phenylalanine metabolism
-R00734	Athe_1477	peg.1970	WP_015907936.1	Ubiquinone and other terpenoid-quinone biosynthesis
+R00066	Ashe_0563	peg.995	WP_015907143.1	Riboflavin metabolism
+R00694	Athe_0846	peg.1306	WP_015907389.1	Phenylalanine metabolism
+R00734	Athe_0846	peg.1306	WP_015907389.1	Ubiquinone and other terpenoid-quinone biosynthesis
 R05085	Athe_2126	peg.2681	WP_015908471.1	Vitamin B6 metabolism
 R04173	Athe_2126	peg.2681	WP_015908471.1	Glycine, serine and threonine metabolism
 R05839	Athe_1910	peg.2426	WP_015908291.1	Vitamin B6 metabolism
