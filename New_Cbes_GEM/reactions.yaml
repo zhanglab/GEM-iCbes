@@ -2889,7 +2889,7 @@
   - 4.3.2.10
 - id: R12152
   name: L-glutamine amidohydrolase
-  equation: C00064[c] + C00001[c] <=> C00025[c] + C00014[c] + C00080[c]
+  equation: C04916[c] + C00014[c] <=> C04677[c] + C04666[c] + C00001[c]
   ec:
   - 4.3.2.10
 - id: R03940
