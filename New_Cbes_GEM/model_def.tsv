@@ -236,7 +236,6 @@ R02147
 R02484
 R01969
 R02748
-R08231
 R01072
 R01073
 R03348
@@ -774,8 +773,9 @@ XLBASE
 DeoABC
 
 # for engineered processes:
-## deletion: (R01870 is PyrE and R00703 is LDH)
-R01870
+## deletion: (R01870 and R08231 is PyrE; R00342 and R00703 is LDH)
+#R01870
+#R08231
 R00703
 R00342
 
