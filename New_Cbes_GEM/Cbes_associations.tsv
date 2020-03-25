@@ -163,7 +163,7 @@ R07456	Athe_1909 and Athe_1908	peg.2425 and peg.2424	WP_013429831.1 and WP_01590
 R00306	Athe_0458	peg.878	WP_015907053.1	Starch and sucrose metabolism
 R01163	Athe_1478	peg.1971	WP_015907937.1	Histidine metabolism
 R10088	Athe_1909 and Athe_1908	peg.2425 and peg.2424	WP_013429831.1 and WP_015908290.1	-
-R00256	(Athe_1909 and Athe_1908) or (Athe_1540 and (Athe_1541 or Athe_1378))	(peg.2425 and peg.2424) or (peg.2035 and (peg.2036 or peg.1868))	(WP_013429831.1 and WP_015908290.1) or (WP_015907985.1 and (WP_015907986.1 or WP_015907847.1))	Arginine biosynthesis
+R00256	Athe_1450 or (Athe_1473 and Athe_1475) or (Athe_1909 and Athe_1908) or (Athe_1540 and (Athe_1541 or Athe_1378)) or Athe_0078 or (Athe_2034 and Athe_2360) or Athe_1539 or Athe_1432 or (Athe_1784 and Athe_1785)	peg.1942 or (peg.1966 and peg.1968) or (peg.2425 and peg.2424) or (peg.2035 and (peg.2036 or peg.1868)) or peg.462 or (peg.2580 and peg.2936) or peg.2034 or peg.1924 or (peg.2295 and peg.2296)	WP_015907910.1 or (WP_015907932.1 and WP_015907934.1) or (WP_013429831.1 and WP_015908290.1) or (WP_015907985.1 and (WP_015907986.1 or WP_015907847.1)) or WP_015906719.1 or (WP_088217574.1 and WP_013402129.1) or WP_015907984.1 or WP_015907894.1 or (WP_015908179.1 and WP_015908180.1)
 R01395	Athe_1540 and (Athe_1541 or Athe_1378)	peg.2035 and (peg.2036 or peg.1868)	WP_015907985.1 and (WP_015907986.1 or WP_015907847.1)	Nitrogen metabolism
 R06590	(Athe_2059 and Athe_2060) or Athe_2328	(peg.2605 and peg.2606) or peg.2903	(WP_015908415.1 and WP_015908416.1) or WP_015908653.1	Biosynthesis of ansamycins
 R10089	Athe_1909 and Athe_1908	peg.2425 and peg.2424	WP_013429831.1 and WP_015908290.1	-
@@ -455,7 +455,7 @@ R01775	Athe_1959	peg.2478	WP_015908334.1	Glycine, serine and threonine metabolis
 R03192	Athe_0319	peg.730	WP_015906924.1	Amino sugar and nucleotide sugar metabolism
 R04199	Athe_1133	peg.1616	WP_015907633.1	Monobactam biosynthesis
 R04439	Athe_0504	peg.935	WP_013431057.1	-
-R00248	Athe_2360 and Athe_0644	peg.2936 and peg.1085	WP_013402129.1 and WP_015907217.1	Arginine biosynthesis
+R00248	Athe_2034 or Athe_2360	peg.2580 or peg.2936	WP_088217574.1 or WP_013402129.1	Arginine biosynthesis
 R00939	Athe_0219	peg.617	WP_015906840.1	One carbon pool by folate
 R01251	Athe_1339	peg.1827	WP_015907810.1	Arginine and proline metabolism
 R00842	Athe_0930	peg.1400	WP_015907458.1	Glycerophospholipid metabolism
@@ -508,7 +508,7 @@ R04639	Athe_0441	peg.861	WP_015907036.1	Folate biosynthesis
 R05046	Athe_0441	peg.861	WP_015907036.1	Folate biosynthesis
 R05048	Athe_0441	peg.861	WP_015907036.1	Folate biosynthesis
 R01716	Athe_2217 and Athe_2218	peg.2779 and peg.2780	WP_015908552.1 and WP_015908553.1	Folate biosynthesis
-R00114	Athe_2360 and Athe_0644	peg.2936 and peg.1085	WP_013402129.1 and WP_015907217.1	Alanine, aspartate and glutamate metabolism
+R00114	Athe_2034 or Athe_2360	peg.2580 or peg.2936	WP_088217574.1 or WP_013402129.1	Alanine, aspartate and glutamate metabolism
 R00578	Athe_1539	peg.2034	WP_015907984.1	Alanine, aspartate and glutamate metabolism
 R00937	Athe_0219	peg.617	WP_015906840.1	One carbon pool by folate
 R00940	Athe_0219	peg.617	WP_015906840.1	One carbon pool by folate
