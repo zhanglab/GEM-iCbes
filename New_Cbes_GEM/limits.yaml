@@ -1,6 +1,6 @@
 - reaction: sink_biomass
   #lower: 0
-  #lower: 0.25
+  lower: 0.25
   upper: 1000
   # lower: 0.525   # WT-Glc
   # upper: 0.525   # WT-Glc
@@ -134,6 +134,12 @@
 - reaction: R00939
   lower: -1000
   upper: 0
+# - reaction: PYRt2
+#   fixed: 0
+# - reaction: ACt6
+#   fixed: 0
+# - reaction: Lac-symp
+#   fixed: 0
 # - reaction: R09524
 #   lower: -1000
 #   upper: 0

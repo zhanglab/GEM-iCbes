@@ -820,7 +820,7 @@
   - 4.2.3.1
 - id: R07456
   name: D-ribulose 5-phosphate,D-glyceraldehyde 3-phosphate pyridoxal 5'-phosphate-lyase
-  equation: C00118[c] + C00199[c] + C00064[c] <=> C00018[c] + C00025[c] + C00009[c]
+  equation: C00118[c] + C00199[c] + C00064[c] => C00018[c] + C00025[c] + C00009[c]
     + (3) C00001[c] + C00080[c]
   ec:
   - 4.3.3.6
@@ -867,7 +867,7 @@
 - id: R10089
   name: D-ribose 5-phosphate,D-glyceraldehyde 3-phosphate pyridoxal 5'-phosphate-lyase
     (glutamine-hydrolyzing)
-  equation: C00117[c] + C00118[c] + C00064[c] <=> C00018[c] + C00025[c] + (3) C00001[c]
+  equation: C00117[c] + C00118[c] + C00064[c] => C00018[c] + C00025[c] + (3) C00001[c]
     + C00009[c] + C00080[c]
   ec:
   - 4.3.3.6
