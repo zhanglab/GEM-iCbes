@@ -774,8 +774,8 @@ DeoABC
 
 # for engineered processes:
 ## deletion: (R01870 and R08231 is PyrE; R00342 and R00703 is LDH)
-#R01870
-#R08231
+R01870
+R08231
 R00703
 R00342
 
@@ -797,6 +797,11 @@ R00342
 #R01359
 #R01366
 #AcetoneTP
+
+# for 2,3-butanediol production
+#enzyme from Thermococcus guaymasensis(Topt=85 C) acts on R/S acetoin(in vitro assay)
+#sADH1
+#bdoTP
 
 # to test the combined_product:
 #combined_product

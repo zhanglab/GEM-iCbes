@@ -185,6 +185,10 @@ compounds:
   name: Acetone
   lower: 0
   upper: 1000
+- id: C03044
+  name: 2,3-butanediol
+  lower: 0
+  upper: 1000
 
 # test different carbon source
 - id: C00031
