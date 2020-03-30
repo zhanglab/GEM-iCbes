@@ -3032,7 +3032,7 @@
   - 6.3.5.7
 - id: BF-H2ase
   name: Bifurcating hydrogenase ([Fe-Fe])
-  equation: (3) C00080[c] + C00004[c] + (2) C00138[c] => (2) C00282[c] + C00003[c]
+  equation: (3) C00080[c] + C00004[c] + (2) C00138[c] <=> (2) C00282[c] + C00003[c]
     + (2) C00139[c]
   ec:
   - 1.12.1.4

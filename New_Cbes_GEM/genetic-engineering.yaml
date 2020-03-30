@@ -69,6 +69,10 @@
   PMID: 21515780
   comment: C00466 is Acetoin, C01769 is (S)-Acetoin, C00810 is (R)-Acetoin.
 - id: sADH2
+  name: (R,R)-Butane-2,3-diol:NAD+ oxidoreductase
+  equation: C00466[c] + C00004[c] + C00080[c] <=> C03044[c] + C00003[c]
+  comment: C00466 is Acetoin, C01769 is (S)-Acetoin, C00810 is (R)-Acetoin.This rxn is similar to R10505.
+- id: sADH3
   name: (R,R)-Butane-2,3-diol:NADP+ oxidoreductase
   equation: C00466[c] + C00005[c] + C00080[c] <=> C20657[c] + C00006[c]
   ec:
@@ -76,7 +80,7 @@
   PMID: 21515780
   comment: C00466 is Acetoin, C01769 is (S)-Acetoin, C00810 is (R)-Acetoin.
 ## option 2: enzyme from Thermoanaerobacter brockii, acts on R acetoin, Topt = 65 C, NADPH-dependent, produce R,R-2,3-Butanediol.
-- id: sADH3
+- id: sADH4
   name: (R,R)-Butane-2,3-diol:NADP+ oxidoreductase
   equation: C00810[c] + C00005[c] + C00080[c] <=> C03044[c] + C00006[c]
   ec:

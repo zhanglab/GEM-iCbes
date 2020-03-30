@@ -19,7 +19,6 @@ R09735
 R01067
 R08575
 #R09524
-R00230
 R00921
 R00952
 R07264_kz
@@ -59,7 +58,6 @@ R03241
 R02071
 R01092
 R00764
-R00315
 R01353
 R01512
 R02649
@@ -778,6 +776,8 @@ R01870
 R08231
 R00703
 R00342
+R00230
+R00315
 
 ## adding:
 #Rnf
@@ -799,9 +799,13 @@ R00342
 #AcetoneTP
 
 # for 2,3-butanediol production
-#enzyme from Thermococcus guaymasensis(Topt=85 C) acts on R/S acetoin(in vitro assay)
+# NADPH-dependent enzyme from Thermococcus guaymasensis(Topt=85 C) acts on R/S acetoin(in vitro assay)
 #sADH1
 #bdoTP
+# NADH-dependent sADH reaction
+#sADH2
+
+
 
 # to test the combined_product:
 #combined_product
