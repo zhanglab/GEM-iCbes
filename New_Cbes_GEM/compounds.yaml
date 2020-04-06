@@ -2820,7 +2820,7 @@
 - id: C00369
   name: glycogen (n=4)
   charge: 0
-  formula: (C12H20O10)4
+  formula: H2O(C12H20O10)4
 - id: C00416
   name: Phosphatidate / 1,2-Diacyl-sn-glycerol 3-phosphate
   charge: -2
