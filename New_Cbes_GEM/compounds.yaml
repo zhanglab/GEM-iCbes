@@ -2578,6 +2578,7 @@
   name: acetylxylan
   charge: 0
   formula: C26H40O20
+  comment: compound comes from brenda - https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=10958
 - id: antim
   name: Antimonite
   charge: 0
@@ -2783,7 +2784,7 @@
   name: L-Valyl-tRNA(Val)
   charge: 1
   formula: C5H10NOR
-- id: C00707
+- id: C00707_kz
   name: Xylan
   charge: 0
   formula: H2O(C5H8O4)7(C10H16O8)4
@@ -2795,7 +2796,7 @@
   name: Maltodextrin(n=4)
   charge: 0
   formula: H2O(C6H10O5)4
-- id: C02474
+- id: C02474_kz
   name: Arabinan(n=2)
   charge: 0
   formula: H2O(C15H24O12)2
@@ -2817,7 +2818,7 @@
   name: Queuosine34 tRNA
   charge: -3
   formula: C27H37N5O22P3R2
-- id: C00369
+- id: C00369_kz
   name: glycogen (n=4)
   charge: 0
   formula: H2O(C12H20O10)4

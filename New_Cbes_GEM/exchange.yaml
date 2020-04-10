@@ -228,7 +228,7 @@ compounds:
 #   name: 1,4-beta-D-Mannan(n=8)
 #   lower: -25.0
 #   upper: 1000.0
-# - id: C00707
+# - id: C00707_kz
 #   name: Xylan
 #   lower: -25.0
 #   upper: 1000.0
