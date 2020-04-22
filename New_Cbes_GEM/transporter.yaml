@@ -120,9 +120,8 @@
   name: H+ dependent F0F1 ATP synthase
   equation: (4) C00080[c] + C00002[c] + C00001[c] <=> (5) C00080[e] + C00008[c] +
     C00009[c]
-  PMID: 8905099, 16816177
   tc: 3.A.2.1.5
-  PMID: 31097544, 26536872
+  PMID: 31097544, 26536872, 8905099, 16816177
 - id: RibU
   name: riboflavin uptake (ECF)
   equation: C00255[e] + C00002[c] + C00001[c] => C00255[c] + C00008[c] + C00009[c] + C00080[c]
