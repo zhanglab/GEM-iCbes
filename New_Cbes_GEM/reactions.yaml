@@ -3211,3 +3211,9 @@
   equation: C01935_kz[c] + C00001[c] => (2) C00208[c]
   ec:
   - 3.2.1.41
+- id: Ram106B
+  name: alpha-L-rhamnosidase
+  equation: rhaos[c] + C00001[c] => (2) C00507[c]
+  ec:
+  - 3.2.1.41
+  comment: release terminal alpha-L-rhamnose.
