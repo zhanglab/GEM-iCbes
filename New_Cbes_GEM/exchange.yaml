@@ -198,20 +198,28 @@ compounds:
 #   lower: -10.0    # MACB1034 (dLDH) uptake
 #   lower: -25.0  # MACB1058 (dLDH+AdhE)
 #   lower: -24.5  #MACB1062 (dLDH+AdhE+Rnf)
-#   lower: -16.83   # WT-Glc
-#   upper: -16.83   # WT-Glc
-#   lower: -12.75   # dLDH-Glc
-#   upper: -12.75   # dLDH-Glc
+#   lower: -16.83   # WT-Glc-32h
+#   upper: -16.83   # WT-Glc-32h
+#   lower: -13.54 # WT-Glc-20h
+#   upper: -13.54 # WT-Glc-20h
+#   lower: -12.76   # dLDH-Glc-32h
+#   upper: -12.76   # dLDH-Glc-32h
+#   lower: -8.36   # dLDH-Glc-20h
+#   upper: -8.36   # dLDH-Glc-20h
 # - id: C00095
 #   name: fructose
 #   lower: -25.0
 #   upper: 1000.0
 #   lower: -7.671996359
 #   upper: -7.671996359
-#   lower: -11.11  # WT-Fru
-#   upper: -11.11  # WT-Fru
-#   lower: -10.0   # dLDH-Fru
-#   upper: -10.0   # dLDH-Fru
+#   lower: -11.11  # WT-Fru-32h
+#   upper: -11.11  # WT-Fru-32h
+#   lower: -7.8  # WT-Fru-20h
+#   upper: -7.8  # WT-Fru-20h
+#   lower: -10.0   # dLDH-Fru-32h
+#   upper: -10.0   # dLDH-Fru-32h
+#   lower: -7.67  # dLDH-Fru-20h
+#   upper: -7.67  # dLDH-Fru-20h
 # - id: C00181
 #   name: D-xylose
 #   lower: -25.0
@@ -222,11 +230,12 @@ compounds:
 #   upper: 1000.0
 # - id: C00760_kz
 #   name: Cellulose(n=8)
-#   lower: -15.20750643  # Based on 20g/L cellulose input from literature 30009131
-#   lower: -11.3         # based on 11.3-11.8g/L cellulose consumed by Cbes in literature: PMID 30009131
-#   lower: -26.7         # carbon input used by Clostridium thermocellum to produce 26.7 ± 0.9 g/L ethanol (~580mM) from 95 g/L Avicel: PMID 27257435
 #   lower: -25
 #   upper: 1000.0
+#   lower: -15.20750643  # Based on 20g/L cellulose input from literature 30009131
+#   lower: -8.59224        # based on 11.3-11.8g/L (11.3g/L is equal to 8.59224mM) cellulose consumed by Cbes in literature: PMID 30009131
+#   upper: -8.59224
+#   lower: -26.7         # carbon input used by Clostridium thermocellum to produce 26.7 ± 0.9 g/L ethanol (~580mM) from 95 g/L Avicel: PMID 27257435
 # - id: C02492
 #   name: 1,4-beta-D-Mannan(n=8)
 #   lower: -25.0
@@ -290,7 +299,7 @@ compounds:
 #   lower: -25
 #   upper: 1000
 #   comment: alpha-1,6-glucans
-
+#
 # - id: C00243
 #   name: Lactose
 #   lower: -25

@@ -35,6 +35,8 @@
 - id: G5SADs
   name: L-glutamate 5-semialdehyde dehydratase (spontaneous)
   equation: C01165[c] <=> C03912[c] + C00001[c] + C00080[c]
+  PMID: 6255065
+  comment: from Cce model
   # subsystem: Arginine and proline metabolism
 
 - id: Acetoin-Syn
