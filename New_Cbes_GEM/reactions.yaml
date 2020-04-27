@@ -3217,3 +3217,9 @@
   ec:
   - 3.2.1.41
   comment: release terminal alpha-L-rhamnose.
+- id: glyASE
+  name: glycogen hydrolysis
+  equation: C00369_kz[e] + C00001[c] => (2) C01935_kz[e]
+  genes: (Athe_0610 or Athe_2593) and Athe_0609
+  ec:
+  - 3.2.1.41, 3.2.1.1

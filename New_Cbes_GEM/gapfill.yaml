@@ -26,3 +26,19 @@
   equation: C17467[c] =>
 - id: sink_co
   equation: C00237[c] =>
+- id: sink_lacad
+  equation: C00424[c] =>
+
+# add transoirter for sugars that reported can be used by Cbes
+- id: manABC
+  name: mannose transport via ABC system
+  equation: C00159[e] + C00001[c] + C00002[c] => C00159[c] + C00008[c] + C00009[c] + C00080[c]
+- id: melibABC
+  name: melibiose transport via ABC system
+  equation: C05402[e] + C00001[c] + C00002[c] => C05402[c] + C00008[c] + C00009[c] + C00080[c]
+- id: lacABC
+  name: lactose transport via ABC system
+  equation: C00243[e] + C00001[c] + C00002[c] => C00243[c] + C00008[c] + C00009[c] + C00080[c]
+- id: rhaABC
+  name: rha transport via ABC system
+  equation: C00507[e] + C00001[c] + C00002[c] => C00507[c] + C00008[c] + C00009[c] + C00080[c]

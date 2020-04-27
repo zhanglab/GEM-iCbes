@@ -770,6 +770,12 @@ XOSASE
 XLBASE
 DeoABC
 Ram106B
+manABC
+melibABC
+lacABC
+rhaABC
+glyASE
+sink_lacad
 
 # for engineered processes:
 ## deletion: (R01870 and R08231 is PyrE; R00342 and R00703 is LDH)
