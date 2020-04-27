@@ -30,6 +30,12 @@
   name: H2O transport via diffusion
   equation: C00001[e] <=> C00001[c]
   # subsystem: Transport
+- id: TP_CO
+  name: non-enzymatic CO transporter
+  equation: C00237[c] <=> C00237[e]
+  # source: Diffusion
+  # tag: Spontaneous
+  # subsystem: Transport
 
 # also belong to metabolic rxns
 - id: G5SADs

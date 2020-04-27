@@ -189,6 +189,10 @@ compounds:
   name: 2,3-butanediol
   lower: 0
   upper: 1000
+- id: C00237
+  name: CO
+  lower: 0
+  upper: 1000.0
 
 # test different carbon source
 - id: C00031

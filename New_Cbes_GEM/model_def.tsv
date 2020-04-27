@@ -732,11 +732,11 @@ sink_gatp
 sink_preQ1
 sink_dads
 sink_hybenalcohol
-sink_co
 sink_suc
 Acetoin-t
 Acetoin-Syn
 R00217
+TP_CO
 
 # sugar metabolism
 R11307_kz
