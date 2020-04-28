@@ -11,7 +11,7 @@ R07641	Athe_1540 and (Athe_1541 or Athe_1378)	peg.2035 and (peg.2036 or peg.1868
 R00868	Athe_0537	peg.968	WP_015907121.1	Fructose and mannose metabolism
 R01542	Athe_2383	peg.2965	WP_015908705.1	Pentose and glucuronate interconversions
 R07133	Athe_0698	peg.1152	WP_015907255.1	-
-R01183	Athe_2334 or Athe_0344	peg.2909 or peg.755	WP_015908658.1 or WP_015906945.1	Streptomycin biosynthesis
+R01183	Athe_0344	peg.755	WP_015906945.1	Sugar metabolism
 R03458	Athe_0564	peg.996	WP_015907144.1	Riboflavin metabolism
 R02454	Athe_0855	peg.1315	WP_015907397.1	Pentose and glucuronate interconversions
 R01513	Athe_2125 or Athe_1994	peg.2680 or peg.2522	WP_015908470.1 or WP_015908365.1	Glycine, serine and threonine metabolism
@@ -528,8 +528,8 @@ THZPSN	(Athe_1547 or Athe_1714) and Athe_0371 and Athe_1546 and Athe_1288 and At
 R00431	Athe_0393	peg.808	WP_015906992.1	Glycolysis / Gluconeogenesis
 R00726	Athe_0393	peg.808	WP_015906992.1	Glycolysis / Gluconeogenesis
 R00258	gap	gap	gap	Alanine, aspartate and glutamate metabolism
-R02282	gap	gap     gap	Arginine biosynthesis
-NMPK	gap	gap     gap	Others
+R02282	gap	gap	gap	Arginine biosynthesis
+NMPK	gap	gap	gap	Others
 hco3	Spontaneous	Spontaneous	Spontaneous	Ionization
 nh4	Spontaneous	Spontaneous	Spontaneous	Ionization
 TP_H2	Spontaneous	Spontaneous	Spontaneous	Transport

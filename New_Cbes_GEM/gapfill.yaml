@@ -40,3 +40,20 @@
 - id: rhaABC
   name: rha transport via ABC system
   equation: C00507[e] + C00001[c] + C00002[c] => C00507[c] + C00008[c] + C00009[c] + C00080[c]
+
+# remova ATP loop and unblock Biomass
+- id: R00156
+  name: ATP:UDP phosphotransferase
+  equation: C00002[c] + C00015[c] <=> C00008[c] + C00075[c]
+  ec:
+  - 2.7.4.6
+- id: R02093
+  name: ATP:dTDP phosphotransferase
+  equation: C00002[c] + C00363[c] <=> C00008[c] + C00459[c]
+  ec:
+  - 2.7.4.6
+- id: R00570
+  name: ATP:CDP phosphotransferase
+  equation: C00002[c] + C00112[c] <=> C00008[c] + C00063[c]
+  ec:
+  - 2.7.4.6

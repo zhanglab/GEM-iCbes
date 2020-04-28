@@ -1614,12 +1614,12 @@
   - 2.7.1.39
 - id: R00968
   name: GTP:uridine 5'-phosphotransferase
-  equation: C00044[c] + C00299[c] <=> C00035[c] + C00105[c] + C00080[c]
+  equation: C00044[c] + C00299[c] => C00035[c] + C00105[c] + C00080[c]
   ec:
   - 2.7.1.48
 - id: R00517
   name: GTP:cytidine 5'-phosphotransferase
-  equation: C00044[c] + C00475[c] <=> C00035[c] + C00055[c] + C00080[c]
+  equation: C00044[c] + C00475[c] => C00035[c] + C00055[c] + C00080[c]
   ec:
   - 2.7.1.48
 - id: R00967
@@ -1699,7 +1699,7 @@
   - 2.7.1.48
 - id: R00964
   name: ATP:uridine 5'-phosphotransferase
-  equation: C00002[c] + C00299[c] <=> C00008[c] + C00105[c] + C00080[c]
+  equation: C00002[c] + C00299[c] => C00008[c] + C00105[c] + C00080[c]
   ec:
   - 2.7.1.48
   - 2.7.1.213
@@ -1766,18 +1766,13 @@
   - 2.7.4.22
 - id: R02098
   name: ATP:dUMP phosphotransferase
-  equation: C00002[c] + C00365[c] <=> C00008[c] + C01346[c]
+  equation: C00002[c] + C00365[c] => C00008[c] + C01346[c]
   ec:
   - 2.7.4.4
   - 2.7.4.9
 - id: R00124
   name: ATP:ADP phosphatransferase
   equation: C00002[c] + C00008[c] <=> C00008[c] + C00002[c]
-  ec:
-  - 2.7.4.6
-- id: R00156
-  name: ATP:UDP phosphotransferase
-  equation: C00002[c] + C00015[c] <=> C00008[c] + C00075[c]
   ec:
   - 2.7.4.6
 - id: R00330
@@ -1790,11 +1785,6 @@
   equation: C00002[c] + C00104[c] <=> C00008[c] + C00081[c]
   ec:
   - 2.7.4.6
-- id: R00570
-  name: ATP:CDP phosphotransferase
-  equation: C00002[c] + C00112[c] <=> C00008[c] + C00063[c]
-  ec:
-  - 2.7.4.6
 - id: R01137
   name: ATP:dADP phosphotransferase
   equation: C00002[c] + C00206[c] <=> C00008[c] + C00131[c]
@@ -1803,11 +1793,6 @@
 - id: R01857
   name: ATP:dGDP phosphotransferase
   equation: C00002[c] + C00361[c] <=> C00008[c] + C00286[c]
-  ec:
-  - 2.7.4.6
-- id: R02093
-  name: ATP:dTDP phosphotransferase
-  equation: C00002[c] + C00363[c] <=> C00008[c] + C00459[c]
   ec:
   - 2.7.4.6
 - id: R02326
@@ -1848,7 +1833,7 @@
   - 2.7.4.12
 - id: R02094
   name: ATP:dTMP phosphotransferase
-  equation: C00002[c] + C00364[c] <=> C00008[c] + C00363[c]
+  equation: C00002[c] + C00364[c] => C00008[c] + C00363[c]
   ec:
   - 2.7.4.9
   - 2.7.4.12
@@ -2017,7 +2002,7 @@
   - 3.5.3.11
 - id: R01663
   name: dCMP aminohydrolase
-  equation: C00239[c] + C00001[c] <=> C00365[c] + C00014[c]
+  equation: C00239[c] + C00001[c] => C00365[c] + C00014[c]
   ec:
   - 3.5.4.12
 - id: R00193
@@ -2032,7 +2017,7 @@
   - 3.5.4.31
 - id: R01878
   name: Cytidine aminohydrolase
-  equation: C00475[c] + C00001[c] <=> C00299[c] + C00014[c]
+  equation: C00475[c] + C00001[c] => C00299[c] + C00014[c]
   ec:
   - 3.5.4.5
 - id: R02485
@@ -2309,7 +2294,7 @@
   - 6.3.2.5
 - id: R04231
   name: (R)-4'-Phosphopantothenate:L-cysteine ligase
-  equation: C00063[c] + C03492[c] + C00097[c] <=> C00055[c] + C00013[c] + C04352[c] + C00080[c]
+  equation: C00063[c] + C03492[c] + C00097[c] => C00055[c] + C00013[c] + C04352[c] + C00080[c]
   ec:
   - 6.3.2.5
 - id: R04591
@@ -3220,6 +3205,5 @@
 - id: glyASE
   name: glycogen hydrolysis
   equation: C00369_kz[e] + C00001[c] => (2) C01935_kz[e]
-  genes: (Athe_0610 or Athe_2593) and Athe_0609
   ec:
   - 3.2.1.41, 3.2.1.1

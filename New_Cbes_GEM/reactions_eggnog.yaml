@@ -169,42 +169,40 @@
   - 3.6.4.13
 - id: R00426
   name: GTP diphosphohydrolase (diphosphate-forming)
-  equation: C00044[c] + C00001[c] <=> C00144[c] + C00013[c] + C00080[c]
+  equation: C00044[c] + C00001[c] => C00144[c] + C00013[c] + C00080[c]
   ec:
   - 3.6.1.8
-  - 3.6.1.-
+  PMID: 12657645
 - id: R00720
   name: Inosine 5'-triphosphate pyrophosphohydrolase
-  equation: C00081[c] + C00001[c] <=> C00130[c] + C00013[c] + C00080[c]
+  equation: C00081[c] + C00001[c] => C00130[c] + C00013[c] + C00080[c]
   ec:
   - 3.6.1.8
-  - 3.6.1.-
 - id: R00087
   name: ATP diphosphohydrolase (diphosphate-forming)
-  equation: C00002[c] + C00001[c] <=> C00020[c] + C00013[c] + C00080[c]
+  equation: C00002[c] + C00001[c] => C00020[c] + C00013[c] + C00080[c]
   ec:
   - 3.6.1.8
-  - 3.6.1.9
+  PMID: 12657645
 - id: R00662
   name: Uridine triphosphate pyrophosphohydrolase
-  equation: C00075[c] + C00001[c] <=> C00105[c] + C00013[c] + C00080[c]
+  equation: C00075[c] + C00001[c] => C00105[c] + C00013[c] + C00080[c]
   ec:
   - 3.6.1.8
-  - 3.6.1.9
+  PMID: 12657645
 - id: R00287
   name: UDP-glucose glucophosphohydrolase
-  equation: C00029[c] + C00001[c] <=> C00105[c] + C00103[c] + (2) C00080[c]
+  equation: C00029[c] + C00001[c] => C00105[c] + C00103[c] + (2) C00080[c]
   ec:
   - 3.6.1.8
   - 3.6.1.9
   - 3.6.1.45
 - id: R00515
   name: CTP diphosphohydrolase (diphosphate-forming)
-  equation: C00063[c] + C00001[c] <=> C00055[c] + C00013[c] + C00080[c]
+  equation: C00063[c] + C00001[c] => C00055[c] + C00013[c] + C00080[c]
   ec:
   - 3.6.1.8
-  - 3.6.1.9
-  - 3.6.1.65
+  PMID: 12657645
 - id: R03197
   name: Uroporphyrinogen-III carboxy-lyase
   equation: C01051[c] + (4) C00080[c] <=> C03263[c] + (4) C00011[c]
@@ -388,3 +386,40 @@
   name: beta-D-Glucuronoside transport via ABC system
   equation: C03033[e] + C00002[c] + C00001[c] => C03033[c] + C00008[c] + C00009[c] + C00080[c]
   tc: 3.A.1
+
+- id: R01668
+  name: dCTP nucleotidohydrolase
+  equation: C00458[c] + C00001[c] => C00239[c] + C00013[c] + C00080[c]
+  ec:
+  - 3.6.1.8
+  PMID: 12657645
+- id: R11323
+  name: dTTP diphosphohydrolase
+  equation: C00459[c] + C00001[c] => C00364[c] + C00013[c] + C00080[c]
+  ec:
+  - 3.6.1.8
+  pathways:
+  - Pyrimidine metabolism
+  PMID: 12657645
+- id: R01855
+  name: 2'-Deoxyguanosine 5'-triphosphate diphosphohydrolase
+  names:
+  - 2'-Deoxyguanosine 5'-triphosphate diphosphohydrolase
+  equation: C00286[c] + C00001[c] => C00362[c] + C00013[c] + C00080[c]
+  ec:
+  - 3.6.1.8
+  PMID: 12657645
+  pathways:
+  - Purine metabolism
+- id: MazG
+  name: dATP diphosphohydrolase
+  equation: C00131[c] + C00001[c] => C00360[c] + C00013[c] + C00080[c]
+  ec:
+  - 3.6.1.8
+  PMID: 12657645
+- id: R00004
+  name: diphosphate phosphohydrolase
+  equation: C00013[c] + C00001[c] => (2) C00009[c] + C00080[c]
+  ec:
+  - 3.6.1.8
+  PMID: 12657645
