@@ -57,3 +57,6 @@
   equation: C00002[c] + C00112[c] <=> C00008[c] + C00063[c]
   ec:
   - 2.7.4.6
+
+- id: atp_maintain
+  equation: C00002[c] + C00001[c] => C00008[c] + C00009[c] + C00080[c]
