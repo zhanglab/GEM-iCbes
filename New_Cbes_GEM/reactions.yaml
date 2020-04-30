@@ -212,7 +212,7 @@
   - 2.7.1.4
 - id: R00756
   name: ATP:D-fructose-6-phosphate 1-phosphotransferase
-  equation: C00002[c] + C00085[c] <=> C00008[c] + C00354[c] + C00080[c]
+  equation: C00002[c] + C00085[c] => C00008[c] + C00354[c] + C00080[c]
   ec:
   - 2.7.1.11
 - id: R01843
@@ -280,7 +280,7 @@
   - 2.7.1.31
 - id: R00200
   name: ATP:pyruvate 2-O-phosphotransferase
-  equation: C00002[c] + C00022[c] <=> C00008[c] + C00074[c] + C00080[c]
+  equation: C00002[c] + C00022[c] => C00008[c] + C00074[c] + C00080[c]
   ec:
   - 2.7.1.40
 - id: R01541
@@ -794,7 +794,7 @@
   - 5.4.2.8
 - id: R00206
   name: ATP:pyruvate,phosphate phosphotransferase
-  equation: C00002[c] + C00022[c] + C00009[c] <=> C00020[c] + C00074[c] + C00013[c] + C00080[c]
+  equation: C00002[c] + C00022[c] + C00009[c] => C00020[c] + C00074[c] + C00013[c] + C00080[c]
   ec:
   - 2.7.9.1
 - id: R00425
