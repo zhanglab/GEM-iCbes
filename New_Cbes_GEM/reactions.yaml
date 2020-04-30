@@ -280,7 +280,7 @@
   - 2.7.1.31
 - id: R00200
   name: ATP:pyruvate 2-O-phosphotransferase
-  equation: C00002[c] + C00022[c] => C00008[c] + C00074[c] + C00080[c]
+  equation: C00002[c] + C00022[c] <= C00008[c] + C00074[c] + C00080[c]
   ec:
   - 2.7.1.40
 - id: R01541
@@ -349,12 +349,12 @@
   - 2.7.7.64
 - id: R00885
   name: GTP:alpha-D-mannose-1-phosphate guanylyltransferase
-  equation: C00044[c] + C00636[c] + C00080[c] <=> C00013[c] + C00096[c]
+  equation: C00044[c] + C00636[c] + C00080[c] => C00013[c] + C00096[c]
   ec:
   - 2.7.7.13
 - id: R00883
   name: GDP:D-mannose-1-phosphate guanylyltransferase
-  equation: C00035[c] + C00636[c] + C00080[c] <=> C00009[c] + C00096[c]
+  equation: C00035[c] + C00636[c] + C00080[c] => C00009[c] + C00096[c]
   ec:
   - 2.7.7.22
 - id: R00948
@@ -794,7 +794,7 @@
   - 5.4.2.8
 - id: R00206
   name: ATP:pyruvate,phosphate phosphotransferase
-  equation: C00002[c] + C00022[c] + C00009[c] => C00020[c] + C00074[c] + C00013[c] + C00080[c]
+  equation: C00002[c] + C00022[c] + C00009[c] <=> C00020[c] + C00074[c] + C00013[c] + C00080[c]
   ec:
   - 2.7.9.1
 - id: R00425
@@ -946,7 +946,7 @@
   ec:
   - 2.1.2.2
 - id: R07399
-  equation: C00024[c] + C00022[c] + C00001[c] <=> C02612[c] + C00010[c] + C00080[c]
+  equation: C00024[c] + C00022[c] + C00001[c] => C02612[c] + C00010[c] + C00080[c]
   ec:
   - 2.3.1.182
 - id: R02508
@@ -1982,7 +1982,7 @@
   - 3.5.1.38
 - id: R02322
   name: nicotinamide-D-ribonucleotide amidohydrolase
-  equation: C00455[c] + C00001[c] <=> C01185[c] + C00014[c] + C00080[c]
+  equation: C00455[c] + C00001[c] => C01185[c] + C00014[c] + C00080[c]
   ec:
   - 3.5.1.42
 - id: R02733
@@ -2045,7 +2045,7 @@
   - 3.6.1.-
 - id: R02100
   name: dUTP nucleotidohydrolase
-  equation: C00460[c] + C00001[c] <=> C00365[c] + C00013[c] + C00080[c]
+  equation: C00460[c] + C00001[c] => C00365[c] + C00013[c] + C00080[c]
   ec:
   - 3.6.1.23
   - 3.6.1.-
