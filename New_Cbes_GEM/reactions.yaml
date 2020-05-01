@@ -3062,6 +3062,11 @@
   equation: C02013[e] + C00001[e] => (2) C00185[e]
   ec:
   - 3.2.1.4
+- id: R11308_kz2
+  name: celluase / Beta-1,4-glucanase (secreted)
+  equation: C02013[e] + (3) C00001[e] => (4) C00031[e]
+  ec:
+  - 3.2.1.4
 - id: CelF
   name: cellulose 1,4-beta-cellobiosidase (reducing end)(secreted)
   equation: C00760_kz[e] + (3) C00001[e] => (4) C00185[e]
