@@ -235,4 +235,4 @@
   equation: C00466[c] => C00466[e]
 - id: DeoABC
   name: deoxynucleoside transport via ABC system
-  equation: C02269[e] + C00002[c] + C00001[c] => C02269[c] + C00008[c] + C00009[c] + C00080[c]
+  equation: C02269[c] + C00002[c] + C00001[c] => C02269[c] + C00008[c] + C00009[c] + C00080[c]

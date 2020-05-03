@@ -212,7 +212,7 @@
   - 2.7.1.4
 - id: R00756
   name: ATP:D-fructose-6-phosphate 1-phosphotransferase
-  equation: C00002[c] + C00085[c] => C00008[c] + C00354[c] + C00080[c]
+  equation: C00002[c] + C00085[c] <=> C00008[c] + C00354[c] + C00080[c]
   ec:
   - 2.7.1.11
 - id: R01843
@@ -280,7 +280,7 @@
   - 2.7.1.31
 - id: R00200
   name: ATP:pyruvate 2-O-phosphotransferase
-  equation: C00002[c] + C00022[c] <= C00008[c] + C00074[c] + C00080[c]
+  equation: C00002[c] + C00022[c] <=> C00008[c] + C00074[c] + C00080[c]
   ec:
   - 2.7.1.40
 - id: R01541
@@ -349,12 +349,12 @@
   - 2.7.7.64
 - id: R00885
   name: GTP:alpha-D-mannose-1-phosphate guanylyltransferase
-  equation: C00044[c] + C00636[c] + C00080[c] => C00013[c] + C00096[c]
+  equation: C00044[c] + C00636[c] + C00080[c] <=> C00013[c] + C00096[c]
   ec:
   - 2.7.7.13
 - id: R00883
   name: GDP:D-mannose-1-phosphate guanylyltransferase
-  equation: C00035[c] + C00636[c] + C00080[c] => C00009[c] + C00096[c]
+  equation: C00035[c] + C00636[c] + C00080[c] <=> C00009[c] + C00096[c]
   ec:
   - 2.7.7.22
 - id: R00948
@@ -1982,7 +1982,7 @@
   - 3.5.1.38
 - id: R02322
   name: nicotinamide-D-ribonucleotide amidohydrolase
-  equation: C00455[c] + C00001[c] => C01185[c] + C00014[c] + C00080[c]
+  equation: C00455[c] + C00001[c] <=> C01185[c] + C00014[c] + C00080[c]
   ec:
   - 3.5.1.42
 - id: R02733
@@ -2045,7 +2045,7 @@
   - 3.6.1.-
 - id: R02100
   name: dUTP nucleotidohydrolase
-  equation: C00460[c] + C00001[c] => C00365[c] + C00013[c] + C00080[c]
+  equation: C00460[c] + C00001[c] <=> C00365[c] + C00013[c] + C00080[c]
   ec:
   - 3.6.1.23
   - 3.6.1.-
@@ -3062,11 +3062,6 @@
   equation: C02013[e] + C00001[e] => (2) C00185[e]
   ec:
   - 3.2.1.4
-- id: R11308_kz2
-  name: celluase / Beta-1,4-glucanase (secreted)
-  equation: C02013[e] + (3) C00001[e] => (4) C00031[e]
-  ec:
-  - 3.2.1.4
 - id: CelF
   name: cellulose 1,4-beta-cellobiosidase (reducing end)(secreted)
   equation: C00760_kz[e] + (3) C00001[e] => (4) C00185[e]
@@ -3209,11 +3204,6 @@
   comment: release terminal alpha-L-rhamnose.
 - id: glyASE
   name: glycogen hydrolysis
-  equation: C00182_kz[e] + C00001[c] => (2) C01935_kz[e]
-  ec:
-  - 3.2.1.41, 3.2.1.1
-- id: starchASE
-  name: starch hydrolysis
   equation: C00369_kz[e] + C00001[c] => (2) C01935_kz[e]
   ec:
   - 3.2.1.41, 3.2.1.1

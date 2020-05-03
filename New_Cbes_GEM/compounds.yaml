@@ -2819,7 +2819,7 @@
   charge: -3
   formula: C27H37N5O22P3R2
 - id: C00369_kz
-  name: Starch (n=4)
+  name: glycogen (n=4)
   charge: 0
   formula: H2O(C12H20O10)4
 - id: C00416
@@ -2994,8 +2994,4 @@
 - id: C02269
   name: Deoxynucleoside
   formula: C5H9O3R
-  charge: 0
-- id: C00182_kz
-  name: Glycogen
-  formula: H2O(C24H40O20)2
   charge: 0

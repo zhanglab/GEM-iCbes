@@ -157,8 +157,6 @@ compounds:
   # upper: 0        # dLDH-Glc or dLDH-Fru
 - id: C00011
   name: CO2
-  # lower: 127.9655372
-  # upper: 127.9655372
   lower: 0
   upper: 1000.0
 - id: C00282
@@ -201,8 +199,6 @@ compounds:
   name: D-glucose
   lower: -25.0
   upper: 1000.0
-#   lower: 4.66
-#   upper: 4.66
 #   lower: -10.0    # MACB1034 (dLDH) uptake
 #   lower: -25.0  # MACB1058 (dLDH+AdhE)
 #   lower: -24.5  #MACB1062 (dLDH+AdhE+Rnf)
@@ -241,10 +237,8 @@ compounds:
 #   lower: -25
 #   upper: 1000.0
 #   lower: -15.20750643  # Based on 20g/L cellulose input from literature 30009131
-#   lower: -8.59224        # based on 11.3g/L (11.3g/L is equal to 8.59224mM) cellulose consumed by Cbes in literature: PMID 30009131
+#   lower: -8.59224        # based on 11.3-11.8g/L (11.3g/L is equal to 8.59224mM) cellulose consumed by Cbes in literature: PMID 30009131
 #   upper: -8.59224
-#   lower: -8.972428   # 11.8g/L is equal to 8.972428 mM
-#   upper: -8.972428
 #   lower: -26.7         # carbon input used by Clostridium thermocellum to produce 26.7 ± 0.9 g/L ethanol (~580mM) from 95 g/L Avicel: PMID 27257435
 # - id: C02492
 #   name: 1,4-beta-D-Mannan(n=8)
@@ -275,10 +269,6 @@ compounds:
 #   lower: -25.0
 #   upper: 1000.0
 # - id: C00369_kz
-#   name: Starch
-#   lower: -25.0
-#   upper: 1000.0
-# - id: C00182_kz
 #   name: Glycogen
 #   lower: -25.0
 #   upper: 1000.0

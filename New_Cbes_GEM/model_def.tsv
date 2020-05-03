@@ -558,7 +558,7 @@ R01626
 12DAG3PS
 R00258
 R02282
-#NMPK
+NMPK
 hco3
 nh4
 TP_H2
@@ -592,7 +592,7 @@ moABC
 fe2t
 piABC
 pit
-#hco3ABC
+hco3ABC
 uraUpt
 ATPSYN
 RibU
@@ -684,7 +684,7 @@ posABC
 valABC
 leuABC
 ileABC
-#piH
+piH
 #inosABC
 GlcnABC
 R05743
@@ -781,8 +781,7 @@ R11323
 R01855
 MazG
 R00004
-starchASE
-R11308_kz2
+atp_maintain
 
 # for engineered processes:
 ## deletion: (R01870 and R08231 is PyrE; R00342 and R00703 is LDH)
@@ -826,6 +825,3 @@ R00315
 
 # to test the dLDH product
 #dLDH_product
-
-# test
-atp_maintain
