@@ -781,7 +781,7 @@ R11323
 R01855
 MazG
 R00004
-atp_maintain
+R11308_kz2
 
 # for engineered processes:
 ## deletion: (R01870 and R08231 is PyrE; R00342 and R00703 is LDH)
@@ -825,3 +825,6 @@ R00315
 
 # to test the dLDH product
 #dLDH_product
+
+# test
+atp_maintain

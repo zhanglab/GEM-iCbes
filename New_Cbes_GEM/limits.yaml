@@ -2,6 +2,8 @@
   #lower: 0
   # lower: 0.25
   upper: 1000
+  # lower: 0.41
+  # upper: 0.41
   # lower: 0.525   # WT-Glc
   # upper: 0.525   # WT-Glc
   # lower: 0.548   # WT-Fru
@@ -172,6 +174,11 @@
 #   lower: 25 # MACB1062 (dLDH+AdhE+Rnf)
 #   upper: 1000
 
-
 # - reaction: TP_CO2
 #   fixed: 5.5
+
+# MACB1062 (ethanol strain grown on cellulose)
+# - reaction: PYRt2
+#   fixed: 10.6
+# - reaction: ACt6
+#   fixed: 51.86705974
