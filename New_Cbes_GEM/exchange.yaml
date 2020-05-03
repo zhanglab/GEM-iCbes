@@ -269,6 +269,10 @@ compounds:
 #   lower: -25.0
 #   upper: 1000.0
 # - id: C00369_kz
+#   name: Starch
+#   lower: -25.0
+#   upper: 1000.0
+# - id: C00182_kz
 #   name: Glycogen
 #   lower: -25.0
 #   upper: 1000.0
