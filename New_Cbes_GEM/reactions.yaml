@@ -349,14 +349,16 @@
   - 2.7.7.64
 - id: R00885
   name: GTP:alpha-D-mannose-1-phosphate guanylyltransferase
-  equation: C00044[c] + C00636[c] + C00080[c] <=> C00013[c] + C00096[c]
+  equation: C00044[c] + C00636[c] + C00080[c] => C00013[c] + C00096[c]
   ec:
   - 2.7.7.13
+  comment: mono-directional based on https://books.google.com/books?id=2pdDUbMZIGMC&pg=PA203&lpg=PA203&dq=mannose-1-phosphate+guanylyltransferase+reversible&source=bl&ots=DpLRAR68m-&sig=ACfU3U0Xq3IybGfvJf09k8ZAhQU3lismZg&hl=zh-CN&sa=X&ved=2ahUKEwim7uqS6Z_pAhWUknIEHcvIApU4ChDoATABegQIChAB#v=onepage&q=mannose-1-phosphate%20guanylyltransferase%20reversible&f=false
 - id: R00883
   name: GDP:D-mannose-1-phosphate guanylyltransferase
   equation: C00035[c] + C00636[c] + C00080[c] <=> C00009[c] + C00096[c]
   ec:
   - 2.7.7.22
+  comment: bidirectional based on https://books.google.com/books?id=2pdDUbMZIGMC&pg=PA203&lpg=PA203&dq=mannose-1-phosphate+guanylyltransferase+reversible&source=bl&ots=DpLRAR68m-&sig=ACfU3U0Xq3IybGfvJf09k8ZAhQU3lismZg&hl=zh-CN&sa=X&ved=2ahUKEwim7uqS6Z_pAhWUknIEHcvIApU4ChDoATABegQIChAB#v=onepage&q=mannose-1-phosphate%20guanylyltransferase%20reversible&f=false
 - id: R00948
   name: ATP:alpha-D-glucose-1-phosphate adenylyltransferase
   equation: C00002[c] + C00103[c] + C00080[c]  <=> C00013[c] + C00498[c]
@@ -1381,7 +1383,7 @@
   - 2.4.2.22
 - id: R00966
   name: UMP:diphosphate phospho-alpha-D-ribosyltransferase
-  equation: C00105[c] + C00013[c] <=> C00106[c] + C00119[c]
+  equation: C00106[c] + C00119[c] => C00105[c] + C00013[c]
   ec:
   - 2.4.2.9
 - id: R10339
