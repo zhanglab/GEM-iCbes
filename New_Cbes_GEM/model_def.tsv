@@ -784,6 +784,19 @@ R00004
 R11308_kz2
 starchASE
 
+# cell wall components
+TECA1S45_Cbes
+TECA2S45_Cbes
+TECA3S45_Cbes
+TECA4S_Cbes
+LIPO1S24_Cbes
+LIPO2S24_Cbes
+LIPO3S24_Cbes
+LIPO4S24_Cbes
+R00856
+R02239
+cellwall_met
+
 # for engineered processes:
 ## deletion: (R01870 and R08231 is PyrE; R00342 and R00703 is LDH)
 R01870

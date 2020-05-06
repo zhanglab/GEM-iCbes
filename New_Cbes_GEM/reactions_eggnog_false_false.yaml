@@ -37,7 +37,7 @@
   ec: 2.4.1.129
 - id: R04519
   name: peptidoglycan glycosyltransferase
-  equation: C05898[c] + C11827_kz1[c] + C00080[c] <=> C04574[c] + C11827_kz2[c]
+  equation: C05898[c] + C11827_kz1[c] + C00080[c] => C04574[c] + C11827_kz2[c]
   ec: 2.4.1.129
 - id: R02421
   name: ADP-glucose starch synthase
@@ -45,15 +45,15 @@
   ec: 2.4.1.21
 - id: R02689
   name: UDP-alpha-D-glucose:1,2-diacyl-sn-glycerol 3-beta-D-glucosyltransferase
-  equation: C00029[c] + C00641[c] <=> C00015[c] + C04046[c] + C00080[c]
+  equation: C00029[c] + C00641[c] => C00015[c] + C04046[c] + C00080[c]
   ec: 2.4.1.315
 - id: R04377
   name: UDP-alpha-D-glucose:1,2-diacyl-3-O-(beta-D-glucopyranosyl)-sn-glycerol 6-glucosyltransferase
-  equation: C04046[c] + C00029[c] <=> C06040[c] + C00015[c] + C00080[c]
+  equation: C04046[c] + C00029[c] => C06040[c] + C00015[c] + C00080[c]
   ec: 2.4.1.315
 - id: R10807
   name: UDP-alpha-D-glucose:diglucosyldiacylglycerol 6-glucosyltransferase
-  equation: C06040[c] + C00029[c] <=> C20860[c] + C00015[c] + C00080[c]
+  equation: C06040[c] + C00029[c] => C20860[c] + C00015[c] + C00080[c]
   ec: 2.4.1.315
 - id: QueA
   name: S-adenosylmethionine:tRNA ribosyltransferase-isomerase

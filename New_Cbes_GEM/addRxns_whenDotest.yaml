@@ -25,7 +25,7 @@
   - 1.17.7.4
 - id: PPTGS_Cbes
   name: Peptidoglycan subunit synthesis
-  equation: C05898[c] + C00080[c] => peptido_Cbes[c] + C04574[c]
+  equation: C05898[c] => peptido_cbes[c] + C04574[c] + C00080[c] 
   ec: 2.4.1.219
 - id: R01555
   name: Maltose:phosphate 1-beta-D-glucosyltransferase

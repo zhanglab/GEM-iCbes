@@ -60,3 +60,17 @@
 
 - id: atp_maintain
   equation: C00002[c] + C00001[c] => C00008[c] + C00009[c] + C00080[c]
+
+- id: R00856
+  name: CTP:sn-glycerol-3-phosphate cytidylyltransferase
+  equation: C00063[c] + C00093[c] + C00080[c] => C00013[c] + C00513[c]
+  ec:
+  - 2.7.7.39
+  subsystem: Cell Envelope Biosynthesis
+- id: R02239
+  name: 1,2-diacyl-sn-glycerol 3-phosphate phosphohydrolase
+  equation: C00416[c] + C00001[c] => C00641[c] + C00009[c]
+  ec:
+  - 3.1.3.4
+  - 3.1.3.81
+  subsystem: Glycerophospholipid metabolism / Cell Envelope Biosynthesis

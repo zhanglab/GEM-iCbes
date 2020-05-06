@@ -2587,10 +2587,11 @@
   name: Carbohydrate
   charge: 0
   formula: R
-- id: peptido_Cbes
-  name: Peptidoglycan subunit of Caldicellulosiruptor bescii
-  charge: 0
-  formula: C40H64O21N8
+- id: peptido_cbes
+  name: Peptidoglycan
+  charge: -2
+  formula: C40H62O21N8
+  comment: Bsu-peptido_BS
 - id: C16636
   name: tRNA(Sec)
   charge: 0
@@ -2998,4 +2999,52 @@
 - id: C02269
   name: Deoxynucleoside
   formula: C5H9O3R
+  charge: 0
+- id: C00513
+  name: CDP-glycerol
+  formula: C12H19N3O13P2
+  charge: -2
+- id: gtca1_45_cbes
+  name: Glycerol teichoic acid (n=45), unlinked, unsubstituted
+  formula: C151H297N2O238P46
+  charge: -45
+  comment: Bsu-gtca1-45_BS
+- id: gtca2_45_cbes
+  name: Glycerol teichoic acid (n=45), unlinked, D-ala substituted
+  formula: C286H612N47O328P46
+  charge: -45
+  comment: Bsu-gtca2-45_BS
+- id: gtca3_45_cbes
+  name: Glycerol teichoic acid (n=45), unlinked, glucose substituted
+  formula: C421H749N2O464P46
+  charge: -45
+  comment: Bsu-gtca3-45_BS
+- id: tcam_cbes
+  name: Minor teichoic acid (acetylgalactosamine glucose phosphate, n=30)
+  formula: C420H750N30O420P30
+  charge: -30
+  comment: Bsu-tcam_BS
+- id: lipo1_24_cbes
+  name: Lipoteichoic acid (n=24), linked, glucose substituted, C. bescii specific
+  formula: C22965H41081O24319P2437
+  charge: -2400
+  comment: Bsu-lipo1-24_BS
+- id: lipo2_24_cbes
+  name: Lipoteichoic acid (n=24), linked, N-acetyl-D-glucosamine, C. bescii specific
+  formula: C27765H48281O24319P2437N2400
+  charge: -2400
+  comment: Bsu-lipo2-24_BS
+- id: lipo3_24_cbes
+  name: Lipoteichoic acid (n=24), linked, D-alanine substituted, C. bescii specific
+  formula: C15765H33881O17119P2437N2400
+  charge: -2400
+  comment: Bsu-lipo3-24_BS
+- id: lipo4_24_cbes
+  name: Lipoteichoic acid (n=24), linked, unsubstituted, C. bescii specific
+  formula: C8565H17081O12319P2437
+  charge: -2400
+  comment: Bsu-lipo4-24_BS
+- id: cellwall_Cbes
+  name: cell wall
+  formula: R
   charge: 0
