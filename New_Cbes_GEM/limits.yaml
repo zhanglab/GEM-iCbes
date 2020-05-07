@@ -23,10 +23,10 @@
 #   lower: 0
 #   upper: 1000
 #   comment: physiological condition prefer the direction OAA => PEP
-- reaction: R00200
-  lower: -1000
-  upper: 0
-  comment: pysiological condition prefer the direaction PEP => Pyr
+# - reaction: R00200
+#   lower: -1000
+#   upper: 0
+#   comment: pysiological condition prefer the direaction PEP => Pyr
 - reaction: R00985
   lower: 0
   upper: 1000
@@ -177,8 +177,140 @@
 # - reaction: TP_CO2
 #   fixed: 5.5
 
-# MACB1062 (ethanol strain grown on cellulose)
+# to remove ATP loop
+# - reaction: R00137
+#   lower: 0
+#   upper: 1000
+# - reaction: NMPK
+#   lower: 0
+#   upper: 1000
+# - reaction: R00332
+#   lower: 0
+#   upper: 1000
+# - reaction: R01049
+#   lower: 0
+#   upper: 1000
+# - reaction: R00127
+#   lower: 0
+#   upper: 1000
+# - reaction: R00330
+#   lower: 0
+#   upper: 1000
+# - reaction: R00764
+#   lower: 0
+#   upper: 1000
+# - reaction: R00885
+#   lower: 0
+#   upper: 1000
+# - reaction: R01512
+#   fixed: 0
+# - reaction: R07399
+#   lower: 0
+#   upper: 1000
+# - reaction: R00966
+#   lower: -1000
+#   upper: 0
+
+# for model validation
+
+# # MACB1062 (ethanol strain grown on cellulose)
 # - reaction: PYRt2
 #   fixed: 10.6
 # - reaction: ACt6
 #   fixed: 51.86705974
+
+# # wt-glc-32h
+# - reaction: PYRt2
+#   lower: 0.1285190161
+#   upper: 1000
+# - reaction: ACt6
+#   lower: 7.290560815
+#   upper: 1000
+# - reaction: Lac-symp
+#   lower: 22.00398425
+#   upper: 1000
+
+# # wt-glc-20h
+# - reaction: PYRt2
+#   lower: 0.1822648932
+#   upper: 1000
+# - reaction: ACt6
+#   lower: 5.544484296
+#   upper: 1000
+# - reaction: Lac-symp
+#   lower: 19.69291571
+#   upper: 1000
+
+# # wt-fru-32h
+# - reaction: PYRt2
+#   lower: 0.1316898879
+#   upper: 1000
+# - reaction: ACt6
+#   lower: 6.010682702
+#   upper: 1000
+# - reaction: Lac-symp
+#   lower: 10.03352198
+#   upper: 1000
+
+# # wt-fru-20h
+# - reaction: PYRt2
+#   lower: 0.1436002837
+#   upper: 1000
+# - reaction: ACt6
+#   lower: 4.263791979
+#   upper: 1000
+# - reaction: Lac-symp
+#   lower: 8.643622971
+#   upper: 1000
+
+# # dLDH-glc-32h
+# - reaction: PYRt2
+#   lower: 1.425383688
+#   upper: 1000
+# - reaction: ACt6
+#   lower: 19.71928535
+#   upper: 1000
+# - reaction: Lac-symp
+#   lower: 0
+#   upper: 1000
+
+# # dLDH-glc-20h
+# - reaction: PYRt2
+#   lower: 0.7751190791
+#   upper: 1000
+# - reaction: ACt6
+#   lower: 12.13947911
+#   upper: 1000
+# - reaction: Lac-symp
+#   lower: 0
+#   upper: 1000
+
+# # dLDH-fru-32h
+# - reaction: PYRt2
+#   lower: 0.4876162697
+#   upper: 1000
+# - reaction: ACt6
+#   lower: 11.94235089
+#   upper: 1000
+# - reaction: Lac-symp
+#   lower: 0
+#   upper: 1000
+
+# # dLDH-fru-20h
+# - reaction: PYRt2
+#   lower: 0.4143489106
+#   upper: 1000
+# - reaction: ACt6
+#   lower: 8.985949762
+#   upper: 1000
+# - reaction: Lac-symp
+#   lower: 0
+#   upper: 1000
+
+# # wt-xylose-32h
+# - reaction: ACt6
+#   lower: 23.2
+#   upper: 1000
+# - reaction: TP_CO2
+#   lower: 14.13
+#   upper: 1000

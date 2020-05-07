@@ -45,7 +45,10 @@
   equation: (0.0111) C00234[c] + (0.2496) C00016[c] + (0.4293) C00061[c] + (0.273) C00010[c] + (0.0191) C00003[c] + (0.0201) C00004[c] + (0.025) C00006[c] + (0.0056) C00005[c] + (3.9905) C00238[c] + (1.4851) C00305[c] + (0.2983) C14818[c] + (0.139) C00076[c] + (3.6232) C01330[c] + (0.0849) C00038[c] + (0.3998) C00009[c] + (0.0062) C00068[c] => trace[c]
 - id: cellwall_met
   name: cell wall biosynthesis
-  equation: (0.454148) peptido_cbes[c] + (0.016146) gtca1_45_cbes[c] + (0.010482) gtca2_45_cbes[c] + (0.008118) gtca3_45_cbes[c] + (0.013872) tcam_cbes[c] + (0.000224901315789474) lipo1_24_cbes[c] + (0.000201414473684211) lipo2_24_cbes[c] + (0.000597434210526316) lipo3_24_cbes[c] + (0.000482763157894737) lipo4_24_cbes[c] => cellwall_Cbes[c]
+  # equation: (0.454148) peptido_cbes[c] + (0.016146) gtca1_45_cbes[c] + (0.010482) gtca2_45_cbes[c] + (0.008118) gtca3_45_cbes[c] + (0.013872) tcam_cbes[c] + (0.000224901315789474) lipo1_24_cbes[c] + (0.000201414473684211) lipo2_24_cbes[c] + (0.000597434210526316) lipo3_24_cbes[c] + (0.000482763157894737) lipo4_24_cbes[c] => cellwall_Cbes[c]
+  equation: (0.454148) peptido_cbes[c] + (0.016146) gtca1_45_cbes[c] + (0.010482) gtca2_45_cbes[c] + (0.008118) gtca3_45_cbes[c] + (0.013872) tcam_cbes[c] + (1.005530776) C00002[c] + (1.005530776) C00001[c] => cellwall_Cbes[c] + (1.005530776) C00008[c] + (1.005530776) C00009[c] + (1.005530776) C00080[c]
+  # equation: (0.454148) peptido_cbes[c] + (0.016146) gtca1_45_cbes[c] + (0.010482) gtca2_45_cbes[c] + (0.008118) gtca3_45_cbes[c] + (0.013872) tcam_cbes[c] + (0.000224901315789474) lipo1_24_cbes[c] + (0.000201414473684211) lipo2_24_cbes[c] + (0.000597434210526316) lipo3_24_cbes[c] + (0.000482763157894737) lipo4_24_cbes[c] +
+  #   (1.008543802) C00002[c] + (1.008543802) C00001[c] => cellwall_Cbes[c] + (1.008543802) C00008[c] + (1.008543802) C00009[c] + (1.008543802) C00080[c]
 
 - id: Biomass_Cbesii
   name: biomass 1gDW
@@ -55,7 +58,8 @@
   # equation: (0.016) dna[c] + (0.007) rna[c] + (0.516) protein[c] => Biomass[c]
 
   ### late log phase, receibved in Seq 12, 2019
-  equation: (0.009) dna[c] + (0.077) rna[c] + (0.274) protein[c] + (0.036) trace[c] + (0.178) lipids[c] + (0.066) carbohydrate[c] + (0.2546) cellwall_Cbes[c] => Biomass[c]
+  equation: (0.009) dna[c] + (0.077) rna[c] + (0.274) protein[c] + (0.036) trace[c] + (0.178) lipids[c] + (0.066) carbohydrate[c] + (0.2242) cellwall_Cbes[c] => Biomass[c]
+  # equation: (0.009) dna[c] + (0.077) rna[c] + (0.274) protein[c] + (0.036) trace[c] + (0.178) lipids[c] + (0.066) carbohydrate[c] + (0.2546) cellwall_Cbes[c] => Biomass[c]
   subsystem: Biomass
 
   ### mid log phase, receibved in Seq 12, 2019
