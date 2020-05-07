@@ -3225,18 +3225,15 @@
   name: glycerol teichoic acid (n=45), unlinked, unsubstituted
   equation: (45) C00513[c] + C00043[c] + C01170[c] => (45) C00055[c] + gtca1_45_cbes[c]
     + (46) C00080[c] + C00015[c] + C00105[c]
-  subsystem: Cell Envelope Biosynthesis
 - id: TECA2S45_Cbes
   name: glycerol teichoic acid (n=45), unlinked, D-ala substituted
   equation: (45) C00133[c] + (45) C00002[c] + (45) C00513 + (45) C00001[c] + C00043[c]
     + C01170[c] => (45) C00020[c] + (45) C00055[c] + gtca2_45_cbes[c] + (91) C00080[c]
     + (45) C00013[c] + C00015[c] + C00105[c]
-  subsystem: Cell Envelope Biosynthesis
 - id: TECA3S45_Cbes
   name: glycerol teichoic acid (n=45), unlinked, glucose substituted
   equation: (45) C00513[c] + C00001[c] + C00043[c] + C01170[c] + (45) C00029[c] =>
     (45) C00055[c] + gtca3_45_cbes[c] + (91) C00080[c] + (46) C00015[c] + C00105[c]
-  subsystem: Cell Envelope Biosynthesis
 - id: TECA4S_Cbes
   name: minor teichoic acid synthesis (n=30)
   equation: (30) C00001[c] + (30) C00203[c] + (30) C00029 => (60) C00080[c] + tcam_cbes[c]

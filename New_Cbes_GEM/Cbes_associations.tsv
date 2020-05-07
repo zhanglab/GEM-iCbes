@@ -538,3 +538,6 @@ TP_NH3	Spontaneous	Spontaneous	Spontaneous	Transport
 h2ot	Spontaneous	Spontaneous	Spontaneous	Transport
 G5SADs	Spontaneous	Spontaneous	Spontaneous	Arginine and proline metabolism
 Acetoin-Syn	Spontaneous	Spontaneous	Spontaneous	Pyruvate metabolism
+TECA1S45_Cbes	Athe_0835 and Athe_2062 and Athe_0053	peg.1295 and peg.2608 and peg.433	WP_015907378.1 and  WP_015908418.1 and WP_012660725.1	Cell Envelope Biosynthesis
+TECA2S45_Cbes	Athe_0835 and Athe_2062 and Athe_0053	peg.1295 and peg.2608 and peg.433	WP_015907378.1 and  WP_015908418.1 and WP_012660725.1	Cell Envelope Biosynthesis
+TECA3S45_Cbes	Athe_0835 and Athe_2062 and Athe_0053	peg.1295 and peg.2608 and peg.433	WP_015907378.1 and  WP_015908418.1 and WP_012660725.1	Cell Envelope Biosynthesis
