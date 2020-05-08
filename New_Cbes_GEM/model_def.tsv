@@ -789,12 +789,12 @@ TECA1S45_Cbes
 TECA2S45_Cbes
 TECA3S45_Cbes
 TECA4S_Cbes
-#LIPO1S24_Cbes
-#LIPO2S24_Cbes
-#LIPO3S24_Cbes
-#LIPO4S24_Cbes
+LIPO1S24_Cbes
+LIPO2S24_Cbes
+LIPO3S24_Cbes
+LIPO4S24_Cbes
 R00856
-#R02239
+R02239
 cellwall_met
 
 # for engineered processes:
