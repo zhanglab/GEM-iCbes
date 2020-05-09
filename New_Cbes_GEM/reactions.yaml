@@ -3206,12 +3206,12 @@
   comment: release terminal alpha-L-rhamnose.
 - id: glyASE
   name: glycogen hydrolysis
-  equation: C00182_kz[e] + C00001[c] => (2) C01935_kz[e]
+  equation: C00182_kz[e] + C00001[e] => (2) C01935_kz[e]
   ec:
   - 3.2.1.41, 3.2.1.1
 - id: starchASE
   name: starch hydrolysis
-  equation: C00369_kz[e] + C00001[c] => (2) C01935_kz[e]
+  equation: C00369_kz[e] + C00001[e] => (2) C01935_kz[e]
   ec:
   - 3.2.1.41, 3.2.1.1
 - id: R11308_kz2

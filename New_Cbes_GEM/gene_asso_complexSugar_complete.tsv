@@ -30,4 +30,5 @@ XLBASE	Athe_0184 or Athe_0187 or Athe_2354	peg.581 or peg.584 or peg.2930	WP_015
 MdOSASE	Athe_0448	peg.868	WP_015907043.1	Sugar metabolism
 DeoABC	Athe_1779 and Athe_1780 and Athe_1781 and Athe_1783	peg.2290 and peg.2291 and peg.2292 and peg.2294	WP_015908174.1 and WP_015908175.1 and WP_015908176.1 and WP_015908178.1	Transport
 Ram106B	Athe_2581	peg.128	WP_015908894.1	Sugar metabolism
-glyASE	(Athe_0610 or Athe_2593) and Athe_0609	(peg.1046 or peg.141) and peg.1045	WP_015907188.1 or WP_013429333.1 or 	WP_015907187.1	Sugar metabolism
+glyASE	(Athe_0610 or Athe_2593) and Athe_0609	(peg.1046 or peg.141) and peg.1045	WP_015907188.1 or WP_013429333.1 or WP_015907187.1	Sugar metabolism
+starchASE	(Athe_0610 or Athe_2593) and Athe_0609	(peg.1046 or peg.141) and peg.1045	WP_015907188.1 or WP_013429333.1 or WP_015907187.1	Sugar metabolism
