@@ -311,7 +311,11 @@ compounds:
 #   lower: -25
 #   upper: 1000
 #   comment: alpha-1,6-glucans
-#
+# - id: POS2
+#   name: pectin oligosaccharides 2(rhamnose-glucuronate)
+#   lower: -25
+#   upper: 1000
+
 # - id: C00243
 #   name: Lactose
 #   lower: -25
