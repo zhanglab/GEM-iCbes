@@ -47,10 +47,10 @@
 - reaction: R07159
   lower: 0
   upper: 1000
-- reaction: R01068
-  lower: 0
-  upper: 1000
-  comment: this is the FBA enzyme, from F16BP => DHAP, Figure 4 in literature PMID 31097544
+# - reaction: R01068
+#   lower: 0
+#   upper: 1000
+#   comment: this is the FBA enzyme, from F16BP => DHAP, Figure 4 in literature PMID 31097544. rmeove this limit based on Dima's sugar utiliztaion figure https://drive.google.com/file/d/19CcLf97uCgih7wVfHnVSOyVlp5_37r42/view?usp=sharing
 - reaction: R01061
   lower: 0
   upper: 1000
