@@ -3126,7 +3126,7 @@
   - 3.2.1.51
 - id: PECASE
   name: Pectate lyase / Rhamnogalacturonan endolyase(secreted)
-  equation: C00470_kz[e] + C00001[e] => (2) POS[e]
+  equation: C00470_kz[e] + (3) C00001[e] => (2) POS[e] + (2) POS2[c]
   ec:
   - 4.2.2.2
   - 4.2.2.23

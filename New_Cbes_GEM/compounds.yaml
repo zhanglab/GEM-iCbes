@@ -2962,8 +2962,8 @@
 - id: C00470_kz
   name: Pectate
   # formula: C12H18O13(C6H8O6)6
-  formula: H2O(C6H8O6)8
-  charge: 0
+  formula: H2O(C6H8O6)8(C12H15O9)2
+  charge: -2
 - id: POS
   name: pectin oligosaccharides
   # formula: C12H18O13(C6H8O6)2
