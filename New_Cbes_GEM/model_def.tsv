@@ -726,7 +726,7 @@ pro_met
 lipid_met
 carb_met
 trace_met
-Biomass_Cbesii
+Biomass_Cbescii
 sink_biomass
 sink_gatp
 sink_preQ1
@@ -775,7 +775,7 @@ melibABC
 lacABC
 rhaABC
 glyASE
-sink_lacad
+#sink_lacad
 R01668
 R11323
 R01855
@@ -783,7 +783,15 @@ MazG
 R00004
 R11308_kz2
 starchASE
-R11624
+#R11624
+GalturDH
+GalnIso
+R01737
+R02036
+R05605
+R02258
+12PD_TP
+fucABC
 
 # cell wall components
 TECA1S45_Cbes

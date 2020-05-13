@@ -1,5 +1,5 @@
 name: Caldicellulosiruptor bescii model
-biomass: Biomass_Cbesii
+biomass: Biomass_Cbescii
 default_flux_limit: 1000
 default_compartment: c
 extracellular: null

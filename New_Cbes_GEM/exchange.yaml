@@ -193,6 +193,10 @@ compounds:
   name: CO
   lower: 0
   upper: 1000.0
+- id: C02917
+  name: (S)-1,2-Propanediol
+  lower: 0
+  upper: 1000
 
 # test different carbon source
 - id: C00031
@@ -292,6 +296,10 @@ compounds:
 #   name: L-Rhamnose
 #   lower: -25.0
 #   upper: 1000.0
+# - id: C01019
+#   name: L-Fucose (6-Deoxy-L-galactose)
+#   lower: -25
+#   upper: 1000
 # - id: C02013
 #   name: Cellotetraose
 #   lower: -25

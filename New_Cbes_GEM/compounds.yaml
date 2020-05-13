@@ -654,6 +654,22 @@
   name: D-Galacturonate
   charge: -1
   formula: C6H9O7
+- id: C00880
+  name: D-Galactonate
+  charge: -1
+  formula: C6H11O7
+  # mol_weight: 196.1553
+- id: C00257
+  name: D-Gluconate
+  charge: -1
+  formula: C6H11O7
+  # mol_weight: 196.1553
+- id: C00345
+  name: 6-Phospho-D-gluconate
+  charge: -3
+  formula: C6H10O10P
+  mol_weight: 276.1352
+  comment: charge is based on modelseed - https://modelseed.org/biochem/compounds/cpd00284
 - id: C00507
   name: L-Rhamnose
   charge: 0
@@ -3048,3 +3064,8 @@
   name: cell wall
   formula: R
   charge: 0
+- id: C02917
+  name: (S)-1,2-Propanediol
+  formula: C3H8O2
+  charge: 0
+  mol_weight: 76.0944

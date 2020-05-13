@@ -38,8 +38,11 @@
   name: lactose transport via ABC system
   equation: C00243[e] + C00001[c] + C00002[c] => C00243[c] + C00008[c] + C00009[c] + C00080[c]
 - id: rhaABC
-  name: rha transport via ABC system
+  name: rhamnose transport via ABC system
   equation: C00507[e] + C00001[c] + C00002[c] => C00507[c] + C00008[c] + C00009[c] + C00080[c]
+- id: fucABC
+  name: fucose transport via ABC system
+  equation: C01019[e] + C00001[c] + C00002[c] => C01019[c] + C00008[c] + C00009[c] + C00080[c]
 
 # remova ATP loop and unblock Biomass
 - id: R00156
@@ -76,9 +79,63 @@
   subsystem: Glycerophospholipid metabolism / Cell Envelope Biosynthesis
 
 # unblcok Pectin
-- id: R11624
-  name: D-tagaturonate 3-epimerase
-  equation: C00558[c] <=> C00905[c]
-  ec:
-  - 5.1.2.7
+# - id: R07676
+#   name: L-galactonate:NADP+ oxidoreductase
+#   equation: C15930[c] + C00006[c] <=> C00333[c] + C00005[c] + C00080[c]
+#   ec:
+#   - 1.1.1.365
+#   subsystem: Sugar metabolism
+#   comment: potential gene association - Athe_2388, dehydrogenase or reductase?
+- id: GalturDH
+  name: D-galacturonate dehydrogenase
+  equation: C00333[c] + C00005[c] + C00080[c] <=> C00880[c] + C00006[c]
+  ec: undetermined
   subsystem: Sugar metabolism
+  comment: potential gene association - Athe_2388, dehydrogenase
+- id: GalnIso
+  name: D-Galactonate isomerase
+  equation: C00880[c] <=> C00257[c]
+  ec: undetermined
+  subsystem: Sugar metabolism
+  comment: potential gene association - Athe_2389, isomerase
+- id: R01737
+  name: ATP:D-Gluconate 6-phosphotransferase
+  equation: C00002[c] + C00257[c] <=> C00008[c] + C00345[c] + C00080[c]
+  ec:
+  - 2.7.1.12
+  subsystem: Sugar metabolism
+  comment: potential gene association - Athe_2391, kinase
+- id: R02036
+  name: 6-phosphogluconate dehydratase
+  equation: C00345[c] => C04442[c] + C00001[c]
+  ec:
+  - 4.2.1.12
+  subsystem: Sugar metabolism
+  # comment: no candidate gene association
+- id: R05605
+  name: 2-dehydro-3-deoxy-phosphogluconate aldolase
+  equation: C04442[c] <=> C00118[c] + C00022[c]
+  ec:
+  - 4.1.2.14
+  - 4.1.2.55
+  subsystem: Sugar metabolism
+  # comment: potential gene association - Athe_2390, aldolase
+
+# - id: R11624
+#   name: D-tagaturonate 3-epimerase
+#   equation: C00558[c] <=> C00905[c]
+#   ec:
+#   - 5.1.2.7
+#   subsystem: Sugar metabolism
+#   comment: get this rxn from gapfill, but Dima think it is less likely to be ccorrect, so i remove this rxn.
+
+# unblcok Rhamnose utilization
+- id: R02258
+  name: Lactaldehyde reductase
+  equation: C02917[c] + C00003[c] <=> C00424[c] + C00004[c] + C00080[c]
+  ec:
+  - 1.1.1.77
+  subsystem: Sugar metabolism
+- id: 12PD_TP
+  name: transport of (S)-1,2-Propanediol
+  equation: C02917[e] <=> C02917[c]

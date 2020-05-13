@@ -50,7 +50,7 @@
   equation: (0.454148) peptido_cbes[c] + (0.016146) gtca1_45_cbes[c] + (0.010482) gtca2_45_cbes[c] + (0.008118) gtca3_45_cbes[c] + (0.013872) tcam_cbes[c] + (0.000224901315789474) lipo1_24_cbes[c] + (0.000201414473684211) lipo2_24_cbes[c] + (0.000597434210526316) lipo3_24_cbes[c] + (0.000482763157894737) lipo4_24_cbes[c] +
     (1.008543802) C00002[c] + (1.008543802) C00001[c] => cellwall_Cbes[c] + (1.008543802) C00008[c] + (1.008543802) C00009[c] + (1.008543802) C00080[c]
 
-- id: Biomass_Cbesii
+- id: Biomass_Cbescii
   name: biomass 1gDW
   ### (data comes from Mike's group, July 22, 2019)
   # equation: (0.016) dna[c] + (0.007) rna[c] + (0.516) protein[c] + (0.336) lipid + (0.125) carbohydrates => Biomass[c]
