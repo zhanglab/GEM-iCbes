@@ -13,7 +13,7 @@ R01542	Athe_2383	peg.2965	WP_015908705.1	Pentose and glucuronate interconversion
 R07133	Athe_0698	peg.1152	WP_015907255.1	-
 R01183	Athe_0344	peg.755	WP_015906945.1	Sugar metabolism
 R03458	Athe_0564	peg.996	WP_015907144.1	Riboflavin metabolism
-R02454	Athe_0855	peg.1315	WP_015907397.1	Pentose and glucuronate interconversions
+R02454	Athe_0855 or Athe_2334 or Athe_2388	peg.1315 or peg.2909 or peg.2970	WP_015907397.1 or WP_015908658.1 or WP_015908710.1	Pentose and glucuronate interconversions
 R01513	Athe_2125 or Athe_1994	peg.2680 or peg.2522	WP_015908470.1 or WP_015908365.1	Glycine, serine and threonine metabolism
 R03443	Athe_1079	peg.1560	WP_015907589.1	Arginine biosynthesis
 R07175	peg.2268	peg.2268	WP_041727164.1	-
@@ -105,7 +105,7 @@ R04035	Athe_1472	peg.1965	WP_015907931.1	Histidine metabolism
 R01068	Athe_0621	peg.1061	WP_013289899.1	Glycolysis / Gluconeogenesis
 R01829	Athe_0621	peg.1061	WP_013289899.1	Carbon fixation in photosynthetic organisms
 R02568	Athe_0621	peg.1061	WP_013289899.1	Fructose and mannose metabolism
-R05605	Athe_2386	peg.2968	WP_015908708.1	Pentose phosphate pathway
+R05605	Athe_2386 or Athe_2390	peg.2968 or peg.2972	WP_015908708.1 or  WP_015908713.1	Pentose phosphate pathway
 R02262	Athe_0695	peg.1149	WP_015907252.1	Fructose and mannose metabolism
 R02263	Athe_0696	peg.1150	WP_015907253.1	Fructose and mannose metabolism
 R01785	Athe_0696	peg.1150	WP_015907253.1	Pentose and glucuronate interconversions

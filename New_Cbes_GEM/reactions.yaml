@@ -541,7 +541,6 @@
   equation: C04442[c] <=> C00118[c] + C00022[c]
   ec:
   - 4.1.2.14
-  - 4.1.2.55
 - id: R02262
   name: L-Fuculose-1-phosphate lactaldehyde-lyase
   equation: C01099[c] <=> C00111[c] + C00424[c]
@@ -3219,6 +3218,28 @@
   equation: C02013[e] + (3) C00001[e] => (4) C00031[e]
   ec:
   - 3.2.1.4
+- id: R01737
+  name: ATP:D-Gluconate 6-phosphotransferase
+  equation: C00002[c] + C00257[c] <=> C00008[c] + C00345[c] + C00080[c]
+  ec:
+  - 2.7.1.12
+- id: R11624
+  name: D-tagaturonate 3-epimerase
+  equation: C00558[c] <=> C00905[c]
+  ec:
+  - 5.1.2.7
+- id: R02036
+  name: 6-phosphogluconate dehydratase
+  equation: C00345[c] => C04442[c] + C00001[c]
+  ec:
+  - 4.2.1.12
+  comment: mono-directional based on enzyme function and iJO1366 model
+- id: HemG
+  name: D-mannonate D-gluconate epimerase
+  equation: C00514[c] <=> C00257[c]
+  comment: function is suggested by Dima
+
+
 
 # cell wall components
 - id: TECA1S45_Cbes

@@ -58,7 +58,7 @@ valABC	Athe_1384 and Athe_1385 and Athe_1386 and Athe_1387 and (Athe_1388 or Ath
 ARSt1	Athe_1933	peg.2452	WP_015908311.1	-
 ANTIMt1	Athe_1933	peg.2452	WP_015908311.1	-
 ARSNAt1	Athe_1933	peg.2452	WP_015908311.1	-
-posABC	Athe_1803 and Athe_2030 and Athe_2031 and (Athe_2029 or Athe_2032)	peg.2315 and peg.2576 and peg.2577 and (peg.2575 or peg.2578)	WP_015908194.1 and WP_015908391.1 and WP_015908392.1 and (WP_015908390.1 or WP_015908393.1)	Sugar metabolism
+posABC	Athe_1803 and ((Athe_2030 and Athe_2031 and (Athe_2029 or Athe_2032)) or (Athe_2330 and Athe_2331 and Athe_2332))	peg.2315 and ((peg.2576 and peg.2577 and (peg.2575 or peg.2578)) or (peg.2905 and peg.2906 and peg.2907))	WP_015908194.1 and ((WP_015908391.1 and WP_015908392.1 and (WP_015908390.1 or WP_015908393.1)) or (WP_015908655.1 and WP_015908656.1 and WP_013429291.1))	Sugar metabolism
 malateT	Athe_2212	peg.2774	WP_015908547.1	-
 inosABC	Athe_2331 and Athe_2332	peg.2906 and peg.2907	WP_015908656.1 and WP_013429291.1	-
 Lac-symp	Athe_2355	peg.2931	WP_015908679.1	-

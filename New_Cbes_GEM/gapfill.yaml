@@ -86,39 +86,24 @@
 #   - 1.1.1.365
 #   subsystem: Sugar metabolism
 #   comment: potential gene association - Athe_2388, dehydrogenase or reductase?
-- id: GalturDH
-  name: D-galacturonate dehydrogenase
-  equation: C00333[c] + C00005[c] + C00080[c] <=> C00880[c] + C00006[c]
-  ec: undetermined
-  subsystem: Sugar metabolism
-  comment: potential gene association - Athe_2388, dehydrogenase
-- id: GalnIso
-  name: D-Galactonate isomerase
-  equation: C00880[c] <=> C00257[c]
-  ec: undetermined
-  subsystem: Sugar metabolism
-  comment: potential gene association - Athe_2389, isomerase
-- id: R01737
-  name: ATP:D-Gluconate 6-phosphotransferase
-  equation: C00002[c] + C00257[c] <=> C00008[c] + C00345[c] + C00080[c]
-  ec:
-  - 2.7.1.12
-  subsystem: Sugar metabolism
-  comment: potential gene association - Athe_2391, kinase
-- id: 6PGCAld
-  name: 6-phosphogluconate aldolase
-  equation: C00345[c] <=> C00118[c] + C00186[c]
-  ec: undertermined
-  subsystem: Sugar metabolism
-  # comment: potential gene association - Athe_2390, aldolase; using R05605 to formulate this equation.
-
-# - id: R11624
-#   name: D-tagaturonate 3-epimerase
-#   equation: C00558[c] <=> C00905[c]
-#   ec:
-#   - 5.1.2.7
+# - id: GalturDH
+#   name: D-galacturonate dehydrogenase
+#   equation: C00333[c] + C00005[c] + C00080[c] <=> C00880[c] + C00006[c]
+#   ec: undetermined
 #   subsystem: Sugar metabolism
-#   comment: get this rxn from gapfill, but Dima think it is less likely to be ccorrect, so i remove this rxn.
+#   comment: potential gene association - Athe_2388, dehydrogenase
+# - id: GalnIso
+#   name: D-Galactonate isomerase
+#   equation: C00880[c] <=> C00257[c]
+#   ec: undetermined
+#   subsystem: Sugar metabolism
+#   comment: potential gene association - Athe_2389, isomerase
+# - id: 6PGCAld
+#   name: 6-phosphogluconate aldolase
+#   equation: C00345[c] <=> C00118[c] + C00186[c]
+#   ec: undertermined
+#   subsystem: Sugar metabolism
+#   comment: potential gene association - Athe_2390, aldolase; using R05605 to formulate this equation.
 
 # unblcok Rhamnose utilization
 - id: R02258

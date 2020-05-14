@@ -13,7 +13,7 @@ SorE2	Athe_0699	peg.1153	WP_015907256.1	Sugar metabolism
 FUCASE	Athe_2072	peg.2618	WP_015908426.1	Sugar metabolism
 FUCASE2	Athe_2072	peg.2618	WP_015908426.1	Sugar metabolism
 PECASE	Athe_1853 or Athe_1854 or Athe_1855	peg.2366 or peg.2367 or peg.2368	WP_015908236.1 or WP_041727168.1 or WP_015908238.1	Sugar metabolism
-posABC-2	Athe_1803 and Athe_2030 and Athe_2031 and (Athe_2029 or Athe_2032)	peg.2315 and peg.2576 and peg.2577 and (peg.2575 or peg.2578)	WP_015908194.1 and WP_015908391.1 and WP_015908392.1 and (WP_015908390.1 or WP_015908393.1)	Sugar metabolism
+posABC-2	Athe_1803 and ((Athe_2030 and Athe_2031 and (Athe_2029 or Athe_2032)) or (Athe_2330 and Athe_2331 and Athe_2332))	peg.2315 and ((peg.2576 and peg.2577 and (peg.2575 or peg.2578)) or (peg.2905 and peg.2906 and peg.2907))	WP_015908194.1 and ((WP_015908391.1 and WP_015908392.1 and (WP_015908390.1 or WP_015908393.1)) or (WP_015908655.1 and WP_015908656.1 and WP_013429291.1))	Sugar metabolism
 RhiN	Athe_2381	peg.2963	WP_015908703.1	Sugar metabolism
 R02360_kz	Athe_2380	peg.2962	WP_015908702.1	Sugar metabolism
 14GLACANASE	Athe_0610 or Athe_2593	peg.1046 or peg.141	WP_015907188.1 or WP_013429333.1	Sugar metabolism
@@ -32,3 +32,7 @@ DeoABC	Athe_1779 and Athe_1780 and Athe_1781 and Athe_1783	peg.2290 and peg.2291
 Ram106B	Athe_2581	peg.128	WP_015908894.1	Sugar metabolism
 glyASE	(Athe_0610 or Athe_2593) and Athe_0609	(peg.1046 or peg.141) and peg.1045	WP_015907188.1 or WP_013429333.1 or WP_015907187.1	Sugar metabolism
 starchASE	(Athe_0610 or Athe_2593) and Athe_0609	(peg.1046 or peg.141) and peg.1045	WP_015907188.1 or WP_013429333.1 or WP_015907187.1	Sugar metabolism
+R01737	Athe_2391	peg.2973	WP_015908713.1	Sugar metabolism
+R11624	Athe_2389	peg.2971	WP_015908711.1	Sugar metabolism
+R02036	Athe_2333	peg.2908	WP_015908657.1	Pentose phosphate pathway
+HemG	Athe_2335	peg.2910	WP_015908659.1	Sugar metabolism
