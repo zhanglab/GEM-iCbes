@@ -105,21 +105,12 @@
   - 2.7.1.12
   subsystem: Sugar metabolism
   comment: potential gene association - Athe_2391, kinase
-- id: R02036
-  name: 6-phosphogluconate dehydratase
-  equation: C00345[c] => C04442[c] + C00001[c]
-  ec:
-  - 4.2.1.12
+- id: 6PGCAld
+  name: 6-phosphogluconate aldolase
+  equation: C00345[c] <=> C00118[c] + C00186[c]
+  ec: undertermined
   subsystem: Sugar metabolism
-  # comment: no candidate gene association
-- id: R05605
-  name: 2-dehydro-3-deoxy-phosphogluconate aldolase
-  equation: C04442[c] <=> C00118[c] + C00022[c]
-  ec:
-  - 4.1.2.14
-  - 4.1.2.55
-  subsystem: Sugar metabolism
-  # comment: potential gene association - Athe_2390, aldolase
+  # comment: potential gene association - Athe_2390, aldolase; using R05605 to formulate this equation.
 
 # - id: R11624
 #   name: D-tagaturonate 3-epimerase
