@@ -3220,7 +3220,7 @@
   - 3.2.1.4
 - id: R01737
   name: ATP:D-Gluconate 6-phosphotransferase
-  equation: C00002[c] + C00257[c] <=> C00008[c] + C00345[c] + C00080[c]
+  equation: C00002[c] + C00257[c] => C00008[c] + C00345[c] + C00080[c]
   ec:
   - 2.7.1.12
 - id: R11624
