@@ -39,7 +39,7 @@
   subsystem: Biomass
 - id: carb_met
   name: carbohydarte
-  equation: (0.770939) C00369_kz[c] => carbohydrate[c]
+  equation: (0.760375) C00369_kz[c] => carbohydrate[c]
 - id: trace_met
   name: trace element
   equation: (0.0111) C00234[c] + (0.2496) C00016[c] + (0.4293) C00061[c] + (0.273) C00010[c] + (0.0191) C00003[c] + (0.0201) C00004[c] + (0.025) C00006[c] + (0.0056) C00005[c] + (3.9905) C00238[c] + (1.4851) C00305[c] + (0.2983) C14818[c] + (0.139) C00076[c] + (3.6232) C01330[c] + (0.0849) C00038[c] + (0.3998) C00009[c] + (0.0062) C00068[c] => trace[c]
