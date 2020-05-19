@@ -803,6 +803,7 @@ LIPO4S24_Cbes
 R00856
 R02239
 cellwall_met
+lta_met
 
 # for engineered processes:
 ## deletion: (R01870 and R08231 is PyrE; R00342 and R00703 is LDH)

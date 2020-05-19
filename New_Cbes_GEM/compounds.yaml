@@ -22,6 +22,10 @@
   name: Trace elements
   charge: 0
   formula: R
+- id: lta_Cbes
+  name: Lipoteichoic acid
+  charge: 0
+  formula: R
 - id: C00282
   name: Hydrogen
   charge: 0
