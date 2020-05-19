@@ -464,7 +464,7 @@ R01248
 R08648
 #R03050
 R04672
-R04673
+#R04673
 R02340
 R00424
 R08368
@@ -848,4 +848,4 @@ R00315
 #dLDH_product
 
 # test
-atp_maintain
+# atp_maintain

@@ -1,6 +1,5 @@
 - reaction: sink_biomass
-  #lower: 0
-  # lower: 0.25
+  lower: 0
   upper: 1000
   # lower: 0.41
   # upper: 0.41
