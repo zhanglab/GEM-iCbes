@@ -3051,6 +3051,11 @@
     + (38) C00093[c] + (74) C00080[c] => C00416[c] + (76) C00229[c]
   ec:
   - 2.3.1.274, 2.3.1.275, 2.3.1.51
+- id: R02110_kz
+  name: glycogen branching enzyme
+  equation: C00718_kz[c] => C00182_kz[c]
+  ec:
+  - 2.4.1.18
 
 # Sugar metabolism
 - id: R11307_kz
