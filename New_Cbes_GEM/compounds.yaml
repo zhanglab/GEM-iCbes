@@ -2937,7 +2937,8 @@
   charge: -1
 - id: C00760_kz
   name: Cellulose(n=8)
-  formula: H2O(C6H10O5)8
+  # formula: H2O(C6H10O5)8
+  formula: H2O(C6H10O5)200
   charge: 0
 - id: C03044
   name: (R,R)-Butane-2,3-diol
