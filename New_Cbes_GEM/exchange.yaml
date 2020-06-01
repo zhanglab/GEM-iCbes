@@ -28,12 +28,10 @@ compounds:
 - id: C00080
   name: proton
   lower: -6.30957e-05
-  # lower: -1000.0
   upper: 1000.0
 - id: C00106
   name: uracil
   # lower: -0.02
-  lower: -1000.0
   upper: 1000.0
 - id: C00120
   name: Biotin
@@ -101,13 +99,11 @@ compounds:
   upper: 1000.0
 - id: C01330
   name: Sodium ion
-  # lower: -41.904656
-  lower: -1000.0
+  lower: -41.904656
   upper: 1000.0
 - id: C01342
   name: ammonium
   lower: -24.11
-  # lower: -6
   upper: 1000.0
 - id: C05776
   name: Cobalamin (B12)
