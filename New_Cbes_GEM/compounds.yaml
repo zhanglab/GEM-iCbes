@@ -2528,8 +2528,10 @@
   formula: C7H7N4O5PR2
 - id: C05776
   name: Vitamin B12
-  charge: 3
-  formula: C62H91CoN13O14PR
+  charge: 0
+  # formula: C62H91CoN13O14PR
+  formula: C63H88CoN14O14P
+  change: change formula, using PubChem formula instead of ModelSeed, in order to remove 'R' from formula so that I can calculate VB12 concentration in DSMZ 516 medium.
 - id: C05894
   name: Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-isoglutaminyl-L-lysyl-D-alanyl-D-alanine
   charge: -2
@@ -3075,3 +3077,7 @@
   formula: C3H8O2
   charge: 0
   mol_weight: 76.0944
+- id: C00568
+  name: 4-Aminobenzoate
+  formula: C7H7NO2
+  charge: 0
