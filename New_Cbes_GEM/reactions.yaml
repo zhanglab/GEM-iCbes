@@ -2550,7 +2550,7 @@
   kegg: R00481
   source: Literature
   tag: Literature
-  pmid: 29555696, 12215812, 29143132
+  PMID: 29555696, 12215812, 29143132
 - id: R01057
   name: D-Ribose 1,5-phosphomutase
   equation: C00620[c] <=> C00117[c]

@@ -398,19 +398,13 @@
   equation: C00459[c] + C00001[c] => C00364[c] + C00013[c] + C00080[c]
   ec:
   - 3.6.1.8
-  pathways:
-  - Pyrimidine metabolism
   PMID: 12657645
 - id: R01855
   name: 2'-Deoxyguanosine 5'-triphosphate diphosphohydrolase
-  names:
-  - 2'-Deoxyguanosine 5'-triphosphate diphosphohydrolase
   equation: C00286[c] + C00001[c] => C00362[c] + C00013[c] + C00080[c]
   ec:
   - 3.6.1.8
   PMID: 12657645
-  pathways:
-  - Purine metabolism
 - id: MazG
   name: dATP diphosphohydrolase
   equation: C00131[c] + C00001[c] => C00360[c] + C00013[c] + C00080[c]

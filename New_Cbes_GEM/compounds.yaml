@@ -2938,7 +2938,7 @@
   formula: C3H5O3
   charge: -1
 - id: C00760_kz
-  name: Cellulose(n=8)
+  name: Cellulose(n=218)
   # formula: H2O(C6H10O5)8
   # formula: H2O(C6H10O5)200
   formula: H2O(C6H10O5)218  # if cellulose has 218 monomers (PH-101 avicel)
@@ -3077,7 +3077,3 @@
   formula: C3H8O2
   charge: 0
   mol_weight: 76.0944
-- id: C00568
-  name: 4-Aminobenzoate
-  formula: C7H7NO2
-  charge: 0
