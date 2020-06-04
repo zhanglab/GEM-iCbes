@@ -1,0 +1,158 @@
+compartment: e
+compounds:
+- id: C00001
+  name: Water
+  lower: -1000
+  upper: 1000
+- id: C01342
+  name: ammonium
+  lower: -6.169377454
+  upper: 1000
+- id: C00698
+  name: Chloride ion
+  lower: -22.11097754
+  upper: 1000
+- id: C00238
+  name: Potassium ion
+  lower: -5.426559356
+  upper: 1000
+- id: C00009
+  name: Phosphate
+  lower: -1
+  upper: 1000
+- id: C00305
+  name: Magnesium cation
+  lower: -1.623216921
+  upper: 1000
+- id: C00076
+  name: Calcium ion
+  lower: -0.952508988
+  upper: 1000
+- id: C00120
+  name: Biotin
+  lower: -0.000082203
+  upper: 1000
+- id: C00504
+  name: Folic acid
+  lower: -0.000045519
+  upper: 1000
+- id: C00314
+  name: Pyridoxine (VB6)
+  lower: -0.000486287
+  upper: 1000
+- id: C00378
+  name: Thiamine (VB1)
+  lower: -0.000165667
+  upper: 1000
+- id: C00255
+  name: Riboflavin (VB2)
+  lower: -0.000133205
+  upper: 1000
+- id: C00253
+  name: Nicotinic acid (Niacin, VB3)
+  lower: -0.0004095
+  upper: 1000
+- id: C00864
+  name: pantothenate
+  lower: -0.000192819
+  upper: 1000
+- id: C05776
+  name: Cobalamin (VB12)
+  lower: -0.000000738
+  upper: 1000
+- id: C00568
+  name: p-Aminobenzoic acid
+  lower: -0.000364591
+  upper: 1000
+- id: C00725
+  name: Lipoic acid
+  lower: -0.0002886
+  upper: 1000
+- id: C14818
+  name: Ferrous ion
+  # lower: -0.007544892
+  upper: 1000
+- id: C00038
+  name: Zinc ion
+  # lower: -0.000513573
+  upper: 1000
+- id: C00034
+  name: Manganese ion
+  lower: -0.000505306
+  upper: 1000
+- id: C12486
+  name: boric acid
+  lower: -0.00009704
+  upper: 1000
+- id: C00175
+  name: cobalt ion
+  lower: -0.000798554
+  upper: 1000
+- id: C00070
+  name: copper ion
+  lower: -0.000011732
+  upper: 1000
+- id: C19609
+  name: nickel ion
+  lower: -0.000100972
+  upper: 1000
+- id: C06232
+  name: Molybdate
+  lower: -0.000148791
+  upper: 1000
+- id: C01330
+  name: Sodium ion
+  lower: -11.90396242
+  upper: 1000
+- id: C20679
+  name: Tungstate
+  lower: -0.00016
+  upper: 1000
+- id: C00097
+  name: L-Cysteine
+  lower: -6.344372542
+  upper: 1000
+- id: C00288
+  name: Hydrogen carbonate
+  lower: -11.90334484
+  upper: 1000
+- id: C00080
+  name: proton*
+  lower: -0.000063096
+  upper: 1000
+- id: C00106
+  name: uracil
+  # lower: -0.02
+  upper: 1000
+- id: C00186
+  name: L-Lactate
+  lower: 0
+  upper: 1000
+- id: C00033
+  name: Acetate
+  lower: 0
+  upper: 1000
+- id: C00022
+  name: Pyruvate
+  lower: 0
+  upper: 1000
+- id: C00469
+  name: Ethanol
+  lower: 0
+  upper: 1000
+- id: C00282
+  name: H2
+  lower: 0
+  upper: 1000
+- id: C00011
+  name: CO2
+  lower: 0
+  upper: 1000
+- id: C00466
+  name: Acetoin
+  lower: 0
+  upper: 1000
+- id: C00237
+  name: CO
+  lower: 0
+  upper: 1000

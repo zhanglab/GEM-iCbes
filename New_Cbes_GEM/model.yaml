@@ -38,6 +38,7 @@ reactions:
 exchange:
 - include: exchange.yaml
 # - include: exchange_DSMZ516.yaml
+# - include: exchange_Ethanol.yaml
 limits:
 - include: limits.yaml
 model:
