@@ -2943,6 +2943,7 @@
   # formula: H2O(C6H10O5)200
   formula: H2O(C6H10O5)218  # if cellulose has 218 monomers (PH-101 avicel)
   charge: 0
+  mol_weight: 35364.58
 - id: C03044
   name: (R,R)-Butane-2,3-diol
   formula: C4H10O2

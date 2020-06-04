@@ -959,10 +959,6 @@
   ec:
   - 2.6.1.5
   - 2.6.1.57
-- id: R01652
-  equation: C00233[c] + C00011[c] <=> C04236[c] + C00080[c]
-  ec:
-  - 1.1.1.85
 - id: R00421
   name: UDP-N-acetyl-D-glucosamine:NAD+ 6-oxidoreductase
   equation: C00043[c] + (2) C00003[c] + C00001[c] <=> C04573[c] + (2) C00004[c] +
@@ -1013,9 +1009,11 @@
   - 1.1.1.337
 - id: R00994
   name: (2R,3S)-3-methylmalate:NAD+ oxidoreductase
-  equation: C00109[c] + C00011[c] + C00004[c] <=> C06032[c] + C00003[c]
+  equation: C06032[c] + C00003[c] => C00109[c] + C00011[c] + C00004[c]
+  # equation: C00109[c] + C00011[c] + C00004[c] <=> C06032[c] + C00003[c]
   ec:
   - 1.1.1.85
+  PMID: 9532798,32059844
 - id: R03051
   name: 2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)
   equation: C00900[c] + C00005[c] + C00080[c] <=> C04039[c] + C00006[c]
@@ -1045,22 +1043,22 @@
   - 5.4.99.3
 - id: R11634
   name: ATP:formate 2'-oxidoreductase
-  equation: C00002[c] + C00058[c] + C00080[c] <=> C00131[c] + C00011[c] + C00001[c]
+  equation: C00002[c] + C00058[c] + C00080[c] => C00131[c] + C00011[c] + C00001[c]
   ec:
   - 1.1.98.6
 - id: R11633
   name: GTP:formate 2'-oxidoreductase
-  equation: C00044[c] + C00058[c] + C00080[c] <=> C00286[c] + C00011[c] + C00001[c]
+  equation: C00044[c] + C00058[c] + C00080[c] => C00286[c] + C00011[c] + C00001[c]
   ec:
   - 1.1.98.6
 - id: R11636
   name: CTP:formate 2'-oxidoreductase
-  equation: C00063[c] + C00058[c] + C00080[c] <=> C00458[c] + C00011[c] + C00001[c]
+  equation: C00063[c] + C00058[c] + C00080[c] => C00458[c] + C00011[c] + C00001[c]
   ec:
   - 1.1.98.6
 - id: R11635
   name: UTP:formate 2'-oxidoreductase
-  equation: C00075[c] + C00058[c] + C00080[c] <=> C00460[c] + C00011[c] + C00001[c]
+  equation: C00075[c] + C00058[c] + C00080[c] => C00460[c] + C00011[c] + C00001[c]
   ec:
   - 1.1.98.6
 - id: R02291
@@ -2694,9 +2692,11 @@
   - 1.1.1.261
 - id: R04426
   name: (2R,3S)-3-isopropylmalate:NAD+ oxidoreductase
-  equation: C04411[c] + C00003[c] <=> C04236[c] + C00004[c] + C00080[c]
+  equation: C04411[c] + C00003[c] => C04236[c] + C00004[c] + C00080[c]
+  # equation: C04411[c] + C00003[c] <=> C04236[c] + C00004[c] + C00080[c]
   ec:
   - 1.1.1.85
+  PMID: 9532798,32059844
 - id: R00428
   name: GTP 8,9-hydrolase
   equation: C00044[c] + C00001[c] => C05922[c]
@@ -2751,9 +2751,10 @@
   - 6.4.1.2
 - id: R10052
   name: (2R,3S)-3-isopropylmalate:NAD+ oxidoreductase
-  equation: C04411[c] + C00003[c] <=> C00233[c] + C00011[c] + C00004[c]
+  equation: C04411[c] + C00003[c] => C00233[c] + C00011[c] + C00004[c]
   ec:
   - 1.1.1.85
+  PMID: 9532798,32059844
 - id: KAS2
   name: b ketoacyl synthetase n C14:0 ACP
   equation: (12) C00080[c] + (12) C00005[c] + C00024[c] + (6) C01209[c] + (6) C00080[c] => C05761[c]

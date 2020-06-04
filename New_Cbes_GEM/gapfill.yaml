@@ -24,8 +24,11 @@
   equation: C05198[c] =>
 - id: sink_hybenalcohol
   equation: C17467[c] =>
-- id: sink_lacad
-  equation: C00424[c] =>
+# - id: sink_lacad
+#   equation: C00424[c] =>
+- id: sink_fad
+  equation: C00016[c] =>
+  comment: to enable formate production, then  unblock biomass
 
 # add transoirter for sugars that reported can be used by Cbes
 - id: manABC

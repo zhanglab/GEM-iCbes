@@ -41,17 +41,21 @@
 - id: G5SADs
   name: L-glutamate 5-semialdehyde dehydratase (spontaneous)
   equation: C01165[c] <=> C03912[c] + C00001[c] + C00080[c]
-  PMID: 6255065
+  PMID: 6255065,29352105
   comment: from Cce model
   # subsystem: Arginine and proline metabolism
-
 - id: Acetoin-Syn
   name: abiotic decarboxylation of acetolactate
   equation: C06010[c] + C00080[c] => C00466[c] + C00011[c]
   comment: Acetoin is generated from pyruvate by the action of acetolactate synthase and the abiotic decarboxylation of acetolactate to acetoin at high temperatures (above 60C).
   PMID: 30009131
-
 - id: R00217
-  name: oxaloacetate decarboxylation (sponteneous)
+  name: oxaloacetate decarboxylation (spontaneous)
   equation: C00036[c] + C00080[c] => C00022[c] + C00011[c]
   comment: oxaloacetate will decarboxylyze sponteneously under high tempreture.
+- id: R01652
+  equation: C04236[c] + C00080[c] => C00233[c] + C00011[c]
+  # equation: C00233[c] + C00011[c] <=> C04236[c] + C00080[c]
+  ec:
+  - 1.1.1.85
+  PMID: 9532798,32059844
