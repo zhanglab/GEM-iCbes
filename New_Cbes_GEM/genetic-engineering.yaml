@@ -97,3 +97,12 @@
 
 - id: dLDH_product
   equation: C00033[c] + (0.07) C00022[c] =>
+
+
+# for Adh-AOR Cbes etahnol strain
+- id: R00746
+  name: Ethanol:NADP+ oxidoreductase
+  equation: C00084[c] + C00005[c] + C00080[c] <=> C00469[c] + C00006[c]
+- id: AOR
+  name: aldehyde ferredoxin oxidoreductase
+  equation: C00033[c] + (2) C00080[c] + (2) C00138[c] <=> C00084[c] + C00001[c] + (2) C00139[c]
