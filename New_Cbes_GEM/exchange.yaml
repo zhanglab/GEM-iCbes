@@ -195,10 +195,10 @@ compounds:
   upper: 1000
 
 # test different carbon source
-- id: C00031
-  name: D-glucose
-  lower: -25.0
-  upper: 1000.0
+# - id: C00031
+#   name: D-glucose
+#   lower: -25.0
+#   upper: 1000.0
 #   lower: 4.66
 #   upper: 4.66
 #   lower: -10.0    # MACB1034 (dLDH) uptake
