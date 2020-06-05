@@ -1,24 +1,30 @@
 - id: R08198
+  name: phosphoglycerate dehydrogenase
   equation: C02630[c] + C00003[c] <=> C00026[c] + C00004[c] + C00080[c]
   ec:
   - 1.1.1.95
 - id: R11312
+  name: thiamine phosphate synthase
   equation: C00080[c] + C04752[c] + C20246[c] + C00080[c] <=> C00013[c] + C01081[c] + C00011[c]
   ec:
   - 2.5.1.3
 - id: R03634
+  name: alpha-galactosidase
   equation: C01613[c] + C00001[c] <=> C00492[c] + C00124[c]
   ec:
   - 3.2.1.22
 - id: R05549
+  name: alpha-galactosidase
   equation: C05404[c] + C00001[c] <=> C00124[c] + C05402[c]
   ec:
   - 3.2.1.22
 - id: R07413
+  name: exo-polygalacturonase
   equation: C02273[c] + C00001[c] <=> (2) C00333[c]
   ec:
   - 3.2.1.67
 - id: R10949
+  name: carbamoyl-phosphate synthase (glutamine-hydrolysing)
   equation: C00014[c] + C20969[c] <=> C01563[c] + C00009[c] + C00080[c]
   ec:
   - 6.3.5.5
@@ -30,6 +36,7 @@
 #  - 1.12.99.6
 #  comment: this equation is formulated based on literature: https://books.google.com/books?id=3xvTBwAAQBAJ&pg=PA78&lpg=PA78&dq=2,4-Diamino-6-nitrotoluene+hydrogenase&source=bl&ots=OpGje6T6Od&sig=ACfU3U178ovu24NZl9Do5ODDVXm-0eWHCg&hl=en&sa=X&ved=2ahUKEwiU4ZCdmuXmAhVqplkKHTwODCUQ6AEwAnoECAoQAQ#v=snippet&q=negative%20redox&f=false
 - id: R07641
+  name: carbamoyl-phosphate synthase (glutamine-hydrolysing)
   equation: (2) C00002[c] + C00288[c] + C00014[c] <=> (2) C00008[c] + C00009[c] +
     C00169[c] + C00080[c]
   ec:
@@ -943,22 +950,26 @@
   - 1.2.7.3
   - 1.2.7.11
 - id: R04326
+  name: phosphoribosylglycinamide formyltransferase
   equation: C03838[c] + C00445[c] + C00001[c] <=> C04376[c] + C00101[c] + (2) C00080[c]
   ec:
   - 2.1.2.2
 - id: R07399
+  name: (R)-citramalate synthase
   equation: C00024[c] + C00022[c] + C00001[c] <=> C02612[c] + C00010[c] + C00080[c]
   ec:
   - 2.3.1.182
 - id: R02508
+  name: cystathionine gamma-synthase
   equation: C00542[c] + C00042[c] + C00080[c] <=> C01118[c] + C00097[c]
   ec:
   - 2.5.1.48
 - id: R07396
+  name: aromatic-amino-acid transaminase
   equation: C01180[c] + C00025[c] <=> C00073[c] + C00026[c]
   ec:
-  - 2.6.1.5
   - 2.6.1.57
+  # tag: ManualAnnotation
 - id: R00421
   name: UDP-N-acetyl-D-glucosamine:NAD+ 6-oxidoreductase
   equation: C00043[c] + (2) C00003[c] + C00001[c] <=> C04573[c] + (2) C00004[c] +

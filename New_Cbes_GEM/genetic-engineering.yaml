@@ -38,6 +38,7 @@
   - 1.1.1.59
   comment: in KEGG, R01608 uses NADH as cofactor, I changed it to NADPH based on Mike's slides.
 - id: 3HPt
+  name: 3-Hydroxypropanoate export
   equation: C01013[c] => C01013[e]
 
 # add reactions for acetone production, strategy is based on Mike's group
@@ -57,6 +58,7 @@
   ec:
   - 4.1.1.4
 - id: AcetoneTP
+  name: Acetone export
   equation: C00207[c] => C00207[e]
 
 # add reactions for 2,3-butanediol production, strategy is based on Mike's group, Tania is working on this strain.
@@ -89,14 +91,19 @@
   comment: C00466 is Acetoin, C01769 is (S)-Acetoin, C00810 is (R)-Acetoin.
 ## transporrt reaction for 2,3-BDO
 - id: bdoTP
+  name: (R,R)-Butane-2,3-diol export
   equation: C03044[c] => C03044[e]
 
 - id: combined_product
+  name: products combination for WT strain
   equation: C00186[c] + (0.33) C00033[c] + (0.006) C00022[c] =>
+  comment: formulated based on experimental data
   # equation: (0.33) C00033[c] + (0.06) C00022[c] =>
 
 - id: dLDH_product
+  name: products combination for dLDH strain
   equation: C00033[c] + (0.07) C00022[c] =>
+  comment: formulated based on experimental data
 
 
 # for Adh-AOR Cbes etahnol strain

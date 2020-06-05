@@ -14,20 +14,33 @@
 # - id: sink_glycine
 #   equation: C00037[c] =>
 - id: sink_gatp
+  name: Glycolaldehyde triphosphate sink
   equation: C21615[c] =>
+  subsystem: Folate biosynthesis
 - id: sink_preQ1
+  name: 7-Aminomethyl-7-carbaguanine
   equation: C16675[c] =>
+  subsystem: Queuosine biosynthesis
 - id: sink_suc
+  name: Succinate sink
   equation: C00042[c] =>
+  subsystem: Citrate cycle (TCA cycle)
+  comment: no way to consume succinate in current model, so need a sink to allow it leave the system.
 # three sinks to unblock thiamine de novo biosynthesis
 - id: sink_dads
+  name: 5'-Deoxyadenosine sink
   equation: C05198[c] =>
 - id: sink_hybenalcohol
+  name: 4-Hydroxy-benzyl alcohol sink
   equation: C17467[c] =>
+  subsystem: Thiamine biosynthesis
+  comment: 4-Hydroxy-benzyl alcohol is a byproduct in thiamine biosynthesis, no way to consume it in current model, so need a sink to allow it to leave system
 # - id: sink_lacad
 #   equation: C00424[c] =>
 - id: sink_fad
+  name: 4-Hydroxy-benzyl alcohol sink
   equation: C00016[c] =>
+  subsystem: Riboflavin biosynthesis
   comment: to enable formate production, then  unblock biomass
 
 # add transoirter for sugars that reported can be used by Cbes
@@ -65,6 +78,7 @@
   - 2.7.4.6
 
 - id: atp_maintain
+  name: nongrowth associated ATP maintenance
   equation: C00002[c] + C00001[c] => C00008[c] + C00009[c] + C00080[c]
 
 - id: R00856
@@ -116,5 +130,5 @@
   - 1.1.1.77
   subsystem: Sugar metabolism
 - id: 12PD_TP
-  name: transport of (S)-1,2-Propanediol
+  name: (S)-1,2-Propanediol transport
   equation: C02917[e] <=> C02917[c]

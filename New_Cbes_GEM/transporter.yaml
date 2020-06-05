@@ -2,6 +2,7 @@
   name: Cysteine transport via proton symport
   equation: C00097[e] + C00080[e] => C00097[c] + C00080[c]
 - id: lipoateT
+  name: Lipoate transport
   equation: C00725[e] <=> C00725[c]
 - id: borateT
   name: H3BO3 transport

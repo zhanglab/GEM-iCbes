@@ -312,12 +312,15 @@
   ec:
   - 2.1.1.107
 - id: EpxqR
+  name: epoxyqueuosine reductase
   equation: C19647[c] + C00005[c] + C00080[c] => quetrna[c] + C00006[c] + C00001[c]
   ec: 1.17.99.6
 - id: R02240
+  name: diacylglycerol kinase (ATP)
   equation: C00002[c] + C00641[c] => C00008[c] + C00416[c] + C00080[c]
   ec: 2.7.1.107
 - id: R01078
+  name: biotin synthase
   equation: C01909[c] + C00097[c] + C00019[c] <=> C00120[c] + C00073[c] + C05198[c]
     + C00041[c] + C00080[c]
   ec: 2.8.1.6
@@ -326,24 +329,31 @@
   equation: C00186[c] + C00080[c] => C00186[e] + C00080[e]
   ec: TC=2.A.14
 - id: malateT
+  name: Malate uptake via proton symport
   equation: C00149[e] + C00080[e] => C00149[c] + C00080[c]
   ec: TC=2.A.16
 - id: Zn2efflux
+  name: Zn2+ uptake via proton symport
   equation: C00038[c] + C00080[e] => C00038[e] + C00080[c]
   ec: TC=2.A.4.7
 - id: Co2efflux
+  name: Co2+ uptake via proton symport
   equation: C00175[c] + C00080[e] => C00175[e] + C00080[c]
   ec: TC=2.A.4.8
 - id: Cd2efflux
+  name: Cd2+ uptake via proton symport
   equation: C01413[c] + C00080[e] => C01413[e] + C00080[c]
   ec: TC=2.A.4.9
 - id: ARSt1
+  name: Arsenite uptake
   equation: C06697[c] => C06697[e]
   tc: 2.A.59.1.2
 - id: ARSNAt1
+  name: Arsenate ion uptake
   equation: C11215[c] => C11215[e]
   ec: TC=2.A.59.1.2
 - id: ANTIMt1
+  name: Antimonite uptake
   equation: antim[c] => antim[e]
   ec: TC=2.A.59.1.2
 - id: trehABC

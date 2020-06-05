@@ -20,7 +20,7 @@
   subsystem: Biomass
   # comment: Equation of protein composition based on count of each amino acids of C.bescii CDS protein sequences.
 - id: lipid_met
-  name: Phosphatidic acid synthase (C. bescii)
+  name: Phosphatidic acid
   equation: (0.039599) C03892[c] => lipids[c]
   subsystem: Biomass
 #  equation: (0.121723) C05761[c] + (0.482939) C05764[c] + (0.187722) C04088[c] + (0.069951) C01203[c] +
@@ -38,19 +38,19 @@
 #    + (0.033988) |Fatty Acid anteiso-C17:0 ACP[c]| + (0.306283) |Fatty Acid iso-C14:0 3-OH ACP[c]| + (1.514027) |sn-Glycerol
 #    3-phosphate[c]| => lipid[c] + (3.028054) |Acyl-carrier protein[c]|
 - id: carb_met
-  name: carbohydarte
+  name: Carbohydarte
   equation: (0.760375) C00182_kz[c] => carbohydrate[c]
   subsystem: Biomass
 - id: trace_met
-  name: trace element
+  name: Trace element
   equation: (0.011106) C00234[c] + (0.249633) C00016[c] + (0.429313) C00061[c] + (0.27295) C00010[c] + (0.019097) C00003[c] + (0.020052) C00004[c] + (0.024989) C00006[c] + (0.005553) C00005[c] + (3.990535) C00238[c] + (1.485084) C00305[c] + (0.298312) C14818[c] + (0.138957) C00076[c] + (3.623175) C01330[c] + (0.084898) C00038[c] + (0.399821) C00009[c] + (0.006192) C00068[c] => trace[c]
   subsystem: Biomass
 - id: lta_met
-  name: Lipoteichoic acids biosynthesis
+  name: Lipoteichoic acids
   equation: (0.000225) lipo1_24_cbes[c] + (0.000201) lipo2_24_cbes[c] + (0.000597) lipo3_24_cbes[c] + (0.000483) lipo4_24_cbes[c] + (0.003012) C00002[c] + (0.003012) C00001[c] => lta_Cbes[c] + (0.003012) C00008[c] + (0.003012) C00009[c] + (0.003012) C00080[c]
   subsystem: Biomass
 - id: cellwall_met
-  name: cell wall biosynthesis
+  name: Cell wall
   equation: (0.454148) peptido_cbes[c] + (0.016146) gtca1_45_cbes[c] + (0.010482) gtca2_45_cbes[c] + (0.008118) gtca3_45_cbes[c] + (0.013872) tcam_cbes[c] + (1.005532) C00002[c] + (1.005532) C00001[c] => cellwall_Cbes[c] + (1.005532) C00008[c] + (1.005532) C00009[c] + (1.005532) C00080[c]
   subsystem: Biomass
   # equation: (0.454148) peptido_cbes[c] + (0.016146) gtca1_45_cbes[c] + (0.010482) gtca2_45_cbes[c] + (0.008118) gtca3_45_cbes[c] + (0.013872) tcam_cbes[c] => cellwall_Cbes[c]
@@ -60,7 +60,7 @@
   #   (1.008543802) C00002[c] + (1.008543802) C00001[c] => cellwall_Cbes[c] + (1.008543802) C00008[c] + (1.008543802) C00009[c] + (1.008543802) C00080[c]
 
 - id: Biomass_Cbescii
-  name: biomass 1gDW
+  name: Biomass 1gDW
   ### (data comes from Mike's group, July 22, 2019)
   # equation: (0.016) dna[c] + (0.007) rna[c] + (0.516) protein[c] + (0.336) lipid + (0.125) carbohydrates => Biomass[c]
   # equation: (0.016) dna[c] + (0.007) rna[c] + (0.516) protein[c] + C00186[c] + C00022[c] => (0.539) Biomass[c]
@@ -78,5 +78,6 @@
   # subsystem: Biomass
 
 - id: sink_biomass
+  name: Biomass accumulation
   equation: Biomass[c] =>
   subsystem: Biomass
