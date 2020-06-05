@@ -36,9 +36,9 @@ reactions:
 - include: genetic-engineering.yaml
 # - include: test.yaml
 exchange:
-# - include: exchange.yaml
+- include: exchange.yaml
 # - include: exchange_DSMZ516.yaml
-- include: exchange_Ethanol.yaml
+# - include: exchange_Ethanol.yaml
 limits:
 - include: limits.yaml
 model:
