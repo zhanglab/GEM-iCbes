@@ -38,7 +38,7 @@
 # - id: sink_lacad
 #   equation: C00424[c] =>
 - id: sink_fad
-  name: 4-Hydroxy-benzyl alcohol sink
+  name: FAD sink
   equation: C00016[c] =>
   subsystem: Riboflavin biosynthesis
   comment: to enable formate production, then  unblock biomass

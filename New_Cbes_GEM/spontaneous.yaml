@@ -52,7 +52,8 @@
 - id: R00217
   name: oxaloacetate decarboxylation (spontaneous)
   equation: C00036[c] + C00080[c] => C00022[c] + C00011[c]
-  comment: oxaloacetate will decarboxylyze sponteneously under high tempreture.
+  comment: oxaloacetate is unstanle and could decarboxylyzes sponteneously.
+  PMID: 21665973
 - id: R01652
   name: (2S)-2-isopropyl-3-oxosuccinate decarboxylation (spontaneous)
   equation: C04236[c] + C00080[c] <=> C00233[c] + C00011[c]
