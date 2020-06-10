@@ -39,10 +39,10 @@
   upper: 0
   comment: Fig. 4 in literature PMID 31097544; directionality irreversible based on PMID-12654928, from PEP + ADP to Pry +ATP.
   pmid: 31097544, 12654928
-- reaction: R00206
-  lower: 0
-  upper: 1000
-  comment: keep the R00206 monodirectional and in opposite direction to R00200.
+# - reaction: R00206
+#   lower: 0
+#   upper: 1000
+#   comment: keep the R00206 monodirectional and in opposite direction to R00200; remove this constraint based on James' email on 2020-06-10, Bielen et al. assayed PPDK in the forward (glycolytic) direction and PPDK should at least be considered bi-directional,
 - reaction: R07159
   lower: 0
   upper: 1000

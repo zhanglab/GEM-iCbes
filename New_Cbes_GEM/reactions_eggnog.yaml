@@ -385,7 +385,7 @@
   equation: C00002[c] + C00001[c] + C00407[e] => C00008[c] + C00009[c] + C00407[c] + C00080[c]
   ec: TC=3.A.1.4.1
 - id: piH
-  name: phopsphate-H+ symport
+  name: V-type proton pumping membrane-bound pyrophosphatase
   equation: C00013[c] + C00001[c] => (2) C00009[c] + C00080[e]
   ec: TC=3.A.10.2.3
 - id: inosABC
