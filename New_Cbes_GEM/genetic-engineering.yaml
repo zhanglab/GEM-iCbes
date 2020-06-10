@@ -112,4 +112,4 @@
   equation: C00084[c] + C00005[c] + C00080[c] <=> C00469[c] + C00006[c]
 - id: AOR
   name: aldehyde ferredoxin oxidoreductase
-  equation: C00033[c] + (2) C00080[c] + (2) C00138[c] <=> C00084[c] + C00001[c] + (2) C00139[c]
+  equation: C00033[c] + (3) C00080[c] + (2) C00138[c] <=> C00084[c] + C00001[c] + (2) C00139[c]
