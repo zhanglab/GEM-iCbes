@@ -119,6 +119,7 @@
   equation: C00024[c] + C00009[c] <=> C00010[c] + C00227[c]
   ec:
   - 2.3.1.8
+  PMID: 31097544
 - id: R00921
   name: propanoyl-CoA:phosphate propanoyltransferase
   equation: C00100[c] + C00009[c] <=> C02876[c] + C00010[c]
@@ -207,10 +208,11 @@
   - 2.6.1.9
 - id: R00299
   name: ATP:D-glucose 6-phosphotransferase (GLK, glucokinase)
-  equation: C00002[c] + C00031[c] <=> C00008[c] + C00092[c] + C00080[c]
+  equation: C00002[c] + C00031[c] => C00008[c] + C00092[c] + C00080[c]
   ec:
   - 2.7.1.1
   - 2.7.1.2
+  PMID: 31097544,20557574
 - id: R00760
   name: ATP:D-fructose 6-phosphotransferase
   equation: C00002[c] + C00095[c] <=> C00008[c] + C00085[c] + C00080[c]
@@ -222,6 +224,7 @@
   equation: C00002[c] + C00085[c] <=> C00008[c] + C00354[c] + C00080[c]
   ec:
   - 2.7.1.11
+  PMID: 31097544,20557574
 - id: R01843
   name: ATP:Sedoheptulose 7-phosphate 1-phosphotransferase
   equation: C00002[c] + C05382[c] <=> C00008[c] + C00447[c] + C00080[c]
@@ -290,6 +293,7 @@
   equation: C00002[c] + C00022[c] <=> C00008[c] + C00074[c] + C00080[c]
   ec:
   - 2.7.1.40
+  PMID: 31097544,20557574
 - id: R01541
   name: ATP:2-dehydro-3-deoxy-D-gluconate 6-phosphotransferase
   equation: C00002[c] + C00204[c] <=> C00008[c] + C04442[c] + C00080[c]
@@ -326,12 +330,14 @@
   equation: C00013[c] + C00085[c] <=> C00009[c] + C00354[c] + C00080[c]
   ec:
   - 2.7.1.90
+  PMID: 20557574
 - id: R00315
   name: ATP:acetate phosphotransferase
   equation: C00002[c] + C00033[c] <=> C00008[c] + C00227[c]
   ec:
   - 2.7.2.1
   - 2.7.2.15
+  PMID: 31097544
 - id: R01353
   name: ATP:propanoate phosphotransferase
   equation: C00002[c] + C00163[c] <=> C00008[c] + C02876[c]
@@ -343,6 +349,7 @@
   equation: C00002[c] + C00197[c] <=> C00008[c] + C00236[c]
   ec:
   - 2.7.2.3
+  PMID: 31097544,20557574
 - id: R02649
   name: ATP:N-acetyl-L-glutamate 5-phosphotransferase
   equation: C00002[c] + C00624[c] <=> C00008[c] + C04133[c]
@@ -532,6 +539,7 @@
   equation: C00354[c] <=> C00111[c] + C00118[c]
   ec:
   - 4.1.2.13
+  PMID: 31097544,20557574
 - id: R01829
   name: sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase
   equation: C00447[c] <=> C00111[c] + C00279[c]
@@ -580,6 +588,7 @@
   equation: C00631[c] <=> C00074[c] + C00001[c]
   ec:
   - 4.2.1.11
+  PMID: 31097544,20557574
 - id: R04206
   name: 3-Phospho-D-erythronate hydro-lyase
   equation: C03356[c] <=> C04309[c] + C00001[c]
@@ -672,6 +681,7 @@
   equation: C00118[c] <=> C00111[c]
   ec:
   - 5.3.1.1
+  PMID: 31097544,20557574
 - id: R01482
   name: D-glucuronate aldose-ketose-isomerase
   equation: C00191[c] <=> C00905[c]
@@ -740,6 +750,7 @@
   ec:
   - 5.4.2.11
   - 5.4.2.12
+  PMID: 31097544,20557574
 - id: R02728
   name: beta-D-Glucose 1-phosphate 1,6-phosphomutase
   equation: C00103[c] <=> C00092[c]
@@ -761,6 +772,7 @@
   ec:
   - 1.2.1.12
   - 1.2.1.59
+  PMID: 31097544,20557574
 - id: R01641
   name: sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase
   equation: C05382[c] + C00118[c] <=> C00117[c] + C00231[c]
@@ -805,6 +817,7 @@
   equation: C00002[c] + C00022[c] + C00009[c] <=> C00020[c] + C00074[c] + C00013[c] + C00080[c]
   ec:
   - 2.7.9.1
+  PMID: 20557574
 - id: R00425
   name: GTP 7,8-8,9-dihydrolase (diphosphate-forming)
   equation: C00044[c] + (3) C00001[c] => C00058[c] + C01304[c] + C00013[c] + (2) C00080[c]
@@ -901,6 +914,7 @@
   equation: (2) C00139[c] + C00022[c] + C00010[c] <=> (2) C00138[c] + C00024[c] + C00011[c] + C00080[c]
   ec:
   - 1.2.7.1
+  PMID: 31097544
 - id: R01199
   name: 2-oxobutanoate:ferredoxin 2-oxidoreductase (CoA-propanoylating)
   equation: (2) C00139[c] + C00109[c] + C00010[c] <=> (2) C00138[c] + C00100[c] +
@@ -912,6 +926,7 @@
   equation: C00044[c] + C00197[c] <=> C00035[c] + C00236[c]
   ec:
   - 2.7.2.3
+  PMID: 20557574
 - id: R07159
   name: D-glyceraldehyde-3-phosphate:ferredoxin oxidoreductase (GOR)
   equation: C00118[c] + C00001[c] + (2) C00139[c] <=> C00197[c] + (3) C00080[c] +
@@ -924,6 +939,7 @@
   equation: C00092[c] <=> C00085[c]
   ec:
   - 5.3.1.9
+  PMID: 31097544,20557574
 - id: R00709
   name: isocitrate:NAD+ oxidoreductase (decarboxylating)
   equation: C00311[c] + C00003[c] <=> C00026[c] + C00011[c] + C00004[c]
@@ -996,6 +1012,7 @@
   equation: C00186[c] + C00003[c] <=> C00022[c] + C00004[c] + C00080[c]
   ec:
   - 1.1.1.27
+  PMID: 31097544
 - id: R03104
   name: 3-Mercaptolactate:NAD+ oxidoreductase
   equation: C05823[c] + C00003[c] <=> C00957[c] + C00004[c] + C00080[c]
@@ -1012,6 +1029,7 @@
   ec:
   - 1.1.1.37
   - 1.1.1.299
+  comment: Experimentally confirmed (unpublished data)
 - id: R07136
   name: (2R)-3-sulfolactate:NAD+ oxidoreductase
   equation: C11537[c] + C00003[c] <=> C05528[c] + C00004[c] + C00080[c]
@@ -2529,7 +2547,7 @@
   ec:
   - 4.1.2.8
   - 4.2.1.20
-  PMID: 19387555, 11756459
+  PMID: 19387555,11756459
 - id: R00424
   name: GTP 7,8-8,9-dihydrolase
   equation: C00044[c] + C00001[c] => C04895[c] + C00058[c] + C00080[c]
@@ -2559,7 +2577,7 @@
   kegg: R00481
   source: Literature
   tag: Literature
-  PMID: 29555696, 12215812, 29143132
+  PMID: 29555696,12215812,29143132
 - id: R01057
   name: D-Ribose 1,5-phosphomutase
   equation: C00620[c] <=> C00117[c]
@@ -2598,7 +2616,7 @@
   ec:
   - 4.2.1.20
   - 4.2.1.122
-  PMID: 19387555, 11756459
+  PMID: 19387555,11756459
 - id: R01210
   name: 3-methyl-2-oxobutanoate:NAD+ oxidoreductase (CoA-mehtylpropanoylating)
   equation: C00141[c] + C00010[c] + C00003[c] <=> C00630[c] + C00011[c] + C00004[c]
@@ -2625,7 +2643,7 @@
   equation: C00065[c] + C03506[c] => C00078[c] + C00118[c] + C00001[c]
   ec:
   - 4.2.1.20
-  PMID: 19387555, 11756459
+  PMID: 19387555,11756459
 - id: R00414
   name: UDP-N-acetyl-D-glucosamine 2-epimerase
   equation: C00043[c] + C00001[c] <=> C00645[c] + C00015[c] + C00080[c]
@@ -3035,13 +3053,13 @@
     + (2) C00139[c]
   ec:
   - 1.12.1.4
-  PMID: 26536872, 31097544, 30009131
+  PMID: 26536872,31097544,30009131
 - id: MBH
   name: H2-evolving membrane-bound hydrogenase ([Ni-Fe])
   equation: (2) C00138[c] + (3) C00080[c] => C00282[c] + (2) C00139[c] + C00080[e]
   ec:
   - 1.12.7.2
-  PMID: 26536872, 31097544, 15256587
+  PMID: 26536872,31097544,15256587
 - id: BF-Nfn
   name: NADH-dependent reduced ferredoxin:NADP+ oxidoreductase
   equation: C00004[c] + (2) C00138[c] + (2) C00006[c] + C00080[c] <=> C00003[c] +
