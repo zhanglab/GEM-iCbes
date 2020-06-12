@@ -128,7 +128,7 @@
   - 2.3.1.222
 - id: R00952
   name: cellobiose:phosphate alpha-D-glucosyltransferase
-  equation: C00185[c] + C00009[c] <=> C00103[c] + C00031[c]
+  equation: C00185[c] + C00009[c] => C00103[c] + C00031[c]
   ec:
   - 2.4.1.20
   PMID: 22484959
@@ -221,7 +221,7 @@
   - 2.7.1.4
 - id: R00756
   name: ATP:D-fructose-6-phosphate 1-phosphotransferase (ATP-PFK, ATP-dependent 6-phosphofructokinase)
-  equation: C00002[c] + C00085[c] <=> C00008[c] + C00354[c] + C00080[c]
+  equation: C00002[c] + C00085[c] => C00008[c] + C00354[c] + C00080[c]
   ec:
   - 2.7.1.11
   PMID: 31097544,20557574
@@ -290,7 +290,7 @@
   - 2.7.1.31
 - id: R00200
   name: ATP:pyruvate 2-O-phosphotransferase (PK, Pyruvate kinase)
-  equation: C00002[c] + C00022[c] <=> C00008[c] + C00074[c] + C00080[c]
+  equation: C00008[c] + C00074[c] + C00080[c] => C00002[c] + C00022[c]
   ec:
   - 2.7.1.40
   PMID: 31097544,20557574
@@ -346,7 +346,7 @@
   - 2.7.2.15
 - id: R01512
   name: ATP:3-phospho-D-glycerate 1-phosphotransferase (PGK, phosphoglycerate kinase)
-  equation: C00002[c] + C00197[c] <=> C00008[c] + C00236[c]
+  equation: C00008[c] + C00236[c] <=> C00002[c] + C00197[c]
   ec:
   - 2.7.2.3
   PMID: 31097544,20557574
@@ -923,13 +923,13 @@
   - 1.2.7.1
 - id: PGK2
   name: GTP:3-phospho-D-glycerate 1-phosphotransferase (PGK, phosphoglycerate kinase)
-  equation: C00044[c] + C00197[c] <=> C00035[c] + C00236[c]
+  equation: C00035[c] + C00236[c] <=> C00044[c] + C00197[c]
   ec:
   - 2.7.2.3
   PMID: 20557574
 - id: R07159
   name: D-glyceraldehyde-3-phosphate:ferredoxin oxidoreductase (GOR)
-  equation: C00118[c] + C00001[c] + (2) C00139[c] <=> C00197[c] + (3) C00080[c] +
+  equation: C00118[c] + C00001[c] + (2) C00139[c] => C00197[c] + (3) C00080[c] +
     (2) C00138[c]
   ec:
   - 1.2.7.6
@@ -1102,7 +1102,7 @@
   - 1.2.1.41
 - id: R01728
   name: Prephenate:NAD+ oxidoreductase(decarboxylating)
-  equation: C00254[c] + C00003[c] <=> C01179[c] + C00011[c] + C00004[c]
+  equation: C00254[c] + C00003[c] => C01179[c] + C00011[c] + C00004[c]
   ec:
   - 1.3.1.12
 - id: R01869
@@ -1112,22 +1112,22 @@
   - 1.3.1.14
 - id: R03291
   name: trans-4-Hydroxy-L-proline:NAD+ 5-oxidoreductase
-  equation: C01157[c] + C00003[c] <=> C04281[c] + C00004[c] + (2) C00080[c]
+  equation: C04281[c] + C00004[c] + (2) C00080[c] => C01157[c] + C00003[c]
   ec:
   - 1.5.1.2
 - id: R03293
   name: trans-4-Hydroxy-L-proline:NADP+ 5-oxidoreductase
-  equation: C01157[c] + C00006[c] <=> C04281[c] + C00005[c] + (2) C00080[c]
+  equation: C04281[c] + C00005[c] + (2) C00080[c] => C01157[c] + C00006[c]
   ec:
   - 1.5.1.2
 - id: R07168
   name: 5-methyltetrahydrofolate:NAD+ oxidoreductase
-  equation: C00440[c] + C00003[c] <=> C00143[c] + C00004[c] + C00080[c]
+  equation: C00143[c] + C00004[c] + C00080[c] => C00440[c] + C00003[c]
   ec:
   - 1.5.1.20
 - id: R01224
   name: 5-methyltetrahydrofolate:NADP+ oxidoreductase
-  equation: C00440[c] + C00006[c] <=> C00143[c] + C00005[c] + C00080[c]
+  equation: C00143[c] + C00005[c] + C00080[c] => C00440[c] + C00006[c]
   ec:
   - 1.5.1.20
 - id: R02235
@@ -2142,12 +2142,12 @@
   - 4.1.2.4
 - id: R00985
   name: chorismate pyruvate-lyase (amino-accepting
-  equation: C00251[c] + C00014[c] <=> C00108[c] + C00022[c] + C00001[c]
+  equation: C00251[c] + C00014[c] => C00108[c] + C00022[c] + C00001[c]
   ec:
   - 4.1.3.27
 - id: R00986
   name: Chorismate pyruvate-lyase (amino-accepting)
-  equation: C00251[c] + C00064[c] <=> C00108[c] + C00022[c] + C00025[c] + C00080[c]
+  equation: C00251[c] + C00064[c] => C00108[c] + C00022[c] + C00025[c] + C00080[c]
   ec:
   - 4.1.3.27
 - id: R03084
@@ -2419,7 +2419,7 @@
   - 6.3.5.3
 - id: R00014
   name: pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating)
-  equation: C00022[c] + C00068[c] + (2) C00080[c] <=> C05125[c] + C00011[c]
+  equation: C00022[c] + C00068[c] + (2) C00080[c] => C05125[c] + C00011[c]
   ec:
   - 1.2.4.1
   - 2.2.1.6
@@ -2442,12 +2442,12 @@
   - 1.1.1.3
 - id: R03192
   name: UDP-N-acetylmuramate:NADP+ oxidoreductase
-  equation: C01050[c] + C00006[c] <=> C04631[c] + C00005[c] + C00080[c]
+  equation: C04631[c] + C00005[c] + C00080[c] => C01050[c] + C00006[c]
   ec:
   - 1.3.1.98
 - id: R04199
   name: 2,3,4,5-tetrahydrodipicolinate:NADP+ 4-oxidoreductase
-  equation: C03972[c] + C00006[c] + C00001[c] <=> C20258[c] + C00005[c] + C00080[c]
+  equation: C20258[c] + C00005[c] + C00080[c] => C03972[c] + C00006[c] + C00001[c]
   ec:
   - 1.17.1.8
 - id: R04439
@@ -2465,12 +2465,12 @@
   - 1.4.1.13
 - id: R00939
   name: 5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase
-  equation: C00101[c] + C00006[c] <=> C00415[c] + C00005[c] + C00080[c]
+  equation: C00415[c] + C00005[c] + C00080[c] => C00101[c] + C00006[c]
   ec:
   - 1.5.1.3
 - id: R01251
   name: L-Proline:NADP+ 5-oxidoreductase
-  equation: C00148[c] + C00006[c] <=> C03912[c] + C00005[c] + (2) C00080[c]
+  equation: C03912[c] + C00005[c] + (2) C00080[c] => C00148[c] + C00006[c]
   ec:
   - 1.5.1.2
 - id: R00842
@@ -2481,7 +2481,7 @@
   - 1.1.1.94
 - id: R00732
   name: L-arogenate:NAD+ oxidoreductase
-  equation: C00826[c] + C00003[c] <=> C00082[c] + C00011[c] + C00004[c]
+  equation: C00826[c] + C00003[c] => C00082[c] + C00011[c] + C00004[c]
   ec:
   - 1.3.1.43
   - 1.3.1.79
@@ -2492,22 +2492,22 @@
   - 1.1.1.3
 - id: R03191
   name: UDP-N-acetylmuramate:NADP+ oxidoreductase
-  equation: C01050[c] + C00003[c] <=> C04631[c] + C00004[c] + C00080[c]
+  equation: C04631[c] + C00004[c] + C00080[c] => C01050[c] + C00003[c]
   ec:
   - 1.3.1.98
 - id: R04198
   name: 2,3,4,5-tetrahydrodipicolinate:NAD+ 4-oxidoreductase
-  equation: C03972[c] + C00003[c] + C00001[c] <=> C20258[c] + C00004[c] + C00080[c]
+  equation: C20258[c] + C00004[c] + C00080[c] => C03972[c] + C00003[c] + C00001[c]
   ec:
   - 1.17.1.8
 - id: R00936
   name: 5,6,7,8-tetrahydrofolate:NAD+ oxidoreductase
-  equation: C00101[c] + C00003[c] <=> C00415[c] + C00004[c] + C00080[c]
+  equation: C00415[c] + C00004[c] + C00080[c] => C00101[c] + C00003[c]
   ec:
   - 1.5.1.3
 - id: R01248
   name: L-Proline:NAD+ 5-oxidoreductase
-  equation: C00148[c] + C00003[c] <=> C03912[c] + C00004[c] + (2) C00080[c]
+  equation: C03912[c] + C00004[c] + (2) C00080[c] => C00148[c] + C00003[c]
   ec:
   - 1.5.1.2
 - id: R00006
@@ -2523,7 +2523,7 @@
   PMID: 28659601
 - id: R08648
   name: pyruvate:2-oxobutanoate acetaldehydetransferase (decarboxylating)
-  equation: C00022[c] + C00109[c] + C00080[c] <=> C06006[c] + C00011[c]
+  equation: C00022[c] + C00109[c] + C00080[c] => C06006[c] + C00011[c]
   ec:
   - 2.2.1.6
 - id: R03050
@@ -2700,7 +2700,7 @@
   - 6.3.5.4
 - id: R05680
   name: sn-glycerol-1-phosphate:NADP 2-oxidoreductase
-  equation: C00623[c] + C00006[c] <=> C00111[c] + C00005[c] + C00080[c]
+  equation: C00111[c] + C00005[c] + C00080[c] => C00623[c] + C00006[c]
   ec:
   - 1.1.1.261
 - id: R00357
@@ -2716,7 +2716,7 @@
   - 3.1.3.3
 - id: R05679
   name: sn-glycerol-1-phosphate:NAD 2-oxidoreductase
-  equation: C00623[c] + C00003[c] <=> C00111[c] + C00004[c] + C00080[c]
+  equation: C00111[c] + C00004[c] + C00080[c] => C00623[c] + C00003[c]
   ec:
   - 1.1.1.261
 - id: R04426
