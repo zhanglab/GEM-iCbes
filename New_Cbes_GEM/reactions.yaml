@@ -678,7 +678,7 @@
   - 5.1.3.4
 - id: R01015
   name: D-glyceraldehyde-3-phosphate aldose-ketose-isomerase (TPI)
-  equation: C00118[c] <=> C00111[c]
+  equation: C00111[c] <=> C00118[c]
   ec:
   - 5.3.1.1
   PMID: 31097544,20557574
@@ -814,7 +814,7 @@
   - 5.4.2.8
 - id: R00206
   name: ATP:pyruvate,phosphate phosphotransferase (PPDK, PPi-dependent pyruvate phosphate dikinase)
-  equation: C00002[c] + C00022[c] + C00009[c] <=> C00020[c] + C00074[c] + C00013[c] + C00080[c]
+  equation: C00020[c] + C00074[c] + C00013[c] + C00080[c] <=> C00002[c] + C00022[c] + C00009[c]
   ec:
   - 2.7.9.1
   PMID: 20557574
