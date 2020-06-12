@@ -333,7 +333,7 @@
   PMID: 20557574
 - id: R00315
   name: ATP:acetate phosphotransferase
-  equation: C00002[c] + C00033[c] <=> C00008[c] + C00227[c]
+  equation: C00008[c] + C00227[c] <=> C00002[c] + C00033[c]
   ec:
   - 2.7.2.1
   - 2.7.2.15
@@ -746,7 +746,7 @@
   - 5.3.99.11
 - id: R01518
   name: D-phosphoglycerate 2,3-phosphomutase (phosphoglycerate mutase)
-  equation: C00631[c] <=> C00197[c]
+  equation: C00197[c] <=> C00631[c]
   ec:
   - 5.4.2.11
   - 5.4.2.12
@@ -2890,7 +2890,7 @@
   - 2.8.1.7, 2.7.7.73, 2.8.1.4, 4.1.99.19, 2.8.1.10
 - id: R00431
   name: GTP:oxaloacetate carboxy-lyase (adding GTP
-  equation: C00044[c] + C00036[c] <=> C00035[c] + C00074[c] + C00011[c]
+  equation: C00035[c] + C00074[c] + C00011[c] <=> C00044[c] + C00036[c]
   ec:
   - 4.1.1.32
 - id: R00726
