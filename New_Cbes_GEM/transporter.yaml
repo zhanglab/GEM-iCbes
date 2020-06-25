@@ -140,7 +140,6 @@
 - id: PdxU2
   name: pyridoxin(VB6) uptake (ECF)
   equation: C00314[e] + C00002[c] + C00001[c] => C00314[c] + C00008[c] + C00009[c] + C00080[c]
-  tc: unknown
 - id: R03232
   name: fructose uptake (PTS system)
   equation: C04261[c] + C00095[e] => C00615[c] + C01094[c]

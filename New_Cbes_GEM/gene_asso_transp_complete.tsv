@@ -1,8 +1,8 @@
 id	genes	genes_peg	genes_wp	subsystem
-cysT	Unknown	Unknown	Unknown	Transport
-lipoateT	Unknown	Unknown	Unknown	Transport
-borateT	Unknown	Unknown	Unknown	Transport
-clT	Unknown	Unknown	Unknown	Transport
+cysT				Transport
+lipoateT				Transport
+borateT				Transport
+clT				Transport
 MgtE	Athe_0656	peg.1099	WP_013430891.1	Transport
 TrkH	Athe_0240 and (Athe_0242 or Athe_0243)	peg.639 and (peg.641 or peg.642)	WP_015906860.1 and (WP_013431228.1 or WP_013431227.1)	Transport
 nh4t	Athe_2068	peg.2614	WP_015908423.1	Transport
@@ -33,12 +33,12 @@ FolT	Athe_1686 and Athe_1687 and Athe_1688	peg.2195 and peg.2196 and peg.2197	WP
 PdxU2	Athe_1767 and Athe_1686 and Athe_1687 and Athe_1688	peg.2278 and peg.2195 and peg.2196 and peg.2197	WP_015908162.1 and WP_015908111.1 and WP_015908112.1 and WP_015908113.1	Transport
 R03232	Athe_0148 and Athe_0149	peg.543 and peg.544	WP_015906778.1 and WP_015906779.1	Transport
 ThiT	Athe_0037	peg.417	WP_012660709.1	Transport
-4ABZt2r	Unknown	Unknown	Unknown	Transport
-NACUP	Unknown	Unknown	Unknown	Transport
-PNTOt2	Unknown	Unknown	Unknown	Transport
-ETOHt1	Unknown	Unknown	Unknown	Transport
-ACt6	Unknown	Unknown	Unknown	Transport
-L-LACt2	Unknown	Unknown	Unknown	Transport
+4ABZt2r				Transport
+NACUP				Transport
+PNTOt2				Transport
+ETOHt1				Transport
+ACt6				Transport
+L-LACt2				Transport
 vb12ABC	Athe_1895 and Athe_1894 and Athe_1896	peg.2411 and peg.2410 and peg.2412	WP_015908277.1 and WP_015908276.1 and WP_015908278.1	Transport
 XyloseABC	(Athe_0105 and Athe_0106 and Athe_0107) or (Athe_2264 and Athe_2265 and Athe_2266 or Athe_2268)	(peg.490 and peg.491 and peg.492) or (peg.2831 and peg.2832 and peg.2833 or peg.2836)	WP_015906742.1 and WP_015906743.1 and WP_015906744.1) or (WP_015908596.1 and WP_015908597.1 and WP_015908598.1 or WP_015908599.1)	Transport
 GlcABC	Athe_0105 and Athe_0106 and Athe_0107	peg.490 and peg.491 and peg.492	WP_015906742.1 and WP_015906743.1 and WP_015906744.1	Transport
@@ -55,4 +55,4 @@ axosABC	(Athe_1803 and Athe_0179 and Athe_0180 and Athe_0181) or (Athe_1803 and 
 malABC	(Athe_1803 and Athe_2574 and Athe_2577 and Athe_2578) or (Athe_1803 and Athe_2308 and Athe_2309 and Athe_2310)	(peg.2315 and peg.121 and peg.124 and peg.125) or (peg.2315 and peg.2881 and peg.2882 and peg.2883)	(WP_015908194.1 and WP_015908887.1 and WP_015908890.1 and WP_015908891.1) or (WP_015908194.1 and WP_015908635.1 and WP_015908636.1 and WP_015908637.1)	Transport
 mdosABC	(Athe_1803 and Athe_2574 and Athe_2577 and Athe_2578) or (Athe_1803 and Athe_2308 and Athe_2309 and Athe_2310)	(peg.2315 and peg.121 and peg.124 and peg.125) or (peg.2315 and peg.2881 and peg.2882 and peg.2883)	(WP_015908194.1 and WP_015908887.1 and WP_015908890.1 and WP_015908891.1) or (WP_015908194.1 and WP_015908635.1 and WP_015908636.1 and WP_015908637.1)	Transport
 rhaosABC	Athe_1803 and Athe_2079 and Athe_2080 and Athe_2081	peg.2315 and peg.2628 and peg.2629 and peg.2630	WP_015908194.1 and WP_041727423.1 and WP_013429600.1 and WP_015908434.1	Transport
-PYRt2	Unknown	Unknown	Unknown	Transport
+PYRt2				Transport

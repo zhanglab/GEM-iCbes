@@ -391,7 +391,6 @@
 - id: inosABC
   name:  myo-Inositol transport via ABC system
   equation: C00137[e] + C00002[c] + C00001[c] => C00137[c] + C00008[c] + C00009[c] + C00080[c]
-  ec: TC=unknown
 - id: GlcnABC
   name: beta-D-Glucuronoside transport via ABC system
   equation: C03033[e] + C00002[c] + C00001[c] => C03033[c] + C00008[c] + C00009[c] + C00080[c]

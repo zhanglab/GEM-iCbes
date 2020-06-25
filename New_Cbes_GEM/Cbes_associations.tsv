@@ -329,23 +329,23 @@ R00127	Athe_1725	peg.2234	WP_013429981.1	Purine metabolism
 R11319	Athe_1725	peg.2234	WP_013429981.1	Thiamine metabolism
 R01547	Athe_1725	peg.2234	WP_013429981.1	Purine metabolism
 R00158	Athe_1814	peg.2326	WP_015908204.1	Pyrimidine metabolism
-R02098	Athe_0512	Athe_0512	NA	Pyrimidine metabolism
-R00124	gap	gap	NA	Purine metabolism
-R00156	gap	gap	NA	Pyrimidine metabolism
-R00330	gap	gap	NA	Purine metabolism
-R00722	gap	gap	NA	Purine metabolism
-R00570	gap	gap	NA	Pyrimidine metabolism
-R01137	gap	gap	NA	Purine metabolism
-R01857	gap	gap	NA	Purine metabolism
-R02093	gap	gap	NA	Pyrimidine metabolism
-R02326	gap	gap	NA	Pyrimidine metabolism
-R03530	gap	gap	NA	Purine metabolism
-R02331	gap	gap	NA	Pyrimidine metabolism
-R00139	gap	gap	NA	Pyrimidine metabolism
+R02098	Athe_0512	Athe_0512		Pyrimidine metabolism
+R00124				Purine metabolism
+R00156				Pyrimidine metabolism
+R00330				Purine metabolism
+R00722				Purine metabolism
+R00570				Pyrimidine metabolism
+R01137				Purine metabolism
+R01857				Purine metabolism
+R02093				Pyrimidine metabolism
+R02326				Pyrimidine metabolism
+R03530				Purine metabolism
+R02331				Pyrimidine metabolism
+R00139				Pyrimidine metabolism
 R04509	Athe_0381	peg.796	WP_015906980.1	Thiamine metabolism
 R00332	Athe_1035	peg.1516	WP_015907549.1	Purine metabolism
 R02090	Athe_1035	peg.1516	WP_015907549.1	Purine metabolism
-R02094	Athe_0512	Athe_0512	NA	Pyrimidine metabolism
+R02094	Athe_0512	Athe_0512		Pyrimidine metabolism
 R01049	Athe_0636	peg.1077	WP_013403879.1	Pentose phosphate pathway
 R00619	Athe_1805	peg.2317	WP_015908196.1	Thiamine metabolism
 R03503	Athe_0212	peg.610	WP_015906833.1	Folate biosynthesis
@@ -365,7 +365,7 @@ R04620	Athe_2754	peg.359	WP_015909045.1	Folate biosynthesis
 R01010	Athe_2754	peg.359	WP_015909045.1	-
 R02135	Athe_1046 or Athe_2754	peg.1527 or peg.359	WP_015907559.1 or WP_015909045.1	Thiamine metabolism
 R03024	Athe_2754	peg.359	WP_015909045.1	Aminobenzoate degradation
-R07280	gap	gap	NA	Riboflavin metabolism
+R07280				Riboflavin metabolism
 R03013	Athe_1711	peg.2220	WP_015908134.1	Histidine metabolism
 R02853	Athe_1322	peg.1810	WP_015907794.1	-
 R01856	Athe_0711	peg.1165	WP_015907267.1	Purine metabolism
@@ -527,17 +527,17 @@ KAS1OH3	Athe_1154 and Athe_1156 and Athe_2047 and Athe_0213 and Athe_1158 and At
 THZPSN	(Athe_1547 or Athe_1714) and Athe_0371 and Athe_1546 and Athe_1288 and Athe_0370 and Athe_0369	(peg.2042 or peg.2223) and peg.784 and peg.2041 and peg.1776 and peg.783 and peg.782	(WP_015907992.1 or WP_015908136.1) and WP_015906972.1 and WP_015907991.1 and WP_015907770.1 and WP_015906971.1 and WP_015906970.1	Thiamine biosynthesis
 R00431	Athe_0393	peg.808	WP_015906992.1	Glycolysis / Gluconeogenesis
 R00726	Athe_0393	peg.808	WP_015906992.1	Glycolysis / Gluconeogenesis
-R00258	gap	gap	gap	Alanine, aspartate and glutamate metabolism
-R02282	gap	gap	gap	Arginine biosynthesis
-NMPK	gap	gap	gap	Others
-hco3	Spontaneous	Spontaneous	Spontaneous	Ionization
-nh4	Spontaneous	Spontaneous	Spontaneous	Ionization
-TP_H2	Spontaneous	Spontaneous	Spontaneous	Transport
-TP_CO2	Spontaneous	Spontaneous	Spontaneous	Transport
-TP_NH3	Spontaneous	Spontaneous	Spontaneous	Transport
-h2ot	Spontaneous	Spontaneous	Spontaneous	Transport
-G5SADs	Spontaneous	Spontaneous	Spontaneous	Arginine and proline metabolism
-Acetoin-Syn	Spontaneous	Spontaneous	Spontaneous	Pyruvate metabolism
+R00258				Alanine, aspartate and glutamate metabolism
+R02282				Arginine biosynthesis
+NMPK				Others
+hco3				Ionization
+nh4				Ionization
+TP_H2				Transport
+TP_CO2				Transport
+TP_NH3				Transport
+h2ot				Transport
+G5SADs				Arginine and proline metabolism
+Acetoin-Syn				Pyruvate metabolism
 TECA1S45_Cbes	Athe_0835 and Athe_2062 and Athe_0053	peg.1295 and peg.2608 and peg.433	WP_015907378.1 and  WP_015908418.1 and WP_012660725.1	Cell Envelope Biosynthesis
 TECA2S45_Cbes	Athe_0835 and Athe_2062 and Athe_0053	peg.1295 and peg.2608 and peg.433	WP_015907378.1 and  WP_015908418.1 and WP_012660725.1	Cell Envelope Biosynthesis
 TECA3S45_Cbes	Athe_0835 and Athe_2062 and Athe_0053	peg.1295 and peg.2608 and peg.433	WP_015907378.1 and  WP_015908418.1 and WP_012660725.1	Cell Envelope Biosynthesis
