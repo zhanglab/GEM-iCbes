@@ -173,18 +173,18 @@ compounds:
   # upper: 1.43   # dLDH-Glc
   # lower: 0.49   # dLDH-Fru
   # upper: 0.49   # dLDH-Fru
-- id: C01013
-  name: 3-Hydroxypropanoate
-  lower: 0
-  upper: 1000
-- id: C00207
-  name: Acetone
-  lower: 0
-  upper: 1000
-- id: C03044
-  name: 2,3-butanediol
-  lower: 0
-  upper: 1000
+# - id: C01013
+#   name: 3-Hydroxypropanoate
+#   lower: 0
+#   upper: 1000
+# - id: C00207
+#   name: Acetone
+#   lower: 0
+#   upper: 1000
+# - id: C03044
+#   name: 2,3-butanediol
+#   lower: 0
+#   upper: 1000
 - id: C00237
   name: CO
   lower: 0

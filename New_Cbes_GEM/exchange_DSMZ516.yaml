@@ -76,7 +76,7 @@ compounds:
   name: Zinc ion
   # lower: -0.000513573
   upper: 1000
-- id: C00034
+- id: C19610
   name: Manganese ion
   lower: -0.000505306
   upper: 1000
@@ -152,3 +152,11 @@ compounds:
   name: CO
   lower: 0
   upper: 1000
+- id: C02917
+  name: (S)-1,2-Propanediol
+  lower: 0
+  upper: 1000
+# - id: C00760_kz
+#   name: Cellulose(n=218)
+#   lower: -25
+#   upper: 1000
