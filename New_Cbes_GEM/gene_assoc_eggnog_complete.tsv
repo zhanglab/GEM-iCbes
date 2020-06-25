@@ -43,25 +43,25 @@ R03947	Athe_1196	peg.1681	WP_015907690.1	Porphyrin and chlorophyll metabolism
 R02864	Athe_1196	peg.1681	WP_015907690.1	Porphyrin and chlorophyll metabolism
 R03194	Athe_1199	peg.1685	WP_015907693.1	Porphyrin and chlorophyll metabolism
 R07238	Athe_1199	peg.1685	WP_015907693.1	-
-trehABC	Athe_1803 and Athe_0399 and Athe_0400 and Athe_0401	peg.2315 and peg.814 and peg.815 and peg.816	WP_015908194.1 and WP_015906998.1 and WP_015906999.1 and WP_015907000.1	Transport
-kojABC	Athe_1803 and Athe_0399 and Athe_0400 and Athe_0401	peg.2315 and peg.814 and peg.815 and peg.816	WP_015908194.1 and WP_015906998.1 and WP_015906999.1 and WP_015907000.1	Transport
-Zn2efflux	Athe_0589	peg.1022	WP_015907168.1	-
-Co2efflux	Athe_0589	peg.1022	WP_015907168.1	-
-Cd2efflux	Athe_0589	peg.1022	WP_015907168.1	-
-piH	Athe_0756	peg.1212	WP_015907309.1	-
-GlcnABC	(Athe_0847 or Athe_0849) and Athe_0850 and Athe_0851	(peg.1307 or peg.1309) and peg.1310 and peg.1311	(WP_015907390.1 or WP_015907392.1) and WP_015907393.1 and WP_013430735.1	-
+trehABC	Athe_1803 and Athe_0399 and Athe_0400 and Athe_0401	peg.2315 and peg.814 and peg.815 and peg.816	WP_015908194.1 and WP_015906998.1 and WP_015906999.1 and WP_015907000.1	Sugar metabolism
+kojABC	Athe_1803 and Athe_0399 and Athe_0400 and Athe_0401	peg.2315 and peg.814 and peg.815 and peg.816	WP_015908194.1 and WP_015906998.1 and WP_015906999.1 and WP_015907000.1	Sugar metabolism
+Zn2efflux	Athe_0589	peg.1022	WP_015907168.1	Transport
+Co2efflux	Athe_0589	peg.1022	WP_015907168.1	Transport
+Cd2efflux	Athe_0589	peg.1022	WP_015907168.1	Transport
+piH	Athe_0756	peg.1212	WP_015907309.1	Transport
+GlcnABC	(Athe_0847 or Athe_0849) and Athe_0850 and Athe_0851	(peg.1307 or peg.1309) and peg.1310 and peg.1311	(WP_015907390.1 or WP_015907392.1) and WP_015907393.1 and WP_013430735.1	Sugar metabolism
 EpxqR	Athe_1117	peg.1598	WP_041727125.1	Queuosine biosynthesis
 R02240	Athe_1275	peg.1762	WP_015907759.1	Glycerolipid metabolism
 leuABC	Athe_1384 and Athe_1385 and Athe_1386 and Athe_1387 and (Athe_1388 or Athe_0523)	peg.1875 and peg.1876 and peg.1877 and peg.1878 and peg.1879 and (peg.1880 or peg.954)	WP_015907853.1 and WP_015907854.1 and WP_015907855.1 and WP_015907856.1 and (WP_015907857.1 or WP_015907108.1)	Transport
 ileABC	Athe_1384 and Athe_1385 and Athe_1386 and Athe_1387 and (Athe_1388 or Athe_0523)	peg.1875 and peg.1876 and peg.1877 and peg.1878 and peg.1879 and (peg.1880 or peg.954)	WP_015907853.1 and WP_015907854.1 and WP_015907855.1 and WP_015907856.1 and (WP_015907857.1 or WP_015907108.1)	Transport
 valABC	Athe_1384 and Athe_1385 and Athe_1386 and Athe_1387 and (Athe_1388 or Athe_0523)	peg.1875 and peg.1876 and peg.1877 and peg.1878 and peg.1879 and (peg.1880 or peg.954)	WP_015907853.1 and WP_015907854.1 and WP_015907855.1 and WP_015907856.1 and (WP_015907857.1 or WP_015907108.1)	Transport
-ARSt1	Athe_1933	peg.2452	WP_015908311.1	-
-ANTIMt1	Athe_1933	peg.2452	WP_015908311.1	-
-ARSNAt1	Athe_1933	peg.2452	WP_015908311.1	-
+ARSt1	Athe_1933	peg.2452	WP_015908311.1	Transport
+ANTIMt1	Athe_1933	peg.2452	WP_015908311.1	Transport
+ARSNAt1	Athe_1933	peg.2452	WP_015908311.1	Transport
 posABC	Athe_1803 and ((Athe_2030 and Athe_2031 and (Athe_2029 or Athe_2032)) or (Athe_2330 and Athe_2331 and Athe_2332))	peg.2315 and ((peg.2576 and peg.2577 and (peg.2575 or peg.2578)) or (peg.2905 and peg.2906 and peg.2907))	WP_015908194.1 and ((WP_015908391.1 and WP_015908392.1 and (WP_015908390.1 or WP_015908393.1)) or (WP_015908655.1 and WP_015908656.1 and WP_013429291.1))	Sugar metabolism
-malateT	Athe_2212	peg.2774	WP_015908547.1	-
-inosABC	Athe_2331 and Athe_2332	peg.2906 and peg.2907	WP_015908656.1 and WP_013429291.1	-
-Lac-symp	Athe_2355	peg.2931	WP_015908679.1	-
+malateT	Athe_2212	peg.2774	WP_015908547.1	Transport
+inosABC	Athe_2331 and Athe_2332	peg.2906 and peg.2907	WP_015908656.1 and WP_013429291.1	Transport
+Lac-symp	Athe_2355	peg.2931	WP_015908679.1	Transport
 R01433_kz	(Athe_0184 or Athe_0187 or Athe_2354) and (Athe_2722 or Athe_2723)	(peg.581 or peg.584 or peg.2930) and (peg.328 or peg.329)	(WP_015906808.1 or - or WP_015908678.1) and (WP_015909018.1 or WP_015909019.1)	Sugar metabolism
 QueA	Athe_0245	peg.644	WP_015906863.1	-
 R11719	Athe_0440	peg.860	WP_015907035.1	-
@@ -80,7 +80,7 @@ R01799	Athe_1811	peg.2323	WP_015908202.1	-
 R01625	Athe_1906	peg.2422	WP_015908288.1	-
 R04519	Athe_2648	peg.204	WP_015908958.1	-
 R06178	Athe_2648	peg.204	WP_015908958.1	-
-AXE	Athe_0152	peg.547	WP_015906781.1	-
+AXE	Athe_0152	peg.547	WP_015906781.1	Sugar metabolism
 R09592	Athe_0527	peg.958	WP_015907111.1	-
 R09593	Athe_0527	peg.958	WP_015907111.1	-
 R07161	(Athe_1506 and Athe_1505) or (Athe_1009 and Athe_1008)	(peg.1999 and peg.1998) or (peg.1489 and peg.1488)	(WP_015907959.1 and WP_015907958.1) or (WP_015907524.1 and WP_015907523.1)	-

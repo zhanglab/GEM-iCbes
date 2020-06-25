@@ -529,7 +529,7 @@ R00431	Athe_0393	peg.808	WP_015906992.1	Glycolysis / Gluconeogenesis
 R00726	Athe_0393	peg.808	WP_015906992.1	Glycolysis / Gluconeogenesis
 R00258				Alanine, aspartate and glutamate metabolism
 R02282				Arginine biosynthesis
-NMPK				Others
+NMPK				Purine metabolism
 hco3				Ionization
 nh4				Ionization
 TP_H2				Transport
@@ -542,3 +542,13 @@ TECA1S45_Cbes	Athe_0835 and Athe_2062 and Athe_0053	peg.1295 and peg.2608 and pe
 TECA2S45_Cbes	Athe_0835 and Athe_2062 and Athe_0053	peg.1295 and peg.2608 and peg.433	WP_015907378.1 and  WP_015908418.1 and WP_012660725.1	Cell Envelope Biosynthesis
 TECA3S45_Cbes	Athe_0835 and Athe_2062 and Athe_0053	peg.1295 and peg.2608 and peg.433	WP_015907378.1 and  WP_015908418.1 and WP_012660725.1	Cell Envelope Biosynthesis
 R02110_kz	Athe_0558	peg.990	WP_015907139.1	Starch and sucrose metabolism
+TP_CO				Transport
+Acetoin-t				Transport
+R00217				Pyruvate metabolism
+sink_dads				Thiamine metabolism
+manABC				Transport
+melibABC				Transport
+lacABC				Transport
+rhaABC				Transport
+fucABC				Transport
+12PD_TP				Transport
