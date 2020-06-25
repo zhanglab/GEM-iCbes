@@ -1,3 +1,4 @@
+# modified DSMZ 516 medium version 1
 compartment: e
 compounds:
 - id: C00001
@@ -70,11 +71,9 @@ compounds:
   upper: 1000
 - id: C14818
   name: Ferrous ion
-  # lower: -0.007544892
   upper: 1000
 - id: C00038
   name: Zinc ion
-  # lower: -0.000513573
   upper: 1000
 - id: C19610
   name: Manganese ion
@@ -156,7 +155,7 @@ compounds:
   name: (S)-1,2-Propanediol
   lower: 0
   upper: 1000
-# - id: C00760_kz
-#   name: Cellulose(n=218)
-#   lower: -25
-#   upper: 1000
+- id: C00760_kz
+  name: Cellulose(n=218)
+  lower: -25
+  upper: 1000

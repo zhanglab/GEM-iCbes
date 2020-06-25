@@ -1,4 +1,4 @@
-# based on medium DF25
+# based on medium DG25
 compartment: e
 compounds:
 - id: C00001
@@ -15,7 +15,6 @@ compounds:
   upper: 1000.0
 - id: C00038
   name: Zinc ion
-  # lower: -0.000514
   upper: 1000.0
 - id: C00070
   name: copper ion
@@ -31,7 +30,6 @@ compounds:
   upper: 1000.0
 - id: C00106
   name: uracil
-  # lower: -0.02
   upper: 1000.0
 - id: C00120
   name: Biotin
@@ -119,7 +117,6 @@ compounds:
   upper: 1000.0
 - id: C14818
   name: Ferrous ion
-  # lower: -0.007545
   upper: 1000.0
 - id: C19609
   name: nickel ion
@@ -133,24 +130,10 @@ compounds:
   name: Acetate
   lower: 0
   upper: 1000.0
-  # lower: 7.29    # WT-Glc
-  # upper: 7.29    # WT-Glc
-  # lower: 6.01    # WT-Fru
-  # upper: 6.01    # WT-Fru
-  # lower: 19.72   # dLDH-Glc
-  # upper: 19.72   # dLDH-Glc
-  # lower: 11.94   # dLDH-Fru
-  # upper: 11.94   # dLDH-Fru
 - id: C00186
   name: L-Lactate
   lower: 0
   upper: 1000.0
-  # lower: 22.00    # WT-Glc
-  # upper: 22.00    # WT-Glc
-  # lower: 10.03    # WT-Fru
-  # upper: 10.03    # WT-Fru
-  # lower: 0        # dLDH-Glc or dLDH-Fru
-  # upper: 0        # dLDH-Glc or dLDH-Fru
 - id: C00011
   name: CO2
   lower: 0
@@ -167,24 +150,6 @@ compounds:
   name: Acetoin
   lower: 0
   upper: 1000.0
-  # lower: 0.13   # WT-Glc or WT-Fru
-  # upper: 0.13   # WT-Glc or WT-Fru
-  # lower: 1.43   # dLDH-Glc
-  # upper: 1.43   # dLDH-Glc
-  # lower: 0.49   # dLDH-Fru
-  # upper: 0.49   # dLDH-Fru
-# - id: C01013
-#   name: 3-Hydroxypropanoate
-#   lower: 0
-#   upper: 1000
-# - id: C00207
-#   name: Acetone
-#   lower: 0
-#   upper: 1000
-# - id: C03044
-#   name: 2,3-butanediol
-#   lower: 0
-#   upper: 1000
 - id: C00237
   name: CO
   lower: 0
@@ -193,146 +158,7 @@ compounds:
   name: (S)-1,2-Propanediol
   lower: 0
   upper: 1000
-
-# test different carbon source
-# - id: C00031
-#   name: D-glucose
-#   lower: -25.0
-#   upper: 1000.0
-#   lower: 4.66
-#   upper: 4.66
-#   lower: -10.0    # MACB1034 (dLDH) uptake
-#   lower: -25.0  # MACB1058 (dLDH+AdhE)
-#   lower: -24.5  #MACB1062 (dLDH+AdhE+Rnf)
-#   lower: -16.83   # WT-Glc-32h
-#   upper: -16.83   # WT-Glc-32h
-#   lower: -13.54 # WT-Glc-20h
-#   upper: -13.54 # WT-Glc-20h
-#   lower: -12.76   # dLDH-Glc-32h
-#   upper: -12.76   # dLDH-Glc-32h
-#   lower: -8.36   # dLDH-Glc-20h
-#   upper: -8.36   # dLDH-Glc-20h
-# - id: C00095
-#   name: fructose
-#   lower: -25.0
-#   upper: 1000.0
-#   lower: -7.671996359
-#   upper: -7.671996359
-#   lower: -11.11  # WT-Fru-32h
-#   upper: -11.11  # WT-Fru-32h
-#   lower: -7.8  # WT-Fru-20h
-#   upper: -7.8  # WT-Fru-20h
-#   lower: -10.0   # dLDH-Fru-32h
-#   upper: -10.0   # dLDH-Fru-32h
-#   lower: -7.67  # dLDH-Fru-20h
-#   upper: -7.67  # dLDH-Fru-20h
-# - id: C00181
-#   name: D-xylose
-#   lower: -25.0
-#   upper: 1000.0
-# - id: C00185
-#   name: Cellobiose
-#   lower: -25.0
-#   upper: 1000.0
-# - id: C00760_kz
-#   name: Cellulose(n=8)
-#   lower: -25
-#   upper: 1000.0
-#   lower: -8.972428   # 11.8g/L is equal to 8.972428 mM
-#   upper: -8.972428
-#   lower: -15.20750643  # Based on 20g/L cellulose input from literature 30009131
-#   lower: -8.59224        # based on 11.3-11.8g/L (11.3g/L is equal to 8.59224mM) cellulose consumed by Cbes in literature: PMID 30009131
-#   upper: -8.59224
-#   lower: -26.7         # carbon input used by Clostridium thermocellum to produce 26.7 ± 0.9 g/L ethanol (~580mM) from 95 g/L Avicel: PMID 27257435
-# - id: C02492
-#   name: 1,4-beta-D-Mannan(n=8)
-#   lower: -25.0
-#   upper: 1000.0
-# - id: C00707_kz
-#   name: Xylan
-#   lower: -25.0
-#   upper: 1000.0
-# - id: XGOS-xxxg
-#   name: XXXG-xyloglucan-oligosaccharides
-#   lower: -25.0
-#   upper: 1000.0
-# - id: XGOS-xllg
-#   name: XLLG-xyloglucan-oligosaccharides
-#   lower: -25.0
-#   upper: 1000.0
-# - id: C00124
-#   name: D-Galactose
-#   lower: -25.0
-#   upper: 1000.0
-# - id: C00208
-#   name: Maltose
-#   lower: -25.0
-#   upper: 1000.0
-# - id: C01935
-#   name: Maltodextrin(n=4)
-#   lower: -25.0
-#   upper: 1000.0
-# - id: C00369_kz
-#   name: Starch
-#   lower: -25.0
-#   upper: 1000.0
-# - id: C00182_kz
-#   name: Glycogen
-#   lower: -25.0
-#   upper: 1000.0
-# - id: C00259
-#   name: L-Arabinose
-#   lower: -25.0
-#   upper: 1000.0
-# - id: C00392
-#   name: Mannitol
-#   lower: -25.0
-#   upper: 1000.0
-# - id: C00507
-#   name: L-Rhamnose
-#   lower: -25.0
-#   upper: 1000.0
-# - id: C01019
-#   name: L-Fucose (6-Deoxy-L-galactose)
-#   lower: -25
-#   upper: 1000
-# - id: C02013
-#   name: Cellotetraose
-#   lower: -25
-#   upper: 1000
-# - id: C00470_kz
-#   name: Pectate
-#   lower: -25
-#   upper: 1000
-#   comment: pectin derived compound
-# - id: C00718_kz
-#   name: Amylose(n=8)
-#   lower: -25
-#   upper: 1000
-#   comment: alpha-1,4-glucans
-# - id: C00372_kz
-#   name: 1,6-alpha-D-Glucan(n=4)
-#   lower: -25
-#   upper: 1000
-#   comment: alpha-1,6-glucans
-# - id: POS2
-#   name: pectin oligosaccharides 2(rhamnose-glucuronate)
-#   lower: -25
-#   upper: 1000
-
-# - id: C00243
-#   name: Lactose
-#   lower: -25
-#   upper: 1000
-# - id: C00159
-#   name: mannose
-#   lower: -25
-#   upper: 1000
-# - id: C05402
-#   name: melibiose
-#   lower: -25
-#   upper: 1000
-# - id: C01083
-#   name: trehalose
-#   lower: -25
-#   upper: 1000
+- id: C00031
+  name: D-glucose
+  lower: -25.0
+  upper: 1000.0

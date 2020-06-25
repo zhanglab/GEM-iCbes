@@ -1,6 +1,7 @@
 id	genes	genes_peg	genes_wp	subsystem
 R11307_kz	Athe_1866 or Athe_1857 or Athe_1859 or Athe_1867 or Athe_0594	peg.2376 or peg.2377 or peg.2379 or peg.2380 or peg.1027	WP_015908249.1 or WP_015908240.1 or WP_015908242.1 or WP_015908250.1 or WP_015907173.1	Sugar metabolism
 R11308_kz	Athe_1866 or Athe_1857 or Athe_1859 or Athe_1867 or Athe_0594	peg.2376 or peg.2377 or peg.2379 or peg.2380 or peg.1027	WP_015908249.1 or WP_015908240.1 or WP_015908242.1 or WP_015908250.1 or WP_015907173.1	Sugar metabolism
+R11308_kz2	Athe_1866 or Athe_1857 or Athe_1859 or Athe_1867 or Athe_0594	peg.2376 or peg.2377 or peg.2379 or peg.2380 or peg.1027	WP_015908249.1 or WP_015908240.1 or WP_015908242.1 or WP_015908250.1 or WP_015907173.1	Sugar metabolism
 CelF	Athe_1860	peg.2370	WP_015908243.1	Sugar metabolism
 R02887_kz	Athe_0458	peg.878	WP_015907053.1	Sugar metabolism
 R08612_kz	Athe_1865 or Athe_1866 or Athe_1859	peg.2375 or peg.2376 or peg.2379	WP_015908248.1 or WP_015908249.1 or WP_015908242.1	Sugar metabolism

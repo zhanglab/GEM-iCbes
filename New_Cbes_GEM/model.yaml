@@ -34,12 +34,12 @@ reactions:
 - include: spontaneous.yaml
 - include: gapfill.yaml
 - include: genetic-engineering.yaml
-# - include: test.yaml
 exchange:
-- include: exchange.yaml
-# - include: exchange_DSMZ516.yaml
-# - include: exchange_Ethanol.yaml
-# limits:
-# - include: limits.yaml
+- include: EX_DG25.tsv # used to test the growth and product yields of wild-type and dldh strain grown onglucose & fructose
+  format: tsv
+# - include: EX_modified_DSMZ516_v1.tsv # used to test the growth yields of wild-type strain grown on cellulose
+#   format: tsv
+# - include: EX_modified_DSMZ516_v2.tsv # used to test the ethanol production of MACB1062 strain grown on cellulose
+#   format: tsv
 model:
 - include: model_def.tsv

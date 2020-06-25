@@ -5,7 +5,7 @@ R03634	Athe_1104 or Athe_0468	peg.1585 or peg.888	WP_015907610.1 or WP_015907063
 R05549	Athe_1104 or Athe_0468	peg.1585 or peg.888	WP_015907610.1 or WP_015907063.1	Galactose metabolism
 R07413	Athe_1569 or Athe_2028	peg.2066 or peg.2574	WP_015908011.1 or WP_015908389.1	Pentose and glucuronate interconversions
 R10949	Athe_1540 and (Athe_1541 or Athe_1378)	peg.2035 and (peg.2036 or peg.1868)	WP_015907985.1 and (WP_015907986.1 or WP_015907847.1)	-
-R01196	(Athe_1708 or Athe_1709) or (Athe_0874 and Athe_0875 and Athe_0876 and Athe_0877)	(peg.2217 or peg.2218) or (peg.1337 and peg.1338 and peg.1339 and peg.1340)	(WP_015908131.1 or WP_015908132.1) or (WP_015907411.1 and WP_013290123.1 and WP_015907412.1 and WP_015907413.1)	Glycolysis / Gluconeogenesis
+R01196	(Athe_1708 and Athe_1709) or (Athe_0874 and Athe_0875 and Athe_0876 and Athe_0877)	(peg.2217 and peg.2218) or (peg.1337 and peg.1338 and peg.1339 and peg.1340)	(WP_015908131.1 and WP_015908132.1) or (WP_015907411.1 and WP_013290123.1 and WP_015907412.1 and WP_015907413.1)	Glycolysis / Gluconeogenesis
 R01199	(Athe_1708 or Athe_1709) or (Athe_0874 and Athe_0875 and Athe_0876 and Athe_0877)	(peg.2217 or peg.2218) or (peg.1337 and peg.1338 and peg.1339 and peg.1340)	(WP_015908131.1 or WP_015908132.1) or (WP_015907411.1 and WP_013290123.1 and WP_015907412.1 and WP_015907413.1)	Propanoate metabolism
 R07641	Athe_1540 and (Athe_1541 or Athe_1378)	peg.2035 and (peg.2036 or peg.1868)	WP_015907985.1 and (WP_015907986.1 or WP_015907847.1)	-
 R00868	Athe_0537	peg.968	WP_015907121.1	Fructose and mannose metabolism

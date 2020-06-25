@@ -1,3 +1,4 @@
+# modified DSMZ 516 medium version 2
 compartment: e
 compounds:
 - id: C00001
@@ -70,11 +71,9 @@ compounds:
   upper: 1000
 - id: C14818
   name: Ferrous ion
-  # lower: -0.007544892
   upper: 1000
 - id: C00038
   name: Zinc ion
-  # lower: -0.000513573
   upper: 1000
 - id: C19610
   name: Manganese ion
@@ -122,7 +121,6 @@ compounds:
   upper: 1000
 - id: C00106
   name: uracil
-  # lower: -0.02
   upper: 1000
 - id: C00186
   name: L-Lactate
@@ -160,10 +158,10 @@ compounds:
   name: (S)-1,2-Propanediol
   lower: 0
   upper: 1000
-# - id: C00760_kz
-#   name: Cellulose(n=218)
-#   lower: -25
-#   upper: 1000
+- id: C00760_kz
+  name: Cellulose(n=218)
+  lower: -25
+  upper: 1000
 - id: C00031
   name: D-Glucose
   lower: 0
