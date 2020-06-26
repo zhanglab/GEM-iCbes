@@ -1,238 +1,324 @@
 - id: cysT
   name: Cysteine transport via proton symport
   equation: C00097[e] + C00080[e] => C00097[c] + C00080[c]
+  type: Gene-associated
 - id: lipoateT
   name: Lipoate transport
   equation: C00725[e] <=> C00725[c]
+  type: Gene-associated
 - id: borateT
   name: H3BO3 transport
   equation: C12486[e] <=> C12486[c]
+  type: Gene-associated
 - id: clT
   name: Chloride (Cl-) transport
   equation: C00698[e] <=> C00698[c]
+  type: Gene-associated
 - id: MgtE
   name: Mg2+ Transporter
   equation: C00305[e] => C00305[c]
   tc: 1.A.26.1
+  type: Gene-associated
 - id: TrkH
   name: potassium uptake
   equation: C00238[e] + C00080[e] => C00238[c] + C00080[c]
   tc: 2.A.38.1.4
+  type: Gene-associated
 - id: nh4t
   name: Ammonium transporter (Ion Channel)
   equation: C01342[e] <=> C01342[c]
   tc: 1.A.11.1
+  type: Gene-associated
 - id: CaNaEx
   name: Sodium/calcium exchanger
   equation: C00076[e] + (3) C01330[c] <=> C00076[c] + (3) C01330[e]
   tc: 2.A.19.5
+  type: Gene-associated
 - id: MgCaAT
   name: Mg2+/Ca2+ ATPase antiporter (Mg2+ uptake and Ca2+ efflux)
   equation: C00076[c] + C00305[e] + C00002[c] + C00001[c] => C00076[e] + C00305[c]
     + C00008[c] + C00009[c] + C00080[c]
   tc: 3.A.3.2.28
+  type: Gene-associated
 - id: caEfflux
   name: Calcium-translocating P-type ATPase, PMCA-type
   equation: C00076[c] + (2) C00080[e] + C00002[c] + C00001[c] => C00076[e] + (2)
     C00080[c] + C00008[c] + C00009[c] + C00080[c]
   PMID: 21421919
   tc: 3.A.3.2.21
+  type: Gene-associated
 - id: wo4ABC
   name: Tungstate uptake vis ABC system
-  equation: C20679[e] + C00002[c] + C00001[c] => C20679[c] + C00008[c] + C00009[c] + C00080[c]
+  equation: C20679[e] + C00002[c] + C00001[c] => C20679[c] + C00008[c] + C00009[c]
+    + C00080[c]
   tc: 3.A.1.6.2
+  type: Gene-associated
 - id: znABC
   name: Zinc uptake via ABC system
-  equation: C00038[e] + C00002[c] + C00001[c] => C00038[c] + C00008[c] + C00009[c] + C00080[c]
+  equation: C00038[e] + C00002[c] + C00001[c] => C00038[c] + C00008[c] + C00009[c]
+    + C00080[c]
   PMID: 28596134(3.A.1.15.3, AdcABC); 12426338(3.A.1.15.11, Zinc uptake)
   tc: 3.A.1.15
+  type: Gene-associated
 - id: MntH
   name: Manganese transport
   equation: C19610[e] + C00080[e] => C19610[c] + C00080[c]
   tc: 2.A.55.2.6
+  type: Gene-associated
 - id: coUpt
   name: cobalt cation (Co2+) uptake
   equation: C00175[e] => C00175[c]
   PMID: 15716430
   tc: 2.A.5.5.1
+  type: Gene-associated
 - id: znUpt
   name: Zinc(II) ion permease (uptake)
   equation: C00038[e] => C00038[c]
   PMID: 15716430
   tc: 2.A.5.5.1
+  type: Gene-associated
 - id: fe2Upt
   name: Ferrous ion (Fe2+) permease (uptake)
   equation: C14818[e] => C14818[c]
   PMID: 15716430
   tc: 2.A.5.5.1
+  type: Gene-associated
 - id: mnUpt
   name: Manganese cation (Mn2+) permease (uptake)
   equation: C19610[e] => C19610[c]
   PMID: 15716430
   tc: 2.A.5.5.1
+  type: Gene-associated
 - id: znEfflux
   name: Zn2+ exporting P-type ATPase
-  equation: C00038[c] + C00001[c] + C00002[c] => C00038[e] + C00008[c] + C00009[c] + C00080[c]
+  equation: C00038[c] + C00001[c] + C00002[c] => C00038[e] + C00008[c] + C00009[c]
+    + C00080[c]
   PMID: 12779235
   tc: 3.A.3.6.10
+  type: Gene-associated
 - id: coEfflux
   name: Co2+ exporting P-type ATPase
-  equation: C00175[c] + C00001[c] + C00002[c] => C00175[e] + C00008[c] + C00009[c] + C00080[c]
+  equation: C00175[c] + C00001[c] + C00002[c] => C00175[e] + C00008[c] + C00009[c]
+    + C00080[c]
   PMID: 12779235
   tc: 3.A.3.6.10
+  type: Gene-associated
 - id: cuEfflux
   name: copper(II)(Cu2+) export ATPase
-  equation: C00070[e] + C00002[c] + C00001[c] => C00070[c] + C00008[c] + C00009[c] + C00080[c]
+  equation: C00070[e] + C00002[c] + C00001[c] => C00070[c] + C00008[c] + C00009[c]
+    + C00080[c]
   PMID: 16151212
   tc: 3.A.3.5.15
+  type: Gene-associated
 - id: niUpt
   name: nickel (II) uptake
-  equation: C19609[e] + C00002[c] + C00001[c] => C19609[c] + C00008[c] + C00009[c] + C00080[c]
+  equation: C19609[e] + C00002[c] + C00001[c] => C19609[c] + C00008[c] + C00009[c]
+    + C00080[c]
   PMID: 24366337
   tc: 3.A.1.23.5
+  type: Gene-associated
 - id: moABC
   name: molybdate transport via ABC system
-  equation: C06232[e] + C00002[c] + C00001[c] => C06232[c] + C00008[c] + C00009[c] + C00080[c]
+  equation: C06232[e] + C00002[c] + C00001[c] => C06232[c] + C00008[c] + C00009[c]
+    + C00080[c]
   tc: 3.A.1.14.11
+  type: Gene-associated
 - id: fe2t
   name: Ferrous iron (Fe2+) uptake system, FeoB
-  equation: C14818[e] + C00044[c] + C00001[c] => C14818[c] + C00035[c] + C00009[c] + C00080[c]
+  equation: C14818[e] + C00044[c] + C00001[c] => C14818[c] + C00035[c] + C00009[c]
+    + C00080[c]
   PMID: 26684538
   tc: 9.A.8.1.14
+  type: Gene-associated
 - id: piABC
   name: Phosphate transport via ABC system
   equation: C00009[e] + C00002[c] + C00001[c] => (2) C00009[c] + C00008[c] + C00080[c]
   PMID: 24318969
   tc: 3.A.1.7.5
+  type: Gene-associated
 - id: pit
   name: inorganic phosphate uptake porter (Low affinity)
   equation: C00009[e] + C01330[e] => C00009[c] + C01330[c]
   tc: 2.A.20.1
+  type: Gene-associated
 - id: hco3ABC
   name: bicarbonate uptake via ABC system
-  equation: C00288[e] + C00002[c] + C00001[c] => C00288[c] + C00008[c] + C00009[c] + C00080[c]
+  equation: C00288[e] + C00002[c] + C00001[c] => C00288[c] + C00008[c] + C00009[c]
+    + C00080[c]
   tc: 3.A.1.16.3
+  type: Gene-associated
 - id: uraUpt
   name: Uracil uptake
   equation: C00106[e] + C00080[e] => C00106[c] + C00080[c]
   PMID: 21423164
   tc: 2.A.40.1.1
+  type: Gene-associated
 - id: ATPSYN
   name: H+ dependent F0F1 ATP synthase
   equation: (4) C00080[c] + C00002[c] + C00001[c] <=> (5) C00080[e] + C00008[c] +
     C00009[c]
-  tc: 3.A.2.1.5
   PMID: 31097544, 26536872, 8905099, 16816177
+  tc: 3.A.2.1.5
+  type: Gene-associated
 - id: RibU
   name: riboflavin uptake (ECF)
-  equation: C00255[e] + C00002[c] + C00001[c] => C00255[c] + C00008[c] + C00009[c] + C00080[c]
+  equation: C00255[e] + C00002[c] + C00001[c] => C00255[c] + C00008[c] + C00009[c]
+    + C00080[c]
   PMID: 16585736, 23359690
   tc: 2.A.87.1.3
+  type: Gene-associated
 - id: BioY
   name: biotin uptake (ECF)
   equation: C00120[e] + C00080[c] => C00120[c] + C00080[e]
   PMID: 23836870, 17301237, 23359690
   tc: 3.A.1.25.5
+  type: Gene-associated
 - id: FolT
   name: folate uptake (ECF)
-  equation: C00504[e] + C00002[c] + C00001[c] => C00504[c] + C00008[c] + C00009[c] + C00080[c]
+  equation: C00504[e] + C00002[c] + C00001[c] => C00504[c] + C00008[c] + C00009[c]
+    + C00080[c]
   tc: 3.A.1.26.10
+  type: Gene-associated
 - id: PdxU2
   name: pyridoxin(VB6) uptake (ECF)
-  equation: C00314[e] + C00002[c] + C00001[c] => C00314[c] + C00008[c] + C00009[c] + C00080[c]
+  equation: C00314[e] + C00002[c] + C00001[c] => C00314[c] + C00008[c] + C00009[c]
+    + C00080[c]
+  type: Gene-associated
 - id: R03232
   name: fructose uptake (PTS system)
   equation: C04261[c] + C00095[e] => C00615[c] + C01094[c]
   ec: 2.7.1.202
+  type: Gene-associated
 - id: ThiT
   name: Thiamine uptake (ECF)
   equation: C00378[e] + C00080[c] => C00378[c] + C00080[e]
   PMID: 18776013
   tc: 2.A.88.3.2
+  type: Gene-associated
 - id: 4ABZt2r
   name: 4-Aminobenzoate transport via symport
   equation: C00568[e] + C00080[e] <=> C00568[c] + C00080[c]
+  type: Gene-associated
 - id: NACUP
   name: Nicotinic acid uptake
   equation: C00253[e] => C00253[c]
+  type: Gene-associated
 - id: PNTOt2
   name: Pantothenate reversible transport via proton symport
   equation: C00080[e] + C00864[e] <=> C00080[c] + C00864[c]
+  type: Gene-associated
 - id: ETOHt1
   name: ethanol transport in/out via diffusion
   equation: C00469[c] <=> C00469[e]
+  type: Gene-associated
 - id: ACt6
   name: acetate transport in/out via proton symport
   equation: C00033[c] + C00080[c] <=> C00033[e] + C00080[e]
+  type: Gene-associated
 - id: L-LACt2
   name: L-lactate reversible transport via proton symport
   equation: C00080[c] + C00186[c] <=> C00080[e] + C00186[e]
+  type: Gene-associated
 - id: vb12ABC
   name: Vitamin B12 uptake via ABC system
-  equation: C05776[e] + C00002[c] + C00001[c] => C05776[c] + C00008[c] + C00009[c] + C00080[c]
+  equation: C05776[e] + C00002[c] + C00001[c] => C05776[c] + C00008[c] + C00009[c]
+    + C00080[c]
   tc: 3.A.1.13.1
+  type: Gene-associated
 - id: XyloseABC
   name: D-xylose transport via ABC system
-  equation: C00001[c] + C00002[c] + C00181[e] => C00008[c] + C00009[c] + C00181[c] + C00080[c]
+  equation: C00001[c] + C00002[c] + C00181[e] => C00008[c] + C00009[c] + C00181[c]
+    + C00080[c]
   tc: 3.A.1.2
+  type: Gene-associated
 - id: GlcABC
   name: D-glucose transport via ABC system
-  equation: C00001[c] + C00002[c] + C00031[e] => C00008[c] + C00009[c] + C00031[c] + C00080[c]
+  equation: C00001[c] + C00002[c] + C00031[e] => C00008[c] + C00009[c] + C00031[c]
+    + C00080[c]
   tc: 3.A.1.2
+  type: Gene-associated
 - id: GaltABC
   name: Galactose transport via ABC system
-  equation: C00001[c] + C00002[c] + C00124[e] => C00008[c] + C00009[c] + C00124[c] + C00080[c]
+  equation: C00001[c] + C00002[c] + C00124[e] => C00008[c] + C00009[c] + C00124[c]
+    + C00080[c]
   tc: 3.A.1.2
-# - id: FruABC
-#   name: D-Fructose transport via ABC system
-#   equation: C00001[c] + C00002[c] + C00095[e] => C00008[c] + C00009[c] + C00095[c] + C00080[c]
-#   tc: 3.A.1.2
+  type: Gene-associated
 - id: ArabABC
   name: Arabinose transport via ABC system
-  equation: C00001[c] + C00002[c] + C00259[e] => C00008[c] + C00009[c] + C00259[c] + C00080[c]
+  equation: C00001[c] + C00002[c] + C00259[e] => C00008[c] + C00009[c] + C00259[c]
+    + C00080[c]
   tc: 3.A.1.2
+  type: Gene-associated
 - id: b-XysABC
   name: beta-xyloside transport via ABC system
-  equation: C00001[c] + C00002[c] + C02337[e] => C00008[c] + C00009[c] + C02337[c] + C00080[c]
+  equation: C00001[c] + C00002[c] + C02337[e] => C00008[c] + C00009[c] + C02337[c]
+    + C00080[c]
+  type: Gene-associated
 - id: celbABC
   name: cellobiose transport via ABC system
-  equation: C00185[e] + C00002[c] + C00001[c] => C00185[c] + C00008[c] + C00009[c] + C00080[c]
+  equation: C00185[e] + C00002[c] + C00001[c] => C00185[c] + C00008[c] + C00009[c]
+    + C00080[c]
+  type: Gene-associated
 - id: cosABC
   name: cellulose oligosaccharides (Cellotetraose) transport via ABC system
-  equation: C02013[e] + C00002[c] + C00001[c] => C02013[c] + C00008[c] + C00009[c] + C00080[c]
+  equation: C02013[e] + C00002[c] + C00001[c] => C02013[c] + C00008[c] + C00009[c]
+    + C00080[c]
+  type: Gene-associated
 - id: mosABC
   name: mannose oligosaccharides transport via ABC system
-  equation: C17207_kz[e] + C00002[c] + C00001[c] => C17207_kz[c] + C00008[c] + C00009[c] + C00080[c]
+  equation: C17207_kz[e] + C00002[c] + C00001[c] => C17207_kz[c] + C00008[c] + C00009[c]
+    + C00080[c]
+  type: Gene-associated
 - id: xosABC
   name: Xylan oligosaccharides transport via ABC system
   equation: XOS[e] + C00002[c] + C00001[c] => XOS[c] + C00008[c] + C00009[c] + C00080[c]
+  type: Gene-associated
 - id: xgosABC-1
   name: XXXG Xyloglucan oligosaccharides transport via ABC system
-  equation: XGOS-xxxg[e] + C00002[c] + C00001[c] => XGOS-xxxg[c] + C00008[c] + C00009[c] + C00080[c]
+  equation: XGOS-xxxg[e] + C00002[c] + C00001[c] => XGOS-xxxg[c] + C00008[c] + C00009[c]
+    + C00080[c]
+  type: Gene-associated
 - id: xgosABC-2
   name: XLLG Xyloglucan oligosaccharides transport via ABC system
-  equation: XGOS-xllg[e] + C00002[c] + C00001[c] => XGOS-xllg[c] + C00008[c] + C00009[c] + C00080[c]
+  equation: XGOS-xllg[e] + C00002[c] + C00001[c] => XGOS-xllg[c] + C00008[c] + C00009[c]
+    + C00080[c]
+  type: Gene-associated
 - id: axosABC
   name: Arabinoxylan oligosaccharides transport via ABC system
-  equation: AXOS[e] + C00002[c] + C00001[c] => AXOS[c] + C00008[c] + C00009[c] + C00080[c]
+  equation: AXOS[e] + C00002[c] + C00001[c] => AXOS[c] + C00008[c] + C00009[c] +
+    C00080[c]
+  type: Gene-associated
 - id: malABC
   name: Maltose transport via ABC system
-  equation: C00208[e] + C00002[c] + C00001[c] => C00208[c] + C00008[c] + C00009[c] + C00080[c]
+  equation: C00208[e] + C00002[c] + C00001[c] => C00208[c] + C00008[c] + C00009[c]
+    + C00080[c]
+  type: Gene-associated
 - id: mdosABC
   name: Maltodextrin transport via ABC system
-  equation: C01935_kz[e] + C00002[c] + C00001[c] => C01935_kz[c] + C00008[c] + C00009[c] + C00080[c]
+  equation: C01935_kz[e] + C00002[c] + C00001[c] => C01935_kz[c] + C00008[c] + C00009[c]
+    + C00080[c]
+  type: Gene-associated
 - id: rhaosABC
   name: Rhamnose oligosaccharide transport via ABC system
-  equation: rhaos[e] + C00002[c] + C00001[c] => rhaos[c] + C00008[c] + C00009[c] + C00080[c]
+  equation: rhaos[e] + C00002[c] + C00001[c] => rhaos[c] + C00008[c] + C00009[c]
+    + C00080[c]
+  type: Gene-associated
 - id: xosABC-2
-  name: Xylan oligosaccharides (with (1->2)-alpha-D-(4-O-methyl)glucuronosyl) transport via ABC system
-  equation: XOS2[e] + C00002[c] + C00001[c] => XOS2[c] + C00008[c] + C00009[c] + C00080[c]
+  name: Xylan oligosaccharides (with (1->2)-alpha-D-(4-O-methyl)glucuronosyl) transport
+    via ABC system
+  equation: XOS2[e] + C00002[c] + C00001[c] => XOS2[c] + C00008[c] + C00009[c] +
+    C00080[c]
+  type: Gene-associated
 - id: PYRt2
   name: pyruvate reversible transport via proton symport
   equation: C00080[c] + C00022[c] <=> C00080[e] + C00022[e]
+  type: Gene-associated
 - id: Acetoin-t
   name: acetoin transport
   equation: C00466[c] => C00466[e]
+  type: Gene-associated
 - id: DeoABC
   name: deoxynucleoside transport via ABC system
-  equation: C02269[e] + C00002[c] + C00001[c] => C02269[c] + C00008[c] + C00009[c] + C00080[c]
+  equation: C02269[e] + C00002[c] + C00001[c] => C02269[c] + C00008[c] + C00009[c]
+    + C00080[c]
+  type: Gene-associated
