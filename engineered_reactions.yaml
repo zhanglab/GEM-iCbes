@@ -1,0 +1,21 @@
+# Below are the added reactions for C. bescii engineered ethanol strain (MACB1062)
+## add reactions associated with AdhE gene (from Clostridium thermocellum)
+- id: R00228  # Acetyl-CoA to Acetaldehyde
+  name: acetaldehyde:NAD+ oxidoreductase (CoA-acetylating)
+  equation: C00024[c] + C00004[c] + C00080[c] <=> C00084[c] + C00010[c] + C00003[c]
+  ec:
+  - 1.2.1.10
+  PMID: 30009131
+- id: R00754  # Acetaldehyde to ethanol
+  name: ethanol:NAD+ oxidoreductase
+  equation: C00084[c] + C00004[c] + C00080[c] <=> C00469[c] + C00003[c]
+  ec:
+  - 1.1.1.1
+  PMID: 30009131
+## add reactions associated with Rnf gene from Thermoanaerobacter sp. X514, to increase ethanol production
+- id: Rnf
+  name: energy-conserving, reduced ferredoxin NAD oxidoreductase
+  equation: (2) C00138[c] + C00003[c] + C00080[c] + C01330[c] => (2) C00139[c] + C00004[c] + C01330[e]
+  ec:
+  - 7.2.1.2
+  PMID: 30009131
