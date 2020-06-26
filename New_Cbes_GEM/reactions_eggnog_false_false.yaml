@@ -2,144 +2,136 @@
   name: rubredoxin:superoxide oxidoreductase
   equation: C00340[c] + C00704[c] + (2) C00080[c] <=> C00435[c] + C00027[c]
   ec: 1.15.1.2
+  type: Gene-associated
 - id: R10859
   name: (E)-4-hydroxy-3-methylbut-2-en-1-yl-diphosphate:oxidized flavodoxin oxidoreductase
   equation: C11453[c] + C02745[c] => C11811[c] + C00001[c] + C02869[c] + C00080[c]
   ec: 1.17.7.3
+  type: Gene-associated
 - id: R04109
   name: 'L-glutamate-semialdehyde: NADP+ oxidoreductase(L-glutamyl-tRNA(Glu)-forming)'
   equation: C02987[c] + C00005[c] + C00080[c] => C03741[c] + C01641[c] + C00006[c]
   ec: 1.2.1.70
+  type: Gene-associated
 - id: R07161
   name: 3-(indol-3-yl)pyruvate:ferredoxin oxidoreductase (decarboxylating,CoA-indole-acetylating)
   equation: C00331[c] + C00010[c] + (2) C00139[c] <=> C15489[c] + C00011[c] + (2)
     C00138[c] + C00080[c]
   ec: 1.2.7.8
-#- id: R07766
-#  name: octanoyl-[acp]:protein N6-octanoyltransferase
-#  equation: C05752[c] + C16240[c] <=> C16236[c] + C00229[c]
-#  ec: 2.3.1.181
-#- id: R12428
-#  name: octanoyl-[acp]:Glycine-cleavage-system-H N-octanoyltransferase
-#  equation: C05752[c] + C22157[c] <=> C22159[c] + C00229[c]
-#  ec: 2.3.1.181
-#- id: R12427
-#  name: octanoyl-[acp]:lipoyl-carrier-protein-E2 N-octanoyltransferase
-#  equation: C05752[c] + C22158[c] <=> C22160[c] + C00229[c]
-#  ec: 2.3.1.181
-#- id: R07769
-#  name: lipoyl-[acp]:protein N6-lipoyltransferase
-#  equation: C16239[c] + C16240[c] <=> C16237[c] + C00229[c]
-#  ec: 2.3.1.181
+  type: Gene-associated
 - id: R06178
   name: peptidoglycan glycosyltransferase
   equation: C05893[c] + C11826_kz1[c] <=> C04574[c] + C11826_kz2[c]
   ec: 2.4.1.129
+  type: Gene-associated
 - id: R04519
   name: peptidoglycan glycosyltransferase
   equation: C05898[c] + C11827_kz1[c] + C00080[c] => C04574[c] + C11827_kz2[c]
   ec: 2.4.1.129
+  type: Gene-associated
 - id: R02421
   name: ADP-glucose starch synthase
   equation: (8) C00498[c] + C00001[c] => (8) C00008[c] + C00718_kz[c] + (8) C00080[c]
   ec: 2.4.1.21
+  type: Gene-associated
 - id: R02689
   name: UDP-alpha-D-glucose:1,2-diacyl-sn-glycerol 3-beta-D-glucosyltransferase
   equation: C00029[c] + C00641[c] => C00015[c] + C04046[c] + C00080[c]
   ec: 2.4.1.315
+  type: Gene-associated
 - id: R04377
   name: UDP-alpha-D-glucose:1,2-diacyl-3-O-(beta-D-glucopyranosyl)-sn-glycerol 6-glucosyltransferase
   equation: C04046[c] + C00029[c] => C06040[c] + C00015[c] + C00080[c]
   ec: 2.4.1.315
+  type: Gene-associated
 - id: R10807
   name: UDP-alpha-D-glucose:diglucosyldiacylglycerol 6-glucosyltransferase
   equation: C06040[c] + C00029[c] => C20860[c] + C00015[c] + C00080[c]
   ec: 2.4.1.315
+  type: Gene-associated
 - id: QueA
   name: S-adenosylmethionine:tRNA ribosyltransferase-isomerase
   equation: C00019[c] + C20446[c] => C00073[c] + C00147[c] + C19647[c] + C00080[c]
   ec: 2.4.99.17
+  type: Gene-associated
 - id: R01799
   name: CTP:phosphatidate cytidyltransferase
   equation: C00063[c] + C00416[c] + C00080[c] => C00013[c] + C00269[c]
   ec: 2.7.7.41
+  type: Gene-associated
 - id: R02030
   name: CDP-diacylglycerol:phosphatidylglycerol 3-phosphatidyltransferase
   equation: C00344[c] + C00269[c] => C05980[c] + C00055[c] + C00080[c]
   ec: 2.7.8.41
+  type: Gene-associated
 - id: R01801
   name: CDPdiacylglycerol:glycerol-3-phosphate phosphatidyltransferase
   equation: C00269[c] + C00093[c] => C00055[c] + C03892[c] + C00080[c]
   ec: 2.7.8.5
+  type: Gene-associated
 - id: R01625
   name: CoA:apo-ACP pantetheinephosphotransferase
   equation: C00010[c] + C03688[c] => C00054[c] + C00229[c] + C00080[c]
   ec: 2.7.8.7
-#- id: R07767
-#  name: '[protein]-N6-(octanoyl)-L-lysine:an [Fe-S] cluster scaffold protein carrying
-#    a [4Fe-4S]2+ cluster sulfurtransferase'
-#  equation: C16236[c] + C22154[c] + (2) C00019[c] + (2) C22150[c] + (8) C00080[c]
-#    <=> C16832[c] + C22155[c] + (2) C00283[c] + (4) C14818[c] + (2) C00073[c] + (2)
-#    C05198[c] + (2) C22151[c]
-#  ec: 2.8.1.8
-#- id: R12424
-#  name: '[glycine cleavage system H]-N6-octanoyl-L-lysine:[Fe-S] cluster scaffold
-#    protein carrying a [4Fe-4S]2+ cluster sulfurtransferase'
-#  equation: C22159[c] + C22154[c] + (2) C00019[c] + (2) C22150[c] + (8) C00080[c]
-#    <=> C02972[c] + C22155[c] + (2) C00283[c] + (4) C14818[c] + (2) C00073[c] + (2)
-#    C05198[c] + (2) C22151[c]
-#  ec: 2.8.1.8
-#- id: R12423
-#  name: '[lipoyl-carrier protein E2]-N6-(octanoyl)-L-lysine:[Fe-S] cluster scaffold
-#    protein carrying a [4Fe-4S]2+ cluster sulfurtransferase'
-#  equation: C22160[c] + C22154[c] + (2) C00019[c] + (2) C22150[c] + (8) C00080[c]
-#    <=> C15973[c] + C22155[c] + (2) C00283[c] + (4) C14818[c] + (2) C00073[c] + (2)
-#    C05198[c] + (2) C22151[c]
-#  ec: 2.8.1.8
+  type: Gene-associated
 - id: AXE
   name: acetylxylan esterase
   equation: AX[c] + (3) C00001[c] => (3) C00033[c] + XOS[c] + (3) C00080[c]
   ec: 3.1.1.72
+  type: Gene-associated
 - id: R01433_kz
   name: D-xylose xylohydrolase
   equation: XOS[c] + (3) C00001[c] => (4) C00181[c]
   ec:
   - 3.2.1.37
+  type: Gene-associated
 - id: AbfA
   name: alpha-L-arabinan arabinofuranohydrolase
   equation: AXOS[c] + (3) C00001[c] => XOS[c] + (3) C00259[c]
   ec:
   - 3.2.1.55
   - 3.2.1.99
-  comment: Alpha-L-arabinofuranosidase (AbfA, EC 3.2.1.55); endo-alpha-1,5-L-arabinanase (AbnA, EC 3.2.1.99). AbnA Acts best on linear 1,5-alpha-L-arabinan, also acts on branched arabinan, but more slowly.
+  comment: Alpha-L-arabinofuranosidase (AbfA, EC 3.2.1.55); endo-alpha-1,5-L-arabinanase
+    (AbnA, EC 3.2.1.99). AbnA Acts best on linear 1,5-alpha-L-arabinan, also acts
+    on branched arabinan, but more slowly.
+  type: Gene-associated
 - id: Xylase
   name: Endo-1,4-beta-xylanase (secreted)
   equation: C00707_kz[e] + (2) C00001[e] => (2) XOS[e] + AXOS[e]
   ec:
   - 3.2.1.55
   - 3.2.1.8
+  type: Gene-associated
 - id: R01762
   name: alpha-arabinosidase (secreted)
   equation: C02474_kz[e] + (5) C00001[e] => (6) C00259[e]
   ec: 3.2.1.55
+  type: Gene-associated
 - id: R11719
   name: dihydroneopterin triphosphate aldolase (PTS III)
   equation: C04895[c] <=> C01300[c] + C21615[c]
   ec: 4.1.2.60
+  type: Gene-associated
 - id: R09394
   name: GTP 3',8-cyclase
   equation: C00044[c] + C00019[c] + C00004[c] => C21310[c] + C05198[c] + C00073[c]
     + C00003[c]
   ec: 4.1.99.22
+  type: Gene-associated
 - id: R09592
   name: cyanophycin:L-aspartate ligase (ADP-forming)
-  equation: C00002[c] + C19709[c] + C00049[c] <=> C00008[c] + C00009[c] + C19710[c] + C00080[c]
+  equation: C00002[c] + C19709[c] + C00049[c] <=> C00008[c] + C00009[c] + C19710[c]
+    + C00080[c]
   ec: 6.3.2.29
+  type: Gene-associated
 - id: R09593
   name: cyanophycin:L-arginine ligase (ADP-forming)
-  equation: C00002[c] + C19710[c] + C00062[c] <=> C00008[c] + C00009[c] + C19713[c] + C00080[c]
+  equation: C00002[c] + C19710[c] + C00062[c] <=> C00008[c] + C00009[c] + C19713[c]
+    + C00080[c]
   ec: 6.3.2.30
+  type: Gene-associated
 - id: R05030
   name: lipid II isoglutaminyl synthase (glutamine-hydrolysing)
   equation: C00002[c] + C05893[c] + C00014[c] <=> C00008[c] + C00009[c] + C05894[c]
   ec: 6.3.5.13
+  type: Gene-associated
