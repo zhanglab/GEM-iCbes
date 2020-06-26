@@ -2663,14 +2663,14 @@
   type: Gene-associated
 - id: R01199
   name: 2-oxobutanoate:ferredoxin 2-oxidoreductase (CoA-propanoylating)
-  genes: (Athe_1708 or Athe_1709) or (Athe_0874 and Athe_0875 and Athe_0876 and Athe_0877)
+  genes: (Athe_1708 and Athe_1709) or (Athe_0874 and Athe_0875 and Athe_0876 and Athe_0877)
   equation: (2) C00139[c] + C00109[c] + C00010[c] <=> (2) C00138[c] + C00100[c] +
     C00011[c] + C00080[c]
   subsystem: Propanoate metabolism
   ec:
   - 1.2.7.1
-  genes_peg: (peg.2217 or peg.2218) or (peg.1337 and peg.1338 and peg.1339 and peg.1340)
-  genes_wp: (WP_015908131.1 or WP_015908132.1) or (WP_015907411.1 and WP_013290123.1
+  genes_peg: (peg.2217 and peg.2218) or (peg.1337 and peg.1338 and peg.1339 and peg.1340)
+  genes_wp: (WP_015908131.1 and WP_015908132.1) or (WP_015907411.1 and WP_013290123.1
     and WP_015907412.1 and WP_015907413.1)
   type: Gene-associated
 - id: R01209
