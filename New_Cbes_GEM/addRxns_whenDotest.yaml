@@ -3,39 +3,49 @@
   equation: C00718_kz[c] => C00369_kz[c]
   ec:
   - 2.4.1.18
+  type: Gene-associated
 - id: R05636
   name: 1-Deoxy-D-xylulose-5-phosphate pyruvate-lyase (carboxylating)
   equation: C00022[c] + C00118[c] + C00080[c] <=> C11437[c] + C00011[c]
   ec:
   - 2.2.1.7
+  type: Gene-associated
 - id: R08689
   name: (E)-4-hydroxy-3-methylbut-2-en-1-yl-diphosphate:oxidized ferredoxin oxidoreductase(hydrating)
-  equation: C00080[c] + C11453[c] + (2) C00138[c] <=> C11811[c] + C00001[c] + (2) C00139[c]
+  equation: C00080[c] + C11453[c] + (2) C00138[c] <=> C11811[c] + C00001[c] + (2)
+    C00139[c]
   ec:
   - 1.17.7.1
+  type: Gene-associated
 - id: R08210
   name: dimethylallyl diphosphate:ferredoxin oxidoreductase
-  equation: C00235[c] + (2) C00139[c] + C00001[c] <=> C11811[c] + (2) C00138[c] + (2) C00080[c]
+  equation: C00235[c] + (2) C00139[c] + C00001[c] <=> C11811[c] + (2) C00138[c] +
+    (2) C00080[c]
   ec:
   - 1.17.7.4
+  type: Gene-associated
 - id: R05884
   name: isopentenyl-diphosphate:ferredoxin oxidoreductase
-  equation: C11811[c] + (2) C00138[c] + (2) C00080[c] <=> C00129[c] + (2) C00139[c] + C00001[c]
+  equation: C11811[c] + (2) C00138[c] + (2) C00080[c] <=> C00129[c] + (2) C00139[c]
+    + C00001[c]
   ec:
   - 1.17.7.4
+  type: Gene-associated
 - id: PPTGS_Cbes
   name: Peptidoglycan subunit synthesis
   equation: C05898[c] => peptido_cbes[c] + C04574[c] + C00080[c]
   ec:
   - 2.4.1.219
+  type: Gene-associated
 - id: R01555
   name: Maltose:phosphate 1-beta-D-glucosyltransferase
   equation: C00208[c] + C00009[c] => C00031[c] + C00103[c]
   ec:
   - 2.4.1.1
+  type: Gene-associated
 - id: R02628
   name: Phosphoenolpyruvate:protein-L-histidine N-pros-phosphotransferase
   equation: C00074[c] + C00615[c] <=> C00022[c] + C04261[c]
   ec:
   - 2.7.3.9
-  # comment: enzyme I of the phosphotransferase system (see map02060)
+  type: Gene-associated
