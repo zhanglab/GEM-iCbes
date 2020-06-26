@@ -1,83 +1,287 @@
-# biomass reactions of C. bescii (2017 genome, PYTRIC 31899.10)
 - id: dna_met
   name: DNA
-  equation: (0.665299) C00131[c] + (0.665299) C00459[c] + (0.361714) C00286[c] + (0.361714) C00458[c] + (4.108052) C00002[c] + (4.108052) C00001[c] => dna[c] + (4.108052) C00008[c] + (4.108052) C00009[c] + (2.054026) C00013[c]
+  equation: (0.665299) C00131[c] + (0.665299) C00459[c] + (0.361714) C00286[c] +
+    (0.361714) C00458[c] + (4.108052) C00002[c] + (4.108052) C00001[c] => dna[c]
+    + (4.108052) C00008[c] + (4.108052) C00009[c] + (2.054026) C00013[c]
   subsystem: Biomass
+  type: Biomass
 - id: rna_met
   name: RNA
-  equation: (4.704) C00002[c] + (0.579924) C00075[c] + (0.423535) C00044[c] + (0.287381) C00063[c] + (3.99656) C00001[c] => rna[c] + (3.99656) C00008[c] + (3.99656) C00009[c] + (1.99828) C00013[c]
+  equation: (4.704) C00002[c] + (0.579924) C00075[c] + (0.423535) C00044[c] + (0.287381)
+    C00063[c] + (3.99656) C00001[c] => rna[c] + (3.99656) C00008[c] + (3.99656) C00009[c]
+    + (1.99828) C00013[c]
   subsystem: Biomass
+  type: Biomass
 - id: pro_met
   name: Protein
-  equation: (0.431137) C00886[c] + (0.310706) C02163[c] + (0.381591) C03402[c] + (0.387095) C02984[c] + (0.08587) C03125[c]
-    + (0.57862) C02987[c] + (0.219853) C02282[c] + (0.448335) C02412[c] + (0.104865) C02988[c] + (0.706951) C03127[c] + (0.713167) C02047[c]
-    + (0.696724) C01931[c] + (0.168588) C02430[c] + (0.385845) C03511[c] + (0.244153) C02702[c] + (0.449438) C02553[c] + (0.340128) C02992[c]
-    + (0.068072) C03512[c] + (0.324006) C02839[c] + (0.533015) C02554[c] + (15.156318) C00044[c] + (15.156318) C00001[c] => protein[c]
-    + (0.431137) C01635[c] + (0.310706) C01636[c] + (0.381591) C01637[c] + (0.387095) C01638[c] + (0.08587) C01639[c] + (0.57862) C01641[c]
-    + (0.219853) C01640[c] + (0.448335) C01642[c] + (0.104865) C01643[c] + (0.706951) C01644[c] + (0.713167) C01645[c] + (0.696724) C01646[c]
-    + (0.168588) C01647[c] + (0.385845) C01648[c] + (0.244153) C01649[c] + (0.449438) C01650[c] + (0.340128) C01651[c] + (0.068072) C01652[c]
-    + (0.324006) C00787[c] + (0.533015) C01653[c] + (15.156318) C00035[c] + (15.156318) C00009[c]
+  equation:
+    reversible: false
+    left:
+    - id: C00886
+      compartment: c
+      value: 0.431137
+    - id: C02163
+      compartment: c
+      value: 0.310706
+    - id: C03402
+      compartment: c
+      value: 0.381591
+    - id: C02984
+      compartment: c
+      value: 0.387095
+    - id: C03125
+      compartment: c
+      value: 0.08587
+    - id: C02987
+      compartment: c
+      value: 0.57862
+    - id: C02282
+      compartment: c
+      value: 0.219853
+    - id: C02412
+      compartment: c
+      value: 0.448335
+    - id: C02988
+      compartment: c
+      value: 0.104865
+    - id: C03127
+      compartment: c
+      value: 0.706951
+    - id: C02047
+      compartment: c
+      value: 0.713167
+    - id: C01931
+      compartment: c
+      value: 0.696724
+    - id: C02430
+      compartment: c
+      value: 0.168588
+    - id: C03511
+      compartment: c
+      value: 0.385845
+    - id: C02702
+      compartment: c
+      value: 0.244153
+    - id: C02553
+      compartment: c
+      value: 0.449438
+    - id: C02992
+      compartment: c
+      value: 0.340128
+    - id: C03512
+      compartment: c
+      value: 0.068072
+    - id: C02839
+      compartment: c
+      value: 0.324006
+    - id: C02554
+      compartment: c
+      value: 0.533015
+    - id: C00044
+      compartment: c
+      value: 15.156318
+    - id: C00001
+      compartment: c
+      value: 15.156318
+    right:
+    - id: protein
+      compartment: c
+      value: 1
+    - id: C01635
+      compartment: c
+      value: 0.431137
+    - id: C01636
+      compartment: c
+      value: 0.310706
+    - id: C01637
+      compartment: c
+      value: 0.381591
+    - id: C01638
+      compartment: c
+      value: 0.387095
+    - id: C01639
+      compartment: c
+      value: 0.08587
+    - id: C01641
+      compartment: c
+      value: 0.57862
+    - id: C01640
+      compartment: c
+      value: 0.219853
+    - id: C01642
+      compartment: c
+      value: 0.448335
+    - id: C01643
+      compartment: c
+      value: 0.104865
+    - id: C01644
+      compartment: c
+      value: 0.706951
+    - id: C01645
+      compartment: c
+      value: 0.713167
+    - id: C01646
+      compartment: c
+      value: 0.696724
+    - id: C01647
+      compartment: c
+      value: 0.168588
+    - id: C01648
+      compartment: c
+      value: 0.385845
+    - id: C01649
+      compartment: c
+      value: 0.244153
+    - id: C01650
+      compartment: c
+      value: 0.449438
+    - id: C01651
+      compartment: c
+      value: 0.340128
+    - id: C01652
+      compartment: c
+      value: 0.068072
+    - id: C00787
+      compartment: c
+      value: 0.324006
+    - id: C01653
+      compartment: c
+      value: 0.533015
+    - id: C00035
+      compartment: c
+      value: 15.156318
+    - id: C00009
+      compartment: c
+      value: 15.156318
   subsystem: Biomass
-  # comment: Equation of protein composition based on count of each amino acids of C.bescii CDS protein sequences.
+  type: Biomass
 - id: lipid_met
   name: Phosphatidic acid
   equation: (0.039599) C03892[c] => lipids[c]
   subsystem: Biomass
-#  equation: (0.121723) C05761[c] + (0.482939) C05764[c] + (0.187722) C04088[c] + (0.069951) C01203[c] +
-#    (0.054143) C181o7ACP[c] + (0.2802) fa3ACP[c] + (0.088921) fa6ACP[c] + (1.402184) fa11ACP[c] +
-#    (0.033988) fa12ACP[c] + (0.306283) fa1oh3ACP[c] + (1.514027) C00093[c] => lipid[c] + (3.028054) C00229[c]
-#  genes: fig|31899.10.peg.1636 and (fig|31899.10.peg.1208 or fig|31899.10.peg.2740) and fig|31899.10.peg.1814
-#  genesNCBI: Athe_1153 and (Athe_0752 or Athe_2184) and Athe_1326
-#  curated: true
-#  subsystem: Fatty Acid Synthesis
-#  ec:
-#  - 2.3.1.274, 2.3.1.275, 2.3.1.51
-#  translated_equation: (0.121723) Tetradecanoyl-[acp][c] + (0.482939) Hexadecanoyl-[acp][c] + (0.187722) |Octadecanoyl-[acyl-carrier
-#    protein][c]| + (0.069951) |Oleoyl-[acyl-carrier protein][c]| + (0.054143) |Fatty Acid anteiso-C18:1 omega-7 ACP[c]| +
-#    (0.2802) |Fatty Acid iso-C15:0-ACP[c]| + (0.088921) |Fatty Acid iso-C16:0 ACP[c]| + (1.402184) |Fatty Acid iso-C17:0 ACP[c]|
-#    + (0.033988) |Fatty Acid anteiso-C17:0 ACP[c]| + (0.306283) |Fatty Acid iso-C14:0 3-OH ACP[c]| + (1.514027) |sn-Glycerol
-#    3-phosphate[c]| => lipid[c] + (3.028054) |Acyl-carrier protein[c]|
+  type: Biomass
 - id: carb_met
   name: Carbohydarte
   equation: (0.760375) C00182_kz[c] => carbohydrate[c]
   subsystem: Biomass
+  type: Biomass
 - id: trace_met
   name: Trace element
-  equation: (0.011106) C00234[c] + (0.249633) C00016[c] + (0.429313) C00061[c] + (0.27295) C00010[c] + (0.019097) C00003[c] + (0.020052) C00004[c] + (0.024989) C00006[c] + (0.005553) C00005[c] + (3.990535) C00238[c] + (1.485084) C00305[c] + (0.298312) C14818[c] + (0.138957) C00076[c] + (3.623175) C01330[c] + (0.084898) C00038[c] + (0.399821) C00009[c] + (0.006192) C00068[c] => trace[c]
+  equation:
+    reversible: false
+    left:
+    - id: C00234
+      compartment: c
+      value: 0.011106
+    - id: C00016
+      compartment: c
+      value: 0.249633
+    - id: C00061
+      compartment: c
+      value: 0.429313
+    - id: C00010
+      compartment: c
+      value: 0.27295
+    - id: C00003
+      compartment: c
+      value: 0.019097
+    - id: C00004
+      compartment: c
+      value: 0.020052
+    - id: C00006
+      compartment: c
+      value: 0.024989
+    - id: C00005
+      compartment: c
+      value: 0.005553
+    - id: C00238
+      compartment: c
+      value: 3.990535
+    - id: C00305
+      compartment: c
+      value: 1.485084
+    - id: C14818
+      compartment: c
+      value: 0.298312
+    - id: C00076
+      compartment: c
+      value: 0.138957
+    - id: C01330
+      compartment: c
+      value: 3.623175
+    - id: C00038
+      compartment: c
+      value: 0.084898
+    - id: C00009
+      compartment: c
+      value: 0.399821
+    - id: C00068
+      compartment: c
+      value: 0.006192
+    right:
+    - id: trace
+      compartment: c
+      value: 1
   subsystem: Biomass
+  type: Biomass
 - id: lta_met
   name: Lipoteichoic acids
-  equation: (0.000225) lipo1_24_cbes[c] + (0.000201) lipo2_24_cbes[c] + (0.000597) lipo3_24_cbes[c] + (0.000483) lipo4_24_cbes[c] + (0.003012) C00002[c] + (0.003012) C00001[c] => lta_Cbes[c] + (0.003012) C00008[c] + (0.003012) C00009[c] + (0.003012) C00080[c]
+  equation: (0.000225) lipo1_24_cbes[c] + (0.000201) lipo2_24_cbes[c] + (0.000597)
+    lipo3_24_cbes[c] + (0.000483) lipo4_24_cbes[c] + (0.003012) C00002[c] + (0.003012)
+    C00001[c] => lta_Cbes[c] + (0.003012) C00008[c] + (0.003012) C00009[c] + (0.003012)
+    C00080[c]
   subsystem: Biomass
+  type: Biomass
 - id: cellwall_met
   name: Cell wall
-  equation: (0.454148) peptido_cbes[c] + (0.016146) gtca1_45_cbes[c] + (0.010482) gtca2_45_cbes[c] + (0.008118) gtca3_45_cbes[c] + (0.013872) tcam_cbes[c] + (1.005532) C00002[c] + (1.005532) C00001[c] => cellwall_Cbes[c] + (1.005532) C00008[c] + (1.005532) C00009[c] + (1.005532) C00080[c]
+  equation:
+    reversible: false
+    left:
+    - id: peptido_cbes
+      compartment: c
+      value: 0.454148
+    - id: gtca1_45_cbes
+      compartment: c
+      value: 0.016146
+    - id: gtca2_45_cbes
+      compartment: c
+      value: 0.010482
+    - id: gtca3_45_cbes
+      compartment: c
+      value: 0.008118
+    - id: tcam_cbes
+      compartment: c
+      value: 0.013872
+    - id: C00002
+      compartment: c
+      value: 1.005532
+    - id: C00001
+      compartment: c
+      value: 1.005532
+    right:
+    - id: cellwall_Cbes
+      compartment: c
+      value: 1
+    - id: C00008
+      compartment: c
+      value: 1.005532
+    - id: C00009
+      compartment: c
+      value: 1.005532
+    - id: C00080
+      compartment: c
+      value: 1.005532
   subsystem: Biomass
-  # equation: (0.454148) peptido_cbes[c] + (0.016146) gtca1_45_cbes[c] + (0.010482) gtca2_45_cbes[c] + (0.008118) gtca3_45_cbes[c] + (0.013872) tcam_cbes[c] => cellwall_Cbes[c]
-  # equation: (0.454148) peptido_cbes[c] + (0.016146) gtca1_45_cbes[c] + (0.010482) gtca2_45_cbes[c] + (0.008118) gtca3_45_cbes[c] + (0.013872) tcam_cbes[c] + (0.000224901315789474) lipo1_24_cbes[c] + (0.000201414473684211) lipo2_24_cbes[c] + (0.000597434210526316) lipo3_24_cbes[c] + (0.000482763157894737) lipo4_24_cbes[c] => cellwall_Cbes[c]
-  # equation: (0.454148) peptido_cbes[c] + (0.016146) gtca1_45_cbes[c] + (0.010482) gtca2_45_cbes[c] + (0.008118) gtca3_45_cbes[c] + (0.013872) tcam_cbes[c] + (1.005530776) C00002[c] + (1.005530776) C00001[c] => cellwall_Cbes[c] + (1.005530776) C00008[c] + (1.005530776) C00009[c] + (1.005530776) C00080[c]
-  # equation: (0.454148) peptido_cbes[c] + (0.016146) gtca1_45_cbes[c] + (0.010482) gtca2_45_cbes[c] + (0.008118) gtca3_45_cbes[c] + (0.013872) tcam_cbes[c] + (0.000224901315789474) lipo1_24_cbes[c] + (0.000201414473684211) lipo2_24_cbes[c] + (0.000597434210526316) lipo3_24_cbes[c] + (0.000482763157894737) lipo4_24_cbes[c] +
-  #   (1.008543802) C00002[c] + (1.008543802) C00001[c] => cellwall_Cbes[c] + (1.008543802) C00008[c] + (1.008543802) C00009[c] + (1.008543802) C00080[c]
-
+  type: Biomass
 - id: Biomass_Cbescii
   name: Biomass 1gDW
-  ### (data comes from Mike's group, July 22, 2019)
-  # equation: (0.016) dna[c] + (0.007) rna[c] + (0.516) protein[c] + (0.336) lipid + (0.125) carbohydrates => Biomass[c]
-  # equation: (0.016) dna[c] + (0.007) rna[c] + (0.516) protein[c] + C00186[c] + C00022[c] => (0.539) Biomass[c]
-  # equation: (0.016) dna[c] + (0.007) rna[c] + (0.516) protein[c] => Biomass[c]
-
-  ### late log phase, receibved in Seq 12, 2019
-  # equation: (0.009) dna[c] + (0.077) rna[c] + (0.274) protein[c] + (0.036) trace[c] + (0.178) lipids[c] + (0.066) carbohydrate[c] + (0.2242) cellwall_Cbes[c] => Biomass[c]
-  # equation: (0.009) dna[c] + (0.077) rna[c] + (0.274) protein[c] + (0.036) trace[c] + (0.178) lipids[c] + (0.2546) cellwall_Cbes[c] => Biomass[c]
-  equation: (0.009) dna[c] + (0.077) rna[c] + (0.274) protein[c] + (0.036) trace[c] + (0.178) lipids[c] + (0.066) carbohydrate[c] + (0.0304) lta_Cbes[c] + (0.2242) cellwall_Cbes[c] => Biomass[c]
+  equation: (0.009) dna[c] + (0.077) rna[c] + (0.274) protein[c] + (0.036) trace[c]
+    + (0.178) lipids[c] + (0.066) carbohydrate[c] + (0.0304) lta_Cbes[c] + (0.2242)
+    cellwall_Cbes[c] => Biomass[c]
   subsystem: Biomass
-
-  ### mid log phase, receibved in Seq 12, 2019
-  # equation (without normalization): (0.008) dna[c] + (0.104) rna[c] + (0.353) protein[c] + (0.065) lipid + (0.065) carbohydrates => (0.591) Biomass[c]
-  # equation (with normalization): (0.013) dna[c] + (0.175) rna[c] + (0.591) protein[c] + (0.109) lipid + (0.113) carbohydrates => Biomass[c]
-  # subsystem: Biomass
-
+  type: Biomass
 - id: sink_biomass
   name: Biomass accumulation
   equation: Biomass[c] =>
   subsystem: Biomass
+  type: Biomass
