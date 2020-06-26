@@ -2139,7 +2139,7 @@
   equation: C00002[c] + C00035[c] <=> C00008[c] + C00044[c]
   ec:
   - 2.7.4.6
-  type: Gene-associated
+  type: Gap-filling
 - id: R00722
   name: ATP:IDP phosphotransferase
   equation: C00002[c] + C00104[c] <=> C00008[c] + C00081[c]
@@ -2338,7 +2338,7 @@
   equation: C04454[c] + C00001[c] <=> C04732[c] + C00009[c]
   ec:
   - 3.1.3.104
-  type: Gene-associated
+  type: Gap-filling
 - id: R03013
   name: L-histidinol-phosphate phosphohydrolase
   equation: C01100[c] + C00001[c] <=> C00860[c] + C00009[c]
@@ -4342,29 +4342,29 @@
   equation: (30) C00001[c] + (30) C00203[c] + (30) C00029 => (60) C00080[c] + tcam_cbes[c]
     + (30) C00015[c] + (30) C00105[c]
   subsystem: Cell Envelope Biosynthesis
-  type: Gene-associated
+  type: Gap-filling
 - id: LIPO1S24_Cbes
   name: lipoteichoic acid synthesis (n=24), linked, glucose substituted
   equation: (2400) C00513[c] + C06040[c] + (2400) C00029[c] => (2400) C00055[c] +
     (4800) C00080[c] + lipo1_24_cbes[c] + (2400) C00015[c]
   subsystem: Cell Envelope Biosynthesis
-  type: Gene-associated
+  type: Gap-filling
 - id: LIPO2S24_Cbes
   name: lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted
   equation: (2400) C00513[c] + C06040[c] + (2400) C00043[c] => (2400) C00055[c] +
     (4800) C00080[c] + lipo2_24_cbes + (2400) C00015[c]
   subsystem: Cell Envelope Biosynthesis
-  type: Gene-associated
+  type: Gap-filling
 - id: LIPO3S24_Cbes
   name: lipoteichoic acid synthesis (n=24), unliked, D-alanine substituted
   equation: (2400) C00133[c] + (2400) C00002[c] + (2400) C00513[c] + C06040[c] +
     (2400) C00001[c] => (2400) C00020[c] + (2400) C00055[c] + (4800) C00080[c] +
     lipo3_24_cbes + (2400) C00013[c]
   subsystem: Cell Envelope Biosynthesis
-  type: Gene-associated
+  type: Gap-filling
 - id: LIPO4S24_Cbes
   name: lipoteichoic acid synthesis (n=24), linked, unsubstituted
   equation: (2400) C00513[c] + C06040[c] => (2400) C00055[c] + (2400) C00080[c] +
     lipo4_24_cbes[c]
   subsystem: Cell Envelope Biosynthesis
-  type: Gene-associated
+  type: Gap-filling

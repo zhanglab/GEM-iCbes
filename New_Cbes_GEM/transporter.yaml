@@ -1,7 +1,7 @@
 - id: cysT
   name: Cysteine transport via proton symport
   equation: C00097[e] + C00080[e] => C00097[c] + C00080[c]
-  type: Gene-associated
+  type: Gap-filling
 - id: lipoateT
   name: Lipoate transport
   equation: C00725[e] <=> C00725[c]
@@ -210,11 +210,11 @@
 - id: ETOHt1
   name: ethanol transport in/out via diffusion
   equation: C00469[c] <=> C00469[e]
-  type: Gene-associated
+  type: Gap-filling
 - id: ACt6
   name: acetate transport in/out via proton symport
   equation: C00033[c] + C00080[c] <=> C00033[e] + C00080[e]
-  type: Gene-associated
+  type: Gap-filling
 - id: L-LACt2
   name: L-lactate reversible transport via proton symport
   equation: C00080[c] + C00186[c] <=> C00080[e] + C00186[e]
@@ -312,11 +312,11 @@
 - id: PYRt2
   name: pyruvate reversible transport via proton symport
   equation: C00080[c] + C00022[c] <=> C00080[e] + C00022[e]
-  type: Gene-associated
+  type: Gap-filling
 - id: Acetoin-t
   name: acetoin transport
   equation: C00466[c] => C00466[e]
-  type: Gene-associated
+  type: Gap-filling
 - id: DeoABC
   name: deoxynucleoside transport via ABC system
   equation: C02269[e] + C00002[c] + C00001[c] => C02269[c] + C00008[c] + C00009[c]
