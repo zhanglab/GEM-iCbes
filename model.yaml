@@ -21,5 +21,6 @@ exchange:
 - include: EX_modified_DSMZ516_v1.tsv # used to test the growth yields of wild-type strain on cellulose
   format: tsv
 - include: EX_modified_DSMZ516_v2.tsv # used to test the ethanol production of the engineered ethano strain MACB1062 on cellulose
+  format: tsv
 model:
 - include: WT_model_def.tsv
