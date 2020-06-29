@@ -2896,3 +2896,7 @@
   name: Trace elements
   formula: R
   charge: 0
+- id: C00297
+  name: sulfide
+  formula: S
+  charge: -2
