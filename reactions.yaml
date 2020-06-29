@@ -189,7 +189,7 @@
   subsystem: Energy Metabolism
   ec:
   - 1.12.1.4
-  PMID: 26536872,31097544,30009131
+  PMID: 26536872, 31097544, 30009131
   genes_peg: peg.1783 and peg.1784 and peg.1785 and peg.1786 and peg.1787
   genes_wp: WP_013430369.1 and WP_015907775.1 and WP_013430367.1 and WP_013430366.1
     and WP_015907776.1
@@ -202,7 +202,7 @@
   subsystem: Energy metabolism
   ec:
   - 1.6.1.4
-  PMID: 28705933,22800682,26139605
+  PMID: 28705933, 22800682, 26139605
   genes_peg: peg.1085 and peg.1086
   genes_wp: WP_015907217.1 and WP_015907218.1
   type: Gene-associated
@@ -328,7 +328,7 @@
   name: L-glutamate 5-semialdehyde dehydratase (spontaneous)
   equation: C01165[c] <=> C03912[c] + C00001[c] + C00080[c]
   subsystem: Arginine and proline metabolism
-  PMID: 6255065,29352105
+  PMID: 6255065, 29352105
   comment: from Cce model
   type: Spontaneous
 - id: GOSASE
@@ -917,7 +917,7 @@
   subsystem: Energy Metabolism
   ec:
   - 1.12.7.2
-  PMID: 26536872,31097544,15256587
+  PMID: 26536872, 31097544, 15256587
   genes_peg: peg.1563 and peg.1564 and peg.1565 and peg.1566 and peg.1567 and peg.1568
   genes_wp: WP_041727122.1 and WP_015907593.1 and WP_013411860.1 and WP_015907594.1
     and WP_013430555.1 and WP_013403526.1
@@ -1221,6 +1221,7 @@
   genes_peg: peg.1346
   genes_wp: WP_079504052.1
   type: Gene-associated
+  # PMID: 26573329
 - id: R00193
   name: S-Adenosyl-L-homocysteine aminohydrolase
   genes: Athe_0884
@@ -1238,7 +1239,7 @@
   subsystem: Glycolysis / Gluconeogenesis
   ec:
   - 2.7.1.40
-  PMID: 31097544,20557574
+  PMID: 31097544, 20557574
   genes_peg: peg.1753
   genes_wp: WP_015907751.1
   type: Gene-associated
@@ -1364,7 +1365,7 @@
   ec:
   - 2.7.1.1
   - 2.7.1.2
-  PMID: 31097544,20557574
+  PMID: 31097544, 20557574
   genes_peg: peg.984
   genes_wp: WP_015907133.1
   type: Gene-associated
@@ -1604,7 +1605,7 @@
   subsystem: Nicotinate and nicotinamide metabolism
   ec:
   - 1.4.3.16
-  PMID: 29555696,12215812,29143132
+  PMID: 29555696, 12215812, 29143132
   change: Change_cpd
   genes_peg: peg.1700
   genes_wp: WP_015907705.1
@@ -1798,7 +1799,7 @@
   subsystem: Glycolysis / Gluconeogenesis
   ec:
   - 4.2.1.11
-  PMID: 31097544,20557574
+  PMID: 31097544, 20557574
   genes_peg: peg.1897
   genes_wp: WP_015907869.1
   type: Gene-associated
@@ -1831,7 +1832,7 @@
   ec:
   - 4.2.1.20
   - 4.2.1.122
-  PMID: 19387555,11756459
+  PMID: 19387555, 11756459
   genes_peg: peg.2200 or peg.411
   genes_wp: WP_015908115.1 or WP_012660703.1
   type: Gene-associated
@@ -1923,7 +1924,7 @@
   subsystem: Glycolysis / Gluconeogenesis
   ec:
   - 2.7.1.11
-  PMID: 31097544,20557574
+  PMID: 31097544, 20557574
   genes_peg: peg.1752
   genes_wp: WP_013403349.1
   type: Gene-associated
@@ -1967,7 +1968,7 @@
   subsystem: Glycolysis / Gluconeogenesis
   ec:
   - 5.3.1.9
-  PMID: 31097544,20557574
+  PMID: 31097544, 20557574
   genes_peg: peg.1059
   genes_wp: WP_015907196.1
   type: Gene-associated
@@ -2248,7 +2249,7 @@
   subsystem: Valine, leucine and isoleucine biosynthesis
   ec:
   - 1.1.1.85
-  PMID: 9532798,32059844
+  PMID: 9532798, 32059844
   genes_peg: peg.2650
   genes_wp: WP_015908448.1
   type: Gene-associated
@@ -2280,7 +2281,7 @@
   subsystem: Glycolysis / Gluconeogenesis
   ec:
   - 5.3.1.1
-  PMID: 31097544,20557574
+  PMID: 31097544, 20557574
   genes_peg: peg.1899
   genes_wp: WP_015907871.1
   type: Gene-associated
@@ -2347,7 +2348,7 @@
   ec:
   - 1.2.1.12
   - 1.2.1.59
-  PMID: 31097544,20557574
+  PMID: 31097544, 20557574
   genes_peg: peg.1900
   genes_wp: WP_015907872.1
   type: Gene-associated
@@ -2378,7 +2379,7 @@
   subsystem: Glycolysis / Gluconeogenesis
   ec:
   - 4.1.2.13
-  PMID: 31097544,20557574
+  PMID: 31097544, 20557574
   genes_peg: peg.1061
   genes_wp: WP_013289899.1
   type: Gene-associated
@@ -2992,7 +2993,7 @@
   subsystem: Glycolysis / Gluconeogenesis
   ec:
   - 2.7.2.3
-  PMID: 31097544,20557574
+  PMID: 31097544, 20557574
   genes_peg: peg.1899
   genes_wp: WP_015907871.1
   type: Gene-associated
@@ -3024,7 +3025,7 @@
   ec:
   - 5.4.2.11
   - 5.4.2.12
-  PMID: 31097544,20557574
+  PMID: 31097544, 20557574
   genes_peg: peg.1898
   genes_wp: WP_015907870.1
   type: Gene-associated
@@ -3182,7 +3183,7 @@
   subsystem: Valine, leucine and isoleucine biosynthesis
   ec:
   - 1.1.1.85
-  PMID: 9532798,32059844
+  PMID: 9532798, 32059844
   type: Spontaneous
 - id: R01655
   name: 5,10-Methenyltetrahydrofolate 5-hydrolase (decyclizing)
@@ -3968,7 +3969,7 @@
   ec:
   - 4.1.2.8
   - 4.2.1.20
-  PMID: 19387555,11756459
+  PMID: 19387555, 11756459
   genes_peg: peg.2199
   genes_wp: WP_015908114.1
   type: Gene-associated
@@ -4195,7 +4196,7 @@
   subsystem: Glycine, serine and threonine metabolism
   ec:
   - 4.2.1.20
-  PMID: 19387555,11756459
+  PMID: 19387555, 11756459
   genes_peg: peg.2199 and (peg.2200 or peg.411)
   genes_wp: WP_015908114.1 and (WP_015908115.1 or WP_012660703.1)
   type: Gene-associated
@@ -5346,7 +5347,7 @@
   subsystem: Valine, leucine and isoleucine biosynthesis
   ec:
   - 1.1.1.85
-  PMID: 9532798,32059844
+  PMID: 9532798, 32059844
   genes_peg: peg.2650
   genes_wp: WP_015908448.1
   type: Gene-associated
@@ -5827,7 +5828,7 @@
   ec:
   - 4.1.2.14
   genes_peg: peg.2968 or peg.2972
-  genes_wp: WP_015908708.1 or  WP_015908713.1
+  genes_wp: WP_015908708.1 or WP_015908713.1
   type: Gene-associated
 - id: R05606
   name: D-mannonate hydro-lyase
@@ -6964,7 +6965,7 @@
     + (46) C00080[c] + C00015[c] + C00105[c]
   subsystem: Cell Envelope Biosynthesis
   genes_peg: peg.1295 and peg.2608 and peg.433
-  genes_wp: WP_015907378.1 and  WP_015908418.1 and WP_012660725.1
+  genes_wp: WP_015907378.1 and WP_015908418.1 and WP_012660725.1
   type: Gene-associated
 - id: TECA2S45_Cbes
   name: glycerol teichoic acid (n=45), unlinked, D-ala substituted
@@ -7014,7 +7015,7 @@
       value: 1
   subsystem: Cell Envelope Biosynthesis
   genes_peg: peg.1295 and peg.2608 and peg.433
-  genes_wp: WP_015907378.1 and  WP_015908418.1 and WP_012660725.1
+  genes_wp: WP_015907378.1 and WP_015908418.1 and WP_012660725.1
   type: Gene-associated
 - id: TECA3S45_Cbes
   name: glycerol teichoic acid (n=45), unlinked, glucose substituted
@@ -7023,7 +7024,7 @@
     (45) C00055[c] + gtca3_45_cbes[c] + (91) C00080[c] + (46) C00015[c] + C00105[c]
   subsystem: Cell Envelope Biosynthesis
   genes_peg: peg.1295 and peg.2608 and peg.433
-  genes_wp: WP_015907378.1 and  WP_015908418.1 and WP_012660725.1
+  genes_wp: WP_015907378.1 and WP_015908418.1 and WP_012660725.1
   type: Gene-associated
 - id: TECA4S_Cbes
   name: minor teichoic acid synthesis (n=30)
