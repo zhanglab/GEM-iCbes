@@ -116,7 +116,7 @@
     and Athe_1429 and Athe_1430
   equation: (4) C00080[c] + C00002[c] + C00001[c] <=> (5) C00080[e] + C00008[c] +
     C00009[c]
-  subsystem: Transport
+  subsystem: Energy metabolism
   PMID: 31097544, 26536872, 8905099, 16816177
   genes_peg: peg.1915 and peg.1916 and peg.1917 and peg.1918 and peg.1919 and peg.1920
     and peg.1921 and peg.1922
