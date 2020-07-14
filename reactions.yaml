@@ -186,7 +186,7 @@
   genes: Athe_1295 and Athe_1296 and Athe_1297 and Athe_1298 and Athe_1299
   equation: (3) C00080[c] + C00004[c] + (2) C00138[c] <=> (2) C00282[c] + C00003[c]
     + (2) C00139[c]
-  subsystem: Energy Metabolism
+  subsystem: Energy metabolism
   ec:
   - 1.12.1.4
   PMID: 26536872, 31097544, 30009131
@@ -914,7 +914,7 @@
   name: H2-evolving membrane-bound hydrogenase ([Ni-Fe])
   genes: Athe_1082 and Athe_1083 and Athe_1084 and Athe_1085 and Athe_1086 and Athe_1087
   equation: (2) C00138[c] + (3) C00080[c] => C00282[c] + (2) C00139[c] + C00080[e]
-  subsystem: Energy Metabolism
+  subsystem: Energy metabolism
   ec:
   - 1.12.7.2
   PMID: 26536872, 31097544, 15256587
@@ -2638,41 +2638,38 @@
   type: Gene-associated
 - id: R01196
   name: pyruvate:ferredoxin 2-oxidoreductase (CoA-acetylating) (POR)
-  genes: (Athe_1708 and Athe_1709) or (Athe_0874 and Athe_0875 and Athe_0876 and
-    Athe_0877)
+  genes: Athe_0874 and Athe_0875 and Athe_0876 and Athe_0877
   equation: (2) C00139[c] + C00022[c] + C00010[c] <=> (2) C00138[c] + C00024[c] +
     C00011[c] + C00080[c]
   subsystem: Glycolysis / Gluconeogenesis
   ec:
   - 1.2.7.1
   PMID: 31097544
-  genes_peg: (peg.2217 and peg.2218) or (peg.1337 and peg.1338 and peg.1339 and peg.1340)
-  genes_wp: (WP_015908131.1 and WP_015908132.1) or (WP_015907411.1 and WP_013290123.1
-    and WP_015907412.1 and WP_015907413.1)
+  genes_peg: peg.1337 and peg.1338 and peg.1339 and peg.1340
+  genes_wp: WP_015907411.1 and WP_013290123.1 and WP_015907412.1 and WP_015907413.1
   type: Gene-associated
 - id: R01197
-  name: 2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)
-  genes: Athe_1096 and Athe_1097 and Athe_1098
+  name: 2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating) (KGOR)
+  genes: Athe_1708 and Athe_1709
   equation: (2) C00138[c] + C00091[c] + C00011[c] + C00080[c] <=> (2) C00139[c] +
     C00026[c] + C00010[c]
   subsystem: Citrate cycle (TCA cycle)
   ec:
   - 1.2.7.3
   - 1.2.7.11
-  genes_peg: peg.1577 and peg.1578 and peg.1579
-  genes_wp: WP_041727367.1 and WP_015907604.1 and WP_015907605.1
+  genes_peg: peg.2217 and peg.2218
+  genes_wp: WP_015908131.1 and WP_015908132.1
   type: Gene-associated
 - id: R01199
   name: 2-oxobutanoate:ferredoxin 2-oxidoreductase (CoA-propanoylating)
-  genes: (Athe_1708 and Athe_1709) or (Athe_0874 and Athe_0875 and Athe_0876 and Athe_0877)
+  genes: Athe_0874 and Athe_0875 and Athe_0876 and Athe_0877
   equation: (2) C00139[c] + C00109[c] + C00010[c] <=> (2) C00138[c] + C00100[c] +
     C00011[c] + C00080[c]
   subsystem: Propanoate metabolism
   ec:
   - 1.2.7.1
-  genes_peg: (peg.2217 and peg.2218) or (peg.1337 and peg.1338 and peg.1339 and peg.1340)
-  genes_wp: (WP_015908131.1 and WP_015908132.1) or (WP_015907411.1 and WP_013290123.1
-    and WP_015907412.1 and WP_015907413.1)
+  genes_peg: peg.1337 and peg.1338 and peg.1339 and peg.1340
+  genes_wp: WP_015907411.1 and WP_013290123.1 and WP_015907412.1 and WP_015907413.1
   type: Gene-associated
 - id: R01209
   name: 2,3-Dihydroxy-3-methylbutanoate hydro-lyase
@@ -7945,4 +7942,26 @@
   genes_peg: peg.725
   genes_wp: WP_015906919.1
   tc: 3.A.3.6.10
+  type: Gene-associated
+- id: ior3
+  name: 4-Hydroxyphenylpyruvate ferredoxin oxidoreductase (IOR)
+  genes: Athe_1095 and Athe_1096 and Athe_1097 and Athe_1098
+  equation: C01179[c] + C00010[c] + (2) C00139[c] <=> C00011[c] + (2) C00138[c] +
+    C00080[c] + C05338[c]
+  subsystem: Aromatic amino acids metabolism, Tyrosine, Tryptophan and Phenylalanine Metabolism
+  PMID: 29168502
+  genes_peg: peg.1576 and peg.1577 and peg.1578 and peg.1579
+  genes_wp: WP_015907602.1 and WP_041727367.1 and WP_015907604.1 and WP_015907605.1
+  ec: 1.2.7.8
+  type: Gene-associated
+- id: ior2
+  name: Phenylpyruvate ferredoxin oxidoreductase (IOR)
+  genes: Athe_1095 and Athe_1096 and Athe_1097 and Athe_1098
+  equation: C00166[c] + C00010[c] + (2) C00139[c] <=> C00011[c] + (2) C00138[c] +
+    C00080[c] + C00582[c]
+  subsystem: Aromatic amino acids metabolism, Tyrosine, Tryptophan and Phenylalanine Metabolism
+  PMID: 29168502
+  genes_peg: peg.1576 and peg.1577 and peg.1578 and peg.1579
+  genes_wp: WP_015907602.1 and WP_041727367.1 and WP_015907604.1 and WP_015907605.1
+  ec: 1.2.7.8
   type: Gene-associated
