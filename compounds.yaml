@@ -2900,3 +2900,7 @@
   name: sulfide
   formula: S
   charge: -2
+- id: C05338
+  name: 4-Hydroxyphenylacetyl-CoA
+  formula: C29H38N7O18P3S
+  charge: -4
