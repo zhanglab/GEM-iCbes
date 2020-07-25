@@ -2638,38 +2638,38 @@
   type: Gene-associated
 - id: R01196
   name: pyruvate:ferredoxin 2-oxidoreductase (CoA-acetylating) (POR)
-  genes: Athe_0874 and Athe_0875 and Athe_0876 and Athe_0877
+  genes: (Athe_0874 and Athe_0875 and Athe_0876 and Athe_0877) or (Athe_1708 and Athe_1709)
   equation: (2) C00139[c] + C00022[c] + C00010[c] <=> (2) C00138[c] + C00024[c] +
     C00011[c] + C00080[c]
   subsystem: Glycolysis / Gluconeogenesis
   ec:
   - 1.2.7.1
   PMID: 31097544
-  genes_peg: peg.1337 and peg.1338 and peg.1339 and peg.1340
-  genes_wp: WP_015907411.1 and WP_013290123.1 and WP_015907412.1 and WP_015907413.1
+  genes_peg: (peg.1337 and peg.1338 and peg.1339 and peg.1340) or (peg.2217 and peg.2218)
+  genes_wp: (WP_015907411.1 and WP_013290123.1 and WP_015907412.1 and WP_015907413.1) or (WP_015908131.1 and WP_015908132.1)
   type: Gene-associated
-- id: R01197
-  name: 2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating) (KGOR)
-  genes: Athe_1708 and Athe_1709
-  equation: (2) C00138[c] + C00091[c] + C00011[c] + C00080[c] <=> (2) C00139[c] +
-    C00026[c] + C00010[c]
-  subsystem: Citrate cycle (TCA cycle)
-  ec:
-  - 1.2.7.3
-  - 1.2.7.11
-  genes_peg: peg.2217 and peg.2218
-  genes_wp: WP_015908131.1 and WP_015908132.1
-  type: Gene-associated
+# - id: R01197
+#   name: 2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating) (KGOR)
+#   genes: Athe_1708 and Athe_1709
+#   equation: (2) C00138[c] + C00091[c] + C00011[c] + C00080[c] <=> (2) C00139[c] +
+#     C00026[c] + C00010[c]
+#   subsystem: Citrate cycle (TCA cycle)
+#   ec:
+#   - 1.2.7.3
+#   - 1.2.7.11
+#   genes_peg: peg.2217 and peg.2218
+#   genes_wp: WP_015908131.1 and WP_015908132.1
+#   type: Gene-associated
 - id: R01199
   name: 2-oxobutanoate:ferredoxin 2-oxidoreductase (CoA-propanoylating)
-  genes: Athe_0874 and Athe_0875 and Athe_0876 and Athe_0877
+  genes: (Athe_0874 and Athe_0875 and Athe_0876 and Athe_0877) or (Athe_1708 and Athe_1709)
   equation: (2) C00139[c] + C00109[c] + C00010[c] <=> (2) C00138[c] + C00100[c] +
     C00011[c] + C00080[c]
   subsystem: Propanoate metabolism
   ec:
   - 1.2.7.1
-  genes_peg: peg.1337 and peg.1338 and peg.1339 and peg.1340
-  genes_wp: WP_015907411.1 and WP_013290123.1 and WP_015907412.1 and WP_015907413.1
+  genes_peg: (peg.1337 and peg.1338 and peg.1339 and peg.1340) or (peg.2217 and peg.2218)
+  genes_wp: (WP_015907411.1 and WP_013290123.1 and WP_015907412.1 and WP_015907413.1) or (WP_015908131.1 and WP_015908132.1)
   type: Gene-associated
 - id: R01209
   name: 2,3-Dihydroxy-3-methylbutanoate hydro-lyase
@@ -7943,25 +7943,55 @@
   genes_wp: WP_015906919.1
   tc: 3.A.3.6.10
   type: Gene-associated
-- id: ior3
-  name: 4-Hydroxyphenylpyruvate ferredoxin oxidoreductase (IOR)
-  genes: Athe_1095 and Athe_1096 and Athe_1097 and Athe_1098
-  equation: C01179[c] + C00010[c] + (2) C00139[c] <=> C00011[c] + (2) C00138[c] +
-    C00080[c] + C05338[c]
-  subsystem: Aromatic amino acids metabolism, Tyrosine, Tryptophan and Phenylalanine Metabolism
-  PMID: 29168502
-  genes_peg: peg.1576 and peg.1577 and peg.1578 and peg.1579
-  genes_wp: WP_015907602.1 and WP_041727367.1 and WP_015907604.1 and WP_015907605.1
-  ec: 1.2.7.8
+# - id: ior3
+#   name: 4-Hydroxyphenylpyruvate ferredoxin oxidoreductase (IOR)
+#   genes: Athe_1095 and Athe_1096 and Athe_1097 and Athe_1098
+#   equation: C01179[c] + C00010[c] + (2) C00139[c] <=> C00011[c] + (2) C00138[c] +
+#     C00080[c] + C05338[c]
+#   subsystem: Aromatic amino acids metabolism, Tyrosine, Tryptophan and Phenylalanine Metabolism
+#   PMID: 29168502
+#   genes_peg: peg.1576 and peg.1577 and peg.1578 and peg.1579
+#   genes_wp: WP_015907602.1 and WP_041727367.1 and WP_015907604.1 and WP_015907605.1
+#   ec: 1.2.7.8
+#   type: Gene-associated
+# - id: ior2
+#   name: Phenylpyruvate ferredoxin oxidoreductase (IOR)
+#   genes: Athe_1095 and Athe_1096 and Athe_1097 and Athe_1098
+#   equation: C00166[c] + C00010[c] + (2) C00139[c] <=> C00011[c] + (2) C00138[c] +
+#     C00080[c] + C00582[c]
+#   subsystem: Aromatic amino acids metabolism, Tyrosine, Tryptophan and Phenylalanine Metabolism
+#   PMID: 29168502
+#   genes_peg: peg.1576 and peg.1577 and peg.1578 and peg.1579
+#   genes_wp: WP_015907602.1 and WP_041727367.1 and WP_015907604.1 and WP_015907605.1
+#   ec: 1.2.7.8
+#   type: Gene-associated
+- id: R07160
+  name: 3-methyl-2-oxobutanoate:ferredoxin oxidoreductase (VOR)
+  genes: Athe_1096 and Athe_1097 and Athe_1098
+  equation: C00141[c] + C00010[c] + (2) C00139[c] <=> C00630[c] + C00011[c] + (2)
+    C00138[c] + C00080[c]
+  subsystem: Branch chain amino acid metabolism
+  genes_peg: peg.1577 and peg.1578 and peg.1579
+  genes_wp: WP_041727367.1 and WP_015907604.1 and WP_015907605.1
+  ec: 1.2.7.7
   type: Gene-associated
-- id: ior2
-  name: Phenylpyruvate ferredoxin oxidoreductase (IOR)
-  genes: Athe_1095 and Athe_1096 and Athe_1097 and Athe_1098
-  equation: C00166[c] + C00010[c] + (2) C00139[c] <=> C00011[c] + (2) C00138[c] +
-    C00080[c] + C00582[c]
-  subsystem: Aromatic amino acids metabolism, Tyrosine, Tryptophan and Phenylalanine Metabolism
-  PMID: 29168502
-  genes_peg: peg.1576 and peg.1577 and peg.1578 and peg.1579
-  genes_wp: WP_015907602.1 and WP_041727367.1 and WP_015907604.1 and WP_015907605.1
-  ec: 1.2.7.8
+- id: R08566
+  name: 4-methyl-2-oxopentanoate:ferredoxin oxidoreductase (VOR)
+  genes: Athe_1096 and Athe_1097 and Athe_1098
+  equation: C00233[c] + C00010[c] + (2) C00139[c] <=> C02939[c] + C00011[c] + (2)
+    C00138[c] + C00080[c]
+  subsystem: Branch chain amino acid metabolism
+  genes_peg: peg.1577 and peg.1578 and peg.1579
+  genes_wp: WP_041727367.1 and WP_015907604.1 and WP_015907605.1
+  ec: 1.2.7.7
+  type: Gene-associated
+- id: R08567
+  name: (S)-3-methyl-2-oxopentanoate:ferredoxin oxidoreductase (VOR)
+  genes: PF0968 and PF0969 and PF0970
+  equation: C00671[c] + C00010[c] + (2) C00139[c] <=> C15980[c] + C00011[c] + (2)
+    C00138[c] + C00080[c]
+  subsystem: Branch chain amino acid metabolism
+  genes_peg: peg.1577 and peg.1578 and peg.1579
+  genes_wp: WP_041727367.1 and WP_015907604.1 and WP_015907605.1
+  ec: 1.2.7.7
   type: Gene-associated
