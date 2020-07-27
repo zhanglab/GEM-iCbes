@@ -2684,7 +2684,7 @@
 - id: R01210
   name: 3-methyl-2-oxobutanoate:NAD+ oxidoreductase (CoA-mehtylpropanoylating)
   genes: Athe_0702 and Athe_0703 and Athe_0704
-  equation: C00141[c] + C00010[c] + C00003[c] <=> C00630[c] + C00011[c] + C00004[c]
+  equation: C00141[c] + C00010[c] + C00003[c] => C00630[c] + C00011[c] + C00004[c]
   subsystem: Valine, leucine and isoleucine degradation
   ec:
   - 1.2.1.25
@@ -3167,7 +3167,7 @@
 - id: R01651
   name: 4-methyl-2-oxopentanoate:NAD+ oxidoreductase (CoA-mehtylpropanoylating)
   genes: Athe_0702 and Athe_0703 and Athe_0704
-  equation: C00233[c] + C00010[c] + C00003[c] <=> C02939[c] + C00011[c] + C00004[c]
+  equation: C00233[c] + C00010[c] + C00003[c] => C02939[c] + C00011[c] + C00004[c]
   subsystem: Valine, leucine and isoleucine degradation
   ec:
   - 1.2.1.25
@@ -4542,7 +4542,7 @@
 - id: R03171
   name: (S)-3-methyl-2-oxopentanoate:NAD+ 2-oxidoreductase (CoA-methylbutanoylating)
   genes: Athe_0702 and Athe_0703 and Athe_0704
-  equation: C00671[c] + C00010[c] + C00003[c] <=> C15980[c] + C00011[c] + C00004[c]
+  equation: C00671[c] + C00010[c] + C00003[c] => C15980[c] + C00011[c] + C00004[c]
   subsystem: Valine, leucine and isoleucine degradation
   ec:
   - 1.2.1.25
@@ -7968,7 +7968,7 @@
 - id: R07160
   name: 3-methyl-2-oxobutanoate:ferredoxin oxidoreductase (VOR)
   genes: Athe_1096 and Athe_1097 and Athe_1098
-  equation: C00141[c] + C00010[c] + (2) C00139[c] <=> C00630[c] + C00011[c] + (2)
+  equation: C00141[c] + C00010[c] + (2) C00139[c] => C00630[c] + C00011[c] + (2)
     C00138[c] + C00080[c]
   subsystem: Branch chain amino acid metabolism
   genes_peg: peg.1577 and peg.1578 and peg.1579
@@ -7978,7 +7978,7 @@
 - id: R08566
   name: 4-methyl-2-oxopentanoate:ferredoxin oxidoreductase (VOR)
   genes: Athe_1096 and Athe_1097 and Athe_1098
-  equation: C00233[c] + C00010[c] + (2) C00139[c] <=> C02939[c] + C00011[c] + (2)
+  equation: C00233[c] + C00010[c] + (2) C00139[c] => C02939[c] + C00011[c] + (2)
     C00138[c] + C00080[c]
   subsystem: Branch chain amino acid metabolism
   genes_peg: peg.1577 and peg.1578 and peg.1579
@@ -7988,7 +7988,7 @@
 - id: R08567
   name: (S)-3-methyl-2-oxopentanoate:ferredoxin oxidoreductase (VOR)
   genes: PF0968 and PF0969 and PF0970
-  equation: C00671[c] + C00010[c] + (2) C00139[c] <=> C15980[c] + C00011[c] + (2)
+  equation: C00671[c] + C00010[c] + (2) C00139[c] => C15980[c] + C00011[c] + (2)
     C00138[c] + C00080[c]
   subsystem: Branch chain amino acid metabolism
   genes_peg: peg.1577 and peg.1578 and peg.1579
