@@ -7987,7 +7987,7 @@
   type: Gene-associated
 - id: R08567
   name: (S)-3-methyl-2-oxopentanoate:ferredoxin oxidoreductase (VOR)
-  genes: PF0968 and PF0969 and PF0970
+  genes: Athe_1096 and Athe_1097 and Athe_1098
   equation: C00671[c] + C00010[c] + (2) C00139[c] => C15980[c] + C00011[c] + (2)
     C00138[c] + C00080[c]
   subsystem: Branch chain amino acid metabolism
