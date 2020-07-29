@@ -6770,7 +6770,7 @@
 - id: R11307_kz
   name: celluase / Beta-1,4-glucanase (secreted)
   genes: Athe_1866 or Athe_1857 or Athe_1859 or Athe_1867 or Athe_0594
-  equation: C00760_kz[e] + (54) C00001[e] => (54) C02013[e] + C00185[c]
+  equation: C00760_kz[e] + (54) C00001[e] => (54) C02013[e] + C00185[e]
   subsystem: Sugar metabolism
   ec:
   - 3.2.1.4
