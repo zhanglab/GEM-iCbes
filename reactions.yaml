@@ -88,7 +88,7 @@
   genes: Athe_1933
   equation: antim[c] => antim[e]
   subsystem: Transport
-  ec: TC=2.A.59.1.2
+  tc: 2.A.59.1.2
   genes_peg: peg.2452
   genes_wp: WP_015908311.1
   type: Gene-associated
@@ -97,7 +97,7 @@
   genes: Athe_1933
   equation: C11215[c] => C11215[e]
   subsystem: Transport
-  ec: TC=2.A.59.1.2
+  tc: 2.A.59.1.2
   genes_peg: peg.2452
   genes_wp: WP_015908311.1
   type: Gene-associated
@@ -247,7 +247,7 @@
   genes: Athe_0589
   equation: C01413[c] + C00080[e] => C01413[e] + C00080[c]
   subsystem: Transport
-  ec: TC=2.A.4.9
+  tc: 2.A.4.9
   genes_peg: peg.1022
   genes_wp: WP_015907168.1
   type: Gene-associated
@@ -266,7 +266,7 @@
   genes: Athe_0589
   equation: C00175[c] + C00080[e] => C00175[e] + C00080[c]
   subsystem: Transport
-  ec: TC=2.A.4.8
+  tc: 2.A.4.8
   genes_peg: peg.1022
   genes_wp: WP_015907168.1
   type: Gene-associated
@@ -906,7 +906,7 @@
   genes: Athe_2355
   equation: C00186[c] + C00080[c] => C00186[e] + C00080[e]
   subsystem: Transport
-  ec: TC=2.A.14
+  tc: 2.A.14
   genes_peg: peg.2931
   genes_wp: WP_015908679.1
   type: Gene-associated
@@ -7181,7 +7181,7 @@
   genes: Athe_0589
   equation: C00038[c] + C00080[e] => C00038[e] + C00080[c]
   subsystem: Transport
-  ec: TC=2.A.4.7
+  tc: 2.A.4.7
   genes_peg: peg.1022
   genes_wp: WP_015907168.1
   type: Gene-associated
@@ -7361,7 +7361,7 @@
   equation: C00002[c] + C00001[c] + C00407[e] => C00008[c] + C00009[c] + C00407[c]
     + C00080[c]
   subsystem: Transport
-  ec: TC=3.A.1.4.1
+  tc: 3.A.1.4.1
   genes_peg: peg.1875 and peg.1876 and peg.1877 and peg.1878 and peg.1879 and (peg.1880
     or peg.954)
   genes_wp: WP_015907853.1 and WP_015907854.1 and WP_015907855.1 and WP_015907856.1
@@ -7373,7 +7373,7 @@
   equation: C19632[e] + C00002[c] + C00001[c] => C19632[c] + C00008[c] + C00009[c]
     + C00080[c]
   subsystem: Sugar metabolism
-  ec: TC=3.A.1.1
+  tc: 3.A.1.1
   genes_peg: peg.2315 and peg.814 and peg.815 and peg.816
   genes_wp: WP_015908194.1 and WP_015906998.1 and WP_015906999.1 and WP_015907000.1
   type: Gene-associated
@@ -7389,7 +7389,7 @@
   equation: C00002[c] + C00001[c] + C00123[e] => C00008[c] + C00009[c] + C00123[c]
     + C00080[c]
   subsystem: Transport
-  ec: TC=3.A.1.4.1
+  tc: 3.A.1.4.1
   genes_peg: peg.1875 and peg.1876 and peg.1877 and peg.1878 and peg.1879 and (peg.1880
     or peg.954)
   genes_wp: WP_015907853.1 and WP_015907854.1 and WP_015907855.1 and WP_015907856.1
@@ -7425,7 +7425,7 @@
   genes: Athe_2212
   equation: C00149[e] + C00080[e] => C00149[c] + C00080[c]
   subsystem: Transport
-  ec: TC=2.A.16
+  tc: 2.A.16
   genes_peg: peg.2774
   genes_wp: WP_015908547.1
   type: Gene-associated
@@ -7513,7 +7513,7 @@
   genes: Athe_0756
   equation: C00013[c] + C00001[c] => (2) C00009[c] + C00080[e]
   subsystem: Transport
-  ec: TC=3.A.10.2.3
+  tc: 3.A.10.2.3
   genes_peg: peg.1212
   genes_wp: WP_015907309.1
   type: Gene-associated
@@ -7532,7 +7532,7 @@
     (Athe_2330 and Athe_2331 and Athe_2332))
   equation: POS[e] + C00002[c] + C00001[c] => POS[c] + C00008[c] + C00009[c] + C00080[c]
   subsystem: Sugar metabolism
-  ec: TC=3.A.1.1.9
+  tc: 3.A.1.1.9
   genes_peg: peg.2315 and ((peg.2576 and peg.2577 and (peg.2575 or peg.2578)) or
     (peg.2905 and peg.2906 and peg.2907))
   genes_wp: WP_015908194.1 and ((WP_015908391.1 and WP_015908392.1 and (WP_015908390.1
@@ -7545,7 +7545,7 @@
   equation: POS2[e] + C00002[c] + C00001[c] => POS2[c] + C00008[c] + C00009[c] +
     C00080[c]
   subsystem: Sugar metabolism
-  ec: TC=3.A.1.1.9
+  tc: 3.A.1.1.9
   genes_peg: peg.2315 and ((peg.2576 and peg.2577 and (peg.2575 or peg.2578)) or
     (peg.2905 and peg.2906 and peg.2907))
   genes_wp: WP_015908194.1 and ((WP_015908391.1 and WP_015908392.1 and (WP_015908390.1
@@ -7825,7 +7825,7 @@
   equation: C01083[e] + C00002[c] + C00001[c] => C01083[c] + C00008[c] + C00009[c]
     + C00080[c]
   subsystem: Sugar metabolism
-  ec: TC=3.A.1.1
+  tc: 3.A.1.1
   genes_peg: peg.2315 and peg.814 and peg.815 and peg.816
   genes_wp: WP_015908194.1 and WP_015906998.1 and WP_015906999.1 and WP_015907000.1
   type: Gene-associated
@@ -7845,7 +7845,7 @@
   equation: C00002[c] + C00001[c] + C00183[e] => C00008[c] + C00009[c] + C00183[c]
     + C00080[c]
   subsystem: Transport
-  ec: TC=3.A.1.4.1
+  tc: 3.A.1.4.1
   genes_peg: peg.1875 and peg.1876 and peg.1877 and peg.1878 and peg.1879 and (peg.1880
     or peg.954)
   genes_wp: WP_015907853.1 and WP_015907854.1 and WP_015907855.1 and WP_015907856.1
