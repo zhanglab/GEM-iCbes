@@ -1139,7 +1139,7 @@
   charge: 0
 - id: C00725
   name: Lipoate
-  formula: C8H13O2S
+  formula: C8H13O2S2
   charge: -1
 - id: C00740
   name: D-Serine
