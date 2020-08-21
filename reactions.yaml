@@ -54,10 +54,11 @@
   genes_wp: WP_015907652.1 and (WP_015907305.1 or WP_015908521.1) and WP_015907798.1
   type: Gene-associated
 - id: 12PD_TP
-  name: (S)-1,2-Propanediol transport
+  name: (S)-1,2-Propanediol diffusion
   equation: C02917[e] <=> C02917[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   type: Gap-filling
+  pmid: 28458033
 - id: 14GLACANASE
   name: alpha-amylase (secreted)
   genes: Athe_0610 or Athe_2593
@@ -81,13 +82,13 @@
 - id: ACt6
   name: acetate transport in/out via proton symport
   equation: C00033[c] + C00080[c] <=> C00033[e] + C00080[e]
-  subsystem: Transport
+  subsystem: Transmembrane
   type: Gap-filling
 - id: ANTIMt1
   name: Antimonite uptake
   genes: Athe_1933
   equation: antim[c] => antim[e]
-  subsystem: Transport
+  subsystem: Transmembrane
   tc: 2.A.59.1.2
   genes_peg: peg.2452
   genes_wp: WP_015908311.1
@@ -96,7 +97,7 @@
   name: Arsenate ion uptake
   genes: Athe_1933
   equation: C11215[c] => C11215[e]
-  subsystem: Transport
+  subsystem: Transmembrane
   tc: 2.A.59.1.2
   genes_peg: peg.2452
   genes_wp: WP_015908311.1
@@ -105,7 +106,7 @@
   name: Arsenite uptake
   genes: Athe_1933
   equation: C06697[c] => C06697[e]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: peg.2452
   genes_wp: WP_015908311.1
   tc: 2.A.59.1.2
@@ -116,7 +117,7 @@
     and Athe_1429 and Athe_1430
   equation: (4) C00080[c] + C00002[c] + C00001[c] <=> (5) C00080[e] + C00008[c] +
     C00009[c]
-  subsystem: Energy metabolism
+  subsystem: Transmembrane, Energy metabolism
   PMID: 31097544, 26536872, 8905099, 16816177
   genes_peg: peg.1915 and peg.1916 and peg.1917 and peg.1918 and peg.1919 and peg.1920
     and peg.1921 and peg.1922
@@ -157,9 +158,9 @@
     (above 60C).
   type: Spontaneous
 - id: Acetoin-t
-  name: acetoin transport
+  name: acetoin diffusion
   equation: C00466[c] => C00466[e]
-  subsystem: Transport
+  subsystem: Transmembrane
   type: Gap-filling
 - id: AguX
   name: Xylan alpha-1,2-glucuronosidase
@@ -176,7 +177,7 @@
   genes: Athe_2264 and Athe_2265 and Athe_2266 or Athe_2268
   equation: C00001[c] + C00002[c] + C00259[e] => C00008[c] + C00009[c] + C00259[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: peg.2831 and peg.2832 and peg.2833 or peg.2836
   genes_wp: WP_015908596.1 and WP_015908597.1 and WP_015908598.1 or WP_015908599.1
   tc: 3.A.1.2
@@ -220,7 +221,7 @@
   name: biotin uptake (ECF)
   genes: Athe_2544
   equation: C00120[e] + C00080[c] => C00120[c] + C00080[e]
-  subsystem: Transport
+  subsystem: Transmembrane
   PMID: 23836870, 17301237, 23359690
   genes_peg: peg.79
   genes_wp: WP_015908862.1
@@ -237,7 +238,7 @@
   name: Sodium/calcium exchanger
   genes: Athe_2364
   equation: C00076[e] + (3) C01330[c] <=> C00076[c] + (3) C01330[e]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: peg.2942
   genes_wp: WP_015908687.1
   tc: 2.A.19.5
@@ -246,7 +247,7 @@
   name: Cd2+ uptake via proton symport
   genes: Athe_0589
   equation: C01413[c] + C00080[e] => C01413[e] + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   tc: 2.A.4.9
   genes_peg: peg.1022
   genes_wp: WP_015907168.1
@@ -265,7 +266,7 @@
   name: Co2+ uptake via proton symport
   genes: Athe_0589
   equation: C00175[c] + C00080[e] => C00175[e] + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   tc: 2.A.4.8
   genes_peg: peg.1022
   genes_wp: WP_015907168.1
@@ -275,14 +276,14 @@
   genes: Athe_1779 and Athe_1780 and Athe_1781 and Athe_1783
   equation: C02269[e] + C00002[c] + C00001[c] => C02269[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: peg.2290 and peg.2291 and peg.2292 and peg.2294
   genes_wp: WP_015908174.1 and WP_015908175.1 and WP_015908176.1 and WP_015908178.1
   type: Gene-associated
 - id: ETOHt1
-  name: ethanol transport in/out via diffusion
+  name: ethanol diffusion
   equation: C00469[c] <=> C00469[e]
-  subsystem: Transport
+  subsystem: Transmembrane
   type: Gap-filling
 - id: EpxqR
   name: epoxyqueuosine reductase
@@ -319,7 +320,7 @@
   genes: Athe_1686 and Athe_1687 and Athe_1688
   equation: C00504[e] + C00002[c] + C00001[c] => C00504[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: peg.2195 and peg.2196 and peg.2197
   genes_wp: WP_015908111.1 and WP_015908112.1 and WP_015908113.1
   tc: 3.A.1.26.10
@@ -350,7 +351,7 @@
     Athe_2266 and Athe_2268)
   equation: C00001[c] + C00002[c] + C00124[e] => C00008[c] + C00009[c] + C00124[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: (peg.490 and peg.491 and peg.492) or (peg.2831 and peg.2832 and peg.2833
     and peg.2836)
   genes_wp: (WP_015906742.1 and WP_015906743.1 and WP_015906744.1) or (WP_015908596.1
@@ -362,7 +363,7 @@
   genes: Athe_0105 and Athe_0106 and Athe_0107
   equation: C00001[c] + C00002[c] + C00031[e] => C00008[c] + C00009[c] + C00031[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: peg.490 and peg.491 and peg.492
   genes_wp: WP_015906742.1 and WP_015906743.1 and WP_015906744.1
   tc: 3.A.1.2
@@ -372,7 +373,7 @@
   genes: (Athe_0847 or Athe_0849) and Athe_0850 and Athe_0851
   equation: C03033[e] + C00002[c] + C00001[c] => C03033[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Sugar metabolism
+  subsystem: Transmembrane
   genes_peg: (peg.1307 or peg.1309) and peg.1310 and peg.1311
   genes_wp: (WP_015907390.1 or WP_015907392.1) and WP_015907393.1 and WP_013430735.1
   tc: 3.A.1
@@ -905,7 +906,7 @@
   name: L-lactate reversible transport via proton symport
   genes: Athe_2355
   equation: C00186[c] + C00080[c] => C00186[e] + C00080[e]
-  subsystem: Transport
+  subsystem: Transmembrane
   tc: 2.A.14
   genes_peg: peg.2931
   genes_wp: WP_015908679.1
@@ -914,7 +915,7 @@
   name: H2-evolving membrane-bound hydrogenase ([Ni-Fe])
   genes: Athe_1082 and Athe_1083 and Athe_1084 and Athe_1085 and Athe_1086 and Athe_1087
   equation: (2) C00138[c] + (3) C00080[c] => C00282[c] + (2) C00139[c] + C00080[e]
-  subsystem: Energy metabolism
+  subsystem: Transmembrane, Energy metabolism
   ec:
   - 1.12.7.2
   PMID: 26536872, 31097544, 15256587
@@ -938,7 +939,7 @@
   genes: Athe_2363
   equation: C00076[c] + C00305[e] + C00002[c] + C00001[c] => C00076[e] + C00305[c]
     + C00008[c] + C00009[c] + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: peg.2941
   genes_wp: WP_015908686.1
   tc: 3.A.3.2.28
@@ -947,7 +948,7 @@
   name: Mg2+ Transporter
   genes: Athe_0656
   equation: C00305[e] => C00305[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: peg.1099
   genes_wp: WP_013430891.1
   tc: 1.A.26.1
@@ -956,7 +957,7 @@
   name: Manganese transport
   genes: Athe_0657 or Athe_1755
   equation: C19610[e] + C00080[e] => C19610[c] + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: peg.1100 or peg.2265
   genes_wp: WP_015907228.1 or WP_015908153.1
   tc: 2.A.55.2.6
@@ -1001,7 +1002,7 @@
 - id: PYRt2
   name: pyruvate reversible transport via proton symport
   equation: C00080[c] + C00022[c] <=> C00080[e] + C00022[e]
-  subsystem: Transport
+  subsystem: Transmembrane
   type: Gap-filling
 - id: QueA
   name: S-adenosylmethionine:tRNA ribosyltransferase-isomerase
@@ -4646,7 +4647,7 @@
   name: fructose uptake (PTS system)
   genes: Athe_0148 and Athe_0149
   equation: C04261[c] + C00095[e] => C00615[c] + C01094[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   ec: 2.7.1.202
   genes_peg: peg.543 and peg.544
   genes_wp: WP_015906778.1 and WP_015906779.1
@@ -6949,7 +6950,7 @@
   genes: Athe_1221 and Athe_1686 and Athe_1687 and Athe_1688
   equation: C00255[e] + C00002[c] + C00001[c] => C00255[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   PMID: 16585736, 23359690
   genes_peg: peg.1708 and peg.2195 and peg.2196 and peg.2197
   genes_wp: WP_015907713.1 and WP_015908111.1 and WP_015908112.1 and WP_015908113.1
@@ -7082,30 +7083,30 @@
     and WP_015907770.1 and WP_015906971.1 and WP_015906970.1
   type: Gene-associated
 - id: TP_CO
-  name: non-enzymatic CO transporter
+  name: CO diffusion
   equation: C00237[c] <=> C00237[e]
-  subsystem: Transport
+  subsystem: Transmembrane
   type: Spontaneous
 - id: TP_CO2
-  name: non-enzymatic CO2 transporter
+  name: CO2 diffusion
   equation: C00011[c] <=> C00011[e]
-  subsystem: Transport
+  subsystem: Transmembrane
   type: Spontaneous
 - id: TP_H2
-  name: non-enzymatic H2 transporter
+  name: H2 diffusion
   equation: C00282[c] => C00282[e]
-  subsystem: Transport
+  subsystem: Transmembrane
   type: Spontaneous
 - id: TP_NH3
-  name: non-enzymatic NH3 transporter
+  name: NH3 diffusion
   equation: C00014[c] <=> C00014[e]
-  subsystem: Transport
+  subsystem: Transmembrane
   type: Spontaneous
 - id: ThiT
   name: Thiamine uptake (ECF)
   genes: Athe_0037
   equation: C00378[e] + C00080[c] => C00378[c] + C00080[e]
-  subsystem: Transport
+  subsystem: Transmembrane
   PMID: 18776013
   genes_peg: peg.417
   genes_wp: WP_012660709.1
@@ -7115,7 +7116,7 @@
   name: potassium uptake
   genes: Athe_0240 and (Athe_0242 or Athe_0243)
   equation: C00238[e] + C00080[e] => C00238[c] + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: peg.639 and (peg.641 or peg.642)
   genes_wp: WP_015906860.1 and (WP_013431228.1 or WP_013431227.1)
   tc: 2.A.38.1.4
@@ -7169,7 +7170,7 @@
     Athe_2266 or Athe_2268)
   equation: C00001[c] + C00002[c] + C00181[e] => C00008[c] + C00009[c] + C00181[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: (peg.490 and peg.491 and peg.492) or (peg.2831 and peg.2832 and peg.2833
     or peg.2836)
   genes_wp: WP_015906742.1 and WP_015906743.1 and WP_015906744.1) or (WP_015908596.1
@@ -7180,7 +7181,7 @@
   name: Zn2+ uptake via proton symport
   genes: Athe_0589
   equation: C00038[c] + C00080[e] => C00038[e] + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   tc: 2.A.4.7
   genes_peg: peg.1022
   genes_wp: WP_015907168.1
@@ -7191,7 +7192,7 @@
     Athe_2374 and Athe_2375 and Athe_2376)
   equation: AXOS[e] + C00002[c] + C00001[c] => AXOS[c] + C00008[c] + C00009[c] +
     C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: (peg.2315 and peg.576 and peg.577 and peg.578) or (peg.2315 and peg.2954
     and peg.2955 and peg.2956)
   genes_wp: (WP_015908194.1 and WP_015906804.1 and WP_015906805.1 and WP_013431280.1)
@@ -7202,7 +7203,7 @@
   genes: Athe_1524
   equation: C00076[c] + (2) C00080[e] + C00002[c] + C00001[c] => C00076[e] + (2)
     C00080[c] + C00008[c] + C00009[c] + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   PMID: 21421919
   genes_peg: peg.2019
   genes_wp: WP_015907974.1
@@ -7218,7 +7219,7 @@
   genes: Athe_1803 and Athe_0595 and Athe_0596 and Athe_0597 and Athe_0598
   equation: C00185[e] + C00002[c] + C00001[c] => C00185[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: peg.2315 and peg.1029 and peg.1030 and peg.1031 and peg.1032
   genes_wp: WP_015908194.1 and WP_015907174.1 and WP_015907175.1 and WP_015907176.1
     and WP_015907177.1
@@ -7269,7 +7270,7 @@
   genes: Athe_0314 or Athe_2280
   equation: C00175[c] + C00001[c] + C00002[c] => C00175[e] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   PMID: 12779235
   genes_peg: peg.725 or peg.2848
   genes_wp: WP_015906919.1 or WP_041727209.1
@@ -7280,7 +7281,7 @@
   genes: Athe_1803 and Athe_0595 and Athe_0596 and Athe_0597 and Athe_0598
   equation: C02013[e] + C00002[c] + C00001[c] => C02013[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: peg.2315 and peg.1029 and peg.1030 and peg.1031 and peg.1032
   genes_wp: WP_015908194.1 and WP_015907174.1 and WP_015907175.1 and WP_015907176.1
     and WP_015907177.1
@@ -7290,7 +7291,7 @@
   genes: Athe_2280
   equation: C00070[e] + C00002[c] + C00001[c] => C00070[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   PMID: 16151212
   genes_peg: peg.2848
   genes_wp: WP_041727209.1
@@ -7299,7 +7300,7 @@
 - id: cysT
   name: Cysteine transport via proton symport
   equation: C00097[e] + C00080[e] => C00097[c] + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   type: Gap-filling
 - id: dna_met
   name: DNA
@@ -7313,7 +7314,7 @@
   genes: Athe_1562 and Athe_1563 and Athe_1564
   equation: C14818[e] + C00044[c] + C00001[c] => C14818[c] + C00035[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   PMID: 26684538
   genes_peg: peg.2057 and peg.2058 and peg.2059
   genes_wp: WP_013430127.1 and WP_015908006.1 and WP_013403073.1
@@ -7323,7 +7324,7 @@
   name: fucose transport via ABC system
   equation: C01019[e] + C00001[c] + C00002[c] => C01019[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   type: Gap-filling
 - id: glyASE
   name: glycogen hydrolysis
@@ -7336,9 +7337,9 @@
   genes_wp: WP_015907188.1 or WP_013429333.1 or WP_015907187.1
   type: Gene-associated
 - id: h2ot
-  name: H2O transport via diffusion
+  name: H2O diffusion
   equation: C00001[e] <=> C00001[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   type: Spontaneous
 - id: hco3
   name: non-enzymatic ionization of CO2 to HCO3-
@@ -7350,7 +7351,7 @@
   genes: Athe_1183 and Athe_1184
   equation: C00288[e] + C00002[c] + C00001[c] => C00288[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: peg.1668 and peg.1669
   genes_wp: WP_015907678.1 and WP_041727131.1
   tc: 3.A.1.16.3
@@ -7360,7 +7361,7 @@
   genes: Athe_1384 and Athe_1385 and Athe_1386 and Athe_1387 and (Athe_1388 or Athe_0523)
   equation: C00002[c] + C00001[c] + C00407[e] => C00008[c] + C00009[c] + C00407[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   tc: 3.A.1.4.1
   genes_peg: peg.1875 and peg.1876 and peg.1877 and peg.1878 and peg.1879 and (peg.1880
     or peg.954)
@@ -7372,7 +7373,7 @@
   genes: Athe_1803 and Athe_0399 and Athe_0400 and Athe_0401
   equation: C19632[e] + C00002[c] + C00001[c] => C19632[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Sugar metabolism
+  subsystem: Transmembrane
   tc: 3.A.1.1
   genes_peg: peg.2315 and peg.814 and peg.815 and peg.816
   genes_wp: WP_015908194.1 and WP_015906998.1 and WP_015906999.1 and WP_015907000.1
@@ -7381,14 +7382,14 @@
   name: lactose transport via ABC system
   equation: C00243[e] + C00001[c] + C00002[c] => C00243[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   type: Gap-filling
 - id: leuABC
   name: leucine oligosacchrides transport via ABC system
   genes: Athe_1384 and Athe_1385 and Athe_1386 and Athe_1387 and (Athe_1388 or Athe_0523)
   equation: C00002[c] + C00001[c] + C00123[e] => C00008[c] + C00009[c] + C00123[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   tc: 3.A.1.4.1
   genes_peg: peg.1875 and peg.1876 and peg.1877 and peg.1878 and peg.1879 and (peg.1880
     or peg.954)
@@ -7414,7 +7415,7 @@
     Athe_2308 and Athe_2309 and Athe_2310)
   equation: C00208[e] + C00002[c] + C00001[c] => C00208[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: (peg.2315 and peg.121 and peg.124 and peg.125) or (peg.2315 and peg.2881
     and peg.2882 and peg.2883)
   genes_wp: (WP_015908194.1 and WP_015908887.1 and WP_015908890.1 and WP_015908891.1)
@@ -7424,7 +7425,7 @@
   name: Malate uptake via proton symport
   genes: Athe_2212
   equation: C00149[e] + C00080[e] => C00149[c] + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   tc: 2.A.16
   genes_peg: peg.2774
   genes_wp: WP_015908547.1
@@ -7433,7 +7434,7 @@
   name: mannose transport via ABC system
   equation: C00159[e] + C00001[c] + C00002[c] => C00159[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   type: Gap-filling
 - id: mdosABC
   name: Maltodextrin transport via ABC system
@@ -7441,7 +7442,7 @@
     Athe_2308 and Athe_2309 and Athe_2310)
   equation: C01935_kz[e] + C00002[c] + C00001[c] => C01935_kz[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: (peg.2315 and peg.121 and peg.124 and peg.125) or (peg.2315 and peg.2881
     and peg.2882 and peg.2883)
   genes_wp: (WP_015908194.1 and WP_015908887.1 and WP_015908890.1 and WP_015908891.1)
@@ -7451,14 +7452,14 @@
   name: melibiose transport via ABC system
   equation: C05402[e] + C00001[c] + C00002[c] => C05402[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   type: Gap-filling
 - id: moABC
   name: molybdate transport via ABC system
   genes: Athe_0273 and Athe_0274 and Athe_0275
   equation: C06232[e] + C00002[c] + C00001[c] => C06232[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: peg.674 and peg.675 and peg.676
   genes_wp: WP_015906887.1 and WP_015906888.1 and WP_015906889.1
   tc: 3.A.1.14.11
@@ -7468,7 +7469,7 @@
   genes: Athe_1803 and Athe_2552 and Athe_2553 and Athe_2554
   equation: C17207_kz[e] + C00002[c] + C00001[c] => C17207_kz[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: peg.2315 and peg.89 and peg.90 and peg.91
   genes_wp: WP_015908194.1 and WP_015908869.1 and WP_015908870.1 and WP_015908871.1
   type: Gene-associated
@@ -7481,7 +7482,7 @@
   name: Ammonium transporter (Ion Channel)
   genes: Athe_2068
   equation: C01342[e] <=> C01342[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: peg.2614
   genes_wp: WP_015908423.1
   tc: 1.A.11.1
@@ -7491,7 +7492,7 @@
   genes: peg.1318 and peg.1319 and Athe_0859 and Athe_0860
   equation: C19609[e] + C00002[c] + C00001[c] => C19609[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   PMID: 24366337
   genes_peg: peg.1318 and peg.1319 and peg.1320 and peg.1321
   genes_wp: WP_041727097.1 and WP_041727099.1 and WP_015907400.1 and WP_015907401.1
@@ -7501,7 +7502,7 @@
   name: Phosphate transport via ABC system
   genes: (Athe_2753 or Athe_1161) and Athe_1162 and Athe_1163 and Athe_1483
   equation: C00009[e] + C00002[c] + C00001[c] => (2) C00009[c] + C00008[c] + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   PMID: 24318969
   genes_peg: (peg.358 or peg.1644) and peg.1645 and peg.1646 and peg.1976
   genes_wp: (WP_015909044.1 or WP_015907659.1) and WP_015907660.1 and WP_015907661.1
@@ -7512,7 +7513,7 @@
   name: V-type proton pumping membrane-bound pyrophosphatase
   genes: Athe_0756
   equation: C00013[c] + C00001[c] => (2) C00009[c] + C00080[e]
-  subsystem: Transport
+  subsystem: Transmembrane
   tc: 3.A.10.2.3
   genes_peg: peg.1212
   genes_wp: WP_015907309.1
@@ -7521,7 +7522,7 @@
   name: inorganic phosphate uptake porter (Low affinity)
   genes: Athe_1485
   equation: C00009[e] + C01330[e] => C00009[c] + C01330[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: peg.1978
   genes_wp: WP_015907942.1
   tc: 2.A.20.1
@@ -7531,7 +7532,7 @@
   genes: Athe_1803 and ((Athe_2030 and Athe_2031 and (Athe_2029 or Athe_2032)) or
     (Athe_2330 and Athe_2331 and Athe_2332))
   equation: POS[e] + C00002[c] + C00001[c] => POS[c] + C00008[c] + C00009[c] + C00080[c]
-  subsystem: Sugar metabolism
+  subsystem: Transmembrane
   tc: 3.A.1.1.9
   genes_peg: peg.2315 and ((peg.2576 and peg.2577 and (peg.2575 or peg.2578)) or
     (peg.2905 and peg.2906 and peg.2907))
@@ -7544,7 +7545,7 @@
     (Athe_2330 and Athe_2331 and Athe_2332))
   equation: POS2[e] + C00002[c] + C00001[c] => POS2[c] + C00008[c] + C00009[c] +
     C00080[c]
-  subsystem: Sugar metabolism
+  subsystem: Transmembrane
   tc: 3.A.1.1.9
   genes_peg: peg.2315 and ((peg.2576 and peg.2577 and (peg.2575 or peg.2578)) or
     (peg.2905 and peg.2906 and peg.2907))
@@ -7698,14 +7699,14 @@
   name: rhamnose transport via ABC system
   equation: C00507[e] + C00001[c] + C00002[c] => C00507[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   type: Gap-filling
 - id: rhaosABC
   name: Rhamnose oligosaccharide transport via ABC system
   genes: Athe_1803 and Athe_2079 and Athe_2080 and Athe_2081
   equation: rhaos[e] + C00002[c] + C00001[c] => rhaos[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: peg.2315 and peg.2628 and peg.2629 and peg.2630
   genes_wp: WP_015908194.1 and WP_041727423.1 and WP_013429600.1 and WP_015908434.1
   type: Gene-associated
@@ -7824,7 +7825,7 @@
   genes: Athe_1803 and Athe_0399 and Athe_0400 and Athe_0401
   equation: C01083[e] + C00002[c] + C00001[c] => C01083[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Sugar metabolism
+  subsystem: Transmembrane
   tc: 3.A.1.1
   genes_peg: peg.2315 and peg.814 and peg.815 and peg.816
   genes_wp: WP_015908194.1 and WP_015906998.1 and WP_015906999.1 and WP_015907000.1
@@ -7833,7 +7834,7 @@
   name: Uracil uptake
   genes: Athe_1374
   equation: C00106[e] + C00080[e] => C00106[c] + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   PMID: 21423164
   genes_peg: peg.1864
   genes_wp: WP_015907843.1
@@ -7844,7 +7845,7 @@
   genes: Athe_1384 and Athe_1385 and Athe_1386 and Athe_1387 and (Athe_1388 or Athe_0523)
   equation: C00002[c] + C00001[c] + C00183[e] => C00008[c] + C00009[c] + C00183[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   tc: 3.A.1.4.1
   genes_peg: peg.1875 and peg.1876 and peg.1877 and peg.1878 and peg.1879 and (peg.1880
     or peg.954)
@@ -7856,7 +7857,7 @@
   genes: Athe_1895 and Athe_1894 and Athe_1896
   equation: C05776[e] + C00002[c] + C00001[c] => C05776[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: peg.2411 and peg.2410 and peg.2412
   genes_wp: WP_015908277.1 and WP_015908276.1 and WP_015908278.1
   tc: 3.A.1.13.1
@@ -7866,7 +7867,7 @@
   genes: Athe_0824 and Athe_0825 and Athe_0826
   equation: C20679[e] + C00002[c] + C00001[c] => C20679[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: peg.1284 and peg.1285 and peg.1286
   genes_wp: WP_015907367.1 and WP_015907368.1 and WP_015907369.1
   tc: 3.A.1.6.2
@@ -7876,7 +7877,7 @@
   genes: Athe_1803 and Athe_2052 and Athe_2053 and Athe_2054
   equation: XGOS-xxxg[e] + C00002[c] + C00001[c] => XGOS-xxxg[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: peg.2315 and peg.2598 and peg.2599 and peg.2600
   genes_wp: WP_015908194.1 and WP_015908408.1 and WP_015908409.1 and WP_015908410.1
   type: Gene-associated
@@ -7885,7 +7886,7 @@
   genes: Athe_1803 and Athe_2052 and Athe_2053 and Athe_2054
   equation: XGOS-xllg[e] + C00002[c] + C00001[c] => XGOS-xllg[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: peg.2315 and peg.2598 and peg.2599 and peg.2600
   genes_wp: WP_015908194.1 and WP_015908408.1 and WP_015908409.1 and WP_015908410.1
   type: Gene-associated
@@ -7895,7 +7896,7 @@
     Athe_0614 and Athe_0615 and Athe_0616) or (Athe_1803 and (Athe_0847 or Athe_0849)
     and Athe_0850 and Athe_0851)
   equation: XOS[e] + C00002[c] + C00001[c] => XOS[c] + C00008[c] + C00009[c] + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: (peg.2315 and peg.571 and peg.572 and peg.573) or (peg.2315 and peg.1053
     and peg.1054 and peg.1055) or (peg.2315 and (peg.1307 or peg.1309) and peg.1310
     and peg.1311)
@@ -7912,7 +7913,7 @@
     and Athe_0850 and Athe_0851)
   equation: XOS2[e] + C00002[c] + C00001[c] => XOS2[c] + C00008[c] + C00009[c] +
     C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   genes_peg: (peg.2315 and peg.571 and peg.572 and peg.573) or (peg.2315 and peg.1053
     and peg.1054 and peg.1055) or (peg.2315 and (peg.1307 or peg.1309) and peg.1310
     and peg.1311)
@@ -7926,7 +7927,7 @@
   genes: Athe_2190 and Athe_2191 and Athe_2192
   equation: C00038[e] + C00002[c] + C00001[c] => C00038[c] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   PMID: 28596134(3.A.1.15.3, AdcABC); 12426338(3.A.1.15.11, Zinc uptake)
   genes_peg: peg.2746 and peg.2747 and peg.2748
   genes_wp: WP_015908527.1 and WP_015908528.1 and WP_015908529.1
@@ -7937,7 +7938,7 @@
   genes: Athe_0314
   equation: C00038[c] + C00001[c] + C00002[c] => C00038[e] + C00008[c] + C00009[c]
     + C00080[c]
-  subsystem: Transport
+  subsystem: Transmembrane
   PMID: 12779235
   genes_peg: peg.725
   genes_wp: WP_015906919.1
