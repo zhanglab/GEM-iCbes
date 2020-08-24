@@ -58,7 +58,7 @@
   equation: C02917[e] <=> C02917[c]
   subsystem: Transmembrane
   type: Gap-filling
-  pmid: 28458033
+  PMID: 28458033
 - id: 14GLACANASE
   name: alpha-amylase (secreted)
   genes: Athe_0610 or Athe_2593
