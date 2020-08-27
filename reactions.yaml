@@ -80,10 +80,11 @@
   genes_wp: WP_015907187.1
   type: Gene-associated
 - id: ACt6
-  name: acetate transport in/out via proton symport
+  name: protonated acetate diffusion
   equation: C00033[c] + C00080[c] <=> C00033[e] + C00080[e]
   subsystem: Transmembrane
-  type: Gap-filling
+  type: Spontaneous
+  PMID: 30988035
 - id: ANTIMt1
   name: Antimonite uptake
   genes: Athe_1933
