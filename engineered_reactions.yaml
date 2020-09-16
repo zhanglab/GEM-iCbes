@@ -15,7 +15,7 @@
   - 1.1.1.1
   PMID: 30009131
 ## add reactions associated with Rnf gene from Thermoanaerobacter sp. X514, to increase ethanol production
-- id: Rnf
+- id: Rnf_Na
   genes: engineered_Rnf
   name: energy-conserving, reduced ferredoxin NAD oxidoreductase
   equation: (2) C00138[c] + C00003[c] + C00080[c] + C01330[c] => (2) C00139[c] + C00004[c] + C01330[e]
