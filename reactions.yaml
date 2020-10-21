@@ -7095,7 +7095,7 @@
   type: Spontaneous
 - id: TP_H2
   name: H2 diffusion
-  equation: C00282[c] => C00282[e]
+  equation: C00282[c] <=> C00282[e]
   subsystem: Transmembrane
   type: Spontaneous
 - id: TP_NH3
