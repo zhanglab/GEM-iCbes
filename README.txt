@@ -8,4 +8,4 @@
 	# engineered_reactions.yaml: reactions to simulate the C. bescii engineered ethanol strain MACB1062
 	# EX_DG25.tsv: default exchange constraints of the medium DG25
 	# EX_modified_DSMZ516_v1: default exchange constraints of the medium modified DSMZ 516 in version 1
-	# EX_modified_DSMZ516_v1: default exchange constraints of the medium modified DSMZ 516 in version 2
+	# EX_modified_DSMZ516_v2: default exchange constraints of the medium modified DSMZ 516 in version 2
