@@ -43,8 +43,8 @@ Create a folder named **simulations** and navigate to that folder, you will run 
 (psamm-env) $ cd simulations
 ```
 
-## Optmizing yields of growth or products   
-`model_validation/fva_exchange_constrain.py` and `model_validation/FBA_MOMA_exchange_constrain.py` are used for model validation. Both the growth yields and the product generation were compared to experimental measurements. Specific constraints (e.g. exchange flux bounds, reaction flux bounds, gene knockouts) can be applied via argument inputs of the scripts. More information on parameter options can be found in the help message using the following commands:  
+## Optimizing yields of growth or products   
+`scripts/fva_exchange_constrain.py` and `scripts/FBA_MOMA_exchange_constrain.py` are used for model validation. Both the growth yields and the product generation were compared to experimental measurements. Specific constraints (e.g. exchange flux bounds, reaction flux bounds, gene knockouts) can be applied via argument inputs of the scripts. More information on parameter options can be found in the help message using the following commands:  
 ```shell
 (psamm-env) $ python ../scripts/fva_exchange_constrain.py -h
 (psamm-env) $ python ../scripts/FBA_MOMA_exchange_constrain.py -h
@@ -109,7 +109,7 @@ Below is an example command on the optimization of product yields with specific 
 ```shell
 (psamm-env) $ python ../scripts/fva_exchange_constrain.py --model ../model.yaml --exchange-list ../additional_files/B0-G-p.tsv --objective EX_C00186[e],EX_C00033[e],EX_C00022[e] --rule 1,EX_C00186[e],0.33133,EX_C00033[e] --rule 1,EX_C00186[e],0.006,EX_C00022[e] --rxn-constrain ../additional_files/B0-G-p_biomass_constraint.tsv --method fba
 ```
-In the above command, the objective function is sum of lactate (EX_C00186[e]), acetate(EX_C00033[e]) and pyruvate (EX_C00022[e]) production, with the constraints of acetate_production : lactate_production = 0.33133 and pyruvate_production : lactate_production = 0.006, and growth yields (flux of sink_biomass) equal to or larger than 0.0521 g/L.
+In the above command, the objective function is sum of lactate (EX_C00186[e]), acetate(EX_C00033[e]) and pyruvate (EX_C00022[e]) production, with the constraints of acetate_production : lactate_production = 0.33133 and pyruvate_production : lactate_production = 0.006, and growth yields (flux of sink_biomass) equal to or larger than 0.5251 g/L.
 
 ### **Simulating the engineered strains**
 The default model represents wild-type *C. bescii*, deleting reactions associated with specific genes or adding engineered reactions is needed in order to simulate mutant  or engineered strains. The arguments `--gene` and `--addrxn` are used for this purpose. `--gene` accepts a space-delimited list of gene IDs, and remove all reactions that require any of the genes on the list. `--addrxn` is followed by a space-delimited list of reaction IDs (**Note:** these reactions should be in the reactions.yaml but not in the file WT_model_def.tsv). An example command for using the `--gene` and `--addrxn` options is given below:  
@@ -212,7 +212,7 @@ This randomsparse simulation performs successive random deletions of metabolic g
 ```shell
 (psamm-env) $ psamm-model --model <path to model.yaml> randomsparse --objective <objective reaction ID> --type reactions <threshold>
 ```
-* **Note:** In our examples below, the last parameter for the command, <threshold>, is given as a percentage value that will be applied to the maximum objective flux. The successive deletion will stop when no further deletion can be made while still maintaining the objective flux to above or equal to the threshold.  
+* **Note:** In our examples below, the last parameter for the command, \<threshold\>, is given as a percentage value that will be applied to the maximum objective flux. The successive deletion will stop when no further deletion can be made while still maintaining the objective flux to above or equal to the threshold.  
 
 For example, the following command runs reaction randomsparse with an optimized ethanol production of at least 99.99% of the maximum:  
 ```shell
@@ -244,7 +244,7 @@ A convergence test can be performed over a high number (e.g. 1,000) of randomspa
 
 `sufficiency_test.R` is used to perform the convergence test. The general usage is:
 ```shell
-(psamm-env) $ Rscript ../scripts/sufficiency_test.R <path to combined TSV result file> 0 1000 <lable of the optimizing objective> <y-axis label>
+(psamm-env) $ Rscript ../scripts/sufficiency_test.R <path to combined TSV result file> 0 1000 <label of the objective being optimized> <Number of Genes/Reactions>
 ```
 
 An example command is shown below:  
@@ -298,7 +298,7 @@ An example command can be seen as follows:
 ```
 This example command will export three FVA simulation results called `base-strain_FVA.tsv`, `dBFH2ase_FVA.tsv` and `Mrp+dPyrE+dLDH_FVA.tsv`, respectively. As well as a file called `01-opt_EtOH_final_result.tsv`, which summarizes fluxes of targeted reactions under the three specified knockout-knockin conditions.
 
-## Robustness-fva analsyis
+## Robustness-fva analysis
 The robustness-fva analysis is used to evaluate how the flux ranges of targeted metabolic reactions would change under increasing fluxes of another reaction. It calculates the maximum and minimum fluxes of a reaction along each step of the varying flux of another reaction, which setting the optimal of an objective function (e.g. biomass).
 
 ### **Run robustness-fva**
@@ -333,13 +333,13 @@ For example, to run the same simulation as above but with the sodium-dependnet R
 ```
 * **Note:** Genes associated with Rnf_Na is labeled as 'engineered_Rnf'; 'Rnf_H' is a reaction ID; Rnf refers to membrane-bound reduced ferredoxin NAD oxidoreductase.
 
-#### **Specify objective and add constarints**
+#### **Specify objective and add constraints**
 You can customize exchange and metabolic reaction constraints with optional arguments `--exchange-list` and `--rxn-constrain`. And the objective function, specified with option `--objective`, can be the sum of multiple reactions. Furthermore, when there are multiple reactions defined with `--objective`, an optional argument `--rule` can be used to constrain the flux ratio of any two reactions in objective function. For the detailed usage of these four arguments, you can reference the *Add exchange constraints* and *Specify objective reaction(s) and add metabolic reaction constraints* section under the **Optimizing yields of growth or products**.
 
 ### **Visualize metabolic fluxes of target reactions**
 In order to visualize the flux range of targeted reactions under the varying flux of a reference reaction, the `robust-fva-plot-any-rxn.R` can be used. The general usage of this script is:
 ```python
-Rscript robust-fva-plot-any-rxn.R <infile> <varylabel> <plotted_reactions> <panel_dimension> <output_name_suffix>
+Rscript scripts/robust-fva-plot-any-rxn.R <infile> <varylabel> <plotted_reactions> <panel_dimension> <output_name_suffix>
 ```  
 Below are an explanation of each parameter:
 * **infile**: the path of robustness-fva result  
@@ -350,7 +350,7 @@ Below are an explanation of each parameter:
     BF-Nfn  BF-Nfn
     BF-H2ase        BF-H2ase
     MBH     MBH
-    EX_C00282[e]    H<sub>2</sub>
+    EX_C00282[e]    H2
     Rnf_Na  Rnf_Na
     R01061  GAPDH
     R07159  GOR

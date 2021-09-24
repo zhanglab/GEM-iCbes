@@ -2,11 +2,12 @@ args <- commandArgs(T)
 # help file
 if(length(args)<5){
   stop("Usage:
-       Rscript sufficiency_test.R input threshold, num, label_x, label_y
+       Rscript sufficiency_test.R input threshold, num, objective, y-label
        input: the path of input file, combined randomsparse table
-       threshold: the set up of the presentage of the maximum value of the optimizing objective
+       threshold: percentage threshold to the objective's maximal values
        num: the number of repeats of the experiments
-       label: lable of the optimizing objective")
+       objective: label showing the objective being optimized
+       label: 'number of genes' or 'number of reactions'")
 }
 
 
@@ -51,36 +52,36 @@ sufficiency_test <- function(input,threshold,num,label){
   colnames(count) <- 2:num
   print(colSums(count))
   write.table(count, paste0(input,"_",threshold,"_",num,"_sufficient_test.tsv"), sep="\t", quote=F, col.names = NA)
-  
+
   suff <- data.frame(y = c(count["core",], count["flex",], count["zero",]), x = rep(2:num,3), group = c(rep("Core-essential", num-1), rep("Flexible",num-1), rep("Non-essential",num-1)))
-  
+
   pdf(paste0(input,"_",threshold,"_",num,"_sufficient_test.pdf"), width=6, height=5)
-  p <- ggplot(suff, aes(x=x, y=y, color=group)) + 
+  p <- ggplot(suff, aes(x=x, y=y, color=group)) +
     geom_point(size=1, alpha=0.6)
     # geom_line()
-  p <- p + 
-    ggtitle(paste("Viability threshold of maximum", label, threshold,"%")) + 
-    xlab("Number of experiments") + 
-    ylab(label_y) + 
+  p <- p +
+    ggtitle(paste("Viability threshold of maximum", label, threshold,"%")) +
+    xlab("Number of experiments") +
+    ylab(label_y) +
     ylim(0,400) +
     theme_bw() +
     theme(title =element_text(size=12),
           axis.text.x = element_text(color = "grey20", size = 12),
-          axis.text.y = element_text(color = "grey20", size = 12),  
+          axis.text.y = element_text(color = "grey20", size = 12),
           axis.title.x = element_text(color = "grey20", size = 12),
           axis.title.y = element_text(color = "grey20", size = 12),
           legend.title=element_blank(),
           legend.text=element_text(size=10))
   plot(p)
   dev.off()
-  
+
 }
 
  # suff_99.99 <- sufficiency_test(threshold = 99.99, num = 1000)
  # suff_1 <- sufficiency_test(1, 1000)
 # suff_99.99_3000 <- sufficiency_test(threshold = 99.99, num = 3000)
 # suff_1_3000 <- sufficiency_test(threshold = 1, num = 3000)
-# 
+#
 # for(n in (seq(10,90,length.out=9))){
 #   print(n)
 #   suff_test <- sufficiency_test(threshold = n, num = 3000)
@@ -91,8 +92,3 @@ sufficiency_test <- function(input,threshold,num,label){
 
 
 sufficiency_test(input, threshold, num, "Ethanol production")
-
-
-
-
-
