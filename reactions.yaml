@@ -186,8 +186,8 @@
 - id: BF-H2ase
   name: Bifurcating hydrogenase ([Fe-Fe])
   genes: Athe_1295 and Athe_1296 and Athe_1297 and Athe_1298 and Athe_1299
-  equation: (3) C00080[c] + C00004[c] + (2) C00138[c] <=> (2) C00282[c] + C00003[c]
-    + (2) C00139[c]
+  equation: (3) C00080[c] + C00004[c] + C00138[c] <=> (2) C00282[c] + C00003[c]
+    + C00139[c]
   subsystem: Energy metabolism
   ec:
   - 1.12.1.4
@@ -199,8 +199,8 @@
 - id: BF-Nfn
   name: NADH-dependent reduced ferredoxin:NADP+ oxidoreductase
   genes: Athe_0644 and Athe_0645
-  equation: C00004[c] + (2) C00138[c] + (2) C00006[c] + C00080[c] <=> C00003[c] +
-    (2) C00139[c] + (2) C00005[c]
+  equation: C00004[c] + C00138[c] + (2) C00006[c] + C00080[c] <=> C00003[c] +
+    C00139[c] + (2) C00005[c]
   subsystem: Energy metabolism
   ec:
   - 1.6.1.4
@@ -915,7 +915,7 @@
 - id: MBH
   name: H2-evolving membrane-bound hydrogenase ([Ni-Fe])
   genes: Athe_1082 and Athe_1083 and Athe_1084 and Athe_1085 and Athe_1086 and Athe_1087
-  equation: (2) C00138[c] + (3) C00080[c] => C00282[c] + (2) C00139[c] + C00080[e]
+  equation: C00138[c] + (3) C00080[c] => C00282[c] + C00139[c] + C00080[e]
   subsystem: Transmembrane, Energy metabolism
   ec:
   - 1.12.7.2
@@ -2641,7 +2641,7 @@
 - id: R01196
   name: pyruvate:ferredoxin 2-oxidoreductase (CoA-acetylating) (POR)
   genes: (Athe_0874 and Athe_0875 and Athe_0876 and Athe_0877) or (Athe_1708 and Athe_1709)
-  equation: (2) C00139[c] + C00022[c] + C00010[c] <=> (2) C00138[c] + C00024[c] +
+  equation: C00139[c] + C00022[c] + C00010[c] <=> C00138[c] + C00024[c] +
     C00011[c] + C00080[c]
   subsystem: Glycolysis / Gluconeogenesis
   ec:
@@ -2653,7 +2653,7 @@
 # - id: R01197
 #   name: 2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating) (KGOR)
 #   genes: Athe_1708 and Athe_1709
-#   equation: (2) C00138[c] + C00091[c] + C00011[c] + C00080[c] <=> (2) C00139[c] +
+#   equation: C00138[c] + C00091[c] + C00011[c] + C00080[c] <=> C00139[c] +
 #     C00026[c] + C00010[c]
 #   subsystem: Citrate cycle (TCA cycle)
 #   ec:
@@ -2665,7 +2665,7 @@
 - id: R01199
   name: 2-oxobutanoate:ferredoxin 2-oxidoreductase (CoA-propanoylating)
   genes: (Athe_0874 and Athe_0875 and Athe_0876 and Athe_0877) or (Athe_1708 and Athe_1709)
-  equation: (2) C00139[c] + C00109[c] + C00010[c] <=> (2) C00138[c] + C00100[c] +
+  equation: C00139[c] + C00109[c] + C00010[c] <=> C00138[c] + C00100[c] +
     C00011[c] + C00080[c]
   subsystem: Propanoate metabolism
   ec:
@@ -6005,7 +6005,7 @@
 - id: R05884
   name: isopentenyl-diphosphate:ferredoxin oxidoreductase
   genes: Athe_1327
-  equation: C11811[c] + (2) C00138[c] + (2) C00080[c] <=> C00129[c] + (2) C00139[c]
+  equation: C11811[c] + C00138[c] + (2) C00080[c] <=> C00129[c] + C00139[c]
     + C00001[c]
   subsystem: Terpenoid backbone biosynthesis
   ec:
@@ -6098,8 +6098,8 @@
 - id: R07159
   name: D-glyceraldehyde-3-phosphate:ferredoxin oxidoreductase (GOR)
   genes: Athe_0820 and Athe_0821
-  equation: C00118[c] + C00001[c] + (2) C00139[c] => C00197[c] + (3) C00080[c] +
-    (2) C00138[c]
+  equation: C00118[c] + C00001[c] + C00139[c] => C00197[c] + (3) C00080[c] +
+    C00138[c]
   subsystem: Glycolysis / Gluconeogenesis
   ec:
   - 1.2.7.6
@@ -6110,7 +6110,7 @@
 - id: R07161
   name: 3-(indol-3-yl)pyruvate:ferredoxin oxidoreductase (decarboxylating,CoA-indole-acetylating)
   genes: (Athe_1506 and Athe_1505) or (Athe_1009 and Athe_1008)
-  equation: C00331[c] + C00010[c] + (2) C00139[c] <=> C15489[c] + C00011[c] + (2)
+  equation: C00331[c] + C00010[c] + C00139[c] <=> C15489[c] + C00011[c] + 
     C00138[c] + C00080[c]
   subsystem: '-'
   ec: 1.2.7.8
@@ -6279,7 +6279,7 @@
 - id: R08210
   name: dimethylallyl diphosphate:ferredoxin oxidoreductase
   genes: Athe_1327
-  equation: C00235[c] + (2) C00139[c] + C00001[c] <=> C11811[c] + (2) C00138[c] +
+  equation: C00235[c] + C00139[c] + C00001[c] <=> C11811[c] + C00138[c] +
     (2) C00080[c]
   subsystem: Terpenoid backbone biosynthesis
   ec:
@@ -6452,7 +6452,7 @@
 - id: R08689
   name: (E)-4-hydroxy-3-methylbut-2-en-1-yl-diphosphate:oxidized ferredoxin oxidoreductase(hydrating)
   genes: Athe_1808
-  equation: C00080[c] + C11453[c] + (2) C00138[c] <=> C11811[c] + C00001[c] + (2)
+  equation: C00080[c] + C11453[c] + C00138[c] <=> C11811[c] + C00001[c] + 
     C00139[c]
   subsystem: Terpenoid backbone biosynthesis
   ec:
@@ -7948,7 +7948,7 @@
 # - id: ior3
 #   name: 4-Hydroxyphenylpyruvate ferredoxin oxidoreductase (IOR)
 #   genes: Athe_1095 and Athe_1096 and Athe_1097 and Athe_1098
-#   equation: C01179[c] + C00010[c] + (2) C00139[c] <=> C00011[c] + (2) C00138[c] +
+#   equation: C01179[c] + C00010[c] + C00139[c] <=> C00011[c] + C00138[c] +
 #     C00080[c] + C05338[c]
 #   subsystem: Aromatic amino acids metabolism, Tyrosine, Tryptophan and Phenylalanine Metabolism
 #   PMID: 29168502
@@ -7959,7 +7959,7 @@
 # - id: ior2
 #   name: Phenylpyruvate ferredoxin oxidoreductase (IOR)
 #   genes: Athe_1095 and Athe_1096 and Athe_1097 and Athe_1098
-#   equation: C00166[c] + C00010[c] + (2) C00139[c] <=> C00011[c] + (2) C00138[c] +
+#   equation: C00166[c] + C00010[c] + C00139[c] <=> C00011[c] + C00138[c] +
 #     C00080[c] + C00582[c]
 #   subsystem: Aromatic amino acids metabolism, Tyrosine, Tryptophan and Phenylalanine Metabolism
 #   PMID: 29168502
@@ -7970,7 +7970,7 @@
 - id: R07160
   name: 3-methyl-2-oxobutanoate:ferredoxin oxidoreductase (VOR)
   genes: Athe_1096 and Athe_1097 and Athe_1098
-  equation: C00141[c] + C00010[c] + (2) C00139[c] => C00630[c] + C00011[c] + (2)
+  equation: C00141[c] + C00010[c] + C00139[c] => C00630[c] + C00011[c] + 
     C00138[c] + C00080[c]
   subsystem: Branch chain amino acid metabolism
   genes_peg: peg.1577 and peg.1578 and peg.1579
@@ -7980,7 +7980,7 @@
 - id: R08566
   name: 4-methyl-2-oxopentanoate:ferredoxin oxidoreductase (VOR)
   genes: Athe_1096 and Athe_1097 and Athe_1098
-  equation: C00233[c] + C00010[c] + (2) C00139[c] => C02939[c] + C00011[c] + (2)
+  equation: C00233[c] + C00010[c] + C00139[c] => C02939[c] + C00011[c] + 
     C00138[c] + C00080[c]
   subsystem: Branch chain amino acid metabolism
   genes_peg: peg.1577 and peg.1578 and peg.1579
@@ -7990,7 +7990,7 @@
 - id: R08567
   name: (S)-3-methyl-2-oxopentanoate:ferredoxin oxidoreductase (VOR)
   genes: Athe_1096 and Athe_1097 and Athe_1098
-  equation: C00671[c] + C00010[c] + (2) C00139[c] => C15980[c] + C00011[c] + (2)
+  equation: C00671[c] + C00010[c] + C00139[c] => C15980[c] + C00011[c] + 
     C00138[c] + C00080[c]
   subsystem: Branch chain amino acid metabolism
   genes_peg: peg.1577 and peg.1578 and peg.1579
