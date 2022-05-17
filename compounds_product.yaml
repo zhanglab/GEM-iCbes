@@ -1,0 +1,95 @@
+# below is desired bioproduct for engineering purpose.
+- id: C01013
+  name: 3-Hydroxypropanoate (3HP)
+  formula: C3H5O3
+  charge: -1
+  source: CHEBI:16510
+- id: C03044
+  name: (R,R)-2,3-Butanediol (23BDO)
+  formula: C4H10O2
+  charge: 0
+  source: CHEBI:16982
+- id: C05979
+  name: Propanol
+  formula: C3H8O
+  charge: 0
+  source: CHEBI:28831
+- id: C00989
+  name: 4-Hydroxybutanoate (4HB)
+  formula: C4H7O3
+  charge: -1
+  source: CHEBI:16724
+- id: 14BD
+  name: 1,4-Butanediol (14BD)
+  formula: C4H10O2
+  charge: 0
+  source: CHEBI:41189
+- id: C00207
+  name: Acetone
+  formula: C3H6O
+  charge: 0
+  source: CHEBI:15347
+
+# intermediate metabolites in engineered pathways
+- id: C00222
+  name: 3-Oxopropanoate
+  names: Malonate semialdehyde
+  formula: C3H3O3
+  charge: -1
+  source: CHEBI:33190
+- id: C00232
+  name: 4-Oxobutanoate
+  names: Succinate semialdehyde
+  formula: C4H5O3
+  charge: -1
+  source: CHEBI:57706
+- id: C00479
+  name: Propionaldehyde
+  names: Propanal
+  formula: C3H6O
+  charge: 0
+  source: CHEBI:17153
+- id: C01182
+  name: D-Ribulose 1,5-bisphosphate (RuBP)
+  formula: C5H8O11P2
+  charge: -4
+  source: CHEBI:57870
+- id: C05668
+  name: 3-Hydroxypropionyl-CoA
+  formula: C24H36N7O18P3S
+  charge: -4
+  source: CHEBI:58528
+- id: C00894
+  name: Propenoyl-CoA
+  names: Acryloyl-CoA
+  formula: C24H34N7O17P3S
+  charge: -4
+  source: CHEBI:57367
+- id: C01213
+  name: (R)-Methylmalonyl-CoA
+  formula: C25H35N7O19P3S
+  charge: -5
+  source: CHEBI:59916
+- id: C11062
+  name: 4-Hydroxybutyryl-CoA (4HB-CoA)
+  names: 4-Hydroxybutanoyl-CoA
+  formula: C25H38N7O18P3S
+  charge: -4
+  source: CHEBI:58574
+- id: 4HBA
+  name: 4-hydroxybutyraldehyde (4HBA)
+  names: 4-hydroxybutanal
+  formula: C4H8O2
+  charge: 0
+  source: ModelSeed (https://modelseed.org/biochem/compounds/cpd23932)
+- id: C00332
+  name: Acetoacetyl-CoA
+  formula: C25H36N7O18P3S
+  charge: -4
+  source: CHEBI:57286
+- id: C00164
+  name: Acetoacetate
+  names: 3-oxobutanoate
+  formula: C4H5O3
+  charge: -1
+  source: CHEBI:13705
