@@ -1745,6 +1745,12 @@
   name: beta-D-Glucuronoside
   formula: C6H8O7R
   charge: -1
+- id: C03044
+  name: 2,3-Butanediol
+  formula: C4H10O2
+  charge: 0
+  KEGG: C03044
+  source: KEGG
 - id: C03082
   name: 4-Phospho-L-aspartate
   formula: C4H6NO7P

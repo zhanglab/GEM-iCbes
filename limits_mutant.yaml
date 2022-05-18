@@ -5,10 +5,9 @@
   fixed: 0
 # ------- dLDH END ---------------------
 
-# the following defines the pyrF k/o:
+# the following defines the pyrE k/o:
 - reaction: R01870
   fixed: 0
 - reaction: R08231
   fixed: 0
-# ------- dpyrF END ---------------------
-
+# ------- dpyrE END ---------------------

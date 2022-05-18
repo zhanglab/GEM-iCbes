@@ -152,6 +152,25 @@
   name: Acetone diffusion
   equation: C00207[c] => C00207[e]
 
+# -------- engineered reactions for 2,3-Butanediol production --------
+- id: R02946_Tg_sADH
+  name: Thermococcus guaymasensis secondary alcohol dehydrogenase (sADH)
+  genes: Tg_sADH
+  equation: C00466 + C00005 + C00080 => C03044 + C00006
+  subsystem: Butanoate metabolism
+  ec: 1.1.1.4
+  pmid: 21515780
+- id: R02946_Tb_sADH
+  name: Thermoanaerobacter brockii secondary alcohol dehydrogenase (sADH)
+  genes: Tg_sADH
+  equation: C00466 + C00005 + C00080 => C03044 + C00006
+  subsystem: Butanoate metabolism
+  ec: 1.1.1.4
+  pmid: 7030321
+- id: TP_C03044
+  name: 2,3-Butanediol diffusion
+  equation: C03044[c] => C03044[e]
+
 # -------- engineered reactions for ethanol production --------
 # Below are the added reactions for C. bescii engineered ethanol strain (MACB1062)
 ## add reactions associated with AdhE gene (from Clostridium thermocellum)

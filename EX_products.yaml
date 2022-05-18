@@ -1,5 +1,9 @@
 compartment: e
 compounds:
+- id: C00469
+  name: Ethanol
+  lower: 0
+  upper: 1000
 - id: C01013
   name: 3-Hydroxypropanoate (3HP)
   lower: 0
