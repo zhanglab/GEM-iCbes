@@ -1034,6 +1034,7 @@
   - 1.2.4.1
   - 2.2.1.6
   - 4.1.1.1
+  PMID: 28782269
   genes_peg: (peg.933 or peg.1111) and peg.934
   genes_wp: (WP_015907090.1 or WP_015907236.1) and WP_015907091.1
   type: Gene-associated
@@ -5506,6 +5507,7 @@
   subsystem: '-'
   ec:
   - 2.2.1.6
+  PMID: 28782269
   genes_peg: (peg.933 or peg.1111) and peg.934
   genes_wp: (WP_015907090.1 or WP_015907236.1) and WP_015907091.1
   type: Gene-associated
@@ -6446,6 +6448,7 @@
   subsystem: Valine, leucine and isoleucine biosynthesis
   ec:
   - 2.2.1.6
+  PMID: 28782269
   genes_peg: (peg.933 or peg.1111) and peg.934
   genes_wp: (WP_015907090.1 or WP_015907236.1) and WP_015907091.1
   type: Gene-associated
