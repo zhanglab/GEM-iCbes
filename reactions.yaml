@@ -5370,13 +5370,25 @@
 - id: R04440
   name: (R)-2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)
   genes: Athe_0504
-  equation: C04272[c] + C00006[c] <=> C04181[c] + C00005[c] + C00080[c]
+  equation: C04272[c] + C00006[c] <= C04181[c] + C00005[c] + C00080[c]
   subsystem: Valine, leucine and isoleucine biosynthesis
   ec:
   - 1.1.1.86
   genes_peg: peg.935
   genes_wp: WP_013431057.1
   type: Gene-associated
+  comment: Based on homology analysis by Dmitry, this enzyme could use either NAD or NADP. Directionality was constrained to the biosynthetic direction, away from pyruvate. 
+- id: R04440_NAD
+  name: (R)-2,3-Dihydroxy-3-methylbutanoate:NAD+ oxidoreductase (isomerizing)
+  genes: Athe_0504
+  equation: C04272[c] + C00003[c] <= C04181[c] + C00004[c] + C00080[c]
+  subsystem: Valine, leucine and isoleucine biosynthesis
+  ec:
+  - 1.1.1.86
+  genes_peg: peg.935
+  genes_wp: WP_013431057.1
+  type: Gene-associated
+  comment: Based on homology analysis by Dmitry, this enzyme could use either NAD or NADP. Directionality was constrained to the biosynthetic direction, away from pyruvate. 
 - id: R04441
   name: (R)-2,3-Dihydroxy-3-methylbutanoate hydro-lyase
   genes: Athe_0665
@@ -5695,13 +5707,25 @@
 - id: R05068
   name: (R)-2,3-Dihydroxy-3-methylpentanoate:NADP+ oxidoreductase (isomerizing)
   genes: Athe_0504
-  equation: C06007[c] + C00006[c] <=> C14463[c] + C00005[c] + C00080[c]
+  equation: C06007[c] + C00006[c] <= C14463[c] + C00005[c] + C00080[c]
   subsystem: Valine, leucine and isoleucine biosynthesis
   ec:
   - 1.1.1.86
   genes_peg: peg.935
   genes_wp: WP_013431057.1
   type: Gene-associated
+  comment: Based on homology analysis by Dmitry, this enzyme could use either NAD or NADP. Directionality was constrained to the biosynthetic direction, away from pyruvate. 
+- id: R05068_NAD
+  name: (R)-2,3-Dihydroxy-3-methylpentanoate:NAD+ oxidoreductase (isomerizing)
+  genes: Athe_0504
+  equation: C06007[c] + C00003[c] <= C14463[c] + C00004[c] + C00080[c]
+  subsystem: Valine, leucine and isoleucine biosynthesis
+  ec:
+  - 1.1.1.86
+  genes_peg: peg.935
+  genes_wp: WP_013431057.1
+  type: Gene-associated
+  comment: Based on homology analysis by Dmitry, this enzyme could use either NAD or NADP. Directionality was constrained to the biosynthetic direction, away from pyruvate. 
 - id: R05069
   name: (S)-2-Aceto-2-hydroxybutanoate:NADP+ oxidoreductase (isomerizing)
   genes: Athe_0504
