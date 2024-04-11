@@ -8040,3 +8040,11 @@
   genes_wp: WP_041727367.1 and WP_015907604.1 and WP_015907605.1
   ec: 1.2.7.7
   type: Gene-associated
+- id: ala_sink
+  name: Alanine sink
+  equation: C00041[c] =>
+  notes: Production of Valine and Alanine has been experimentally observed (by Ryan-2024), but exporters for these are unknown. Adding sinks instead.
+- id: val_sink
+  name: Valine sink
+  equation: C00183[c] =>
+  notes: Production of Valine and Alanine has been experimentally observed (by Ryan-2024), but exporters for these are unknown. Adding sinks instead.
