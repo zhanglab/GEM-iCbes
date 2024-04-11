@@ -8048,3 +8048,10 @@
   name: Valine sink
   equation: C00183[c] =>
   notes: Production of Valine and Alanine has been experimentally observed (by Ryan-2024), but exporters for these are unknown. Adding sinks instead.
+- id: R01286
+  name: L-cystathionine L-homocysteine-lyase (deaminating; pyruvate-forming)
+  equation: C02291[c] + C00001[c] <=> C00155[c] + C00014[c] + C00022[c]
+  ec:
+    - 4.4.1.13, 4.4.1.8
+  genes: Athe_1496
+  PMID: 25108266
