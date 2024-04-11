@@ -2083,7 +2083,7 @@
 - id: R00897
   name: O3-acetyl-L-serine:hydrogen-sulfide 2-amino-2-carboxyethyltransferase
   genes: Athe_1615
-  equation: C00979[c] + C00283[c] <=> C00097[c] + C00033[c] + C00080[c]
+  equation: C00979[c] + C00283[c] => C00097[c] + C00033[c] + C00080[c]
   subsystem: Cysteine and methionine metabolism
   ec:
   - 2.5.1.47
@@ -2091,6 +2091,7 @@
   genes_peg: peg.2123
   genes_wp: WP_015908048.1
   type: Gene-associated
+  PMID: 25108266
 - id: R00921
   name: propanoyl-CoA:phosphate propanoyltransferase
   genes: Athe_1494
@@ -2825,7 +2826,7 @@
 - id: R01288
   name: O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase
   genes: Athe_1124 or Athe_1190
-  equation: C01118[c] + C00283[c] <=> C00155[c] + C00042[c] + C00080[c]
+  equation: C01118[c] + C00283[c] => C00155[c] + C00042[c] + C00080[c]
   subsystem: Cysteine and methionine metabolism
   ec:
   - 2.5.1.48
@@ -2833,6 +2834,7 @@
   genes_peg: peg.1606 or peg.1675
   genes_wp: WP_015907625.1 or WP_015907685.1
   type: Gene-associated
+  PMID: 25108266
 - id: R01325
   name: citrate hydro-lyase (cis-aconitate-forming)
   genes: Athe_0524
@@ -4111,6 +4113,7 @@
   genes_peg: peg.1606 or peg.1675
   genes_wp: WP_015907625.1 or WP_015907685.1
   type: Gene-associated
+  notes: Redundant with R03260 but uses Cystathionine instead of L-Cystathionine which is what is used by the rest of the model. This rxn is removed from the model def.
 - id: R02539
   name: Phenylacetate:CoA ligase
   genes: Athe_2035 or Athe_1507 or Athe_1504 or Athe_1010
@@ -4693,13 +4696,14 @@
 - id: R03260
   name: O-Succinyl-L-homoserine succinate-lyase (adding cysteine)
   genes: Athe_1124 or Athe_1190
-  equation: C01118[c] + C00097[c] <=> C02291[c] + C00042[c] + C00080[c]
+  equation: C01118[c] + C00097[c] => C02291[c] + C00042[c] + C00080[c]
   subsystem: Cysteine and methionine metabolism
   ec:
   - 2.5.1.48
   genes_peg: peg.1606 or peg.1675
   genes_wp: WP_015907625.1 or WP_015907685.1
   type: Gene-associated
+  PMID: 25108266
 - id: R03269
   name: N-[(R)-4'-Phosphopantothenoyl]-L-cysteine carboxy-lyase
   genes: Athe_1037
@@ -8050,7 +8054,7 @@
   notes: Production of Valine and Alanine has been experimentally observed (by Ryan-2024), but exporters for these are unknown. Adding sinks instead.
 - id: R01286
   name: L-cystathionine L-homocysteine-lyase (deaminating; pyruvate-forming)
-  equation: C02291[c] + C00001[c] <=> C00155[c] + C00014[c] + C00022[c] + C00080[c]
+  equation: C02291[c] + C00001[c] => C00155[c] + C01342[c] + C00022[c]
   ec:
     - 4.4.1.13, 4.4.1.8
   genes: Athe_1496
