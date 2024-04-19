@@ -1786,13 +1786,13 @@
   type: Gene-associated
 - id: R00651
   name: O-acetyl-L-homoserine:methanethiol 3-amino-3-carboxypropyltransferase
-  genes: Athe_1124 or Athe_1190
+  genes: Athe_1124
   equation: C01077[c] + C00409[c] <=> C00073[c] + C00033[c] + C00080[c]
   subsystem: '-'
   ec:
   - 2.5.1.49
-  genes_peg: peg.1606 or peg.1675
-  genes_wp: WP_015907625.1 or WP_015907685.1
+  genes_peg: peg.1606
+  genes_wp: WP_015907625.1
   type: Gene-associated
 - id: R00658
   name: 2-phospho-D-glycerate hydro-lyase (phosphoenolpyruvate-forming) (phosphopyruvate
@@ -2261,13 +2261,13 @@
   type: Gene-associated
 - id: R00999
   name: O-Succinyl-L-homoserine succinate-lyase (deaminating
-  genes: Athe_1124 or Athe_1190
+  genes: Athe_1190
   equation: C01118[c] + C00001[c] <=> C00109[c] + C00042[c] + C00014[c] + (2) C00080[c]
   subsystem: Cysteine and methionine metabolism
   ec:
   - 2.5.1.48
-  genes_peg: peg.1606 or peg.1675
-  genes_wp: WP_015907625.1 or WP_015907685.1
+  genes_peg: peg.1675
+  genes_wp: WP_015907685.1
   type: Gene-associated
 - id: R01010
   name: Glycerone phosphate phosphohydrolase
@@ -2815,24 +2815,24 @@
   type: Gene-associated
 - id: R01287
   name: O-acetyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase
-  genes: Athe_1124 or Athe_1190
+  genes: Athe_1124
   equation: C01077[c] + C00283[c] <=> C00155[c] + C00033[c] + C00080[c]
   subsystem: Cysteine and methionine metabolism
   ec:
   - 2.5.1.49
-  genes_peg: peg.1606 or peg.1675
-  genes_wp: WP_015907625.1 or WP_015907685.1
+  genes_peg: peg.1606
+  genes_wp: WP_015907625.1
   type: Gene-associated
 - id: R01288
   name: O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase
-  genes: Athe_1124 or Athe_1190
+  genes: Athe_1190
   equation: C01118[c] + C00283[c] => C00155[c] + C00042[c] + C00080[c]
   subsystem: Cysteine and methionine metabolism
   ec:
   - 2.5.1.48
   - 2.5.1.-
-  genes_peg: peg.1606 or peg.1675
-  genes_wp: WP_015907625.1 or WP_015907685.1
+  genes_peg: peg.1675
+  genes_wp: WP_015907685.1
   type: Gene-associated
   PMID: 25108266
 - id: R01325
@@ -4105,13 +4105,13 @@
   type: Gene-associated
 - id: R02508
   name: cystathionine gamma-synthase
-  genes: Athe_1124 or Athe_1190
+  genes: Athe_1190
   equation: C00542[c] + C00042[c] + C00080[c] <=> C01118[c] + C00097[c]
   subsystem: '-'
   ec:
   - 2.5.1.48
-  genes_peg: peg.1606 or peg.1675
-  genes_wp: WP_015907625.1 or WP_015907685.1
+  genes_peg: peg.1675
+  genes_wp: WP_015907685.1
   type: Gene-associated
   notes: Redundant with R03260 but uses Cystathionine instead of L-Cystathionine which is what is used by the rest of the model. This rxn is removed from the model def.
 - id: R02539
@@ -4635,13 +4635,13 @@
   type: Gene-associated
 - id: R03217
   name: O-Acetyl-L-homoserine succinate-lyase (adding cysteine)
-  genes: Athe_1124 or Athe_1190
+  genes: Athe_1190
   equation: C01077[c] + C00097[c] <=> C02291[c] + C00033[c] + C00080[c]
   subsystem: Cysteine and methionine metabolism
   ec:
   - 2.5.1.48
-  genes_peg: peg.1606 or peg.1675
-  genes_wp: WP_015907625.1 or WP_015907685.1
+  genes_peg: peg.1675
+  genes_wp: WP_015907685.1
   type: Gene-associated
 - id: R03223
   name: 2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:4-methyl-5-(2-phosphoethyl)-thiazole
@@ -4695,13 +4695,13 @@
   type: Gene-associated
 - id: R03260
   name: O-Succinyl-L-homoserine succinate-lyase (adding cysteine)
-  genes: Athe_1124 or Athe_1190
+  genes: Athe_1190
   equation: C01118[c] + C00097[c] => C02291[c] + C00042[c] + C00080[c]
   subsystem: Cysteine and methionine metabolism
   ec:
   - 2.5.1.48
-  genes_peg: peg.1606 or peg.1675
-  genes_wp: WP_015907625.1 or WP_015907685.1
+  genes_peg: peg.1675
+  genes_wp: WP_015907685.1
   type: Gene-associated
   PMID: 25108266
 - id: R03269
@@ -5609,33 +5609,33 @@
   type: Gene-associated
 - id: R04944
   name: O-phosphorylhomoserine:selenocysteine Se-(3-amino-3-carboxypropyl)transferase
-  genes: Athe_1124 or Athe_1190
+  genes: Athe_1190
   equation: C05702[c] + C05688[c] <=> C05699[c] + C00009[c]
   subsystem: Selenocompound metabolism
   ec:
   - 2.5.1.48
-  genes_peg: peg.1606 or peg.1675
-  genes_wp: WP_015907625.1 or WP_015907685.1
+  genes_peg: peg.1675
+  genes_wp: WP_015907685.1
   type: Gene-associated
 - id: R04945
   name: O-Acetylhomoserine succinate-lyase (adding cysteine)
-  genes: Athe_1124 or Athe_1190
+  genes: Athe_1190
   equation: C01077[c] + C05688[c] <=> C05699[c] + C00033[c] + C00080[c]
   subsystem: '-'
   ec:
   - 2.5.1.48
-  genes_peg: peg.1606 or peg.1675
-  genes_wp: WP_015907625.1 or WP_015907685.1
+  genes_peg: peg.1675
+  genes_wp: WP_015907685.1
   type: Gene-associated
 - id: R04946
   name: O4-succinyl-L-homoserine:L-selenocysteine Se-(3-amino-3-carboxypropyl)transferase
-  genes: Athe_1124 or Athe_1190
+  genes: Athe_1190
   equation: C01118[c] + C05688[c] <=> C05699[c] + C00042[c] + C00080[c]
   subsystem: Selenocompound metabolism
   ec:
   - 2.5.1.48
-  genes_peg: peg.1606 or peg.1675
-  genes_wp: WP_015907625.1 or WP_015907685.1
+  genes_peg: peg.1675
+  genes_wp: WP_015907685.1
   type: Gene-associated
 - id: R04972
   name: Uroporphyrinogen I carboxy-lyase
