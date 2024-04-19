@@ -7868,6 +7868,12 @@
       value: 1
   subsystem: Biomass
   type: Biomass
+- id: sulfateABC
+  equation: C00059[e] + C00002[c] + C00001[c] => C00059[c] + C00008[c] + C00009[c] + C00080[c]
+  name: Sulfate transport via ABC system
+  tc: 3.A.1
+  subsystem: Transmembrane
+  pmid: 25108266
 - id: trehABC
   name: Trehalose oligosacchrides transport via ABC system
   genes: Athe_1803 and Athe_0399 and Athe_0400 and Athe_0401

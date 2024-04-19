@@ -688,6 +688,7 @@ pro_met
 rhaABC
 rhaosABC
 rna_met
+sulfateABC
 sink_biomass
 sink_dads
 sink_gatp
@@ -714,3 +715,4 @@ ala_sink
 val_sink
 R01286
 R00858
+
