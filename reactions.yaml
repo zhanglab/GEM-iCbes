@@ -2262,7 +2262,7 @@
 - id: R00999
   name: O-Succinyl-L-homoserine succinate-lyase (deaminating
   genes: Athe_1190
-  equation: C01118[c] + C00001[c] <=> C00109[c] + C00042[c] + C00014[c] + (2) C00080[c]
+  equation: C01118[c] + C00001[c] => C00109[c] + C00042[c] + C00014[c] + (2) C00080[c]
   subsystem: Cysteine and methionine metabolism
   ec:
   - 2.5.1.48
@@ -4636,7 +4636,7 @@
 - id: R03217
   name: O-Acetyl-L-homoserine succinate-lyase (adding cysteine)
   genes: Athe_1190
-  equation: C01077[c] + C00097[c] <=> C02291[c] + C00033[c] + C00080[c]
+  equation: C01077[c] + C00097[c] => C02291[c] + C00033[c] + C00080[c]
   subsystem: Cysteine and methionine metabolism
   ec:
   - 2.5.1.48
