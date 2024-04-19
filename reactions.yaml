@@ -2082,7 +2082,7 @@
   type: Gene-associated
 - id: R00897
   name: O3-acetyl-L-serine:hydrogen-sulfide 2-amino-2-carboxyethyltransferase
-  genes: Athe_1615
+  genes: Athe_1615 or Athe_1165
   equation: C00979[c] + C00283[c] => C00097[c] + C00033[c] + C00080[c]
   subsystem: Cysteine and methionine metabolism
   ec:
@@ -2158,7 +2158,7 @@
   type: Gene-associated
 - id: R00946
   name: 5-Methyltetrahydrofolate:L-homocysteine S-methyltransferase
-  genes: Athe_0324
+  genes: Athe_2582 or Athe_0324
   equation: C00440[c] + C00155[c] <=> C00101[c] + C00073[c]
   subsystem: Cysteine and methionine metabolism
   ec:
@@ -4530,7 +4530,7 @@
   type: Gene-associated
 - id: R03132
   name: O3-acetyl-L-serine acetate-lyase (adding hydrogen sulfide)
-  genes: Athe_1615
+  genes: Athe_1615 or Athe_1165
   equation: C00080[c] + C00979[c] + C00320[c] <=> C05824[c] + C00033[c] + (2) C00080[c]
   subsystem: Cysteine and methionine metabolism
   ec:
@@ -4869,7 +4869,7 @@
   type: Gene-associated
 - id: R03601
   name: O3-Acetyl-L-serine acetate-lyase (adding hydrogen sulfide)
-  genes: Athe_1615
+  genes: Athe_1615 or Athe_1165
   equation: C00979[c] + C01528[c] <=> C05688[c] + C00033[c] + C00080[c]
   subsystem: '-'
   ec:
