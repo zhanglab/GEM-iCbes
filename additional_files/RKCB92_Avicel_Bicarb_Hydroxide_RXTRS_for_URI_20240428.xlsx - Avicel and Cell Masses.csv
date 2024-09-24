@@ -1,0 +1,20 @@
+,"RKCB92, sodium bicarbonate condition","RKCB92, sodium hydroxide condition",Notes
+Dry Cell Weight (g/L-culture),0.505,0.410,At terminal culture point
+stdev,0.013,0.022,
+Mass per cell (g/cell),0,0,
+stdev,0,0,
+,,,
+Avicel (cellulose) balances,"RKCB92, sodium bicarbonate condition","RKCB92, sodium hydroxide condition",
+Initial (g),75.00,75.00,Total mass
+Initial (g/L),50.00,50.00,"concentration, in 1500ml"
+Avicel recovered (g),16.94,44.33,
+stdev,1.62,1.10,
+Avicel consumed (g),58.06,30.67,
+stdev,1.62,1.10,
+Volume removed (mL),54.00,45.00,Sample volume removed
+Volume of NH4 stock added,10.00,5,
+"Base added (mL), estimate",150.00,175,
+Final Volume (estiamte) (L),1.606,1.635,"based amount of NH4 added, base added for pH control, and sample volume removed"
+Estimated final Avicel (g/L),10.55,27.11,
+Scaled Avicel Initial (g/L),45.18,44.64,"Scaled based on dilutions from additions, does not include mass removed in samples"
+Scaled Avicel consumed (g/L),34.63,17.53,"Scaled based on dilutions from additions, does not include mass removed in samples"
