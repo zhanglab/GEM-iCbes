@@ -1,4 +1,5 @@
 # iCbes model, Genome-scale metabolic model of *Cladicellulosiruptor bescii*  
+[![DOI](https://zenodo.org/badge/407185534.svg)](https://zenodo.org/doi/10.5281/zenodo.13835055)
 
 Files in this repository represent the genome-scale model of *Cladicellulosiruptor bescii* (*C.bescii*). The model is first reported in the following publication:
 
