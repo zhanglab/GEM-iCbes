@@ -4,6 +4,10 @@ Files in this repository represent the genome-scale model of *Cladicellulosirupt
 
 * Zhang K, Zhao W, Rodionov DA, Rubinstein GM, Nguyen DN, Tanwee TNN, Crosby J, Bing RG, Kelly RM, Adams MWW, Zhang Y. 2021. Genome-scale metabolic model of *Caldicellulosiruptor bescii* reveals optimal metabolic engineering strategies for bio-based chemical production. *mSystems* 6:e01351-20. https://doi.org/10.1128/mSystems.01351-20.
 
+Additional publications related to this repository: 
+* Tanwee, Tania N. N., Gina L. Lipscomb, Jason L. Vailionis, Ke Zhang, Ryan G. Bing, Hailey C. O’Quinn, Farris L. Poole, Ying Zhang, Robert M. Kelly, and Michael W. W. Adams. 2023. “Metabolic Engineering of Caldicellulosiruptor Bescii for 2,3-Butanediol Production from Unpretreated Lignocellulosic Biomass and Metabolic Strategies for Improving Yields and Titers.” Applied and Environmental Microbiology, December, e0195123. https://doi-org.uri.idm.oclc.org/10.1128/aem.01951-23.
+* Bing, Ryan G., Kathryne C. Ford, Daniel J. Willard, Mohamad J. H. Manesh, Christopher T. Straub, Tunyaboon Laemthong, Benjamin H. Alexander, et al. 2024. “Engineering Ethanologenicity into the Extremely Thermophilic Bacterium Anaerocellum (f. Caldicellulosiriuptor) Bescii.” Metabolic Engineering, September. https://doi.org/10.1016/j.ymben.2024.09.007.
+
 This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 ## List of files  
