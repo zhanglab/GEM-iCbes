@@ -6,7 +6,9 @@ Files in this repository represent the genome-scale model of *Cladicellulosirupt
 
 Additional publications related to this repository: 
 * Tanwee, Tania N. N., Gina L. Lipscomb, Jason L. Vailionis, Ke Zhang, Ryan G. Bing, Hailey C. O’Quinn, Farris L. Poole, Ying Zhang, Robert M. Kelly, and Michael W. W. Adams. 2023. “Metabolic Engineering of Caldicellulosiruptor Bescii for 2,3-Butanediol Production from Unpretreated Lignocellulosic Biomass and Metabolic Strategies for Improving Yields and Titers.” Applied and Environmental Microbiology, December, e0195123. https://doi-org.uri.idm.oclc.org/10.1128/aem.01951-23.
+  * *All code used to generate results in* `scripts/Tanwee_2023_simulations.ipynb`
 * Bing, Ryan G., Kathryne C. Ford, Daniel J. Willard, Mohamad J. H. Manesh, Christopher T. Straub, Tunyaboon Laemthong, Benjamin H. Alexander, et al. 2024. “Engineering Ethanologenicity into the Extremely Thermophilic Bacterium Anaerocellum (f. Caldicellulosiriuptor) Bescii.” Metabolic Engineering, September. https://doi.org/10.1016/j.ymben.2024.09.007.
+  * *All code used to generate results in* `scripts/Bing_2024_simulations.ipynb`
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
