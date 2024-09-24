@@ -1,0 +1,718 @@
+id	dG'0 [kJ/mol]	uncertainty [kJ/mol]	ln(Reversibility Index)	comment
+12DAG3PS	nan	nan	nan	reaction is empty
+12PD_TP	nan	nan	nan	reaction is empty
+14GLACANASE	nan	nan	nan	reaction is empty
+16GLACANASE	nan	nan	nan	reaction is empty
+ACt6	nan	nan	nan	reaction is empty
+ANTIMt1	nan	nan	nan	reaction is empty
+ARSNAt1	nan	nan	nan	reaction is empty
+ARSt1	nan	nan	nan	reaction is empty
+ATPSYN	-26.07	0.3	-11.62	
+AXE	nan	nan	nan	reaction is empty
+AbfA	nan	nan	nan	reaction is empty
+Acetoin-Syn	-16.39	3.12	-9.01	
+Acetoin-t	nan	nan	nan	reaction is empty
+AguX	nan	nan	nan	reaction is empty
+ArabABC	-26.07	0.3	-11.62	
+BF-H2ase	53.48	8.31	1.94	
+BF-Nfn	-14.5	5.92	-1.17	
+Bgal	nan	nan	nan	reaction is empty
+BioY	nan	nan	nan	reaction is empty
+Biomass_Cbescii	nan	nan	nan	reaction is empty
+CaNaEx	nan	nan	nan	reaction is empty
+Cd2efflux	nan	nan	nan	reaction is empty
+CelF	nan	nan	nan	reaction is empty
+Co2efflux	nan	nan	nan	reaction is empty
+DeoABC	-26.07	0.3	-11.62	
+ETOHt1	nan	nan	nan	reaction is empty
+EpxqR	nan	nan	nan	reaction is empty
+FUCASE	nan	nan	nan	reaction is empty
+FUCASE2	nan	nan	nan	reaction is empty
+FolT	-26.07	0.3	-11.62	
+G5SADs	-4.03	4.86	-1.63	
+GOSASE	nan	nan	nan	reaction is empty
+GaltABC	-26.07	0.3	-11.62	
+GlcABC	-26.07	0.3	-11.62	
+GlcnABC	-26.07	0.3	-11.62	
+HemG	-1.87	3.24	-0.75	
+KAS11	nan	nan	nan	reaction is empty
+KAS12	nan	nan	nan	reaction is empty
+KAS13	nan	nan	nan	reaction is empty
+KAS17_1	nan	nan	nan	reaction is empty
+KAS17_2	nan	nan	nan	reaction is empty
+KAS1OH3	nan	nan	nan	reaction is empty
+KAS2	nan	nan	nan	reaction is empty
+KAS3	nan	nan	nan	reaction is empty
+KAS6	nan	nan	nan	reaction is empty
+KAS8	nan	nan	nan	reaction is empty
+LIPO1S24_Cbes	nan	nan	nan	reaction is empty
+LIPO2S24_Cbes	nan	nan	nan	reaction is empty
+LIPO3S24_Cbes	nan	nan	nan	reaction is empty
+LIPO4S24_Cbes	nan	nan	nan	reaction is empty
+Lac-symp	nan	nan	nan	reaction is empty
+MBH	19.6	6.56	0.4	
+MazG	-41.52	2.56	-15.78	
+MgCaAT	-26.07	0.3	-11.62	
+MgtE	nan	nan	nan	reaction is empty
+MntH	nan	nan	nan	reaction is empty
+NMPK	-2.7	1.79	-0.55	
+PECASE	nan	nan	nan	reaction is empty
+PGK2	-20.4	1.4	-4.12	
+PPTGS_Cbes	nan	nan	nan	reaction is empty
+PYRt2	nan	nan	nan	reaction is empty
+QueA	nan	nan	nan	reaction is empty
+R00004	-15.57	0.19	-8.79	
+R00014	-29.87	3.45	-6.03	
+R00036	-101.73	4.08	-22.77	
+R00066	-100.47	8.32	-20.28	
+R00084	-108.7	8.62	-11.28	
+R00087	-36.11	0.57	-14.32	
+R00104	-6.93	2.93	-1.4	
+R00114	-52.99	0.94	-7.13	
+R00127	-0.47	0.16	-0.09	
+R00130	10.04	2.93	2.03	
+R00137	-3.5	2.93	-0.71	
+R00143	263.88	100000	-16.35	
+R00156	5.84	1.26	1.18	
+R00158	-1.39	3.19	-0.28	
+R00161	-11.34	3.93	-2.29	
+R00177	87.39	100000	16.87	
+R00178	-22.16	3.09	-10.57	
+R00189	-18.53	2.8	-2.49	
+R00190	21.42	1.34	4.32	
+R00192	34.74	2.93	4.74	
+R00193	-22.83	2.88	-10.75	
+R00200	-29.86	0.42	-6.03	
+R00206	-19.82	0.49	-2.67	
+R00217	-18.79	3.12	-9.66	
+R00230	11.64	0.61	2.35	
+R00239	29.96	2.3	6.05	
+R00253	-12.6	0.83	-1.7	
+R00256	-13.47	0.86	-8.23	
+R00258	-0.65	0.53	-0.13	
+R00260	0.5	2.15	0.2	
+R00289	-7.81	0.55	-1.58	
+R00291	-2.92	0.83	-1.18	
+R00299	-15.82	0.43	-3.19	
+R00306	-12.8	1.88	-8.05	
+R00315	-14.96	0.55	-3.02	
+R00330	-1.82	1.33	-0.37	
+R00332	-1.35	1.2	-0.27	
+R00342	31.14	0.3	6.28	
+R00351	34.76	0.44	7.01	
+R00355	2.8	0.54	0.56	
+R00371	36.93	2.14	7.45	
+R00401	-0.04	1.01	-0.02	
+R00414	-21.24	3.39	-10.32	
+R00416	-17.49	2.94	-3.53	
+R00418	1.52	2.68	0.61	
+R00420	1.54	2.68	0.62	
+R00421	-13.84	2.99	-1.86	
+R00424	-64.95	8.27	-22.08	
+R00425	-73.17	5.98	-21.67	
+R00426	-33.41	1.87	-13.59	
+R00428	17.4	2.93	7.02	
+R00429	16.52	6.93	3.33	
+R00431	-12.9	3.37	0.68	
+R00451	-18.39	3.73	-9.55	
+R00480	23.62	2.93	4.77	
+R00481_zws	-0.06	3.34	-0.01	
+R00489	-20.54	5.98	-10.13	
+R00490	14.73	0.48	-0.64	
+R00502	-8.78	1.38	-1.77	
+R00512	1.07	2.93	0.22	
+R00515	-38.02	2.33	-14.84	
+R00517	-9.34	3.07	-1.89	
+R00529	45.96	1.16	9.27	
+R00549	-7.9	2.92	-1.59	
+R00566	-4.12	6.15	-5.71	
+R00570	0.37	2.34	0.07	
+R00573	-23.33	2.63	-4.66	
+R00575	-3.05	2.65	-1.81	
+R00578	-32.94	3.65	-5.77	
+R00582	-11.28	0.28	-7.64	
+R00586	-4.3	2.93	-0.87	
+R00619	-1.9	2.45	-0.38	
+R00651	-57.18	3.03	-11.54	
+R00658	-4.08	0.3	-1.65	
+R00660	-13.28	3.71	-2.68	
+R00662	-41.02	3.85	-15.64	
+R00674	-50.75	1.12	-9.05	
+R00691	-77.86	11.07	-25.55	
+R00694	-0.74	2.07	-0.15	
+R00703	28.31	0.46	5.71	
+R00709	5.05	3.19	-1.95	
+R00732	-19.59	11.06	-5.93	
+R00734	-0.25	2.07	-0.05	
+R00742	-5.87	1.49	-0.79	
+R00756	-12.05	0.67	-2.43	
+R00760	-13.55	0.59	-2.73	
+R00764	-1.55	0.7	-0.31	
+R00768	-14.8	2.24	-2.99	
+R00771	2.15	0.38	0.87	
+R00772	-1.64	1.16	-0.66	
+R00801	-24.67	1.28	-11.24	
+R00842	27.55	0.73	5.56	
+R00847	-12.23	2.08	-2.47	
+R00856	-2.2	1.69	-0.44	
+R00868	11.62	1.21	2.35	
+R00883	-0.48	3.23	-0.1	
+R00885	-9.17	2.93	-1.85	
+R00895	-17.69	4.7	-3.57	
+R00896	-17.69	4.7	-3.57	
+R00897	-51.46	5.24	-10.38	
+R00921	21.76	3.29	4.39	
+R00936	-26.93	1.16	-5.43	
+R00939	-26.82	1.11	-5.41	
+R00942	nan	nan	nan	reaction is not chemically balanced
+R00943	-2.31	1.94	-0.31	
+R00945	7.03	1.24	1.42	
+R00946	-3	5.18	-0.6	
+R00948	-8.74	1.36	-1.76	
+R00952	4.87	1.69	0.98	
+R00964	-15.24	4.18	-3.08	
+R00965	-29.13	8.61	-12.44	
+R00966	-17.28	4.39	-3.49	
+R00968	-13.42	4.38	-2.71	
+R00985	-92.81	7.53	-18.73	
+R00986	-106.29	7.58	-19.92	
+R00994	-2.36	4.7	-3.14	
+R00999	-56.67	4.72	-18.34	
+R01010	-15.77	2.17	-8.85	
+R01015	5.62	0.55	2.27	
+R01030	-252.52	70710.68	-72.55	
+R01049	3.07	1.45	0.62	
+R01054	-20.88	3.82	-10.22	
+R01056	2.12	0.76	0.86	
+R01057	-11.6	1.52	-4.68	
+R01061	5.9	0.41	3.72	
+R01066	20.32	1.51	0.86	
+R01067	10.71	1.92	2.16	
+R01068	22.53	0.53	1.46	
+R01071	-4135.83	100000	8.01	
+R01072	62.72	2.72	12.89	
+R01073	60.52	3.62	12.21	
+R01074	1165.67	100000	235.24	
+R01078	-444.35	154737.4	-53.21	
+R01082	3.44	0.28	1.39	
+R01083	18.53	1.38	0.38	
+R01086	12.96	2.93	-1.12	
+R01090	-0.33	1.58	-0.07	
+R01092	-11.57	1.51	-2.33	
+R01100	-10.74	1.05	-7.5	
+R01101	-10.72	1.69	-7.49	
+R01103	2.23	4.38	-4	
+R01104	-2.09	3.02	-5.17	
+R01127	19.62	5.44	7.92	
+R01130	21.33	3.98	4.31	
+R01132	30.71	1.58	6.2	
+R01135	4.03	2.13	0.54	
+R01150	-24.44	4.25	-3.29	
+R01157	-58.59	6.31	-20.37	
+R01158	-6.73	2.24	-0.9	
+R01175	29.4	3.91	5.93	
+R01183	-0.83	1.66	-0.17	
+R01194	-3.01	2.38	-5.41	
+R01196	-20.63	6.67	-2.08	
+R01199	-2.54	8.02	-0.26	
+R01209	-36.93	1.4	-14.91	
+R01210	-20.42	3.35	-2.75	
+R01213	20.17	1.35	4.07	
+R01214	1.08	3.47	0.22	
+R01216	19.08	5.08	0.53	
+R01220	9.15	1.14	1.85	
+R01224	-45.12	4.19	-9.11	
+R01226	6.54	5.05	1.32	
+R01229	31.68	2.22	6.39	
+R01230	-308.52	67656.96	-41.51	
+R01248	-52.71	2.95	-10.64	
+R01251	-52.6	2.93	-10.62	
+R01280	-12.09	6.42	-1.63	
+R01287	-64.51	5.45	-13.02	
+R01288	-55.93	5.78	-11.29	
+R01325	10.63	1.13	4.29	
+R01326	-14.72	1.42	-2.97	
+R01329	4.39	2.9	-3.42	
+R01353	34.11	2.82	6.88	
+R01373	-68.87	11.32	-23.14	
+R01397	-22.99	2.93	-4.64	
+R01398	-32.24	2.93	-6.51	
+R01402	11.66	2.93	2.35	
+R01432	3.67	0.58	1.48	
+R01433_kz	nan	nan	nan	reaction is empty
+R01444	-13.78	3.05	-8.31	
+R01445_kz	nan	nan	nan	reaction is empty
+R01466	-30.07	2.81	-12.7	
+R01470	-244.57	70710.68	-70.41	
+R01482	0.62	2.93	0.25	
+R01512	-18.57	0.44	-3.75	
+R01513	34.67	0.56	7	
+R01514	-9.82	0.63	-1.98	
+R01518	3.9	0.36	1.57	
+R01526	-22.97	1.78	-4.63	
+R01529	-3.39	1.15	-1.37	
+R01541	-17.07	3.87	-3.45	
+R01542	-13.91	3.71	-2.81	
+R01555	3.44	1.53	0.69	
+R01561	9.3	1.33	1.88	
+R01570	5.63	4.48	1.14	
+R01579	-19.2	3.93	-9.77	
+R01580	0.06	2.92	0.01	
+R01625	nan	nan	nan	reaction is empty
+R01626	nan	nan	nan	reaction is empty
+R01639	-20.23	2.03	-4.08	
+R01641	3.8	1.92	0.77	
+R01651	-21.7	4.14	-2.92	
+R01652	-18.35	4.33	-9.54	
+R01655	-3.26	0.92	-1.31	
+R01658	-78.05	2.79	-15.75	
+R01663	-23.45	2.53	-10.91	
+R01665	1.41	2.93	0.28	
+R01668	-41.73	2.43	-15.83	
+R01714	-49.85	3.83	-18.02	
+R01715	-48.85	4.64	-19.72	
+R01716	-18.57	3.06	-3.75	
+R01718	-8.43	0.85	-6.87	
+R01724	-36.6	2.95	-6.19	
+R01728	-10.11	11.29	-4.4	
+R01737	-6.75	3.21	-1.36	
+R01761	4.9	1.69	1.98	
+R01762	nan	nan	nan	reaction is empty
+R01771	-35.11	4.49	-7.09	
+R01775	24.12	1.7	4.87	
+R01776	-26.58	4.73	-5.36	
+R01785	12.73	1.94	-1.18	
+R01790_kz	nan	nan	nan	reaction is empty
+R01799	nan	nan	nan	reaction is empty
+R01801	nan	nan	nan	reaction is empty
+R01818	4.58	1.5	1.85	
+R01826	-74.49	2.35	-15.03	
+R01829	17.59	2.81	0.13	
+R01855	-43.07	2.43	-16.2	
+R01856	2814.36	100000	-14.87	
+R01859	-3.35	5.26	-0.45	
+R01863	9.56	1.07	1.93	
+R01869	10.46	1.2	2.11	
+R01870	-11.43	1.31	-2.31	
+R01876	0.52	1.31	0.11	
+R01878	-15.15	1.11	-8.68	
+R01900	0.65	1.13	0.26	
+R01902	-21.3	2.49	-4.3	
+R01920	4.19	100000	0.85	
+R01954	2.79	1.47	0.38	
+R01969	17.6	3.77	3.55	
+R01983	1.34	2.07	0.54	
+R01993	-2.89	1.69	-1.17	
+R02003	-79.92	2.94	-16.13	
+R02030	nan	nan	nan	reaction is empty
+R02036	-43.02	2.57	-17.36	
+R02059	-8.41	3.78	-6.87	
+R02060	-2.54	1.69	-1.03	
+R02061	-79.92	2.94	-16.13	
+R02071	-13.59	1.3	-2.74	
+R02090	4.41	2.93	0.89	
+R02093	2	2.62	0.4	
+R02094	-2.49	2.93	-0.5	
+R02098	0.6	1.29	0.12	
+R02100	-36.99	2.56	-14.56	
+R02110	nan	nan	nan	reaction is empty
+R02110_kz	nan	nan	nan	reaction is empty
+R02112_kz	nan	nan	nan	reaction is empty
+R02135	-69.23	4.46	-23.23	
+R02142	27.01	2.44	5.45	
+R02147	12.69	2.07	2.56	
+R02199	-6.58	3.52	-1.33	
+R02236	16.33	3.13	3.3	
+R02237	-16.22	3.37	-2.18	
+R02239	nan	nan	nan	reaction is empty
+R02240	nan	nan	nan	reaction is empty
+R02258	28.16	1.5	5.68	
+R02262	19.65	2.93	0.68	
+R02263	6.26	2.93	-2.92	
+R02272	8.92	0.67	3.6	
+R02282	3.75	2.93	0.76	
+R02283	-3.68	3.37	-0.74	
+R02291	-17.82	1.69	-0.11	
+R02294	-13.95	2.93	-2.81	
+R02295	11.32	3.09	2.28	
+R02296	17.21	2.41	3.47	
+R02297	12.02	2.93	2.43	
+R02298	24.64	4.7	4.97	
+R02301	-73.12	7.55	-14.57	
+R02322	4.08	5.58	-3.51	
+R02328	-0.16	2.93	-0.03	
+R02340	19.22	2.93	0.57	
+R02360_kz	nan	nan	nan	reaction is empty
+R02412	-20	2.84	-4.04	
+R02413	11.17	1.31	2.25	
+R02421	nan	nan	nan	reaction is empty
+R02437	0.13	1.69	0.05	
+R02439	-9.16	2.29	-1.85	
+R02454	-18.28	1.83	-3.69	
+R02472	20.6	2.93	4.16	
+R02473	-43.03	1.33	-5.79	
+R02484	3.1	2.7	0.63	
+R02485	-21.51	1.98	-10.39	
+R02508	60.31	5.57	12.17	
+R02539	-9.79	2	-1.32	
+R02557	10.87	3.39	2.19	
+R02558	-10.43	1.8	-7.41	
+R02568	28.83	1.15	3.15	
+R02628	nan	nan	nan	reaction is empty
+R02649	26.55	3.08	5.36	
+R02689	nan	nan	nan	reaction is empty
+R02707	22.78	1.85	10.74	
+R02720	-50.94	2.56	-18.31	
+R02722	-31.53	3.14	-6.36	
+R02727	6.22	1.19	1.25	
+R02728	-7.41	0.74	-2.99	
+R02733	-7.1	2.34	-6.52	
+R02734	8	3.74	-2.45	
+R02735	-1.65	2.93	-0.67	
+R02748	9.93	1.69	2	
+R02749	-26.8	3.51	-10.81	
+R02777	0.49	1.59	0.1	
+R02783	-26	3.2	-3.5	
+R02788	-26.39	2.27	-3.55	
+R02853	-17.08	2.69	-9.2	
+R02864	nan	nan	nan	reaction is not chemically balanced
+R02869	3.39	100000	0.68	
+R02887_kz	-27.65	6.14	-12.49	
+R02918	nan	nan	nan	reaction is empty
+R02926	15.73	3.17	-0.37	
+R02971	-12.28	1.24	-2.48	
+R02984	2.25	1.95	0.91	
+R02985	-3.7	1.77	-5.6	
+R03005	-25.16	4.7	-5.08	
+R03013	-17.44	2.18	-9.3	
+R03014	0.41	2.76	0.08	
+R03018	-5.89	4.12	-1.19	
+R03024	-860.37	141421.36	-5.49	
+R03035	-23.3	5.18	-4.7	
+R03038	nan	nan	nan	reaction is empty
+R03066	-26.73	2.99	-2.59	
+R03067	-67.67	6.52	-13.66	
+R03083	-152.3	6.26	-45.59	
+R03084	-5.29	2.07	-2.14	
+R03132	-834.02	122474.49	-8.18	
+R03163	5.46	2.93	2.2	
+R03165	-313.95	400000	-126.72	
+R03171	-20.43	3.35	-2.75	
+R03182	13.87	6.85	1.87	
+R03191	-60.19	1.28	-12.15	
+R03192	-60.09	1.3	-12.13	
+R03193	-26.95	2.29	-3.63	
+R03194	-263.16	289730.33	-35.41	
+R03197	-53.89	12.42	-16.46	
+R03217	-68.89	5.24	-13.9	
+R03223	-32.02	2.93	-6.46	
+R03231	-0.67	0	-0.14	
+R03232	nan	nan	nan	reaction is empty
+R03241	-15.65	3.01	-3.16	
+R03243	-9.46	2.93	-1.91	
+R03260	-60.31	5.57	-12.17	
+R03269	-21.37	3.09	-10.35	
+R03291	-52.59	7.2	-10.61	
+R03293	-52.48	7.2	-10.59	
+R03313	13.39	1.62	4.93	
+R03348	33.03	4.3	8.1	
+R03443	11.83	1.62	4.67	
+R03457	-42.47	1.95	-17.14	
+R03458	30.19	1.68	6.09	
+R03459	275.53	67656.96	69.53	
+R03460	-15.25	2.3	-3.08	
+R03471	-8.66	1.24	-1.75	
+R03472	-183.26	100000	-27.05	
+R03503	4.83	5.89	0.97	
+R03508	-77.67	6.01	-25.5	
+R03509	-9.89	1.35	-3.99	
+R03531	-50.94	2.56	-18.31	
+R03601	298.87	141421.36	-0.01	
+R03634	0.47	2.38	-4.48	
+R03646	nan	nan	nan	reaction is empty
+R03647	nan	nan	nan	reaction is empty
+R03650	nan	nan	nan	reaction is empty
+R03651	nan	nan	nan	reaction is empty
+R03654	nan	nan	nan	reaction is empty
+R03655	nan	nan	nan	reaction is empty
+R03656	nan	nan	nan	reaction is empty
+R03657	nan	nan	nan	reaction is empty
+R03658	nan	nan	nan	reaction is empty
+R03659	nan	nan	nan	reaction is empty
+R03660	nan	nan	nan	reaction is empty
+R03661	nan	nan	nan	reaction is empty
+R03662	nan	nan	nan	reaction is empty
+R03663	nan	nan	nan	reaction is empty
+R03664	nan	nan	nan	reaction is empty
+R03665	nan	nan	nan	reaction is empty
+R03789	nan	nan	nan	reaction is empty
+R03801	-13.88	6.85	-8.34	
+R03802	-12.93	1.78	-8.08	
+R03896	9.36	2.41	3.78	
+R03898	8.84	2.83	3.57	
+R03905	nan	nan	nan	reaction is empty
+R03940	nan	nan	nan	reaction is empty
+R03947	2431.34	232257.75	-8.29	
+R03968	0.35	1.91	0.14	
+R04001	-3.74	1.9	-1.51	
+R04035	-1819.99	141421.36	-29.18	
+R04037	-2706.9	116582.8	-0.05	
+R04109	nan	nan	nan	reaction is empty
+R04112	0.87	2.32	-4.37	
+R04144	-25.15	2.32	-3.38	
+R04173	10.27	0.38	2.07	
+R04198	-52.3	1.5	-10.55	
+R04199	-52.19	1.51	-10.53	
+R04206	-5.56	1.48	-2.25	
+R04208	11.93	48207.3	-0.84	
+R04212	nan	nan	nan	reaction is empty
+R04231	-50.53	4.96	-6.8	
+R04292	216.81	4.24	43.75	
+R04325	3.06	5.69	0.62	
+R04326	-0.2	5.67	-0.04	
+R04377	nan	nan	nan	reaction is empty
+R04378	37.83	3.67	7.63	
+R04383	-2	0.47	-0.81	
+R04391	-11.87	1.24	-2.4	
+R04405	-38.91	6.19	-7.85	
+R04420	-10.09	2.47	-4.07	
+R04426	20.41	0.99	4.12	
+R04440	20.26	1.01	4.09	
+R04441	-36.93	1.4	-14.91	
+R04457	-96.19	8.43	-19.41	
+R04463	31.3	48207.3	1.64	
+R04509	9.88	4.47	1.99	
+R04519	nan	nan	nan	reaction is empty
+R04559	24.97	2.93	2.11	
+R04560	6.02	2.93	1.22	
+R04573	-29.31	1.74	-3.94	
+R04591	-70.66	5.21	-9.51	
+R04617	-29.34	1.74	-3.95	
+R04620	-84.1	6.94	-21.87	
+R04639	-32.95	9.3	-13.3	
+R04640	-9.74	1.35	-3.93	
+R04672	0.47	1.92	0.09	
+R04751	32.79	3.66	6.62	
+R04771	-58.78	141421.36	-10.27	
+R04773	nan	nan	nan	reaction is empty
+R04783	-12.93	1.78	-8.08	
+R04929	842.69	141421.36	-0.42	
+R04936	47.14	141421.36	-4.61	
+R04944	260.92	141421.36	-0.22	
+R04945	249.07	141421.36	-8.23	
+R04946	257.65	141421.36	-8.44	
+R04972	-53.89	12.42	-16.46	
+R04998	25.66	4.21	2.3	
+R05030	-11.55	2.3	-1.55	
+R05032	-12.97	3.49	-2.62	
+R05046	-39.62	6.63	-15.27	
+R05048	-9.78	1.35	-3.95	
+R05052	-9.35	1.91	-1.89	
+R05068	20.26	1.01	4.09	
+R05069	0	0	0	
+R05070	-36.93	1.4	-14.9	
+R05071	0	0	0	
+R05085	-9.93	1.91	-2	
+R05086	-15.95	1.25	-8.9	
+R05141	-12.93	1.78	-8.08	
+R05142	-12.93	1.78	-8.08	
+R05168	-7.45	1.82	-6.61	
+R05332	-16.05	3.91	-3.24	
+R05549	11.61	5.08	-1.48	
+R05553	-87.71	7.81	-28.21	
+R05577	nan	nan	nan	reaction is empty
+R05578	nan	nan	nan	reaction is empty
+R05605	15.16	2.07	-0.53	
+R05606	-34.56	3.66	-13.95	
+R05627	-31.94	1.3	-13.2	
+R05629	2.73	3.45	0.55	
+R05630	2.73	3.45	0.55	
+R05633	-9.85	1.66	-1.99	
+R05634	-1.67	4.27	-0.34	
+R05636	-32.69	3.37	-6.6	
+R05637	1806.42	100000	481.46	
+R05662	-12.97	3.49	-2.62	
+R05679	-19.92	1.5	-4.02	
+R05680	-19.81	1.52	-4	
+R05688	17.63	1.23	3.56	
+R05711	-552.55	156096.76	-61.75	
+R05743	nan	nan	nan	reaction is empty
+R05789	-19.7	1.33	-9.91	
+R05839	-0.14	3.64	-0.03	
+R05850	-0.5	1.31	-0.2	
+R05884	-77.2	6.15	-10.39	
+R06178	nan	nan	nan	reaction is empty
+R06447	-639.4	23.53	-28.67	
+R06513	-47.54	2.99	-19.19	
+R06514	-15.38	1.9	-6.21	
+R06590	4.42	48207.3	0.89	
+R06613	-71.85	2.72	-9.67	
+R06895	22.45	200000	-3.71	
+R07133	15.74	1.73	3.18	
+R07159	-24.46	5.9	-3.29	
+R07161	10.54	6.88	1.06	
+R07168	-45.22	4.18	-9.13	
+R07175	3.2	3.37	3.28	
+R07237	-125.99	144865.16	-25.43	
+R07238	-137.17	144865.16	-27.68	
+R07264_kz	1.44	2.61	0.29	
+R07280	-16.05	1.25	-8.92	
+R07281	-84.53	2.06	-27.35	
+R07399	-39.71	2.64	-8.01	
+R07404	-53.43	6.04	-7.19	
+R07405	29.05	6.03	11.72	
+R07413	-9.63	2.73	-7.2	
+R07456	-305.07	5.17	-41.04	
+R07605	-70	100000	-9.42	
+R07613	-59.68	4.93	-12.04	
+R08127	28.9	4.43	3.17	
+R08198	22.87	1.87	4.62	
+R08210	81.93	6.15	11.02	
+R08218	nan	nan	nan	reaction is empty
+R08221	-21.06	1.98	-10.27	
+R08231	-30.83	2.61	-6.22	
+R08237	1320.6	141421.36	-8.75	
+R08238	-30.69	2.61	-6.19	
+R08240	221.56	141421.36	-8.36	
+R08244	-244.15	141421.36	-16.31	
+R08245	1320.91	141421.36	-8.68	
+R08260	26.77	4.43	2.6	
+R08359	4.19	100000	0.85	
+R08368	19.33	2.57	3.9	
+R08553	18.99	4.74	5.83	
+R08575	-1.46	1.41	-0.29	
+R08612_kz	nan	nan	nan	reaction is empty
+R08614_kz	nan	nan	nan	reaction is empty
+R08648	-21.77	4.91	-4.39	
+R08689	-1902.63	100000	-255.98	
+R08924	-1.5	1.44	-0.2	
+R09030	-2	0.47	-0.81	
+R09099	-14.23	2.93	-2.87	
+R09365	-63.2	141421.36	0	
+R09394	-284.25	104813.72	-34.75	
+R09592	-24.14	2.4	-3.25	
+R09593	-10.6	5.36	-1.43	
+R09660	-20.6	2.7	-10.15	
+R09726	842.93	141421.36	-0.37	
+R09735	nan	nan	nan	reaction is not chemically balanced
+R09942	13.59	2.35	2.74	
+R09952	0	0	0	
+R09959	2712.88	100000	-15.85	
+R09978	-100.86	100000	-13.57	
+R10002	-57.55	6.41	-20.09	
+R10035	-10.43	1.8	-7.41	
+R10039	-15.11	4.43	-8.67	
+R10040	-15.11	4.43	-8.67	
+R10089	-302.95	5.17	-40.76	
+R10147	-97.32	5.47	-21.58	
+R10170	-4.09	0.67	-1.65	
+R10209	nan	nan	nan	reaction is empty
+R10244	13.49	2.66	2.72	
+R10339	-67.67	6.52	-13.66	
+R10712	-45.64	4.31	-10.13	
+R10807	nan	nan	nan	reaction is empty
+R10810	0	0	0	
+R10811_kz	nan	nan	nan	reaction is empty
+R10859	nan	nan	nan	reaction is empty
+R10867	4.04	3.45	-3.52	
+R11307_kz	nan	nan	nan	reaction is empty
+R11308_kz	-14.86	6.85	-8.6	
+R11308_kz2	-40.45	5.95	-14.82	
+R11312	-63.63	141421.36	-13.04	
+R11323	-36.09	2.61	-14.32	
+R11372	nan	nan	nan	reaction is not chemically balanced
+R11398_kz	6.73	3.16	1.36	
+R11581	1350.68	156772.02	-0.5	
+R11624	-1.68	1.83	-0.68	
+R11633	-60.12	4.23	-12.13	
+R11634	-65.91	5.15	-13.3	
+R11635	-73.37	4.06	-14.81	
+R11636	-61.4	3.96	-12.39	
+R11719	nan	nan	nan	reaction is empty
+R12152	250.53	59929.54	50.56	
+Ram106B	nan	nan	nan	reaction is empty
+RhiN	nan	nan	nan	reaction is empty
+RibU	-26.07	0.3	-11.62	
+TECA1S45_Cbes	nan	nan	nan	reaction is empty
+TECA2S45_Cbes	nan	nan	nan	reaction is empty
+TECA3S45_Cbes	nan	nan	nan	reaction is empty
+TECA4S_Cbes	nan	nan	nan	reaction is empty
+THZPSN	-253.04	100000	-23.19	
+TP_CO	nan	nan	nan	reaction is empty
+TP_CO2	nan	nan	nan	reaction is empty
+TP_H2	nan	nan	nan	reaction is empty
+TP_NH3	nan	nan	nan	reaction is empty
+ThiT	nan	nan	nan	reaction is empty
+TrkH	nan	nan	nan	reaction is empty
+XLBASE	9.72	4.5	-1.99	
+XOSASE	nan	nan	nan	reaction is empty
+XylS	nan	nan	nan	reaction is empty
+Xylase	nan	nan	nan	reaction is empty
+XyloseABC	-26.07	0.3	-11.62	
+Zn2efflux	nan	nan	nan	reaction is empty
+axosABC	nan	nan	nan	reaction is empty
+caEfflux	-26.07	0.3	-11.62	
+carb_met	nan	nan	nan	reaction is empty
+celbABC	-26.07	0.3	-11.62	
+cellwall_met	nan	nan	nan	reaction is empty
+coEfflux	-26.07	0.3	-11.62	
+cosABC	-26.07	0.3	-11.62	
+cuEfflux	-26.07	0.3	-11.62	
+cysT	nan	nan	nan	reaction is empty
+dna_met	nan	nan	nan	reaction is empty
+fe2t	-24.25	1.35	-11.13	
+fucABC	-26.07	0.3	-11.62	
+glyASE	nan	nan	nan	reaction is empty
+h2ot	nan	nan	nan	reaction is empty
+hco3	-4.41	3.1	-1.78	
+hco3ABC	-26.07	0.3	-11.62	
+ileABC	-26.07	0.3	-11.62	
+kojABC	-26.07	0.3	-11.62	
+lacABC	-26.07	0.3	-11.62	
+leuABC	-26.07	0.3	-11.62	
+lipid_met	nan	nan	nan	reaction is empty
+lta_met	nan	nan	nan	reaction is empty
+malABC	-26.07	0.3	-11.62	
+malateT	nan	nan	nan	reaction is empty
+manABC	-26.07	0.3	-11.62	
+mdosABC	nan	nan	nan	reaction is empty
+melibABC	-26.07	0.3	-11.62	
+moABC	-26.07	0.3	-11.62	
+mosABC	nan	nan	nan	reaction is empty
+nh4	0	0	inf	
+nh4t	nan	nan	nan	reaction is empty
+niUpt	-26.07	0.3	-11.62	
+piABC	-26.07	0.3	-11.62	
+piH	-15.57	0.19	-8.79	
+pit	nan	nan	nan	reaction is empty
+posABC	nan	nan	nan	reaction is empty
+posABC-2	nan	nan	nan	reaction is empty
+pro_met	nan	nan	nan	reaction is empty
+rhaABC	-26.07	0.3	-11.62	
+rhaosABC	nan	nan	nan	reaction is empty
+rna_met	nan	nan	nan	reaction is empty
+sink_biomass	nan	nan	nan	reaction is empty
+sink_dads	nan	nan	nan	reaction is not chemically balanced
+sink_gatp	nan	nan	nan	reaction is empty
+sink_hybenalcohol	nan	nan	nan	reaction is not chemically balanced
+sink_preQ1	nan	nan	nan	reaction is not chemically balanced
+sink_suc	nan	nan	nan	reaction is not chemically balanced
+starchASE	nan	nan	nan	reaction is empty
+trace_met	nan	nan	nan	reaction is empty
+trehABC	-26.07	0.3	-11.62	
+uraUpt	nan	nan	nan	reaction is empty
+valABC	-26.07	0.3	-11.62	
+vb12ABC	-26.07	0.3	-11.62	
+wo4ABC	-26.07	0.3	-11.62	
+xgosABC-1	nan	nan	nan	reaction is empty
+xgosABC-2	nan	nan	nan	reaction is empty
+xosABC	nan	nan	nan	reaction is empty
+xosABC-2	nan	nan	nan	reaction is empty
+znABC	-26.07	0.3	-11.62	
+znEfflux	-26.07	0.3	-11.62	
+R07160	-6.14	6.75	-0.62	
+R08566	-7.42	7.16	-0.75	
+R08567	-6.15	6.75	-0.62	
+R00228	17.89	1.2	0.13	
+R00754	-22.81	0.32	-4.6	
+Rnf	-14.28	5.89	-1.92	

@@ -400,13 +400,15 @@
   formula: C6H12O6
   charge: 0
 - id: C00138
-  name: Reduced ferredoxin (2[4Fe-4S]) (Fdred)
+  name: Reduced ferredoxin (Cbes-specific) (CbFdred)
   formula: Fe8S8X
-  charge: 2
+  charge: 1
+  commment: The Cbes ferredoxin is a two-electron carrier as it contains two [4Fe4S] clusters based on experimental data from the Adam's group
 - id: C00139
-  name: Oxidized ferredoxin (2[4Fe-4S]) (Fdox)
+  name: Oxidized ferredoxin (Cbes-specific) (CbFdox)
   formula: Fe8S8X
   charge: 3
+  commment: The Cbes ferredoxin is a two-electron carrier as it contains two °4Fe4S§ clusters based on experimental data from the Adam's group
 - id: C00140
   name: N-Acetyl-D-glucosamine
   formula: C8H15NO6
@@ -1743,6 +1745,12 @@
   name: beta-D-Glucuronoside
   formula: C6H8O7R
   charge: -1
+- id: C03044
+  name: 2,3-Butanediol
+  formula: C4H10O2
+  charge: 0
+  KEGG: C03044
+  source: KEGG
 - id: C03082
   name: 4-Phospho-L-aspartate
   formula: C4H6NO7P

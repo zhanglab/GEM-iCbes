@@ -14,7 +14,6 @@ compounds:
 - include: compounds.yaml
 reactions:
 - include: reactions.yaml
-#- include: engineered_reactions_ethanol.yaml  # added to simulate the C. bescii engineered ethanol strain MACB1062
 - include: engineered_reactions_products.yaml #added to simulate the TLC2 engineering designs
 exchange:
 #- include: EX_DG25.tsv # used to test the growth and product yields of wild-type and dLdh strain grown on glucose or fructose, as well as the carbon utilization for model validation
@@ -29,6 +28,6 @@ exchange:
   format: tsv
 model:
 - include: WT_model_def.tsv
-- include: model_def_products.tsv
+- include: model_def_23BDO.tsv
 limits:
 - include: limits_mutant.yaml

@@ -186,8 +186,8 @@
 - id: BF-H2ase
   name: Bifurcating hydrogenase ([Fe-Fe])
   genes: Athe_1295 and Athe_1296 and Athe_1297 and Athe_1298 and Athe_1299
-  equation: (3) C00080[c] + C00004[c] + (2) C00138[c] <=> (2) C00282[c] + C00003[c]
-    + (2) C00139[c]
+  equation: (3) C00080[c] + C00004[c] + C00138[c] <=> (2) C00282[c] + C00003[c]
+    + C00139[c]
   subsystem: Energy metabolism
   ec:
   - 1.12.1.4
@@ -199,8 +199,8 @@
 - id: BF-Nfn
   name: NADH-dependent reduced ferredoxin:NADP+ oxidoreductase
   genes: Athe_0644 and Athe_0645
-  equation: C00004[c] + (2) C00138[c] + (2) C00006[c] + C00080[c] <=> C00003[c] +
-    (2) C00139[c] + (2) C00005[c]
+  equation: C00004[c] + C00138[c] + (2) C00006[c] + C00080[c] <=> C00003[c] +
+    C00139[c] + (2) C00005[c]
   subsystem: Energy metabolism
   ec:
   - 1.6.1.4
@@ -915,7 +915,7 @@
 - id: MBH
   name: H2-evolving membrane-bound hydrogenase ([Ni-Fe])
   genes: Athe_1082 and Athe_1083 and Athe_1084 and Athe_1085 and Athe_1086 and Athe_1087
-  equation: (2) C00138[c] + (3) C00080[c] => C00282[c] + (2) C00139[c] + C00080[e]
+  equation: C00138[c] + (3) C00080[c] => C00282[c] + C00139[c] + C00080[e]
   subsystem: Transmembrane, Energy metabolism
   ec:
   - 1.12.7.2
@@ -1034,6 +1034,7 @@
   - 1.2.4.1
   - 2.2.1.6
   - 4.1.1.1
+  PMID: 28782269
   genes_peg: (peg.933 or peg.1111) and peg.934
   genes_wp: (WP_015907090.1 or WP_015907236.1) and WP_015907091.1
   type: Gene-associated
@@ -1184,7 +1185,7 @@
 - id: R00178
   name: S-adenosyl-L-methionine carboxy-lyase [(5-deoxy-5-adenosyl)(3-aminopropyl)methylsulfonium-forming]
   genes: Athe_2122
-  equation: C00019[c] + C00080[c] <=> C01137[c] + C00011[c]
+  equation: C00019[c] + C00080[c] => C01137[c] + C00011[c]
   subsystem: Cysteine and methionine metabolism
   ec:
   - 4.1.1.50
@@ -1583,7 +1584,7 @@
 - id: R00451
   name: meso-2,6-diaminoheptanedioate carboxy-lyase (L-lysine-forming)
   genes: Athe_0790
-  equation: C00680[c] + C00080[c] <=> C00047[c] + C00011[c]
+  equation: C00680[c] + C00080[c] => C00047[c] + C00011[c]
   subsystem: Lysine biosynthesis
   ec:
   - 4.1.1.20
@@ -1618,7 +1619,7 @@
 - id: R00489
   name: L-aspartate 1-carboxy-lyase (beta-alanine-forming)
   genes: Athe_1979
-  equation: C00049[c] + C00080[c] <=> C00099[c] + C00011[c]
+  equation: C00049[c] + C00080[c] => C00099[c] + C00011[c]
   subsystem: beta-Alanine metabolism
   ec:
   - 4.1.1.11
@@ -1706,7 +1707,7 @@
 - id: R00566
   name: L-arginine carboxy-lyase (agmatine-forming)
   genes: Athe_2050
-  equation: C00062[c] + C00080[c] <=> C00179[c] + C00011[c]
+  equation: C00062[c] + C00080[c] => C00179[c] + C00011[c]
   subsystem: Arginine and proline metabolism
   ec:
   - 4.1.1.19
@@ -1785,13 +1786,13 @@
   type: Gene-associated
 - id: R00651
   name: O-acetyl-L-homoserine:methanethiol 3-amino-3-carboxypropyltransferase
-  genes: Athe_1124 or Athe_1190
+  genes: Athe_1124
   equation: C01077[c] + C00409[c] <=> C00073[c] + C00033[c] + C00080[c]
   subsystem: '-'
   ec:
   - 2.5.1.49
-  genes_peg: peg.1606 or peg.1675
-  genes_wp: WP_015907625.1 or WP_015907685.1
+  genes_peg: peg.1606
+  genes_wp: WP_015907625.1
   type: Gene-associated
 - id: R00658
   name: 2-phospho-D-glycerate hydro-lyase (phosphoenolpyruvate-forming) (phosphopyruvate
@@ -1841,7 +1842,7 @@
 - id: R00691
   name: L-arogenate hydro-lyase (decarboxylating
   genes: Athe_0878
-  equation: C00826[c] + C00080[c] <=> C00079[c] + C00001[c] + C00011[c]
+  equation: C00826[c] + C00080[c] => C00079[c] + C00001[c] + C00011[c]
   subsystem: Phenylalanine, tyrosine and tryptophan biosynthesis
   ec:
   - 4.2.1.51
@@ -2081,8 +2082,8 @@
   type: Gene-associated
 - id: R00897
   name: O3-acetyl-L-serine:hydrogen-sulfide 2-amino-2-carboxyethyltransferase
-  genes: Athe_1615
-  equation: C00979[c] + C00283[c] <=> C00097[c] + C00033[c] + C00080[c]
+  genes: Athe_1615 or Athe_1165
+  equation: C00979[c] + C00283[c] => C00097[c] + C00033[c] + C00080[c]
   subsystem: Cysteine and methionine metabolism
   ec:
   - 2.5.1.47
@@ -2090,6 +2091,7 @@
   genes_peg: peg.2123
   genes_wp: WP_015908048.1
   type: Gene-associated
+  PMID: 25108266
 - id: R00921
   name: propanoyl-CoA:phosphate propanoyltransferase
   genes: Athe_1494
@@ -2111,6 +2113,7 @@
   genes_peg: peg.617
   genes_wp: WP_015906840.1
   type: Gene-associated
+  comment: Based on homology analysis by Dmitry, this enzyme should use NAD cofactor. Therefore, R00939 has been removed from the model file, while R00936 remains.
 - id: R00939
   name: 5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase
   genes: Athe_0219
@@ -2121,6 +2124,7 @@
   genes_peg: peg.617
   genes_wp: WP_015906840.1
   type: Gene-associated
+  comment: Based on homology analysis by Dmitry, this enzyme should use NAD cofactor. Therefore, R00939 has been removed from the model file, while R00936 remains.
 - id: R00942
   name: Tetrahydrofolate:L-glutamate gamma-ligase (ADP-forming)
   genes: Athe_1490
@@ -2154,7 +2158,7 @@
   type: Gene-associated
 - id: R00946
   name: 5-Methyltetrahydrofolate:L-homocysteine S-methyltransferase
-  genes: Athe_0324
+  genes: Athe_2582 or Athe_0324
   equation: C00440[c] + C00155[c] <=> C00101[c] + C00073[c]
   subsystem: Cysteine and methionine metabolism
   ec:
@@ -2247,7 +2251,7 @@
 - id: R00994
   name: (2R,3S)-3-methylmalate:NAD+ oxidoreductase
   genes: Athe_2099
-  equation: C06032[c] + C00003[c] <=> C00109[c] + C00011[c] + C00004[c]
+  equation: C06032[c] + C00003[c] => C00109[c] + C00011[c] + C00004[c]
   subsystem: Valine, leucine and isoleucine biosynthesis
   ec:
   - 1.1.1.85
@@ -2257,13 +2261,13 @@
   type: Gene-associated
 - id: R00999
   name: O-Succinyl-L-homoserine succinate-lyase (deaminating
-  genes: Athe_1124 or Athe_1190
-  equation: C01118[c] + C00001[c] <=> C00109[c] + C00042[c] + C00014[c] + (2) C00080[c]
+  genes: Athe_1190
+  equation: C01118[c] + C00001[c] => C00109[c] + C00042[c] + C00014[c] + (2) C00080[c]
   subsystem: Cysteine and methionine metabolism
   ec:
   - 2.5.1.48
-  genes_peg: peg.1606 or peg.1675
-  genes_wp: WP_015907625.1 or WP_015907685.1
+  genes_peg: peg.1675
+  genes_wp: WP_015907685.1
   type: Gene-associated
 - id: R01010
   name: Glycerone phosphate phosphohydrolase
@@ -2641,7 +2645,7 @@
 - id: R01196
   name: pyruvate:ferredoxin 2-oxidoreductase (CoA-acetylating) (POR)
   genes: (Athe_0874 and Athe_0875 and Athe_0876 and Athe_0877) or (Athe_1708 and Athe_1709)
-  equation: (2) C00139[c] + C00022[c] + C00010[c] <=> (2) C00138[c] + C00024[c] +
+  equation: C00139[c] + C00022[c] + C00010[c] => C00138[c] + C00024[c] +
     C00011[c] + C00080[c]
   subsystem: Glycolysis / Gluconeogenesis
   ec:
@@ -2653,7 +2657,7 @@
 # - id: R01197
 #   name: 2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating) (KGOR)
 #   genes: Athe_1708 and Athe_1709
-#   equation: (2) C00138[c] + C00091[c] + C00011[c] + C00080[c] <=> (2) C00139[c] +
+#   equation: C00138[c] + C00091[c] + C00011[c] + C00080[c] <=> C00139[c] +
 #     C00026[c] + C00010[c]
 #   subsystem: Citrate cycle (TCA cycle)
 #   ec:
@@ -2665,7 +2669,7 @@
 - id: R01199
   name: 2-oxobutanoate:ferredoxin 2-oxidoreductase (CoA-propanoylating)
   genes: (Athe_0874 and Athe_0875 and Athe_0876 and Athe_0877) or (Athe_1708 and Athe_1709)
-  equation: (2) C00139[c] + C00109[c] + C00010[c] <=> (2) C00138[c] + C00100[c] +
+  equation: C00139[c] + C00109[c] + C00010[c] => C00138[c] + C00100[c] +
     C00011[c] + C00080[c]
   subsystem: Propanoate metabolism
   ec:
@@ -2811,25 +2815,26 @@
   type: Gene-associated
 - id: R01287
   name: O-acetyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase
-  genes: Athe_1124 or Athe_1190
+  genes: Athe_1124
   equation: C01077[c] + C00283[c] <=> C00155[c] + C00033[c] + C00080[c]
   subsystem: Cysteine and methionine metabolism
   ec:
   - 2.5.1.49
-  genes_peg: peg.1606 or peg.1675
-  genes_wp: WP_015907625.1 or WP_015907685.1
+  genes_peg: peg.1606
+  genes_wp: WP_015907625.1
   type: Gene-associated
 - id: R01288
   name: O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase
-  genes: Athe_1124 or Athe_1190
-  equation: C01118[c] + C00283[c] <=> C00155[c] + C00042[c] + C00080[c]
+  genes: Athe_1190
+  equation: C01118[c] + C00283[c] => C00155[c] + C00042[c] + C00080[c]
   subsystem: Cysteine and methionine metabolism
   ec:
   - 2.5.1.48
   - 2.5.1.-
-  genes_peg: peg.1606 or peg.1675
-  genes_wp: WP_015907625.1 or WP_015907685.1
+  genes_peg: peg.1675
+  genes_wp: WP_015907685.1
   type: Gene-associated
+  PMID: 25108266
 - id: R01325
   name: citrate hydro-lyase (cis-aconitate-forming)
   genes: Athe_0524
@@ -2874,7 +2879,7 @@
 - id: R01373
   name: prephenate hydro-lyase (decarboxylating
   genes: Athe_0878
-  equation: C00254[c] + C00080[c] <=> C00166[c] + C00001[c] + C00011[c]
+  equation: C00254[c] + C00080[c] => C00166[c] + C00001[c] + C00011[c]
   subsystem: Phenylalanine, tyrosine and tryptophan biosynthesis
   ec:
   - 4.2.1.51
@@ -3178,7 +3183,7 @@
   type: Gene-associated
 - id: R01652
   name: (2S)-2-isopropyl-3-oxosuccinate decarboxylation (spontaneous)
-  equation: C04236[c] + C00080[c] <=> C00233[c] + C00011[c]
+  equation: C04236[c] + C00080[c] => C00233[c] + C00011[c]
   subsystem: Valine, leucine and isoleucine biosynthesis
   ec:
   - 1.1.1.85
@@ -3775,6 +3780,17 @@
   genes_peg: peg.1109
   genes_wp: WP_015907234.1
   type: Gene-associated
+- id: R02235
+  name: dihydrofolate:NAD+ oxidoreductase
+  genes: Athe_0219
+  equation: C00415[c] + C00003[c] <=> C00504[c] + C00004[c] + C00080[c]
+  subsystem: One carbon pool by folate
+  ec:
+  - 1.5.1.3
+  genes_peg: peg.617
+  genes_wp: WP_015906840.1
+  type: Gene-associated
+  comment: Based on homology analysis by Dmitry, this enzyme should use NAD cofactor. Therefore, R02236 has been removed from the model file, while R02235 remains.
 - id: R02236
   name: dihydrofolate:NADP+ oxidoreductase
   genes: Athe_0219
@@ -3785,6 +3801,7 @@
   genes_peg: peg.617
   genes_wp: WP_015906840.1
   type: Gene-associated
+  comment: Based on homology analysis by Dmitry, this enzyme should use NAD cofactor. Therefore, R02236 has been removed from the model file, while R02235 remains.
 - id: R02237
   name: 7,8-dihydropteroate:L-glutamate ligase (ADP-forming)
   genes: Athe_1490
@@ -4088,14 +4105,15 @@
   type: Gene-associated
 - id: R02508
   name: cystathionine gamma-synthase
-  genes: Athe_1124 or Athe_1190
+  genes: Athe_1190
   equation: C00542[c] + C00042[c] + C00080[c] <=> C01118[c] + C00097[c]
   subsystem: '-'
   ec:
   - 2.5.1.48
-  genes_peg: peg.1606 or peg.1675
-  genes_wp: WP_015907625.1 or WP_015907685.1
+  genes_peg: peg.1675
+  genes_wp: WP_015907685.1
   type: Gene-associated
+  notes: Redundant with R03260 but uses Cystathionine instead of L-Cystathionine which is what is used by the rest of the model. This rxn is removed from the model def.
 - id: R02539
   name: Phenylacetate:CoA ligase
   genes: Athe_2035 or Athe_1507 or Athe_1504 or Athe_1010
@@ -4512,7 +4530,7 @@
   type: Gene-associated
 - id: R03132
   name: O3-acetyl-L-serine acetate-lyase (adding hydrogen sulfide)
-  genes: Athe_1615
+  genes: Athe_1615 or Athe_1165
   equation: C00080[c] + C00979[c] + C00320[c] <=> C05824[c] + C00033[c] + (2) C00080[c]
   subsystem: Cysteine and methionine metabolism
   ec:
@@ -4572,6 +4590,7 @@
   genes_peg: peg.730
   genes_wp: WP_015906924.1
   type: Gene-associated
+  comment: Based on homology analysis by Dmitry, this enzyme should use NADP cofactor. Therefore, R03191 has been removed from the model file, while R03192 remains.
 - id: R03192
   name: UDP-N-acetylmuramate:NADP+ oxidoreductase
   genes: Athe_0319
@@ -4582,6 +4601,7 @@
   genes_peg: peg.730
   genes_wp: WP_015906924.1
   type: Gene-associated
+  comment: Based on homology analysis by Dmitry, this enzyme should use NADP cofactor. Therefore, R03191 has been removed from the model file, while R03192 remains.
 - id: R03193
   name: UDP-N-acetylmuramate:L-alanine ligase (ADP-forming)
   genes: Athe_2401
@@ -4606,7 +4626,7 @@
 - id: R03197
   name: Uroporphyrinogen-III carboxy-lyase
   genes: Athe_0848
-  equation: C01051[c] + (4) C00080[c] <=> C03263[c] + (4) C00011[c]
+  equation: C01051[c] + (4) C00080[c] => C03263[c] + (4) C00011[c]
   subsystem: Porphyrin and chlorophyll metabolism
   ec:
   - 4.1.1.37
@@ -4615,13 +4635,13 @@
   type: Gene-associated
 - id: R03217
   name: O-Acetyl-L-homoserine succinate-lyase (adding cysteine)
-  genes: Athe_1124 or Athe_1190
-  equation: C01077[c] + C00097[c] <=> C02291[c] + C00033[c] + C00080[c]
+  genes: Athe_1190
+  equation: C01077[c] + C00097[c] => C02291[c] + C00033[c] + C00080[c]
   subsystem: Cysteine and methionine metabolism
   ec:
   - 2.5.1.48
-  genes_peg: peg.1606 or peg.1675
-  genes_wp: WP_015907625.1 or WP_015907685.1
+  genes_peg: peg.1675
+  genes_wp: WP_015907685.1
   type: Gene-associated
 - id: R03223
   name: 2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:4-methyl-5-(2-phosphoethyl)-thiazole
@@ -4675,18 +4695,19 @@
   type: Gene-associated
 - id: R03260
   name: O-Succinyl-L-homoserine succinate-lyase (adding cysteine)
-  genes: Athe_1124 or Athe_1190
-  equation: C01118[c] + C00097[c] <=> C02291[c] + C00042[c] + C00080[c]
+  genes: Athe_1190
+  equation: C01118[c] + C00097[c] => C02291[c] + C00042[c] + C00080[c]
   subsystem: Cysteine and methionine metabolism
   ec:
   - 2.5.1.48
-  genes_peg: peg.1606 or peg.1675
-  genes_wp: WP_015907625.1 or WP_015907685.1
+  genes_peg: peg.1675
+  genes_wp: WP_015907685.1
   type: Gene-associated
+  PMID: 25108266
 - id: R03269
   name: N-[(R)-4'-Phosphopantothenoyl]-L-cysteine carboxy-lyase
   genes: Athe_1037
-  equation: C04352[c] + C00080[c] <=> C01134[c] + C00011[c]
+  equation: C04352[c] + C00080[c] => C01134[c] + C00011[c]
   subsystem: Pantothenate and CoA biosynthesis
   ec:
   - 4.1.1.36
@@ -4848,7 +4869,7 @@
   type: Gene-associated
 - id: R03601
   name: O3-Acetyl-L-serine acetate-lyase (adding hydrogen sulfide)
-  genes: Athe_1615
+  genes: Athe_1615 or Athe_1165
   equation: C00979[c] + C01528[c] <=> C05688[c] + C00033[c] + C00080[c]
   subsystem: '-'
   ec:
@@ -5353,13 +5374,25 @@
 - id: R04440
   name: (R)-2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)
   genes: Athe_0504
-  equation: C04272[c] + C00006[c] <=> C04181[c] + C00005[c] + C00080[c]
+  equation: C04272[c] + C00006[c] <= C04181[c] + C00005[c] + C00080[c]
   subsystem: Valine, leucine and isoleucine biosynthesis
   ec:
   - 1.1.1.86
   genes_peg: peg.935
   genes_wp: WP_013431057.1
   type: Gene-associated
+  comment: Based on homology analysis by Dmitry, this enzyme could use either NAD or NADP. Directionality was constrained to the biosynthetic direction, away from pyruvate. 
+- id: R04440_NAD
+  name: (R)-2,3-Dihydroxy-3-methylbutanoate:NAD+ oxidoreductase (isomerizing)
+  genes: Athe_0504
+  equation: C04272[c] + C00003[c] <= C04181[c] + C00004[c] + C00080[c]
+  subsystem: Valine, leucine and isoleucine biosynthesis
+  ec:
+  - 1.1.1.86
+  genes_peg: peg.935
+  genes_wp: WP_013431057.1
+  type: Gene-associated
+  comment: Based on homology analysis by Dmitry, this enzyme could use either NAD or NADP. Directionality was constrained to the biosynthetic direction, away from pyruvate. 
 - id: R04441
   name: (R)-2,3-Dihydroxy-3-methylbutanoate hydro-lyase
   genes: Athe_0665
@@ -5506,6 +5539,7 @@
   subsystem: '-'
   ec:
   - 2.2.1.6
+  PMID: 28782269
   genes_peg: (peg.933 or peg.1111) and peg.934
   genes_wp: (WP_015907090.1 or WP_015907236.1) and WP_015907091.1
   type: Gene-associated
@@ -5575,38 +5609,38 @@
   type: Gene-associated
 - id: R04944
   name: O-phosphorylhomoserine:selenocysteine Se-(3-amino-3-carboxypropyl)transferase
-  genes: Athe_1124 or Athe_1190
+  genes: Athe_1190
   equation: C05702[c] + C05688[c] <=> C05699[c] + C00009[c]
   subsystem: Selenocompound metabolism
   ec:
   - 2.5.1.48
-  genes_peg: peg.1606 or peg.1675
-  genes_wp: WP_015907625.1 or WP_015907685.1
+  genes_peg: peg.1675
+  genes_wp: WP_015907685.1
   type: Gene-associated
 - id: R04945
   name: O-Acetylhomoserine succinate-lyase (adding cysteine)
-  genes: Athe_1124 or Athe_1190
+  genes: Athe_1190
   equation: C01077[c] + C05688[c] <=> C05699[c] + C00033[c] + C00080[c]
   subsystem: '-'
   ec:
   - 2.5.1.48
-  genes_peg: peg.1606 or peg.1675
-  genes_wp: WP_015907625.1 or WP_015907685.1
+  genes_peg: peg.1675
+  genes_wp: WP_015907685.1
   type: Gene-associated
 - id: R04946
   name: O4-succinyl-L-homoserine:L-selenocysteine Se-(3-amino-3-carboxypropyl)transferase
-  genes: Athe_1124 or Athe_1190
+  genes: Athe_1190
   equation: C01118[c] + C05688[c] <=> C05699[c] + C00042[c] + C00080[c]
   subsystem: Selenocompound metabolism
   ec:
   - 2.5.1.48
-  genes_peg: peg.1606 or peg.1675
-  genes_wp: WP_015907625.1 or WP_015907685.1
+  genes_peg: peg.1675
+  genes_wp: WP_015907685.1
   type: Gene-associated
 - id: R04972
   name: Uroporphyrinogen I carboxy-lyase
   genes: Athe_0848
-  equation: C05766[c] + (4) C00080[c] <=> C05768[c] + (4) C00011[c]
+  equation: C05766[c] + (4) C00080[c] => C05768[c] + (4) C00011[c]
   subsystem: Porphyrin and chlorophyll metabolism
   ec:
   - 4.1.1.37
@@ -5677,13 +5711,25 @@
 - id: R05068
   name: (R)-2,3-Dihydroxy-3-methylpentanoate:NADP+ oxidoreductase (isomerizing)
   genes: Athe_0504
-  equation: C06007[c] + C00006[c] <=> C14463[c] + C00005[c] + C00080[c]
+  equation: C06007[c] + C00006[c] <= C14463[c] + C00005[c] + C00080[c]
   subsystem: Valine, leucine and isoleucine biosynthesis
   ec:
   - 1.1.1.86
   genes_peg: peg.935
   genes_wp: WP_013431057.1
   type: Gene-associated
+  comment: Based on homology analysis by Dmitry, this enzyme could use either NAD or NADP. Directionality was constrained to the biosynthetic direction, away from pyruvate. 
+- id: R05068_NAD
+  name: (R)-2,3-Dihydroxy-3-methylpentanoate:NAD+ oxidoreductase (isomerizing)
+  genes: Athe_0504
+  equation: C06007[c] + C00003[c] <= C14463[c] + C00004[c] + C00080[c]
+  subsystem: Valine, leucine and isoleucine biosynthesis
+  ec:
+  - 1.1.1.86
+  genes_peg: peg.935
+  genes_wp: WP_013431057.1
+  type: Gene-associated
+  comment: Based on homology analysis by Dmitry, this enzyme could use either NAD or NADP. Directionality was constrained to the biosynthetic direction, away from pyruvate. 
 - id: R05069
   name: (S)-2-Aceto-2-hydroxybutanoate:NADP+ oxidoreductase (isomerizing)
   genes: Athe_0504
@@ -5894,7 +5940,7 @@
 - id: R05636
   name: 1-Deoxy-D-xylulose-5-phosphate pyruvate-lyase (carboxylating)
   genes: Athe_1288
-  equation: C00022[c] + C00118[c] + C00080[c] <=> C11437[c] + C00011[c]
+  equation: C00022[c] + C00118[c] + C00080[c] => C11437[c] + C00011[c]
   subsystem: Thiamine metabolism,Terpenoid backbone biosynthesis
   ec:
   - 2.2.1.7
@@ -6005,7 +6051,7 @@
 - id: R05884
   name: isopentenyl-diphosphate:ferredoxin oxidoreductase
   genes: Athe_1327
-  equation: C11811[c] + (2) C00138[c] + (2) C00080[c] <=> C00129[c] + (2) C00139[c]
+  equation: C11811[c] + C00138[c] + (2) C00080[c] <=> C00129[c] + C00139[c]
     + C00001[c]
   subsystem: Terpenoid backbone biosynthesis
   ec:
@@ -6077,7 +6123,7 @@
 - id: R06895
   name: coproporphyrinogen-III:S-adenosyl-L-methionine oxidoreductase(decarboxylating)
   genes: Athe_1554
-  equation: C03263[c] + (2) C00019[c] <=> C01079[c] + (2) C00011[c] + (2) C00073[c]
+  equation: C03263[c] + (2) C00019[c] => C01079[c] + (2) C00011[c] + (2) C00073[c]
     + (2) C05198[c]
   subsystem: Porphyrin and chlorophyll metabolism
   ec:
@@ -6098,8 +6144,8 @@
 - id: R07159
   name: D-glyceraldehyde-3-phosphate:ferredoxin oxidoreductase (GOR)
   genes: Athe_0820 and Athe_0821
-  equation: C00118[c] + C00001[c] + (2) C00139[c] => C00197[c] + (3) C00080[c] +
-    (2) C00138[c]
+  equation: C00118[c] + C00001[c] + C00139[c] => C00197[c] + (3) C00080[c] +
+    C00138[c]
   subsystem: Glycolysis / Gluconeogenesis
   ec:
   - 1.2.7.6
@@ -6110,7 +6156,7 @@
 - id: R07161
   name: 3-(indol-3-yl)pyruvate:ferredoxin oxidoreductase (decarboxylating,CoA-indole-acetylating)
   genes: (Athe_1506 and Athe_1505) or (Athe_1009 and Athe_1008)
-  equation: C00331[c] + C00010[c] + (2) C00139[c] <=> C15489[c] + C00011[c] + (2)
+  equation: C00331[c] + C00010[c] + C00139[c] <=> C15489[c] + C00011[c] + 
     C00138[c] + C00080[c]
   subsystem: '-'
   ec: 1.2.7.8
@@ -6279,7 +6325,7 @@
 - id: R08210
   name: dimethylallyl diphosphate:ferredoxin oxidoreductase
   genes: Athe_1327
-  equation: C00235[c] + (2) C00139[c] + C00001[c] <=> C11811[c] + (2) C00138[c] +
+  equation: C00235[c] + C00139[c] + C00001[c] <=> C11811[c] + C00138[c] +
     (2) C00080[c]
   subsystem: Terpenoid backbone biosynthesis
   ec:
@@ -6446,13 +6492,14 @@
   subsystem: Valine, leucine and isoleucine biosynthesis
   ec:
   - 2.2.1.6
+  PMID: 28782269
   genes_peg: (peg.933 or peg.1111) and peg.934
   genes_wp: (WP_015907090.1 or WP_015907236.1) and WP_015907091.1
   type: Gene-associated
 - id: R08689
   name: (E)-4-hydroxy-3-methylbut-2-en-1-yl-diphosphate:oxidized ferredoxin oxidoreductase(hydrating)
   genes: Athe_1808
-  equation: C00080[c] + C11453[c] + (2) C00138[c] <=> C11811[c] + C00001[c] + (2)
+  equation: C00080[c] + C11453[c] + C00138[c] <=> C11811[c] + C00001[c] + 
     C00139[c]
   subsystem: Terpenoid backbone biosynthesis
   ec:
@@ -6711,7 +6758,7 @@
   name: 2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:2-(2-carboxy-4-methylthiazol-5-yl)ethyl
     phosphate 2-methyl-4-aminopyrimidine-5-methenyltransferase
   genes: Athe_0372
-  equation: C04752[c] + C20247[c] + (2) C00080[c] <=> C01081[c] + C00013[c] + C00011[c]
+  equation: C04752[c] + C20247[c] + (2) C00080[c] => C01081[c] + C00013[c] + C00011[c]
   subsystem: Thiamine metabolism
   ec:
   - 2.5.1.3
@@ -6805,7 +6852,7 @@
 - id: R11312
   name: thiamine phosphate synthase
   genes: Athe_0372
-  equation: C00080[c] + C04752[c] + C20246[c] + C00080[c] <=> C00013[c] + C01081[c]
+  equation: C00080[c] + C04752[c] + C20246[c] + C00080[c] => C00013[c] + C01081[c]
     + C00011[c]
   subsystem: '-'
   ec:
@@ -7821,6 +7868,12 @@
       value: 1
   subsystem: Biomass
   type: Biomass
+- id: sulfateABC
+  equation: C00059[e] + C00002[c] + C00001[c] => C00059[c] + C00008[c] + C00009[c] + C00080[c]
+  name: Sulfate transport via ABC system
+  tc: 3.A.1
+  subsystem: Transmembrane
+  pmid: 25108266
 - id: trehABC
   name: Trehalose oligosacchrides transport via ABC system
   genes: Athe_1803 and Athe_0399 and Athe_0400 and Athe_0401
@@ -7948,7 +8001,7 @@
 # - id: ior3
 #   name: 4-Hydroxyphenylpyruvate ferredoxin oxidoreductase (IOR)
 #   genes: Athe_1095 and Athe_1096 and Athe_1097 and Athe_1098
-#   equation: C01179[c] + C00010[c] + (2) C00139[c] <=> C00011[c] + (2) C00138[c] +
+#   equation: C01179[c] + C00010[c] + C00139[c] <=> C00011[c] + C00138[c] +
 #     C00080[c] + C05338[c]
 #   subsystem: Aromatic amino acids metabolism, Tyrosine, Tryptophan and Phenylalanine Metabolism
 #   PMID: 29168502
@@ -7959,7 +8012,7 @@
 # - id: ior2
 #   name: Phenylpyruvate ferredoxin oxidoreductase (IOR)
 #   genes: Athe_1095 and Athe_1096 and Athe_1097 and Athe_1098
-#   equation: C00166[c] + C00010[c] + (2) C00139[c] <=> C00011[c] + (2) C00138[c] +
+#   equation: C00166[c] + C00010[c] + C00139[c] <=> C00011[c] + C00138[c] +
 #     C00080[c] + C00582[c]
 #   subsystem: Aromatic amino acids metabolism, Tyrosine, Tryptophan and Phenylalanine Metabolism
 #   PMID: 29168502
@@ -7970,7 +8023,7 @@
 - id: R07160
   name: 3-methyl-2-oxobutanoate:ferredoxin oxidoreductase (VOR)
   genes: Athe_1096 and Athe_1097 and Athe_1098
-  equation: C00141[c] + C00010[c] + (2) C00139[c] => C00630[c] + C00011[c] + (2)
+  equation: C00141[c] + C00010[c] + C00139[c] => C00630[c] + C00011[c] + 
     C00138[c] + C00080[c]
   subsystem: Branch chain amino acid metabolism
   genes_peg: peg.1577 and peg.1578 and peg.1579
@@ -7980,7 +8033,7 @@
 - id: R08566
   name: 4-methyl-2-oxopentanoate:ferredoxin oxidoreductase (VOR)
   genes: Athe_1096 and Athe_1097 and Athe_1098
-  equation: C00233[c] + C00010[c] + (2) C00139[c] => C02939[c] + C00011[c] + (2)
+  equation: C00233[c] + C00010[c] + C00139[c] => C02939[c] + C00011[c] + 
     C00138[c] + C00080[c]
   subsystem: Branch chain amino acid metabolism
   genes_peg: peg.1577 and peg.1578 and peg.1579
@@ -7990,10 +8043,31 @@
 - id: R08567
   name: (S)-3-methyl-2-oxopentanoate:ferredoxin oxidoreductase (VOR)
   genes: Athe_1096 and Athe_1097 and Athe_1098
-  equation: C00671[c] + C00010[c] + (2) C00139[c] => C15980[c] + C00011[c] + (2)
+  equation: C00671[c] + C00010[c] + C00139[c] => C15980[c] + C00011[c] + 
     C00138[c] + C00080[c]
   subsystem: Branch chain amino acid metabolism
   genes_peg: peg.1577 and peg.1578 and peg.1579
   genes_wp: WP_041727367.1 and WP_015907604.1 and WP_015907605.1
   ec: 1.2.7.7
   type: Gene-associated
+- id: ala_sink
+  name: Alanine sink
+  equation: C00041[c] =>
+  notes: Production of Valine and Alanine has been experimentally observed (by Ryan-2024), but exporters for these are unknown. Adding sinks instead.
+- id: val_sink
+  name: Valine sink
+  equation: C00183[c] =>
+  notes: Production of Valine and Alanine has been experimentally observed (by Ryan-2024), but exporters for these are unknown. Adding sinks instead.
+- id: R01286
+  name: L-cystathionine L-homocysteine-lyase (deaminating; pyruvate-forming)
+  equation: C02291[c] + C00001[c] => C00155[c] + C01342[c] + C00022[c]
+  ec:
+    - 4.4.1.13, 4.4.1.8
+  genes: Athe_1496
+  PMID: 25108266
+- id: R00858
+  name: hydrogen-sulfide:NADP+ oxidoreductase
+  equation: C00283[c] + 3 C00006[c] + 3 C00001[c] <=> C00094[c] + 3 C00005[c] + 4 C00080[c]
+  ec: 1.8.1.2
+  genes: Athe_1188
+  PMID: 25108266

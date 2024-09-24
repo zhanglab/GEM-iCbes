@@ -1,0 +1,13 @@
+# the following defines the dLDH mutant:
+- reaction: R00342
+  fixed: 0
+- reaction: R00703
+  fixed: 0
+# ------- dLDH END ---------------------
+
+# the following defines the pyrE k/o:
+- reaction: R01870
+  fixed: 0
+- reaction: R08231
+  fixed: 0
+# ------- dpyrE END ---------------------

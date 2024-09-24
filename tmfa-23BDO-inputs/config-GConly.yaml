@@ -1,0 +1,12 @@
+deltaG: ./tmfa-23BDO-inputs/cbes-dGinput-GConly-current.tsv
+exclude: ./tmfa-23BDO-inputs/cbes-exclude-GConly-current.tsv
+#deltaG: ./tmfa-23BDO-inputs/cbes-dGinput-GConly-original.tsv
+#exclude: ./tmfa-23BDO-inputs/cbes-exclude-GConly-original.tsv 
+transporters: ./tmfa-23BDO-inputs/cbes-TMFA_transporter.tsv
+concentrations: ./tmfa-23BDO-inputs/concentration_516v3_BDO.tsv
+proton-in: C00080[c]
+proton-out: C00080[e]
+water:
+  - C00001[c]
+  - C00001[e]
+
