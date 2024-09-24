@@ -8,6 +8,8 @@ Caldicellulosiruptor bescii reveals optimal metabolic engineering strategies
 for bio-based chemical production.
 mSystems 6:e01351-20. https://doi.org/10.1128/mSystems.01351-20.
 
+This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 # This repository includes the following files:
 
 ## README.txt: this file, list of files and directories in the repo
